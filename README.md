@@ -1,6 +1,38 @@
 # Casa — reconstrução e proposta industrial
 
-## Versão atual: industrial v03, inteiramente editável
+## Versão atual: industrial v04 — mais próxima da inspiração
+
+A v04 troca o sofá clássico por um conjunto contemporâneo em couro caramelo, usa quatro cadeiras leves com cabeceiras livres, aquece a madeira, acrescenta plantas com mapas PBR, manta e juta e refaz a iluminação do conjunto. A arquitetura e os pavimentos permanecem na posição anterior. São seis câmeras com iluminação comum e imagens em 3342 × 1882, mesma proporção da referência principal.
+
+- [Galeria atual](renders/industrial-v04/painel-ambientes.jpg)
+- [Referências e proposta](renders/industrial-v04/referencias-e-proposta.jpg)
+- [Comparação v03 / v04, com enquadramentos diferentes](renders/industrial-v04/evolucao-v03-v04.jpg)
+- [Sala integrada](renders/industrial-v04/sala-integrada.png), [sofá](renders/industrial-v04/sala.png) e [parede da TV](renders/industrial-v04/sala-tv.png)
+- [Cozinha](renders/industrial-v04/cozinha.png), [lazer](renders/industrial-v04/lazer-fundos.png) e [quarto dos fundos](renders/industrial-v04/quarto-fundos.png)
+- [Blender completo editável](projeto/industrial-v04/casa-industrial-refinada.blend)
+- [Validação e diferenças restantes](relatorios/industrial-v04/RELATORIO.md) e [fontes dos recursos](assets/industrial-v04/README.md)
+
+Abra o `.blend` no Blender 5.2.4 e escolha uma cena `DESIGN_…`. A inicial é `DESIGN_Sala_Integrada`; `Num 0` mostra a câmera e `F12` renderiza. Use **Salvar como** para suas alterações. Os modelos grandes e os novos recursos binários usam Git LFS: num clone novo, execute `git lfs install` e `git lfs pull`.
+
+Os pais `DESIGN Sofá contemporâneo`, `DESIGN Mesa de centro` e `DESIGN Cadeira jantar …` permitem mover cada móvel. Assentos e encostos são malhas nativas, com dados compartilhados entre peças iguais; use Single User se quiser uma almofada independente. A mesa de jantar conserva o pai original `MESA_JANTAR…` da reconstrução. Selecione mesa, cadeiras e arranjo juntos para mover o conjunto.
+
+As novas peças ficam em `DESIGN04`, com subcoleções por ambiente. Os mapas usados estão empacotados; os materiais `DESIGN …` expõem os ajustes no Shader Editor. A cena `EDITAR_Ativos_V04` contém as fontes importadas. As almofadas adaptadas do sofá e das cadeiras são editadas nas próprias cenas de apresentação. A iluminação está em `DESIGN_Iluminacao`: spots e painéis emissivos de preenchimento editáveis, ocultos da câmera e dos reflexos diretos para evitar discos flutuantes. Eles são recursos de fotografia 3D da proposta, não luminárias confirmadas no imóvel.
+
+```bash
+# Renderizar os seis enquadramentos a partir do arquivo salvo:
+python3 scripts/run_blender.py --wsl-gpu --background projeto/industrial-v04/casa-industrial-refinada.blend \
+  --python scripts/refine_industrial.py -- --render-only
+# Auditar o arquivo reaberto:
+python3 scripts/run_blender.py --background projeto/industrial-v04/casa-industrial-refinada.blend \
+  --python scripts/audit_refined.py
+python3 scripts/refined_delivery.py
+```
+
+Configuração: `config/estilo-industrial-v04.json`. Para regenerar, escolha um **novo destino** nessa configuração e execute `scripts/refine_industrial.py` sobre o arquivo base v03. O gerador recusa sobrescrever o destino. `--preview` gera imagens reduzidas; `--only sala-integrada` limita a câmera. Na interface, você pode escolher CPU se CUDA não estiver disponível. O launcher WSL seleciona o driver apenas no processo filho, sem alterar configurações globais.
+
+A v03 permanece preservada como fonte e comparação. Os rascunhos v04 ficam em `historico/rascunhos/industrial-v04/`, localmente e fora do Git. Esta proposta é adaptada à planta: a profundidade da casa, a posição da escada e as aberturas impedem reproduzir exatamente a perspectiva da inspiração. O jardim do HDRI é ilustrativo. As cotas e os banheiros continuam com as incertezas da reconstrução.
+
+## Versão anterior: industrial v03, inteiramente editável
 
 Cinco renderizações nativas refinam sala, sala/jantar, cozinha, lazer nos fundos e quarto dos fundos. O ganho vem de móveis detalhados, materiais fotográficos, tecidos com volume, luz e câmeras revistas. A arquitetura da revisão 10 continua preservada. Foi mantido o Blender/Cycles e habilitado render real na RTX 4070 Laptop com CUDA.
 

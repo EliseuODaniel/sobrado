@@ -1,0 +1,29 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.244  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v03/casa-fotografica.blend"
+PHOTO_ASSET modern_arm_chair_01 [0.8203444480895996, 0.98656165599823, 1.0228520631790161]
+PHOTO_ASSET throw_pillows_01 [1.0215678215026855, 0.6274925470352173, 0.4501592814922333]
+PHOTO_ASSET potted_plant_02 [0.7011570334434509, 0.6573866009712219, 0.8411787152290344]
+PHOTO_ASSET calathea_orbifolia_01 [2.4915075302124023, 1.1935921907424927, 0.42429426312446594]
+BOTANICAL_LEAF 197 vertices; source components 41
+/home/edann/projects/casa-interiores/scripts/refine_industrial.py:336: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('DESIGN Emissão '+name);mat.use_nodes=True;n=mat.node_tree.nodes;n.clear();em=n.new('ShaderNodeEmission');em.inputs['Color'].default_value=(*color,1);em.inputs['Strength'].default_value=power/(math.pi*width*height);out=n.new('ShaderNodeOutputMaterial');geo=n.new('ShaderNodeNewGeometry');transparent=n.new('ShaderNodeBsdfTransparent');mix=n.new('ShaderNodeMixShader');mat.node_tree.links.new(geo.outputs['Backfacing'],mix.inputs[0]);mat.node_tree.links.new(em.outputs[0],mix.inputs[1]);mat.node_tree.links.new(transparent.outputs[0],mix.inputs[2]);mat.node_tree.links.new(mix.outputs[0],out.inputs['Surface']);mesh.materials.append(mat)
+Info: Saved as "casa-industrial-refinada.blend"
+DESIGN_BUILT 3576 source geometries preserved
+00:30.706  cycles           | WARNING OptiX initialization failed with error code 7805
+00:30.706  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:40.588  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v04/previas/sala-integrada.png'
+DESIGN_RENDERED DESIGN_Sala_Integrada
+00:49.707  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v04/previas/sala.png'
+DESIGN_RENDERED DESIGN_Sala
+00:58.390  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v04/previas/sala-tv.png'
+DESIGN_RENDERED DESIGN_Sala_TV
+01:06.273  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v04/previas/cozinha.png'
+DESIGN_RENDERED DESIGN_Cozinha
+01:15.924  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v04/previas/lazer-fundos.png'
+DESIGN_RENDERED DESIGN_Lazer
+01:23.650  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v04/previas/quarto-fundos.png'
+DESIGN_RENDERED DESIGN_Quarto
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

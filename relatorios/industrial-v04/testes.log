@@ -1,0 +1,24 @@
+test_default_preserves_environment_and_arguments (scripts.test_blender_launcher.BlenderLauncherTest.test_default_preserves_environment_and_arguments) ... ok
+test_forwards_failure_status (scripts.test_blender_launcher.BlenderLauncherTest.test_forwards_failure_status) ... ok
+test_wsl_driver_applies_only_to_child_and_preserves_script_arguments (scripts.test_blender_launcher.BlenderLauncherTest.test_wsl_driver_applies_only_to_child_and_preserves_script_arguments) ... ok
+test_bad_upstream_hash_does_not_create_a_model (scripts.test_industrial_assets.AssetDownloadTest.test_bad_upstream_hash_does_not_create_a_model) ... ok
+test_changed_local_file_is_preserved_and_rejected (scripts.test_industrial_assets.AssetDownloadTest.test_changed_local_file_is_preserved_and_rejected) ... ASSET_VERIFIED modern_arm_chair_01
+ASSET_VERIFIED potted_plant_02
+ASSET_VERIFIED calathea_orbifolia_01
+ASSET_VERIFIED slate_floor_03
+ok
+test_untrusted_endpoint_is_rejected_before_network (scripts.test_industrial_assets.AssetDownloadTest.test_untrusted_endpoint_is_rejected_before_network) ... ok
+test_verified_files_are_reused_without_download_or_rewrite (scripts.test_industrial_assets.AssetDownloadTest.test_verified_files_are_reused_without_download_or_rewrite) ... ASSET_VERIFIED modern_arm_chair_01
+ASSET_VERIFIED potted_plant_02
+ASSET_VERIFIED calathea_orbifolia_01
+ASSET_VERIFIED slate_floor_03
+ASSET_VERIFIED modern_arm_chair_01
+ASSET_VERIFIED potted_plant_02
+ASSET_VERIFIED calathea_orbifolia_01
+ASSET_VERIFIED slate_floor_03
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.261s
+
+OK

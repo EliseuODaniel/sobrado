@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-11-11T12:45:03.448461+00:00",
+  "blend_sha256": "77f74916822c0623d4826ffc367d948eee51582a4723b9923b564d375cb8e270",
+  "preview": true,
+  "device": {
+    "backend": "CUDA",
+    "devices": [
+      "NVIDIA GeForce RTX 4070 Laptop GPU"
+    ]
+  },
+  "outputs": {
+    "renders/industrial-v04/previas/sala-integrada.png": {
+      "sha256": "56d6a876236afdc970d963d4f56b3157d4c528685c47c5bc6f431d27d9cc918b",
+      "bytes": 4627936,
+      "scene": "DESIGN_Sala_Integrada",
+      "seconds": 9.887,
+      "samples_max": 64,
+      "resolution_percentage": 40
+    },
+    "renders/industrial-v04/previas/sala.png": {
+      "sha256": "836a23d9cb93ec80e78ab1e2f1869edeaeabdfe6db0f7ff0033c950c616024fc",
+      "bytes": 4668307,
+      "scene": "DESIGN_Sala",
+      "seconds": 9.118,
+      "samples_max": 64,
+      "resolution_percentage": 40
+    },
+    "renders/industrial-v04/previas/sala-tv.png": {
+      "sha256": "e37707eed5856be92b7e26822f1917fc856cf6aa0adff2385e265d5bec62bf7c",
+      "bytes": 4413937,
+      "scene": "DESIGN_Sala_TV",
+      "seconds": 8.682,
+      "samples_max": 64,
+      "resolution_percentage": 40
+    },
+    "renders/industrial-v04/previas/cozinha.png": {
+      "sha256": "1681cec52f7704e93c5d26ef80c974d1f4fe5515b4fc03cf0189566aaddf75ae",
+      "bytes": 4423064,
+      "scene": "DESIGN_Cozinha",
+      "seconds": 7.885,
+      "samples_max": 64,
+      "resolution_percentage": 40
+    },
+    "renders/industrial-v04/previas/lazer-fundos.png": {
+      "sha256": "782ec16e2112a2b20b55f05b7604eb6a030243a784678279e689a1aac1a99cd8",
+      "bytes": 4672960,
+      "scene": "DESIGN_Lazer",
+      "seconds": 9.652,
+      "samples_max": 64,
+      "resolution_percentage": 40
+    },
+    "renders/industrial-v04/previas/quarto-fundos.png": {
+      "sha256": "611851473fed5580ba1714a076c398045f4a9c6297d3bf3d0faf602094da8ab6",
+      "bytes": 4722079,
+      "scene": "DESIGN_Quarto",
+      "seconds": 7.725,
+      "samples_max": 64,
+      "resolution_percentage": 40
+    }
+  }
+}

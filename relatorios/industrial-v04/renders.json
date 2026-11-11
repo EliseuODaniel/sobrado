@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-11-11T13:10:46.109915+00:00",
+  "blend_sha256": "77f74916822c0623d4826ffc367d948eee51582a4723b9923b564d375cb8e270",
+  "preview": false,
+  "device": {
+    "backend": "CUDA",
+    "devices": [
+      "NVIDIA GeForce RTX 4070 Laptop GPU"
+    ]
+  },
+  "outputs": {
+    "renders/industrial-v04/sala-integrada.png": {
+      "sha256": "8a60ecaff6036b9e911b433481d73bc6615f289c1658ee4748c0d37b39b51f63",
+      "bytes": 27911197,
+      "scene": "DESIGN_Sala_Integrada",
+      "seconds": 255.016,
+      "samples_max": 512,
+      "resolution_percentage": 100
+    },
+    "renders/industrial-v04/sala.png": {
+      "sha256": "331269d9ac42f1fc51699f18de519a041269cecb7cb018234c6dc39d202dd37c",
+      "bytes": 28843575,
+      "scene": "DESIGN_Sala",
+      "seconds": 269.82,
+      "samples_max": 512,
+      "resolution_percentage": 100
+    },
+    "renders/industrial-v04/sala-tv.png": {
+      "sha256": "58e0220f8e68fb618a2408f435ca2a215e966cd673d97e27b130532379219687",
+      "bytes": 26054366,
+      "scene": "DESIGN_Sala_TV",
+      "seconds": 266.502,
+      "samples_max": 512,
+      "resolution_percentage": 100
+    },
+    "renders/industrial-v04/cozinha.png": {
+      "sha256": "7a4dd5c6acccfd33fde810a476dfff070fd5261954ebd01c97bcb73358af1a20",
+      "bytes": 24774830,
+      "scene": "DESIGN_Cozinha",
+      "seconds": 223.747,
+      "samples_max": 512,
+      "resolution_percentage": 100
+    },
+    "renders/industrial-v04/lazer-fundos.png": {
+      "sha256": "8129ceb8d76a7056a3de18f100656dd354e182ec4ca23dbf8b09a61d86c4a04c",
+      "bytes": 28775975,
+      "scene": "DESIGN_Lazer",
+      "seconds": 236.464,
+      "samples_max": 512,
+      "resolution_percentage": 100
+    },
+    "renders/industrial-v04/quarto-fundos.png": {
+      "sha256": "74fa66ea27e96dc5388966c766f8511bd0a439405a2b461d2824674c894f58a2",
+      "bytes": 28174248,
+      "scene": "DESIGN_Quarto",
+      "seconds": 236.746,
+      "samples_max": 512,
+      "resolution_percentage": 100
+    }
+  }
+}

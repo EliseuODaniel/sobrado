@@ -1,2 +1,8 @@
 projeto/industrial-v03/*.blend filter=lfs diff=lfs merge=lfs -text
 projeto/fontes/*.blend filter=lfs diff=lfs merge=lfs -text
+projeto/industrial-v04/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/industrial-v04/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/industrial-v04/**/*.exr filter=lfs diff=lfs merge=lfs -text
+assets/industrial-v04/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/industrial-v04/**/*.png filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v04/*.png filter=lfs diff=lfs merge=lfs -text

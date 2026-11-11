@@ -1,0 +1,75 @@
+{
+  "timestamp_utc": "2026-11-11T12:47:27.321786+00:00",
+  "blend_sha256": "77f74916822c0623d4826ffc367d948eee51582a4723b9923b564d375cb8e270",
+  "base_sha256": "701129c65c74fbadbd1a6697fb3ac8ef9896849a108867b1e344a1ef3df85966",
+  "blender_version": "5.2.4 LTS",
+  "geometry_compared": 3576,
+  "packed_file_images": 150,
+  "external_libraries": [],
+  "dining_chairs_visible": 4,
+  "sofa_seats": 3,
+  "bedroom_pillows_preserved": true,
+  "scenes": {
+    "DESIGN_Sala_Integrada": {
+      "camera": "DESIGN_Sala_Integrada_Camera",
+      "resolution": [
+        3342,
+        1882
+      ],
+      "samples_max": 512,
+      "light_tree": true,
+      "world": "PHOTO Jardim e luz natural CC0"
+    },
+    "DESIGN_Sala": {
+      "camera": "DESIGN_Sala_Camera",
+      "resolution": [
+        3342,
+        1882
+      ],
+      "samples_max": 512,
+      "light_tree": true,
+      "world": "PHOTO Jardim e luz natural CC0"
+    },
+    "DESIGN_Sala_TV": {
+      "camera": "DESIGN_Sala_TV_Camera",
+      "resolution": [
+        3342,
+        1882
+      ],
+      "samples_max": 512,
+      "light_tree": true,
+      "world": "PHOTO Jardim e luz natural CC0"
+    },
+    "DESIGN_Cozinha": {
+      "camera": "DESIGN_Cozinha_Camera",
+      "resolution": [
+        3342,
+        1882
+      ],
+      "samples_max": 512,
+      "light_tree": true,
+      "world": "PHOTO Jardim e luz natural CC0"
+    },
+    "DESIGN_Lazer": {
+      "camera": "DESIGN_Lazer_Camera",
+      "resolution": [
+        3342,
+        1882
+      ],
+      "samples_max": 512,
+      "light_tree": true,
+      "world": "PHOTO Jardim e luz natural CC0"
+    },
+    "DESIGN_Quarto": {
+      "camera": "DESIGN_Quarto_Camera",
+      "resolution": [
+        3342,
+        1882
+      ],
+      "samples_max": 512,
+      "light_tree": true,
+      "world": "PHOTO Jardim e luz natural CC0"
+    }
+  },
+  "all_passed": true
+}
