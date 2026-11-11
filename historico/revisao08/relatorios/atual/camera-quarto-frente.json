@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-11-10T19:32:00.335486+00:00",
+  "source_blend": "projeto/casa-reconstruida.blend",
+  "output_blend": "projeto/.em-validacao.blend",
+  "sha256": "b7a8f031488450e8c9ded6715e2496246bd5b26b6c1e1fd24d714ffb45437cae",
+  "reason": "Porta aberta obstruía a comparação do quarto; câmera reposicionada dentro do ambiente",
+  "camera": {
+    "position": [
+      4.05,
+      1.9,
+      4.45
+    ],
+    "target": [
+      4.8,
+      0,
+      3.6
+    ],
+    "lens": 20,
+    "source": "quartobranco1.webp"
+  },
+  "geometry_changed": false
+}

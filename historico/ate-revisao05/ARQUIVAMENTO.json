@@ -1,0 +1,2370 @@
+{
+  "timestamp_utc": "2026-11-10T16:57:50.503275+00:00",
+  "authorization": "Usuário: atualize todos os arquivos do térreo baseado nessa nova planta e arquive os antigos/legados/errados.",
+  "new_authoritative_annotation": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196"
+  },
+  "records": [
+    {
+      "operation": "snapshot",
+      "source": "README.md",
+      "destination": "historico/ate-revisao05/ENTREGA-05.md",
+      "sha256": "9b42610dfa2766c316a6f8b5d29ac88f673755aafa495874669ba95f942c07da"
+    },
+    {
+      "operation": "snapshot",
+      "source": "projeto/casa-reconstruida.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-reconstruida.blend",
+      "sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2"
+    },
+    {
+      "operation": "snapshot",
+      "source": "config/planta-casa.json",
+      "destination": "historico/ate-revisao05/config/planta-casa.json",
+      "sha256": "0c42d3e38a460a83f1940e5233ea400da7852a20def5db1e613cccbee00d22e5"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/probe_device.py",
+      "destination": "historico/ate-revisao05/scripts/probe_device.py",
+      "sha256": "a9161bd9213989cb7ab9696d867cd85aa4b94366a1e948e4f72445e94351bed3"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/iterate_preview.py",
+      "destination": "historico/ate-revisao05/scripts/iterate_preview.py",
+      "sha256": "9d7feb3f49d744a7bf5120c1a0593ff705932b5b396b82cb89b28e7604bf712f"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/audit_photo_geometry.py",
+      "destination": "historico/ate-revisao05/scripts/audit_photo_geometry.py",
+      "sha256": "6b38a68e9e5ba2d6081d9d4db4f761d44808c9328f6dc72bf0657f6bdb366a49"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/run_blender.py",
+      "destination": "historico/ate-revisao05/scripts/run_blender.py",
+      "sha256": "fafb89327ee9abba1c8f1214904b85b5bb34fa4bb61e980b80b4108edf90aa71"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/finalize_ground_revision.py",
+      "destination": "historico/ate-revisao05/scripts/finalize_ground_revision.py",
+      "sha256": "7467117234955cbc066273d78ab27d3b489b1564281095f12c556706318b886a"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/build_house.py",
+      "destination": "historico/ate-revisao05/scripts/build_house.py",
+      "sha256": "34ea1828e3b2464dd67d43206870402a5736b635ecc482414b922c8aa8569e18"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/refine_blanket.py",
+      "destination": "historico/ate-revisao05/scripts/refine_blanket.py",
+      "sha256": "b53cb3fba86dc8e930d31e71d595e8c32a86942432bce9f02e87714eeda9ac62"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/render_revision.py",
+      "destination": "historico/ate-revisao05/scripts/render_revision.py",
+      "sha256": "f32db3179376b29a61b380e0902df5157a818225d17f5cf0da41545635f1ee13"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/finalize_house.py",
+      "destination": "historico/ate-revisao05/scripts/finalize_house.py",
+      "sha256": "c38451ef873de5068cb1a550c8a05abed6824f0461e0ada7a2b080c6f7d8653c"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/facade_details.py",
+      "destination": "historico/ate-revisao05/scripts/facade_details.py",
+      "sha256": "228ce5e8bb146c20c169c935b08130828be69c0e524abdb9500b7037fd62e309"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/validate_house.py",
+      "destination": "historico/ate-revisao05/scripts/validate_house.py",
+      "sha256": "a2babfb213ef990b390febda5e483243b5fbdb559e1e32c68dca322b245280fa"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/calibrate_revision_cameras.py",
+      "destination": "historico/ate-revisao05/scripts/calibrate_revision_cameras.py",
+      "sha256": "2d0e960c576850386b0e96aeb27d843b2339d0f50c490536bf1e79f60143bb4c"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/house_atlas.py",
+      "destination": "historico/ate-revisao05/scripts/house_atlas.py",
+      "sha256": "9320907092037fdd31835f7ab716deedaeef34ddfdcfdba4168e42cb952eb44c"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/validate_scene.py",
+      "destination": "historico/ate-revisao05/scripts/validate_scene.py",
+      "sha256": "93851890076e78c9587c11f8edf24970f1b8aef1abdb57f4e66d7d4edaafa40b"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/build_scene.py",
+      "destination": "historico/ate-revisao05/scripts/build_scene.py",
+      "sha256": "385e376aaafdeeee25af207349421a1fd6ad869ddc9d94321f80d8bd76054fc9"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/compare_renders.py",
+      "destination": "historico/ate-revisao05/scripts/compare_renders.py",
+      "sha256": "2da6da15f4053e9fc880654c46baab364e043329c998fe3907dea1d2d4dc5ead"
+    },
+    {
+      "operation": "archive",
+      "source": "scripts/test_composition.py",
+      "destination": "historico/ate-revisao05/scripts/test_composition.py",
+      "sha256": "0b66d292dfd50ce378f063190c05928a4ad6aa062b7837ff2b52dc220f0aa3ce"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/house_geometry.py",
+      "destination": "historico/ate-revisao05/scripts/house_geometry.py",
+      "sha256": "a97a59fd161c3d341f2fdd5c6b10e5e9919ff6314e61a22dc37be17e3e4fe4e7"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/casa-revisao-02.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-revisao-02.blend",
+      "sha256": "5fb9fbb2d47c872cf40ad5e2a480570f32d3bea129756e994bf03bfc6cc71b3c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/casa-terreo-revisao03.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-terreo-revisao03.blend",
+      "sha256": "1662bfda0e57a7e998773f4b7670fc66daff61b91a37ed02f6f65e43664d86a1"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/casa-terreo-revisao04.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-terreo-revisao04.blend",
+      "sha256": "826790e6e5ffb6f378ff4fbfa5c5c6a003fda264e2ebf5924ab25e2d8b216115"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/casa-terreo-revisao05.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-terreo-revisao05.blend",
+      "sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/sala-industrial.blend",
+      "destination": "historico/ate-revisao05/projeto/sala-industrial.blend",
+      "sha256": "60701fbe9de9a1c3f4a867468379ad53893e8ea13bc9621eec8bd714584b6e90"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-reconstruida-rejeitada-antes-revisao02.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-reconstruida-rejeitada-antes-revisao02.blend",
+      "sha256": "f34a67de45270fde379cc707fb6ffc72f04565ed35bcce600a51b3a9b6fd3832"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-reconstruida-v01.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-reconstruida-v01.blend",
+      "sha256": "f03a58dfd8546c7f3bde7514b143575fa6aa5cc1c25c57534f6c222fa50d3426"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-reconstruida-v02.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-reconstruida-v02.blend",
+      "sha256": "cc2ef340ae4323903a3b1c404f2091b0e7f61ab1b76237b4f2a8499e3fa1397e"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-reconstruida-v03.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-reconstruida-v03.blend",
+      "sha256": "0e518d3cc9c1b3065555a8432d142d5a45747e4d5a459b63a468f083f8a3e5af"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-reconstruida-v04.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-reconstruida-v04.blend",
+      "sha256": "4e314263cd066d4b9bbbb0f5abfb3c8dc0e36073fb835fa26cff3ccf61c5508c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-reconstruida-v05.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-reconstruida-v05.blend",
+      "sha256": "c0707134063c2609ae44dea376492f16f2cd5824b0a11b906bf920b6364166b3"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao-02-antes-corte.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao-02-antes-corte.blend",
+      "sha256": "79b9eaeb254d915e5688f02a88a150dc5d9038555747f90089063aa3b130a79e"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao-02-antes-fixos-corte.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao-02-antes-fixos-corte.blend",
+      "sha256": "f842bf0c000c9ff2b8527fd4bcb5a1cb2491bdc743c7227126331bd7283b27d6"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao-02-calibrada.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao-02-calibrada.blend",
+      "sha256": "2eac0f29a94df2dad0956eeb684a361c95c740e934112f329b19f71ac4b0a021"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao-02-enquadrada.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao-02-enquadrada.blend",
+      "sha256": "3ef6b27f54e33a5dd5601ce36b14b8d1ea3bd7bda00a4507cf95ec3164b0b257"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao-02-iteracao.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao-02-iteracao.blend",
+      "sha256": "131edb061ed6b6ee1841a88ab60ac40b5e73f7159cc0880f30d8bd99f248f2a7"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao-02-refinada.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao-02-refinada.blend",
+      "sha256": "622e6f6488f113715854ae424b10bdd8d7a74aff307f682aa91e26979e3c3699"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao05-antes-proporcao-fachada.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao05-antes-proporcao-fachada.blend",
+      "sha256": "d648882c3614d8e21cb0883da6997cece6d89beec737a2488a38b0ebba23e84b"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao05-fachada-sem-contexto.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao05-fachada-sem-contexto.blend",
+      "sha256": "7dd776391981e14a850e5db704dc21d20880632559e6ef37d4d9f189f26c14fa"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao05-primeira-fachada.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao05-primeira-fachada.blend",
+      "sha256": "fca3042d74dd3ad3b2347e6b14a27599fb635e05d4051caa3cad67d9b1dceb2f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-revisao05-validacao-previa.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-revisao05-validacao-previa.blend",
+      "sha256": "1cca536bc0d91c3879daaecbf0cfbcdc5512a9be7a5915f0d778a4f79e8b4ab9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-terreo-revisao03-previa.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-terreo-revisao03-previa.blend",
+      "sha256": "27acf1517194792fc947719f77bdc156443d0654d2d1694796af4dd617b57e64"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-terreo-revisao03-primeiro-rascunho.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-terreo-revisao03-primeiro-rascunho.blend",
+      "sha256": "ad0e9844a862829acda707ea4118b7bdc1937f91724d2d302d49549dded07cb2"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/casa-terreo-revisao04-primeiro-corte.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/casa-terreo-revisao04-primeiro-corte.blend",
+      "sha256": "b1edd0c265b2dd737dfd747da4355737758e5de065578eb688d052048c715b57"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/README.md",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/README.md",
+      "sha256": "6752e8f86bb9d57f15ed6703e6a84b9c0791b519fe12f3f54027a4104c56a9e9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/config/planta-casa.json",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/config/planta-casa.json",
+      "sha256": "af5c39940cafa7d231ef332583006dfc7e28bd74a884f40af966045140d1521d"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/projeto/casa-reconstruida.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/projeto/casa-reconstruida.blend",
+      "sha256": "f34a67de45270fde379cc707fb6ffc72f04565ed35bcce600a51b3a9b6fd3832"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/scripts/build_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/scripts/build_house.py",
+      "sha256": "d705b1a3918e0eace7c44971db92f52253f2fd29165fc25de88b38cdebe98d00"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/scripts/finalize_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/scripts/finalize_house.py",
+      "sha256": "38d61002076f8ae23633f423cd7f4e74975595ece771356181a06173d06a33c3"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/scripts/house_atlas.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/scripts/house_atlas.py",
+      "sha256": "e69b12ab3a64684b00af63b5725a76d0821343bb556a08ac1cc4682c8a7895fb"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-02-antes/scripts/validate_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-02-antes/scripts/validate_house.py",
+      "sha256": "56cb3dc7f3632e097cf86390575cded88b74e6ec5d0d9e5f8b7af94ce1057f30"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/README.md",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/README.md",
+      "sha256": "84da551f46e566096aa11a5bcf253ef599051e527adf34c19eda75b751220da7"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/config/planta-casa.json",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/config/planta-casa.json",
+      "sha256": "709aebfaf8c035474a8312997bb6950a3de8da3d1ee86a06d752c8247984ff2f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/projeto/casa-reconstruida.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/projeto/casa-reconstruida.blend",
+      "sha256": "38fd39e38342e701f1e36c82bc1f3da58e11ee6957f3a75db64c90f5e6ad2e5f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/audit_photo_geometry.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/audit_photo_geometry.py",
+      "sha256": "909efe90a9646c3ba61a1955a9d225d4a7f54c8de90ac81bf9165fe04201e3f9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/build_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/build_house.py",
+      "sha256": "e6f16866cf30e98706a4f36cdc595fc35cfa92e62cc4c05b628ae23cfc93ce16"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/build_scene.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/build_scene.py",
+      "sha256": "385e376aaafdeeee25af207349421a1fd6ad869ddc9d94321f80d8bd76054fc9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/calibrate_revision_cameras.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/calibrate_revision_cameras.py",
+      "sha256": "2d0e960c576850386b0e96aeb27d843b2339d0f50c490536bf1e79f60143bb4c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/compare_renders.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/compare_renders.py",
+      "sha256": "2da6da15f4053e9fc880654c46baab364e043329c998fe3907dea1d2d4dc5ead"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/finalize_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/finalize_house.py",
+      "sha256": "c38451ef873de5068cb1a550c8a05abed6824f0461e0ada7a2b080c6f7d8653c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/house_atlas.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/house_atlas.py",
+      "sha256": "c9a08047d06594dc9eda89c344e50916d8b1f5c3cf2817d7f6749cc168d78127"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/house_geometry.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/house_geometry.py",
+      "sha256": "7b9b1cdb58065c9ef01d72abca9718751623fdc14a339597825a8cb39459f971"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/iterate_preview.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/iterate_preview.py",
+      "sha256": "9d7feb3f49d744a7bf5120c1a0593ff705932b5b396b82cb89b28e7604bf712f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/probe_device.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/probe_device.py",
+      "sha256": "a9161bd9213989cb7ab9696d867cd85aa4b94366a1e948e4f72445e94351bed3"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/refine_blanket.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/refine_blanket.py",
+      "sha256": "b53cb3fba86dc8e930d31e71d595e8c32a86942432bce9f02e87714eeda9ac62"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/render_revision.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/render_revision.py",
+      "sha256": "f3f2b6a3a3ec36e064a65958e7c49ef2121baa23c47cdb3e0bfbe846789d3ad7"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/run_blender.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/run_blender.py",
+      "sha256": "fafb89327ee9abba1c8f1214904b85b5bb34fa4bb61e980b80b4108edf90aa71"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/test_composition.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/test_composition.py",
+      "sha256": "0b66d292dfd50ce378f063190c05928a4ad6aa062b7837ff2b52dc220f0aa3ce"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/validate_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/validate_house.py",
+      "sha256": "c8737b54949d18e04387834fa9b82838655381a8be47704f3376903d8252fead"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-03-antes/scripts/validate_scene.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-03-antes/scripts/validate_scene.py",
+      "sha256": "93851890076e78c9587c11f8edf24970f1b8aef1abdb57f4e66d7d4edaafa40b"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/README.md",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/README.md",
+      "sha256": "aa025d8979239a84d7406e3cc978b8af83892fb966ee9683ddee3fad2342b181"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/config/planta-casa.json",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/config/planta-casa.json",
+      "sha256": "21216b994d73ceb2d563503c546b735c2fa7345f6ad42bec1aa6837651d063b9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/projeto/casa-reconstruida.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/projeto/casa-reconstruida.blend",
+      "sha256": "1662bfda0e57a7e998773f4b7670fc66daff61b91a37ed02f6f65e43664d86a1"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/audit_photo_geometry.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/audit_photo_geometry.py",
+      "sha256": "96d91deb3b53f0ad222e1294f284be91b87d93890ba59aba37cef559313c5bd3"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/build_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/build_house.py",
+      "sha256": "ac3fa2ef0d5cc2f1263b88a31621600076e7e62be7c45d580a87c5ac28167064"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/build_scene.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/build_scene.py",
+      "sha256": "385e376aaafdeeee25af207349421a1fd6ad869ddc9d94321f80d8bd76054fc9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/calibrate_revision_cameras.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/calibrate_revision_cameras.py",
+      "sha256": "2d0e960c576850386b0e96aeb27d843b2339d0f50c490536bf1e79f60143bb4c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/compare_renders.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/compare_renders.py",
+      "sha256": "2da6da15f4053e9fc880654c46baab364e043329c998fe3907dea1d2d4dc5ead"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/finalize_ground_revision.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/finalize_ground_revision.py",
+      "sha256": "75a42a47e3dce829e97ca8f3da862a49976e2946e4dc5360d6d9b9749540bae1"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/finalize_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/finalize_house.py",
+      "sha256": "c38451ef873de5068cb1a550c8a05abed6824f0461e0ada7a2b080c6f7d8653c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/house_atlas.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/house_atlas.py",
+      "sha256": "27beb00a199a6de35370bec3cb50a58c79644d8f4c3a1dfff1c6ec86f91214b4"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/house_geometry.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/house_geometry.py",
+      "sha256": "7b9b1cdb58065c9ef01d72abca9718751623fdc14a339597825a8cb39459f971"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/iterate_preview.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/iterate_preview.py",
+      "sha256": "9d7feb3f49d744a7bf5120c1a0593ff705932b5b396b82cb89b28e7604bf712f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/probe_device.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/probe_device.py",
+      "sha256": "a9161bd9213989cb7ab9696d867cd85aa4b94366a1e948e4f72445e94351bed3"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/refine_blanket.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/refine_blanket.py",
+      "sha256": "b53cb3fba86dc8e930d31e71d595e8c32a86942432bce9f02e87714eeda9ac62"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/render_revision.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/render_revision.py",
+      "sha256": "142754929d21b9c99a2ceb97b36e84ebd857236a1aad10af7ed14ff452a7e3ec"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/run_blender.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/run_blender.py",
+      "sha256": "fafb89327ee9abba1c8f1214904b85b5bb34fa4bb61e980b80b4108edf90aa71"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/test_composition.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/test_composition.py",
+      "sha256": "0b66d292dfd50ce378f063190c05928a4ad6aa062b7837ff2b52dc220f0aa3ce"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/validate_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/validate_house.py",
+      "sha256": "9f1d9923b549a99b34c43ad34532bfca36f7ea9f27c14078ff2c63b6a3b3136f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-04-antes/scripts/validate_scene.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-04-antes/scripts/validate_scene.py",
+      "sha256": "93851890076e78c9587c11f8edf24970f1b8aef1abdb57f4e66d7d4edaafa40b"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/README.md",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/README.md",
+      "sha256": "8f6b6b656762dfc1779a753bb64885c5e80a518ccf74f4f8f67e45944eff662d"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/config/planta-casa.json",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/config/planta-casa.json",
+      "sha256": "2e688df1b7d0edaf32ec1f5c8b0ded85d39380019aea3843ae106f449b8c1243"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/projeto/casa-reconstruida.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/projeto/casa-reconstruida.blend",
+      "sha256": "826790e6e5ffb6f378ff4fbfa5c5c6a003fda264e2ebf5924ab25e2d8b216115"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/audit_photo_geometry.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/audit_photo_geometry.py",
+      "sha256": "a37db7ba57b73e1567300fa362e6b9032c355c2e9571d9a52df9ac2b8a261e59"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/build_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/build_house.py",
+      "sha256": "2d673be0ac7061ae94e6d169959142ae38485a1865433e179279821ed4fcaf21"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/build_scene.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/build_scene.py",
+      "sha256": "385e376aaafdeeee25af207349421a1fd6ad869ddc9d94321f80d8bd76054fc9"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/calibrate_revision_cameras.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/calibrate_revision_cameras.py",
+      "sha256": "2d0e960c576850386b0e96aeb27d843b2339d0f50c490536bf1e79f60143bb4c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/compare_renders.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/compare_renders.py",
+      "sha256": "2da6da15f4053e9fc880654c46baab364e043329c998fe3907dea1d2d4dc5ead"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/finalize_ground_revision.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/finalize_ground_revision.py",
+      "sha256": "2143bedfe4d22a90814ee89b84b81673e3b09a58e55c810b9a3c6213b5bd8a63"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/finalize_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/finalize_house.py",
+      "sha256": "c38451ef873de5068cb1a550c8a05abed6824f0461e0ada7a2b080c6f7d8653c"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/house_atlas.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/house_atlas.py",
+      "sha256": "01d97157e9f6d151e92dc3b39903e189498ce492ad011193d99319e7ea44c688"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/house_geometry.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/house_geometry.py",
+      "sha256": "7b9b1cdb58065c9ef01d72abca9718751623fdc14a339597825a8cb39459f971"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/iterate_preview.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/iterate_preview.py",
+      "sha256": "9d7feb3f49d744a7bf5120c1a0593ff705932b5b396b82cb89b28e7604bf712f"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/probe_device.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/probe_device.py",
+      "sha256": "a9161bd9213989cb7ab9696d867cd85aa4b94366a1e948e4f72445e94351bed3"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/refine_blanket.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/refine_blanket.py",
+      "sha256": "b53cb3fba86dc8e930d31e71d595e8c32a86942432bce9f02e87714eeda9ac62"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/render_revision.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/render_revision.py",
+      "sha256": "b8839acfd148868ff4ab0b12e4637088b628594a89e089103727a1a7726124ac"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/run_blender.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/run_blender.py",
+      "sha256": "fafb89327ee9abba1c8f1214904b85b5bb34fa4bb61e980b80b4108edf90aa71"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/test_composition.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/test_composition.py",
+      "sha256": "0b66d292dfd50ce378f063190c05928a4ad6aa062b7837ff2b52dc220f0aa3ce"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/validate_house.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/validate_house.py",
+      "sha256": "a2babfb213ef990b390febda5e483243b5fbdb559e1e32c68dca322b245280fa"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/revisao-05-antes/scripts/validate_scene.py",
+      "destination": "historico/ate-revisao05/projeto/versoes/revisao-05-antes/scripts/validate_scene.py",
+      "sha256": "93851890076e78c9587c11f8edf24970f1b8aef1abdb57f4e66d7d4edaafa40b"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/sala-industrial-preview-20261110T094533Z.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/sala-industrial-preview-20261110T094533Z.blend",
+      "sha256": "cace05b2f0d31cee13efbb6ac4d60a6d60cd108851c3b8830b8405cc5361078b"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/sala-industrial-preview-20261110T095320Z.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/sala-industrial-preview-20261110T095320Z.blend",
+      "sha256": "901dcc2a882ca5342cda0eb76ff96b6573325757bf8e6ed78282a86b27ed5601"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/sala-industrial-v01-antes-ajuste-manta.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/sala-industrial-v01-antes-ajuste-manta.blend",
+      "sha256": "ae80b82484d31418a8382599e3c71882b6d13b4f55d887406d41d590d0ddbb97"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/sala-industrial-v02-antes-ajuste-reflexo.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/sala-industrial-v02-antes-ajuste-reflexo.blend",
+      "sha256": "833c1c2c2c47cc495f3050d6d287f8f04f7c7ec3ee98f5299c4022d8864e68b8"
+    },
+    {
+      "operation": "archive",
+      "source": "projeto/versoes/sala-industrial-v03-antes-sapatas.blend",
+      "destination": "historico/ate-revisao05/projeto/versoes/sala-industrial-v03-antes-sapatas.blend",
+      "sha256": "6b392c46bff57e25efb11469574ac49fefbfe0bb191564c99ceaec03e0f37f02"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/comparacao-primeira-previa-sobreposicao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-primeira-previa-sobreposicao.png",
+      "sha256": "a28cacb73b2cd73e8a85bf3c8deec12ef91b3b3f9d7f05c2078161dacaef4edb"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/comparacao-primeira-previa.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-primeira-previa.png",
+      "sha256": "21bcfd58a1c75b2314d15c762593c5fa7d2b02563ee3573e9cae09c5ae7e9429"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/comparacao-segunda-previa-sobreposicao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-segunda-previa-sobreposicao.png",
+      "sha256": "3698d1b8462701693da885cdb0408a831b476c49ecfbbc858b57d4f8a8872386"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/comparacao-segunda-previa.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-segunda-previa.png",
+      "sha256": "001b6aaa8e784c16a2ac0b250b8c08ae99902ef22d0d63d9fb01a2371b859899"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/comparacao-sobreposicao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-sobreposicao.png",
+      "sha256": "e39656db1bf45be23aef8b7a8953352a431fb2517e008fa99aa6d6ad74b7fdc7"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/comparacao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao.png",
+      "sha256": "1c75c9c552de9d2b1c28827131a49b1461177feecbaf7e2b0cde60d7711e49aa"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/espelho-antes.png",
+      "destination": "historico/ate-revisao05/renders/espelho-antes.png",
+      "sha256": "5599f3facf3ca059c82595e7f8fbd068f2af5c8eefc9d6c09d932fd89a327b11"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/espelho-depois.png",
+      "destination": "historico/ate-revisao05/renders/espelho-depois.png",
+      "sha256": "6486005b05f250fc4452fd125401270c8c0c60b896cb542466b4b7bbe6aa9f14"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/comparacao-antes-depois.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/comparacao-antes-depois.png",
+      "sha256": "7b20615242254ac892fd7217fee09b044f244d0690458542fc3427518a869d5a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/comparacao-originais.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/comparacao-originais.png",
+      "sha256": "054f961b62d1a8474b2f412501d0a033d23ac095b4d684fb81f04f10e260b4e6"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/cozinha.png",
+      "sha256": "f27950d04293c2d3d677671445cc00da61444d6089a24fe08de14c039ab708bf"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/croqui-e-planta.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/croqui-e-planta.png",
+      "sha256": "732555e4526752682005160e8975cc32fbd0782118a0d5b937118f4f4e524fd3"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/estudos-superior.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/estudos-superior.png",
+      "sha256": "f84943db4c1185c786a77e42efdbc722b83f9c6ef85a7321046711c2f7cb6d8a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/fachada-antes-depois.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/fachada-antes-depois.png",
+      "sha256": "1e51dffa32c518517f83ab9c532bd569a23cb352a3c6a6120533a01d808905a5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/fachada-comparacao.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/fachada-comparacao.png",
+      "sha256": "0f005315c20dfc4618c635116240fdf5cc9566afd27dba59fe8d916a461aa5ba"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/lavabo-sob-escada.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/lavabo-sob-escada.png",
+      "sha256": "817c25224a5639c7e1715752763a56f76db02eab1c7924788aa63fb47c58f283"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/pavimento-superior.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/pavimento-superior.png",
+      "sha256": "eb44e12661f2250191efe59eddb45783b45ace068c873545ba24f085f0745879"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/planta-3d.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/planta-3d.png",
+      "sha256": "384aae406250ccb89f52c2f37ce5a627d04db4d120460d78999739acfea2d1da"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/plantas-superiores.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/plantas-superiores.png",
+      "sha256": "c2962079169f73fd49d1717dac6a806e9a44e8e3d3bc88158c3291df4b2944f2"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/previa-terreo.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/previa-terreo.png",
+      "sha256": "a68dea064249bcbb3264e0b3a32e47676a62795e05f5952b3c9729e90af22684"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/sala-frente.png",
+      "sha256": "f78cacd3daad9849f7582e1dff7cf33e28ad09364e97f981b1b77db6fb52e0e6"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/sala-fundos.png",
+      "sha256": "0d070b8864df98c6ece14b0910a125b9e6eef0104daae81d9f9b52d906827e0c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/superior-3d.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/superior-3d.png",
+      "sha256": "19a40b0500ae97677cfd2af03ab108299996da2e402528a3c99f40cc1e65931b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/terreo-3d.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/terreo-3d.png",
+      "sha256": "1183cb90d7c790bfcfc28bb6c983f61d9875bb52420c85f194cbbed2cf2caa03"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/terreo-superior.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/terreo-superior.png",
+      "sha256": "264ec4c8c8b05e0502127a46ded554113052c09e4af1e72d9a5edf58c1ee64a5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/planta-casa/volumetria.png",
+      "destination": "historico/ate-revisao05/renders/planta-casa/volumetria.png",
+      "sha256": "591adcf5abb5a6bdb2f7d1bfa916716a68b9da876147187ffe9edd0b6ac73023"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-20261110T095320Z.png",
+      "destination": "historico/ate-revisao05/renders/previa-20261110T095320Z.png",
+      "sha256": "8e039a6a09521d3d89d8d446c7d52eaa34161266ad2cde56e488c799e790ddbf"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-ajuste-01.png",
+      "destination": "historico/ate-revisao05/renders/previa-ajuste-01.png",
+      "sha256": "85eb075d1d0f60fce5a8ff6c151d8ad09b49ebe0e957c4e852963f5d7d8c709c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-ajuste-02.png",
+      "destination": "historico/ate-revisao05/renders/previa-ajuste-02.png",
+      "sha256": "bf7130890784be93be7c14f04a33ed8c5af76f20651251c444104b6d8e6ca76f"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-camera-lateral-01.png",
+      "destination": "historico/ate-revisao05/renders/previa-camera-lateral-01.png",
+      "sha256": "9260443e0dab5840acd133e65b4ccb4289041072a20ef3ec71bf261706bccfbe"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-camera-lateral-02.png",
+      "destination": "historico/ate-revisao05/renders/previa-camera-lateral-02.png",
+      "sha256": "25ee2f1530fe42f6c72b7f635dfc685a229a737edfa155a81ac547b0daac57eb"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-camera-lateral-03.png",
+      "destination": "historico/ate-revisao05/renders/previa-camera-lateral-03.png",
+      "sha256": "46c400c59624001291e25f8fd6d1cb12c39e7291c9edfc182e3c24455ff5f6e7"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/previa-reaberta.png",
+      "destination": "historico/ate-revisao05/renders/previa-reaberta.png",
+      "sha256": "40003afa7f870fa407087f279ecc166d91e4a3e9037cedce29a135a83af6b3c7"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/principal.png",
+      "destination": "historico/ate-revisao05/renders/principal.png",
+      "sha256": "ab19bb4913f0161ed3bfd1021867bbec68e340163873fc1528a585f98b49bef5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/bar.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/bar.png",
+      "sha256": "6688ffbe4830bedad010323127ca3e7bdcec371a1859d7253f55f75c8b2b326c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/cozinha-reversa.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/cozinha-reversa.png",
+      "sha256": "9ff5d41b754b4c57434bc13f7e4802e46ab29a8bb200f7b3e1c8ae7d1356e50b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/cozinha.png",
+      "sha256": "6e1e80472ed4156b7ad18e0a5e184431cac03b7c3a2d857e36cf1cb4ea744497"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/escada-acesso.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/escada-acesso.png",
+      "sha256": "6c708e60423a53e7d47fe343e47651bd187dad8a893f377e5ff390ef3a5f4789"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/estudos-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/estudos-superior.png",
+      "sha256": "2587ed09a0f7e369d76b1a089c373cc0d8b05b0707d99b7493ae2b6859a9a8f9"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/planta-terreo.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/planta-terreo.png",
+      "sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/sala-frente.png",
+      "sha256": "4e17ddcf2efd1cc82b553f6c99e2324626ea63088ee78083f0045e52a27c6fd3"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/sala-fundos.png",
+      "sha256": "8f8e991c6311b497114c2ca6e8da5ffccc11e49e83c2f451bc43da555281b493"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/superior-envoltoria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/superior-envoltoria.png",
+      "sha256": "c7984411257424f93afea280f3774e5aa4bd510c9933541369ab642034799027"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/superior-pendente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/superior-pendente.png",
+      "sha256": "e5a6bfc9c4292244afe58e63641e16771e0dbf31b5c3832f298725967b82a918"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/terreo-3d.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/terreo-3d.png",
+      "sha256": "a9ce5edfd9215bdfb622b435c621889b917be428b4dc7fae6fda7c49d31bb04f"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/terreo-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/terreo-superior.png",
+      "sha256": "0c6ba5e4147d72022b4321ba35085082d5bda1355dbecfc37373edc1a8138300"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/final/volumetria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/final/volumetria.png",
+      "sha256": "29a2460774e4cb2618355887782b1d23151a2d403c506ac65ef1d5b4122e118d"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previa-sala.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previa-sala.png",
+      "sha256": "ccc554f2e946f469f331d411a56285408eed848ac1e13ab00ef0fa66fe64654d"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previas/bar.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previas/bar.png",
+      "sha256": "a7dcb3a4fb3f46527b9b7c1a0826f2dc5de71828a8418d3f34874843ce175b4c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previas/cozinha-reversa.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previas/cozinha-reversa.png",
+      "sha256": "6330057d9be115510f308d2db654c4bee0723c90e2aadc7bfb57b2a22f540083"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previas/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previas/cozinha.png",
+      "sha256": "b6ecf00a6c5e116fdf26de688a14b72a02a3e7542192b1201dec1e9accc0a937"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previas/escada-acesso.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previas/escada-acesso.png",
+      "sha256": "1060856959c96e6fa63d90d176cb242171ca29272d24a38a2a058ce2b29b4d76"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previas/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previas/sala-frente.png",
+      "sha256": "ea536850e58d2035e41e91193aed941e778364798ca386d40fa9d02b44a2111a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-02/previas/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/revisao-02/previas/sala-fundos.png",
+      "sha256": "d0ab8d148643857c4419e9c6c4c90cd2ef4ddbc702b6e86dcd3a12d20f92bfcc"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/bar.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/bar.png",
+      "sha256": "adb361625d73f3ab0568207a3a559f2f268ad58e80b4a2d1f31f54d5e1ce9d30"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/cozinha-reversa.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/cozinha-reversa.png",
+      "sha256": "e54b4d2bb0e4609b0d6697f826814f7e9fdc7fdf06e0a96c0dc5221c6a93197b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/cozinha.png",
+      "sha256": "3ac1df72543ee33de2ebfccf8168e1cee7bd1c5bc68047bbdaaa709f354a8ff2"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/escada-acesso.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/escada-acesso.png",
+      "sha256": "316c4821c7d991dc98a5587c09e7a06c433f6cd974414f185a9c77fd95203c5a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/estudos-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/estudos-superior.png",
+      "sha256": "710a530e5bc9dfaab2b0ef335347be0e49af303cbc53f162071622d42dd1781e"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/planta-terreo.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/planta-terreo.png",
+      "sha256": "65f259ba4f07b47c786e7e88f64463d194e413cb60add3a52500c4d65a85b59d"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/sala-frente.png",
+      "sha256": "8e8bf64cd6dd6c87e3f28520ccb2b43973062f02b89a55bb86609e03ee3dc273"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/sala-fundos.png",
+      "sha256": "49c25e8556f101393273e5f3bea1f21edff75db41e5a3e2f7ea33abab91704c9"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/superior-envoltoria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/superior-envoltoria.png",
+      "sha256": "68945411f603a67dcd50f80010c6a5dfc5b6fad00519a3144a7ae96f5e095c08"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/superior-pendente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/superior-pendente.png",
+      "sha256": "7869e1dbcbb6c6a990d543e2607ac3155df9a903ac3e7e06a3cf921debedef6a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/terreo-3d.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/terreo-3d.png",
+      "sha256": "8b09cc342b65a0f27816195a63a2c9f1064416a75f961d0a33249c26cd9374e4"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/terreo-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/terreo-superior.png",
+      "sha256": "65f259ba4f07b47c786e7e88f64463d194e413cb60add3a52500c4d65a85b59d"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/final/volumetria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/final/volumetria.png",
+      "sha256": "a4ea8693bd586f6014690f51f79177b4c81b5a80ebd282a623fa81326fb7c0b5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/previas/terreo-3d.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/previas/terreo-3d.png",
+      "sha256": "6f5745ac6d60a2d3508325d8326925ea9afe1c7dea04881ece6af45a90074dcd"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-03/previas/terreo-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-03/previas/terreo-superior.png",
+      "sha256": "4e93619dd88ce4d1594f4912c18529b7f2550b5d005e5f86c19394e8454c03e5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/bar.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/bar.png",
+      "sha256": "b28ce81b121fbd930aac808f7f27b5265d7434ee8d192ece5c00e33217a59396"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/cozinha-reversa.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/cozinha-reversa.png",
+      "sha256": "22a12dd6b70583f2c5b7cb19932998e68eac55be8d52b2432b6e084f6ea2bf66"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/cozinha.png",
+      "sha256": "d292891a4acbb97dc8624a017b9a505a02821aee1f28e99e92263fc4f7be3487"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/escada-acesso.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/escada-acesso.png",
+      "sha256": "85703e4d0efda6e8dae1423c36d7a3d412eb4d7656d33944f99fd22dc5aae7ec"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/estudos-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/estudos-superior.png",
+      "sha256": "8c0e0015b72abc9edc40744e8abf56793bb4b364b5eec1f57e34c06ed205242d"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/lavabo-sob-escada.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/lavabo-sob-escada.png",
+      "sha256": "4583d453cdb90138adbba8962053852650e917a71210a50cedff7658c29bd9be"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/planta-terreo.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/planta-terreo.png",
+      "sha256": "2034483c387844668fe31802a7ffb51863bd60e3afc59af849e76a9402ffef90"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/sala-frente.png",
+      "sha256": "9ee4ca19b677fd145a5b240f945c04ef1490951d43ccee79c5c7c170f38e8a74"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/sala-fundos.png",
+      "sha256": "63d33cfc45b1866df7eb4fbfd49e934c186723a7d930d6570c8215a16027e036"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/superior-envoltoria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/superior-envoltoria.png",
+      "sha256": "4bb26282f02863c8e7b2fdc74bd7cbab3ad2f4b883e2b8dd89c4670ffaf931b0"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/superior-pendente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/superior-pendente.png",
+      "sha256": "1bc047cab84dfe32ebe1b9a85c07f43c457686afd21e74193313e64c15e5f0ae"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/terreo-3d.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/terreo-3d.png",
+      "sha256": "ef303c6f328e48d5971c0c805056c624b7ff9eb7c70a719abbe24b15c14b4874"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/terreo-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/terreo-superior.png",
+      "sha256": "2034483c387844668fe31802a7ffb51863bd60e3afc59af849e76a9402ffef90"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-04/final/volumetria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-04/final/volumetria.png",
+      "sha256": "44643800f9ef6b2bc75fd56ee9aa453b8d931bacf0c7885d40f80a113c229c7e"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/bar.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/bar.png",
+      "sha256": "c40f3bd33781ec4ca13ef7ad9e2e615dc1741e205d5d65bcc59e2e61706d7a41"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/cozinha-reversa.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/cozinha-reversa.png",
+      "sha256": "7d3da402ba6ecf01868a35be6a9616940d1b0f337039215a3d44132bc8561021"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/cozinha.png",
+      "sha256": "f27950d04293c2d3d677671445cc00da61444d6089a24fe08de14c039ab708bf"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/escada-acesso.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/escada-acesso.png",
+      "sha256": "10855b6b288615393771b2ad5a7332ac796a344f6a3a3d1f0a5e298869d7a89b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/estudos-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/estudos-superior.png",
+      "sha256": "f84943db4c1185c786a77e42efdbc722b83f9c6ef85a7321046711c2f7cb6d8a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/fachada-frontal.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/fachada-frontal.png",
+      "sha256": "2628ff231152fab2dd094d05c86461151ac00ff4252238db1f56626715c5f2f7"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/fachada-obliqua.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/fachada-obliqua.png",
+      "sha256": "248a9a24f7f1ba79966957a34909bcc27e149760171199fb3736aca113e9bfde"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/lavabo-sob-escada.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/lavabo-sob-escada.png",
+      "sha256": "817c25224a5639c7e1715752763a56f76db02eab1c7924788aa63fb47c58f283"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/lavabo.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/lavabo.png",
+      "sha256": "90c096f2c3abce60cb18a0dda93d68bec167c52ef3d9164aab1983401b007da9"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/lavanderia.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/lavanderia.png",
+      "sha256": "90a0ef394e144b880829d00931125483a07c701efdb2e2ddf132e81fae04df9f"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/planta-terreo.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/planta-terreo.png",
+      "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/sala-frente.png",
+      "sha256": "f78cacd3daad9849f7582e1dff7cf33e28ad09364e97f981b1b77db6fb52e0e6"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/sala-fundos.png",
+      "sha256": "0d070b8864df98c6ece14b0910a125b9e6eef0104daae81d9f9b52d906827e0c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/superior-envoltoria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/superior-envoltoria.png",
+      "sha256": "eb44e12661f2250191efe59eddb45783b45ace068c873545ba24f085f0745879"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/superior-pendente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/superior-pendente.png",
+      "sha256": "19a40b0500ae97677cfd2af03ab108299996da2e402528a3c99f40cc1e65931b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/terreo-3d.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/terreo-3d.png",
+      "sha256": "1183cb90d7c790bfcfc28bb6c983f61d9875bb52420c85f194cbbed2cf2caa03"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/terreo-superior.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/terreo-superior.png",
+      "sha256": "264ec4c8c8b05e0502127a46ded554113052c09e4af1e72d9a5edf58c1ee64a5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/final/volumetria.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/final/volumetria.png",
+      "sha256": "591adcf5abb5a6bdb2f7d1bfa916716a68b9da876147187ffe9edd0b6ac73023"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/bar.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/bar.png",
+      "sha256": "202acf31a700d1b1ee41542d6c1442f3520484106358d3d8eed75c7f07a90743"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/cozinha-reversa.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/cozinha-reversa.png",
+      "sha256": "9a623e9a6cbcf25e89778cbf41b261c669e73954b1e313bb7f2cabf310af74af"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/cozinha.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/cozinha.png",
+      "sha256": "a6dad97d7d824fc2e8da9cc1bce00fc5e59931b0b5a5d7a41f26d7e01c191f93"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/escada-acesso.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/escada-acesso.png",
+      "sha256": "1fc761a3a32088b6a430524015a0bad072eba1baa3c04ecfb43aadeffb295c4f"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/fachada-frontal.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/fachada-frontal.png",
+      "sha256": "a5b917b65ffaeebbcfbade3dddbecc18ba37c167dcece43afc71647d1b0c1279"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/fachada-obliqua.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/fachada-obliqua.png",
+      "sha256": "6976917ffb11a985a719794824bf1493da881c9742afde9c5378f7110b40a040"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/lavabo.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/lavabo.png",
+      "sha256": "d7a8d44c762cc3aaa7ab1af4c009e0ad2389a26725e7a94bde587523cd2faf75"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/lavanderia.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/lavanderia.png",
+      "sha256": "786bb5ab82812c2e7af0db497c109dac31afec0f475efd78345b7ee2774eb64a"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/sala-frente.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/sala-frente.png",
+      "sha256": "8008ce8bdc274abd0906951531103a597140e63b3b6cf2966ffa91e0d4ed3a0b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/revisao-05/previas/sala-fundos.png",
+      "destination": "historico/ate-revisao05/renders/revisao-05/previas/sala-fundos.png",
+      "sha256": "92b8e4a4792cec678846cafe777ac29d2b693f3e8ebc24154c4103d995609154"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/teste-espelho-comparacao.png",
+      "destination": "historico/ate-revisao05/renders/teste-espelho-comparacao.png",
+      "sha256": "5152c4031e7424d0af44859a65758fd4dac74cc0a179a5893f2e443b437429bd"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/teste-optix.png",
+      "destination": "historico/ate-revisao05/renders/teste-optix.png",
+      "sha256": "2ccfc2309ad588715026e19eff3ec482f012e048d097113aa167e4392f2b9505"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/vista-superior.png",
+      "destination": "historico/ate-revisao05/renders/vista-superior.png",
+      "sha256": "14ae7234253512757e59429688f8189f8588e7a39e12a163a80d126a1a96d792"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/ajustes-camera.log",
+      "destination": "historico/ate-revisao05/relatorios/ajustes-camera.log",
+      "sha256": "2bd166b13eb0ff9d0a22bdf3bc9af071c845f6043601739bfffa556a64b2f90f"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/correcao-manta.log",
+      "destination": "historico/ate-revisao05/relatorios/correcao-manta.log",
+      "sha256": "303aa60f7db1d9d9d4dad2828b1036144f58418f9aa622cd495a35f7a02c5ec3"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/entradas.json",
+      "destination": "historico/ate-revisao05/relatorios/entradas.json",
+      "sha256": "11a10d7514c8857b1ce663f4277b05463fd36406cf22bf85b26ef18878d1ac17"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/espelho.json",
+      "destination": "historico/ate-revisao05/relatorios/espelho.json",
+      "sha256": "df62f23b7bde30db11cdc4411efa1b2d49461372fb415f60079bcd389603121d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/geracao-20261110T094533Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T094533Z.json",
+      "sha256": "26002a1b627b568f658bfe1d7e2e50ce8421d9cf30b9422b2cc499adca5fc0fb"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/geracao-20261110T095320Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T095320Z.json",
+      "sha256": "747fec4a372d21a153d4f71dac6e264ab1781a64823fbc0cf8952279c2ec2889"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/geracao-20261110T100114Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T100114Z.json",
+      "sha256": "a25cf7705e8cc49ebe6bf02716349482b394bc03b8985e9b200bfd080a9b923c"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/geracao-20261110T100732Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T100732Z.json",
+      "sha256": "3815b3e4862cedf241ed9d68e19bc492f891447430046d244b74eb3b81ae6d66"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/geracao-20261110T100925Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T100925Z.json",
+      "sha256": "564b853a81a84a00ffbd529c514c6a73dea596831cd22f01015912dbb0b4e1d4"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/geracao-final.log",
+      "destination": "historico/ate-revisao05/relatorios/geracao-final.log",
+      "sha256": "7accbfcbf592eb15baedba2a0ecd0421d74e5b44815fb7e37b47d48b8b768b85"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/RELATORIO.md",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/RELATORIO.md",
+      "sha256": "0f9730a3cb3556673699ce9c009742fdd9beffdba789ae68110c2d2b3ac2f188"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/comparacao.json",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/comparacao.json",
+      "sha256": "2385b71a7db42f012aa29bd4308a0f74db1b889d1558f5642738610c3e526d3d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/comparacao.log",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/comparacao.log",
+      "sha256": "17d3996df1c628e17ebb300ac494ce8474f9f5a34a55ee80e8924acf6fdb4a71"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/geracao.json",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/geracao.json",
+      "sha256": "9466c1b19e53677a541e59f881b1a6d93139eb34f8a16534c7528ac129babe7f"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/geracao.log",
+      "sha256": "c0f82eeba3759c802ea4de9fbf5c71a13894f831a8e9756586683a2d25611339"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/manifesto.json",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/manifesto.json",
+      "sha256": "e7cf4d070f160e2d384bf1196a21812dbb4a2cc9d53dc969ee962fa123a99a56"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/revisao.json",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/revisao.json",
+      "sha256": "8a856e8d9e6bf1c2efa0b2f645fc49b11f9ef425e2ac503d8a9144906267376d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/validacao.json",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/validacao.json",
+      "sha256": "f2695b4e6b4e3d2b01a859ddfdbcf00ac9b6aa87be9ec1dbe31e6b08493e1fe3"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/planta-casa/validacao.log",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa/validacao.log",
+      "sha256": "42b3d2f2bbf8444917fa2623576b39e40ad37623bf57fa8773528df5c7b7a698"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/primeira-geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/primeira-geracao.log",
+      "sha256": "84e090e06cec551e0624128edd88c197f3d9f9aeef9de77954b3e087aae72ff2"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/primeira-previa.log",
+      "destination": "historico/ate-revisao05/relatorios/primeira-previa.log",
+      "sha256": "c00cee001129e6cb8a6cd49f584c3c70aa73f70e74fda51a5d8829349da0de35"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/RELATORIO.md",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/RELATORIO.md",
+      "sha256": "6d2b4ee064581b0531b00f420030471b9b057155bc767de9b3934c43b69b9686"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/ajuste-cameras.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/ajuste-cameras.json",
+      "sha256": "4c7016ed10eedaa09f52269de382a7544c21af860f326d828717f278f3ed9f03"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/antes-renders/comparacao-originais.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/antes-renders/comparacao-originais.png",
+      "sha256": "abd516a8df9ecd24c5f3ca39bf879227c92afac2dd9361abacf44fe222a43a52"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/antes-renders/planta-3d.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/antes-renders/planta-3d.png",
+      "sha256": "0a4b97cc6e29a7c3c0a7c63b5325540e531dbb7cd892df9ce710bcb99069a370"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/antes-renders/sala-frente.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/antes-renders/sala-frente.png",
+      "sha256": "5cd8ba55ac890afce8a4e59562ac4039a9e0c06f7257ddbf56016e9d065ab0a4"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/antes-renders/sala-fundos.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/antes-renders/sala-fundos.png",
+      "sha256": "a9ee0df89d6ef1e9a49b5f40b05ff02157ba49b244f7c1ccc1b17c6d2600764c"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/antes-renders/terreo-3d.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/antes-renders/terreo-3d.png",
+      "sha256": "a93d34d5794d1deab19a3661182d0eeedf40f711da98a88d3ce4d62d36c9a942"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-antes.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-antes.json",
+      "sha256": "ba9dd012383b1eb38c2aed60ef24f13b9db1b1da6964e9d08df825abaf57027e"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-antes.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-antes.log",
+      "sha256": "e6cdefa03e2bd0912ab736fe58df135324fbb525746e6336106fb07f525aa34c"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-baseline.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-baseline.log",
+      "sha256": "b34c35225e2be54c69231f509760a48dada524367dbdc444a4ecbd4def89850d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-calibrada.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-calibrada.log",
+      "sha256": "695c5671fd459c0427577a4d7384fdcb5842fbc582cc06a2224d868ccc6ac5c7"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-depois.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-depois.json",
+      "sha256": "b127bfdafd5054c8cd6bad88c8d308089915281a839957d7c1896b87a93fb78b"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-depois.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-depois.log",
+      "sha256": "c249a01c2aebf46ca863509b42914acf5f6b37a1310c5e0cd67e6b1b5dafbeee"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-enquadrada.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-enquadrada.log",
+      "sha256": "4f3feb5a79500e9f9a65e1e922fa614cb9e500b4de8a1707d06ef8eb29a43898"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/auditoria-refinada.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/auditoria-refinada.log",
+      "sha256": "3abf6424b1b7eda4f27f3756c06a43ef33a51f69adef33e1dfe8141fefb28d6e"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/cozinha2-grade.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/cozinha2-grade.png",
+      "sha256": "4ed6118c6bc935ab86a7c9e35e29c7646d9abc54e61e416fac347992da952e01"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/diagnostico.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/diagnostico.json",
+      "sha256": "2e5330b53af08a6a3567c2c026185aff6a450d485f01b2a4792a4a58cc23c8ee"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/geracao-calibrada.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/geracao-calibrada.log",
+      "sha256": "39b2b35d5cdc2d066362f634d28fb548964572c895438a380e6c9b9592097161"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/geracao-enquadrada.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/geracao-enquadrada.log",
+      "sha256": "9ab38187c0c324a4d7f9a89090776e74e77c886e65bb7c5b4899abf6c02f86d7"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/geracao-final.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/geracao-final.log",
+      "sha256": "225f8f7e76bf871d1bded18ac0aa8209413daa5bdc63405b9c0e24e81daccf03"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/geracao-iteracao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/geracao-iteracao.log",
+      "sha256": "fb6fe223609a6482839a2bde62928817e997a89a16a9d531adcfedb45e8549f3"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/geracao-refinada.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/geracao-refinada.log",
+      "sha256": "97739735f71e6ca7f836c81b236a89e35c954153ef8779d942bd7927d1e3b13d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/geracao.log",
+      "sha256": "41da11ff104b9bc80f1c618b0deeb5794ed69d111fe784f656e0bfde5e578b14"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/manifesto.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/manifesto.json",
+      "sha256": "c8be91386a8105ba1c909adbd399ed8d802e59369017933da4893e2c6c8e4925"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/montagens.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/montagens.log",
+      "sha256": "f16a44618291216a1bac3519fc7d29d22089d6e7c58375a4c7efbb82e89dd719"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/previas-enquadradas.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/previas-enquadradas.log",
+      "sha256": "1d967beb79e551f78b55e53a0c693b87c719eec384b43e51eea8ec447e5bb8a4"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/previas.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/previas.log",
+      "sha256": "70f09d6ceb203ae84f9d8818c3d5d955239368b4ad88b9081e94a1af84ce9f53"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/renders-finais.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/renders-finais.json",
+      "sha256": "681f83254bed84a33c37c7e3998854361283db18a03261f74476374b2b45938c"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/renders-previa.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/renders-previa.json",
+      "sha256": "7697b4baa3a67f50ca49922268875d6d520b9531e0f1a26ef1df823e28521a8b"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/revisao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/revisao.json",
+      "sha256": "5ef9e679d0b6ac6f73d08db4b4c3f89553adce271cf46dd8970c23007acf3bb0"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/sala4-grade.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/sala4-grade.png",
+      "sha256": "ec282d104c033c654bb5a56f9e0dbffa499bc172619b1799d8c6d90b29dc5661"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/sala7-grade.png",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/sala7-grade.png",
+      "sha256": "44b4066a5f2af5d1589fbe528f8fd31f99726ce4a701d6fe0f95d74393f217f6"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-02/validacao-final.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02/validacao-final.log",
+      "sha256": "4e002205b8ced2fef64a0ed8fd40f5f64a7fe577c1c8aa820e1a7f7d987012bf"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/RELATORIO.md",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/RELATORIO.md",
+      "sha256": "3c9ecfdcc1bf8665a314e114161c4bbb1e0aa5ce83730361bc40c5f06bb14c20"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/auditoria-depois.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/auditoria-depois.json",
+      "sha256": "c6581f1c2ed2d0aa51a872c393e025eddf8cb5871cbfebc4952ea54e4ceb3ba1"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/geracao.log",
+      "sha256": "6deee420ddbd151c70914a521ed10604f355623479f0c4f04928905c4916bc66"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/inicio.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/inicio.json",
+      "sha256": "1c6a5dd5e2dbf8d59caa52b1bafee98aa1061ed292eb362f16c2264dcd93af08"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/manifesto.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/manifesto.json",
+      "sha256": "d63106e8122200d5cb49d9e221befc8b23a0c7bee18bc988ffe645b82ca2b7e9"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/montagens.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/montagens.log",
+      "sha256": "f16a44618291216a1bac3519fc7d29d22089d6e7c58375a4c7efbb82e89dd719"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/previas.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/previas.log",
+      "sha256": "4da8a70e2f4da5f886e586eda887eb2f936da9b86ce47742aabf4fcd4bbe6f4e"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/renders-finais.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/renders-finais.json",
+      "sha256": "2cd8e0f892a2d5053db7d30dcdd4a538dcd77dab0cb6155bfbead14b57b7f48a"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/renders-previa.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/renders-previa.json",
+      "sha256": "c78a0f94843aa770ea86f46721568181295accccf8a55e5ab626d89e5305cd74"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/revisao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/revisao.json",
+      "sha256": "78f26c756c02ff02c479a467fe6b19d151df81413e66bbe36254b0eaf69b34bb"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/validacao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/validacao.json",
+      "sha256": "9c3f02d7f010c91c34b1881413fac9fd352a32eb4f603fd3054c357d7bb0feaa"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-03/validacao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03/validacao.log",
+      "sha256": "2c64f4262fca33c9801621ca39266d725db9d90a5ab78c8a55c57cecac5bd03b"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/RELATORIO.md",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/RELATORIO.md",
+      "sha256": "7116cbd58faa72e9710a5a29b5d6c9e6926fea290ae5543240135b2baa01d5d8"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/auditoria-depois.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/auditoria-depois.json",
+      "sha256": "393cb64984b9d1addcdacf5a13d9476218f943a2ac691c239e5bda25b7216049"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/geracao.log",
+      "sha256": "4d19944fe52cf6ca8476a6370ac68bcc5a24cc600ef6110866f3d1e268cd84b5"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/inicio.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/inicio.json",
+      "sha256": "09cd798175bb5a33f4930eb3a284ae07cd0709bee6d2e587665bcbc6378f7977"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/manifesto.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/manifesto.json",
+      "sha256": "f42f32e3bfd74265cc2ca57616f15b4a8a45b51e9c9337d8db401122b57751d5"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/montagens.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/montagens.log",
+      "sha256": "f16a44618291216a1bac3519fc7d29d22089d6e7c58375a4c7efbb82e89dd719"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/renders-finais.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/renders-finais.json",
+      "sha256": "4afc165564561fabfc792b318499c32c9e2e90a0c7227acda820ad4ad68fcd72"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/revisao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/revisao.json",
+      "sha256": "2da9560f939fc05f8b085bc4bed1f28afe076bf245f681eda7b9352fa831db8a"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/validacao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/validacao.json",
+      "sha256": "797989e87672bc63176030424362ed1800e698643724291255786a2b6a978bd6"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-04/validacao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04/validacao.log",
+      "sha256": "4961f63fea994282c957c4b2b146168453451f365cfaf941431e18688ea7563d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/RELATORIO.md",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/RELATORIO.md",
+      "sha256": "0f9730a3cb3556673699ce9c009742fdd9beffdba789ae68110c2d2b3ac2f188"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/auditoria-antes.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/auditoria-antes.json",
+      "sha256": "9bf65394d4385d1c71c718f254bce767fe5b73c64122d4a42f514ea658aafa24"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/auditoria-baseline.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/auditoria-baseline.log",
+      "sha256": "1dba27c2004f716bcf4d8c48e43192c8548aba103bd2ec5b455d4da067a88a23"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/auditoria-depois.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/auditoria-depois.json",
+      "sha256": "ac26d66f41b47af2fd8199f5b08ffa05b6ea4fbdfcb72d91d318150a35689f1f"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/geracao.log",
+      "sha256": "ad1c7099c9392da61cd28460acf9f1ee04a062ddcb7bc4a995df704c7db7f234"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/inicio.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/inicio.json",
+      "sha256": "dfd89da9a8fc53110151b876e7aab892e6a61f149293a9d0a94affd3a05b860d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/manifesto.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/manifesto.json",
+      "sha256": "e7cf4d070f160e2d384bf1196a21812dbb4a2cc9d53dc969ee962fa123a99a56"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/montagens.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/montagens.log",
+      "sha256": "f16a44618291216a1bac3519fc7d29d22089d6e7c58375a4c7efbb82e89dd719"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/previas.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/previas.log",
+      "sha256": "2b3a96ab44bbd6bbcae1bad954b41a0b6ce7dbfa6cd85bda19ab7a842f75ca0b"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/renders-finais.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/renders-finais.json",
+      "sha256": "1693256015bd510eeb7f7bc12dfbf05c19c09dd6dcd7a179249ec0f6056cfb8a"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/renders-previa.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/renders-previa.json",
+      "sha256": "cbe5ad9a9d0da4a11994fad53ce52e5f77cde278ce3ecb8be49549922b4199bc"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/revisao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/revisao.json",
+      "sha256": "8a856e8d9e6bf1c2efa0b2f645fc49b11f9ef425e2ac503d8a9144906267376d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/validacao.json",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/validacao.json",
+      "sha256": "f2695b4e6b4e3d2b01a859ddfdbcf00ac9b6aa87be9ec1dbe31e6b08493e1fe3"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/revisao-05/validacao.log",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05/validacao.log",
+      "sha256": "97f9915bf649e2d85bc9ea5084a722581cb0226075168d1a57ce7fc1790f573f"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/segunda-geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/segunda-geracao.log",
+      "sha256": "bd1d2236bf6476b32fc911e3de54875da6e8c4d4e2eb5739fa44036f9507f31c"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/teste-composicao.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-composicao.log",
+      "sha256": "f2a7126f0143f025e4194eac1f311974df104940562a9df8e012baa3c8969d40"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/teste-espelho-final.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-espelho-final.log",
+      "sha256": "768942e26331af8c511ae7a32a72047115ed95baa2e0195de3d84e5eb5006c79"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/teste-espelho.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-espelho.log",
+      "sha256": "089a5ad92616983b0e15242b764c02c21cc68b93a2c3e2e8bc5190f6018d1d68"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/teste-optix.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-optix.log",
+      "sha256": "11ceaa9e4bc192c6d9d069fd69d50a806cd70e983307af4e9bdd6953a48b12de"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/teste-windows-optix.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-windows-optix.log",
+      "sha256": "51912de9888dab32322b2e03a868ede7d8df6ac0f01307710f8c13ccc6554b0d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/validacao-espelho.json",
+      "destination": "historico/ate-revisao05/relatorios/validacao-espelho.json",
+      "sha256": "a08a53c402b20ab657db7765684ff94bb9a2623ab9796d34b73f381f776fb6d5"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/validacao-final.log",
+      "destination": "historico/ate-revisao05/relatorios/validacao-final.log",
+      "sha256": "2bc57bf904b1e2c4ee7a7ce5cf574d0e77afc3269f7df26d3286c873872241f3"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/validacao.json",
+      "destination": "historico/ate-revisao05/relatorios/validacao.json",
+      "sha256": "778d30999502400039823b1fe1575feea6cb5a68047da3d2e7d8a1639eb80e63"
+    },
+    {
+      "operation": "archive",
+      "source": "docs/SALA-INDUSTRIAL-ANTERIOR.md",
+      "destination": "historico/ate-revisao05/docs/SALA-INDUSTRIAL-ANTERIOR.md",
+      "sha256": "721aa86e213d4f66e29a9777f94229c3504457d667beb8a76ffb84ac12626e90"
+    },
+    {
+      "operation": "archive",
+      "source": "config/cena.json",
+      "destination": "historico/ate-revisao05/config/cena.json",
+      "sha256": "6338b0a9692ac58627c7dd102660ba1d1b20357b88cacfc0176da75fd841af1d"
+    },
+    {
+      "operation": "archive",
+      "source": "referencias-ajustes/planta-terreo-anotada.png",
+      "destination": "historico/ate-revisao05/referencias-ajustes/planta-terreo-anotada.png",
+      "sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819"
+    },
+    {
+      "operation": "snapshot",
+      "source": "relatorios/progresso.json",
+      "destination": "historico/ate-revisao05/relatorios/progresso-revisao05.json",
+      "sha256": "645e401ebcf57de0695b7c7aafa8bed47fb76b5d500a288d9e685f6a96332bd6"
+    }
+  ],
+  "operations": [
+    {
+      "source": "scripts/build_scene.py",
+      "destination": "historico/ate-revisao05/scripts/build_scene.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/finalize_house.py",
+      "destination": "historico/ate-revisao05/scripts/finalize_house.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/calibrate_revision_cameras.py",
+      "destination": "historico/ate-revisao05/scripts/calibrate_revision_cameras.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/validate_scene.py",
+      "destination": "historico/ate-revisao05/scripts/validate_scene.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/compare_renders.py",
+      "destination": "historico/ate-revisao05/scripts/compare_renders.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/test_composition.py",
+      "destination": "historico/ate-revisao05/scripts/test_composition.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/iterate_preview.py",
+      "destination": "historico/ate-revisao05/scripts/iterate_preview.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/probe_device.py",
+      "destination": "historico/ate-revisao05/scripts/probe_device.py",
+      "status": "complete"
+    },
+    {
+      "source": "scripts/refine_blanket.py",
+      "destination": "historico/ate-revisao05/scripts/refine_blanket.py",
+      "status": "complete"
+    },
+    {
+      "source": "projeto/casa-revisao-02.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-revisao-02.blend",
+      "status": "complete"
+    },
+    {
+      "source": "projeto/casa-terreo-revisao03.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-terreo-revisao03.blend",
+      "status": "complete"
+    },
+    {
+      "source": "projeto/casa-terreo-revisao04.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-terreo-revisao04.blend",
+      "status": "complete"
+    },
+    {
+      "source": "projeto/casa-terreo-revisao05.blend",
+      "destination": "historico/ate-revisao05/projeto/casa-terreo-revisao05.blend",
+      "status": "complete"
+    },
+    {
+      "source": "projeto/sala-industrial.blend",
+      "destination": "historico/ate-revisao05/projeto/sala-industrial.blend",
+      "status": "complete"
+    },
+    {
+      "source": "projeto/versoes",
+      "destination": "historico/ate-revisao05/projeto/versoes",
+      "status": "complete"
+    },
+    {
+      "source": "renders/comparacao-primeira-previa-sobreposicao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-primeira-previa-sobreposicao.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/comparacao-primeira-previa.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-primeira-previa.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/comparacao-segunda-previa-sobreposicao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-segunda-previa-sobreposicao.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/comparacao-segunda-previa.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-segunda-previa.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/comparacao-sobreposicao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao-sobreposicao.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/comparacao.png",
+      "destination": "historico/ate-revisao05/renders/comparacao.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/espelho-antes.png",
+      "destination": "historico/ate-revisao05/renders/espelho-antes.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/espelho-depois.png",
+      "destination": "historico/ate-revisao05/renders/espelho-depois.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/planta-casa",
+      "destination": "historico/ate-revisao05/renders/planta-casa",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-20261110T095320Z.png",
+      "destination": "historico/ate-revisao05/renders/previa-20261110T095320Z.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-ajuste-01.png",
+      "destination": "historico/ate-revisao05/renders/previa-ajuste-01.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-ajuste-02.png",
+      "destination": "historico/ate-revisao05/renders/previa-ajuste-02.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-camera-lateral-01.png",
+      "destination": "historico/ate-revisao05/renders/previa-camera-lateral-01.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-camera-lateral-02.png",
+      "destination": "historico/ate-revisao05/renders/previa-camera-lateral-02.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-camera-lateral-03.png",
+      "destination": "historico/ate-revisao05/renders/previa-camera-lateral-03.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/previa-reaberta.png",
+      "destination": "historico/ate-revisao05/renders/previa-reaberta.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/principal.png",
+      "destination": "historico/ate-revisao05/renders/principal.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/revisao-02",
+      "destination": "historico/ate-revisao05/renders/revisao-02",
+      "status": "complete"
+    },
+    {
+      "source": "renders/revisao-03",
+      "destination": "historico/ate-revisao05/renders/revisao-03",
+      "status": "complete"
+    },
+    {
+      "source": "renders/revisao-04",
+      "destination": "historico/ate-revisao05/renders/revisao-04",
+      "status": "complete"
+    },
+    {
+      "source": "renders/revisao-05",
+      "destination": "historico/ate-revisao05/renders/revisao-05",
+      "status": "complete"
+    },
+    {
+      "source": "renders/teste-espelho-comparacao.png",
+      "destination": "historico/ate-revisao05/renders/teste-espelho-comparacao.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/teste-optix.png",
+      "destination": "historico/ate-revisao05/renders/teste-optix.png",
+      "status": "complete"
+    },
+    {
+      "source": "renders/vista-superior.png",
+      "destination": "historico/ate-revisao05/renders/vista-superior.png",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/ajustes-camera.log",
+      "destination": "historico/ate-revisao05/relatorios/ajustes-camera.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/correcao-manta.log",
+      "destination": "historico/ate-revisao05/relatorios/correcao-manta.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/entradas.json",
+      "destination": "historico/ate-revisao05/relatorios/entradas.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/espelho.json",
+      "destination": "historico/ate-revisao05/relatorios/espelho.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/geracao-20261110T094533Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T094533Z.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/geracao-20261110T095320Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T095320Z.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/geracao-20261110T100114Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T100114Z.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/geracao-20261110T100732Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T100732Z.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/geracao-20261110T100925Z.json",
+      "destination": "historico/ate-revisao05/relatorios/geracao-20261110T100925Z.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/geracao-final.log",
+      "destination": "historico/ate-revisao05/relatorios/geracao-final.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/planta-casa",
+      "destination": "historico/ate-revisao05/relatorios/planta-casa",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/primeira-geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/primeira-geracao.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/primeira-previa.log",
+      "destination": "historico/ate-revisao05/relatorios/primeira-previa.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/revisao-02",
+      "destination": "historico/ate-revisao05/relatorios/revisao-02",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/revisao-03",
+      "destination": "historico/ate-revisao05/relatorios/revisao-03",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/revisao-04",
+      "destination": "historico/ate-revisao05/relatorios/revisao-04",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/revisao-05",
+      "destination": "historico/ate-revisao05/relatorios/revisao-05",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/segunda-geracao.log",
+      "destination": "historico/ate-revisao05/relatorios/segunda-geracao.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/teste-composicao.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-composicao.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/teste-espelho-final.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-espelho-final.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/teste-espelho.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-espelho.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/teste-optix.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-optix.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/teste-windows-optix.log",
+      "destination": "historico/ate-revisao05/relatorios/teste-windows-optix.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/validacao-espelho.json",
+      "destination": "historico/ate-revisao05/relatorios/validacao-espelho.json",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/validacao-final.log",
+      "destination": "historico/ate-revisao05/relatorios/validacao-final.log",
+      "status": "complete"
+    },
+    {
+      "source": "relatorios/validacao.json",
+      "destination": "historico/ate-revisao05/relatorios/validacao.json",
+      "status": "complete"
+    },
+    {
+      "source": "docs/SALA-INDUSTRIAL-ANTERIOR.md",
+      "destination": "historico/ate-revisao05/docs/SALA-INDUSTRIAL-ANTERIOR.md",
+      "status": "complete"
+    },
+    {
+      "source": "config/cena.json",
+      "destination": "historico/ate-revisao05/config/cena.json",
+      "status": "complete"
+    },
+    {
+      "source": "referencias-ajustes/planta-terreo-anotada.png",
+      "destination": "historico/ate-revisao05/referencias-ajustes/planta-terreo-anotada.png",
+      "status": "complete"
+    }
+  ],
+  "shared_helpers_unchanged_sha256": {
+    "basic": "ff9bc60f2a52b3ba06bbe102a06b5b6cd10f6441526d12225363b4a964ad8173",
+    "box": "08f7a37c5dd09d3c40c8365ebd92ca375130914ef24584576d11e0f8c5ea2c76",
+    "configure_device": "def07d215fae27374fadb5e3b061948e0f2bfdc92246f67234a6f380b11debae",
+    "curve": "12b7e416c9c468ed06b05a84f3f767ec9a58eed85fc26f2a4d422131c89eea17",
+    "cylinder": "c2db7e4a0dfa3b7d4bdaefb115ea9c657cf50875219967cdc9e5e6332d2d47a1",
+    "finish": "199c2d943074e34679b2b1f4b70b4af2d2ccbe8aea0bd1d841ab7b34966be067",
+    "lathe": "92707048bdf04866246f8d4b424b6395cd13cbd85af0105ca90d9e9a0813fc58",
+    "leaf": "4475ed032eaa784e858f6fb135671d34230d9e1cca778e7ecd81176b927d6d59",
+    "light": "5d6e68642564b058296397b8ca273f6c5320805a7248c82ca8ac94ac80e8b692",
+    "move_to": "73ba7bf38641fa062de3c306cfba4111c9710abb1357d4623b372180793a153a",
+    "parent": "d206a5446b234a767b1225eb03905e64d27a3835051fad06e17c56935f2db294",
+    "plant": "883637b30f79440e4f5301529de922d87a85c8ac9225e1e89edb6e8aeb042596",
+    "rod": "6d38fdc88627a9e5f2990acf4bee97421acb15f637895f1e10500cba6ad79325",
+    "sphere": "4e8640cfd03904faffb1401de9cb705d6063a2322ce7f671e30a006a125e2386",
+    "textured": "8f872bd02b89aaf5fb9322f9afa2ee092df0bf57269f88ee0d27ab2de1641265",
+    "unique_path": "527f4269b9fac53b15b710ded750d153ac8bd82e94164bac286438d813ad90f0"
+  },
+  "deletions": [],
+  "original_photos_moved": false
+}

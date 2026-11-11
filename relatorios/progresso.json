@@ -1,0 +1,28 @@
+{
+  "updated_utc": "2026-11-10T20:46:15.734602+00:00",
+  "revision": 10,
+  "status": "revisao10_concluida_contorno_e_fundos_alinhados",
+  "current_blend": "projeto/casa-reconstruida.blend",
+  "current_plan": "renders/atual/planta-terreo.png",
+  "door_plan": "renders/atual/porta-lavabo.png",
+  "authoritative_annotation": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+  "completed": [
+    "Lajes com mesmo contorno do corpo principal, incluindo garagem sob o superior",
+    "Fundos dos WCs e quarto superior no plano da cozinha",
+    "Cobertura das lajes conferida por células; nenhum trecho faltante fora do vão da escada",
+    "23 prévias inspecionadas",
+    "18 verificações de integridade, 40 do térreo e 16 do superior passaram, além dos três testes de contorno/coplanaridade",
+    "23 renders finais e 11 comparações atualizados",
+    "Sobreposição e plantas na mesma escala inspecionadas visualmente",
+    "Arquivo editável promovido após conferência dos hashes; revisão 09 arquivada"
+  ],
+  "remaining_unknowns": [
+    "Dimensões reais sem âncora medida",
+    "Comprimento do primeiro lance comprimido na escala herdada",
+    "Quantidade e forma reais dos degraus na curva",
+    "Banheiros compridos e estreitos ainda propostos"
+  ],
+  "archive": "historico/revisao09",
+  "external_publication": false,
+  "upper_plan": "renders/atual/planta-superior.png"
+}

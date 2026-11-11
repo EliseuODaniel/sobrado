@@ -1,0 +1,24 @@
+{
+  "updated_utc": "2026-11-10T18:13:54.300089+00:00",
+  "revision": 7,
+  "status": "vistas_e_modelo_sincronizados_com_terreo",
+  "current_blend": "projeto/casa-reconstruida.blend",
+  "current_plan": "renders/atual/planta-terreo.png",
+  "door_plan": "renders/atual/porta-lavabo.png",
+  "authoritative_annotation": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+  "completed": [
+    "Ligação da cozinha à porta corrigida na geometria",
+    "Laje preenchida sobre faixa liberada",
+    "19 renders regenerados do mesmo Blender editável",
+    "Sala e acesso ao lavabo comparados à planta com câmeras indicadas",
+    "16 verificações de integridade e 40 relações geométricas passaram",
+    "Revisão 06 e rascunhos preservados; fotos originais intactas"
+  ],
+  "remaining_unknowns": [
+    "Medidas reais e dimensionamento da escada",
+    "Lado de dobradiça e sentido definitivo de abertura da porta",
+    "Implantação interna do segundo pavimento"
+  ],
+  "archive": "historico/revisao06",
+  "external_publication": false
+}

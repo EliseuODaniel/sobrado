@@ -1,0 +1,8 @@
+{
+  "scope": "Vinculação da reconstrução base à validação R10; não substitui validação da decoração",
+  "base_sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+  "validation_receipt": "relatorios/atual/validacao.json",
+  "validation_receipt_sha256": "b7336b74cf04cb7524e1276ef3cccf2396d0697ac809ff17e63c7701eec33354",
+  "integrity_checks": 18,
+  "all_passed": true
+}

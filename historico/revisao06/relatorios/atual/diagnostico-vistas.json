@@ -1,0 +1,29 @@
+{
+  "test": "acesso da cozinha à porta horizontal",
+  "origin": [
+    3.585,
+    5.45,
+    1.0
+  ],
+  "target_direction": [
+    0,
+    -1,
+    0
+  ],
+  "first_hit": "Separação escada cozinha trecho final",
+  "hit_location": [
+    3.5850000381469727,
+    4.974999904632568,
+    1.0
+  ],
+  "door_world": [
+    3.5850000381469727,
+    3.6500000953674316,
+    1.0
+  ],
+  "sala_camera": [
+    0.6000000238418579,
+    5.330910682678223,
+    1.2000000476837158
+  ]
+}

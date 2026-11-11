@@ -11,3 +11,17 @@ Thumbs.db
 !.env.example
 *.pem
 *.key
+
+# Blender portátil, cache e versões de segurança locais
+.tools/
+__pycache__/
+*.blend1
+*.blend2
+*.crash.txt
+
+# Arquivos de trabalho e binários históricos ficam preservados localmente.
+# O Git publica os modelos/renders atuais e os recibos das revisões antigas.
+/historico/**/*.png
+/historico/**/*.blend
+/historico/rascunhos/
+/renders/industrial-*/previas/

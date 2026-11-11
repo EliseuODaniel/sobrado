@@ -1,0 +1,78 @@
+{
+  "timestamp_utc": "2026-11-10T20:13:29.365540+00:00",
+  "revision": 9,
+  "blend_sha256": "971dc3f90083e7339e626d8076a2ac28e2684187b316e7c14c040a1711b24563",
+  "source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "scope": "Novas proporções dos dois pavimentos e alinhamento na mesma escala; medidas e curva hipotéticas.",
+  "outputs": [
+    "renders/atual/comparacao-planta.png",
+    "renders/atual/antes-depois.png",
+    "renders/atual/comparacao-superior.png",
+    "renders/atual/comparacao-escada.png",
+    "renders/atual/comparacao-fotos.png",
+    "renders/atual/comparacao-quartos.png",
+    "renders/atual/comparacao-fachada.png",
+    "renders/atual/sala-frente-planta.png",
+    "renders/atual/acesso-lavabo-planta.png",
+    "renders/atual/pavimentos-alinhados.png"
+  ],
+  "comparison_rows": [
+    {
+      "source": "referencias-originais/sala7.webp",
+      "render": "renders/atual/sala-fundos.png"
+    },
+    {
+      "source": "referencias-originais/sala4.webp",
+      "render": "renders/atual/sala-frente.png"
+    },
+    {
+      "source": "referencias-originais/sala1.webp",
+      "render": "renders/atual/escada-acesso.png"
+    },
+    {
+      "source": "referencias-originais/cozinha1.webp",
+      "render": "renders/atual/cozinha.png"
+    },
+    {
+      "source": "referencias-originais/cozinha2.webp",
+      "render": "renders/atual/cozinha-reversa.png"
+    },
+    {
+      "source": "referencias-originais/area3.webp",
+      "render": "renders/atual/bar.png"
+    },
+    {
+      "source": "referencias-originais/lavanderia1.webp",
+      "render": "renders/atual/lavanderia.png"
+    },
+    {
+      "source": "referencias-originais/lavabo1.webp",
+      "render": "renders/atual/lavabo.png"
+    },
+    {
+      "source": "referencias-originais/exterior2.webp",
+      "render": "renders/atual/fachada-frontal.png"
+    },
+    {
+      "source": "referencias-originais/exterior1.webp",
+      "render": "renders/atual/fachada-obliqua.png"
+    },
+    {
+      "source": "referencias-originais/quartosuite1.webp",
+      "render": "renders/atual/suite.png"
+    },
+    {
+      "source": "referencias-originais/quartobranco1.webp",
+      "render": "renders/atual/quarto-frente.png"
+    },
+    {
+      "source": "referencias-originais/quartoazul2.webp",
+      "render": "renders/atual/quarto-fundos.png"
+    }
+  ]
+}

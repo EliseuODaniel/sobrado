@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-10T18:14:06.729062+00:00",
+  "objective": "Sincronizar todas as perspectivas e modelagens com o térreo confirmado",
+  "state": "Entrega local validada: modelo ativo e 19 renders coerentes com o térreo aproximado",
+  "receipts": {
+    "preflight": "relatorios/atual/inicio.json",
+    "diagnostic_before": "historico/revisao06/relatorios/atual/diagnostico-vistas.json",
+    "integrity": "relatorios/atual/validacao.json",
+    "geometry": "relatorios/atual/auditoria-depois.json",
+    "old_output_consistency": "relatorios/atual/coerencia-anterior.json"
+  },
+  "remaining": [],
+  "unknowns": [
+    "Medidas reais",
+    "Dobradiça da porta",
+    "Distribuição superior"
+  ]
+}

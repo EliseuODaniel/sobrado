@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-11-10T20:46:16.640592+00:00",
+  "revision": 10,
+  "status": "contorno_comum_e_fundos_alinhados_no_modelo",
+  "scope": "Encaixar os dois pisos no contorno do corpo principal, com fundos superiores coplanares à parede da cozinha",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d"
+  },
+  "authorizing_instruction": "A parede externa dos dois banheiros superiores e do quarto dos fundos deve ficar na mesma linha da parede da cozinha abaixo; ajustar o conjunto proporcionalmente.",
+  "proportion_reference": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "checks": {
+    "integrity": 18,
+    "ground_geometry": 40,
+    "upper_geometry": 16,
+    "envelope": 3
+  },
+  "renders": 23,
+  "comparisons": 11,
+  "main_volume": {
+    "bounds": [
+      0,
+      5.6,
+      -1.65,
+      7.6
+    ],
+    "scope": "corpo principal; térreo inclui garagem sob o superior, superior inclui varanda; pátio frontal e serviço/churrasqueira posteriores são anexos térreos",
+    "rear_reference": "layout.kitchen.window_y",
+    "front_reference": "facade.front_y",
+    "confirmed_by_user": "Coplanaridade e encaixe pedidos; dimensões numéricas seguem estimadas"
+  },
+  "visual_review": [
+    "23 prévias de todos os ambientes, plantas, cortes e fachada",
+    "Fundos superiores no plano da cozinha",
+    "Pavimentos na mesma escala e sobreposição com contorno comum",
+    "Móveis sem deformação e circulação da escada preservada"
+  ],
+  "archives_verified": {
+    "ate-revisao05": 333,
+    "revisao06": 48,
+    "revisao07": 103,
+    "revisao08": 68,
+    "revisao09": 71
+  },
+  "original_photos_preserved": true,
+  "unknowns": [
+    "Dimensões reais sem medida de referência",
+    "Curva estimada em seis degraus e comprimento do primeiro lance ainda comprimido",
+    "Não é validação estrutural ou de execução",
+    "Banheiros ainda são proposta, não localização levantada",
+    "Compatibilidade estrutural, cargas e dimensionamento construtivo não estudados",
+    "Projeção retangular não equivale à área exclusiva da análise registral secundária"
+  ],
+  "external_publication": false
+}

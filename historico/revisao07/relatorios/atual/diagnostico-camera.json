@@ -1,0 +1,16 @@
+{
+  "source": "historico/revisao06/projeto/casa-reconstruida.blend",
+  "method": "Projeção do centro dos encostos e ray cast na cena anterior; ponto visual de controle aproximado (315,480)",
+  "nearest_objects": [
+    {
+      "object": "Acabamento madeira encosto.004",
+      "parent": "CADEIRA_cabeceira_frente",
+      "pixel": [
+        332.4227213859558,
+        477.67977476119995
+      ],
+      "first_hit": "Acabamento madeira encosto.004",
+      "distance_to_foreground_mark": 17.576537362387583
+    }
+  ]
+}

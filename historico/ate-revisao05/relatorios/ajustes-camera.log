@@ -1,0 +1,9 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.311  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/versoes/sala-industrial-preview-20261110T094533Z.blend"
+/home/edann/projects/casa-interiores/scripts/iterate_preview.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:continue
+00:04.002  render           | Saved: '/home/edann/projects/casa-interiores/renders/previa-ajuste-01.png'
+00:07.758  render           | Saved: '/home/edann/projects/casa-interiores/renders/previa-ajuste-02.png'
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

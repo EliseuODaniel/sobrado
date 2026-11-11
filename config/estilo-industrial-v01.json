@@ -1,0 +1,112 @@
+{
+  "version": "industrial-v01",
+  "base_blend": "projeto/casa-reconstruida.blend",
+  "output_blend": "projeto/industrial-v01/casa-industrial.blend",
+  "references": "referencias-estilo-industrial",
+  "render_directory": "renders/industrial-v01",
+  "report_directory": "relatorios/industrial-v01",
+  "samples": 96,
+  "resolution": [
+    1600,
+    1000
+  ],
+  "design": {
+    "palette": "Cimento cinza quente, aço preto fosco, nogueira, couro caramelo, azul petróleo e luz âmbar",
+    "living": "Sofá caramelo, rack em aço e madeira, mesa de centro, tapete e trilhos aparentes",
+    "kitchen": "Marcenaria grafite, nichos de madeira, metais pretos e iluminação de bancada",
+    "leisure": "Bar em madeira e aço, pedra oxidada, pendentes e prateleiras iluminadas",
+    "rear_bedroom": "Beliche preservado com estrutura escura, bancada de trabalho, prateleiras e painel azul petróleo"
+  },
+  "jobs": [
+    {
+      "scene": "IND_Sala_Integrada",
+      "source_scene": "FOTO_Sala_Fundos",
+      "file": "sala-integrada.png",
+      "position": [
+        1.78,
+        0.42,
+        1.6
+      ],
+      "target": [
+        1.55,
+        6.3,
+        1.4
+      ],
+      "lens": 21
+    },
+    {
+      "scene": "IND_Sala_Frente",
+      "source_scene": "FOTO_Sala_Frente",
+      "file": "sala-frente.png",
+      "position": [
+        2.62,
+        4.2,
+        1.58
+      ],
+      "target": [
+        1.55,
+        1.25,
+        1.25
+      ],
+      "lens": 20
+    },
+    {
+      "scene": "IND_Cozinha",
+      "source_scene": "FOTO_Cozinha",
+      "file": "cozinha.png"
+    },
+    {
+      "scene": "IND_Cozinha_Reversa",
+      "source_scene": "FOTO_Cozinha_Reversa",
+      "file": "cozinha-reversa.png"
+    },
+    {
+      "scene": "IND_Lazer_Fundos",
+      "source_scene": "FOTO_Bar",
+      "file": "lazer-fundos.png",
+      "position": [
+        2.7,
+        7.85,
+        1.58
+      ],
+      "target": [
+        1.5,
+        10.25,
+        1.55
+      ],
+      "lens": 19
+    },
+    {
+      "scene": "IND_Quarto_Fundos",
+      "source_scene": "FOTO_Quarto_Fundos",
+      "file": "quarto-fundos.png",
+      "position": [
+        3.65,
+        4.52,
+        4.49
+      ],
+      "target": [
+        4.17,
+        6.75,
+        4.12
+      ],
+      "lens": 20
+    },
+    {
+      "scene": "IND_Quarto_Escritorio",
+      "source_scene": "FOTO_Quarto_Fundos",
+      "file": "quarto-escritorio.png",
+      "position": [
+        4.1,
+        4.65,
+        4.48
+      ],
+      "target": [
+        3.1,
+        6.55,
+        4.12
+      ],
+      "lens": 22
+    }
+  ]
+}

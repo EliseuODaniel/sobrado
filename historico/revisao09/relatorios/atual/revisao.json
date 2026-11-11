@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-11-10T20:14:10.854859+00:00",
+  "revision": 9,
+  "status": "estudo_proporcional_dos_dois_pavimentos_validado",
+  "scope": "Coerência geométrica e proporcional com o novo croqui, mantendo móveis e relações entre escada, lavabo, garagem, cozinha e superior",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "971dc3f90083e7339e626d8076a2ac28e2684187b316e7c14c040a1711b24563"
+  },
+  "source": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "checks": {
+    "integrity": 17,
+    "ground_geometry": 40,
+    "upper_geometry": 16
+  },
+  "renders": 23,
+  "comparisons": 10,
+  "visual_review": [
+    "23 prévias em contato, incluindo todos os interiores, plantas e cortes",
+    "Nova proporção do superior comparada ao croqui",
+    "Térreo e superior registrados na mesma escala e origem",
+    "Quarto da frente sem porta obstruindo a câmera",
+    "Escada encostada, lavabo e fachada após deslocamento"
+  ],
+  "archives_verified": {
+    "ate-revisao05": 333,
+    "revisao06": 48,
+    "revisao07": 103,
+    "revisao08": 68
+  },
+  "original_photos_preserved": true,
+  "unknowns": [
+    "Dimensões reais sem âncora medida",
+    "Quantidade e forma da curva ainda estimadas",
+    "Comprimento horizontal do primeiro lance comprimido na estimativa anterior",
+    "Banheiros ainda são proposta, não localização levantada",
+    "Compatibilidade estrutural, cargas e dimensionamento construtivo não estudados",
+    "Projeção retangular não equivale à área exclusiva da análise registral secundária"
+  ],
+  "external_publication": false
+}

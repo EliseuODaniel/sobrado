@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-11-10T11:12:49.886725+00:00",
+  "objective": "Revisar a reconstrução para remover contradições observáveis nas fotos, antes de declarar nova entrega",
+  "baseline_sha256": "f34a67de45270fde379cc707fb6ffc72f04565ed35bcce600a51b3a9b6fd3832",
+  "previous_fidelity_verdict": "REFUTED: verificações anteriores eram de integridade, não de correspondência fotográfica",
+  "contradictions": [
+    {
+      "id": "tv_wall",
+      "source": [
+        "sala4.webp",
+        "sala7.webp"
+      ],
+      "finding": "Parede da TV é a lateral que contém lavabo, escada e cozinha; TV do modelo estava no limite externo oposto ao recuo."
+    },
+    {
+      "id": "stair_axis",
+      "source": [
+        "sala1.webp",
+        "sala4.webp"
+      ],
+      "finding": "A direção do primeiro lance é para dentro da faixa lateral; modelo longitudinal expôs dois lances no estar."
+    },
+    {
+      "id": "lavabo_portal",
+      "source": [
+        "sala2.webp",
+        "sala4.webp"
+      ],
+      "finding": "Porta fechada entre TV e escada deve pertencer à mesma face lateral, sem mostrar a louça no estar."
+    },
+    {
+      "id": "kitchen_view",
+      "source": [
+        "sala7.webp",
+        "cozinha2.webp"
+      ],
+      "finding": "Janela da cozinha deve ser avistada da sala pela passagem junto ao ripado; persiana e bancada precisam corresponder a essa abertura."
+    },
+    {
+      "id": "upper_layout",
+      "source": [
+        "exterior2.webp",
+        "quartoazul2.webp",
+        "quartosuite1.webp"
+      ],
+      "finding": "A distribuição anterior do superior não foi demonstrada pelas fotos; confirmação solicitada ao usuário."
+    }
+  ],
+  "pending": [
+    "Resposta sobre quartos e virada da escada",
+    "Reconstrução do térreo e teste de visibilidade",
+    "Comparação por enquadramentos correspondentes",
+    "Validação geométrica e documentação atualizadas"
+  ]
+}

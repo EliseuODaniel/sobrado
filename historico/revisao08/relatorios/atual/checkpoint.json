@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-11-10T19:41:08.858364+00:00",
+  "revision": 8,
+  "objective": "Alinhar os modelos ao último croqui superior: WCs paralelos, portas e hall sobre o trecho baixo do primeiro lance; lances encostados",
+  "state": "Entrega local concluída: modelo ativo atualizado, 23 renders e nove comparações inspecionados",
+  "receipts": [
+    "relatorios/atual/inicio.json",
+    "relatorios/atual/auditoria-superior.json",
+    "relatorios/atual/auditoria-depois.json"
+  ],
+  "remaining": [],
+  "unknowns": [
+    "Primeiro lance: 0,14 m por degrau comprimido na escala anterior; requer comprimento real",
+    "Seis degraus na curva provisórios",
+    "Medidas e distribuição real dos banheiros; implantação segue proposta do usuário"
+  ],
+  "latest_upper_source": "referencias-ajustes/superior-croqui-26a026a1.png",
+  "run": {
+    "session_id": 81370,
+    "working_blend": "projeto/.em-validacao.blend",
+    "active_blend": "projeto/casa-reconstruida.blend",
+    "active_blend_is": "modelo final com câmera corrigida",
+    "archive_guard": "inicio.json.camera_previous_delivery.sha256",
+    "expected_integrity_checks": 17,
+    "expected_ground_checks": 40,
+    "expected_upper_checks": 14,
+    "expected_renders": 23,
+    "expected_comparisons": 9
+  }
+}

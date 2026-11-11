@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-11-10T20:13:22.072995+00:00",
+  "source": "projeto/.em-validacao.blend",
+  "destination": "projeto/casa-reconstruida.blend",
+  "sha256": "971dc3f90083e7339e626d8076a2ac28e2684187b316e7c14c040a1711b24563",
+  "previous_sha256": "b7a8f031488450e8c9ded6715e2496246bd5b26b6c1e1fd24d714ffb45437cae",
+  "previous_copy": "historico/revisao08/projeto/casa-reconstruida.blend",
+  "validation": "relatorios/atual/validacao.json",
+  "external_publication": false
+}

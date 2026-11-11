@@ -1,0 +1,149 @@
+{
+  "unique_images": 26,
+  "files": 31,
+  "duplicates": [
+    [
+      "area1.webp",
+      "area4.webp"
+    ],
+    [
+      "cozinha1.webp",
+      "cozinha3.webp",
+      "cozinha4.webp"
+    ],
+    [
+      "cozinha2.webp",
+      "cozinha5.webp"
+    ],
+    [
+      "sala1.webp",
+      "sala8.webp"
+    ]
+  ],
+  "inputs": {
+    "area1.webp": {
+      "sha256": "b2ad9d582bc588114fcc79fb1a7940824b9cc9a4598aaa237cfdd395b6c3768c",
+      "bytes": 254392
+    },
+    "area4.webp": {
+      "sha256": "b2ad9d582bc588114fcc79fb1a7940824b9cc9a4598aaa237cfdd395b6c3768c",
+      "bytes": 254392
+    },
+    "area2.webp": {
+      "sha256": "5ece5bcf4c7adde91e8e0b8da49ff2824104f580c98cdbeed894f9e707936d85",
+      "bytes": 263210
+    },
+    "area3.webp": {
+      "sha256": "65d0164647be6748b6c8352bb2ffcec9220bfbee2b62f8fad02ccf788925a43d",
+      "bytes": 121150
+    },
+    "banheiro2.webp": {
+      "sha256": "0aeb630ea709bea2750437560ac5ddd812a61aa02e1fd83031dbed8199e1f947",
+      "bytes": 62684
+    },
+    "cozinha1.webp": {
+      "sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+      "bytes": 116106
+    },
+    "cozinha3.webp": {
+      "sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+      "bytes": 116106
+    },
+    "cozinha4.webp": {
+      "sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+      "bytes": 116106
+    },
+    "cozinha2.webp": {
+      "sha256": "179b470578d5a09c1442389f62f216799023eaabd4952559248012a4ec5b4007",
+      "bytes": 123340
+    },
+    "cozinha5.webp": {
+      "sha256": "179b470578d5a09c1442389f62f216799023eaabd4952559248012a4ec5b4007",
+      "bytes": 123340
+    },
+    "escada1.webp": {
+      "sha256": "1430dc344688a5ced797436ba5e4d71d9a1dfef2ac7b0d7b014e0df74e36107c",
+      "bytes": 158026
+    },
+    "exterior1.webp": {
+      "sha256": "0521b77e5ce4193a7f4022a55842f8285b8843fdcc1573104357629714864c85",
+      "bytes": 179058
+    },
+    "exterior2.webp": {
+      "sha256": "ecd481a43da77d4b02918cb673a28d3e26f5387e8520213925eb6c1175b15163",
+      "bytes": 152576
+    },
+    "lavabo1.webp": {
+      "sha256": "c6b5879838bcb86db4165dda5fb807f8fdf35b91029ca68ba8cc1a275fc7cbca",
+      "bytes": 67956
+    },
+    "lavanderia1.webp": {
+      "sha256": "9bcd7d49912e4cea23e63af413d717646c7259dbe2a976218a1948ae3d7592b6",
+      "bytes": 122516
+    },
+    "quartoazul1.webp": {
+      "sha256": "d7a13345fe9d99a006155071e7da839cb01c18216771c9fe87cf92ae17117799",
+      "bytes": 112030
+    },
+    "quartoazul2.webp": {
+      "sha256": "d007c44be4dc781e9300ad8ff529f464504a0075f234bf7f4c4765abfe3fa54c",
+      "bytes": 92818
+    },
+    "quartobranco1.webp": {
+      "sha256": "ed7c15da98f860c2a48d535126172ccba415d7debc9fc6a01f662b7b266d6710",
+      "bytes": 59406
+    },
+    "quartobranco2.webp": {
+      "sha256": "caf3c91da894e1ecf8351fbbbd3625c9ba1f4d73a8927d3147138ff15fe70937",
+      "bytes": 32512
+    },
+    "quartosuite1.webp": {
+      "sha256": "85e94b72addf29cb79c37ce2f49665f1f3d4e43e5011af79aa1c2b5f32560579",
+      "bytes": 87510
+    },
+    "quartosuite2.webp": {
+      "sha256": "58a21d4c74bc5a6fdd7efcdbf17f7f3edea56c011cd0c6fbb1c732feb7672c88",
+      "bytes": 63052
+    },
+    "quartosuite3.webp": {
+      "sha256": "582bd0dbd4ef9c0a7bfe0a8d790e965ccf44f71ff27f2b7b95a52f6cea2933ab",
+      "bytes": 66002
+    },
+    "sala1.webp": {
+      "sha256": "45783b9547a24e8747ec1f6745b2c5ef52415635ffca5d5d9e4ec4f11a696851",
+      "bytes": 105048
+    },
+    "sala8.webp": {
+      "sha256": "45783b9547a24e8747ec1f6745b2c5ef52415635ffca5d5d9e4ec4f11a696851",
+      "bytes": 105048
+    },
+    "sala2.webp": {
+      "sha256": "076000ac67813a089ecdeee7a0606ad5b6e45d09b8979c352d96927f2ff2024e",
+      "bytes": 94682
+    },
+    "sala3.webp": {
+      "sha256": "c1ebe5c946785479d856dc28a12f0d6f3916a9081bf05f05f89d395e50aee19c",
+      "bytes": 53214
+    },
+    "sala4.webp": {
+      "sha256": "d1255dafef803f13a2b53f31d5188e69edc37f4398834a4fd07c45469b6f7af7",
+      "bytes": 70814
+    },
+    "sala5.webp": {
+      "sha256": "05db742dbfeac6d02a12182c20ce9617dc2f0e27c8d9e68a3fbb8b3f339d9496",
+      "bytes": 61300
+    },
+    "sala6.webp": {
+      "sha256": "873531a9f8aed94757372d23a62deecdafc686d68d9cb61bc50f7b2c5cdc77e7",
+      "bytes": 77498
+    },
+    "sala7.webp": {
+      "sha256": "0c379455c0a715667a1f5f519fb54e786f8cb378a7970e856a48134c65ad5390",
+      "bytes": 67498
+    },
+    "suite1.webp": {
+      "sha256": "ebbcb2a7db13a5f855634bb08caee54df5f6d17591ae364d991f6dfdd2bfc35a",
+      "bytes": 67008
+    }
+  }
+}

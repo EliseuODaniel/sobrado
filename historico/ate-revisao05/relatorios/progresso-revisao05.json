@@ -1,0 +1,32 @@
+{
+  "objective": "Refazer a planta 3D da casa usando referencias-originais, preservando proposta anterior",
+  "updated_utc": "2026-11-10T16:29:44.678778+00:00",
+  "current_blend": "projeto/casa-reconstruida.blend",
+  "source_policy": "Croqui aproximado e correção posterior explícita do usuário: o lavabo fica sob o segundo lance, liberando a frente para garagem.",
+  "verified": [
+    "Fachada revista por exterior1 e exterior2: garagem sob volume superior, laterais contínuas, varanda recuada, rede, grades e janela posterior",
+    "Térreo conferido em oito ângulos; cozinha, churrasqueira, lavanderia e lavabo refinados conforme fotos",
+    "Layout aprovado preservado, incluindo entrada diagonal, garagem ampliada e lavabo sob segundo lance",
+    "17 cenas reabertas e 17 renders gerados do mesmo arquivo salvo",
+    "15 verificações de integridade e 33 relações geométricas passaram; comparações visuais concluídas",
+    "31 originais, croqui e revisão anterior preservados; hashes conciliados"
+  ],
+  "current_execution": null,
+  "remaining": [
+    "Confirmar existência e ligação de pátio entre cozinha e lavanderia: pergunta pendente",
+    "Confirmar medidas lineares, folgas e forma completa do telhado",
+    "Desenhar implantação interna do segundo pavimento na próxima etapa"
+  ],
+  "preserved": [
+    "projeto/sala-industrial.blend",
+    "docs/SALA-INDUSTRIAL-ANTERIOR.md",
+    "projeto/versoes/"
+  ],
+  "initial_user_changes": [
+    "prompt/",
+    "referencias/",
+    "referencias-originais/"
+  ],
+  "result_scope": "Conferência fotográfica e correção de contradições específicas do térreo e fachada na revisão 05. Não equivale a levantamento métrico ou planta integralmente confirmada.",
+  "revision": 5
+}

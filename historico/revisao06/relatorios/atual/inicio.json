@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "2026-11-10T17:02:51.519876+00:00",
+  "scope": "Atualizar todos os arquivos atuais do térreo conforme a nova planta confirmada e arquivar os anteriores.",
+  "source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "user_correction": {
+    "source": "Nova planta anotada e confirmação textual do usuário",
+    "instruction": "A porta do lavabo fica na marcação preta, na parede horizontal superior do lavabo. O retângulo vermelho delimita o lavabo. A área branca acima à esquerda indica acesso livre.",
+    "supersedes": "Porta lateral esquerda usada nas revisões anteriores",
+    "dimensions_status": "approximate_no_measured_anchor"
+  },
+  "previous_blend_sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2",
+  "archive_manifest": "historico/ate-revisao05/ARQUIVAMENTO.json",
+  "additional_archives": [
+    {
+      "source": "projeto/.em-validacao.blend (prévia)",
+      "destination": "historico/rascunhos/revisao06/sem-chamada-da-porta.blend",
+      "sha256": "6cd7c58d82492b0b54876d13babce3b545b65788217979772b42f1ec26c155ac"
+    },
+    {
+      "source": "renders/atual/previas/terreo-3d.png",
+      "destination": "historico/rascunhos/revisao06/previas-sem-chamada/terreo-3d.png",
+      "sha256": "0f5c21c057076f71d4ce675968a97c3d9b82b17365f8b6ebb9fd17600e24c015"
+    },
+    {
+      "source": "renders/atual/previas/planta-terreo.png",
+      "destination": "historico/rascunhos/revisao06/previas-sem-chamada/planta-terreo.png",
+      "sha256": "9b990bf1de8b12e4fb6ee596a2f61557bb004cfa40e2bf6ef019542c4e229e26"
+    },
+    {
+      "source": "renders/atual/previas/porta-lavabo.png",
+      "destination": "historico/rascunhos/revisao06/previas-sem-chamada/porta-lavabo.png",
+      "sha256": "77b99a3147389073530ab09cf6d4d723ab9393e70eee3c959d5c8cc1a146c2d5"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao06/renders-previa.json",
+      "sha256": "ad3591eb80948af8b4719bf2336b6dd9fe767f26334875fc02db33ffdd2593c2"
+    },
+    {
+      "source": "relatorios/atual/previa.log",
+      "destination": "historico/rascunhos/revisao06/previa.log",
+      "sha256": "8d78a32dd3ee591315635dad6c6dfed0cae3350a4da6d5937ce190440d920467"
+    }
+  ]
+}

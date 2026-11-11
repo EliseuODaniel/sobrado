@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-11-10T18:03:43.162406+00:00",
+  "blend": "projeto/.em-validacao.blend",
+  "version": "5.2.4 LTS",
+  "revision": 7,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "objects": 2603,
+  "scenes": [
+    "CASA_Completa",
+    "CORTE_Lavabo_Escada",
+    "ESTUDOS_Superior",
+    "FOTO_Acesso_Lavabo",
+    "FOTO_Bar",
+    "FOTO_Cozinha",
+    "FOTO_Cozinha_Reversa",
+    "FOTO_Detalhe_Escada",
+    "FOTO_Fachada",
+    "FOTO_Fachada_Obliqua",
+    "FOTO_Lavabo",
+    "FOTO_Lavanderia",
+    "FOTO_Sala_Frente",
+    "FOTO_Sala_Fundos",
+    "PLANTA_Superior",
+    "PLANTA_Superior_Cotas",
+    "PLANTA_Terreo",
+    "PLANTA_Terreo_Cotas",
+    "PLANTA_Terreo_Portas"
+  ],
+  "source_status": "Térreo conforme croqui aproximado do usuário e fotos. Superior sem implantação confirmada."
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-11-10T16:14:21.218600+00:00",
+  "blend": "projeto/casa-terreo-revisao05.blend",
+  "sha256": "1cca536bc0d91c3879daaecbf0cfbcdc5512a9be7a5915f0d778a4f79e8b4ab9",
+  "version": "5.2.4 LTS",
+  "preview": true,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "outputs": [
+    "renders/revisao-05/previas/fachada-frontal.png",
+    "renders/revisao-05/previas/fachada-obliqua.png",
+    "renders/revisao-05/previas/sala-fundos.png",
+    "renders/revisao-05/previas/sala-frente.png",
+    "renders/revisao-05/previas/escada-acesso.png",
+    "renders/revisao-05/previas/cozinha.png",
+    "renders/revisao-05/previas/cozinha-reversa.png",
+    "renders/revisao-05/previas/bar.png",
+    "renders/revisao-05/previas/lavanderia.png",
+    "renders/revisao-05/previas/lavabo.png"
+  ],
+  "saved_file_unchanged": true
+}

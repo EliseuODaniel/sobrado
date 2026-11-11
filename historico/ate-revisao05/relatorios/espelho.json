@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-11-10T10:21:05.312764+00:00",
+  "crop_size": [
+    80,
+    348
+  ],
+  "normalized_crop": {
+    "x": [
+      0.15,
+      0.198
+    ],
+    "y_from_bottom": [
+      0.3,
+      0.67
+    ]
+  },
+  "changed_pixels_over_12": 1038,
+  "change_bbox": [
+    23,
+    165,
+    80,
+    256
+  ],
+  "mean_absolute_rgb_8bit": [
+    4.301831896551724,
+    3.6304597701149426,
+    3.518534482758621
+  ],
+  "seed_unchanged": true,
+  "original_position_restored": true,
+  "visual_review": "Vaso creme aparece em duas posições no reflexo; recorte exclui a vista direta do vaso.",
+  "method": "Mesmo .blend/seed; mover vaso real do bar Δ=(0.05,-0.35,0.03) m; renderizar somente a faixa espelhada; restaurar."
+}

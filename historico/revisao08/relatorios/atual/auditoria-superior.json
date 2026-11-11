@@ -1,0 +1,220 @@
+{
+  "checks": {
+    "contagens_7_curva_4": {
+      "passed": true,
+      "detail": {
+        "1": 7,
+        "curva": 6,
+        "2": 4
+      }
+    },
+    "alturas_continuas_ate_piso_superior": {
+      "passed": true,
+      "detail": [
+        0.17058822512626648,
+        0.34117648005485535,
+        0.5117647051811218,
+        0.6823529005050659,
+        0.8529411554336548,
+        1.0235294103622437,
+        1.1941176652908325,
+        1.3647059202194214,
+        1.5352940559387207,
+        1.7058823108673096,
+        1.8764705657958984,
+        2.0470588207244873,
+        2.217647075653076,
+        2.388235330581665,
+        2.558823585510254,
+        2.7294118404388428,
+        2.9000000953674316
+      ]
+    },
+    "lances_encostados_sem_faixa_intermediaria": {
+      "passed": true,
+      "detail": {
+        "first_south_y": 3.6499998569488525,
+        "final_north_y": 3.6500000953674316,
+        "gap_m": -2.384185791015625e-07
+      }
+    },
+    "lance_final_mais_curto_e_chega_antes_do_inicial": {
+      "passed": true,
+      "detail": {
+        "first_x": [
+          3.990000009536743,
+          4.970000267028809
+        ],
+        "final_x": [
+          4.409999847412109,
+          4.970000267028809
+        ]
+      }
+    },
+    "degraus_consecutivos_sem_lacunas_no_plano": {
+      "passed": true,
+      "detail": []
+    },
+    "laje_sobre_degraus_baixos_sem_colisao_de_altura": {
+      "passed": true,
+      "detail": {
+        "clearances_m": [
+          2.5194120556116104,
+          2.348824054002762,
+          2.1782355904579163
+        ],
+        "scope": "folga no estudo, não verificação normativa"
+      }
+    },
+    "chegada_ligada_a_laje": {
+      "passed": true,
+      "detail": {
+        "hit": "Laje superior segmento 01",
+        "position": [
+          4.37999963760376,
+          3.2200000286102295,
+          2.9000000953674316
+        ]
+      }
+    },
+    "hall_ampliado_tem_laje_sobre_primeiro_lance": {
+      "passed": true,
+      "detail": {
+        "point": [
+          4.2,
+          4.08
+        ],
+        "hit": "Laje superior segmento 01",
+        "height": 2.9000000953674316
+      }
+    },
+    "circulacao_conecta_tres_quartos_sem_parede_ou_vao": {
+      "passed": true,
+      "detail": {
+        "routes": {
+          "suite": [
+            [
+              4.11,
+              3.22
+            ],
+            [
+              3.3,
+              3.3
+            ],
+            [
+              2.45,
+              3.25
+            ]
+          ],
+          "frente": [
+            [
+              4.11,
+              3.22
+            ],
+            [
+              3.4,
+              2.5
+            ]
+          ],
+          "fundos": [
+            [
+              4.11,
+              3.22
+            ],
+            [
+              2.95,
+              4.05
+            ],
+            [
+              3.38,
+              4.05
+            ],
+            [
+              3.38,
+              4.95
+            ]
+          ]
+        },
+        "failures": []
+      }
+    },
+    "camas_nas_posicoes_relativas_confirmadas": {
+      "passed": true,
+      "detail": {
+        "suite": [
+          1.149999976158142,
+          0.30000001192092896,
+          2.9000000953674316
+        ],
+        "frente": [
+          4.75,
+          0.15000000596046448,
+          2.9000000953674316
+        ],
+        "fundos": [
+          4.849999904632568,
+          5.800000190734863,
+          2.9000000953674316
+        ]
+      }
+    },
+    "quartos_e_banheiros_dentro_envoltoria_fora_vao": {
+      "passed": true,
+      "detail": []
+    },
+    "acessos_wcs_pelos_lados_do_novo_croqui": {
+      "passed": true,
+      "detail": {
+        "routes": {
+          "suite": [
+            [
+              0.85,
+              3.55
+            ],
+            [
+              0.85,
+              4.15
+            ]
+          ],
+          "social": [
+            [
+              3.35,
+              4.25
+            ],
+            [
+              2.45,
+              4.25
+            ]
+          ]
+        },
+        "failures": []
+      }
+    },
+    "wcs_paralelos_na_faixa_esquerda_sem_area_inventada": {
+      "passed": true,
+      "detail": {
+        "wc_suite": [
+          0,
+          1.4,
+          3.8,
+          6.95
+        ],
+        "wc_social": [
+          1.4,
+          2.8,
+          3.8,
+          6.95
+        ]
+      }
+    },
+    "banheiros_marcados_como_hipotese": {
+      "passed": true,
+      "detail": [
+        "banho_suite",
+        "banho_social"
+      ]
+    }
+  },
+  "all_passed": true,
+  "scope": "Conectividade e coerência do estudo aproximado; não certifica medidas ou execução."
+}

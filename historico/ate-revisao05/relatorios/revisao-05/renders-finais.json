@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-11-10T16:28:43.321380+00:00",
+  "blend": "projeto/casa-terreo-revisao05.blend",
+  "sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2",
+  "version": "5.2.4 LTS",
+  "preview": false,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "outputs": [
+    "renders/revisao-05/final/fachada-frontal.png",
+    "renders/revisao-05/final/fachada-obliqua.png",
+    "renders/revisao-05/final/sala-fundos.png",
+    "renders/revisao-05/final/sala-frente.png",
+    "renders/revisao-05/final/escada-acesso.png",
+    "renders/revisao-05/final/cozinha.png",
+    "renders/revisao-05/final/cozinha-reversa.png",
+    "renders/revisao-05/final/bar.png",
+    "renders/revisao-05/final/lavanderia.png",
+    "renders/revisao-05/final/lavabo.png",
+    "renders/revisao-05/final/terreo-3d.png",
+    "renders/revisao-05/final/terreo-superior.png",
+    "renders/revisao-05/final/superior-pendente.png",
+    "renders/revisao-05/final/superior-envoltoria.png",
+    "renders/revisao-05/final/estudos-superior.png",
+    "renders/revisao-05/final/volumetria.png",
+    "renders/revisao-05/final/lavabo-sob-escada.png"
+  ],
+  "saved_file_unchanged": true
+}

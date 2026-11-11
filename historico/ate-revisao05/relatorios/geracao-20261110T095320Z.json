@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "20261110T095320Z",
+  "blender_version": "5.2.4 LTS",
+  "blend": "projeto/versoes/sala-industrial-preview-20261110T095320Z.blend",
+  "render": "renders/previa-20261110T095320Z.png",
+  "device": {
+    "requested": "auto",
+    "backend": "CPU",
+    "devices": [
+      "Intel Core i9-14900HX"
+    ],
+    "fallback_reason": "Nenhum dispositivo OptiX enumerado pelo Blender neste processo."
+  },
+  "object_count": 2376,
+  "mesh_count": 2055,
+  "collections": [
+    "Arquitetura",
+    "Estar",
+    "Jantar",
+    "Bar",
+    "Cozinha",
+    "Iluminacao",
+    "Cameras",
+    "Referencias"
+  ],
+  "config_sha256": "81d3d8474ba4da8f5e55b2a0bf8583d70b1345e8e14d5751a60c4572a81e7fd9",
+  "quality": "preview",
+  "hypotheses": [
+    "Paredes e aberturas reconstruídas visualmente, sem levantamento do imóvel.",
+    "Cobertura envidraçada e vegetação são hipóteses da imagem; objetos separados no modelo.",
+    "Cozinha modelada apenas na faixa visível; áreas ocluídas simplificadas."
+  ]
+}

@@ -1,0 +1,1130 @@
+{
+  "timestamp_utc": "2026-11-10T17:09:52.692016+00:00",
+  "revision": 6,
+  "file": "projeto/.em-validacao.blend",
+  "sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af",
+  "version": "5.2.4 LTS",
+  "checks": {
+    "todas_as_cenas_salvas": {
+      "passed": true,
+      "detail": [
+        "CASA_Completa",
+        "CORTE_Lavabo_Escada",
+        "ESTUDOS_Superior",
+        "FOTO_Bar",
+        "FOTO_Cozinha",
+        "FOTO_Cozinha_Reversa",
+        "FOTO_Detalhe_Escada",
+        "FOTO_Fachada",
+        "FOTO_Fachada_Obliqua",
+        "FOTO_Lavabo",
+        "FOTO_Lavanderia",
+        "FOTO_Sala_Frente",
+        "FOTO_Sala_Fundos",
+        "PLANTA_Superior",
+        "PLANTA_Superior_Cotas",
+        "PLANTA_Terreo",
+        "PLANTA_Terreo_Cotas",
+        "PLANTA_Terreo_Portas"
+      ]
+    },
+    "cena_inicial_terreo": {
+      "passed": true,
+      "detail": null
+    },
+    "config_hash_todas_cenas": {
+      "passed": true,
+      "detail": null
+    },
+    "dois_niveis": {
+      "passed": true,
+      "detail": null
+    },
+    "numero_degraus_da_hipotese": {
+      "passed": true,
+      "detail": 18
+    },
+    "originais_preservados": {
+      "passed": true,
+      "detail": null
+    },
+    "referencias_empacotadas": {
+      "passed": true,
+      "detail": null
+    },
+    "analise_chatgpt_nao_promovida": {
+      "passed": true,
+      "detail": null
+    },
+    "superior_sem_bounds_inventados": {
+      "passed": true,
+      "detail": null
+    },
+    "cinco_modulos_superiores_separados": {
+      "passed": true,
+      "detail": [
+        "ESTUDO_banho_social",
+        "ESTUDO_banho_suite",
+        "ESTUDO_quarto_azul",
+        "ESTUDO_quarto_branco",
+        "ESTUDO_suite"
+      ]
+    },
+    "estudos_fora_da_planta_e_fotos": {
+      "passed": true,
+      "detail": null
+    },
+    "laje_nao_fecha_vao_escada": {
+      "passed": true,
+      "detail": []
+    },
+    "cameras_fora_dos_solidos": {
+      "passed": true,
+      "detail": []
+    },
+    "contradicoes_fotograficas_testadas": {
+      "passed": true,
+      "detail": null
+    },
+    "arquivo_preservado_durante_validacao": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "unknowns": [
+    "Implantação dos quartos e banheiros superiores",
+    "Forma e dimensões completas do retorno da escada",
+    "Dimensões reais; croqui do usuário não é levantamento métrico",
+    "Conciliação com a matrícula original, que não foi fornecida"
+  ],
+  "photo_geometry_audit": {
+    "timestamp_utc": "2026-11-10T17:09:53.531370+00:00",
+    "blend": "/home/edann/projects/casa-interiores/projeto/.em-validacao.blend",
+    "sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af",
+    "baseline": false,
+    "checks": {
+      "tv_na_parede_interna_lateral": {
+        "passed": true,
+        "detail": {
+          "tv_x": 3.0799999237060547,
+          "spine_x": 3.15
+        },
+        "references": [
+          "sala4.webp",
+          "sala7.webp"
+        ]
+      },
+      "porta_lavabo_na_marcacao_confirmada": {
+        "passed": true,
+        "detail": {
+          "door": [
+            3.2200000286102295,
+            3.6500000953674316,
+            0.0
+          ],
+          "expected": [
+            3.2200000286102295,
+            3.6500000953674316,
+            0.0
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "porta_lavabo_fechada_para_leitura": {
+        "passed": true,
+        "detail": {
+          "rotation_z": 0.0,
+          "opening_direction": "não informado"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "primeiro_lance_transversal": {
+        "passed": true,
+        "detail": {
+          "delta_first_to_ninth": [
+            0.8711109161376953,
+            0.0,
+            1.288888931274414
+          ]
+        },
+        "references": [
+          "sala1.webp",
+          "sala4.webp"
+        ]
+      },
+      "espelho_fora_do_volume_da_parede": {
+        "passed": true,
+        "detail": {
+          "mirror_front_x": 0.09250000072643161,
+          "wall_inside_x": 0.075
+        },
+        "references": [
+          "sala7.webp"
+        ]
+      },
+      "pedra_exposta_na_frente_da_parede": {
+        "passed": true,
+        "detail": {
+          "stone_front_y": 10.392499732784927,
+          "wall_front_y": 10.424999997019768
+        },
+        "references": [
+          "area3.webp"
+        ]
+      },
+      "primeiro_lance_nao_exposto_na_vista_sala7": {
+        "passed": true,
+        "detail": {
+          "visible": 0,
+          "total": 9,
+          "hits": [
+            "Painel TV branco",
+            "Painel TV branco",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente"
+          ],
+          "ndc": [
+            [
+              0.8049551844596863,
+              0.09949368983507156,
+              3.9935810565948486
+            ],
+            [
+              0.8205196857452393,
+              0.14061667025089264,
+              3.985048532485962
+            ],
+            [
+              0.8361510038375854,
+              0.18191619217395782,
+              3.976516008377075
+            ],
+            [
+              0.8518494963645935,
+              0.22339333593845367,
+              3.9679834842681885
+            ],
+            [
+              0.8676156997680664,
+              0.26504918932914734,
+              3.9594509601593018
+            ],
+            [
+              0.8834499716758728,
+              0.3068850040435791,
+              3.950918436050415
+            ],
+            [
+              0.8993527889251709,
+              0.3489018976688385,
+              3.9423859119415283
+            ],
+            [
+              0.9153246879577637,
+              0.39110106229782104,
+              3.9338531494140625
+            ],
+            [
+              0.9313659071922302,
+              0.43348369002342224,
+              3.925320625305176
+            ]
+          ]
+        },
+        "references": [
+          "sala7.webp"
+        ]
+      },
+      "primeiro_lance_visivel_no_angulo_sala1": {
+        "passed": true,
+        "detail": {
+          "visible": 9,
+          "total": 9,
+          "hits": [
+            "Degrau 01 granito",
+            "Degrau 02 granito",
+            "Degrau 03 granito",
+            "Degrau 04 granito",
+            "Degrau 05 granito",
+            "Degrau 06 granito",
+            "Degrau 07 granito",
+            "Degrau 08 granito",
+            "Degrau 09 granito"
+          ],
+          "ndc": [
+            [
+              0.9088608622550964,
+              0.00908729899674654,
+              2.353604316711426
+            ],
+            [
+              0.9144997000694275,
+              0.0826970785856247,
+              2.418172597885132
+            ],
+            [
+              0.9198452830314636,
+              0.1524781733751297,
+              2.482741355895996
+            ],
+            [
+              0.9249197244644165,
+              0.2187216877937317,
+              2.5473098754882812
+            ],
+            [
+              0.9297433495521545,
+              0.28168994188308716,
+              2.6118786334991455
+            ],
+            [
+              0.9343342781066895,
+              0.3416200280189514,
+              2.6764473915100098
+            ],
+            [
+              0.9387088418006897,
+              0.3987266421318054,
+              2.741015911102295
+            ],
+            [
+              0.9428821206092834,
+              0.4532046914100647,
+              2.805584669113159
+            ],
+            [
+              0.9468675851821899,
+              0.5052316188812256,
+              2.8701531887054443
+            ]
+          ]
+        },
+        "references": [
+          "sala1.webp"
+        ]
+      },
+      "primeiro_lance_visivel_na_vista_sala4": {
+        "passed": true,
+        "detail": {
+          "visible": 5,
+          "total": 9,
+          "hits": [
+            "Degrau 01 granito",
+            "Degrau 02 granito",
+            "Degrau 03 granito",
+            "Degrau 04 granito",
+            "Degrau 05 granito",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001"
+          ],
+          "ndc": [
+            [
+              0.06175883486866951,
+              0.13018934428691864,
+              2.613703727722168
+            ],
+            [
+              0.054334282875061035,
+              0.1902482956647873,
+              2.669114589691162
+            ],
+            [
+              0.047211792320013046,
+              0.24786439538002014,
+              2.7245259284973145
+            ],
+            [
+              0.04037313908338547,
+              0.30318355560302734,
+              2.7799367904663086
+            ],
+            [
+              0.033801883459091187,
+              0.35634055733680725,
+              2.835348129272461
+            ],
+            [
+              0.027482440695166588,
+              0.40745967626571655,
+              2.890759229660034
+            ],
+            [
+              0.021400855854153633,
+              0.45665591955184937,
+              2.9461703300476074
+            ],
+            [
+              0.015543664805591106,
+              0.5040357708930969,
+              3.0015814304351807
+            ],
+            [
+              0.009898953139781952,
+              0.5496980547904968,
+              3.056992530822754
+            ]
+          ]
+        },
+        "references": [
+          "sala4.webp"
+        ]
+      },
+      "janela_cozinha_visivel_pela_passagem": {
+        "passed": true,
+        "detail": {
+          "visible": 2,
+          "total": 39,
+          "hits": [
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Armário aéreo junto ao ripado",
+            "Interfone pilar entre escada e cozinha",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+            "Separação escada cozinha trecho final",
+            "Separação escada cozinha trecho final",
+            "Separação escada cozinha trecho final",
+            "Separação escada cozinha trecho final",
+            "Separação escada cozinha trecho final",
+            "Separação escada cozinha trecho final",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "ESPINHA_Lateral TV lavabo escada cozinha trecho",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente"
+          ],
+          "ndc": [
+            [
+              0.6423931121826172,
+              0.4759986102581024,
+              7.362473487854004
+            ],
+            [
+              0.6426295638084412,
+              0.5211911201477051,
+              7.35026741027832
+            ],
+            [
+              0.6428743004798889,
+              0.56795334815979,
+              7.337679862976074
+            ],
+            [
+              0.6515408158302307,
+              0.4759753346443176,
+              7.359784126281738
+            ],
+            [
+              0.651792585849762,
+              0.5211843252182007,
+              7.347578048706055
+            ],
+            [
+              0.6520530581474304,
+              0.5679636597633362,
+              7.334990978240967
+            ],
+            [
+              0.6606952548027039,
+              0.47595205903053284,
+              7.357094764709473
+            ],
+            [
+              0.6609622836112976,
+              0.5211775898933411,
+              7.344888687133789
+            ],
+            [
+              0.6612386107444763,
+              0.5679740309715271,
+              7.332301616668701
+            ],
+            [
+              0.6698563098907471,
+              0.47592875361442566,
+              7.354405403137207
+            ],
+            [
+              0.6701387166976929,
+              0.5211707949638367,
+              7.342199802398682
+            ],
+            [
+              0.6704308986663818,
+              0.5679844617843628,
+              7.3296122550964355
+            ],
+            [
+              0.6790241003036499,
+              0.4759054183959961,
+              7.3517165184021
+            ],
+            [
+              0.679321825504303,
+              0.5211640000343323,
+              7.339510440826416
+            ],
+            [
+              0.679629921913147,
+              0.5679948329925537,
+              7.32692289352417
+            ],
+            [
+              0.6881985664367676,
+              0.47588208317756653,
+              7.349027156829834
+            ],
+            [
+              0.6885116696357727,
+              0.5211572051048279,
+              7.33682107925415
+            ],
+            [
+              0.688835620880127,
+              0.5680052042007446,
+              7.3242340087890625
+            ],
+            [
+              0.6973798274993896,
+              0.4758587181568146,
+              7.346337795257568
+            ],
+            [
+              0.6977083086967468,
+              0.5211504101753235,
+              7.334131717681885
+            ],
+            [
+              0.6980481743812561,
+              0.5680156350135803,
+              7.321544647216797
+            ],
+            [
+              0.7065677642822266,
+              0.4758353531360626,
+              7.343648433685303
+            ],
+            [
+              0.7069116234779358,
+              0.5211436152458191,
+              7.331442832946777
+            ],
+            [
+              0.7072675228118896,
+              0.5680260062217712,
+              7.318855285644531
+            ],
+            [
+              0.7157623767852783,
+              0.4758119583129883,
+              7.340959548950195
+            ],
+            [
+              0.7161217331886292,
+              0.5211368203163147,
+              7.328753471374512
+            ],
+            [
+              0.716493546962738,
+              0.5680364370346069,
+              7.316165924072266
+            ],
+            [
+              0.7249637842178345,
+              0.47578856348991394,
+              7.33827018737793
+            ],
+            [
+              0.7253386378288269,
+              0.5211300253868103,
+              7.326064109802246
+            ],
+            [
+              0.7257264256477356,
+              0.5680468678474426,
+              7.313477039337158
+            ],
+            [
+              0.734171986579895,
+              0.4757651090621948,
+              7.335580825805664
+            ],
+            [
+              0.7345622777938843,
+              0.5211231708526611,
+              7.3233747482299805
+            ],
+            [
+              0.7349660992622375,
+              0.5680572986602783,
+              7.310787677764893
+            ],
+            [
+              0.7433868646621704,
+              0.4757416844367981,
+              7.332891464233398
+            ],
+            [
+              0.7437926530838013,
+              0.5211163759231567,
+              7.320685863494873
+            ],
+            [
+              0.7442125678062439,
+              0.568067729473114,
+              7.308098316192627
+            ],
+            [
+              0.7526085376739502,
+              0.475718230009079,
+              7.330202579498291
+            ],
+            [
+              0.7530298233032227,
+              0.5211095213890076,
+              7.317996501922607
+            ],
+            [
+              0.7534658312797546,
+              0.5680781602859497,
+              7.305408954620361
+            ]
+          ]
+        },
+        "references": [
+          "sala7.webp",
+          "cozinha2.webp"
+        ]
+      },
+      "porta_lavabo_visivel_pela_nova_passagem": {
+        "passed": true,
+        "detail": {
+          "visible": 1,
+          "total": 1,
+          "hits": [
+            "Porta lavabo folha"
+          ],
+          "ndc": [
+            [
+              0.2076820433139801,
+              0.4629628658294678,
+              2.8887174129486084
+            ]
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "superior_sem_adjacencias_inventadas": {
+        "passed": true,
+        "detail": [],
+        "references": [
+          "quartosuite1.webp",
+          "quartoazul1.webp",
+          "quartobranco1.webp"
+        ]
+      },
+      "entrada_em_diagonal": {
+        "passed": true,
+        "detail": {
+          "angle_radians": 0.6361885666847229
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "lavabo_atras_da_continuacao_garagem": {
+        "passed": true,
+        "detail": {
+          "garage": [
+            3.15,
+            5.6,
+            0,
+            2.79
+          ],
+          "lavabo": [
+            3.15,
+            5.6,
+            2.79,
+            3.6500000000000004
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "lavanderia_imediatamente_atras_cozinha": {
+        "passed": true,
+        "detail": {
+          "laundry": [
+            3.15,
+            5.6,
+            7.6,
+            10.5
+          ],
+          "kitchen": [
+            3.15,
+            5.6,
+            4.9,
+            7.6
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "fundos_churrasqueira_lavanderia_alinhados": {
+        "passed": true,
+        "detail": {
+          "bar_back": 10.5,
+          "laundry_back": 10.5
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "passagem_lateral_lavanderia_livre": {
+        "passed": true,
+        "detail": {
+          "hit": null
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "garagem_aberta_ate_divisao_lavabo": {
+        "passed": true,
+        "detail": {
+          "hit": "Garagem parede posterior trecho final",
+          "hit_y": 2.640000104904175
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "churrasqueira_canto_fundos_esquerdo": {
+        "passed": true,
+        "detail": [
+          0.5,
+          10.119999885559082,
+          0.0
+        ],
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "tres_banquetas_conforme_croqui": {
+        "passed": true,
+        "detail": 3,
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "lavabo_sob_segundo_lance_e_patamar": {
+        "passed": true,
+        "detail": {
+          "lavabo": [
+            3.15,
+            5.6,
+            2.79,
+            3.6500000000000004
+          ],
+          "second_flight_y": [
+            2.79,
+            3.6500000000000004
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "garagem_ampliada_preservada": {
+        "passed": true,
+        "detail": {
+          "before": [
+            3.15,
+            5.6,
+            0,
+            2.79
+          ],
+          "after": [
+            3.15,
+            5.6,
+            0,
+            2.79
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "loucas_e_espelho_dentro_lavabo_abaixo_forro": {
+        "passed": true,
+        "detail": [],
+        "references": [
+          "config/planta-casa.json#user_correction"
+        ]
+      },
+      "fachada_sem_marquise_e_pilares_avancados": {
+        "passed": true,
+        "detail": {
+          "columns": [
+            [
+              0.0,
+              -1.590000033378601,
+              2.8499999046325684
+            ],
+            [
+              5.599999904632568,
+              -1.590000033378601,
+              2.8499999046325684
+            ]
+          ]
+        },
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "garagem_com_paredes_laterais_continuas": {
+        "passed": true,
+        "detail": [
+          "Parede lateral contínua garagem trecho final",
+          "Parede lateral contínua garagem trecho final.001"
+        ],
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "varanda_recuada_com_rede": {
+        "passed": true,
+        "detail": {
+          "recessed_y": -0.75,
+          "flush_y": -1.649999976158142
+        },
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "janela_sala_com_grade": {
+        "passed": true,
+        "detail": {},
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "janela_pequena_visivel_no_fundo_garagem": {
+        "passed": true,
+        "detail": {
+          "visible": 1,
+          "total": 1,
+          "hits": [
+            "Janela posterior garagem caixilho.001"
+          ],
+          "ndc": [
+            [
+              0.5529544949531555,
+              0.3196404278278351,
+              11.004137992858887
+            ]
+          ]
+        },
+        "references": [
+          "exterior2.webp"
+        ]
+      },
+      "escada_oculta_na_vista_externa": {
+        "passed": true,
+        "detail": {
+          "visible": 0,
+          "total": 18,
+          "hits": [
+            "Garagem parede posterior trecho",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior verga",
+            "Garagem parede posterior verga",
+            "Garagem parede posterior trecho",
+            "Garagem parede posterior trecho",
+            "Verga entrada diagonal"
+          ],
+          "ndc": [
+            [
+              0.5410009026527405,
+              0.19215360283851624,
+              12.23901081085205
+            ],
+            [
+              0.546280026435852,
+              0.20797663927078247,
+              12.274995803833008
+            ],
+            [
+              0.5515283346176147,
+              0.2237071543931961,
+              12.310980796813965
+            ],
+            [
+              0.5567460060119629,
+              0.23934602737426758,
+              12.346965789794922
+            ],
+            [
+              0.5619333386421204,
+              0.254893958568573,
+              12.382950782775879
+            ],
+            [
+              0.5670906901359558,
+              0.2703517973423004,
+              12.418935775756836
+            ],
+            [
+              0.5722181797027588,
+              0.2857202887535095,
+              12.454919815063477
+            ],
+            [
+              0.5773161053657532,
+              0.3010002672672272,
+              12.490904808044434
+            ],
+            [
+              0.5823847651481628,
+              0.3161924481391907,
+              12.52688980102539
+            ],
+            [
+              0.5915682315826416,
+              0.33331751823425293,
+              11.606888771057129
+            ],
+            [
+              0.5820547342300415,
+              0.3496571481227875,
+              11.617400169372559
+            ],
+            [
+              0.5725584030151367,
+              0.3659672439098358,
+              11.627911567687988
+            ],
+            [
+              0.563079297542572,
+              0.3822478950023651,
+              11.638422966003418
+            ],
+            [
+              0.5536172389984131,
+              0.39849910140037537,
+              11.648934364318848
+            ],
+            [
+              0.5441722273826599,
+              0.4147210717201233,
+              11.659445762634277
+            ],
+            [
+              0.5347442626953125,
+              0.4309137761592865,
+              11.669957160949707
+            ],
+            [
+              0.5253332853317261,
+              0.44707736372947693,
+              11.680468559265137
+            ],
+            [
+              0.5159392356872559,
+              0.46321186423301697,
+              11.690979957580566
+            ]
+          ]
+        },
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "bancada_nao_atravessa_fogao": {
+        "passed": true,
+        "detail": [
+          "Boca fogão",
+          "Boca fogão.001",
+          "Boca fogão.002",
+          "Boca fogão.003"
+        ],
+        "references": [
+          "cozinha1.webp"
+        ]
+      },
+      "lavadora_superior_livre_de_granito": {
+        "passed": true,
+        "detail": "Tampa lavadora superior",
+        "references": [
+          "lavanderia1.webp"
+        ]
+      },
+      "retorno_lavanderia_no_lado_esquerdo": {
+        "passed": true,
+        "detail": [
+          3.4700000286102295,
+          10.109999656677246,
+          0.8999999761581421
+        ],
+        "references": [
+          "lavanderia1.webp"
+        ]
+      },
+      "partes_nao_alteradas_preservadas": {
+        "passed": true,
+        "detail": [
+          "spine_x",
+          "garage_extension_bounds",
+          "entry_diagonal",
+          "laundry_bounds",
+          "kitchen",
+          "bar"
+        ],
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "folha_da_porta_na_parede_horizontal": {
+        "passed": true,
+        "detail": {
+          "dimensions": [
+            0.6949999928474426,
+            0.03500000014901161,
+            1.975000023841858
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "antigo_vao_lateral_fechado": {
+        "passed": true,
+        "detail": {
+          "hit": "ESPINHA_Lateral TV lavabo escada cozinha trecho"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "passagem_da_sala_livre": {
+        "passed": true,
+        "detail": {
+          "hit": null
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "aproximacao_da_nova_porta_livre": {
+        "passed": true,
+        "detail": {
+          "hit": "Porta lavabo folha"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "acesso_nao_bloqueado_por_degraus": {
+        "passed": true,
+        "detail": {
+          "hit": "Porta lavabo folha"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      }
+    },
+    "all_passed": true,
+    "scope": "Detecção de contradições discretas e visibilidade. Não prova equivalência métrica, fotográfica ou a implantação real do superior."
+  },
+  "renders": {
+    "timestamp_utc": "2026-11-10T17:14:57.826884+00:00",
+    "blend": "projeto/.em-validacao.blend",
+    "sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af",
+    "version": "5.2.4 LTS",
+    "preview": false,
+    "device": {
+      "requested": "cpu",
+      "backend": "CPU",
+      "devices": [
+        "CPU"
+      ],
+      "fallback_reason": null
+    },
+    "outputs": [
+      "renders/atual/fachada-frontal.png",
+      "renders/atual/fachada-obliqua.png",
+      "renders/atual/sala-fundos.png",
+      "renders/atual/sala-frente.png",
+      "renders/atual/escada-acesso.png",
+      "renders/atual/cozinha.png",
+      "renders/atual/cozinha-reversa.png",
+      "renders/atual/bar.png",
+      "renders/atual/lavanderia.png",
+      "renders/atual/lavabo.png",
+      "renders/atual/terreo-3d.png",
+      "renders/atual/planta-terreo.png",
+      "renders/atual/porta-lavabo.png",
+      "renders/atual/superior-pendente.png",
+      "renders/atual/superior-envoltoria.png",
+      "renders/atual/estudos-superior.png",
+      "renders/atual/volumetria.png",
+      "renders/atual/lavabo-sob-escada.png"
+    ],
+    "saved_file_unchanged": true
+  },
+  "scope": "Integridade do arquivo e remoção de contradições fotográficas específicas. Não aprova a planta completa, escala real ou implantação do superior."
+}

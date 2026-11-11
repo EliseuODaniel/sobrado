@@ -1,0 +1,150 @@
+{
+  "timestamp_utc": "2026-11-10T19:51:55.724512+00:00",
+  "revision": 9,
+  "scope": "Revisar proporções do superior conforme imagem e alinhar o térreo, escada, fachada e vistas",
+  "source": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "previous_blend_sha256": "b7a8f031488450e8c9ded6715e2496246bd5b26b6c1e1fd24d714ffb45437cae",
+  "archive_manifest": "historico/revisao08/ARQUIVAMENTO.json",
+  "unknowns": [
+    "Dimensões reais sem âncora medida",
+    "Quantidade e forma da curva ainda estimadas",
+    "Comprimento horizontal do primeiro lance comprimido na estimativa anterior"
+  ],
+  "drafts": [
+    {
+      "source": "renders/atual/previas/fachada-frontal.png",
+      "destination": "historico/rascunhos/revisao09/previas/fachada-frontal.png",
+      "sha256": "5ed180e434de56cb1a864a63b99eea34a142b0fa045b8be4df09a5a536fb030e"
+    },
+    {
+      "source": "renders/atual/previas/lavabo.png",
+      "destination": "historico/rascunhos/revisao09/previas/lavabo.png",
+      "sha256": "4a3c018d299e190b7b9f8e6b3e3ee901a7d8015ea571469c0eb656238aef661d"
+    },
+    {
+      "source": "renders/atual/previas/fachada-obliqua.png",
+      "destination": "historico/rascunhos/revisao09/previas/fachada-obliqua.png",
+      "sha256": "b20a13d78621af43ea33bb8b85e8fb37e53e3ab3d189ce3ae1085dc36326ef80"
+    },
+    {
+      "source": "renders/atual/previas/sala-frente.png",
+      "destination": "historico/rascunhos/revisao09/previas/sala-frente.png",
+      "sha256": "e9f36a311a6be3e4f265f1bffdeee400beb3f376335041b71f90f034f5a2dac9"
+    },
+    {
+      "source": "renders/atual/previas/terreo-3d.png",
+      "destination": "historico/rascunhos/revisao09/previas/terreo-3d.png",
+      "sha256": "3ffc2d482a7314d443f60c6df6d07d62e5bff305b1df8f25531bbba9fbfb66ff"
+    },
+    {
+      "source": "renders/atual/previas/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao09/previas/quarto-frente.png",
+      "sha256": "cd2410ea12715e5273e269a80a0482b486fb6b64a993a8b718f02f2d686542a6"
+    },
+    {
+      "source": "renders/atual/previas/estudos-superior.png",
+      "destination": "historico/rascunhos/revisao09/previas/estudos-superior.png",
+      "sha256": "0c56ff9fc238d87252f2da44228d69edfadb809831b5d391c609fa4f9ae64ad0"
+    },
+    {
+      "source": "renders/atual/previas/escada-acesso.png",
+      "destination": "historico/rascunhos/revisao09/previas/escada-acesso.png",
+      "sha256": "a594ee66cdf8d233d02e1326ee297cc1f8b5892034831d9f64b7ba48e275d766"
+    },
+    {
+      "source": "renders/atual/previas/escada-superior.png",
+      "destination": "historico/rascunhos/revisao09/previas/escada-superior.png",
+      "sha256": "8ac57a80b51c9b6f7c16c81a366efd2105f25ea2cef0a7ec1b4b9e4fda4facca"
+    },
+    {
+      "source": "renders/atual/previas/bar.png",
+      "destination": "historico/rascunhos/revisao09/previas/bar.png",
+      "sha256": "3221bea4ea4b582e041295ca63add8e63b4ac107de9379003f83f7b5f4ffb8d0"
+    },
+    {
+      "source": "renders/atual/previas/cozinha-reversa.png",
+      "destination": "historico/rascunhos/revisao09/previas/cozinha-reversa.png",
+      "sha256": "080ae2267f84d99dd60e9b4311d0a16f7eca8e2fc5f90559cf8abcd8f03e76b6"
+    },
+    {
+      "source": "renders/atual/previas/acesso-lavabo.png",
+      "destination": "historico/rascunhos/revisao09/previas/acesso-lavabo.png",
+      "sha256": "bfb76312546a847d1beb38fdca47d4d48412907114a338080862f68ea07d9c7c"
+    },
+    {
+      "source": "renders/atual/previas/volumetria.png",
+      "destination": "historico/rascunhos/revisao09/previas/volumetria.png",
+      "sha256": "1b99eadf57c73281eb78138ef169fd513e6743e3ae2ffc54c0d7651e1296e088"
+    },
+    {
+      "source": "renders/atual/previas/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao09/previas/quarto-fundos.png",
+      "sha256": "1421f94c7bccffbde65f8c725423f2b4526d61a7c9306a88b5258a6ee89ef7bb"
+    },
+    {
+      "source": "renders/atual/previas/cozinha.png",
+      "destination": "historico/rascunhos/revisao09/previas/cozinha.png",
+      "sha256": "fd95b2690f2704e9be6a02eb325c589df289b9f2cd1d81f2d345fa30626d8e1f"
+    },
+    {
+      "source": "renders/atual/previas/superior-3d.png",
+      "destination": "historico/rascunhos/revisao09/previas/superior-3d.png",
+      "sha256": "72a65a779098d3c9eefae2acf99f9647865e1e7987ae9c9a8554cc711b546381"
+    },
+    {
+      "source": "renders/atual/previas/suite.png",
+      "destination": "historico/rascunhos/revisao09/previas/suite.png",
+      "sha256": "19acc57b0a8a04baa08e3348cae3baef0b765a0502f2174505d42c03594886d6"
+    },
+    {
+      "source": "renders/atual/previas/lavanderia.png",
+      "destination": "historico/rascunhos/revisao09/previas/lavanderia.png",
+      "sha256": "25af1c88b6aec44c269a10f6704a48f07f3f409d6f164e1c4930c113b74156b6"
+    },
+    {
+      "source": "renders/atual/previas/planta-superior.png",
+      "destination": "historico/rascunhos/revisao09/previas/planta-superior.png",
+      "sha256": "e233fcd30637664cfb7c69f01113ef740be77b246924d5c57109c8b3696f1773"
+    },
+    {
+      "source": "renders/atual/previas/lavabo-sob-escada.png",
+      "destination": "historico/rascunhos/revisao09/previas/lavabo-sob-escada.png",
+      "sha256": "c08b09f6acdff7387615ca26d18a5f3b2f2b3ab9238bfdef3f2d584108f56ba9"
+    },
+    {
+      "source": "renders/atual/previas/planta-terreo.png",
+      "destination": "historico/rascunhos/revisao09/previas/planta-terreo.png",
+      "sha256": "5a89b9802c7dc4b4471fc6572afa8a14f2cca6757a5ff0184cca4aea474a72c1"
+    },
+    {
+      "source": "renders/atual/previas/porta-lavabo.png",
+      "destination": "historico/rascunhos/revisao09/previas/porta-lavabo.png",
+      "sha256": "db150eb52dfe24b185dd080b9d7e1305584b07dcce417cf59d43184c69705e78"
+    },
+    {
+      "source": "renders/atual/previas/sala-fundos.png",
+      "destination": "historico/rascunhos/revisao09/previas/sala-fundos.png",
+      "sha256": "11e70a35a0a403bc74caa0cf06fcfc5749f1aff09608a3ab3ee93cae9f394278"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao09/previas/renders-previa.json",
+      "sha256": "d9976b4bd4ec2ae5c443b25e6ad5dde32717c9118d932ddf9f46f95fbb30ff5b"
+    },
+    {
+      "source": "relatorios/atual/previa.log",
+      "destination": "historico/rascunhos/revisao09/previas/previa.log",
+      "sha256": "ee5ebc388cb05567cca8b5c716d46f09d5302f4a23f92939067004d5c511cd62"
+    },
+    {
+      "destination": "historico/rascunhos/revisao09/contato-previas.png",
+      "sha256": "cdaacb9988cf8ade505823811e1e9bf2e1a3dac2a123c105fa562e076499ca76"
+    }
+  ]
+}

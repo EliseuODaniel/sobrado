@@ -1,0 +1,18 @@
+{
+  "prompt/prompt-codex-interiores-blender.md": {
+    "sha256": "1e9d0b980e15645c65985e301270552b47fdeea32fdc1bb0ae125f2131ea92e0",
+    "bytes": 10944
+  },
+  "referencias/01-cena-final.png": {
+    "sha256": "335e88e2f3a1d938d23702c51670aeddb16e4007fd80be5210b76f0c58738af3",
+    "bytes": 2751650
+  },
+  "referencias/02-bar-fundo.png": {
+    "sha256": "829b2b80136580c3b07830c8437f49dcbc0b68a0ccbfb7effc7603b810def53e",
+    "bytes": 3663940
+  },
+  "referencias/03-mesa-jantar.png": {
+    "sha256": "4b88872fd21194fca7a7e37eb9a6eeb3459223e6240385e7aa94628716976dc3",
+    "bytes": 147760
+  }
+}

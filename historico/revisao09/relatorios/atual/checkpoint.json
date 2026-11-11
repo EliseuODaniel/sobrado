@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-11-10T20:14:09.287766+00:00",
+  "revision": 9,
+  "objective": "Aplicar a nova proporção do superior e alinhar o térreo, escada e fachada",
+  "state": "Revisão 09 concluída localmente: modelo ativo, 23 renders e dez comparações conferidos",
+  "source": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "receipts": [
+    "relatorios/atual/proporcoes.json",
+    "relatorios/atual/auditoria-superior.json",
+    "relatorios/atual/auditoria-depois.json",
+    "relatorios/atual/moveis-antes.json"
+  ],
+  "run": {
+    "session_id": 95749,
+    "working_blend": "projeto/.em-validacao.blend",
+    "active_blend": "projeto/casa-reconstruida.blend",
+    "active_is": "revisão 09 validada",
+    "expected_checks": [
+      17,
+      40,
+      16
+    ],
+    "expected_renders": 23,
+    "expected_comparisons": 10
+  },
+  "remaining": [],
+  "unknowns": [
+    "Dimensões reais sem âncora medida",
+    "Quantidade e forma da curva ainda estimadas",
+    "Comprimento horizontal do primeiro lance comprimido na estimativa anterior"
+  ]
+}

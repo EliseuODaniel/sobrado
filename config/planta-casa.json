@@ -1,0 +1,1040 @@
+{
+  "schema_version": 2,
+  "units": "METERS",
+  "source_directory": "referencias-originais",
+  "scale_status": "estimated_no_measured_anchor",
+  "confirmed_dimensions_m": {},
+  "estimated_dimensions_m": {
+    "width": 5.6,
+    "main_depth": 7.6,
+    "front_garage_y": -4.4,
+    "upper_front_y": -1.65,
+    "upper_back_y": 7.6,
+    "back_y": 10.5,
+    "floor_height": 2.9,
+    "clear_height": 2.7,
+    "wall_thickness": 0.15,
+    "living_dining_width": 3.15,
+    "stair_front_y": 3.06,
+    "stair_back_y": 3.92
+  },
+  "observed_in_photos": [
+    "Sobrado com garagem coberta, varanda frontal e janela no andar superior.",
+    "Sala e jantar integrados; sofá e espelho na parede esquerda ao olhar para os fundos; TV à direita.",
+    "Bar ao fundo do jantar, com cobertura de vidro, vigas de madeira, bancada e quatro assentos com encosto.",
+    "Cozinha separada por painel ripado, bancada em L e janela sobre a pia.",
+    "Lavabo com teto inclinado sob escada; lavanderia com bancada em L, janela, lavadora frontal e máquina superior.",
+    "Três quartos documentados: suíte, quarto azul com beliche e quarto branco com cama individual.",
+    "Dois banheiros documentados além do lavabo; localização exata no superior não é visível.",
+    "O primeiro lance avança para dentro da faixa lateral; a forma completa do retorno continua inferida."
+  ],
+  "unconfirmed": [
+    "Todas as medidas métricas são estimadas, inclusive largura, profundidade e pé-direito.",
+    "A fachada superior foi aproximada sobre a garagem; alinhamentos e balanços precisam de medição.",
+    "Os trechos sem foto no andar superior permanecem como área não documentada, sem inventar outro cômodo.",
+    "A posição da área de 1,74 m² dita comum não foi identificada; nenhuma faixa foi arbitrariamente marcada como comum na casa.",
+    "Largura e profundidade foram revistas para coerência proporcional das fotos; os retângulos 5×8,5 e 5×10,2 da análise secundária não são restrições de projeto.",
+    "Croqui do usuário fixa relações aproximadas do térreo, sem conferir dimensões métricas.",
+    "Janela da cozinha abre para o volume marcado como lavanderia no croqui; não foi deduzida cobertura desse trecho.",
+    "Posição do lavabo sob o segundo lance informada pelo usuário; dimensões, folgas e inclinação real ainda estimadas.",
+    "Revisão 08: 7 degraus retos iniciais e 4 finais informados pelo usuário; seis degraus de curva adotados provisoriamente.",
+    "Correção do usuário: os lances são colados, sem faixa, parede ou patamar plano intermediário.",
+    "Primeiro lance de 7 degraus foi representado no espaço estimado anterior para preservar a porta do lavabo. O avanço resulta em cerca de 0,14 m por degrau: escala linear comprimida, não utilizável como dimensionamento real; comprimento do lance pendente.",
+    "Novo croqui: banheiros paralelos à esquerda nos fundos, acesso do WC suíte pela suíte e WC social pelo corredor; sugestão do usuário, sem medidas confirmadas.",
+    "A laje do hall cobre a parte baixa inicial do primeiro lance, como a sobreposição desenhada no croqui; a parte alta continua no vão da escada.",
+    "Revisão 09: imagem do usuário controla proporções relativas; os limites e a escada foram deslocados nos dois pavimentos, sem âncora métrica real.",
+    "A porta do lavabo mantém a relação com o segundo lance e o acesso lateral, deslocada 0,89 m junto com a escada para atender às novas proporções.",
+    "Móveis, camas, louças e largura dos lances preservam suas dimensões aproximadas; não foram esticados como os pixels do croqui.",
+    "Revisão 10: os fundos dos dois WCs e do quarto superior usam a mesma face/linha da cozinha; a profundidade superior anterior de 6,75 m foi substituída pela referência comum y=7,60 m.",
+    "O contorno comum mede 5,60 × 9,25 m no estudo, incluindo garagem sob o superior e varanda. Recuos externos e áreas de serviço posteriores não são pavimento superior."
+  ],
+  "rooms": [
+    {
+      "id": "garagem",
+      "name": "Garagem coberta",
+      "level": 0,
+      "bounds": [
+        0,
+        5.6,
+        -4.4,
+        0
+      ],
+      "position_confidence": "inferred",
+      "references": [
+        "exterior1.webp",
+        "exterior2.webp"
+      ]
+    },
+    {
+      "id": "sala",
+      "name": "Sala de estar",
+      "level": 0,
+      "bounds": [
+        0,
+        3.15,
+        0,
+        3.2
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "sala3.webp",
+        "sala4.webp",
+        "sala6.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "id": "jantar",
+      "name": "Jantar integrado",
+      "level": 0,
+      "bounds": [
+        0,
+        3.15,
+        3.2,
+        7.0
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "sala1.webp",
+        "sala2.webp",
+        "sala5.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "id": "bar",
+      "name": "Churrasqueira / bancada",
+      "level": 0,
+      "bounds": [
+        0,
+        3.15,
+        7.6,
+        10.5
+      ],
+      "position_confidence": "user_sketch_approximate",
+      "references": [
+        "area1.webp",
+        "area2.webp",
+        "area3.webp",
+        "sala1.webp"
+      ]
+    },
+    {
+      "id": "cozinha",
+      "name": "Cozinha",
+      "level": 0,
+      "bounds": [
+        3.15,
+        5.6,
+        4.3,
+        7.6
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "cozinha1.webp",
+        "cozinha2.webp",
+        "sala1.webp",
+        "sala6.webp"
+      ]
+    },
+    {
+      "id": "lavabo",
+      "name": "Lavabo sob 2º lance",
+      "level": 0,
+      "bounds": [
+        3.15,
+        5.6,
+        2.2,
+        3.06
+      ],
+      "position_confidence": "user_annotation_confirmed_relative",
+      "references": [
+        "lavabo1.webp",
+        "escada1.webp"
+      ]
+    },
+    {
+      "id": "lavanderia",
+      "name": "Lavanderia",
+      "level": 0,
+      "bounds": [
+        3.15,
+        5.6,
+        7.6,
+        10.5
+      ],
+      "position_confidence": "user_sketch_approximate",
+      "references": [
+        "lavanderia1.webp"
+      ]
+    },
+    {
+      "id": "suite",
+      "name": "Suíte · posição conforme croqui",
+      "level": 1,
+      "bounds": [
+        0,
+        2.8,
+        -0.8,
+        3.3
+      ],
+      "position_confidence": "user_relative_bedroom_position",
+      "references": [
+        "quartosuite1.webp",
+        "quartosuite2.webp",
+        "quartosuite3.webp"
+      ],
+      "placement_mode": "in_house"
+    },
+    {
+      "id": "banho_suite",
+      "name": "WC suíte · hipótese",
+      "level": 1,
+      "bounds": [
+        0,
+        1.4,
+        3.3,
+        7.6
+      ],
+      "position_confidence": "unconfirmed_bathroom_hypothesis",
+      "references": [
+        "suite1.webp"
+      ],
+      "placement_mode": "in_house"
+    },
+    {
+      "id": "banho_social",
+      "name": "WC social · hipótese",
+      "level": 1,
+      "bounds": [
+        1.4,
+        2.8,
+        3.3,
+        7.6
+      ],
+      "position_confidence": "unconfirmed_bathroom_hypothesis",
+      "references": [
+        "banheiro2.webp"
+      ],
+      "placement_mode": "in_house"
+    },
+    {
+      "id": "quarto_azul",
+      "name": "Quarto dos fundos",
+      "level": 1,
+      "bounds": [
+        2.8,
+        5.6,
+        4.2,
+        7.6
+      ],
+      "position_confidence": "user_relative_bedroom_position",
+      "references": [
+        "quartoazul1.webp",
+        "quartoazul2.webp"
+      ],
+      "placement_mode": "in_house"
+    },
+    {
+      "id": "quarto_branco",
+      "name": "Quarto da frente",
+      "level": 1,
+      "bounds": [
+        2.8,
+        5.6,
+        -1.65,
+        2.2
+      ],
+      "position_confidence": "user_relative_bedroom_position",
+      "references": [
+        "quartobranco1.webp",
+        "quartobranco2.webp"
+      ],
+      "placement_mode": "in_house"
+    }
+  ],
+  "connections": [
+    {
+      "a": "garagem",
+      "b": "sala",
+      "status": "observed_relative",
+      "refs": [
+        "exterior2.webp",
+        "sala3.webp"
+      ]
+    },
+    {
+      "a": "sala",
+      "b": "jantar",
+      "status": "observed_relative",
+      "refs": [
+        "sala5.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "a": "jantar",
+      "b": "bar",
+      "status": "observed_relative",
+      "refs": [
+        "sala1.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "a": "jantar",
+      "b": "cozinha",
+      "status": "observed_relative",
+      "refs": [
+        "sala1.webp",
+        "cozinha2.webp"
+      ]
+    },
+    {
+      "a": "bar",
+      "b": "lavanderia",
+      "status": "user_sketch_approximate",
+      "refs": [
+        "referencias-ajustes/planta-terreo-anotada.png"
+      ]
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "preview_samples": 20,
+    "seed": 42,
+    "exposure": 0.0
+  },
+  "output": "projeto/casa-reconstruida.blend",
+  "secondary_analysis": {
+    "source": "Texto enviado pelo usuário, identificado por ele como análise do ChatGPT sobre a matrícula nº 92.432. Documento original não recebido nem conferido.",
+    "verification": "unverified_secondary_analysis",
+    "reported_areas_m2": {
+      "ground_exclusive": 40.77,
+      "upper_exclusive": 51.03,
+      "common_built": 1.74,
+      "total_built": 93.54,
+      "footprint": 42.51,
+      "exclusive_garden_yard": 40.83,
+      "common_access": 35.96,
+      "land_share": 119.3
+    },
+    "suggested_linear_dimensions_status": "hipóteses do texto secundário, não medidas oficiais",
+    "use": "Referência de ordem de grandeza. Não comprova áreas reais, perímetro, distribuição, cobertura de anexos ou critérios registrais."
+  },
+  "revision": "10 — contorno comum e parede posterior superior alinhada à cozinha",
+  "layout": {
+    "spine_x": 3.15,
+    "portals": {
+      "stair": [
+        3.06,
+        3.92
+      ],
+      "kitchen": [
+        4.3,
+        6.15
+      ],
+      "access": [
+        3.06,
+        6.15
+      ]
+    },
+    "slat_y": [
+      6.15,
+      7.25
+    ],
+    "stairs": {
+      "first_direction": [
+        1,
+        0,
+        0
+      ],
+      "x_min": 4.41,
+      "run": 0.56,
+      "landing_depth": 0.63,
+      "flight_width": 0.86,
+      "first_y": 3.49,
+      "return_y": 2.63,
+      "risers": 17,
+      "full_shape_status": "user_7_turn_4_with_estimated_winders",
+      "observed_first_flight": true,
+      "return_confirmed": true,
+      "first_x_min": 3.99,
+      "first_run": 0.98,
+      "first_steps": 7,
+      "turn_steps": 6,
+      "final_steps": 4,
+      "turn_steps_status": "estimated_pending_user_count",
+      "turn_start_x": 4.97,
+      "outer_x": 5.525,
+      "return_base_height": 2.217647058823529,
+      "flights_touch_confirmed": true,
+      "linear_scale_status": "compressed_in_previous_envelope_requires_real_run_measurement"
+    },
+    "bar": {
+      "back_y": 10.5,
+      "counter_y": 9.1,
+      "counter_x": [
+        0.08,
+        2.57
+      ],
+      "stool_y": 8.55,
+      "stool_x": [
+        0.46,
+        1.2,
+        1.94
+      ]
+    },
+    "kitchen": {
+      "bounds": [
+        3.15,
+        5.6,
+        4.3,
+        7.6
+      ],
+      "window_x": [
+        3.45,
+        5.34
+      ],
+      "window_y": 7.6,
+      "sink": [
+        4.28,
+        7.27,
+        0.93
+      ],
+      "stove": [
+        5.25,
+        6.52,
+        0
+      ],
+      "fridge": [
+        5.25,
+        4.85,
+        0
+      ],
+      "fridge_rotation_deg": 180,
+      "base_cabinet_y": [
+        5.88,
+        7.13
+      ],
+      "counter_ranges": [
+        [
+          5.21,
+          6.2
+        ],
+        [
+          6.84,
+          7.475
+        ]
+      ],
+      "upper_cabinet_y": [
+        5.2,
+        5.95,
+        7.03
+      ]
+    },
+    "furniture": {
+      "sofa": [
+        0.62,
+        1.7,
+        0
+      ],
+      "tv": [
+        3.08,
+        1.8,
+        0
+      ],
+      "mirror": [
+        0.085,
+        4.25,
+        1.85
+      ],
+      "dining_table": [
+        1.52,
+        5.8,
+        0
+      ]
+    },
+    "upper_mode": "user_bedroom_positions_bathrooms_provisional",
+    "upper_layout_confirmed": false,
+    "laundry_placement_confirmed": false,
+    "visibility_contracts": [
+      {
+        "photo": "sala7.webp",
+        "camera": "CAM_Foto_Sala_Fundos",
+        "first_treads_visible": false,
+        "kitchen_window_visible": true
+      },
+      {
+        "photo": "sala1.webp",
+        "camera": "CAM_Foto_Detalhe_Escada",
+        "first_treads_visible": true
+      },
+      {
+        "photo": "sala4.webp",
+        "camera": "CAM_Foto_Sala_Frente",
+        "closed_lavabo_door_visible": true
+      }
+    ],
+    "stair_hole": [
+      3.99,
+      5.6,
+      2.2,
+      3.92
+    ],
+    "entry_diagonal": {
+      "start": [
+        2.27,
+        0
+      ],
+      "end": [
+        3.15,
+        0.65
+      ],
+      "opening_height": 2.1,
+      "door_open_angle_deg": 0,
+      "status": "user_sketch_approximate"
+    },
+    "garage_extension_bounds": [
+      3.15,
+      5.6,
+      0,
+      2.2
+    ],
+    "lavabo_bounds": [
+      3.15,
+      5.6,
+      2.2,
+      3.06
+    ],
+    "laundry_bounds": [
+      3.15,
+      5.6,
+      7.6,
+      10.5
+    ],
+    "laundry_access_y": [
+      9.0,
+      9.75
+    ],
+    "laundry_placement_status": "user_sketch_approximate",
+    "lavabo_under_flight": "second_flight_and_landing",
+    "lavabo_fixtures": {
+      "sink": [
+        3.72,
+        2.84,
+        0.85
+      ],
+      "mirror": [
+        3.72,
+        2.97,
+        1.53
+      ],
+      "toilet": [
+        4.4,
+        2.63,
+        0.39
+      ],
+      "tank": [
+        4.7,
+        2.63,
+        0.59
+      ]
+    },
+    "lavabo_door": {
+      "wall": "north",
+      "start": [
+        3.22,
+        3.06
+      ],
+      "end": [
+        3.95,
+        3.06
+      ],
+      "height": 2.0,
+      "open_angle_deg": 0,
+      "swing_status": "not_confirmed_closed_for_plan_readability"
+    },
+    "lavabo_access_bounds": [
+      3.15,
+      3.95,
+      3.06,
+      4.3
+    ],
+    "kitchen_partition_start_x": 3.99,
+    "stair_holes": [
+      [
+        4.41,
+        5.6,
+        2.2,
+        3.92
+      ]
+    ],
+    "kitchen_partition_y": 4.3
+  },
+  "cameras": {
+    "CAM_Foto_Sala_Fundos": {
+      "position": [
+        1.90013703498856,
+        0.2,
+        1.8506649138885845
+      ],
+      "target": [
+        1.7466746672046096,
+        7.193222267490103,
+        1.583660009149506
+      ],
+      "lens": 19.6507993483684,
+      "source": "sala7.webp",
+      "source_relation": "Enquadramento estimado atualizado para a escada corrigida; elementos e relações da foto permanecem referência"
+    },
+    "CAM_Foto_Sala_Frente": {
+      "position": [
+        2.65,
+        6.0,
+        1.6
+      ],
+      "target": [
+        2.4,
+        1.2,
+        1.35
+      ],
+      "lens": 18,
+      "source": "sala4.webp",
+      "source_relation": "Elementos da sala4 como referência; enquadramento atualizado pela planta atual"
+    },
+    "CAM_Foto_Detalhe_Escada": {
+      "position": [
+        1.0,
+        3.06,
+        1.5
+      ],
+      "target": [
+        3.7,
+        6.41,
+        1.4
+      ],
+      "lens": 17,
+      "source": "sala1.webp"
+    },
+    "CAM_Foto_Cozinha": {
+      "position": [
+        3.5,
+        5.32,
+        1.48
+      ],
+      "target": [
+        5.12,
+        7.35,
+        1.35
+      ],
+      "lens": 19,
+      "source": "cozinha1.webp"
+    },
+    "CAM_Foto_Cozinha_Reversa": {
+      "position": [
+        5.05,
+        6.0,
+        1.48
+      ],
+      "target": [
+        3.6,
+        6.9,
+        1.4
+      ],
+      "lens": 17,
+      "source": "cozinha2.webp"
+    },
+    "CAM_Foto_Bar": {
+      "position": [
+        1.52,
+        7.4,
+        1.55
+      ],
+      "target": [
+        1.6,
+        10.5,
+        1.45
+      ],
+      "lens": 18,
+      "source": "area3.webp"
+    },
+    "CAM_Foto_Fachada": {
+      "position": [
+        2.1,
+        -8.3,
+        1.35
+      ],
+      "target": [
+        2.8,
+        -0.5,
+        2.65
+      ],
+      "lens": 22,
+      "source": "exterior2.webp"
+    },
+    "CAM_Foto_Fachada_Obliqua": {
+      "position": [
+        -0.5,
+        -9.5,
+        1.75
+      ],
+      "target": [
+        2.8,
+        -0.8,
+        2.8
+      ],
+      "lens": 26,
+      "source": "exterior1.webp"
+    },
+    "CAM_Foto_Lavanderia": {
+      "position": [
+        4.65,
+        8.15,
+        1.35
+      ],
+      "target": [
+        4.2,
+        10.42,
+        1.25
+      ],
+      "lens": 16,
+      "source": "lavanderia1.webp"
+    },
+    "CAM_Foto_Lavabo": {
+      "position": [
+        3.32,
+        2.46,
+        1.3
+      ],
+      "target": [
+        4.03,
+        2.86,
+        1.15
+      ],
+      "lens": 16,
+      "source": "lavabo1.webp"
+    },
+    "CAM_Foto_Acesso_Lavabo": {
+      "position": [
+        2.25,
+        4.36,
+        1.55
+      ],
+      "target": [
+        3.585,
+        3.06,
+        1.0
+      ],
+      "lens": 16,
+      "source": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+      "purpose": "Mostrar a porta horizontal e a escada ao lado a partir da circulação da sala"
+    },
+    "CAM_Foto_Chegada_Escada": {
+      "position": [
+        4.0,
+        2.63,
+        4.55
+      ],
+      "target": [
+        5.25,
+        2.63,
+        2.1
+      ],
+      "lens": 18,
+      "source": "escada1.webp"
+    },
+    "CAM_Foto_Suite": {
+      "position": [
+        2.45,
+        2.4,
+        4.4
+      ],
+      "target": [
+        1.15,
+        0.1,
+        3.8
+      ],
+      "lens": 20,
+      "source": "quartosuite1.webp"
+    },
+    "CAM_Foto_Quarto_Frente": {
+      "position": [
+        4.05,
+        1.5,
+        4.45
+      ],
+      "target": [
+        4.8,
+        -0.3,
+        3.6
+      ],
+      "lens": 20,
+      "source": "quartobranco1.webp"
+    },
+    "CAM_Foto_Quarto_Fundos": {
+      "position": [
+        3.35,
+        5.15,
+        4.4
+      ],
+      "target": [
+        4.6,
+        6.95,
+        3.8
+      ],
+      "lens": 20,
+      "source": "quartoazul2.webp"
+    }
+  },
+  "room_studies": {
+    "quarto_azul": {
+      "position": [
+        9,
+        0,
+        0
+      ],
+      "size": [
+        2.4,
+        2.7
+      ],
+      "not_house_coordinates": true
+    },
+    "quarto_branco": {
+      "position": [
+        12.5,
+        0,
+        0
+      ],
+      "size": [
+        2.4,
+        2.7
+      ],
+      "not_house_coordinates": true
+    },
+    "suite": {
+      "position": [
+        16,
+        0,
+        0
+      ],
+      "size": [
+        3.0,
+        3.2
+      ],
+      "not_house_coordinates": true
+    },
+    "banho_social": {
+      "position": [
+        9,
+        4.1,
+        0
+      ],
+      "size": [
+        1.65,
+        2.3
+      ],
+      "not_house_coordinates": true
+    },
+    "banho_suite": {
+      "position": [
+        12.5,
+        4.1,
+        0
+      ],
+      "size": [
+        1.65,
+        2.3
+      ],
+      "not_house_coordinates": true
+    }
+  },
+  "revision_number": 10,
+  "user_layout_source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "user_correction": {
+    "source": "Nova planta anotada e confirmação textual do usuário",
+    "instruction": "A porta do lavabo fica na marcação preta, na parede horizontal superior do lavabo. O retângulo vermelho delimita o lavabo. A área branca acima à esquerda indica acesso livre.",
+    "supersedes": "Porta lateral esquerda usada nas revisões anteriores",
+    "dimensions_status": "approximate_no_measured_anchor"
+  },
+  "facade": {
+    "status": "photo_relative_dimensions_estimated",
+    "sources": [
+      "exterior1.webp",
+      "exterior2.webp"
+    ],
+    "front_y": -1.65,
+    "balcony_width": 2.8,
+    "balcony_recess": 0.9,
+    "balcony_parapet_height": 1.03,
+    "roof_ridge_z": 6.35,
+    "roof_eave_z": 5.72,
+    "roof_shape_status": "inferred_from_condominium_typology_not_fully_visible_on_subject",
+    "small_window_x": [
+      3.88,
+      4.21
+    ],
+    "small_window_z": [
+      1.12,
+      1.82
+    ],
+    "relative_alignment_receipt": {
+      "source": "exterior2.webp",
+      "status": "agent_selected_approximate_pixels_not_metric",
+      "image_width_px": 1200,
+      "at_balcony_sill_y_px": 164,
+      "left_px": 282,
+      "divider_px": 608,
+      "right_px": 946,
+      "estimated_balcony_fraction": 0.49096385542168675,
+      "model_fraction": 0.5
+    }
+  },
+  "previous_delivery": {
+    "root": "historico/revisao09",
+    "config": "historico/revisao09/config/planta-casa.json",
+    "blend": "historico/revisao09/projeto/casa-reconstruida.blend"
+  },
+  "view_policy": "Todas as fotografias usam os mesmos objetos físicos da planta; o acesso possui uma vista própria. Cortes e plantas sem escada são identificados explicitamente.",
+  "upper_layout_source": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "upper_layout": {
+    "bedroom_positions_confirmed": true,
+    "bathrooms_confirmed": false,
+    "photo_identity_mapping": "inferred: white room front, blue room rear; user only confirmed bedroom positions",
+    "circulation_bounds": [
+      2.8,
+      4.41,
+      2.2,
+      4.2
+    ],
+    "unresolved_bounds": null,
+    "envelope_status": "shared_main_volume_kitchen_rear_axis",
+    "doors": [
+      {
+        "id": "suite",
+        "a": [
+          2.8,
+          2.425
+        ],
+        "b": [
+          2.8,
+          3.225
+        ],
+        "to": "hall",
+        "status": "user_sketch_proposal"
+      },
+      {
+        "id": "quarto_branco",
+        "a": [
+          3.0,
+          2.2
+        ],
+        "b": [
+          3.8,
+          2.2
+        ],
+        "to": "hall",
+        "status": "user_sketch_proposal"
+      },
+      {
+        "id": "quarto_azul",
+        "a": [
+          2.875,
+          4.2
+        ],
+        "b": [
+          3.675,
+          4.2
+        ],
+        "to": "hall",
+        "status": "user_sketch_proposal"
+      },
+      {
+        "id": "banho_suite",
+        "a": [
+          0.55,
+          3.3
+        ],
+        "b": [
+          1.3,
+          3.3
+        ],
+        "to": "suite",
+        "status": "user_sketch_proposal"
+      },
+      {
+        "id": "banho_social",
+        "a": [
+          2.8,
+          3.375
+        ],
+        "b": [
+          2.8,
+          4.125
+        ],
+        "to": "hall",
+        "status": "user_sketch_proposal"
+      }
+    ],
+    "bathroom_positions_proposed_from_user": true
+  },
+  "proportion_revision": {
+    "source": {
+      "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+      "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+      "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+      "status": "user_proposed_relative_proportions",
+      "metric_dimensions_confirmed": false
+    },
+    "interpretation": "Banheiros e quarto dos fundos mais profundos; quartos da frente mais curtos; escada deslocada para a frente nos dois pavimentos",
+    "stair_translation_y_m": -0.89,
+    "upper_stair_adjacent_boundaries_translation_m": -0.9,
+    "furniture_dimensions_preserved": true,
+    "metric_scale_confirmed": false,
+    "previous_r09_anchors_m": {
+      "width": 5.6,
+      "upper_front_y": -1.65,
+      "upper_back_y": 6.75,
+      "suite_north": 2.9,
+      "front_bedroom_north": 1.9,
+      "rear_bedroom_south": 3.75,
+      "kitchen_south": 4.0
+    },
+    "role": "referência proporcional da revisão 09, subordinada ao alinhamento externo pedido na revisão 10"
+  },
+  "main_volume": {
+    "bounds": [
+      0,
+      5.6,
+      -1.65,
+      7.6
+    ],
+    "scope": "corpo principal; térreo inclui garagem sob o superior, superior inclui varanda; pátio frontal e serviço/churrasqueira posteriores são anexos térreos",
+    "rear_reference": "layout.kitchen.window_y",
+    "front_reference": "facade.front_y",
+    "confirmed_by_user": "Coplanaridade e encaixe pedidos; dimensões numéricas seguem estimadas"
+  },
+  "alignment_revision": {
+    "priority": "Latest explicit user wall alignment overrides previous unmeasured rear depth",
+    "previous_upper_rear_y": 6.75,
+    "new_common_rear_y": 7.6,
+    "stair_translation_y_m": 0.3,
+    "rooms_redistributed": true,
+    "loose_furniture_dimensions_preserved": true,
+    "common_footprint_m": [
+      5.6,
+      9.25
+    ]
+  }
+}

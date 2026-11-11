@@ -1,0 +1,511 @@
+{
+  "timestamp_utc": "2026-11-10T12:00:16.062370+00:00",
+  "blend": "/home/edann/projects/casa-interiores/projeto/versoes/revisao-02-antes/projeto/casa-reconstruida.blend",
+  "sha256": "f34a67de45270fde379cc707fb6ffc72f04565ed35bcce600a51b3a9b6fd3832",
+  "baseline": true,
+  "checks": {
+    "tv_na_parede_interna_lateral": {
+      "passed": false,
+      "detail": {
+        "tv_x": 4.840000152587891,
+        "spine_x": 3.15
+      },
+      "references": [
+        "sala4.webp",
+        "sala7.webp"
+      ]
+    },
+    "porta_lavabo_na_mesma_face": {
+      "passed": false,
+      "detail": {
+        "door": [
+          4.190000057220459,
+          3.299999952316284,
+          0.0
+        ]
+      },
+      "references": [
+        "sala2.webp",
+        "sala4.webp"
+      ]
+    },
+    "porta_lavabo_fechada_como_na_foto": {
+      "passed": false,
+      "detail": {
+        "rotation_z": 1.3089969158172607
+      },
+      "references": [
+        "sala4.webp"
+      ]
+    },
+    "primeiro_lance_transversal": {
+      "passed": false,
+      "detail": {
+        "delta_first_to_ninth": [
+          0.0,
+          1.777777910232544,
+          1.2888888120651245
+        ]
+      },
+      "references": [
+        "sala1.webp",
+        "sala4.webp"
+      ]
+    },
+    "espelho_fora_do_volume_da_parede": {
+      "passed": false,
+      "detail": {
+        "mirror_front_x": 0.028499999549239874,
+        "wall_inside_x": 0.075
+      },
+      "references": [
+        "sala7.webp"
+      ]
+    },
+    "pedra_exposta_na_frente_da_parede": {
+      "passed": true,
+      "detail": {
+        "stone_front_y": 10.177499580197036,
+        "wall_front_y": 10.225000187754631
+      },
+      "references": [
+        "area3.webp"
+      ]
+    },
+    "primeiro_lance_nao_exposto_na_vista_sala7": {
+      "passed": false,
+      "detail": {
+        "visible": 9,
+        "total": 9,
+        "hits": [
+          "Degrau 01 granito",
+          "Degrau 02 granito",
+          "Degrau 03 granito",
+          "Degrau 04 granito",
+          "Degrau 05 granito",
+          "Degrau 06 granito",
+          "Degrau 07 granito",
+          "Degrau 08 granito",
+          "Degrau 09 granito"
+        ],
+        "ndc": [
+          [
+            0.6081035733222961,
+            0.2670818865299225,
+            3.284087896347046
+          ],
+          [
+            0.6043639779090881,
+            0.311120867729187,
+            3.5020270347595215
+          ],
+          [
+            0.601062536239624,
+            0.34999966621398926,
+            3.719965696334839
+          ],
+          [
+            0.5981265306472778,
+            0.3845750689506531,
+            3.9379048347473145
+          ],
+          [
+            0.5954985022544861,
+            0.41552409529685974,
+            4.155843734741211
+          ],
+          [
+            0.5931323170661926,
+            0.44338881969451904,
+            4.373782634735107
+          ],
+          [
+            0.5909907817840576,
+            0.4686084985733032,
+            4.591721534729004
+          ],
+          [
+            0.5890433192253113,
+            0.4915425479412079,
+            4.809660911560059
+          ],
+          [
+            0.5872647166252136,
+            0.5124883055686951,
+            5.027599811553955
+          ]
+        ]
+      },
+      "references": [
+        "sala7.webp"
+      ]
+    },
+    "primeiro_lance_visivel_no_angulo_sala1": {
+      "passed": false,
+      "detail": {
+        "visible": 0,
+        "total": 9,
+        "hits": [
+          "scene missing"
+        ]
+      },
+      "references": [
+        "sala1.webp"
+      ]
+    },
+    "primeiro_lance_visivel_na_vista_sala4": {
+      "passed": true,
+      "detail": {
+        "visible": 5,
+        "total": 9,
+        "hits": [
+          "Espelho do degrau.003",
+          "Espelho do degrau.004",
+          "Espelho do degrau.004",
+          "Espelho do degrau.005",
+          "Espelho do degrau.006",
+          "out_of_frame",
+          "out_of_frame",
+          "out_of_frame",
+          "out_of_frame"
+        ],
+        "ndc": [
+          [
+            0.21983349323272705,
+            0.08920925855636597,
+            2.248277187347412
+          ],
+          [
+            0.1906915009021759,
+            0.10072092711925507,
+            2.0204970836639404
+          ],
+          [
+            0.15414410829544067,
+            0.11515795439481735,
+            1.792717456817627
+          ],
+          [
+            0.10695762932300568,
+            0.13379767537117004,
+            1.5649378299713135
+          ],
+          [
+            0.04369499161839485,
+            0.1587877869606018,
+            1.337157964706421
+          ],
+          [
+            -0.045545898377895355,
+            0.19404001533985138,
+            1.109378457069397
+          ],
+          [
+            -0.18090161681175232,
+            0.24750842154026031,
+            0.8815985918045044
+          ],
+          [
+            -0.4105687737464905,
+            0.3382318317890167,
+            0.653818666934967
+          ],
+          [
+            -0.885817289352417,
+            0.5259650349617004,
+            0.4260387718677521
+          ]
+        ]
+      },
+      "references": [
+        "sala4.webp"
+      ]
+    },
+    "janela_cozinha_visivel_pela_passagem": {
+      "passed": true,
+      "detail": {
+        "visible": 20,
+        "total": 39,
+        "hits": [
+          "Degrau 09 granito",
+          "Porta geladeira.002",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Porta geladeira.002",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Porta geladeira.002",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Porta geladeira.002",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Porta geladeira.002",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Corpo geladeira.001",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Janela cozinha caixilho.001",
+          "Janela cozinha caixilho.001",
+          "Degrau 09 granito",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Degrau 09 granito",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Patamar intermediário",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro"
+        ],
+        "ndc": [
+          [
+            0.5661872029304504,
+            0.5088574886322021,
+            8.323546409606934
+          ],
+          [
+            0.5662385821342468,
+            0.5329063534736633,
+            8.317090034484863
+          ],
+          [
+            0.5662916302680969,
+            0.5577458739280701,
+            8.310432434082031
+          ],
+          [
+            0.571763813495636,
+            0.5088536143302917,
+            8.314884185791016
+          ],
+          [
+            0.5718196034431458,
+            0.5329275131225586,
+            8.308427810668945
+          ],
+          [
+            0.5718771815299988,
+            0.5577929615974426,
+            8.301770210266113
+          ],
+          [
+            0.5773520469665527,
+            0.5088496804237366,
+            8.306221961975098
+          ],
+          [
+            0.5774122476577759,
+            0.5329487323760986,
+            8.299765586853027
+          ],
+          [
+            0.5774743556976318,
+            0.5578401684761047,
+            8.293107986450195
+          ],
+          [
+            0.5829519629478455,
+            0.5088457465171814,
+            8.29755973815918
+          ],
+          [
+            0.583016574382782,
+            0.5329699516296387,
+            8.29110336303711
+          ],
+          [
+            0.5830832719802856,
+            0.5578874349594116,
+            8.284445762634277
+          ],
+          [
+            0.5885635614395142,
+            0.5088418126106262,
+            8.288897514343262
+          ],
+          [
+            0.5886326432228088,
+            0.5329912304878235,
+            8.282441139221191
+          ],
+          [
+            0.5887039303779602,
+            0.5579348206520081,
+            8.27578353881836
+          ],
+          [
+            0.5941869616508484,
+            0.508837878704071,
+            8.280235290527344
+          ],
+          [
+            0.5942604541778564,
+            0.5330125689506531,
+            8.273778915405273
+          ],
+          [
+            0.5943363308906555,
+            0.557982325553894,
+            8.267121315002441
+          ],
+          [
+            0.5998221039772034,
+            0.5088338851928711,
+            8.271573066711426
+          ],
+          [
+            0.5999000668525696,
+            0.5330339670181274,
+            8.265116691589355
+          ],
+          [
+            0.5999805927276611,
+            0.5580298900604248,
+            8.258459091186523
+          ],
+          [
+            0.6054690480232239,
+            0.5088299512863159,
+            8.262910842895508
+          ],
+          [
+            0.605551540851593,
+            0.5330553650856018,
+            8.256454467773438
+          ],
+          [
+            0.605636715888977,
+            0.5580775737762451,
+            8.249796867370605
+          ],
+          [
+            0.6111278533935547,
+            0.508825957775116,
+            8.25424861907959
+          ],
+          [
+            0.611214816570282,
+            0.5330768823623657,
+            8.24779224395752
+          ],
+          [
+            0.6113046407699585,
+            0.558125376701355,
+            8.241134643554688
+          ],
+          [
+            0.6167985200881958,
+            0.5088220238685608,
+            8.245586395263672
+          ],
+          [
+            0.6168900728225708,
+            0.5330983996391296,
+            8.239130020141602
+          ],
+          [
+            0.6169846057891846,
+            0.5581732988357544,
+            8.232471466064453
+          ],
+          [
+            0.6224811673164368,
+            0.5088180303573608,
+            8.236924171447754
+          ],
+          [
+            0.6225771903991699,
+            0.5331199169158936,
+            8.230467796325684
+          ],
+          [
+            0.6226764917373657,
+            0.5582212805747986,
+            8.223809242248535
+          ],
+          [
+            0.6281757354736328,
+            0.5088140368461609,
+            8.228261947631836
+          ],
+          [
+            0.6282764077186584,
+            0.533141553401947,
+            8.221805572509766
+          ],
+          [
+            0.6283803582191467,
+            0.5582693815231323,
+            8.215147018432617
+          ],
+          [
+            0.6338822841644287,
+            0.5088100433349609,
+            8.219599723815918
+          ],
+          [
+            0.633987545967102,
+            0.5331631898880005,
+            8.213143348693848
+          ],
+          [
+            0.6340962648391724,
+            0.5583175420761108,
+            8.2064847946167
+          ]
+        ]
+      },
+      "references": [
+        "sala7.webp",
+        "cozinha2.webp"
+      ]
+    },
+    "porta_lavabo_visivel_entre_tv_e_escada": {
+      "passed": false,
+      "detail": {
+        "visible": 0,
+        "total": 1,
+        "hits": [
+          "no_hit"
+        ],
+        "ndc": [
+          [
+            0.3532909154891968,
+            0.43433111906051636,
+            2.4544835090637207
+          ]
+        ]
+      },
+      "references": [
+        "sala4.webp"
+      ]
+    },
+    "superior_sem_adjacencias_inventadas": {
+      "passed": false,
+      "detail": [
+        "AMBIENTE_banho_social",
+        "AMBIENTE_banho_suite",
+        "AMBIENTE_quarto_azul",
+        "AMBIENTE_quarto_branco",
+        "AMBIENTE_suite"
+      ],
+      "references": [
+        "quartosuite1.webp",
+        "quartoazul1.webp",
+        "quartobranco1.webp"
+      ]
+    }
+  },
+  "all_passed": false,
+  "scope": "Detecção de contradições discretas e visibilidade. Não prova equivalência métrica, fotográfica ou a implantação real do superior."
+}

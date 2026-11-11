@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-11-10T15:53:40.361712+00:00",
+  "revision": 4,
+  "status": "lavabo_sob_segundo_lance_garagem_ampliada",
+  "scope": "Correção aproximada do térreo: lavabo sob o segundo lance e garagem ampliada. Não é levantamento métrico ou validação do superior.",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "826790e6e5ffb6f378ff4fbfa5c5c6a003fda264e2ebf5924ab25e2d8b216115"
+  },
+  "source": {
+    "path": "referencias-ajustes/planta-terreo-anotada.png",
+    "sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819",
+    "status": "user_directed_approximate_layout",
+    "metric_dimensions_confirmed": false
+  },
+  "user_correction": {
+    "source": "Mensagem do usuário nesta conversa",
+    "instruction": "O lavabo fica embaixo da segunda metade da escada que sobe para o segundo pavimento; aumentar a garagem e mover o lavabo para baixo desse lance.",
+    "supersedes": "Posição do lavabo desenhada à frente da escada no croqui da revisão 03",
+    "dimensions_status": "approximate_no_measured_anchor"
+  },
+  "integrity_checks": 15,
+  "geometry_checks": 23,
+  "renders": [
+    "renders/revisao-04/final/sala-fundos.png",
+    "renders/revisao-04/final/sala-frente.png",
+    "renders/revisao-04/final/escada-acesso.png",
+    "renders/revisao-04/final/cozinha.png",
+    "renders/revisao-04/final/cozinha-reversa.png",
+    "renders/revisao-04/final/bar.png",
+    "renders/revisao-04/final/terreo-3d.png",
+    "renders/revisao-04/final/terreo-superior.png",
+    "renders/revisao-04/final/superior-pendente.png",
+    "renders/revisao-04/final/superior-envoltoria.png",
+    "renders/revisao-04/final/estudos-superior.png",
+    "renders/revisao-04/final/volumetria.png",
+    "renders/revisao-04/final/lavabo-sob-escada.png"
+  ],
+  "visual_review": [
+    "Vista superior antes e depois da correção",
+    "Corte do lavabo sob o segundo lance",
+    "Corte em 3D do térreo e seis ângulos das fotos"
+  ],
+  "unknowns": [
+    "Medidas lineares reais e ângulo exato da entrada",
+    "Dimensões e folgas reais sob o segundo lance; o encaixe modelado não é verificação de habitabilidade",
+    "Cobertura e detalhes construtivos da lavanderia",
+    "Dimensões exatas do retorno da escada e implantação dos cômodos superiores"
+  ],
+  "originals_preserved": true,
+  "previous_revision_preserved": "projeto/versoes/revisao-04-antes/projeto/casa-reconstruida.blend",
+  "external_publication": false
+}

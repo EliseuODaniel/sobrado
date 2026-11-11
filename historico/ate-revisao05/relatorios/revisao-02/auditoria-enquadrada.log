@@ -1,0 +1,16 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.224  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/versoes/casa-revisao-02-enquadrada.blend"
+PASS tv_na_parede_interna_lateral
+PASS porta_lavabo_na_mesma_face
+PASS porta_lavabo_fechada_como_na_foto
+PASS primeiro_lance_transversal
+PASS espelho_fora_do_volume_da_parede
+PASS pedra_exposta_na_frente_da_parede
+PASS primeiro_lance_nao_exposto_na_vista_sala7
+PASS primeiro_lance_visivel_no_angulo_sala1
+PASS janela_cozinha_visivel_pela_passagem
+PASS porta_lavabo_visivel_entre_tv_e_escada
+PASS superior_sem_adjacencias_inventadas
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

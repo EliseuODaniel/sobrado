@@ -1,0 +1,26 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.252  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-terreo-revisao05.blend"
+RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
+00:01.925  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/fachada-frontal.png'
+REVISION_RENDER FOTO_Fachada
+00:03.363  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/fachada-obliqua.png'
+REVISION_RENDER FOTO_Fachada_Obliqua
+00:05.118  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/sala-fundos.png'
+REVISION_RENDER FOTO_Sala_Fundos
+00:06.999  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/sala-frente.png'
+REVISION_RENDER FOTO_Sala_Frente
+00:08.771  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/escada-acesso.png'
+REVISION_RENDER FOTO_Detalhe_Escada
+00:10.564  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/cozinha.png'
+REVISION_RENDER FOTO_Cozinha
+00:12.331  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/cozinha-reversa.png'
+REVISION_RENDER FOTO_Cozinha_Reversa
+00:13.999  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/bar.png'
+REVISION_RENDER FOTO_Bar
+00:15.705  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/lavanderia.png'
+REVISION_RENDER FOTO_Lavanderia
+00:17.888  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-05/previas/lavabo.png'
+REVISION_RENDER FOTO_Lavabo
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

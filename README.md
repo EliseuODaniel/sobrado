@@ -1,5 +1,108 @@
-# Casa — Design de interiores
+# Casa — reconstrução e proposta industrial
 
-Projeto de design de interiores da casa onde irei morar.
+## Proposta industrial v01
 
-Repositório preparado para receber as próximas instruções, referências e definições do projeto.
+Nova decoração para sala/jantar, cozinha, lazer nos fundos e quarto dos fundos, inspirada nas quatro imagens de `referencias-estilo-industrial/`. Cimento, madeira nogueira, aço preto, couro caramelo e iluminação quente formam a proposta. O quarto mantém o beliche e recebe bancada e detalhes de escritório. A arquitetura e os móveis herdados mantêm a geometria da revisão 10.
+
+- [Galeria dos quatro ambientes](renders/industrial-v01/painel-ambientes.jpg)
+- [Sala integrada](renders/industrial-v01/sala-integrada.png) e [sala vista da frente](renders/industrial-v01/sala-frente.png)
+- [Cozinha](renders/industrial-v01/cozinha.png) e [vista reversa](renders/industrial-v01/cozinha-reversa.png)
+- [Lazer nos fundos](renders/industrial-v01/lazer-fundos.png)
+- [Quarto dos fundos](renders/industrial-v01/quarto-fundos.png) e [escritório](renders/industrial-v01/quarto-escritorio.png)
+- [Comparação com as referências de estilo](renders/industrial-v01/referencias-e-proposta.jpg)
+- [Blender industrial editável](projeto/industrial-v01/casa-industrial.blend)
+- [Relatório e validação da proposta](relatorios/industrial-v01/RELATORIO.md)
+
+Abra o modelo industrial no Blender e escolha uma cena `IND_…`. As novas peças ficam nas coleções `IND_Decor_…`; os materiais começam com `IND `. As coleções da reconstrução permanecem disponíveis. Selecione a cena desejada, use `Num 0` para a câmera e `F12` para renderizar. As referências de estilo acompanham o repositório; os revestimentos novos são procedurais e funcionam sem imagens externas.
+
+```bash
+# Gerar uma variante nova a partir da reconstrução (o destino deve estar livre):
+python3 scripts/run_blender.py --background projeto/casa-reconstruida.blend \
+  --python scripts/style_industrial.py -- --project-root . --build-only
+
+# Reabrir o arquivo entregue e renderizar as sete câmeras:
+python3 scripts/run_blender.py --background projeto/industrial-v01/casa-industrial.blend \
+  --python scripts/style_industrial.py -- --project-root . --render-only
+python3 scripts/run_blender.py --background projeto/industrial-v01/casa-industrial.blend \
+  --python scripts/audit_industrial.py
+python3 scripts/industrial_delivery.py
+```
+
+A configuração de câmeras, versão e saídas fica em `config/estilo-industrial-v01.json`; as cores e texturas ficam nos materiais do Blender e na função `materials()` do gerador. Use outra versão/destino para regenerar sem substituir edições manuais. `--preview` produz prévias em subpasta local. Os renders finais usam Cycles em CPU, 96 amostras, 1600 × 1000, AgX e denoise. A proposta adapta os acabamentos à planta: não replica a distribuição de móveis nem todas as peças das imagens inspiradoras.
+
+## Reconstrução — revisão 10: contorno comum dos pavimentos
+
+O corpo principal dos dois pisos agora tem o mesmo contorno. Os fundos dos dois banheiros e do quarto superior coincidem com a parede da cozinha abaixo. O desencontro anterior de 0,85 m foi corrigido na geometria do Blender, e a profundidade interna foi redistribuída entre os ambientes.
+
+- [Sobreposição dos pavimentos com contorno comum](renders/atual/pavimentos-sobrepostos.png)
+- [Plantas na mesma escala e origem](renders/atual/pavimentos-alinhados.png)
+- [Planta térrea atual](renders/atual/planta-terreo.png)
+- [Planta superior atual](renders/atual/planta-superior.png)
+- [Superior em 3D](renders/atual/superior-3d.png)
+- [Blender editável](projeto/casa-reconstruida.blend)
+- [Relatório de alinhamento, dimensões e limites](relatorios/atual/RELATORIO.md)
+
+## Qual contorno coincide
+
+Na escala estimada, os dois pisos ocupam o retângulo x=0 a 5,60 m e y=−1,65 a 7,60 m: aproximadamente **5,60 × 9,25 m**. A frente é a fachada do volume sobre a garagem; os fundos são a parede da cozinha. As faces externas posteriores também coincidem, com a mesma espessura de parede nos dois níveis.
+
+Esse corpo principal inclui a garagem sob o superior no térreo e a varanda no superior. O pátio frontal e a churrasqueira/lavanderia posteriores são anexos térreos, fora desse contorno comum. O vão da escada é uma abertura na laje superior; por isso contorno igual não implica área líquida igual.
+
+O arquivo `config/planta-casa.json` registra esse limite em `main_volume`. O gerador verifica a concordância entre a referência da cozinha, o limite superior e o contorno comum. A auditoria testa os vértices das lajes e as faces reais das paredes após reabrir o `.blend`.
+
+## Redistribuição dos ambientes
+
+As posições relativas do último croqui foram mantidas: suíte à frente esquerda, outro quarto à frente direita, dois WCs à esquerda nos fundos e quarto dos fundos à direita. A instrução mais recente sobre o alinhamento com a cozinha controla o limite externo.
+
+Dimensões internas aproximadas do estudo:
+
+| Ambiente superior | Dimensões |
+| --- | --- |
+| Suíte | 2,65 × 3,95 m |
+| Quarto da frente | 2,65 × 3,70 m |
+| Quarto dos fundos | 2,65 × 3,25 m |
+| Cada banheiro | 1,25 × 4,15 m |
+
+Os banheiros continuam compridos e estreitos, conforme a distribuição proposta, e precisam ser medidos. Os móveis e as camas mantêm suas dimensões aproximadas próprias. No térreo, escada, lavabo e divisão da garagem se deslocaram 0,30 m; a cozinha começa em y=4,30 m e termina na referência comum y=7,60 m.
+
+A escada mantém os lances encostados, sete degraus iniciais, curva provisória de seis e quatro degraus finais. A laje cobre o trecho baixo junto ao hall; não há faixa, parede ou laje entre os lances. O comprimento do primeiro lance ainda precisa ser medido: o avanço herdado de aproximadamente 0,14 m por degrau está comprimido e não é dimensão executiva.
+
+As dimensões gerais são estimadas. O contorno comum corresponde a uma projeção retangular de 51,80 m² incluindo varanda e vãos, que não equivale aos 51,03 m² exclusivos citados na análise secundária da matrícula. Não houve levantamento nem cálculo estrutural.
+
+## Comparações e validação
+
+[Antes e depois do térreo](renders/atual/antes-depois.png), [referência proporcional do superior](renders/atual/comparacao-superior.png), [fotos do térreo](renders/atual/comparacao-fotos.png), [fotos dos quartos](renders/atual/comparacao-quartos.png) e [fachada](renders/atual/comparacao-fachada.png) acompanham a revisão.
+
+`encaixe-antes.json` e `encaixe-pavimentos.json`, em `relatorios/atual/`, registram a diferença entre o modelo anterior e o atual. São três verificações novas: contorno externo, cobertura das lajes e coplanaridade da parede posterior. Passaram também 18 verificações de integridade, 40 de relações do térreo e 16 de escada/superior. Isso confirma geometria do estudo, sem aprovar estrutura ou medidas reais.
+
+## Abrir, editar e marcar correções
+
+Abra `projeto/casa-reconstruida.blend` no Blender 5.2 LTS. `PLANTA_Terreo_Cotas` e `PLANTA_Superior_Cotas` mostram as plantas; as cenas `FOTO_…`, as perspectivas. `CORTE_Lavabo_Escada` é o corte identificado. Em `PLANTA_Terreo_Portas`, os degraus ficam ocultos apenas para ler os vãos.
+
+No Outliner, selecione um conjunto como `Cama suíte` e pressione `G` para movê-lo. Portas têm pivô `abrir/girar`. Materiais ficam em Material Properties; luzes, em `Iluminacao` e Light Properties. `Num 0` volta à câmera e `F12` renderiza.
+
+Para corrigir no Paint, use as plantas atuais e salve uma cópia com outro nome. Há 23 cenas editáveis e 26 fotos únicas empacotadas; os 31 arquivos originais continuam preservados. `ESTUDOS_Superior` contém referências separadas de mobiliário.
+
+## Regenerar
+
+Os renders finais usam Cycles em CPU, 64 amostras, AgX e denoise. O Blender portátil fica em `.tools/blender-5.2.4-linux-x64/blender`; o launcher aceita `BLENDER_EXECUTABLE`.
+
+```bash
+# Estudo separado, preservando o arquivo atual:
+python3 scripts/run_blender.py --background --factory-startup \
+  --python scripts/build_house.py -- --project-root . --device cpu \
+  --output historico/rascunhos/casa-nova-geracao.blend
+
+# Reabrir, validar e renderizar:
+python3 scripts/run_blender.py --background projeto/casa-reconstruida.blend \
+  --python scripts/validate_house.py -- --project-root . --device cpu
+python3 scripts/house_atlas.py
+# Após a inspeção visual:
+python3 scripts/finalize_ground_revision.py
+```
+
+`--no-render` executa apenas as verificações; `--preview` gera todas as vistas reduzidas. `compare_proportions.py --landmarks referencias-ajustes/proporcoes-r09-linhas.json` compara a distribuição com o croqui manual, subordinado ao alinhamento externo solicitado nesta revisão.
+
+## Histórico
+
+A [revisão 09](historico/revisao09/INDICE.md) foi arquivada com hashes. As demais versões permanecem no [histórico](historico/README.md). Os modelos e imagens históricos e as prévias ficam preservados localmente, fora do Git; seus documentos e recibos continuam versionados. O repositório remoto contém os modelos e renders atuais, as referências e os geradores. A conferência completa de retenção dos arquivos antigos em `finalize_ground_revision.py` exige esse histórico local.

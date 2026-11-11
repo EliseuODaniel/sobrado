@@ -1,0 +1,477 @@
+{
+  "timestamp_utc": "2026-11-10T10:07:33.102637+00:00",
+  "blend": "/home/edann/projects/casa-interiores/projeto/sala-industrial.blend",
+  "blender_version": "5.2.4 LTS",
+  "checks": {
+    "camera_principal_ativa": {
+      "passed": true,
+      "detail": null
+    },
+    "cycles": {
+      "passed": true,
+      "detail": null
+    },
+    "unidades_metros": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Arquitetura": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Estar": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Jantar": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Bar": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Cozinha": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Iluminacao": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Cameras": {
+      "passed": true,
+      "detail": null
+    },
+    "colecao_Referencias": {
+      "passed": true,
+      "detail": null
+    },
+    "quatro_cadeiras": {
+      "passed": true,
+      "detail": 4
+    },
+    "cadeiras_2_mais_2": {
+      "passed": true,
+      "detail": null
+    },
+    "quatro_banquetas": {
+      "passed": true,
+      "detail": 4
+    },
+    "tres_tabuas_longitudinais": {
+      "passed": true,
+      "detail": null
+    },
+    "imagens_disponiveis": {
+      "passed": true,
+      "detail": [
+        {
+          "name": "01-cena-final.png",
+          "packed": true,
+          "source": "FILE",
+          "size": [
+            1671,
+            941
+          ]
+        },
+        {
+          "name": "02-bar-fundo.png",
+          "packed": true,
+          "source": "FILE",
+          "size": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "name": "03-mesa-jantar.png",
+          "packed": true,
+          "source": "FILE",
+          "size": [
+            1254,
+            1254
+          ]
+        },
+        {
+          "name": "Arte divisoria",
+          "packed": true,
+          "source": "FILE",
+          "size": [
+            400,
+            560
+          ]
+        },
+        {
+          "name": "Arte Quadro floresta esquerda",
+          "packed": true,
+          "source": "FILE",
+          "size": [
+            400,
+            560
+          ]
+        },
+        {
+          "name": "Tela paisagem original",
+          "packed": true,
+          "source": "FILE",
+          "size": [
+            1024,
+            576
+          ]
+        }
+      ]
+    },
+    "referencias_fora_do_render": {
+      "passed": true,
+      "detail": null
+    },
+    "arquitetura_protegida": {
+      "passed": true,
+      "detail": null
+    },
+    "espelho_fisico": {
+      "passed": true,
+      "detail": null
+    },
+    "moveis_apoiados": {
+      "passed": true,
+      "detail": {
+        "CADEIRA_Esquerda_1 — mover conjunto": [
+          [
+            0.9613063931465149,
+            1.475000023841858
+          ],
+          [
+            3.9869563579559326,
+            4.453043460845947
+          ],
+          [
+            0.018492259085178375,
+            0.9889174103736877
+          ]
+        ],
+        "CADEIRA_Esquerda_2 — mover conjunto": [
+          [
+            0.9613063931465149,
+            1.475000023841858
+          ],
+          [
+            4.846956253051758,
+            5.313043594360352
+          ],
+          [
+            0.018492259085178375,
+            0.9889174103736877
+          ]
+        ],
+        "CADEIRA_Direita_1 — mover conjunto": [
+          [
+            2.924999952316284,
+            3.4386935234069824
+          ],
+          [
+            3.9869563579559326,
+            4.453043460845947
+          ],
+          [
+            0.018492259085178375,
+            0.9889174103736877
+          ]
+        ],
+        "CADEIRA_Direita_2 — mover conjunto": [
+          [
+            2.924999952316284,
+            3.4386935234069824
+          ],
+          [
+            4.846956253051758,
+            5.313043594360352
+          ],
+          [
+            0.018492259085178375,
+            0.9889174103736877
+          ]
+        ],
+        "BANQUETA_01 — mover conjunto": [
+          [
+            0.7599999904632568,
+            1.2000000476837158
+          ],
+          [
+            6.630000114440918,
+            7.069999694824219
+          ],
+          [
+            0.023517899215221405,
+            0.7824999690055847
+          ]
+        ],
+        "BANQUETA_02 — mover conjunto": [
+          [
+            1.75,
+            2.190000057220459
+          ],
+          [
+            6.630000114440918,
+            7.069999694824219
+          ],
+          [
+            0.023517899215221405,
+            0.7824999690055847
+          ]
+        ],
+        "BANQUETA_03 — mover conjunto": [
+          [
+            2.740000009536743,
+            3.180000066757202
+          ],
+          [
+            6.630000114440918,
+            7.069999694824219
+          ],
+          [
+            0.023517899215221405,
+            0.7824999690055847
+          ]
+        ],
+        "BANQUETA_04 — mover conjunto": [
+          [
+            3.7300000190734863,
+            4.170000076293945
+          ],
+          [
+            6.630000114440918,
+            7.069999694824219
+          ],
+          [
+            0.023517899215221405,
+            0.7824999690055847
+          ]
+        ],
+        "SOFA_Couro caramelo — mover conjunto": [
+          [
+            0.009526669979095459,
+            1.6983590126037598
+          ],
+          [
+            -0.3299998939037323,
+            3.2300000190734863
+          ],
+          [
+            0.0,
+            1.1166366338729858
+          ]
+        ],
+        "MESA_Centro — mover conjunto": [
+          [
+            1.9249999523162842,
+            3.7749998569488525
+          ],
+          [
+            2.125,
+            3.1750001907348633
+          ],
+          [
+            -0.004999995231628418,
+            0.39100000262260437
+          ]
+        ],
+        "MESA_Jantar — mover conjunto": [
+          [
+            1.5250000953674316,
+            2.875
+          ],
+          [
+            3.825000047683716,
+            5.474999904632568
+          ],
+          [
+            0.03500000014901161,
+            0.7824999690055847
+          ]
+        ]
+      }
+    },
+    "configuracao_corresponde_ao_blend": {
+      "passed": true,
+      "detail": null
+    },
+    "moveis_dentro_do_piso": {
+      "passed": true,
+      "detail": null
+    },
+    "sem_intersecoes_entre_moveis_principais": {
+      "passed": true,
+      "detail": []
+    },
+    "objeto_espelho_restaurado": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "layout_bounds_m": {
+    "CADEIRA_Esquerda_1 — mover conjunto": [
+      [
+        0.9613063931465149,
+        1.475000023841858
+      ],
+      [
+        3.9869563579559326,
+        4.453043460845947
+      ],
+      [
+        0.018492259085178375,
+        0.9889174103736877
+      ]
+    ],
+    "CADEIRA_Esquerda_2 — mover conjunto": [
+      [
+        0.9613063931465149,
+        1.475000023841858
+      ],
+      [
+        4.846956253051758,
+        5.313043594360352
+      ],
+      [
+        0.018492259085178375,
+        0.9889174103736877
+      ]
+    ],
+    "CADEIRA_Direita_1 — mover conjunto": [
+      [
+        2.924999952316284,
+        3.4386935234069824
+      ],
+      [
+        3.9869563579559326,
+        4.453043460845947
+      ],
+      [
+        0.018492259085178375,
+        0.9889174103736877
+      ]
+    ],
+    "CADEIRA_Direita_2 — mover conjunto": [
+      [
+        2.924999952316284,
+        3.4386935234069824
+      ],
+      [
+        4.846956253051758,
+        5.313043594360352
+      ],
+      [
+        0.018492259085178375,
+        0.9889174103736877
+      ]
+    ],
+    "BANQUETA_01 — mover conjunto": [
+      [
+        0.7599999904632568,
+        1.2000000476837158
+      ],
+      [
+        6.630000114440918,
+        7.069999694824219
+      ],
+      [
+        0.023517899215221405,
+        0.7824999690055847
+      ]
+    ],
+    "BANQUETA_02 — mover conjunto": [
+      [
+        1.75,
+        2.190000057220459
+      ],
+      [
+        6.630000114440918,
+        7.069999694824219
+      ],
+      [
+        0.023517899215221405,
+        0.7824999690055847
+      ]
+    ],
+    "BANQUETA_03 — mover conjunto": [
+      [
+        2.740000009536743,
+        3.180000066757202
+      ],
+      [
+        6.630000114440918,
+        7.069999694824219
+      ],
+      [
+        0.023517899215221405,
+        0.7824999690055847
+      ]
+    ],
+    "BANQUETA_04 — mover conjunto": [
+      [
+        3.7300000190734863,
+        4.170000076293945
+      ],
+      [
+        6.630000114440918,
+        7.069999694824219
+      ],
+      [
+        0.023517899215221405,
+        0.7824999690055847
+      ]
+    ],
+    "SOFA_Couro caramelo — mover conjunto": [
+      [
+        0.009526669979095459,
+        1.6983590126037598
+      ],
+      [
+        -0.3299998939037323,
+        3.2300000190734863
+      ],
+      [
+        0.0,
+        1.1166366338729858
+      ]
+    ],
+    "MESA_Centro — mover conjunto": [
+      [
+        1.9249999523162842,
+        3.7749998569488525
+      ],
+      [
+        2.125,
+        3.1750001907348633
+      ],
+      [
+        -0.004999995231628418,
+        0.39100000262260437
+      ]
+    ],
+    "MESA_Jantar — mover conjunto": [
+      [
+        1.5250000953674316,
+        2.875
+      ],
+      [
+        3.825000047683716,
+        5.474999904632568
+      ],
+      [
+        0.03500000014901161,
+        0.7824999690055847
+      ]
+    ]
+  },
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  }
+}

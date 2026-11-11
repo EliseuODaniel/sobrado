@@ -1,0 +1,46 @@
+{
+  "timestamp_utc": "2026-11-10T16:29:44.510521+00:00",
+  "revision": 5,
+  "status": "terreo_e_fachada_revistos_por_evidencias_fotograficas",
+  "scope": "Conferência e ajustes do térreo e fachada; não implantar os cômodos do segundo pavimento nesta etapa.",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2"
+  },
+  "integrity_checks": 15,
+  "geometry_checks": 33,
+  "tested_failures_corrected": [
+    "fachada_sem_marquise_e_pilares_avancados",
+    "garagem_com_paredes_laterais_continuas",
+    "varanda_recuada_com_rede",
+    "janela_sala_com_grade",
+    "janela_pequena_visivel_no_fundo_garagem",
+    "escada_oculta_na_vista_externa",
+    "bancada_nao_atravessa_fogao",
+    "lavadora_superior_livre_de_granito",
+    "retorno_lavanderia_no_lado_esquerdo"
+  ],
+  "render_count": 17,
+  "visual_review": [
+    "Oito ângulos do térreo e duas vistas externas comparados às fotos originais",
+    "Vista superior e corte em 3D do térreo",
+    "Corte do lavabo e volumetria exterior antes/depois"
+  ],
+  "unknowns": [
+    "Dimensões reais, espessuras, inclinação e folgas da escada",
+    "Ligação exata entre janela da cozinha, eventual pátio aberto e lavanderia; esclarecimento solicitado ao usuário, sem resposta registrada",
+    "Forma completa do telhado da unidade, aproximada pela tipologia vista nas vizinhas",
+    "Implantação dos cômodos do segundo pavimento, reservada para a próxima etapa"
+  ],
+  "known_limits": [
+    "Enquadramentos aproximados; nenhuma calibração métrica ou nota de similaridade",
+    "Três bancos do croqui mantidos apesar de as fotos mostrarem quatro",
+    "Retorno esquerdo da bancada da lavanderia encurtado para preservar o acesso lateral do croqui; profundidade real não demonstrada",
+    "Forro do lavabo usa envelope inclinado e ressaltos aproximados; não é uma reprodução estrutural medida",
+    "Vizinhas são contexto volumétrico aproximado apenas nas câmeras externas, sem interiores"
+  ],
+  "sources_preserved": true,
+  "previous_revision_preserved": "projeto/versoes/revisao-05-antes/projeto/casa-reconstruida.blend",
+  "upper_interior_started": false,
+  "external_publication": false
+}

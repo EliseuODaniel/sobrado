@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-10T15:44:01.092719+00:00",
+  "source": "referencias-ajustes/planta-terreo-anotada.png",
+  "source_sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819",
+  "previous_blend_sha256": "1662bfda0e57a7e998773f4b7670fc66daff61b91a37ed02f6f65e43664d86a1",
+  "user_correction": {
+    "source": "Mensagem do usuário nesta conversa",
+    "instruction": "O lavabo fica embaixo da segunda metade da escada que sobe para o segundo pavimento; aumentar a garagem e mover o lavabo para baixo desse lance.",
+    "supersedes": "Posição do lavabo desenhada à frente da escada no croqui da revisão 03",
+    "dimensions_status": "approximate_no_measured_anchor"
+  },
+  "backup": "projeto/versoes/revisao-04-antes"
+}

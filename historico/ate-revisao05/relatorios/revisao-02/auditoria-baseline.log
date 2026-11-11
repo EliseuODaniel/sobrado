@@ -1,0 +1,17 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.856  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/versoes/revisao-02-antes/projeto/casa-reconstruida.blend"
+FAIL tv_na_parede_interna_lateral
+FAIL porta_lavabo_na_mesma_face
+FAIL porta_lavabo_fechada_como_na_foto
+FAIL primeiro_lance_transversal
+FAIL espelho_fora_do_volume_da_parede
+PASS pedra_exposta_na_frente_da_parede
+FAIL primeiro_lance_nao_exposto_na_vista_sala7
+FAIL primeiro_lance_visivel_no_angulo_sala1
+PASS primeiro_lance_visivel_na_vista_sala4
+PASS janela_cozinha_visivel_pela_passagem
+FAIL porta_lavabo_visivel_entre_tv_e_escada
+FAIL superior_sem_adjacencias_inventadas
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

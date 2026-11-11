@@ -1,0 +1,295 @@
+{
+  "timestamp_utc": "2026-11-10T17:51:25.820108+00:00",
+  "scope": "Versão anterior à correção da conexão cozinha/acesso e à sincronização das vistas",
+  "records": [
+    {
+      "operation": "snapshot",
+      "source": "README.md",
+      "destination": "historico/revisao06/README.md",
+      "sha256": "287278971981e381809c8dd16d53dfee362da376aa35e90580ad9c1f85496608"
+    },
+    {
+      "operation": "snapshot",
+      "source": "config/planta-casa.json",
+      "destination": "historico/revisao06/config/planta-casa.json",
+      "sha256": "1591ed318ae701fbc6dbd3bd16497109994973fa4b7170069f31cca788bfe88b"
+    },
+    {
+      "operation": "snapshot",
+      "source": "projeto/casa-reconstruida.blend",
+      "destination": "historico/revisao06/projeto/casa-reconstruida.blend",
+      "sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/audit_photo_geometry.py",
+      "destination": "historico/revisao06/scripts/audit_photo_geometry.py",
+      "sha256": "e4b03c836749c126b44a17e6cb0e1657f892b2441d98961ed70bc467ee44d692"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/blender_primitives.py",
+      "destination": "historico/revisao06/scripts/blender_primitives.py",
+      "sha256": "3b2bf176b75e9ecb705e4f173baf6010cad8fc79b169c323d1942368752731b0"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/build_house.py",
+      "destination": "historico/revisao06/scripts/build_house.py",
+      "sha256": "9ae78d3f2b092d398925722d2fd3500d5a4dafbcb530353fddd62ff1198112e8"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/facade_details.py",
+      "destination": "historico/revisao06/scripts/facade_details.py",
+      "sha256": "aa762b54ba244bde4d7728de82c048c2d7283ca86d598d43490805e505c020c6"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/finalize_ground_revision.py",
+      "destination": "historico/revisao06/scripts/finalize_ground_revision.py",
+      "sha256": "a2bdc51b35d1a298b38890944482ff289fb2f21cbbc4344a7515cddc2a7ad0ab"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/house_atlas.py",
+      "destination": "historico/revisao06/scripts/house_atlas.py",
+      "sha256": "c8a06dcb04d2ca17f0a75ba7c019c080a6e4d7e67033b5d6203cd09bc60ce91a"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/house_geometry.py",
+      "destination": "historico/revisao06/scripts/house_geometry.py",
+      "sha256": "ebf796976e4739fd2775048c4d84784cf7ff1dff82bad2274b0d59a88eb452d7"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/render_revision.py",
+      "destination": "historico/revisao06/scripts/render_revision.py",
+      "sha256": "639bb689c9cc918929d924f386b26457c99662440c883c161e6f19ce7d4fba2e"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/run_blender.py",
+      "destination": "historico/revisao06/scripts/run_blender.py",
+      "sha256": "946f6108f2c1b9d7030b1b484034cde070734e6291b482a40cb9925595018e93"
+    },
+    {
+      "operation": "snapshot",
+      "source": "scripts/validate_house.py",
+      "destination": "historico/revisao06/scripts/validate_house.py",
+      "sha256": "002e880970e1f7fccc73d52ebfdd67ec3c0413c0a56e26b08e9579832dfca0ac"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/antes-depois.png",
+      "destination": "historico/revisao06/renders/atual/antes-depois.png",
+      "sha256": "1eed6ad24bb7a6f4ee932b2c5374a3115dcdb1078882080d22ee9e26c3c27b9b"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/bar.png",
+      "destination": "historico/revisao06/renders/atual/bar.png",
+      "sha256": "45725cd9199af09fef80827d62897bae5bb951791fb3e409a42259d5cd988c4c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/comparacao-fachada.png",
+      "destination": "historico/revisao06/renders/atual/comparacao-fachada.png",
+      "sha256": "18c0591a5f9f51ebab4864afccebdd430216bedec73026d93aebfc33e7cc6e44"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/comparacao-fotos.png",
+      "destination": "historico/revisao06/renders/atual/comparacao-fotos.png",
+      "sha256": "1f4417d6e76e97e2e84406e4705e8ab54141639473861494e4b1e4aecfa5c663"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/comparacao-planta.png",
+      "destination": "historico/revisao06/renders/atual/comparacao-planta.png",
+      "sha256": "1043719fe6b78f4b8aeee063edb03e03286555860d29754ca15074379544fdd3"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/cozinha-reversa.png",
+      "destination": "historico/revisao06/renders/atual/cozinha-reversa.png",
+      "sha256": "7a9efab153be88b1ceb2ac4b713469ad9bd60ea6e5c19625c6b08921e1235a7f"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/cozinha.png",
+      "destination": "historico/revisao06/renders/atual/cozinha.png",
+      "sha256": "32b62d6d138b31c5ed9e90a83ac4dafe6340d0adb386c360327089558ae9f5cf"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/escada-acesso.png",
+      "destination": "historico/revisao06/renders/atual/escada-acesso.png",
+      "sha256": "f1d21a0174dcfe8fe01ebd5dfcebed71d56dad03b057eb4512ff39926a6b6ad8"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/estudos-superior.png",
+      "destination": "historico/revisao06/renders/atual/estudos-superior.png",
+      "sha256": "e59588a1ae48f9d705f53d0ee8eb3834d13e23a3386f24a007285bd8507526f5"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/fachada-frontal.png",
+      "destination": "historico/revisao06/renders/atual/fachada-frontal.png",
+      "sha256": "d136937b2348cdd99d36153975cf08f90104e4a30c7341116e1c3bb6c3b413e3"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/fachada-obliqua.png",
+      "destination": "historico/revisao06/renders/atual/fachada-obliqua.png",
+      "sha256": "9664fb239e6c4448881edc75784bc51ab97bc359d9408b140dabc150e24dd139"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/lavabo-sob-escada.png",
+      "destination": "historico/revisao06/renders/atual/lavabo-sob-escada.png",
+      "sha256": "d7788e3a6f0951087c77e7d7eab6f1f43f6abedf3b641d35004fb8d8289e1944"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/lavabo.png",
+      "destination": "historico/revisao06/renders/atual/lavabo.png",
+      "sha256": "54f2a7f68e30ff4bf20e77059e2e5647fb318aa7b7f3cdbb039d6309e741e3e0"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/lavanderia.png",
+      "destination": "historico/revisao06/renders/atual/lavanderia.png",
+      "sha256": "5c3562af4858b74361f62e3a6d94fc251306b7c4761d94ef393687049363587c"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/planta-terreo.png",
+      "destination": "historico/revisao06/renders/atual/planta-terreo.png",
+      "sha256": "1b36de961b9da9be96c53ab5d503c7a0029c79e93ea844a3f7e5abb67be88171"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/porta-lavabo.png",
+      "destination": "historico/revisao06/renders/atual/porta-lavabo.png",
+      "sha256": "408bf34f0149b9fa26f79528acf00cd55c1b0eda8c11fd2c8717ce17df051a83"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/sala-frente.png",
+      "destination": "historico/revisao06/renders/atual/sala-frente.png",
+      "sha256": "a8a3b22fc91b6fe057b2d228c2954a14afa86510c46ba2b015a8673ddb662f73"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/sala-fundos.png",
+      "destination": "historico/revisao06/renders/atual/sala-fundos.png",
+      "sha256": "5ebae5f114f538b9e8e3d88bb1c9505c95f33a2a7fabaf3cd9aa0706c59d10a8"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/superior-envoltoria.png",
+      "destination": "historico/revisao06/renders/atual/superior-envoltoria.png",
+      "sha256": "9067fd8100a58c14d816eeb5f9413a951a4dae7e956c0be9205bcf033f4ce822"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/superior-pendente.png",
+      "destination": "historico/revisao06/renders/atual/superior-pendente.png",
+      "sha256": "b5ef4240f45fd396090c7e8d7ee595d6bd218778c07164ad03c787ee83f9c2ff"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/terreo-3d.png",
+      "destination": "historico/revisao06/renders/atual/terreo-3d.png",
+      "sha256": "529e238d86f9992a7c7e3ee8fed8e4ad38341b3d2bd14f4ee044dbf5c9dc8c68"
+    },
+    {
+      "operation": "archive",
+      "source": "renders/atual/volumetria.png",
+      "destination": "historico/revisao06/renders/atual/volumetria.png",
+      "sha256": "a0d91b0ac7300ea598ea78e42c93c6feb8d71cd795c32db5a54d93e0a7bbc482"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/RELATORIO.md",
+      "destination": "historico/revisao06/relatorios/atual/RELATORIO.md",
+      "sha256": "f5067269ec3e01a1c58a3db1858c8631362aad32f575051a2616a12d5894610f"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/auditoria-depois.json",
+      "destination": "historico/revisao06/relatorios/atual/auditoria-depois.json",
+      "sha256": "b9cf58af5cd1f5d4592db013775704ad8f4b3c20f6a40c20f36ccc2e88524b30"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/comparacao.json",
+      "destination": "historico/revisao06/relatorios/atual/comparacao.json",
+      "sha256": "51c650afff7680913903543418818a185540d6f1719619a324a96a22ade61530"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/diagnostico-vistas.json",
+      "destination": "historico/revisao06/relatorios/atual/diagnostico-vistas.json",
+      "sha256": "76d4ea23612dabe9c558f95679732def02d5290e1f992eaaa5964e978fe24ec3"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/geracao.json",
+      "destination": "historico/revisao06/relatorios/atual/geracao.json",
+      "sha256": "32d0889f26e2f0d6d9603188e883dbd3ad8602f9f60b0329c6de7f14842f4442"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/geracao.log",
+      "destination": "historico/revisao06/relatorios/atual/geracao.log",
+      "sha256": "408962ad8d7ed07ae73416edb385311810edb64b9a5c6fcd203a1d46a5aa544d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/inicio.json",
+      "destination": "historico/revisao06/relatorios/atual/inicio.json",
+      "sha256": "ae60fd13e188d4de4cc807d5b7168e73a1fb7eecd9e8ffee30f7b1de1d44794d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/manifesto.json",
+      "destination": "historico/revisao06/relatorios/atual/manifesto.json",
+      "sha256": "e9bc247ebbc590e9979bcfa9590e93a9cea44a8a974ecffc4213bcd292e5ff9d"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/montagens.log",
+      "destination": "historico/revisao06/relatorios/atual/montagens.log",
+      "sha256": "448c18bf4de7247d5062755d32786450288b86e40ca49bd36f410136361d0bd6"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/renders-finais.json",
+      "destination": "historico/revisao06/relatorios/atual/renders-finais.json",
+      "sha256": "4e1f7518da658b8bee19fd7c980dcd66c60d26352e792dc6e068d2ea78cbc986"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/revisao.json",
+      "destination": "historico/revisao06/relatorios/atual/revisao.json",
+      "sha256": "beef2d4cb5a971080705b60f6e03e8972e10819bc38a44bea1f8795775df4d0f"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/validacao.json",
+      "destination": "historico/revisao06/relatorios/atual/validacao.json",
+      "sha256": "7a59a9132a8ede6bb6998142f6243cdfef6e081bf84bf571459f804e9058e9cf"
+    },
+    {
+      "operation": "archive",
+      "source": "relatorios/atual/validacao.log",
+      "destination": "historico/revisao06/relatorios/atual/validacao.log",
+      "sha256": "6892353cc3d694daf1792cf142f6d970e5bbd7b0da1d3aa4b913a316154981a9"
+    }
+  ],
+  "deletions": []
+}

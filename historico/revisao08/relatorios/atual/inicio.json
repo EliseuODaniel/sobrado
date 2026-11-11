@@ -1,0 +1,667 @@
+{
+  "timestamp_utc": "2026-11-10T18:39:52.545073+00:00",
+  "revision": 8,
+  "scope": "Escada 7+curva+4; posições dos três quartos conforme croqui; banheiros e medidas como hipóteses",
+  "upper_source": {
+    "path": "referencias-ajustes/segundo-pavimento.png",
+    "sha256": "7cc3c385ac0770e6fcb53ad09ddee6f70992b22af25a347cb29d293f1b2cc5f4"
+  },
+  "previous_blend_sha256": "277745c541afc1654e1f89810d5c6f812b30a885cc92737e5985bfe67f812b0e",
+  "archive_manifest": "historico/revisao07/ARQUIVAMENTO.json",
+  "assumed_turn_steps": 6,
+  "remaining": [
+    "Modelar escada e superior",
+    "Validar encaixe e caminhos",
+    "Renderizar e comparar",
+    "Conferir arquivos finais"
+  ],
+  "drafts": [
+    {
+      "destination": "historico/rascunhos/revisao08/20261110T184658Z-0.blend",
+      "sha256": "3ca2c48b416d76c3311bb6f932f38af6b97bcce7f200f04ca430d7c2ed021187"
+    },
+    {
+      "destination": "historico/rascunhos/revisao08/20261110T184658Z-1.blend",
+      "sha256": "8d0a0a4521542c430e6fba9197c001b41907b9583572b68571e26ebcad7e3855"
+    },
+    {
+      "destination": "historico/rascunhos/revisao08/20261110T184934Z-0.blend",
+      "sha256": "3130d289ae107060fc63a7f924fd4fd6d0e56e470578e2dd67192dd75573ef5c"
+    },
+    {
+      "destination": "historico/rascunhos/revisao08/20261110T185156Z-0.blend",
+      "sha256": "e0e89fe6817543857360e6b35f6d8bfdb166911048345fb2c49cf5faf50906e7"
+    },
+    {
+      "destination": "historico/rascunhos/revisao08/antes-ajuste-camera.blend",
+      "sha256": "acea35c3374f10231a5054a25bbb9bc6965c66e36286a5ff4b95435ccd7af3d1"
+    },
+    {
+      "destination": "historico/rascunhos/revisao08/antes-ajuste-final.blend",
+      "sha256": "d61ae62fe5e35bf19f63568659f613efc29e79e865df1d880738f4fe7720caf4"
+    }
+  ],
+  "preview_archives": [
+    {
+      "source": "renders/atual/previas/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao08/previas-superior/quarto-frente.png",
+      "sha256": "54b4fb848da48e01c42aca4063bdfc84ccb4deab5063187cafeb60298fbc0d5b"
+    },
+    {
+      "source": "renders/atual/previas/escada-superior.png",
+      "destination": "historico/rascunhos/revisao08/previas-superior/escada-superior.png",
+      "sha256": "28d5dea692cc924d0ea9aff90ace197caece92eae61b293877e2d031e9947acb"
+    },
+    {
+      "source": "renders/atual/previas/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao08/previas-superior/quarto-fundos.png",
+      "sha256": "f8ac4713941dd0f77c70d4258d1801d5daef5ac7e884c7e9b0a56ee5f52a5225"
+    },
+    {
+      "source": "renders/atual/previas/superior-3d.png",
+      "destination": "historico/rascunhos/revisao08/previas-superior/superior-3d.png",
+      "sha256": "5c085fd9c3d0308c7ec528655970da76928ac55e438702d7ed4a1b6de6523193"
+    },
+    {
+      "source": "renders/atual/previas/suite.png",
+      "destination": "historico/rascunhos/revisao08/previas-superior/suite.png",
+      "sha256": "db31efc786591366317d64d34193c1a9d932d882eae74f9ba6fb01d6a56899a7"
+    },
+    {
+      "source": "renders/atual/previas/planta-superior.png",
+      "destination": "historico/rascunhos/revisao08/previas-superior/planta-superior.png",
+      "sha256": "5ccf86b0eaa34ab2db476c10efb74d1999f77cd198d8058f1f1ebd4757ba5c73"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao08/previas-superior/renders-previa.json",
+      "sha256": "4b559e88d23ea5789aa1417008e5f78d66c28182bca50506d4f4934a2a4dd02c"
+    },
+    {
+      "source": "relatorios/atual/previa-superior.log",
+      "destination": "historico/rascunhos/revisao08/previas-superior/previa-superior.log",
+      "sha256": "897949f2f14e6671c5938eaf06dbfc3811bf0db4749d70fdde41fd681d63715c"
+    },
+    {
+      "source": "renders/atual/previas/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/quarto-frente.png",
+      "sha256": "00a20d2e729c028f8cd7f90c0da6d3c8ce797cb486648824f05b20bacec89b11"
+    },
+    {
+      "source": "renders/atual/previas/escada-superior.png",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/escada-superior.png",
+      "sha256": "a45a0e87299d1c80fd1caa5908a3e3e24434b45bbe014aa3b0e9e7a978b1a747"
+    },
+    {
+      "source": "renders/atual/previas/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/quarto-fundos.png",
+      "sha256": "80324172b5189bb77fe4bf9becdbc960fca8657e73571e0e408053926ae14f5f"
+    },
+    {
+      "source": "renders/atual/previas/superior-3d.png",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/superior-3d.png",
+      "sha256": "a4e4b3edcbb3a84165a817aa8eb44e5c0ce334b958998dda18fdecbac641ef14"
+    },
+    {
+      "source": "renders/atual/previas/suite.png",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/suite.png",
+      "sha256": "d37105278559c4b48f4bc624f2be133bdd29a9aa0c4c5c4fe6330f619efd30b1"
+    },
+    {
+      "source": "renders/atual/previas/planta-superior.png",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/planta-superior.png",
+      "sha256": "725a6eb8940a48535f3d4b5f3b3d386e40d3aed78fad21a4ae4278c2a2e4bb7e"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/renders-previa.json",
+      "sha256": "fe5a0499962638b7065f9c5301e11cd2257ef506f2b2b11025e63b3c34763fab"
+    },
+    {
+      "source": "relatorios/atual/previa-superior.log",
+      "destination": "historico/rascunhos/revisao08/previas-ultimo-croqui/previa-superior.log",
+      "sha256": "195dbb00072a98e7e9d5e890c587d450149a11046ba03fd97c9b95f7ff69a09b"
+    },
+    {
+      "destination": "historico/rascunhos/revisao08/previa-camera-quarto.png",
+      "sha256": "e9a13bc5bb06b6dfddbb3b0bc4df3281490c7079621abeb9ef272e7f0ed75a59"
+    }
+  ],
+  "superseded_archives": [
+    {
+      "source": "projeto/.em-validacao.blend",
+      "destination": "historico/rascunhos/revisao08/lances-separados/projeto/.em-validacao.blend",
+      "sha256": "fb3b1166c80ccc60627782794e6ffec864fae610f05f41f0646a6e07e267c07b"
+    },
+    {
+      "source": "renders/atual/acesso-lavabo.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/acesso-lavabo.png",
+      "sha256": "ab59f128bb5a5b582dabfc56591c2545a688d6447339c7f5fc91e05c36403953"
+    },
+    {
+      "source": "renders/atual/bar.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/bar.png",
+      "sha256": "27becc9487225c7f2fca459a51f068767b783c4d55ac3830442a528d7533a7a7"
+    },
+    {
+      "source": "renders/atual/cozinha-reversa.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/cozinha-reversa.png",
+      "sha256": "4923e7f168df5860680283748d96cc34b9e32471d5810df7258fd4fdd41532c3"
+    },
+    {
+      "source": "renders/atual/cozinha.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/cozinha.png",
+      "sha256": "7d559caab02e3f6033fb0230f41f69f4b38006f1d4e63cc2536cb887a2923940"
+    },
+    {
+      "source": "renders/atual/escada-acesso.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/escada-acesso.png",
+      "sha256": "19793eb5810b61312f75599cd8136dc00c07a4f9e36d81f0dd4fd7629b2c8bc5"
+    },
+    {
+      "source": "renders/atual/escada-superior.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/escada-superior.png",
+      "sha256": "7a1cfa381e412a056f82944e25b1ad5eef83ee6f8b96b350ccf3e6b2b4724115"
+    },
+    {
+      "source": "renders/atual/estudos-superior.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/estudos-superior.png",
+      "sha256": "dd3d0e8069e5b9dfaf4f0b63ce08bb62d31eaf7fbac2dbaa452ab3fa161f049e"
+    },
+    {
+      "source": "renders/atual/fachada-frontal.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/fachada-frontal.png",
+      "sha256": "d6d2a96a52aaa38faf04f143afb59d7665b160bc90b73e3cb52920c07633014c"
+    },
+    {
+      "source": "renders/atual/fachada-obliqua.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/fachada-obliqua.png",
+      "sha256": "a8af1aa31adbf77248314938f8d7559b0080b51e552b7bed7b6d416a86bfbe03"
+    },
+    {
+      "source": "renders/atual/lavabo-sob-escada.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/lavabo-sob-escada.png",
+      "sha256": "5f9978bf12b904e8bb482e05141ab37bb91e64c0c7339acef00a324f96c86951"
+    },
+    {
+      "source": "renders/atual/lavabo.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/lavabo.png",
+      "sha256": "86b5975af104ef8f5f6d790b2cdcaa404382f038c0d7574ea79e39125f1b22ac"
+    },
+    {
+      "source": "renders/atual/lavanderia.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/lavanderia.png",
+      "sha256": "eaa30a29fad1369a5ff34177639835c5329cb81554c97709afbaf1a7efef60d7"
+    },
+    {
+      "source": "renders/atual/planta-superior.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/planta-superior.png",
+      "sha256": "2199793469ea6a4e76a10906494bc84f1a97dbab47d00b333275b6ac491d2abc"
+    },
+    {
+      "source": "renders/atual/planta-terreo.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/planta-terreo.png",
+      "sha256": "8eb2be68a7d243c3823594a84d325677d0b3fbb5157e5b9c681ca008c9c49ddd"
+    },
+    {
+      "source": "renders/atual/porta-lavabo.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/porta-lavabo.png",
+      "sha256": "fbede109a28e69bc2a610fb5f2fc3fb830503b3660f69663c5dba274f59c30d8"
+    },
+    {
+      "source": "renders/atual/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/quarto-frente.png",
+      "sha256": "034c460af2221526171ff370e4b492ca06f563b38b3daf390d6a42b9582cee65"
+    },
+    {
+      "source": "renders/atual/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/quarto-fundos.png",
+      "sha256": "2ddc087aaaf26936635f9aab4b6c51bd3d701c9ae071e4fdbf3b89de4e9948a2"
+    },
+    {
+      "source": "renders/atual/sala-frente.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/sala-frente.png",
+      "sha256": "9fee09035c5f37bf9a8db94e63ad78b69be655d96951821137c4d6e8aafc781f"
+    },
+    {
+      "source": "renders/atual/sala-fundos.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/sala-fundos.png",
+      "sha256": "406b37c56b718d0fec1a554e7126d7648adb8160a68d228c71af2f0d93dc5dc6"
+    },
+    {
+      "source": "renders/atual/suite.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/suite.png",
+      "sha256": "f02dbef821f393abd77b8615cf41925527c17575f57608e1407fbc32c63c6cbf"
+    },
+    {
+      "source": "renders/atual/superior-3d.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/superior-3d.png",
+      "sha256": "f40d8be381a18fde349d4b62aa693116ee6dbfe542c8b952ff0dcc337b16aec2"
+    },
+    {
+      "source": "renders/atual/terreo-3d.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/terreo-3d.png",
+      "sha256": "9dc545f530bcd86a65dad3eb9789450a4129dda9ab182dd054c6916479d67034"
+    },
+    {
+      "source": "renders/atual/volumetria.png",
+      "destination": "historico/rascunhos/revisao08/lances-separados/renders/atual/volumetria.png",
+      "sha256": "d507a5eb342b4768b748d86cbc637f4e8eacee87a3f7cdef6148adb7bff07422"
+    },
+    {
+      "source": "relatorios/atual/validacao.log",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/validacao.log",
+      "sha256": "8375f3d24f343379616174cf71e0a789f9496942212d62c89d911311fcbd55ca"
+    },
+    {
+      "source": "relatorios/atual/auditoria-depois.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/auditoria-depois.json",
+      "sha256": "c78597bfa6c6d68e8279bf87fdb72c3bca02d28579e721a4c86bce4765634093"
+    },
+    {
+      "source": "relatorios/atual/diagnostico-primeiro-estudo.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/diagnostico-primeiro-estudo.json",
+      "sha256": "bb1363a0ec8a9d08ccefc2d8d8a1f69c2ef27f232a15ddd94f46ca1e871b534c"
+    },
+    {
+      "source": "relatorios/atual/ajuste-camera.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/ajuste-camera.json",
+      "sha256": "82626b345e007e4bba6c3cf59a48db3ab2830a6923ecae8ec3cb3ee4511a1151"
+    },
+    {
+      "source": "relatorios/atual/ajuste-final.log",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/ajuste-final.log",
+      "sha256": "028d55a7e2359f1f01ef86ed8e24e0a18f7bf5ea491caa01ae6865fb96fff893"
+    },
+    {
+      "source": "relatorios/atual/renders-finais.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/renders-finais.json",
+      "sha256": "00f2c644646cffacf42e1d68050bf34a80a2de4d0d79e14ada4a1f7476f0ef0d"
+    },
+    {
+      "source": "relatorios/atual/ajuste-camera.log",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/ajuste-camera.log",
+      "sha256": "af0e1a8ac35c1625c52509fc54162cac64e6f756b90f4ab2fd8b335b553ecbb0"
+    },
+    {
+      "source": "relatorios/atual/ajuste-final.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/ajuste-final.json",
+      "sha256": "8a869a9eba57dbe2c53eae7ff2a49300604ad81338b6706aa0ce80cc86218616"
+    },
+    {
+      "source": "relatorios/atual/auditoria-superior.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/auditoria-superior.json",
+      "sha256": "44c587940a0ff5dc815c06063f05d0bc2773a5694035d83aa3ce16a68fd8975a"
+    },
+    {
+      "source": "relatorios/atual/geracao.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/geracao.json",
+      "sha256": "ef58529875ee99695192da2aff89c5195b6ad0082b625efb063a0e4b6a420b57"
+    },
+    {
+      "source": "relatorios/atual/geracao.log",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/geracao.log",
+      "sha256": "e03a45220c205f0bc5ad2e1c2145e8822404f932c4e04cad31af50f05b9ad8d9"
+    },
+    {
+      "source": "relatorios/atual/validacao.json",
+      "destination": "historico/rascunhos/revisao08/lances-separados/relatorios/atual/validacao.json",
+      "sha256": "e6e7ef83c8c5be0a2c5263db470c470d0098fa404d36e176baa0895b98e5cd48"
+    },
+    {
+      "source": "projeto/.em-validacao.blend",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/projeto/.em-validacao.blend",
+      "sha256": "4fe1dfb8ee056b81d773f21afce41b18a475609b351382720fc8d1984e2d5175"
+    },
+    {
+      "source": "renders/atual/acesso-lavabo.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/acesso-lavabo.png",
+      "sha256": "71c341906015a0e667030130ccc6d828cf15abf245e7b39755bd0053f3d354cb"
+    },
+    {
+      "source": "renders/atual/bar.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/bar.png",
+      "sha256": "ec9d791ac3fa5c411a916f91f9f524cb5d52e5aebdec207bae4b290498a3feaf"
+    },
+    {
+      "source": "renders/atual/cozinha-reversa.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/cozinha-reversa.png",
+      "sha256": "0a741c315304b7ef058cc1561e0ff34df28f9ae6a6e07f79a7f2a155e0ec5d8d"
+    },
+    {
+      "source": "renders/atual/cozinha.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/cozinha.png",
+      "sha256": "31320891284c819e7bcb4ba401b8b099a7ccd1aeca980c64342206f04466b87c"
+    },
+    {
+      "source": "renders/atual/escada-acesso.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/escada-acesso.png",
+      "sha256": "81120461cb2263fb41ced11b9457996f359cd0baa14b28908a7fd399585e34cd"
+    },
+    {
+      "source": "renders/atual/escada-superior.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/escada-superior.png",
+      "sha256": "e04e56e61d63709a1724045047c6c535988c65da6012556a6606b783d1119bca"
+    },
+    {
+      "source": "renders/atual/fachada-frontal.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/fachada-frontal.png",
+      "sha256": "1f79b316cfcf0123900a8901f9737e49a0e0cffdd9b2726ba118e6817ab79878"
+    },
+    {
+      "source": "renders/atual/fachada-obliqua.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/fachada-obliqua.png",
+      "sha256": "d87cc8ff0af1357e16ac4f7ea2db5a778ad42799f62a458b397f9f12c4079ad9"
+    },
+    {
+      "source": "renders/atual/lavabo.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/lavabo.png",
+      "sha256": "869284fdaec354756fcba66e146f4d81ab5c44f3827d917bdd342552207d0a91"
+    },
+    {
+      "source": "renders/atual/lavanderia.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/lavanderia.png",
+      "sha256": "84901c41fb2eb3826597f270ed93ec785f0da178c3dc827f262654a231b95234"
+    },
+    {
+      "source": "renders/atual/previas/escada-superior.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/previas/escada-superior.png",
+      "sha256": "1828bdb2de450d45b9ad3b20b24d0eebae8eb4f777bd166a63552d92abda8bc0"
+    },
+    {
+      "source": "renders/atual/previas/planta-superior.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/previas/planta-superior.png",
+      "sha256": "42d26ce15d306f2008845c1f7be8fbab1fe36b44ed27c0f6cdfe5a1d0d556776"
+    },
+    {
+      "source": "renders/atual/previas/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/previas/quarto-frente.png",
+      "sha256": "9f16ae88e0973a8a5d49abe93fec1bf91bff8cd3172c865c57c4fc75da6e3610"
+    },
+    {
+      "source": "renders/atual/previas/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/previas/quarto-fundos.png",
+      "sha256": "51fcb3120ca3ba064ae72df3331c53548bc1f880d9328bd27166445c37eceff7"
+    },
+    {
+      "source": "renders/atual/previas/suite.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/previas/suite.png",
+      "sha256": "d345e010663f05a21c6d7e98fec15880cef65d363e219593b25ce6a2d037184a"
+    },
+    {
+      "source": "renders/atual/previas/superior-3d.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/previas/superior-3d.png",
+      "sha256": "fdaeded7b94d7eb78ba6c7c3186d7da9c6bd9142a693e3dcf285d6abdb780cf1"
+    },
+    {
+      "source": "renders/atual/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/quarto-frente.png",
+      "sha256": "3cc3e2c73f4255d0782df9b28315abf8540215e4adef351b4d7202c8e2ddc8e9"
+    },
+    {
+      "source": "renders/atual/sala-frente.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/sala-frente.png",
+      "sha256": "e2f40c7038672c30248c6ec06a8e8e381ab7ae1fd972b6979a917411c0b73d82"
+    },
+    {
+      "source": "renders/atual/sala-fundos.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/sala-fundos.png",
+      "sha256": "a9973b835e2d8b648b5d40b923949defd60ff03736b03077d553981cb1739e60"
+    },
+    {
+      "source": "renders/atual/suite.png",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/renders/atual/suite.png",
+      "sha256": "399a4cef0ab9229d2b599f38552e94ec63e26e657f2bf71539acfb99f903d4f1"
+    },
+    {
+      "source": "relatorios/atual/previa-superior.log",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/previa-superior.log",
+      "sha256": "ab0d24c3211d3b3286b8d7ce8bd86345a48f495e6f4194bf19a6606dd4bcf9d9"
+    },
+    {
+      "source": "relatorios/atual/validacao.log",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/validacao.log",
+      "sha256": "1a4c06b115898a67bc9b345034aba75915f01f7148a7758058661c0b4713459a"
+    },
+    {
+      "source": "relatorios/atual/auditoria-depois.json",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/auditoria-depois.json",
+      "sha256": "6566582ed8da019366d8a35f13c15634c9240a709831ed5f4f263c072ec7c5ca"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/renders-previa.json",
+      "sha256": "35c4596dd62df99bee64c9f6fd52bd67345227a1511655f61a71eed2165b4054"
+    },
+    {
+      "source": "relatorios/atual/auditoria-superior.json",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/auditoria-superior.json",
+      "sha256": "fbc63b5166fce4076741831e498040e84f3cda27e2bc3e2067ccf6e3eb240496"
+    },
+    {
+      "source": "relatorios/atual/geracao.json",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/geracao.json",
+      "sha256": "998ea07a4563d829a8d2650d9a09d2b482e93d077993c1700451225520366e5b"
+    },
+    {
+      "source": "relatorios/atual/geracao.log",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/geracao.log",
+      "sha256": "b97e3265973758707091b9c5f349c2ba531de3b1e5ea610de1a77260c18c4e60"
+    },
+    {
+      "source": "relatorios/atual/validacao.json",
+      "destination": "historico/rascunhos/revisao08/croqui-anterior/relatorios/atual/validacao.json",
+      "sha256": "8dd1380d969aa17dd73e4e67d75af8c10c59403e97f64cc88baa9e1a5e2272cb"
+    },
+    {
+      "source": "projeto/casa-reconstruida.blend",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/projeto/casa-reconstruida.blend",
+      "sha256": "1f3acadf9ddd815e13cb7191a1a2c0f92b03edecc13640ad81e7103afde4b5f0"
+    },
+    {
+      "source": "renders/atual/acesso-lavabo-planta.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/acesso-lavabo-planta.png",
+      "sha256": "db05f0b252eef040982593f5610cd3f0f63ef0a064b469adee66c262a959db02"
+    },
+    {
+      "source": "renders/atual/acesso-lavabo.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/acesso-lavabo.png",
+      "sha256": "648b5320732eb40f641200ede360ff622b42541932d2f8546e8f91e288cd47d2"
+    },
+    {
+      "source": "renders/atual/antes-depois.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/antes-depois.png",
+      "sha256": "e795c0e3163d72d7cde84e80f422dbe89fdde2ea65efbf235107adad328a85fc"
+    },
+    {
+      "source": "renders/atual/bar.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/bar.png",
+      "sha256": "837e98fb13791110e06b3a1e67984c8fc22c9db8b690a41e3b1b332cee1e0467"
+    },
+    {
+      "source": "renders/atual/comparacao-escada.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/comparacao-escada.png",
+      "sha256": "371da1f3bfc5ca548531b953ee6360b6e89f29e954f16b4440d67e9e25261ad5"
+    },
+    {
+      "source": "renders/atual/comparacao-fachada.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/comparacao-fachada.png",
+      "sha256": "fbe803bb56d06e324161c50cf8aeae922c0bd6fafaf137ddbadf22d4b467b6a6"
+    },
+    {
+      "source": "renders/atual/comparacao-fotos.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/comparacao-fotos.png",
+      "sha256": "343ca62f36b0b916315ee68c732b7ccc34e6868658d7b2abb3ffa9f43ca88349"
+    },
+    {
+      "source": "renders/atual/comparacao-planta.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/comparacao-planta.png",
+      "sha256": "a35fa20044023780c0e910107b2de74b682998183a5f0d85f59a690ae32b0e1f"
+    },
+    {
+      "source": "renders/atual/comparacao-quartos.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/comparacao-quartos.png",
+      "sha256": "990f8516bc5bfb6f3b81d0530b025ad7209a42566ae6aef78da515ab0b049845"
+    },
+    {
+      "source": "renders/atual/comparacao-superior.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/comparacao-superior.png",
+      "sha256": "241768cebe8741fb98a01123a5c0004d8c6b1bfcf1f9d197b64e2e5542033dd4"
+    },
+    {
+      "source": "renders/atual/cozinha-reversa.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/cozinha-reversa.png",
+      "sha256": "f78c75d2cdbfe80b521a89db52e7bd8751db872abd27e3b9c64132b966ad4924"
+    },
+    {
+      "source": "renders/atual/cozinha.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/cozinha.png",
+      "sha256": "5b290e22104fde727ffedb9ae53c78d855f30c626ac885bda2500c87c95bd59a"
+    },
+    {
+      "source": "renders/atual/escada-acesso.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/escada-acesso.png",
+      "sha256": "7d99143be4f0ab83b1e71d9d2e777490959bbe5b80442c7414000b52c2f4f86e"
+    },
+    {
+      "source": "renders/atual/escada-superior.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/escada-superior.png",
+      "sha256": "94f3287ffd928b300bd05429152f889b63e9d877d81c9f1b7a5df7cffc170282"
+    },
+    {
+      "source": "renders/atual/estudos-superior.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/estudos-superior.png",
+      "sha256": "91d0703862b0bd96a9c157011e000bcdfdb79d3c504344c15f5a951bab00850f"
+    },
+    {
+      "source": "renders/atual/fachada-frontal.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/fachada-frontal.png",
+      "sha256": "2a84ea72ba794fc20f2e9a51b3860717db0ecfc8323d4d0e99fc05def93cae1e"
+    },
+    {
+      "source": "renders/atual/fachada-obliqua.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/fachada-obliqua.png",
+      "sha256": "171d290a0e7060d31e4e366800a9cbedd7b6e070129db11a3051749c72380d25"
+    },
+    {
+      "source": "renders/atual/lavabo-sob-escada.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/lavabo-sob-escada.png",
+      "sha256": "bda562950cf537763347349d96cf61c14b28cf81ed63476cd9284e95cc0105d1"
+    },
+    {
+      "source": "renders/atual/lavabo.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/lavabo.png",
+      "sha256": "239d5883345934ebcd872dd0edcc12a02b01be30aacb77859f7b062801da12be"
+    },
+    {
+      "source": "renders/atual/lavanderia.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/lavanderia.png",
+      "sha256": "bea7f13e90c5b9a9830d52837d107480a2bea90be3c99fe488d1f3aa023b0311"
+    },
+    {
+      "source": "renders/atual/planta-superior.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/planta-superior.png",
+      "sha256": "5f17c10dd4c47c4891698d6a68406f1036f6e9982eaa33a3131b21edaa3f2da4"
+    },
+    {
+      "source": "renders/atual/planta-terreo.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/planta-terreo.png",
+      "sha256": "57cbc76207617ccd51c321eb0cc8f22388e0219e01d453aa540e82d3de7339c4"
+    },
+    {
+      "source": "renders/atual/porta-lavabo.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/porta-lavabo.png",
+      "sha256": "913326635311bb20700e751494a3e7b779d9f4c725947bf2de55d74b62e94c95"
+    },
+    {
+      "source": "renders/atual/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/quarto-frente.png",
+      "sha256": "a395ab4bf9e11a72172a4a9d2506ff4ab091a35fbb979fdea51b6c944d01beca"
+    },
+    {
+      "source": "renders/atual/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/quarto-fundos.png",
+      "sha256": "5818871cd98d022d68351d96c044e46ea95d385747b4de294270c8117cf5a2d2"
+    },
+    {
+      "source": "renders/atual/sala-frente-planta.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/sala-frente-planta.png",
+      "sha256": "c6294ce83a5ecd55273730ad90dce211ed63a136443f9f0f34ea148c4c77dce7"
+    },
+    {
+      "source": "renders/atual/sala-frente.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/sala-frente.png",
+      "sha256": "27ad099a77ad08187f0f3069cbfa9799c5d4df112184256d64a51d024223fd56"
+    },
+    {
+      "source": "renders/atual/sala-fundos.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/sala-fundos.png",
+      "sha256": "0499b0401529888bad3262bf9a4cc7af53c3db7aa8e3777fe4ad360a379d20d6"
+    },
+    {
+      "source": "renders/atual/suite.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/suite.png",
+      "sha256": "02d552c7f13c64ababe5ab2ad4ecd2df3d2dd8c3a85c0156965ac100874c7be4"
+    },
+    {
+      "source": "renders/atual/superior-3d.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/superior-3d.png",
+      "sha256": "651380515edba099e7e59147ac80667cf3f22a0dec851bb237c20c2a49a09fbe"
+    },
+    {
+      "source": "renders/atual/terreo-3d.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/terreo-3d.png",
+      "sha256": "32257c19ad691beca66ccd190c092d109521e13d8f34749dabd931f1332a4bd7"
+    },
+    {
+      "source": "renders/atual/volumetria.png",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/renders/atual/volumetria.png",
+      "sha256": "47bf8b45b386513bc44b594c69490f6fc413222dd15498dede4b4fd9ea348c8e"
+    },
+    {
+      "source": "relatorios/atual/renders-finais.json",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/relatorios/atual/renders-finais.json",
+      "sha256": "fe5f5737c022f7fd9506548556ffba41995a7c08e529861f97817d42e8513a5c"
+    },
+    {
+      "source": "relatorios/atual/comparacao.json",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/relatorios/atual/comparacao.json",
+      "sha256": "745928f66ef450a0183ec4a6a24b7d3cd6fdb655123ba1b46642def595173442"
+    },
+    {
+      "source": "relatorios/atual/validacao-renderizacao.json",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/relatorios/atual/validacao-renderizacao.json",
+      "sha256": "88a916a9dd2b249e7a97cdef5519dc825833eebf948941518777d9fee1387245"
+    },
+    {
+      "source": "relatorios/atual/promocao-local.json",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/relatorios/atual/promocao-local.json",
+      "sha256": "d72042b7bd19343fa77dca58728be54de7a514da40a3b51b6db5e0dfcd6be4ef"
+    },
+    {
+      "source": "relatorios/atual/validacao.log",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/relatorios/atual/validacao.log",
+      "sha256": "b2ba524dc877624d7d447dc579f4b2b271ddcc53e3c3acfcb72a150d675a37bb"
+    },
+    {
+      "source": "relatorios/atual/integridade-final.log",
+      "destination": "historico/rascunhos/revisao08/antes-camera-quarto/relatorios/atual/integridade-final.log",
+      "sha256": "aff64c8d94a6f7ab485dc99ed50e581e8a4e21caa661cc940bc5260fa0edc12a"
+    }
+  ],
+  "user_correction": "Dois lances colados um no outro, sem faixa ou separação entre eles",
+  "latest_upper_source": {
+    "path": "referencias-ajustes/superior-croqui-26a026a1.png",
+    "sha256": "26a026a1ed7976441f0ea9a7f1d8341f031666827d7db897744cc03475e1e14b",
+    "original_editable_path": "referencias-ajustes/segundo-pavimento.png",
+    "bedroom_positions": "confirmed_relative_by_user",
+    "bathroom_positions": "user_proposed_relative_not_verified",
+    "dimensions": "estimated",
+    "hall_interpretation": "Hall over low initial part of first flight; opening retained over high treads, as visible in the drawing"
+  },
+  "latest_instruction": "Alinhar o superior ao novo croqui com os dois WCs lado a lado à esquerda e hall sobre trecho baixo do primeiro lance",
+  "camera_previous_delivery": {
+    "sha256": "1f3acadf9ddd815e13cb7191a1a2c0f92b03edecc13640ad81e7103afde4b5f0",
+    "archive": "historico/rascunhos/revisao08/antes-camera-quarto/projeto/casa-reconstruida.blend"
+  }
+}

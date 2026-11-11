@@ -1,0 +1,135 @@
+{
+  "timestamp_utc": "2026-11-11T01:44:00.750947+00:00",
+  "version": "industrial-v01",
+  "visual_review_complete": true,
+  "files": {
+    "projeto/casa-reconstruida.blend": {
+      "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+      "bytes": 3967358
+    },
+    "projeto/industrial-v01/casa-industrial.blend": {
+      "sha256": "0a9a24271c3d0d497ad2f9d63bcccbf0261ebbbe75883726aeacbd7166304fb7",
+      "bytes": 4480955
+    },
+    "config/planta-casa.json": {
+      "sha256": "fb7368d3f4ec689313e30f30cf1d8f70a84496f417aeba424f92048be3d067fe",
+      "bytes": 24784
+    },
+    "config/estilo-industrial-v01.json": {
+      "sha256": "955a92232374308e2e9caccf3f32d5247974fda154b9070ae2f94a7dac2c2b17",
+      "bytes": 2553
+    },
+    "scripts/style_industrial.py": {
+      "sha256": "122f5fe9853e5036c2e38410056f5f5ebde88a64fe2c2d4f54ff44b5eaa1f8c3",
+      "bytes": 20166
+    },
+    "scripts/audit_industrial.py": {
+      "sha256": "9711ce0f77a281ea131a4edef0c7afaa13ec69757d4fb010a247f2041e8dbc33",
+      "bytes": 2784
+    },
+    "scripts/industrial_delivery.py": {
+      "sha256": "4ac59235bb881d212f2ad12968d2dee6b52d39467489aea9ad18e3155f8eace8",
+      "bytes": 10885
+    },
+    "README.md": {
+      "sha256": "d809e8ac8acdb97f1dd3639b19f566f5f0800d330dfa9b93b111474d557aaf99",
+      "bytes": 9182
+    },
+    ".gitignore": {
+      "sha256": "4d2e5d9c22ec72a38d6185c238af371a55030e7152e160b9a712dd5f3ffa136e",
+      "bytes": 510
+    },
+    "referencias-estilo-industrial/01-cena-final-menos-warn.png": {
+      "sha256": "46a17e7ad3fa1192129295eb0da7be9d8a97968bba4c1de830a88e0c744f2c16",
+      "bytes": 2645784
+    },
+    "referencias-estilo-industrial/02-bar-fundo.png": {
+      "sha256": "829b2b80136580c3b07830c8437f49dcbc0b68a0ccbfb7effc7603b810def53e",
+      "bytes": 3663940
+    },
+    "referencias-estilo-industrial/03-mesa-jantar.png": {
+      "sha256": "4b88872fd21194fca7a7e37eb9a6eeb3459223e6240385e7aa94628716976dc3",
+      "bytes": 147760
+    },
+    "referencias-estilo-industrial/escritorio2.png": {
+      "sha256": "dbca5fe94b4f5efe82a83b5e8324b0337ec8e5102190733f0d9c13f12ccfed02",
+      "bytes": 2417383
+    },
+    "renders/industrial-v01/quarto-escritorio.png": {
+      "sha256": "68e3cec8dde36a8857df4168f5acc9f623358a850b496d53591b2b4f51e642b4",
+      "bytes": 1648007
+    },
+    "renders/industrial-v01/cozinha.png": {
+      "sha256": "3b9319b9534cbb2eb85ea2d25bb1e34424c7ee5ea2daa9bd1890701534dfdcd1",
+      "bytes": 1674830
+    },
+    "renders/industrial-v01/lazer-fundos.png": {
+      "sha256": "5363daa3e5954aa63d13179585b7f565f9abc67d0f69e9f92a9543ae7e22384f",
+      "bytes": 1762781
+    },
+    "renders/industrial-v01/sala-integrada.png": {
+      "sha256": "7caa9539aa604903e72baaf58fd1192a17670808fe6fbef4c15f5c924b0ab32e",
+      "bytes": 1715641
+    },
+    "renders/industrial-v01/quarto-fundos.png": {
+      "sha256": "7eef74488c81296d9dfb0d561a199f8e22e1a231da858ded5e2e27be7741c62e",
+      "bytes": 1694801
+    },
+    "renders/industrial-v01/sala-frente.png": {
+      "sha256": "b2d08d9cd33703391b2dc9a1be23d6685c637233ef2544140a2d2afb732da710",
+      "bytes": 1701875
+    },
+    "renders/industrial-v01/cozinha-reversa.png": {
+      "sha256": "7583935c68cd77a30c20ca36351ca65aa997ca24184bd200e0a115e12656f9da",
+      "bytes": 1741051
+    },
+    "renders/industrial-v01/painel-ambientes.jpg": {
+      "sha256": "b6ff64dcdcf3b43d73589fa2ef3574c1e97b8c85f5f651544129c2a4b853faaf",
+      "bytes": 355100
+    },
+    "renders/industrial-v01/referencias-e-proposta.jpg": {
+      "sha256": "26cffbc7e826f6ee75d7df0c24bf5cf6732b15db468b912798c8bcaaaa2b1ff9",
+      "bytes": 676414
+    },
+    "relatorios/industrial-v01/base-validada.json": {
+      "sha256": "750a0ec7a30dc24f19b15f701fcf98a1973febc96611359b5e75b4649d156ce1",
+      "bytes": 406
+    },
+    "relatorios/industrial-v01/checkpoint.json": {
+      "sha256": "af20d5000846756a48b938fac95f410211b39d5787b861ce6019fad18520fa0e",
+      "bytes": 1419
+    },
+    "relatorios/industrial-v01/modelo.json": {
+      "sha256": "03b53bb8641b82058c72e7f556d728032b177306749415235d13623d9c66ea45",
+      "bytes": 261080
+    },
+    "relatorios/industrial-v01/renders.json": {
+      "sha256": "e6161019b6e4d818839a981b6177ca5c2f22d1bd6de58f99555e5ac9aa07c3ac",
+      "bytes": 3735
+    },
+    "relatorios/industrial-v01/revisao-visual.json": {
+      "sha256": "60118ace8c70af5a7485bc800fbc085785534e60a93ee9f46deff603077d954a",
+      "bytes": 1488
+    },
+    "relatorios/industrial-v01/validacao.json": {
+      "sha256": "f0530b0faf2f7ab168bef29d1e1f21cf051a32c6e34e4301bf33a064b901bbad",
+      "bytes": 4926
+    },
+    "relatorios/industrial-v01/geracao.log": {
+      "sha256": "24b1a4274f89a1be82c2a052c39d3dd9f2019a16a2f786c1c49c0a9d98b69442",
+      "bytes": 541
+    },
+    "relatorios/industrial-v01/renderizacao.log": {
+      "sha256": "ef8dce825b1c70a4d3876bcd1b45bd8d6646245739f8b51e7156a846df3b8aef",
+      "bytes": 1464
+    },
+    "relatorios/industrial-v01/validacao.log": {
+      "sha256": "713cce72750d47a336a3827a50055de43d842acdc91294e39c0989a486dbd7d5",
+      "bytes": 543
+    },
+    "relatorios/industrial-v01/RELATORIO.md": {
+      "sha256": "35fab503a1e1138c9546d2b4c1bedda52b38fa8df10a7aafccaad54084d6ced9",
+      "bytes": 4517
+    }
+  }
+}

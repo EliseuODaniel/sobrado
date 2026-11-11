@@ -1,0 +1,63 @@
+{
+  "timestamp_utc": "2026-11-10T12:02:54.983260+00:00",
+  "revision": 2,
+  "status": "contradicoes_especificas_corrigidas_superior_pendente",
+  "scope": "Revisão das contradições observáveis da reconstrução. Não constitui aprovação da planta completa nem levantamento métrico.",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "38fd39e38342e701f1e36c82bc1f3da58e11ee6957f3a75db64c90f5e6ad2e5f",
+    "version": "5.2.4 LTS"
+  },
+  "integrity_checks": 15,
+  "photo_geometry_checks": 12,
+  "render_count": 12,
+  "baseline_tests_failed": [
+    "tv_na_parede_interna_lateral",
+    "porta_lavabo_na_mesma_face",
+    "porta_lavabo_fechada_como_na_foto",
+    "primeiro_lance_transversal",
+    "espelho_fora_do_volume_da_parede",
+    "primeiro_lance_nao_exposto_na_vista_sala7",
+    "primeiro_lance_visivel_no_angulo_sala1",
+    "porta_lavabo_visivel_entre_tv_e_escada",
+    "superior_sem_adjacencias_inventadas"
+  ],
+  "tested_contradictions_corrected": [
+    "tv_na_parede_interna_lateral",
+    "porta_lavabo_na_mesma_face",
+    "porta_lavabo_fechada_como_na_foto",
+    "primeiro_lance_transversal",
+    "espelho_fora_do_volume_da_parede",
+    "primeiro_lance_nao_exposto_na_vista_sala7",
+    "primeiro_lance_visivel_no_angulo_sala1",
+    "porta_lavabo_visivel_entre_tv_e_escada",
+    "superior_sem_adjacencias_inventadas"
+  ],
+  "visual_review": {
+    "reviewed": "Seis comparações com as fotos originais, planta em 3D, vista superior e estudos separados do superior.",
+    "actual_changes": [
+      "Espinha lateral interna comum à TV, lavabo, escada e cozinha",
+      "Porta do lavabo fechada; louça isolada da sala",
+      "Primeiro lance transversal e recuado, visível pelos ângulos de sala1/sala4 e oculto pelo de sala7",
+      "Entrada lateral da cozinha e janela para o pátio",
+      "Espelho e pedra do bar trazidos para fora do volume das paredes",
+      "Distribuição não demonstrada do superior retirada; cinco módulos separados, fora da casa"
+    ],
+    "remaining_differences": [
+      "Enquadramento e proporções ainda aproximados",
+      "Móveis, marcenaria e texturas simplificados",
+      "Forma integral do retorno da escada não demonstrada",
+      "Implantação do serviço, alinhamentos externos e dimensões não confirmados"
+    ]
+  },
+  "unknowns": {
+    "superior_layout": "UNKNOWN — faltam frente/fundos dos quartos e ligações entre portas",
+    "full_stair_return": "INFERRED — U transversal é solução provisória, não levantamento",
+    "real_dimensions": "UNKNOWN — nenhuma medida linear confirmada",
+    "registry_areas": "UNKNOWN — análise do ChatGPT é fonte secundária, matrícula não conferida"
+  },
+  "evidence_limits": "Os testes demonstram remoção das contradições enumeradas e integridade do arquivo. Não provam equivalência fotográfica ou métrica da casa inteira.",
+  "inputs_preserved": true,
+  "baseline_preserved": "projeto/versoes/revisao-02-antes/",
+  "external_publication": false
+}

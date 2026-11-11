@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "units": "METERS",
+  "source_directory": "referencias-originais",
+  "scale_status": "estimated_no_measured_anchor",
+  "confirmed_dimensions_m": {},
+  "estimated_dimensions_m": {
+    "width": 5.0,
+    "main_depth": 8.5,
+    "front_garage_y": -4.4,
+    "upper_front_y": -1.7,
+    "upper_back_y": 8.5,
+    "back_y": 12.4,
+    "floor_height": 2.9,
+    "clear_height": 2.7,
+    "wall_thickness": 0.15,
+    "living_dining_width": 3.15,
+    "stair_front_y": 3.3,
+    "stair_back_y": 6.1
+  },
+  "observed_in_photos": [
+    "Sobrado com garagem coberta, varanda frontal e janela no andar superior.",
+    "Sala e jantar integrados; sofá e espelho na parede esquerda ao olhar para os fundos; TV à direita.",
+    "Escada junto à sala, à direita de quem olha para cozinha e bar; degraus de granito e guarda-corpo de vidro no piso superior.",
+    "Bar ao fundo do jantar, com cobertura de vidro, vigas de madeira, bancada e quatro assentos com encosto.",
+    "Cozinha separada por painel ripado, bancada em L e janela sobre a pia.",
+    "Porta lateral do bar voltada para área externa visível também pela janela da cozinha.",
+    "Lavabo com teto inclinado sob escada; lavanderia com bancada em L, janela, lavadora frontal e máquina superior.",
+    "Três quartos documentados: suíte, quarto azul com beliche e quarto branco com cama individual.",
+    "Dois banheiros documentados além do lavabo; localização exata no superior não é visível."
+  ],
+  "unconfirmed": [
+    "Todas as medidas métricas são estimadas, inclusive largura, profundidade e pé-direito.",
+    "A forma completa e o número de degraus da escada não estão documentados; foi adotada uma escada em U compatível com os dois pontos de vista.",
+    "A implantação dos quartos, banheiros e circulação no andar superior é uma hipótese de organização, não uma planta levantada.",
+    "O acesso à lavanderia e a extensão do pátio não aparecem em vista contínua.",
+    "A fachada superior foi aproximada sobre a garagem; alinhamentos e balanços precisam de medição.",
+    "Os trechos sem foto no andar superior permanecem como área não documentada, sem inventar outro cômodo.",
+    "A posição da área de 1,74 m² dita comum não foi identificada; nenhuma faixa foi arbitrariamente marcada como comum na casa.",
+    "O retângulo-base do térreo tem 42,50 m² e o do superior 51,00 m², apenas aproximações geométricas do texto secundário. Recortes, paredes, varanda e anexos não foram conciliados com critérios da matrícula.",
+    "Bar coberto e lavanderia são observados nas fotos, mas não se sabe se estão incluídos nas áreas mencionadas; aparecem como anexos com perímetro estimado."
+  ],
+  "rooms": [
+    {
+      "id": "garagem",
+      "name": "Garagem coberta",
+      "level": 0,
+      "bounds": [
+        0,
+        5,
+        -4.4,
+        0
+      ],
+      "position_confidence": "inferred",
+      "references": [
+        "exterior1.webp",
+        "exterior2.webp"
+      ]
+    },
+    {
+      "id": "sala",
+      "name": "Sala de estar",
+      "level": 0,
+      "bounds": [
+        0,
+        5,
+        0,
+        3.3
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "sala3.webp",
+        "sala4.webp",
+        "sala6.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "id": "jantar",
+      "name": "Jantar integrado",
+      "level": 0,
+      "bounds": [
+        0,
+        3.15,
+        3.3,
+        8.5
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "sala1.webp",
+        "sala2.webp",
+        "sala5.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "id": "bar",
+      "name": "Bar / área coberta",
+      "level": 0,
+      "bounds": [
+        0,
+        3.15,
+        8.5,
+        10.3
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "area1.webp",
+        "area2.webp",
+        "area3.webp",
+        "sala1.webp"
+      ]
+    },
+    {
+      "id": "cozinha",
+      "name": "Cozinha",
+      "level": 0,
+      "bounds": [
+        3.15,
+        5,
+        6.1,
+        8.5
+      ],
+      "position_confidence": "observed_relative",
+      "references": [
+        "cozinha1.webp",
+        "cozinha2.webp",
+        "sala1.webp",
+        "sala6.webp"
+      ]
+    },
+    {
+      "id": "lavabo",
+      "name": "Lavabo sob escada",
+      "level": 0,
+      "bounds": [
+        4.16,
+        5,
+        3.3,
+        4.9
+      ],
+      "position_confidence": "inferred",
+      "references": [
+        "lavabo1.webp",
+        "escada1.webp"
+      ]
+    },
+    {
+      "id": "patio",
+      "name": "Pátio / acesso serviço",
+      "level": 0,
+      "bounds": [
+        3.15,
+        5,
+        8.5,
+        10.6
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "area2.webp",
+        "area3.webp",
+        "cozinha2.webp"
+      ]
+    },
+    {
+      "id": "lavanderia",
+      "name": "Lavanderia · posição incerta",
+      "level": 0,
+      "bounds": [
+        2.6,
+        5,
+        10.6,
+        12.4
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "lavanderia1.webp"
+      ]
+    },
+    {
+      "id": "suite",
+      "name": "Suíte · implantação estimada",
+      "level": 1,
+      "bounds": [
+        0,
+        3.15,
+        5.0,
+        8.5
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "quartosuite1.webp",
+        "quartosuite2.webp",
+        "quartosuite3.webp"
+      ]
+    },
+    {
+      "id": "banho_suite",
+      "name": "Banheiro suíte · posição incerta",
+      "level": 1,
+      "bounds": [
+        3.15,
+        5,
+        6.35,
+        8.5
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "suite1.webp"
+      ]
+    },
+    {
+      "id": "banho_social",
+      "name": "Banheiro social · posição incerta",
+      "level": 1,
+      "bounds": [
+        0,
+        1.65,
+        2.4,
+        4.65
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "banheiro2.webp"
+      ]
+    },
+    {
+      "id": "quarto_azul",
+      "name": "Quarto azul · posição incerta",
+      "level": 1,
+      "bounds": [
+        0,
+        2.5,
+        -0.9,
+        1.3
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "quartoazul1.webp",
+        "quartoazul2.webp"
+      ]
+    },
+    {
+      "id": "quarto_branco",
+      "name": "Quarto branco · posição incerta",
+      "level": 1,
+      "bounds": [
+        2.5,
+        5,
+        -1.7,
+        1.3
+      ],
+      "position_confidence": "hypothesis",
+      "references": [
+        "quartobranco1.webp",
+        "quartobranco2.webp"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "a": "garagem",
+      "b": "sala",
+      "status": "observed_relative",
+      "refs": [
+        "exterior2.webp",
+        "sala3.webp"
+      ]
+    },
+    {
+      "a": "sala",
+      "b": "jantar",
+      "status": "observed_relative",
+      "refs": [
+        "sala5.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "a": "jantar",
+      "b": "bar",
+      "status": "observed_relative",
+      "refs": [
+        "sala1.webp",
+        "sala7.webp"
+      ]
+    },
+    {
+      "a": "jantar",
+      "b": "cozinha",
+      "status": "observed_relative",
+      "refs": [
+        "sala1.webp",
+        "cozinha2.webp"
+      ]
+    },
+    {
+      "a": "bar",
+      "b": "patio",
+      "status": "observed_relative",
+      "refs": [
+        "area2.webp",
+        "area3.webp"
+      ]
+    },
+    {
+      "a": "patio",
+      "b": "lavanderia",
+      "status": "hypothesis",
+      "refs": [
+        "lavanderia1.webp"
+      ]
+    }
+  ],
+  "render": {
+    "samples": 64,
+    "preview_samples": 20,
+    "seed": 42,
+    "exposure": 0.0
+  },
+  "output": "projeto/casa-reconstruida.blend",
+  "secondary_analysis": {
+    "source": "Texto enviado pelo usuário, identificado por ele como análise do ChatGPT sobre a matrícula nº 92.432. Documento original não recebido nem conferido.",
+    "verification": "unverified_secondary_analysis",
+    "reported_areas_m2": {
+      "ground_exclusive": 40.77,
+      "upper_exclusive": 51.03,
+      "common_built": 1.74,
+      "total_built": 93.54,
+      "footprint": 42.51,
+      "exclusive_garden_yard": 40.83,
+      "common_access": 35.96,
+      "land_share": 119.3
+    },
+    "suggested_linear_dimensions_status": "hipóteses do texto secundário, não medidas oficiais",
+    "use": "Referência de ordem de grandeza. Não comprova áreas reais, perímetro, distribuição, cobertura de anexos ou critérios registrais."
+  }
+}

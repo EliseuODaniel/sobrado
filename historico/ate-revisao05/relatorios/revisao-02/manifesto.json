@@ -1,0 +1,426 @@
+{
+  "timestamp_utc": "2026-11-10T12:02:54.983260+00:00",
+  "revision": 2,
+  "status": "contradicoes_especificas_corrigidas_superior_pendente",
+  "scope": "Revisão das contradições observáveis da reconstrução. Não constitui aprovação da planta completa nem levantamento métrico.",
+  "inputs": {
+    "config/planta-casa.json": {
+      "sha256": "709aebfaf8c035474a8312997bb6950a3de8da3d1ee86a06d752c8247984ff2f",
+      "bytes": 13784
+    },
+    "referencias-originais/area1.webp": {
+      "sha256": "b2ad9d582bc588114fcc79fb1a7940824b9cc9a4598aaa237cfdd395b6c3768c",
+      "bytes": 254392
+    },
+    "referencias-originais/area2.webp": {
+      "sha256": "5ece5bcf4c7adde91e8e0b8da49ff2824104f580c98cdbeed894f9e707936d85",
+      "bytes": 263210
+    },
+    "referencias-originais/area3.webp": {
+      "sha256": "65d0164647be6748b6c8352bb2ffcec9220bfbee2b62f8fad02ccf788925a43d",
+      "bytes": 121150
+    },
+    "referencias-originais/area4.webp": {
+      "sha256": "b2ad9d582bc588114fcc79fb1a7940824b9cc9a4598aaa237cfdd395b6c3768c",
+      "bytes": 254392
+    },
+    "referencias-originais/banheiro2.webp": {
+      "sha256": "0aeb630ea709bea2750437560ac5ddd812a61aa02e1fd83031dbed8199e1f947",
+      "bytes": 62684
+    },
+    "referencias-originais/cozinha1.webp": {
+      "sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+      "bytes": 116106
+    },
+    "referencias-originais/cozinha2.webp": {
+      "sha256": "179b470578d5a09c1442389f62f216799023eaabd4952559248012a4ec5b4007",
+      "bytes": 123340
+    },
+    "referencias-originais/cozinha3.webp": {
+      "sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+      "bytes": 116106
+    },
+    "referencias-originais/cozinha4.webp": {
+      "sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+      "bytes": 116106
+    },
+    "referencias-originais/cozinha5.webp": {
+      "sha256": "179b470578d5a09c1442389f62f216799023eaabd4952559248012a4ec5b4007",
+      "bytes": 123340
+    },
+    "referencias-originais/escada1.webp": {
+      "sha256": "1430dc344688a5ced797436ba5e4d71d9a1dfef2ac7b0d7b014e0df74e36107c",
+      "bytes": 158026
+    },
+    "referencias-originais/exterior1.webp": {
+      "sha256": "0521b77e5ce4193a7f4022a55842f8285b8843fdcc1573104357629714864c85",
+      "bytes": 179058
+    },
+    "referencias-originais/exterior2.webp": {
+      "sha256": "ecd481a43da77d4b02918cb673a28d3e26f5387e8520213925eb6c1175b15163",
+      "bytes": 152576
+    },
+    "referencias-originais/lavabo1.webp": {
+      "sha256": "c6b5879838bcb86db4165dda5fb807f8fdf35b91029ca68ba8cc1a275fc7cbca",
+      "bytes": 67956
+    },
+    "referencias-originais/lavanderia1.webp": {
+      "sha256": "9bcd7d49912e4cea23e63af413d717646c7259dbe2a976218a1948ae3d7592b6",
+      "bytes": 122516
+    },
+    "referencias-originais/quartoazul1.webp": {
+      "sha256": "d7a13345fe9d99a006155071e7da839cb01c18216771c9fe87cf92ae17117799",
+      "bytes": 112030
+    },
+    "referencias-originais/quartoazul2.webp": {
+      "sha256": "d007c44be4dc781e9300ad8ff529f464504a0075f234bf7f4c4765abfe3fa54c",
+      "bytes": 92818
+    },
+    "referencias-originais/quartobranco1.webp": {
+      "sha256": "ed7c15da98f860c2a48d535126172ccba415d7debc9fc6a01f662b7b266d6710",
+      "bytes": 59406
+    },
+    "referencias-originais/quartobranco2.webp": {
+      "sha256": "caf3c91da894e1ecf8351fbbbd3625c9ba1f4d73a8927d3147138ff15fe70937",
+      "bytes": 32512
+    },
+    "referencias-originais/quartosuite1.webp": {
+      "sha256": "85e94b72addf29cb79c37ce2f49665f1f3d4e43e5011af79aa1c2b5f32560579",
+      "bytes": 87510
+    },
+    "referencias-originais/quartosuite2.webp": {
+      "sha256": "58a21d4c74bc5a6fdd7efcdbf17f7f3edea56c011cd0c6fbb1c732feb7672c88",
+      "bytes": 63052
+    },
+    "referencias-originais/quartosuite3.webp": {
+      "sha256": "582bd0dbd4ef9c0a7bfe0a8d790e965ccf44f71ff27f2b7b95a52f6cea2933ab",
+      "bytes": 66002
+    },
+    "referencias-originais/sala1.webp": {
+      "sha256": "45783b9547a24e8747ec1f6745b2c5ef52415635ffca5d5d9e4ec4f11a696851",
+      "bytes": 105048
+    },
+    "referencias-originais/sala2.webp": {
+      "sha256": "076000ac67813a089ecdeee7a0606ad5b6e45d09b8979c352d96927f2ff2024e",
+      "bytes": 94682
+    },
+    "referencias-originais/sala3.webp": {
+      "sha256": "c1ebe5c946785479d856dc28a12f0d6f3916a9081bf05f05f89d395e50aee19c",
+      "bytes": 53214
+    },
+    "referencias-originais/sala4.webp": {
+      "sha256": "d1255dafef803f13a2b53f31d5188e69edc37f4398834a4fd07c45469b6f7af7",
+      "bytes": 70814
+    },
+    "referencias-originais/sala5.webp": {
+      "sha256": "05db742dbfeac6d02a12182c20ce9617dc2f0e27c8d9e68a3fbb8b3f339d9496",
+      "bytes": 61300
+    },
+    "referencias-originais/sala6.webp": {
+      "sha256": "873531a9f8aed94757372d23a62deecdafc686d68d9cb61bc50f7b2c5cdc77e7",
+      "bytes": 77498
+    },
+    "referencias-originais/sala7.webp": {
+      "sha256": "0c379455c0a715667a1f5f519fb54e786f8cb378a7970e856a48134c65ad5390",
+      "bytes": 67498
+    },
+    "referencias-originais/sala8.webp": {
+      "sha256": "45783b9547a24e8747ec1f6745b2c5ef52415635ffca5d5d9e4ec4f11a696851",
+      "bytes": 105048
+    },
+    "referencias-originais/suite1.webp": {
+      "sha256": "ebbcb2a7db13a5f855634bb08caee54df5f6d17591ae364d991f6dfdd2bfc35a",
+      "bytes": 67008
+    }
+  },
+  "outputs": {
+    "projeto/casa-reconstruida.blend": {
+      "sha256": "38fd39e38342e701f1e36c82bc1f3da58e11ee6957f3a75db64c90f5e6ad2e5f",
+      "bytes": 3413223
+    },
+    "README.md": {
+      "sha256": "84da551f46e566096aa11a5bcf253ef599051e527adf34c19eda75b751220da7",
+      "bytes": 7653
+    },
+    "scripts/audit_photo_geometry.py": {
+      "sha256": "909efe90a9646c3ba61a1955a9d225d4a7f54c8de90ac81bf9165fe04201e3f9",
+      "bytes": 6708
+    },
+    "scripts/build_house.py": {
+      "sha256": "e6f16866cf30e98706a4f36cdc595fc35cfa92e62cc4c05b628ae23cfc93ce16",
+      "bytes": 28133
+    },
+    "scripts/build_scene.py": {
+      "sha256": "385e376aaafdeeee25af207349421a1fd6ad869ddc9d94321f80d8bd76054fc9",
+      "bytes": 53716
+    },
+    "scripts/calibrate_revision_cameras.py": {
+      "sha256": "2d0e960c576850386b0e96aeb27d843b2339d0f50c490536bf1e79f60143bb4c",
+      "bytes": 3177
+    },
+    "scripts/compare_renders.py": {
+      "sha256": "2da6da15f4053e9fc880654c46baab364e043329c998fe3907dea1d2d4dc5ead",
+      "bytes": 1348
+    },
+    "scripts/finalize_house.py": {
+      "sha256": "c38451ef873de5068cb1a550c8a05abed6824f0461e0ada7a2b080c6f7d8653c",
+      "bytes": 8654
+    },
+    "scripts/house_atlas.py": {
+      "sha256": "c9a08047d06594dc9eda89c344e50916d8b1f5c3cf2817d7f6749cc168d78127",
+      "bytes": 4679
+    },
+    "scripts/house_geometry.py": {
+      "sha256": "7b9b1cdb58065c9ef01d72abca9718751623fdc14a339597825a8cb39459f971",
+      "bytes": 8886
+    },
+    "scripts/iterate_preview.py": {
+      "sha256": "9d7feb3f49d744a7bf5120c1a0593ff705932b5b396b82cb89b28e7604bf712f",
+      "bytes": 2158
+    },
+    "scripts/probe_device.py": {
+      "sha256": "a9161bd9213989cb7ab9696d867cd85aa4b94366a1e948e4f72445e94351bed3",
+      "bytes": 1086
+    },
+    "scripts/refine_blanket.py": {
+      "sha256": "b53cb3fba86dc8e930d31e71d595e8c32a86942432bce9f02e87714eeda9ac62",
+      "bytes": 1017
+    },
+    "scripts/render_revision.py": {
+      "sha256": "f3f2b6a3a3ec36e064a65958e7c49ef2121baa23c47cdb3e0bfbe846789d3ad7",
+      "bytes": 2379
+    },
+    "scripts/run_blender.py": {
+      "sha256": "fafb89327ee9abba1c8f1214904b85b5bb34fa4bb61e980b80b4108edf90aa71",
+      "bytes": 1565
+    },
+    "scripts/test_composition.py": {
+      "sha256": "0b66d292dfd50ce378f063190c05928a4ad6aa062b7837ff2b52dc220f0aa3ce",
+      "bytes": 1751
+    },
+    "scripts/validate_house.py": {
+      "sha256": "c8737b54949d18e04387834fa9b82838655381a8be47704f3376903d8252fead",
+      "bytes": 6017
+    },
+    "scripts/validate_scene.py": {
+      "sha256": "93851890076e78c9587c11f8edf24970f1b8aef1abdb57f4e66d7d4edaafa40b",
+      "bytes": 7682
+    },
+    "renders/revisao-02/final/sala-fundos.png": {
+      "sha256": "8f8e991c6311b497114c2ca6e8da5ffccc11e49e83c2f451bc43da555281b493",
+      "bytes": 732110
+    },
+    "renders/revisao-02/final/sala-frente.png": {
+      "sha256": "4e17ddcf2efd1cc82b553f6c99e2324626ea63088ee78083f0045e52a27c6fd3",
+      "bytes": 723742
+    },
+    "renders/revisao-02/final/escada-acesso.png": {
+      "sha256": "6c708e60423a53e7d47fe343e47651bd187dad8a893f377e5ff390ef3a5f4789",
+      "bytes": 809392
+    },
+    "renders/revisao-02/final/cozinha.png": {
+      "sha256": "6e1e80472ed4156b7ad18e0a5e184431cac03b7c3a2d857e36cf1cb4ea744497",
+      "bytes": 787824
+    },
+    "renders/revisao-02/final/cozinha-reversa.png": {
+      "sha256": "9ff5d41b754b4c57434bc13f7e4802e46ab29a8bb200f7b3e1c8ae7d1356e50b",
+      "bytes": 794214
+    },
+    "renders/revisao-02/final/bar.png": {
+      "sha256": "6688ffbe4830bedad010323127ca3e7bdcec371a1859d7253f55f75c8b2b326c",
+      "bytes": 718357
+    },
+    "renders/revisao-02/final/terreo-3d.png": {
+      "sha256": "a9ce5edfd9215bdfb622b435c621889b917be428b4dc7fae6fda7c49d31bb04f",
+      "bytes": 1669910
+    },
+    "renders/revisao-02/final/terreo-superior.png": {
+      "sha256": "0c6ba5e4147d72022b4321ba35085082d5bda1355dbecfc37373edc1a8138300",
+      "bytes": 1940277
+    },
+    "renders/revisao-02/final/superior-pendente.png": {
+      "sha256": "e5a6bfc9c4292244afe58e63641e16771e0dbf31b5c3832f298725967b82a918",
+      "bytes": 1558311
+    },
+    "renders/revisao-02/final/superior-envoltoria.png": {
+      "sha256": "c7984411257424f93afea280f3774e5aa4bd510c9933541369ab642034799027",
+      "bytes": 1861444
+    },
+    "renders/revisao-02/final/estudos-superior.png": {
+      "sha256": "2587ed09a0f7e369d76b1a089c373cc0d8b05b0707d99b7493ae2b6859a9a8f9",
+      "bytes": 1638054
+    },
+    "renders/revisao-02/final/volumetria.png": {
+      "sha256": "29a2460774e4cb2618355887782b1d23151a2d403c506ac65ef1d5b4122e118d",
+      "bytes": 1581084
+    },
+    "renders/planta-casa/comparacao-antes-depois.png": {
+      "sha256": "1b57a4ad866470b077e5807b6e939c4d9de5b72f06bb67a490fbcb915257e4ba",
+      "bytes": 3690189
+    },
+    "renders/planta-casa/comparacao-originais.png": {
+      "sha256": "523d2504e699ed169be3dfb0e5c8ac0bd8be1e88d41961c8420f7b040e502c98",
+      "bytes": 8714901
+    },
+    "renders/planta-casa/cozinha.png": {
+      "sha256": "6e1e80472ed4156b7ad18e0a5e184431cac03b7c3a2d857e36cf1cb4ea744497",
+      "bytes": 787824
+    },
+    "renders/planta-casa/estudos-superior.png": {
+      "sha256": "2587ed09a0f7e369d76b1a089c373cc0d8b05b0707d99b7493ae2b6859a9a8f9",
+      "bytes": 1638054
+    },
+    "renders/planta-casa/pavimento-superior.png": {
+      "sha256": "c7984411257424f93afea280f3774e5aa4bd510c9933541369ab642034799027",
+      "bytes": 1861444
+    },
+    "renders/planta-casa/planta-3d.png": {
+      "sha256": "c8ece69b78f007656310d7acebf0b24bd29c6aaf0868efc78eec90b785b37e73",
+      "bytes": 2096185
+    },
+    "renders/planta-casa/plantas-superiores.png": {
+      "sha256": "15b7fab4224b37d5334646452e26d4f1c0e0bd74a623a810ca460c838be1117c",
+      "bytes": 2842324
+    },
+    "renders/planta-casa/previa-terreo.png": {
+      "sha256": "a68dea064249bcbb3264e0b3a32e47676a62795e05f5952b3c9729e90af22684",
+      "bytes": 440803
+    },
+    "renders/planta-casa/sala-frente.png": {
+      "sha256": "4e17ddcf2efd1cc82b553f6c99e2324626ea63088ee78083f0045e52a27c6fd3",
+      "bytes": 723742
+    },
+    "renders/planta-casa/sala-fundos.png": {
+      "sha256": "8f8e991c6311b497114c2ca6e8da5ffccc11e49e83c2f451bc43da555281b493",
+      "bytes": 732110
+    },
+    "renders/planta-casa/superior-3d.png": {
+      "sha256": "e5a6bfc9c4292244afe58e63641e16771e0dbf31b5c3832f298725967b82a918",
+      "bytes": 1558311
+    },
+    "renders/planta-casa/terreo-3d.png": {
+      "sha256": "a9ce5edfd9215bdfb622b435c621889b917be428b4dc7fae6fda7c49d31bb04f",
+      "bytes": 1669910
+    },
+    "renders/planta-casa/terreo-superior.png": {
+      "sha256": "0c6ba5e4147d72022b4321ba35085082d5bda1355dbecfc37373edc1a8138300",
+      "bytes": 1940277
+    },
+    "renders/planta-casa/volumetria.png": {
+      "sha256": "29a2460774e4cb2618355887782b1d23151a2d403c506ac65ef1d5b4122e118d",
+      "bytes": 1581084
+    },
+    "relatorios/revisao-02/ajuste-cameras.json": {
+      "sha256": "4c7016ed10eedaa09f52269de382a7544c21af860f326d828717f278f3ed9f03",
+      "bytes": 3331
+    },
+    "relatorios/revisao-02/auditoria-antes.json": {
+      "sha256": "ba9dd012383b1eb38c2aed60ef24f13b9db1b1da6964e9d08df825abaf57027e",
+      "bytes": 12350
+    },
+    "relatorios/revisao-02/auditoria-depois.json": {
+      "sha256": "b127bfdafd5054c8cd6bad88c8d308089915281a839957d7c1896b87a93fb78b",
+      "bytes": 14159
+    },
+    "relatorios/revisao-02/diagnostico.json": {
+      "sha256": "2e5330b53af08a6a3567c2c026185aff6a450d485f01b2a4792a4a58cc23c8ee",
+      "bytes": 1928
+    },
+    "relatorios/revisao-02/renders-finais.json": {
+      "sha256": "681f83254bed84a33c37c7e3998854361283db18a03261f74476374b2b45938c",
+      "bytes": 1000
+    },
+    "relatorios/revisao-02/renders-previa.json": {
+      "sha256": "7697b4baa3a67f50ca49922268875d6d520b9531e0f1a26ef1df823e28521a8b",
+      "bytes": 720
+    },
+    "relatorios/revisao-02/revisao.json": {
+      "sha256": "5ef9e679d0b6ac6f73d08db4b4c3f89553adce271cf46dd8970c23007acf3bb0",
+      "bytes": 2998
+    },
+    "relatorios/revisao-02/auditoria-antes.log": {
+      "sha256": "e6cdefa03e2bd0912ab736fe58df135324fbb525746e6336106fb07f525aa34c",
+      "bytes": 794
+    },
+    "relatorios/revisao-02/auditoria-baseline.log": {
+      "sha256": "b34c35225e2be54c69231f509760a48dada524367dbdc444a4ecbd4def89850d",
+      "bytes": 794
+    },
+    "relatorios/revisao-02/auditoria-calibrada.log": {
+      "sha256": "695c5671fd459c0427577a4d7384fdcb5842fbc582cc06a2224d868ccc6ac5c7",
+      "bytes": 720
+    },
+    "relatorios/revisao-02/auditoria-depois.log": {
+      "sha256": "c249a01c2aebf46ca863509b42914acf5f6b37a1310c5e0cd67e6b1b5dafbeee",
+      "bytes": 656
+    },
+    "relatorios/revisao-02/auditoria-enquadrada.log": {
+      "sha256": "4f3feb5a79500e9f9a65e1e922fa614cb9e500b4de8a1707d06ef8eb29a43898",
+      "bytes": 735
+    },
+    "relatorios/revisao-02/auditoria-refinada.log": {
+      "sha256": "3abf6424b1b7eda4f27f3756c06a43ef33a51f69adef33e1dfe8141fefb28d6e",
+      "bytes": 733
+    },
+    "relatorios/revisao-02/geracao-calibrada.log": {
+      "sha256": "39b2b35d5cdc2d066362f634d28fb548964572c895438a380e6c9b9592097161",
+      "bytes": 1481
+    },
+    "relatorios/revisao-02/geracao-enquadrada.log": {
+      "sha256": "9ab38187c0c324a4d7f9a89090776e74e77c886e65bb7c5b4899abf6c02f86d7",
+      "bytes": 1372
+    },
+    "relatorios/revisao-02/geracao-final.log": {
+      "sha256": "225f8f7e76bf871d1bded18ac0aa8209413daa5bdc63405b9c0e24e81daccf03",
+      "bytes": 1346
+    },
+    "relatorios/revisao-02/geracao-iteracao.log": {
+      "sha256": "fb6fe223609a6482839a2bde62928817e997a89a16a9d531adcfedb45e8549f3",
+      "bytes": 1479
+    },
+    "relatorios/revisao-02/geracao-refinada.log": {
+      "sha256": "97739735f71e6ca7f836c81b236a89e35c954153ef8779d942bd7927d1e3b13d",
+      "bytes": 1479
+    },
+    "relatorios/revisao-02/geracao.log": {
+      "sha256": "41da11ff104b9bc80f1c618b0deeb5794ed69d111fe784f656e0bfde5e578b14",
+      "bytes": 1453
+    },
+    "relatorios/revisao-02/montagens.log": {
+      "sha256": "f16a44618291216a1bac3519fc7d29d22089d6e7c58375a4c7efbb82e89dd719",
+      "bytes": 24
+    },
+    "relatorios/revisao-02/previas-enquadradas.log": {
+      "sha256": "1d967beb79e551f78b55e53a0c693b87c719eec384b43e51eea8ec447e5bb8a4",
+      "bytes": 1302
+    },
+    "relatorios/revisao-02/previas.log": {
+      "sha256": "70f09d6ceb203ae84f9d8818c3d5d955239368b4ad88b9081e94a1af84ce9f53",
+      "bytes": 1300
+    },
+    "relatorios/revisao-02/validacao-final.log": {
+      "sha256": "4e002205b8ced2fef64a0ed8fd40f5f64a7fe577c1c8aa820e1a7f7d987012bf",
+      "bytes": 2734
+    },
+    "relatorios/revisao-02/RELATORIO.md": {
+      "sha256": "6d2b4ee064581b0531b00f420030471b9b057155bc767de9b3934c43b69b9686",
+      "bytes": 3720
+    },
+    "relatorios/planta-casa/validacao.json": {
+      "sha256": "cb2e5b104a88d4499b29dba44f68dff4caad51fbc3d2604f43ca9f74c34e11da",
+      "bytes": 18808
+    },
+    "relatorios/planta-casa/comparacao.json": {
+      "sha256": "5367289e31e5c6b8dc3868a497041625577b6ec1ac0b83a795a24998cbd4b032",
+      "bytes": 1292
+    }
+  },
+  "unknowns": {
+    "superior_layout": "UNKNOWN — faltam frente/fundos dos quartos e ligações entre portas",
+    "full_stair_return": "INFERRED — U transversal é solução provisória, não levantamento",
+    "real_dimensions": "UNKNOWN — nenhuma medida linear confirmada",
+    "registry_areas": "UNKNOWN — análise do ChatGPT é fonte secundária, matrícula não conferida"
+  },
+  "deletions": [],
+  "external_publication": false
+}

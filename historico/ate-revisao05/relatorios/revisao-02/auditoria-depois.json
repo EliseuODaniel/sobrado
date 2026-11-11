@@ -1,0 +1,560 @@
+{
+  "timestamp_utc": "2026-11-10T11:59:29.477446+00:00",
+  "blend": "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend",
+  "sha256": "38fd39e38342e701f1e36c82bc1f3da58e11ee6957f3a75db64c90f5e6ad2e5f",
+  "baseline": false,
+  "checks": {
+    "tv_na_parede_interna_lateral": {
+      "passed": true,
+      "detail": {
+        "tv_x": 3.0799999237060547,
+        "spine_x": 3.15
+      },
+      "references": [
+        "sala4.webp",
+        "sala7.webp"
+      ]
+    },
+    "porta_lavabo_na_mesma_face": {
+      "passed": true,
+      "detail": {
+        "door": [
+          3.1500000953674316,
+          2.819999933242798,
+          0.0
+        ]
+      },
+      "references": [
+        "sala2.webp",
+        "sala4.webp"
+      ]
+    },
+    "porta_lavabo_fechada_como_na_foto": {
+      "passed": true,
+      "detail": {
+        "rotation_z": 0.0
+      },
+      "references": [
+        "sala4.webp"
+      ]
+    },
+    "primeiro_lance_transversal": {
+      "passed": true,
+      "detail": {
+        "delta_first_to_ninth": [
+          1.440000057220459,
+          0.0,
+          1.288888931274414
+        ]
+      },
+      "references": [
+        "sala1.webp",
+        "sala4.webp"
+      ]
+    },
+    "espelho_fora_do_volume_da_parede": {
+      "passed": true,
+      "detail": {
+        "mirror_front_x": 0.09250000072643161,
+        "wall_inside_x": 0.075
+      },
+      "references": [
+        "sala7.webp"
+      ]
+    },
+    "pedra_exposta_na_frente_da_parede": {
+      "passed": true,
+      "detail": {
+        "stone_front_y": 8.792500304989517,
+        "wall_front_y": 8.824999615550041
+      },
+      "references": [
+        "area3.webp"
+      ]
+    },
+    "primeiro_lance_nao_exposto_na_vista_sala7": {
+      "passed": true,
+      "detail": {
+        "visible": 0,
+        "total": 9,
+        "hits": [
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Painel TV branco",
+          "TV preta independente",
+          "TV preta independente",
+          "TV preta independente",
+          "TV preta independente",
+          "TV preta independente",
+          "TV preta independente"
+        ],
+        "ndc": [
+          [
+            0.7216222882270813,
+            0.10094950348138809,
+            4.006832599639893
+          ],
+          [
+            0.7467594742774963,
+            0.1417841613292694,
+            3.9967408180236816
+          ],
+          [
+            0.7720239162445068,
+            0.18282556533813477,
+            3.98664927482605
+          ],
+          [
+            0.797416627407074,
+            0.2240753173828125,
+            3.976557731628418
+          ],
+          [
+            0.8229385018348694,
+            0.265534907579422,
+            3.9664664268493652
+          ],
+          [
+            0.848590612411499,
+            0.30720606446266174,
+            3.9563748836517334
+          ],
+          [
+            0.8743738532066345,
+            0.3490903079509735,
+            3.9462833404541016
+          ],
+          [
+            0.9002893567085266,
+            0.3911893367767334,
+            3.9361917972564697
+          ],
+          [
+            0.9263380765914917,
+            0.43350476026535034,
+            3.926100254058838
+          ]
+        ]
+      },
+      "references": [
+        "sala7.webp"
+      ]
+    },
+    "primeiro_lance_visivel_no_angulo_sala1": {
+      "passed": true,
+      "detail": {
+        "visible": 8,
+        "total": 9,
+        "hits": [
+          "out_of_frame",
+          "Degrau 02 granito",
+          "Degrau 03 granito",
+          "Degrau 04 granito",
+          "Degrau 05 granito",
+          "Degrau 06 granito",
+          "Degrau 07 granito",
+          "Degrau 08 granito",
+          "Degrau 09 granito"
+        ],
+        "ndc": [
+          [
+            0.87482750415802,
+            -0.08921200037002563,
+            1.9744023084640503
+          ],
+          [
+            0.8869493007659912,
+            0.012327921576797962,
+            2.083582878112793
+          ],
+          [
+            0.8978639841079712,
+            0.10375624895095825,
+            2.192763566970825
+          ],
+          [
+            0.9077433347702026,
+            0.18651172518730164,
+            2.3019442558288574
+          ],
+          [
+            0.9167279601097107,
+            0.2617725133895874,
+            2.4111247062683105
+          ],
+          [
+            0.9249340891838074,
+            0.330512672662735,
+            2.5203053951263428
+          ],
+          [
+            0.9324588179588318,
+            0.39354440569877625,
+            2.629485845565796
+          ],
+          [
+            0.9393835663795471,
+            0.4515504539012909,
+            2.738666534423828
+          ],
+          [
+            0.9457773566246033,
+            0.5051088333129883,
+            2.8478472232818604
+          ]
+        ]
+      },
+      "references": [
+        "sala1.webp"
+      ]
+    },
+    "primeiro_lance_visivel_na_vista_sala4": {
+      "passed": true,
+      "detail": {
+        "visible": 7,
+        "total": 9,
+        "hits": [
+          "Degrau 01 granito",
+          "Degrau 02 granito",
+          "Degrau 03 granito",
+          "Degrau 04 granito",
+          "Degrau 05 granito",
+          "Degrau 06 granito",
+          "Degrau 07 granito",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002"
+        ],
+        "ndc": [
+          [
+            0.11321038752794266,
+            0.08757027238607407,
+            2.328476667404175
+          ],
+          [
+            0.09728901088237762,
+            0.1602797657251358,
+            2.4174437522888184
+          ],
+          [
+            0.08249794691801071,
+            0.22782742977142334,
+            2.506411075592041
+          ],
+          [
+            0.06872092187404633,
+            0.29074424505233765,
+            2.5953783988952637
+          ],
+          [
+            0.05585716664791107,
+            0.3494904339313507,
+            2.6843454837799072
+          ],
+          [
+            0.043818626552820206,
+            0.40446755290031433,
+            2.77331280708313
+          ],
+          [
+            0.032528575509786606,
+            0.4560270309448242,
+            2.8622798919677734
+          ],
+          [
+            0.021919220685958862,
+            0.5044779181480408,
+            2.951247215270996
+          ],
+          [
+            0.011930759064853191,
+            0.5500930547714233,
+            3.0402145385742188
+          ]
+        ]
+      },
+      "references": [
+        "sala4.webp"
+      ]
+    },
+    "janela_cozinha_visivel_pela_passagem": {
+      "passed": true,
+      "detail": {
+        "visible": 3,
+        "total": 39,
+        "hits": [
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Janela cozinha vidro",
+          "Interfone pilar entre escada e cozinha",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.002",
+          "Separação escada cozinha trecho final",
+          "Separação escada cozinha trecho final",
+          "Separação escada cozinha trecho final",
+          "Separação escada cozinha trecho final",
+          "Separação escada cozinha trecho final",
+          "Separação escada cozinha trecho final",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+          "ESPINHA_Lateral TV lavabo escada cozinha trecho.001",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha",
+          "Porta lavabo folha"
+        ],
+        "ndc": [
+          [
+            0.6423931121826172,
+            0.4759986102581024,
+            7.362473487854004
+          ],
+          [
+            0.6426295638084412,
+            0.5211911201477051,
+            7.35026741027832
+          ],
+          [
+            0.6428743004798889,
+            0.56795334815979,
+            7.337679862976074
+          ],
+          [
+            0.6515408158302307,
+            0.4759753346443176,
+            7.359784126281738
+          ],
+          [
+            0.651792585849762,
+            0.5211843252182007,
+            7.347578048706055
+          ],
+          [
+            0.6520530581474304,
+            0.5679636597633362,
+            7.334990978240967
+          ],
+          [
+            0.6606952548027039,
+            0.47595205903053284,
+            7.357094764709473
+          ],
+          [
+            0.6609622836112976,
+            0.5211775898933411,
+            7.344888687133789
+          ],
+          [
+            0.6612386107444763,
+            0.5679740309715271,
+            7.332301616668701
+          ],
+          [
+            0.6698563098907471,
+            0.47592875361442566,
+            7.354405403137207
+          ],
+          [
+            0.6701387166976929,
+            0.5211707949638367,
+            7.342199802398682
+          ],
+          [
+            0.6704308986663818,
+            0.5679844617843628,
+            7.3296122550964355
+          ],
+          [
+            0.6790241003036499,
+            0.4759054183959961,
+            7.3517165184021
+          ],
+          [
+            0.679321825504303,
+            0.5211640000343323,
+            7.339510440826416
+          ],
+          [
+            0.679629921913147,
+            0.5679948329925537,
+            7.32692289352417
+          ],
+          [
+            0.6881985664367676,
+            0.47588208317756653,
+            7.349027156829834
+          ],
+          [
+            0.6885116696357727,
+            0.5211572051048279,
+            7.33682107925415
+          ],
+          [
+            0.688835620880127,
+            0.5680052042007446,
+            7.3242340087890625
+          ],
+          [
+            0.6973798274993896,
+            0.4758587181568146,
+            7.346337795257568
+          ],
+          [
+            0.6977083086967468,
+            0.5211504101753235,
+            7.334131717681885
+          ],
+          [
+            0.6980481743812561,
+            0.5680156350135803,
+            7.321544647216797
+          ],
+          [
+            0.7065677642822266,
+            0.4758353531360626,
+            7.343648433685303
+          ],
+          [
+            0.7069116234779358,
+            0.5211436152458191,
+            7.331442832946777
+          ],
+          [
+            0.7072675228118896,
+            0.5680260062217712,
+            7.318855285644531
+          ],
+          [
+            0.7157623767852783,
+            0.4758119583129883,
+            7.340959548950195
+          ],
+          [
+            0.7161217331886292,
+            0.5211368203163147,
+            7.328753471374512
+          ],
+          [
+            0.716493546962738,
+            0.5680364370346069,
+            7.316165924072266
+          ],
+          [
+            0.7249637842178345,
+            0.47578856348991394,
+            7.33827018737793
+          ],
+          [
+            0.7253386378288269,
+            0.5211300253868103,
+            7.326064109802246
+          ],
+          [
+            0.7257264256477356,
+            0.5680468678474426,
+            7.313477039337158
+          ],
+          [
+            0.734171986579895,
+            0.4757651090621948,
+            7.335580825805664
+          ],
+          [
+            0.7345622777938843,
+            0.5211231708526611,
+            7.3233747482299805
+          ],
+          [
+            0.7349660992622375,
+            0.5680572986602783,
+            7.310787677764893
+          ],
+          [
+            0.7433868646621704,
+            0.4757416844367981,
+            7.332891464233398
+          ],
+          [
+            0.7437926530838013,
+            0.5211163759231567,
+            7.320685863494873
+          ],
+          [
+            0.7442125678062439,
+            0.568067729473114,
+            7.308098316192627
+          ],
+          [
+            0.7526085376739502,
+            0.475718230009079,
+            7.330202579498291
+          ],
+          [
+            0.7530298233032227,
+            0.5211095213890076,
+            7.317996501922607
+          ],
+          [
+            0.7534658312797546,
+            0.5680781602859497,
+            7.305408954620361
+          ]
+        ]
+      },
+      "references": [
+        "sala7.webp",
+        "cozinha2.webp"
+      ]
+    },
+    "porta_lavabo_visivel_entre_tv_e_escada": {
+      "passed": true,
+      "detail": {
+        "visible": 1,
+        "total": 1,
+        "hits": [
+          "Porta lavabo folha"
+        ],
+        "ndc": [
+          [
+            0.3165651559829712,
+            0.4639647305011749,
+            3.0932559967041016
+          ]
+        ]
+      },
+      "references": [
+        "sala4.webp"
+      ]
+    },
+    "superior_sem_adjacencias_inventadas": {
+      "passed": true,
+      "detail": [],
+      "references": [
+        "quartosuite1.webp",
+        "quartoazul1.webp",
+        "quartobranco1.webp"
+      ]
+    }
+  },
+  "all_passed": true,
+  "scope": "Detecção de contradições discretas e visibilidade. Não prova equivalência métrica, fotográfica ou a implantação real do superior."
+}

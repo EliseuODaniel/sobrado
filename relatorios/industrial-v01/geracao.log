@@ -1,0 +1,9 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.257  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend"
+/home/edann/projects/casa-interiores/scripts/style_industrial.py:277: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  if world.use_nodes:
+Info: Saved as "casa-industrial.blend"
+INDUSTRIAL_BUILT 2575 geometrias preservadas
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

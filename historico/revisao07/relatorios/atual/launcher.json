@@ -1,0 +1,6 @@
+{
+  "test": "Python exception produces nonzero launcher exit",
+  "command": "run_blender.py --background --factory-startup --python /tmp/casa-test-blender-failure.py",
+  "exit_code": 1,
+  "passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-11T01:44:00.750947+00:00",
+  "reviewer": "Codex",
+  "scope": "Inspeção visual das sete imagens finais e comparação com as quatro referências; enquadramento, materiais, iluminação e móveis visíveis",
+  "blend_sha256": "0a9a24271c3d0d497ad2f9d63bcccbf0261ebbbe75883726aeacbd7166304fb7",
+  "render_sha256": {
+    "renders/industrial-v01/sala-integrada.png": "7caa9539aa604903e72baaf58fd1192a17670808fe6fbef4c15f5c924b0ab32e",
+    "renders/industrial-v01/sala-frente.png": "b2d08d9cd33703391b2dc9a1be23d6685c637233ef2544140a2d2afb732da710",
+    "renders/industrial-v01/cozinha.png": "3b9319b9534cbb2eb85ea2d25bb1e34424c7ee5ea2daa9bd1890701534dfdcd1",
+    "renders/industrial-v01/cozinha-reversa.png": "7583935c68cd77a30c20ca36351ca65aa997ca24184bd200e0a115e12656f9da",
+    "renders/industrial-v01/lazer-fundos.png": "5363daa3e5954aa63d13179585b7f565f9abc67d0f69e9f92a9543ae7e22384f",
+    "renders/industrial-v01/quarto-fundos.png": "7eef74488c81296d9dfb0d561a199f8e22e1a231da858ded5e2e27be7741c62e",
+    "renders/industrial-v01/quarto-escritorio.png": "68e3cec8dde36a8857df4168f5acc9f623358a850b496d53591b2b4f51e642b4"
+  },
+  "findings": [
+    "Cimento, aço escuro, madeira e couro presentes nos ambientes pedidos",
+    "Arquitetura mantida: o estilo adapta-se à reconstrução existente",
+    "Quarto mantém beliche e a bancada, com monitores e prateleiras",
+    "Mobiliário e texturas simplificados em relação às imagens de inspiração"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "timestamp_utc": "2026-11-10T17:19:19.589607+00:00",
+  "revision": 6,
+  "status": "nova_planta_aplicada_e_anteriores_arquivados",
+  "scope": "Porta na marcação preta da planta confirmada, limite vermelho do lavabo e acesso pela área branca. Arquivamento recuperável dos anteriores.",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af"
+  },
+  "authoritative_source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "user_confirmation": {
+    "source": "Nova planta anotada e confirmação textual do usuário",
+    "instruction": "A porta do lavabo fica na marcação preta, na parede horizontal superior do lavabo. O retângulo vermelho delimita o lavabo. A área branca acima à esquerda indica acesso livre.",
+    "supersedes": "Porta lateral esquerda usada nas revisões anteriores",
+    "dimensions_status": "approximate_no_measured_anchor"
+  },
+  "integrity_checks": 15,
+  "geometry_checks": 38,
+  "renders": 18,
+  "visual_review": [
+    "Planta anotada × vista atual da porta com escada oculta",
+    "Planta completa, corte em 3D e oito fotos internas",
+    "Fachada e duas referências externas"
+  ],
+  "archive": {
+    "path": "historico/ate-revisao05",
+    "records_verified": 333,
+    "moves_verified": 68,
+    "shared_helpers_identical": 16,
+    "deletions": []
+  },
+  "unknowns": [
+    "Medidas reais, profundidade dos degraus e inclinação da escada; implantação visual aproximada",
+    "Lado da dobradiça e sentido definitivo de abertura da porta; folha mostrada fechada",
+    "Planta interna do segundo pavimento e detalhes ainda não medidos da área de serviço e telhado"
+  ],
+  "original_photos_preserved": true,
+  "upper_interior_started": false,
+  "external_publication": false
+}

@@ -1,0 +1,72 @@
+{
+  "timestamp_utc": "2026-11-10T16:29:09.346867+00:00",
+  "blend_sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2",
+  "revision": 5,
+  "comparison_rows": [
+    {
+      "source": "referencias-originais/sala7.webp",
+      "render": "renders/revisao-05/final/sala-fundos.png"
+    },
+    {
+      "source": "referencias-originais/sala4.webp",
+      "render": "renders/revisao-05/final/sala-frente.png"
+    },
+    {
+      "source": "referencias-originais/sala1.webp",
+      "render": "renders/revisao-05/final/escada-acesso.png"
+    },
+    {
+      "source": "referencias-originais/cozinha1.webp",
+      "render": "renders/revisao-05/final/cozinha.png"
+    },
+    {
+      "source": "referencias-originais/cozinha2.webp",
+      "render": "renders/revisao-05/final/cozinha-reversa.png"
+    },
+    {
+      "source": "referencias-originais/area3.webp",
+      "render": "renders/revisao-05/final/bar.png"
+    },
+    {
+      "source": "referencias-originais/lavanderia1.webp",
+      "render": "renders/revisao-05/final/lavanderia.png"
+    },
+    {
+      "source": "referencias-originais/lavabo1.webp",
+      "render": "renders/revisao-05/final/lavabo.png"
+    }
+  ],
+  "user_layout_source": {
+    "path": "referencias-ajustes/planta-terreo-anotada.png",
+    "sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819",
+    "status": "user_directed_approximate_layout",
+    "metric_dimensions_confirmed": false
+  },
+  "user_correction": {
+    "source": "Mensagem do usuário nesta conversa",
+    "instruction": "O lavabo fica embaixo da segunda metade da escada que sobe para o segundo pavimento; aumentar a garagem e mover o lavabo para baixo desse lance.",
+    "supersedes": "Posição do lavabo desenhada à frente da escada no croqui da revisão 03",
+    "dimensions_status": "approximate_no_measured_anchor"
+  },
+  "scope": "Térreo conforme croqui e correção posterior do usuário: lavabo sob o segundo lance e garagem ampliada. Não valida dimensões reais ou superior.",
+  "outputs": [
+    "renders/planta-casa/planta-3d.png",
+    "renders/planta-casa/plantas-superiores.png",
+    "renders/planta-casa/comparacao-originais.png",
+    "renders/planta-casa/comparacao-antes-depois.png",
+    "renders/planta-casa/croqui-e-planta.png",
+    "renders/planta-casa/lavabo-sob-escada.png",
+    "renders/planta-casa/fachada-comparacao.png",
+    "renders/planta-casa/fachada-antes-depois.png"
+  ],
+  "facade_comparison_rows": [
+    {
+      "source": "referencias-originais/exterior2.webp",
+      "render": "renders/revisao-05/final/fachada-frontal.png"
+    },
+    {
+      "source": "referencias-originais/exterior1.webp",
+      "render": "renders/revisao-05/final/fachada-obliqua.png"
+    }
+  ]
+}

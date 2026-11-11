@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-11-10T12:02:35.392046+00:00",
+  "blend": "projeto/casa-reconstruida.blend",
+  "sha256": "38fd39e38342e701f1e36c82bc1f3da58e11ee6957f3a75db64c90f5e6ad2e5f",
+  "version": "5.2.4 LTS",
+  "preview": false,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "outputs": [
+    "renders/revisao-02/final/sala-fundos.png",
+    "renders/revisao-02/final/sala-frente.png",
+    "renders/revisao-02/final/escada-acesso.png",
+    "renders/revisao-02/final/cozinha.png",
+    "renders/revisao-02/final/cozinha-reversa.png",
+    "renders/revisao-02/final/bar.png",
+    "renders/revisao-02/final/terreo-3d.png",
+    "renders/revisao-02/final/terreo-superior.png",
+    "renders/revisao-02/final/superior-pendente.png",
+    "renders/revisao-02/final/superior-envoltoria.png",
+    "renders/revisao-02/final/estudos-superior.png",
+    "renders/revisao-02/final/volumetria.png"
+  ],
+  "saved_file_unchanged": true
+}

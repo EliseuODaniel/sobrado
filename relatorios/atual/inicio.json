@@ -1,0 +1,152 @@
+{
+  "timestamp_utc": "2026-11-10T20:31:58.313483+00:00",
+  "revision": 10,
+  "scope": "Encaixar os dois pisos no contorno do corpo principal, com fundos superiores coplanares à parede da cozinha",
+  "user_instruction": "A parede externa dos dois banheiros superiores e do quarto dos fundos deve ficar na mesma linha da parede da cozinha abaixo; ajustar o conjunto proporcionalmente.",
+  "previous_blend_sha256": "971dc3f90083e7339e626d8076a2ac28e2684187b316e7c14c040a1711b24563",
+  "archive_manifest": "historico/revisao09/ARQUIVAMENTO.json",
+  "previous_rear_gap_m": 0.85,
+  "unknowns": [
+    "Dimensões reais sem medida de referência",
+    "Curva estimada em seis degraus e comprimento do primeiro lance ainda comprimido",
+    "Não é validação estrutural ou de execução"
+  ],
+  "proportion_reference": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "drafts": [
+    {
+      "source": "renders/atual/previas/fachada-frontal.png",
+      "destination": "historico/rascunhos/revisao10/previas/fachada-frontal.png",
+      "sha256": "3ba102bf14e72392d02a9a0d403c64e8e3bc81061910a4b007e3527a24ededfa"
+    },
+    {
+      "source": "renders/atual/previas/lavabo.png",
+      "destination": "historico/rascunhos/revisao10/previas/lavabo.png",
+      "sha256": "95bb9ed702d91f3b6bdd7e5b3ea116457d98bb4ffdd5f8f242bff08a64dd6b83"
+    },
+    {
+      "source": "renders/atual/previas/fachada-obliqua.png",
+      "destination": "historico/rascunhos/revisao10/previas/fachada-obliqua.png",
+      "sha256": "1f14d821b64398885c7c23a4b04374ebd4c4af7e28cc432c267ec3e594a5cca5"
+    },
+    {
+      "source": "renders/atual/previas/sala-frente.png",
+      "destination": "historico/rascunhos/revisao10/previas/sala-frente.png",
+      "sha256": "26b01c20c762185d5a56a600048a8fea41133f92fa1d1c0136cf043e26619ad7"
+    },
+    {
+      "source": "renders/atual/previas/terreo-3d.png",
+      "destination": "historico/rascunhos/revisao10/previas/terreo-3d.png",
+      "sha256": "62b9817f870989663052dad7722641ac86c98148a7a47993158eef4a03608cb0"
+    },
+    {
+      "source": "renders/atual/previas/quarto-frente.png",
+      "destination": "historico/rascunhos/revisao10/previas/quarto-frente.png",
+      "sha256": "5507105f27b94e71f3e138b378224e7c34bdc6656465c0d5f19139b0df8b86e6"
+    },
+    {
+      "source": "renders/atual/previas/estudos-superior.png",
+      "destination": "historico/rascunhos/revisao10/previas/estudos-superior.png",
+      "sha256": "3cb33015b40165bdb1d97e8617de944026338da350b6b1888ccdea4a97a4d637"
+    },
+    {
+      "source": "renders/atual/previas/escada-acesso.png",
+      "destination": "historico/rascunhos/revisao10/previas/escada-acesso.png",
+      "sha256": "57f9e41d9a929fb0b7dc6f091bd36a5765f465fb6527668efd18747d98c11a64"
+    },
+    {
+      "source": "renders/atual/previas/escada-superior.png",
+      "destination": "historico/rascunhos/revisao10/previas/escada-superior.png",
+      "sha256": "0f491b09624339c14a4abf4769c23a41ea59847470f43008e3db34fd947576d1"
+    },
+    {
+      "source": "renders/atual/previas/bar.png",
+      "destination": "historico/rascunhos/revisao10/previas/bar.png",
+      "sha256": "333b88904cc320a4be6aa2d6f41e5463a1100b75ff5dee9ee51e91b957f33b9b"
+    },
+    {
+      "source": "renders/atual/previas/cozinha-reversa.png",
+      "destination": "historico/rascunhos/revisao10/previas/cozinha-reversa.png",
+      "sha256": "586300a247a617133dbe3c3f1024244198e0343151bfbd3be6a80b760ddf46f4"
+    },
+    {
+      "source": "renders/atual/previas/acesso-lavabo.png",
+      "destination": "historico/rascunhos/revisao10/previas/acesso-lavabo.png",
+      "sha256": "7d0e4f0dc658da1f2be74a3e35a95d8a2aebcadd2888feef2d619485c1b6bad7"
+    },
+    {
+      "source": "renders/atual/previas/volumetria.png",
+      "destination": "historico/rascunhos/revisao10/previas/volumetria.png",
+      "sha256": "da53b21f281f50a2174fa29277358d5306581967e9817408c44628798234c60d"
+    },
+    {
+      "source": "renders/atual/previas/quarto-fundos.png",
+      "destination": "historico/rascunhos/revisao10/previas/quarto-fundos.png",
+      "sha256": "53d2e2bb7567d5372e581f5bee6012589f8bdbe06953d2d2f97c6fdfa7ec988f"
+    },
+    {
+      "source": "renders/atual/previas/cozinha.png",
+      "destination": "historico/rascunhos/revisao10/previas/cozinha.png",
+      "sha256": "c52528559ff231f2bc6fcc5e77c1205807ce7a35ea5bc57b21a0fc774cf8aaa0"
+    },
+    {
+      "source": "renders/atual/previas/superior-3d.png",
+      "destination": "historico/rascunhos/revisao10/previas/superior-3d.png",
+      "sha256": "9071b3bbeed8aadad9c3e2b4179cd0128cdd24d79a8bcc9970293c4d19caefdc"
+    },
+    {
+      "source": "renders/atual/previas/suite.png",
+      "destination": "historico/rascunhos/revisao10/previas/suite.png",
+      "sha256": "cb464a8e8091013143bfa89217f673b1f562683ab93b22ebb65ba3c8cf1093f7"
+    },
+    {
+      "source": "renders/atual/previas/lavanderia.png",
+      "destination": "historico/rascunhos/revisao10/previas/lavanderia.png",
+      "sha256": "464baf2dec62b28c87c8c8866a05008a01fe295f8efc20d17cfb84c75148a53e"
+    },
+    {
+      "source": "renders/atual/previas/planta-superior.png",
+      "destination": "historico/rascunhos/revisao10/previas/planta-superior.png",
+      "sha256": "c1bc23f91742393ad8ce3e9825c7225f0de1cab54b0d0857c5d3090959aa933c"
+    },
+    {
+      "source": "renders/atual/previas/lavabo-sob-escada.png",
+      "destination": "historico/rascunhos/revisao10/previas/lavabo-sob-escada.png",
+      "sha256": "ad56e9fa774587736bc39f502ac142df732ee1122753bf94b8eef82ed06363bf"
+    },
+    {
+      "source": "renders/atual/previas/planta-terreo.png",
+      "destination": "historico/rascunhos/revisao10/previas/planta-terreo.png",
+      "sha256": "14855fc1f2d4961dad3cf894446c969e1df42d423ea72d7d00b9e65c686f3ac4"
+    },
+    {
+      "source": "renders/atual/previas/porta-lavabo.png",
+      "destination": "historico/rascunhos/revisao10/previas/porta-lavabo.png",
+      "sha256": "dcd1300bd7d7aaa62e1cee8952334c171da172eca55fff14f6dd2f5aaa9c5443"
+    },
+    {
+      "source": "renders/atual/previas/sala-fundos.png",
+      "destination": "historico/rascunhos/revisao10/previas/sala-fundos.png",
+      "sha256": "4a8cc2bf50288c53eceec9b4f45c96329b7f89e9d227a1d35ecf25befd2e54be"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao10/previas/renders-previa.json",
+      "sha256": "7814169bab7748fb7fb7bf79200346942c37d6ab91667e8128b887bcce805ca6"
+    },
+    {
+      "source": "relatorios/atual/previa.log",
+      "destination": "historico/rascunhos/revisao10/previas/previa.log",
+      "sha256": "e05c828a76c3dd16798d2fffe0bb8fa40078c6d8e7a41465a1fa3358f7c2f3ab"
+    },
+    {
+      "destination": "historico/rascunhos/revisao10/contato-previas.png",
+      "sha256": "96120da8f3275a54dd00c5331c125acfed3c2fe8f12499ea602a4ce078a1da70"
+    }
+  ]
+}

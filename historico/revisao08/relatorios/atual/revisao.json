@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-11-10T19:41:09.632790+00:00",
+  "revision": 8,
+  "status": "estudo_aproximado_renderizado_e_verificado",
+  "scope": "Último croqui superior: quartos, WCs paralelos, portas e hall sobre o lance baixo; lances colados e dimensões provisórias",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "b7a8f031488450e8c9ded6715e2496246bd5b26b6c1e1fd24d714ffb45437cae"
+  },
+  "checks": {
+    "integrity": 17,
+    "ground_geometry": 40,
+    "upper_geometry": 14
+  },
+  "renders": 23,
+  "comparisons": 9,
+  "visual_review": [
+    "Planta superior versus croqui",
+    "Lance final menor, curva e chegada na laje",
+    "Perspectivas dos três quartos versus fotos originais",
+    "Planta térrea e porta do lavabo preservada; demais vistas regeneradas"
+  ],
+  "archives_verified": {
+    "ate-revisao05": 333,
+    "revisao06": 48,
+    "revisao07": 103
+  },
+  "original_photos_preserved": true,
+  "unknowns": [
+    "Contagem e forma reais dos degraus na curva; seis adotados provisoriamente",
+    "Comprimento real do primeiro lance e escala linear: avanço reto comprimido de aproximadamente 0,14 m na escala anterior; demais medidas também estimadas",
+    "Posições e dimensões reais dos banheiros; agora seguem a proposta do último croqui",
+    "Associação do quarto branco à frente e azul aos fundos; posições dos três quartos confirmadas, identidade fotográfica inferida",
+    "Portas superiores, janelas posteriores e sentido definitivo da porta do lavabo"
+  ],
+  "external_publication": false
+}

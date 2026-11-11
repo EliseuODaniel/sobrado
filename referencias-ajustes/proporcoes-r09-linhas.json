@@ -1,0 +1,14 @@
+{
+  "source": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+  "method": "Leitura visual manual aproximada das linhas arquitetônicas; ignorar distorções de móveis, louças e letras do recorte",
+  "outer_pixel_bounds": [184, 1015, 370, 1640],
+  "room_pixel_bounds": {
+    "suite": [184, 605, 945, 1495],
+    "banho_suite": [184, 389, 370, 945],
+    "banho_social": [389, 600, 370, 945],
+    "quarto_azul": [600, 1015, 370, 820],
+    "quarto_branco": [605, 1015, 1097, 1640]
+  },
+  "order": "x left, x right, y top, y bottom",
+  "metric_scale": "unconfirmed"
+}

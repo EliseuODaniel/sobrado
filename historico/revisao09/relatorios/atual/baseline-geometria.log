@@ -1,0 +1,45 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:01.506  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend"
+PASS tv_na_parede_interna_lateral
+FAIL porta_lavabo_na_parede_confirmada_apos_reproporcao
+PASS porta_lavabo_fechada_para_leitura
+PASS primeiro_lance_transversal
+PASS espelho_fora_do_volume_da_parede
+PASS pedra_exposta_na_frente_da_parede
+PASS primeiro_lance_nao_exposto_na_vista_sala7
+PASS primeiro_lance_visivel_no_angulo_sala1
+PASS primeiro_lance_visivel_na_vista_do_acesso
+PASS janela_cozinha_visivel_pela_passagem
+FAIL porta_lavabo_visivel_pela_nova_passagem
+PASS quartos_implantados_conforme_croqui
+PASS entrada_em_diagonal
+PASS lavabo_atras_da_continuacao_garagem
+PASS lavanderia_imediatamente_atras_cozinha
+PASS fundos_churrasqueira_lavanderia_alinhados
+PASS passagem_lateral_lavanderia_livre
+PASS garagem_aberta_ate_divisao_lavabo
+PASS churrasqueira_canto_fundos_esquerdo
+PASS tres_banquetas_conforme_croqui
+PASS lavabo_sob_segundo_lance_e_patamar
+PASS garagem_alinhada_ao_lavabo_reposicionado
+FAIL loucas_e_espelho_dentro_lavabo_abaixo_forro
+PASS fachada_sem_marquise_e_pilares_avancados
+PASS garagem_com_paredes_laterais_continuas
+PASS varanda_recuada_com_rede
+PASS janela_sala_com_grade
+FAIL janela_pequena_visivel_no_fundo_garagem
+PASS escada_oculta_na_vista_externa
+PASS bancada_nao_atravessa_fogao
+PASS lavadora_superior_livre_de_granito
+PASS retorno_lavanderia_no_lado_esquerdo
+PASS partes_fora_do_ajuste_preservadas
+PASS folha_da_porta_na_parede_horizontal
+FAIL antigo_vao_lateral_fechado
+FAIL passagem_da_sala_livre
+FAIL aproximacao_da_nova_porta_livre
+FAIL acesso_nao_bloqueado_por_degraus
+FAIL cozinha_conectada_a_porta_do_lavabo_pela_sala
+PASS passagem_com_laje_sobre_a_area_liberada
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

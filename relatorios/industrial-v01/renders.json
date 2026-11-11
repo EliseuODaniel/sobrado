@@ -1,0 +1,117 @@
+{
+  "timestamp_utc": "2026-11-11T01:43:22.866551+00:00",
+  "blend": "projeto/industrial-v01/casa-industrial.blend",
+  "blend_sha256": "0a9a24271c3d0d497ad2f9d63bcccbf0261ebbbe75883726aeacbd7166304fb7",
+  "preview": false,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "envelope": {
+    "checks": {
+      "mesmo_contorno_do_corpo_principal": {
+        "passed": true,
+        "detail": {
+          "terreo": [
+            0.0,
+            5.599999904632568,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "superior": [
+            0.0,
+            5.600000381469727,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "expected": [
+            0,
+            5.6,
+            -1.65,
+            7.6
+          ]
+        }
+      },
+      "cobertura_das_lajes_sem_faixas_ausentes": {
+        "passed": true,
+        "detail": {
+          "cells_tested": 12,
+          "differences": [],
+          "upper_stair_voids": [
+            [
+              4.41,
+              5.6,
+              2.2,
+              3.92
+            ]
+          ]
+        }
+      },
+      "fundos_wcs_quarto_coplanares_com_cozinha": {
+        "passed": true,
+        "detail": {
+          "exterior_face_upper": {
+            "S1 limite posterior estimado peitoril": 7.674999713897705,
+            "S1 limite posterior estimado trecho": 7.674999713897705,
+            "S1 limite posterior estimado trecho final": 7.674999713897705,
+            "S1 limite posterior estimado verga": 7.674999713897705
+          },
+          "exterior_face_kitchen": {
+            "Parede janela cozinha peitoril": 7.674999713897705,
+            "Parede janela cozinha trecho": 7.674999713897705,
+            "Parede janela cozinha trecho final": 7.674999713897705,
+            "Parede janela cozinha verga": 7.674999713897705
+          },
+          "expected_exterior_face_y": 7.675,
+          "axis_y": 7.6
+        }
+      }
+    },
+    "all_passed": true,
+    "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural."
+  },
+  "base_preserved": true,
+  "original_geometry_preserved": true,
+  "camera_collisions": [],
+  "outputs": {
+    "renders/industrial-v01/sala-integrada.png": {
+      "sha256": "7caa9539aa604903e72baaf58fd1192a17670808fe6fbef4c15f5c924b0ab32e",
+      "bytes": 1715641,
+      "scene": "IND_Sala_Integrada"
+    },
+    "renders/industrial-v01/sala-frente.png": {
+      "sha256": "b2d08d9cd33703391b2dc9a1be23d6685c637233ef2544140a2d2afb732da710",
+      "bytes": 1701875,
+      "scene": "IND_Sala_Frente"
+    },
+    "renders/industrial-v01/cozinha.png": {
+      "sha256": "3b9319b9534cbb2eb85ea2d25bb1e34424c7ee5ea2daa9bd1890701534dfdcd1",
+      "bytes": 1674830,
+      "scene": "IND_Cozinha"
+    },
+    "renders/industrial-v01/cozinha-reversa.png": {
+      "sha256": "7583935c68cd77a30c20ca36351ca65aa997ca24184bd200e0a115e12656f9da",
+      "bytes": 1741051,
+      "scene": "IND_Cozinha_Reversa"
+    },
+    "renders/industrial-v01/lazer-fundos.png": {
+      "sha256": "5363daa3e5954aa63d13179585b7f565f9abc67d0f69e9f92a9543ae7e22384f",
+      "bytes": 1762781,
+      "scene": "IND_Lazer_Fundos"
+    },
+    "renders/industrial-v01/quarto-fundos.png": {
+      "sha256": "7eef74488c81296d9dfb0d561a199f8e22e1a231da858ded5e2e27be7741c62e",
+      "bytes": 1694801,
+      "scene": "IND_Quarto_Fundos"
+    },
+    "renders/industrial-v01/quarto-escritorio.png": {
+      "sha256": "68e3cec8dde36a8857df4168f5acc9f623358a850b496d53591b2b4f51e642b4",
+      "bytes": 1648007,
+      "scene": "IND_Quarto_Escritorio"
+    }
+  }
+}

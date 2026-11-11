@@ -1,0 +1,214 @@
+{
+  "timestamp_utc": "2026-11-10T20:35:47.899135+00:00",
+  "source": {
+    "path": "referencias-ajustes/superior-proporcoes-r09-594cf449.png",
+    "sha256": "594cf449c1d7a28087939b7dc98402ec62c4d089e941f1ce8022c1ec99a852e9",
+    "original_input": "/mnt/c/Users/edann/AppData/Local/Temp/tmpC66.png",
+    "status": "user_proposed_relative_proportions",
+    "metric_dimensions_confirmed": false
+  },
+  "landmarks": "referencias-ajustes/proporcoes-r09-linhas.json",
+  "method": "Leitura visual manual aproximada das linhas arquitetônicas; ignorar distorções de móveis, louças e letras do recorte",
+  "before": {
+    "rooms": {
+      "suite": {
+        "normalized_model": [
+          0.0,
+          0.5,
+          0.4583333333333333,
+          0.8988095238095237
+        ],
+        "normalized_sketch": [
+          0.0,
+          0.50661853188929,
+          0.452755905511811,
+          0.8858267716535433
+        ],
+        "max_edge_difference_fraction": 0.012982752155980437,
+        "approximate_clear_size_m": [
+          2.65,
+          3.5500000000000003
+        ]
+      },
+      "banho_suite": {
+        "normalized_model": [
+          0.0,
+          0.25,
+          0.0,
+          0.4583333333333333
+        ],
+        "normalized_sketch": [
+          0.0,
+          0.246690734055355,
+          0.0,
+          0.452755905511811
+        ],
+        "max_edge_difference_fraction": 0.005577427821522318,
+        "approximate_clear_size_m": [
+          1.25,
+          3.7
+        ]
+      },
+      "banho_social": {
+        "normalized_model": [
+          0.25,
+          0.5,
+          0.0,
+          0.4583333333333333
+        ],
+        "normalized_sketch": [
+          0.246690734055355,
+          0.5006016847172082,
+          0.0,
+          0.452755905511811
+        ],
+        "max_edge_difference_fraction": 0.005577427821522318,
+        "approximate_clear_size_m": [
+          1.25,
+          3.7
+        ]
+      },
+      "quarto_azul": {
+        "normalized_model": [
+          0.5,
+          1.0,
+          0.0,
+          0.35714285714285715
+        ],
+        "normalized_sketch": [
+          0.5006016847172082,
+          1.0,
+          0.0,
+          0.3543307086614173
+        ],
+        "max_edge_difference_fraction": 0.0028121484814398467,
+        "approximate_clear_size_m": [
+          2.65,
+          2.85
+        ]
+      },
+      "quarto_branco": {
+        "normalized_model": [
+          0.5,
+          1.0,
+          0.5773809523809523,
+          1.0
+        ],
+        "normalized_sketch": [
+          0.50661853188929,
+          1.0,
+          0.5724409448818898,
+          1.0
+        ],
+        "max_edge_difference_fraction": 0.006618531889289958,
+        "approximate_clear_size_m": [
+          2.65,
+          3.4
+        ]
+      }
+    },
+    "max_edge_difference_fraction": 0.012982752155980437
+  },
+  "after": {
+    "rooms": {
+      "suite": {
+        "normalized_model": [
+          0.0,
+          0.5,
+          0.46486486486486484,
+          0.9081081081081082
+        ],
+        "normalized_sketch": [
+          0.0,
+          0.50661853188929,
+          0.452755905511811,
+          0.8858267716535433
+        ],
+        "max_edge_difference_fraction": 0.02228133645456487,
+        "approximate_clear_size_m": [
+          2.65,
+          3.9499999999999997
+        ]
+      },
+      "banho_suite": {
+        "normalized_model": [
+          0.0,
+          0.25,
+          0.0,
+          0.46486486486486484
+        ],
+        "normalized_sketch": [
+          0.0,
+          0.246690734055355,
+          0.0,
+          0.452755905511811
+        ],
+        "max_edge_difference_fraction": 0.012108959353053839,
+        "approximate_clear_size_m": [
+          1.25,
+          4.1499999999999995
+        ]
+      },
+      "banho_social": {
+        "normalized_model": [
+          0.25,
+          0.5,
+          0.0,
+          0.46486486486486484
+        ],
+        "normalized_sketch": [
+          0.246690734055355,
+          0.5006016847172082,
+          0.0,
+          0.452755905511811
+        ],
+        "max_edge_difference_fraction": 0.012108959353053839,
+        "approximate_clear_size_m": [
+          1.25,
+          4.1499999999999995
+        ]
+      },
+      "quarto_azul": {
+        "normalized_model": [
+          0.5,
+          1.0,
+          0.0,
+          0.36756756756756753
+        ],
+        "normalized_sketch": [
+          0.5006016847172082,
+          1.0,
+          0.0,
+          0.3543307086614173
+        ],
+        "max_edge_difference_fraction": 0.013236858906150228,
+        "approximate_clear_size_m": [
+          2.65,
+          3.2499999999999996
+        ]
+      },
+      "quarto_branco": {
+        "normalized_model": [
+          0.5,
+          1.0,
+          0.5837837837837837,
+          1.0
+        ],
+        "normalized_sketch": [
+          0.50661853188929,
+          1.0,
+          0.5724409448818898,
+          1.0
+        ],
+        "max_edge_difference_fraction": 0.011342838901893915,
+        "approximate_clear_size_m": [
+          2.65,
+          3.7
+        ]
+      }
+    },
+    "max_edge_difference_fraction": 0.02228133645456487
+  },
+  "improved_relative_to_sketch": false,
+  "scope": "Coerência proporcional com o croqui, não medição do imóvel, estudo estrutural ou conciliação registral"
+}

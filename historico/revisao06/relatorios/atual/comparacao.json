@@ -1,0 +1,60 @@
+{
+  "timestamp_utc": "2026-11-10T17:16:53.915204+00:00",
+  "revision": 6,
+  "blend_sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af",
+  "source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "scope": "Nova planta confirmada e porta horizontal; comparação visual sem validação métrica.",
+  "outputs": [
+    "renders/atual/comparacao-planta.png",
+    "renders/atual/antes-depois.png",
+    "renders/atual/comparacao-fotos.png",
+    "renders/atual/comparacao-fachada.png"
+  ],
+  "comparison_rows": [
+    {
+      "source": "referencias-originais/sala7.webp",
+      "render": "renders/atual/sala-fundos.png"
+    },
+    {
+      "source": "referencias-originais/sala4.webp",
+      "render": "renders/atual/sala-frente.png"
+    },
+    {
+      "source": "referencias-originais/sala1.webp",
+      "render": "renders/atual/escada-acesso.png"
+    },
+    {
+      "source": "referencias-originais/cozinha1.webp",
+      "render": "renders/atual/cozinha.png"
+    },
+    {
+      "source": "referencias-originais/cozinha2.webp",
+      "render": "renders/atual/cozinha-reversa.png"
+    },
+    {
+      "source": "referencias-originais/area3.webp",
+      "render": "renders/atual/bar.png"
+    },
+    {
+      "source": "referencias-originais/lavanderia1.webp",
+      "render": "renders/atual/lavanderia.png"
+    },
+    {
+      "source": "referencias-originais/lavabo1.webp",
+      "render": "renders/atual/lavabo.png"
+    },
+    {
+      "source": "referencias-originais/exterior2.webp",
+      "render": "renders/atual/fachada-frontal.png"
+    },
+    {
+      "source": "referencias-originais/exterior1.webp",
+      "render": "renders/atual/fachada-obliqua.png"
+    }
+  ]
+}

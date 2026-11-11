@@ -1,0 +1,9 @@
+00:01.314  cycles           | WARNING OptiX initialization failed with error code 7804
+00:01.314  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:01.464  render           | Saved: 'renders/teste-optix.png'
+DEVICES [('Intel Core i9-14900HX', 'CPU')]
+BSDF_INPUTS runtime
+OPTIX_RENDER_OK
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

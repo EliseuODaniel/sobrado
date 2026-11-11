@@ -1,0 +1,129 @@
+{
+  "timestamp_utc": "2026-11-10T19:24:21.508828+00:00",
+  "source": {
+    "path": "referencias-ajustes/superior-croqui-26a026a1.png",
+    "sha256": "26a026a1ed7976441f0ea9a7f1d8341f031666827d7db897744cc03475e1e14b",
+    "original_editable_path": "referencias-ajustes/segundo-pavimento.png",
+    "bedroom_positions": "confirmed_relative_by_user",
+    "bathroom_positions": "user_proposed_relative_not_verified",
+    "dimensions": "estimated",
+    "hall_interpretation": "Hall over low initial part of first flight; opening retained over high treads, as visible in the drawing"
+  },
+  "method": "Leitura visual manual das linhas do croqui, normalizada pelo retângulo externo; espessuras dos traços não são precisão dimensional",
+  "order": "x left, x right, y top, y bottom",
+  "outer_pixel_bounds": [
+    184,
+    1012,
+    264,
+    1528
+  ],
+  "rooms": {
+    "suite": {
+      "approximate_pixel_bounds": [
+        184,
+        604,
+        730,
+        1400
+      ],
+      "normalized_sketch": [
+        0.0,
+        0.5072463768115942,
+        0.3686708860759494,
+        0.8987341772151899
+      ],
+      "normalized_model": [
+        0.0,
+        0.5,
+        0.3662790697674419,
+        0.9011627906976745
+      ],
+      "max_edge_difference_fraction": 0.007246376811594235
+    },
+    "banho_suite": {
+      "approximate_pixel_bounds": [
+        184,
+        387,
+        264,
+        730
+      ],
+      "normalized_sketch": [
+        0.0,
+        0.24516908212560387,
+        0.0,
+        0.3686708860759494
+      ],
+      "normalized_model": [
+        0.0,
+        0.25,
+        0.0,
+        0.3662790697674419
+      ],
+      "max_edge_difference_fraction": 0.004830917874396129
+    },
+    "banho_social": {
+      "approximate_pixel_bounds": [
+        387,
+        599,
+        264,
+        730
+      ],
+      "normalized_sketch": [
+        0.24516908212560387,
+        0.501207729468599,
+        0.0,
+        0.3686708860759494
+      ],
+      "normalized_model": [
+        0.25,
+        0.5,
+        0.0,
+        0.3662790697674419
+      ],
+      "max_edge_difference_fraction": 0.004830917874396129
+    },
+    "quarto_azul": {
+      "approximate_pixel_bounds": [
+        599,
+        1012,
+        264,
+        604
+      ],
+      "normalized_sketch": [
+        0.501207729468599,
+        1.0,
+        0.0,
+        0.2689873417721519
+      ],
+      "normalized_model": [
+        0.5,
+        1.0,
+        0.0,
+        0.26744186046511625
+      ],
+      "max_edge_difference_fraction": 0.0015454813070356344
+    },
+    "quarto_branco": {
+      "approximate_pixel_bounds": [
+        604,
+        1012,
+        892,
+        1528
+      ],
+      "normalized_sketch": [
+        0.5072463768115942,
+        1.0,
+        0.49683544303797467,
+        1.0
+      ],
+      "normalized_model": [
+        0.5,
+        1.0,
+        0.4837209302325582,
+        1.0
+      ],
+      "max_edge_difference_fraction": 0.013114512805416478
+    }
+  },
+  "max_difference_fraction": 0.013114512805416478,
+  "scope": "Coerência proporcional com o croqui; não mede o imóvel nem valida áreas registrais"
+}

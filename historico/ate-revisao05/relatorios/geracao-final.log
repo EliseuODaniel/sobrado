@@ -1,0 +1,15 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+/home/edann/projects/casa-interiores/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/home/edann/projects/casa-interiores/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+/home/edann/projects/casa-interiores/scripts/build_scene.py:796: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Ambiente diurno suave');world.use_nodes=True
+01:12.214  cycles           | WARNING OptiX initialization failed with error code 7804
+01:12.214  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+RENDER_DEVICE {"requested": "auto", "backend": "CPU", "devices": ["Intel Core i9-14900HX"], "fallback_reason": "Nenhum dispositivo OptiX enumerado pelo Blender neste processo."}
+Info: Saved as "sala-industrial.blend"
+BUILD_COMPLETE {"timestamp_utc": "20261110T100925Z", "blender_version": "5.2.4 LTS", "blend": "projeto/sala-industrial.blend", "render": null, "device": {"requested": "auto", "backend": "CPU", "devices": ["Intel Core i9-14900HX"], "fallback_reason": "Nenhum dispositivo OptiX enumerado pelo Blender neste processo."}, "object_count": 2913, "mesh_count": 2585, "collections": ["Arquitetura", "Estar", "Jantar", "Bar", "Cozinha", "Iluminacao", "Cameras", "Referencias"], "config_sha256": "6338b0a9692ac58627c7dd102660ba1d1b20357b88cacfc0176da75fd841af1d", "quality": "final", "hypotheses": ["Paredes e aberturas reconstruídas visualmente, sem levantamento do imóvel.", "Cobertura envidraçada e vegetação são hipóteses da imagem; objetos separados no modelo.", "Cozinha modelada apenas na faixa visível; áreas ocluídas simplificadas."]}
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

@@ -1,0 +1,95 @@
+{
+  "checks": {
+    "mesmo_contorno_do_corpo_principal": {
+      "passed": false,
+      "detail": {
+        "terreo": [
+          0.0,
+          5.599999904632568,
+          -1.649999976158142,
+          7.599999904632568
+        ],
+        "superior": [
+          0.0,
+          5.600000381469727,
+          -1.649999976158142,
+          6.75
+        ],
+        "expected": [
+          0,
+          5.6,
+          -1.65,
+          7.6
+        ]
+      }
+    },
+    "cobertura_das_lajes_sem_faixas_ausentes": {
+      "passed": false,
+      "detail": {
+        "cells_tested": 21,
+        "differences": [
+          [
+            "upper_coverage",
+            1.575,
+            7.175,
+            true
+          ],
+          [
+            "upper_coverage",
+            3.7800000000000002,
+            7.175,
+            true
+          ],
+          [
+            "upper_coverage",
+            5.005,
+            2.05,
+            true
+          ],
+          [
+            "upper_coverage",
+            5.005,
+            3.77,
+            false
+          ],
+          [
+            "upper_coverage",
+            5.005,
+            7.175,
+            true
+          ]
+        ],
+        "upper_stair_voids": [
+          [
+            4.41,
+            5.6,
+            2.2,
+            3.92
+          ]
+        ]
+      }
+    },
+    "fundos_wcs_quarto_coplanares_com_cozinha": {
+      "passed": false,
+      "detail": {
+        "exterior_face_upper": {
+          "S1 limite posterior estimado peitoril": 6.824999809265137,
+          "S1 limite posterior estimado trecho": 6.824999809265137,
+          "S1 limite posterior estimado trecho final": 6.824999809265137,
+          "S1 limite posterior estimado verga": 6.824999809265137
+        },
+        "exterior_face_kitchen": {
+          "Parede janela cozinha peitoril": 7.674999713897705,
+          "Parede janela cozinha trecho": 7.674999713897705,
+          "Parede janela cozinha trecho final": 7.674999713897705,
+          "Parede janela cozinha verga": 7.674999713897705
+        },
+        "expected_exterior_face_y": 7.675,
+        "axis_y": 7.6
+      }
+    }
+  },
+  "all_passed": false,
+  "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural.",
+  "blend_sha256": "971dc3f90083e7339e626d8076a2ac28e2684187b316e7c14c040a1711b24563"
+}

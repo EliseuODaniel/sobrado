@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "seed": 1102026,
+  "units": "METERS",
+  "scale_basis": "Reconstrução proporcional das três imagens; nenhuma dimensão real foi fornecida.",
+  "confirmed_dimensions_m": {},
+  "estimated_dimensions_m": {
+    "room_width": 6.4,
+    "room_depth": 8.7,
+    "room_front_y": -1.2,
+    "ceiling_height": 3.15,
+    "ceiling_front_depth": 6.05,
+    "floor_tile": 0.6,
+    "glass_roof_back_height": 3.20
+  },
+  "architecture_hypotheses": [
+    "Paredes e aberturas reconstruídas visualmente, sem levantamento do imóvel.",
+    "Cobertura envidraçada e vegetação são hipóteses da imagem; objetos separados no modelo.",
+    "Cozinha modelada apenas na faixa visível; áreas ocluídas simplificadas."
+  ],
+  "camera": {
+    "position": [1.30, -0.80, 1.65],
+    "target": [3.15, 6.0, 1.40],
+    "lens_mm": 24.0,
+    "shift_x": 0.06,
+    "shift_y": 0.0
+  },
+  "furniture": {
+    "sofa": {"position": [0.85, 1.45, 0.0], "length": 3.55, "depth_scale": 1.50},
+    "dining_table": {"position": [2.20, 4.65, 0.0], "width": 1.35, "length": 1.65, "height": 0.78},
+    "coffee_table": {"position": [2.85, 2.65, 0.0], "width": 1.85, "length": 1.05, "height": 0.39},
+    "bar": {"counter_y": 7.48, "back_y": 8.62, "x_min": 0.48, "x_max": 4.3, "height": 1.03, "mirror_probe_position": [0.74, 7.42, 1.055]},
+    "tv": {"wall_x": 6.30, "center_y": 4.05, "center_z": 1.75, "width": 2.15, "height": 1.20},
+    "mirror": {"x": 0.555, "y_min": 4.8, "y_max": 7.10, "height": 3.1, "wall_return_hypothesis": true}
+  },
+  "lighting": {"exposure": -0.4, "warm_scale": 1.0, "daylight_power": 420, "room_fill_power": 90, "bar_led_power": 9, "front_fill_power": 90},
+  "material_color_multipliers": {"Concreto quente": 0.70, "Reboco painel TV": 0.65, "Couro caramelo": 0.38, "Madeira demolicao": 0.50, "Madeira clara tampo": 0.53, "Porcelanato acetinado": 0.80, "Pedra quadrada": 0.16},
+  "plant_scales": {"coffee": 0.65, "dining": 0.48, "rack": 0.85},
+  "render": {"width": 1671, "height": 941, "preview_percent": 50, "preview_samples": 32, "final_samples": 160, "seed": 76},
+  "references": {"main": "referencias/01-cena-final.png", "bar": "referencias/02-bar-fundo.png", "table": "referencias/03-mesa-jantar.png"}
+}

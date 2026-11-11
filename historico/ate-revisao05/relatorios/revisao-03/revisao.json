@@ -1,0 +1,46 @@
+{
+  "timestamp_utc": "2026-11-10T13:35:24.168878+00:00",
+  "revision": 3,
+  "status": "croqui_aproximado_aplicado_ao_terreo",
+  "scope": "Distribuição aproximada do térreo segundo o desenho do usuário. Não é levantamento métrico ou validação do superior.",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "1662bfda0e57a7e998773f4b7670fc66daff61b91a37ed02f6f65e43664d86a1"
+  },
+  "source": {
+    "path": "referencias-ajustes/planta-terreo-anotada.png",
+    "sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819",
+    "status": "user_directed_approximate_layout",
+    "metric_dimensions_confirmed": false
+  },
+  "integrity_checks": 15,
+  "geometry_checks": 20,
+  "renders": [
+    "renders/revisao-03/final/sala-fundos.png",
+    "renders/revisao-03/final/sala-frente.png",
+    "renders/revisao-03/final/escada-acesso.png",
+    "renders/revisao-03/final/cozinha.png",
+    "renders/revisao-03/final/cozinha-reversa.png",
+    "renders/revisao-03/final/bar.png",
+    "renders/revisao-03/final/terreo-3d.png",
+    "renders/revisao-03/final/terreo-superior.png",
+    "renders/revisao-03/final/superior-pendente.png",
+    "renders/revisao-03/final/superior-envoltoria.png",
+    "renders/revisao-03/final/estudos-superior.png",
+    "renders/revisao-03/final/volumetria.png"
+  ],
+  "visual_review": [
+    "Vista superior confrontada com o croqui",
+    "Vista em 3D com a porta diagonal visível",
+    "Comparações com seis fotos originais"
+  ],
+  "unknowns": [
+    "Medidas lineares reais e ângulo exato da entrada",
+    "Ligação interna do lavabo mantida sob o retorno da escada; não desenhada no croqui",
+    "Cobertura e detalhes construtivos da lavanderia",
+    "Retorno completo da escada e implantação dos cômodos superiores"
+  ],
+  "originals_preserved": true,
+  "previous_revision_preserved": "projeto/versoes/revisao-03-antes/projeto/casa-reconstruida.blend",
+  "external_publication": false
+}

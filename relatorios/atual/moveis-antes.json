@@ -1,0 +1,24 @@
+{
+  "source": "historico/revisao09/projeto/casa-reconstruida.blend",
+  "sha256": "971dc3f90083e7339e626d8076a2ac28e2684187b316e7c14c040a1711b24563",
+  "beds": {
+    "suite": {
+      "size_xy": [
+        1.9500000774860382,
+        1.4000000953674316
+      ]
+    },
+    "quarto_branco": {
+      "size_xy": [
+        0.880000114440918,
+        1.899999976158142
+      ]
+    },
+    "quarto_azul": {
+      "size_xy": [
+        0.9635000228881836,
+        1.9549999237060547
+      ]
+    }
+  }
+}

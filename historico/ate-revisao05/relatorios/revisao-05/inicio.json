@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-11-10T16:02:36.394466+00:00",
+  "scope": "Conferência e ajustes do térreo e fachada; não implantar os cômodos do segundo pavimento nesta etapa.",
+  "source": "referencias-ajustes/planta-terreo-anotada.png",
+  "source_sha256": "c5596011e58be11cb8c74226b88ed31a74a3c52ab3654761fe8fcbd9b7804819",
+  "previous_blend_sha256": "826790e6e5ffb6f378ff4fbfa5c5c6a003fda264e2ebf5924ab25e2d8b216115",
+  "findings": [
+    {
+      "part": "fachada",
+      "status": "REFUTED",
+      "problem": "Cobertura avulsa e pilares avançados não correspondem às fotos; faltam paredes laterais contínuas, rede, grades e janela pequena do fundo da garagem.",
+      "sources": [
+        "exterior1.webp",
+        "exterior2.webp"
+      ]
+    },
+    {
+      "part": "churrasqueira",
+      "status": "REFUTED",
+      "problem": "Coifa de alvenaria exposta contradiz coluna revestida de madeira e boca lateral fotografadas. Manter três bancos do croqui, registrando que fotos mostram quatro.",
+      "sources": [
+        "area2.webp",
+        "area4.webp"
+      ]
+    },
+    {
+      "part": "cozinha",
+      "status": "REFUTED",
+      "problem": "Bancada contínua atravessa o fogão; faltam micro-ondas, aéreo lateral, puxadores e azulejos.",
+      "sources": [
+        "cozinha1.webp",
+        "cozinha2.webp"
+      ]
+    },
+    {
+      "part": "lavanderia",
+      "status": "REFUTED",
+      "problem": "Retorno em L no lado oposto; tampo atravessa máquina superior; faltam tanque, aéreos e puxadores.",
+      "sources": [
+        "lavanderia1.webp"
+      ]
+    },
+    {
+      "part": "lavabo",
+      "status": "INFERRED",
+      "problem": "Posição sob segundo lance aceita; ajustar gabinete, torneira, porta-toalhas e parede decorada conforme foto. Folgas reais desconhecidas.",
+      "sources": [
+        "lavabo1.webp"
+      ]
+    }
+  ]
+}

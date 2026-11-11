@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "20261110T094533Z",
+  "blender_version": "5.2.4 LTS",
+  "blend": "projeto/versoes/sala-industrial-preview-20261110T094533Z.blend",
+  "render": null,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "object_count": 2376,
+  "mesh_count": 2055,
+  "collections": [
+    "Arquitetura",
+    "Estar",
+    "Jantar",
+    "Bar",
+    "Cozinha",
+    "Iluminacao",
+    "Cameras",
+    "Referencias"
+  ],
+  "config_sha256": "537c9aba12c20e69d9b5ce0a906ce81c37ceb88a2d53397162d69d1153a5e436",
+  "quality": "preview",
+  "hypotheses": [
+    "Paredes e aberturas reconstruídas visualmente, sem levantamento do imóvel.",
+    "Cobertura envidraçada e vegetação são hipóteses da imagem; objetos separados no modelo.",
+    "Cozinha modelada apenas na faixa visível; áreas ocluídas simplificadas."
+  ]
+}

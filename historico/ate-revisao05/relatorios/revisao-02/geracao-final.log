@@ -1,0 +1,9 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+/home/edann/projects/casa-interiores/scripts/build_house.py:294: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Ambiente');world.use_nodes=True;world.node_tree.nodes['Background'].inputs['Color'].default_value=(.52,.59,.66,1);world.node_tree.nodes['Background'].inputs['Strength'].default_value=.40;bpy.context.scene.world=world
+RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
+Info: Saved as "casa-reconstruida.blend"
+HOUSE_BUILT {"timestamp_utc": "2026-11-10T11:55:27.745950+00:00", "blend": "projeto/casa-reconstruida.blend", "version": "5.2.4 LTS", "revision": 2, "device": {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}, "objects": 1499, "scenes": ["CASA_Completa", "ESTUDOS_Superior", "FOTO_Bar", "FOTO_Cozinha", "FOTO_Cozinha_Reversa", "FOTO_Detalhe_Escada", "FOTO_Sala_Frente", "FOTO_Sala_Fundos", "PLANTA_Superior", "PLANTA_Superior_Cotas", "PLANTA_Terreo", "PLANTA_Terreo_Cotas"], "source_status": "Térreo revisto por relações fotográficas. Superior sem implantação confirmada; módulos de estudo separados."}
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

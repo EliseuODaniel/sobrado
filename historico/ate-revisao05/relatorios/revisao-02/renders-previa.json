@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-11-10T11:40:45.256723+00:00",
+  "blend": "projeto/versoes/casa-revisao-02-enquadrada.blend",
+  "sha256": "3ef6b27f54e33a5dd5601ce36b14b8d1ea3bd7bda00a4507cf95ec3164b0b257",
+  "version": "5.2.4 LTS",
+  "preview": true,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "outputs": [
+    "renders/revisao-02/previas/sala-fundos.png",
+    "renders/revisao-02/previas/sala-frente.png",
+    "renders/revisao-02/previas/escada-acesso.png",
+    "renders/revisao-02/previas/cozinha.png",
+    "renders/revisao-02/previas/cozinha-reversa.png",
+    "renders/revisao-02/previas/bar.png"
+  ],
+  "saved_file_unchanged": true
+}

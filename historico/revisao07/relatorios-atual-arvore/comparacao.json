@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-11-10T18:13:26.221727+00:00",
+  "revision": 7,
+  "blend_sha256": "277745c541afc1654e1f89810d5c6f812b30a885cc92737e5985bfe67f812b0e",
+  "source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "scope": "Nova planta confirmada e porta horizontal; comparação visual sem validação métrica.",
+  "outputs": [
+    "renders/atual/comparacao-planta.png",
+    "renders/atual/antes-depois.png",
+    "renders/atual/comparacao-fotos.png",
+    "renders/atual/comparacao-fachada.png",
+    "renders/atual/sala-frente-planta.png",
+    "renders/atual/acesso-lavabo-planta.png"
+  ],
+  "comparison_rows": [
+    {
+      "source": "referencias-originais/sala7.webp",
+      "render": "renders/atual/sala-fundos.png"
+    },
+    {
+      "source": "referencias-originais/sala4.webp",
+      "render": "renders/atual/sala-frente.png"
+    },
+    {
+      "source": "referencias-originais/sala1.webp",
+      "render": "renders/atual/escada-acesso.png"
+    },
+    {
+      "source": "referencias-originais/cozinha1.webp",
+      "render": "renders/atual/cozinha.png"
+    },
+    {
+      "source": "referencias-originais/cozinha2.webp",
+      "render": "renders/atual/cozinha-reversa.png"
+    },
+    {
+      "source": "referencias-originais/area3.webp",
+      "render": "renders/atual/bar.png"
+    },
+    {
+      "source": "referencias-originais/lavanderia1.webp",
+      "render": "renders/atual/lavanderia.png"
+    },
+    {
+      "source": "referencias-originais/lavabo1.webp",
+      "render": "renders/atual/lavabo.png"
+    },
+    {
+      "source": "referencias-originais/exterior2.webp",
+      "render": "renders/atual/fachada-frontal.png"
+    },
+    {
+      "source": "referencias-originais/exterior1.webp",
+      "render": "renders/atual/fachada-obliqua.png"
+    }
+  ]
+}

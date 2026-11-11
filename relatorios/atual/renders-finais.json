@@ -1,0 +1,442 @@
+{
+  "timestamp_utc": "2026-11-10T20:43:05.525726+00:00",
+  "revision": 10,
+  "blend": "projeto/.em-validacao.blend",
+  "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+  "version": "5.2.4 LTS",
+  "preview": false,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "outputs": [
+    "renders/atual/fachada-frontal.png",
+    "renders/atual/fachada-obliqua.png",
+    "renders/atual/acesso-lavabo.png",
+    "renders/atual/sala-fundos.png",
+    "renders/atual/sala-frente.png",
+    "renders/atual/escada-acesso.png",
+    "renders/atual/cozinha.png",
+    "renders/atual/cozinha-reversa.png",
+    "renders/atual/bar.png",
+    "renders/atual/lavanderia.png",
+    "renders/atual/lavabo.png",
+    "renders/atual/escada-superior.png",
+    "renders/atual/suite.png",
+    "renders/atual/quarto-frente.png",
+    "renders/atual/quarto-fundos.png",
+    "renders/atual/terreo-3d.png",
+    "renders/atual/planta-terreo.png",
+    "renders/atual/porta-lavabo.png",
+    "renders/atual/superior-3d.png",
+    "renders/atual/planta-superior.png",
+    "renders/atual/estudos-superior.png",
+    "renders/atual/volumetria.png",
+    "renders/atual/lavabo-sob-escada.png"
+  ],
+  "saved_file_unchanged": true,
+  "viewpoints": {
+    "fachada-frontal.png": {
+      "scene": "FOTO_Fachada",
+      "position_world": [
+        2.0999999046325684,
+        -8.300000190734863,
+        1.350000023841858
+      ],
+      "plan_point": [
+        0.4416666626930237,
+        1.1500000357627869
+      ],
+      "plan_direction_end": [
+        0.4491153657436371,
+        1.094666801393032
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "fachada-obliqua.png": {
+      "scene": "FOTO_Fachada_Obliqua",
+      "position_world": [
+        -0.5,
+        -9.5,
+        1.75
+      ],
+      "plan_point": [
+        0.22500000894069672,
+        1.2166666388511658
+      ],
+      "plan_direction_end": [
+        0.25455453991889954,
+        1.1647223383188248
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "acesso-lavabo.png": {
+      "scene": "FOTO_Acesso_Lavabo",
+      "position_world": [
+        2.25,
+        4.360000133514404,
+        1.5499999523162842
+      ],
+      "plan_point": [
+        0.4541666805744171,
+        0.4466666579246521
+      ],
+      "plan_direction_end": [
+        0.5138696432113647,
+        0.4854251742362976
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "sala-fundos.png": {
+      "scene": "FOTO_Sala_Fundos",
+      "position_world": [
+        1.9001370668411255,
+        0.20000000298023224,
+        1.8506649732589722
+      ],
+      "plan_point": [
+        0.42501142621040344,
+        0.6777777671813965
+      ],
+      "plan_direction_end": [
+        0.4231831729412079,
+        0.6222355961799622
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "sala-frente.png": {
+      "scene": "FOTO_Sala_Frente",
+      "position_world": [
+        2.6500000953674316,
+        6.0,
+        1.600000023841858
+      ],
+      "plan_point": [
+        0.48750001192092896,
+        0.35555553436279297
+      ],
+      "plan_direction_end": [
+        0.48316559195518494,
+        0.4110358953475952
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "escada-acesso.png": {
+      "scene": "FOTO_Detalhe_Escada",
+      "position_world": [
+        1.0,
+        3.059999942779541,
+        1.5
+      ],
+      "plan_point": [
+        0.3499999940395355,
+        0.5188888907432556
+      ],
+      "plan_direction_end": [
+        0.40229377150535583,
+        0.47563356161117554
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "cozinha.png": {
+      "scene": "FOTO_Cozinha",
+      "position_world": [
+        3.5,
+        5.320000171661377,
+        1.4800000190734863
+      ],
+      "plan_point": [
+        0.5583333373069763,
+        0.3933333158493042
+      ],
+      "plan_direction_end": [
+        0.6103129386901855,
+        0.34991002082824707
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "cozinha-reversa.png": {
+      "scene": "FOTO_Cozinha_Reversa",
+      "position_world": [
+        5.050000190734863,
+        6.0,
+        1.4800000190734863
+      ],
+      "plan_point": [
+        0.6875,
+        0.35555553436279297
+      ],
+      "plan_direction_end": [
+        0.6166966557502747,
+        0.3262576460838318
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "bar.png": {
+      "scene": "FOTO_Bar",
+      "position_world": [
+        1.5199999809265137,
+        7.400000095367432,
+        1.5499999523162842
+      ],
+      "plan_point": [
+        0.3933333456516266,
+        0.2777777910232544
+      ],
+      "plan_direction_end": [
+        0.3954831659793854,
+        0.22224068641662598
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "lavanderia.png": {
+      "scene": "FOTO_Lavanderia",
+      "position_world": [
+        4.650000095367432,
+        8.149999618530273,
+        1.350000023841858
+      ],
+      "plan_point": [
+        0.6541666984558105,
+        0.23611116409301758
+      ],
+      "plan_direction_end": [
+        0.6379622220993042,
+        0.18161606788635254
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "lavabo.png": {
+      "scene": "FOTO_Lavabo",
+      "position_world": [
+        3.319999933242798,
+        2.4600000381469727,
+        1.2999999523162842
+      ],
+      "plan_point": [
+        0.5433333516120911,
+        0.5522222220897675
+      ],
+      "plan_direction_end": [
+        0.615937352180481,
+        0.524953156709671
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "escada-superior.png": {
+      "scene": "FOTO_Chegada_Escada",
+      "position_world": [
+        4.0,
+        2.630000114440918,
+        4.550000190734863
+      ],
+      "plan_point": [
+        0.6000000238418579,
+        0.5427777767181396
+      ],
+      "plan_direction_end": [
+        0.6833333373069763,
+        0.5427777767181396
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "suite.png": {
+      "scene": "FOTO_Suite",
+      "position_world": [
+        2.450000047683716,
+        2.4000000953674316,
+        4.400000095367432
+      ],
+      "plan_point": [
+        0.47083333134651184,
+        0.5555555522441864
+      ],
+      "plan_direction_end": [
+        0.42982858419418335,
+        0.6039201617240906
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "quarto-frente.png": {
+      "scene": "FOTO_Quarto_Frente",
+      "position_world": [
+        4.050000190734863,
+        1.5,
+        4.449999809265137
+      ],
+      "plan_point": [
+        0.6041666865348816,
+        0.6055555641651154
+      ],
+      "plan_direction_end": [
+        0.6362179517745972,
+        0.6568376123905182
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    },
+    "quarto-fundos.png": {
+      "scene": "FOTO_Quarto_Fundos",
+      "position_world": [
+        3.3499999046325684,
+        5.150000095367432,
+        4.400000095367432
+      ],
+      "plan_point": [
+        0.5458333492279053,
+        0.4027777910232544
+      ],
+      "plan_direction_end": [
+        0.5933663249015808,
+        0.35714614391326904
+      ],
+      "door_start": [
+        0.5350000262260437,
+        0.5188888907432556
+      ],
+      "door_end": [
+        0.5958333611488342,
+        0.5188888907432556
+      ]
+    }
+  },
+  "plan_views": {
+    "planta-terreo.png": {
+      "position_world": [
+        2.799999952316284,
+        3.4000000953674316,
+        25.0
+      ],
+      "rotation_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ortho_scale": 18.0,
+      "resolution": [
+        1200,
+        1800
+      ]
+    },
+    "planta-superior.png": {
+      "position_world": [
+        2.799999952316284,
+        2.9749999046325684,
+        25.0
+      ],
+      "rotation_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ortho_scale": 12.0,
+      "resolution": [
+        1200,
+        1800
+      ]
+    }
+  }
+}

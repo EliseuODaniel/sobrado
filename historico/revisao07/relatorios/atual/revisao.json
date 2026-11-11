@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-11-10T18:14:06.968016+00:00",
+  "revision": 7,
+  "status": "acesso_corrigido_e_vistas_regeneradas",
+  "scope": "Coerência do térreo aproximado entre planta, modelo e perspectivas; porta horizontal sob a escada.",
+  "blend": {
+    "path": "projeto/casa-reconstruida.blend",
+    "sha256": "277745c541afc1654e1f89810d5c6f812b30a885cc92737e5985bfe67f812b0e"
+  },
+  "authoritative_source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "integrity_checks": 16,
+  "geometry_checks": 40,
+  "renders": 19,
+  "visual_review": [
+    "Sala e acesso ao lavabo com a escada presente",
+    "Posição das câmeras sobre a planta da porta",
+    "Planta anotada, corte da escada e perspectivas internas e externas"
+  ],
+  "archive": {
+    "path": "historico/revisao06",
+    "records_verified": 48,
+    "older_records_verified": 333,
+    "shared_helpers_identical": 16,
+    "deletions": []
+  },
+  "unknowns": [
+    "Medidas reais, profundidade dos degraus e inclinação da escada; implantação visual aproximada",
+    "Lado da dobradiça e sentido definitivo da porta; folha mostrada fechada",
+    "Planta interna do segundo pavimento, detalhes da área de serviço e telhado sem levantamento"
+  ],
+  "original_photos_preserved": true,
+  "upper_interior_started": false,
+  "external_publication": false
+}

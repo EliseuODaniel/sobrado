@@ -1,0 +1,7 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.242  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend"
+00:02.281  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/revisao08/previa-camera-quarto.png'
+Info: Saved as ".em-validacao.blend"
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

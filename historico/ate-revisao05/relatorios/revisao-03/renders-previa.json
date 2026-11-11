@@ -1,0 +1,20 @@
+{
+  "timestamp_utc": "2026-11-10T13:29:50.583617+00:00",
+  "blend": "projeto/casa-terreo-revisao03.blend",
+  "sha256": "27acf1517194792fc947719f77bdc156443d0654d2d1694796af4dd617b57e64",
+  "version": "5.2.4 LTS",
+  "preview": true,
+  "device": {
+    "requested": "cpu",
+    "backend": "CPU",
+    "devices": [
+      "CPU"
+    ],
+    "fallback_reason": null
+  },
+  "outputs": [
+    "renders/revisao-03/previas/terreo-3d.png",
+    "renders/revisao-03/previas/terreo-superior.png"
+  ],
+  "saved_file_unchanged": true
+}

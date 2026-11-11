@@ -1,0 +1,25 @@
+{
+  "updated_utc": "2026-11-10T19:41:08.858364+00:00",
+  "revision": 8,
+  "status": "ultimo_croqui_superior_aplicado_e_validado",
+  "current_blend": "projeto/casa-reconstruida.blend",
+  "current_plan": "renders/atual/planta-terreo.png",
+  "door_plan": "renders/atual/porta-lavabo.png",
+  "authoritative_annotation": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+  "completed": [
+    "Hall sobre o trecho inicial baixo da escada, com lances encostados",
+    "Suíte alongada e portas reposicionadas; WCs paralelos conforme última proposta",
+    "23 renders do mesmo Blender editável, nove comparações inspecionadas",
+    "Câmera do quarto da frente corrigida após comparação visual",
+    "17 verificações de integridade, 40 do térreo e 14 do superior passaram",
+    "Arquivos anteriores e rascunhos preservados; fotos originais intactas"
+  ],
+  "remaining_unknowns": [
+    "Comprimento real do primeiro lance para corrigir a escala comprimida",
+    "Quantidade real de degraus na curva",
+    "Medidas reais e confirmação da proposta dos banheiros"
+  ],
+  "archive": "historico/revisao07",
+  "external_publication": false,
+  "upper_plan": "renders/atual/planta-superior.png"
+}

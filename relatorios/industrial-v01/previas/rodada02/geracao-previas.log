@@ -1,0 +1,24 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.255  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend"
+/home/edann/projects/casa-interiores/scripts/style_industrial.py:275: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  if world.use_nodes:
+Info: Saved as "casa-industrial.blend"
+INDUSTRIAL_BUILT 2575 geometrias preservadas
+RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
+00:20.367  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/sala-integrada.png'
+INDUSTRIAL_RENDER IND_Sala_Integrada
+00:23.894  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/sala-frente.png'
+INDUSTRIAL_RENDER IND_Sala_Frente
+00:27.053  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/cozinha.png'
+INDUSTRIAL_RENDER IND_Cozinha
+00:30.456  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/cozinha-reversa.png'
+INDUSTRIAL_RENDER IND_Cozinha_Reversa
+00:33.679  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/lazer-fundos.png'
+INDUSTRIAL_RENDER IND_Lazer_Fundos
+00:36.851  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/quarto-fundos.png'
+INDUSTRIAL_RENDER IND_Quarto_Fundos
+00:39.829  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/previas/quarto-escritorio.png'
+INDUSTRIAL_RENDER IND_Quarto_Escritorio
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

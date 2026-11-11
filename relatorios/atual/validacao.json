@@ -1,0 +1,1938 @@
+{
+  "timestamp_utc": "2026-11-10T20:35:47.154838+00:00",
+  "revision": 10,
+  "file": "projeto/.em-validacao.blend",
+  "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+  "version": "5.2.4 LTS",
+  "checks": {
+    "todas_as_cenas_salvas": {
+      "passed": true,
+      "detail": [
+        "CASA_Completa",
+        "CORTE_Lavabo_Escada",
+        "ESTUDOS_Superior",
+        "FOTO_Acesso_Lavabo",
+        "FOTO_Bar",
+        "FOTO_Chegada_Escada",
+        "FOTO_Cozinha",
+        "FOTO_Cozinha_Reversa",
+        "FOTO_Detalhe_Escada",
+        "FOTO_Fachada",
+        "FOTO_Fachada_Obliqua",
+        "FOTO_Lavabo",
+        "FOTO_Lavanderia",
+        "FOTO_Quarto_Frente",
+        "FOTO_Quarto_Fundos",
+        "FOTO_Sala_Frente",
+        "FOTO_Sala_Fundos",
+        "FOTO_Suite",
+        "PLANTA_Superior",
+        "PLANTA_Superior_Cotas",
+        "PLANTA_Terreo",
+        "PLANTA_Terreo_Cotas",
+        "PLANTA_Terreo_Portas"
+      ]
+    },
+    "cena_inicial_terreo": {
+      "passed": true,
+      "detail": null
+    },
+    "config_hash_todas_cenas": {
+      "passed": true,
+      "detail": null
+    },
+    "dois_niveis": {
+      "passed": true,
+      "detail": null
+    },
+    "numero_degraus_da_hipotese": {
+      "passed": true,
+      "detail": 17
+    },
+    "originais_preservados": {
+      "passed": true,
+      "detail": null
+    },
+    "referencias_empacotadas": {
+      "passed": true,
+      "detail": null
+    },
+    "analise_chatgpt_nao_promovida": {
+      "passed": true,
+      "detail": null
+    },
+    "superior_separa_confirmacao_de_posicoes_e_medidas": {
+      "passed": true,
+      "detail": null
+    },
+    "cinco_modulos_superiores_separados": {
+      "passed": true,
+      "detail": [
+        "ESTUDO_banho_social",
+        "ESTUDO_banho_suite",
+        "ESTUDO_quarto_azul",
+        "ESTUDO_quarto_branco",
+        "ESTUDO_suite"
+      ]
+    },
+    "estudos_fora_da_planta_e_fotos": {
+      "passed": true,
+      "detail": null
+    },
+    "laje_nao_fecha_vao_escada": {
+      "passed": true,
+      "detail": []
+    },
+    "cameras_fora_dos_solidos": {
+      "passed": true,
+      "detail": []
+    },
+    "fotografias_compartilham_geometria_da_planta": {
+      "passed": true,
+      "detail": {
+        "objects_checked": 24,
+        "reference_scene": "PLANTA_Terreo_Cotas",
+        "scenes_checked": [
+          "PLANTA_Terreo_Cotas",
+          "FOTO_Acesso_Lavabo",
+          "FOTO_Bar",
+          "FOTO_Chegada_Escada",
+          "FOTO_Cozinha",
+          "FOTO_Cozinha_Reversa",
+          "FOTO_Detalhe_Escada",
+          "FOTO_Fachada",
+          "FOTO_Fachada_Obliqua",
+          "FOTO_Lavabo",
+          "FOTO_Lavanderia",
+          "FOTO_Quarto_Frente",
+          "FOTO_Quarto_Fundos",
+          "FOTO_Sala_Frente",
+          "FOTO_Sala_Fundos",
+          "FOTO_Suite"
+        ],
+        "intentional_hidden_in_plan": [
+          "Laje superior sobre acesso lavabo"
+        ],
+        "differences": []
+      }
+    },
+    "contorno_externo_e_parede_posterior_alinhados": {
+      "passed": true,
+      "detail": {
+        "checks": {
+          "mesmo_contorno_do_corpo_principal": {
+            "passed": true,
+            "detail": {
+              "terreo": [
+                0.0,
+                5.599999904632568,
+                -1.649999976158142,
+                7.600000381469727
+              ],
+              "superior": [
+                0.0,
+                5.600000381469727,
+                -1.649999976158142,
+                7.600000381469727
+              ],
+              "expected": [
+                0,
+                5.6,
+                -1.65,
+                7.6
+              ]
+            }
+          },
+          "cobertura_das_lajes_sem_faixas_ausentes": {
+            "passed": true,
+            "detail": {
+              "cells_tested": 12,
+              "differences": [],
+              "upper_stair_voids": [
+                [
+                  4.41,
+                  5.6,
+                  2.2,
+                  3.92
+                ]
+              ]
+            }
+          },
+          "fundos_wcs_quarto_coplanares_com_cozinha": {
+            "passed": true,
+            "detail": {
+              "exterior_face_upper": {
+                "S1 limite posterior estimado peitoril": 7.674999713897705,
+                "S1 limite posterior estimado trecho": 7.674999713897705,
+                "S1 limite posterior estimado trecho final": 7.674999713897705,
+                "S1 limite posterior estimado verga": 7.674999713897705
+              },
+              "exterior_face_kitchen": {
+                "Parede janela cozinha peitoril": 7.674999713897705,
+                "Parede janela cozinha trecho": 7.674999713897705,
+                "Parede janela cozinha trecho final": 7.674999713897705,
+                "Parede janela cozinha verga": 7.674999713897705
+              },
+              "expected_exterior_face_y": 7.675,
+              "axis_y": 7.6
+            }
+          }
+        },
+        "all_passed": true,
+        "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural."
+      }
+    },
+    "escada_e_superior_coerentes": {
+      "passed": true,
+      "detail": {
+        "checks": {
+          "contagens_7_curva_4": {
+            "passed": true,
+            "detail": {
+              "1": 7,
+              "curva": 6,
+              "2": 4
+            }
+          },
+          "alturas_continuas_ate_piso_superior": {
+            "passed": true,
+            "detail": [
+              0.17058822512626648,
+              0.34117648005485535,
+              0.5117647051811218,
+              0.6823529005050659,
+              0.8529411554336548,
+              1.0235294103622437,
+              1.1941176652908325,
+              1.3647059202194214,
+              1.5352940559387207,
+              1.7058823108673096,
+              1.8764705657958984,
+              2.0470588207244873,
+              2.217647075653076,
+              2.388235330581665,
+              2.558823585510254,
+              2.7294118404388428,
+              2.9000000953674316
+            ]
+          },
+          "escada_lavabo_garagem_e_limite_superior_alinhados": {
+            "passed": true,
+            "detail": {
+              "first_south": 3.059999942779541,
+              "final_south": 2.200000047683716,
+              "upper_front_room_wall": [
+                2.200000047683716,
+                2.200000047683716,
+                2.200000047683716
+              ],
+              "garage_rear_reference": [
+                2.2,
+                2.2,
+                2.2,
+                2.2
+              ]
+            }
+          },
+          "lances_encostados_sem_faixa_intermediaria": {
+            "passed": true,
+            "detail": {
+              "first_south_y": 3.059999942779541,
+              "final_north_y": 3.06000018119812,
+              "gap_m": -2.384185791015625e-07
+            }
+          },
+          "lance_final_mais_curto_e_chega_antes_do_inicial": {
+            "passed": true,
+            "detail": {
+              "first_x": [
+                3.990000009536743,
+                4.970000267028809
+              ],
+              "final_x": [
+                4.409999847412109,
+                4.970000267028809
+              ]
+            }
+          },
+          "degraus_consecutivos_sem_lacunas_no_plano": {
+            "passed": true,
+            "detail": []
+          },
+          "laje_sobre_degraus_baixos_sem_colisao_de_altura": {
+            "passed": true,
+            "detail": {
+              "clearances_m": [
+                2.5194120556116104,
+                2.348824054002762,
+                2.1782355904579163
+              ],
+              "scope": "folga no estudo, não verificação normativa"
+            }
+          },
+          "chegada_ligada_a_laje": {
+            "passed": true,
+            "detail": {
+              "hit": "Laje superior sobre acesso lavabo 01",
+              "position": [
+                4.37999963760376,
+                2.630000114440918,
+                2.9000000953674316
+              ]
+            }
+          },
+          "hall_ampliado_tem_laje_sobre_primeiro_lance": {
+            "passed": true,
+            "detail": {
+              "point": [
+                4.2,
+                3.49
+              ],
+              "hit": "Laje superior sobre acesso lavabo 01",
+              "height": 2.9000000953674316
+            }
+          },
+          "circulacao_conecta_tres_quartos_sem_parede_ou_vao": {
+            "passed": true,
+            "detail": {
+              "routes": {
+                "suite": [
+                  [
+                    4.11,
+                    2.63
+                  ],
+                  [
+                    3.3,
+                    2.75
+                  ],
+                  [
+                    2.45,
+                    2.75
+                  ]
+                ],
+                "frente": [
+                  [
+                    4.11,
+                    2.63
+                  ],
+                  [
+                    3.4,
+                    1.9000000000000001
+                  ]
+                ],
+                "fundos": [
+                  [
+                    4.11,
+                    2.63
+                  ],
+                  [
+                    3.38,
+                    3.1900000000000004
+                  ],
+                  [
+                    3.38,
+                    4.5
+                  ]
+                ]
+              },
+              "failures": []
+            }
+          },
+          "camas_nas_posicoes_relativas_confirmadas": {
+            "passed": true,
+            "detail": {
+              "suite": [
+                1.149999976158142,
+                0.0,
+                2.9000000953674316
+              ],
+              "frente": [
+                4.75,
+                0.15000000596046448,
+                2.9000000953674316
+              ],
+              "fundos": [
+                4.849999904632568,
+                6.349999904632568,
+                2.9000000953674316
+              ]
+            }
+          },
+          "quartos_e_banheiros_dentro_envoltoria_fora_vao": {
+            "passed": true,
+            "detail": []
+          },
+          "acessos_wcs_pelos_lados_do_novo_croqui": {
+            "passed": true,
+            "detail": {
+              "routes": {
+                "suite": [
+                  [
+                    0.85,
+                    3.05
+                  ],
+                  [
+                    0.85,
+                    3.65
+                  ]
+                ],
+                "social": [
+                  [
+                    3.35,
+                    3.75
+                  ],
+                  [
+                    2.45,
+                    3.75
+                  ]
+                ]
+              },
+              "failures": []
+            }
+          },
+          "wcs_paralelos_na_faixa_esquerda_sem_area_inventada": {
+            "passed": true,
+            "detail": {
+              "wc_suite": [
+                0,
+                1.4,
+                3.3,
+                7.6
+              ],
+              "wc_social": [
+                1.4,
+                2.8,
+                3.3,
+                7.6
+              ]
+            }
+          },
+          "camas_cabem_nos_ambientes_reproporcionados": {
+            "passed": true,
+            "detail": {
+              "errors": [],
+              "dimensions_preserved": true,
+              "metrics": {
+                "suite": {
+                  "bounds": [
+                    0.1749999225139618,
+                    2.125,
+                    -0.7000000476837158,
+                    0.7000000476837158
+                  ],
+                  "size_xy": [
+                    1.9500000774860382,
+                    1.4000000953674316
+                  ]
+                },
+                "quarto_branco": {
+                  "bounds": [
+                    4.309999942779541,
+                    5.190000057220459,
+                    -0.7999999523162842,
+                    1.100000023841858
+                  ],
+                  "size_xy": [
+                    0.880000114440918,
+                    1.899999976158142
+                  ]
+                },
+                "quarto_azul": {
+                  "bounds": [
+                    4.354000091552734,
+                    5.317500114440918,
+                    5.372499942779541,
+                    7.327499866485596
+                  ],
+                  "size_xy": [
+                    0.9635000228881836,
+                    1.9549999237060547
+                  ]
+                }
+              }
+            }
+          },
+          "banheiros_marcados_como_hipotese": {
+            "passed": true,
+            "detail": [
+              "banho_suite",
+              "banho_social"
+            ]
+          }
+        },
+        "all_passed": true,
+        "scope": "Conectividade e coerência do estudo aproximado; não certifica medidas ou execução."
+      }
+    },
+    "contradicoes_fotograficas_testadas": {
+      "passed": true,
+      "detail": null
+    },
+    "arquivo_preservado_durante_validacao": {
+      "passed": true,
+      "detail": null
+    }
+  },
+  "unknowns": [
+    "Localização dos banheiros superiores e associação dos quartos às fotos",
+    "Forma e dimensões completas do retorno da escada",
+    "Dimensões reais; croqui do usuário não é levantamento métrico",
+    "Conciliação com a matrícula original, que não foi fornecida"
+  ],
+  "photo_geometry_audit": {
+    "timestamp_utc": "2026-11-10T20:35:48.902961+00:00",
+    "blend": "/home/edann/projects/casa-interiores/projeto/.em-validacao.blend",
+    "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+    "baseline": false,
+    "checks": {
+      "tv_na_parede_interna_lateral": {
+        "passed": true,
+        "detail": {
+          "tv_x": 3.0799999237060547,
+          "spine_x": 3.15
+        },
+        "references": [
+          "sala4.webp",
+          "sala7.webp"
+        ]
+      },
+      "porta_lavabo_na_parede_confirmada_apos_reproporcao": {
+        "passed": true,
+        "detail": {
+          "door": [
+            3.2200000286102295,
+            3.059999942779541,
+            0.0
+          ],
+          "expected": [
+            3.2200000286102295,
+            3.059999942779541,
+            0.0
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "porta_lavabo_fechada_para_leitura": {
+        "passed": true,
+        "detail": {
+          "rotation_z": 0.0,
+          "opening_direction": "não informado"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "primeiro_lance_transversal": {
+        "passed": true,
+        "detail": {
+          "delta_first_to_seventh": [
+            0.8400001525878906,
+            0.0,
+            1.0235294103622437
+          ]
+        },
+        "references": [
+          "sala1.webp",
+          "sala4.webp"
+        ]
+      },
+      "espelho_fora_do_volume_da_parede": {
+        "passed": true,
+        "detail": {
+          "mirror_front_x": 0.09250000072643161,
+          "wall_inside_x": 0.075
+        },
+        "references": [
+          "sala7.webp"
+        ]
+      },
+      "pedra_exposta_na_frente_da_parede": {
+        "passed": true,
+        "detail": {
+          "stone_front_y": 10.392499732784927,
+          "wall_front_y": 10.424999997019768
+        },
+        "references": [
+          "area3.webp"
+        ]
+      },
+      "primeiro_lance_nao_exposto_na_vista_sala7": {
+        "passed": true,
+        "detail": {
+          "visible": 0,
+          "total": 7,
+          "hits": [
+            "Painel TV branco",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "out_of_frame"
+          ],
+          "ndc": [
+            [
+              0.8687173128128052,
+              0.010223470628261566,
+              3.3035850524902344
+            ],
+            [
+              0.8929833173751831,
+              0.06256812810897827,
+              3.29400897026062
+            ],
+            [
+              0.917390763759613,
+              0.11521801352500916,
+              3.284432888031006
+            ],
+            [
+              0.9419409036636353,
+              0.1681758016347885,
+              3.2748568058013916
+            ],
+            [
+              0.9666350483894348,
+              0.22144420444965363,
+              3.2652807235717773
+            ],
+            [
+              0.9914746284484863,
+              0.2750260531902313,
+              3.255704641342163
+            ],
+            [
+              1.0164605379104614,
+              0.32892394065856934,
+              3.246128559112549
+            ]
+          ]
+        },
+        "references": [
+          "sala7.webp"
+        ]
+      },
+      "primeiro_lance_visivel_no_angulo_sala1": {
+        "passed": true,
+        "detail": {
+          "visible": 6,
+          "total": 7,
+          "hits": [
+            "out_of_frame",
+            "Degrau 02 granito",
+            "Degrau 03 granito",
+            "Degrau 04 granito",
+            "Degrau 05 granito",
+            "Degrau 06 granito",
+            "Degrau 07 granito"
+          ],
+          "ndc": [
+            [
+              0.936545193195343,
+              -0.0028664222918450832,
+              2.285327672958374
+            ],
+            [
+              0.9428184032440186,
+              0.08045615255832672,
+              2.3691937923431396
+            ],
+            [
+              0.9486627578735352,
+              0.15808139741420746,
+              2.4530601501464844
+            ],
+            [
+              0.9541206359863281,
+              0.23057428002357483,
+              2.536926031112671
+            ],
+            [
+              0.9592292308807373,
+              0.29842767119407654,
+              2.6207921504974365
+            ],
+            [
+              0.9640209674835205,
+              0.36207303404808044,
+              2.7046585083007812
+            ],
+            [
+              0.9685245156288147,
+              0.4218900501728058,
+              2.788524627685547
+            ]
+          ]
+        },
+        "references": [
+          "sala1.webp"
+        ]
+      },
+      "primeiro_lance_visivel_na_vista_do_acesso": {
+        "passed": true,
+        "detail": {
+          "visible": 7,
+          "total": 7,
+          "hits": [
+            "Degrau 01 granito",
+            "Degrau 02 granito",
+            "Degrau 03 granito",
+            "Degrau 04 granito",
+            "Degrau 05 granito",
+            "Degrau 06 granito",
+            "Degrau 07 granito"
+          ],
+          "ndc": [
+            [
+              0.3717857599258423,
+              0.20018364489078522,
+              2.216610908508301
+            ],
+            [
+              0.3553287386894226,
+              0.2783046066761017,
+              2.2645175457000732
+            ],
+            [
+              0.3395535945892334,
+              0.35318881273269653,
+              2.312424659729004
+            ],
+            [
+              0.324418842792511,
+              0.4250330924987793,
+              2.3603312969207764
+            ],
+            [
+              0.30988624691963196,
+              0.4940190315246582,
+              2.408238172531128
+            ],
+            [
+              0.2959204912185669,
+              0.560313880443573,
+              2.4561450481414795
+            ],
+            [
+              0.28248921036720276,
+              0.6240720152854919,
+              2.504051923751831
+            ]
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "janela_cozinha_visivel_pela_passagem": {
+        "passed": true,
+        "detail": {
+          "visible": 31,
+          "total": 39,
+          "hits": [
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Armário aéreo junto ao ripado",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Armário aéreo junto ao ripado",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha caixilho.001",
+            "Janela cozinha caixilho.001",
+            "Janela cozinha caixilho.001",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "Janela cozinha vidro",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente",
+            "TV preta independente"
+          ],
+          "ndc": [
+            [
+              0.6423931121826172,
+              0.4759986102581024,
+              7.362473487854004
+            ],
+            [
+              0.6426295638084412,
+              0.5211911201477051,
+              7.35026741027832
+            ],
+            [
+              0.6428743004798889,
+              0.56795334815979,
+              7.337679862976074
+            ],
+            [
+              0.6515408158302307,
+              0.4759753346443176,
+              7.359784126281738
+            ],
+            [
+              0.651792585849762,
+              0.5211843252182007,
+              7.347578048706055
+            ],
+            [
+              0.6520530581474304,
+              0.5679636597633362,
+              7.334990978240967
+            ],
+            [
+              0.6606952548027039,
+              0.47595205903053284,
+              7.357094764709473
+            ],
+            [
+              0.6609622836112976,
+              0.5211775898933411,
+              7.344888687133789
+            ],
+            [
+              0.6612386107444763,
+              0.5679740309715271,
+              7.332301616668701
+            ],
+            [
+              0.6698563098907471,
+              0.47592875361442566,
+              7.354405403137207
+            ],
+            [
+              0.6701387166976929,
+              0.5211707949638367,
+              7.342199802398682
+            ],
+            [
+              0.6704308986663818,
+              0.5679844617843628,
+              7.3296122550964355
+            ],
+            [
+              0.6790241003036499,
+              0.4759054183959961,
+              7.3517165184021
+            ],
+            [
+              0.679321825504303,
+              0.5211640000343323,
+              7.339510440826416
+            ],
+            [
+              0.679629921913147,
+              0.5679948329925537,
+              7.32692289352417
+            ],
+            [
+              0.6881985664367676,
+              0.47588208317756653,
+              7.349027156829834
+            ],
+            [
+              0.6885116696357727,
+              0.5211572051048279,
+              7.33682107925415
+            ],
+            [
+              0.688835620880127,
+              0.5680052042007446,
+              7.3242340087890625
+            ],
+            [
+              0.6973798274993896,
+              0.4758587181568146,
+              7.346337795257568
+            ],
+            [
+              0.6977083086967468,
+              0.5211504101753235,
+              7.334131717681885
+            ],
+            [
+              0.6980481743812561,
+              0.5680156350135803,
+              7.321544647216797
+            ],
+            [
+              0.7065677642822266,
+              0.4758353531360626,
+              7.343648433685303
+            ],
+            [
+              0.7069116234779358,
+              0.5211436152458191,
+              7.331442832946777
+            ],
+            [
+              0.7072675228118896,
+              0.5680260062217712,
+              7.318855285644531
+            ],
+            [
+              0.7157623767852783,
+              0.4758119583129883,
+              7.340959548950195
+            ],
+            [
+              0.7161217331886292,
+              0.5211368203163147,
+              7.328753471374512
+            ],
+            [
+              0.716493546962738,
+              0.5680364370346069,
+              7.316165924072266
+            ],
+            [
+              0.7249637842178345,
+              0.47578856348991394,
+              7.33827018737793
+            ],
+            [
+              0.7253386378288269,
+              0.5211300253868103,
+              7.326064109802246
+            ],
+            [
+              0.7257264256477356,
+              0.5680468678474426,
+              7.313477039337158
+            ],
+            [
+              0.734171986579895,
+              0.4757651090621948,
+              7.335580825805664
+            ],
+            [
+              0.7345622777938843,
+              0.5211231708526611,
+              7.3233747482299805
+            ],
+            [
+              0.7349660992622375,
+              0.5680572986602783,
+              7.310787677764893
+            ],
+            [
+              0.7433868646621704,
+              0.4757416844367981,
+              7.332891464233398
+            ],
+            [
+              0.7437926530838013,
+              0.5211163759231567,
+              7.320685863494873
+            ],
+            [
+              0.7442125678062439,
+              0.568067729473114,
+              7.308098316192627
+            ],
+            [
+              0.7526085376739502,
+              0.475718230009079,
+              7.330202579498291
+            ],
+            [
+              0.7530298233032227,
+              0.5211095213890076,
+              7.317996501922607
+            ],
+            [
+              0.7534658312797546,
+              0.5680781602859497,
+              7.305408954620361
+            ]
+          ]
+        },
+        "references": [
+          "sala7.webp",
+          "cozinha2.webp"
+        ]
+      },
+      "porta_lavabo_visivel_pela_nova_passagem": {
+        "passed": true,
+        "detail": {
+          "visible": 1,
+          "total": 1,
+          "hits": [
+            "Porta lavabo folha"
+          ],
+          "ndc": [
+            [
+              0.5,
+              0.5640861988067627,
+              1.900402307510376
+            ]
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "quartos_implantados_conforme_croqui": {
+        "passed": true,
+        "detail": [
+          "AMBIENTE_banho_social",
+          "AMBIENTE_banho_suite",
+          "AMBIENTE_quarto_azul",
+          "AMBIENTE_quarto_branco",
+          "AMBIENTE_suite"
+        ],
+        "references": [
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "entrada_em_diagonal": {
+        "passed": true,
+        "detail": {
+          "angle_radians": 0.6361885666847229
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "lavabo_atras_da_continuacao_garagem": {
+        "passed": true,
+        "detail": {
+          "garage": [
+            3.15,
+            5.6,
+            0,
+            2.2
+          ],
+          "lavabo": [
+            3.15,
+            5.6,
+            2.2,
+            3.06
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "lavanderia_imediatamente_atras_cozinha": {
+        "passed": true,
+        "detail": {
+          "laundry": [
+            3.15,
+            5.6,
+            7.6,
+            10.5
+          ],
+          "kitchen": [
+            3.15,
+            5.6,
+            4.3,
+            7.6
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "fundos_churrasqueira_lavanderia_alinhados": {
+        "passed": true,
+        "detail": {
+          "bar_back": 10.5,
+          "laundry_back": 10.5
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "passagem_lateral_lavanderia_livre": {
+        "passed": true,
+        "detail": {
+          "hit": null
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "garagem_aberta_ate_divisao_lavabo": {
+        "passed": true,
+        "detail": {
+          "hit": "Garagem parede posterior trecho final",
+          "hit_y": 2.0500001907348633
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "churrasqueira_canto_fundos_esquerdo": {
+        "passed": true,
+        "detail": [
+          0.5,
+          10.119999885559082,
+          0.0
+        ],
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "tres_banquetas_conforme_croqui": {
+        "passed": true,
+        "detail": 3,
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png"
+        ]
+      },
+      "lavabo_sob_segundo_lance_e_patamar": {
+        "passed": true,
+        "detail": {
+          "lavabo": [
+            3.15,
+            5.6,
+            2.2,
+            3.06
+          ],
+          "second_flight_y": [
+            2.1999999999999997,
+            3.06
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "garagem_alinhada_ao_lavabo_reposicionado": {
+        "passed": true,
+        "detail": {
+          "before": [
+            3.15,
+            5.6,
+            0,
+            1.9
+          ],
+          "after": [
+            3.15,
+            5.6,
+            0,
+            2.2
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "loucas_e_espelho_dentro_lavabo_abaixo_forro": {
+        "passed": true,
+        "detail": [],
+        "references": [
+          "config/planta-casa.json#user_correction"
+        ]
+      },
+      "fachada_sem_marquise_e_pilares_avancados": {
+        "passed": true,
+        "detail": {
+          "columns": [
+            [
+              0.0,
+              -1.590000033378601,
+              2.8499999046325684
+            ],
+            [
+              5.599999904632568,
+              -1.590000033378601,
+              2.8499999046325684
+            ]
+          ]
+        },
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "garagem_com_paredes_laterais_continuas": {
+        "passed": true,
+        "detail": [
+          "Parede lateral contínua garagem trecho final",
+          "Parede lateral contínua garagem trecho final.001"
+        ],
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "varanda_recuada_com_rede": {
+        "passed": true,
+        "detail": {
+          "recessed_y": -0.75,
+          "flush_y": -1.649999976158142
+        },
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "janela_sala_com_grade": {
+        "passed": true,
+        "detail": {},
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "janela_pequena_visivel_no_fundo_garagem": {
+        "passed": true,
+        "detail": {
+          "visible": 1,
+          "total": 1,
+          "hits": [
+            "Janela posterior garagem caixilho.001"
+          ],
+          "ndc": [
+            [
+              0.5589908957481384,
+              0.32035598158836365,
+              10.424432754516602
+            ]
+          ]
+        },
+        "references": [
+          "exterior2.webp"
+        ]
+      },
+      "escada_oculta_na_vista_externa": {
+        "passed": true,
+        "detail": {
+          "visible": 0,
+          "total": 17,
+          "hits": [
+            "Garagem parede posterior trecho",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior peitoril",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Garagem parede posterior trecho final",
+            "Laje superior segmento 00"
+          ],
+          "ndc": [
+            [
+              0.5474730134010315,
+              0.1863260418176651,
+              11.563810348510742
+            ],
+            [
+              0.5546515583992004,
+              0.20409025251865387,
+              11.604090690612793
+            ],
+            [
+              0.5617805123329163,
+              0.22173155844211578,
+              11.644371032714844
+            ],
+            [
+              0.5688602924346924,
+              0.23925118148326874,
+              11.684651374816895
+            ],
+            [
+              0.575891375541687,
+              0.25665047764778137,
+              11.724930763244629
+            ],
+            [
+              0.5828743577003479,
+              0.2739305794239044,
+              11.76521110534668
+            ],
+            [
+              0.5898096561431885,
+              0.2910928428173065,
+              11.80549144744873
+            ],
+            [
+              0.5992738604545593,
+              0.3081214427947998,
+              11.994295120239258
+            ],
+            [
+              0.6112547516822815,
+              0.32486703991889954,
+              12.018260955810547
+            ],
+            [
+              0.6151759028434753,
+              0.34268566966056824,
+              11.660077095031738
+            ],
+            [
+              0.6195297837257385,
+              0.3612617254257202,
+              11.37905502319336
+            ],
+            [
+              0.6267032027244568,
+              0.38126638531684875,
+              11.02535343170166
+            ],
+            [
+              0.6138657331466675,
+              0.39967501163482666,
+              11.007311820983887
+            ],
+            [
+              0.5992487668991089,
+              0.4164791703224182,
+              11.156044006347656
+            ],
+            [
+              0.5914826393127441,
+              0.4343436360359192,
+              11.171634674072266
+            ],
+            [
+              0.5837381482124329,
+              0.4521583020687103,
+              11.187224388122559
+            ],
+            [
+              0.5760152339935303,
+              0.4699234068393707,
+              11.202815055847168
+            ]
+          ]
+        },
+        "references": [
+          "exterior1.webp",
+          "exterior2.webp"
+        ]
+      },
+      "bancada_nao_atravessa_fogao": {
+        "passed": true,
+        "detail": [
+          "Boca fogão",
+          "Boca fogão.001",
+          "Boca fogão.002",
+          "Boca fogão.003"
+        ],
+        "references": [
+          "cozinha1.webp"
+        ]
+      },
+      "lavadora_superior_livre_de_granito": {
+        "passed": true,
+        "detail": "Tampa lavadora superior",
+        "references": [
+          "lavanderia1.webp"
+        ]
+      },
+      "retorno_lavanderia_no_lado_esquerdo": {
+        "passed": true,
+        "detail": [
+          3.4700000286102295,
+          10.109999656677246,
+          0.8999999761581421
+        ],
+        "references": [
+          "lavanderia1.webp"
+        ]
+      },
+      "partes_fora_do_ajuste_preservadas": {
+        "passed": true,
+        "detail": [
+          "spine_x",
+          "entry_diagonal",
+          "laundry_bounds",
+          "bar"
+        ],
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "folha_da_porta_na_parede_horizontal": {
+        "passed": true,
+        "detail": {
+          "dimensions": [
+            0.6949999928474426,
+            0.03500000014901161,
+            1.975000023841858
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "antigo_vao_lateral_fechado": {
+        "passed": true,
+        "detail": {
+          "hit": "ESPINHA_Lateral TV lavabo escada cozinha trecho"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "passagem_da_sala_livre": {
+        "passed": true,
+        "detail": {
+          "hit": null
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "aproximacao_da_nova_porta_livre": {
+        "passed": true,
+        "detail": {
+          "hit": "Porta lavabo folha"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "acesso_nao_bloqueado_por_degraus": {
+        "passed": true,
+        "detail": {
+          "hit": "Porta lavabo folha"
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "cozinha_conectada_a_porta_do_lavabo_pela_sala": {
+        "passed": true,
+        "detail": {
+          "obstructions": [],
+          "door_hit": "Porta lavabo folha",
+          "route": [
+            [
+              3.585,
+              5.3,
+              1
+            ],
+            [
+              2.9,
+              5.3,
+              1
+            ],
+            [
+              2.9,
+              3.46,
+              1
+            ],
+            [
+              3.585,
+              3.46,
+              1
+            ]
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      },
+      "passagem_com_laje_sobre_a_area_liberada": {
+        "passed": true,
+        "detail": {
+          "hit": "Laje superior sobre acesso lavabo 01",
+          "location": [
+            3.5850000381469727,
+            3.509999990463257,
+            2.700000286102295
+          ]
+        },
+        "references": [
+          "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+          "referencias-ajustes/superior-proporcoes-r09-594cf449.png"
+        ]
+      }
+    },
+    "all_passed": true,
+    "scope": "Detecção de contradições discretas e visibilidade. Não prova equivalência métrica, fotográfica ou a implantação real do superior."
+  },
+  "renders": {
+    "timestamp_utc": "2026-11-10T20:43:05.525726+00:00",
+    "revision": 10,
+    "blend": "projeto/.em-validacao.blend",
+    "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+    "version": "5.2.4 LTS",
+    "preview": false,
+    "device": {
+      "requested": "cpu",
+      "backend": "CPU",
+      "devices": [
+        "CPU"
+      ],
+      "fallback_reason": null
+    },
+    "outputs": [
+      "renders/atual/fachada-frontal.png",
+      "renders/atual/fachada-obliqua.png",
+      "renders/atual/acesso-lavabo.png",
+      "renders/atual/sala-fundos.png",
+      "renders/atual/sala-frente.png",
+      "renders/atual/escada-acesso.png",
+      "renders/atual/cozinha.png",
+      "renders/atual/cozinha-reversa.png",
+      "renders/atual/bar.png",
+      "renders/atual/lavanderia.png",
+      "renders/atual/lavabo.png",
+      "renders/atual/escada-superior.png",
+      "renders/atual/suite.png",
+      "renders/atual/quarto-frente.png",
+      "renders/atual/quarto-fundos.png",
+      "renders/atual/terreo-3d.png",
+      "renders/atual/planta-terreo.png",
+      "renders/atual/porta-lavabo.png",
+      "renders/atual/superior-3d.png",
+      "renders/atual/planta-superior.png",
+      "renders/atual/estudos-superior.png",
+      "renders/atual/volumetria.png",
+      "renders/atual/lavabo-sob-escada.png"
+    ],
+    "saved_file_unchanged": true,
+    "viewpoints": {
+      "fachada-frontal.png": {
+        "scene": "FOTO_Fachada",
+        "position_world": [
+          2.0999999046325684,
+          -8.300000190734863,
+          1.350000023841858
+        ],
+        "plan_point": [
+          0.4416666626930237,
+          1.1500000357627869
+        ],
+        "plan_direction_end": [
+          0.4491153657436371,
+          1.094666801393032
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "fachada-obliqua.png": {
+        "scene": "FOTO_Fachada_Obliqua",
+        "position_world": [
+          -0.5,
+          -9.5,
+          1.75
+        ],
+        "plan_point": [
+          0.22500000894069672,
+          1.2166666388511658
+        ],
+        "plan_direction_end": [
+          0.25455453991889954,
+          1.1647223383188248
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "acesso-lavabo.png": {
+        "scene": "FOTO_Acesso_Lavabo",
+        "position_world": [
+          2.25,
+          4.360000133514404,
+          1.5499999523162842
+        ],
+        "plan_point": [
+          0.4541666805744171,
+          0.4466666579246521
+        ],
+        "plan_direction_end": [
+          0.5138696432113647,
+          0.4854251742362976
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "sala-fundos.png": {
+        "scene": "FOTO_Sala_Fundos",
+        "position_world": [
+          1.9001370668411255,
+          0.20000000298023224,
+          1.8506649732589722
+        ],
+        "plan_point": [
+          0.42501142621040344,
+          0.6777777671813965
+        ],
+        "plan_direction_end": [
+          0.4231831729412079,
+          0.6222355961799622
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "sala-frente.png": {
+        "scene": "FOTO_Sala_Frente",
+        "position_world": [
+          2.6500000953674316,
+          6.0,
+          1.600000023841858
+        ],
+        "plan_point": [
+          0.48750001192092896,
+          0.35555553436279297
+        ],
+        "plan_direction_end": [
+          0.48316559195518494,
+          0.4110358953475952
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "escada-acesso.png": {
+        "scene": "FOTO_Detalhe_Escada",
+        "position_world": [
+          1.0,
+          3.059999942779541,
+          1.5
+        ],
+        "plan_point": [
+          0.3499999940395355,
+          0.5188888907432556
+        ],
+        "plan_direction_end": [
+          0.40229377150535583,
+          0.47563356161117554
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "cozinha.png": {
+        "scene": "FOTO_Cozinha",
+        "position_world": [
+          3.5,
+          5.320000171661377,
+          1.4800000190734863
+        ],
+        "plan_point": [
+          0.5583333373069763,
+          0.3933333158493042
+        ],
+        "plan_direction_end": [
+          0.6103129386901855,
+          0.34991002082824707
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "cozinha-reversa.png": {
+        "scene": "FOTO_Cozinha_Reversa",
+        "position_world": [
+          5.050000190734863,
+          6.0,
+          1.4800000190734863
+        ],
+        "plan_point": [
+          0.6875,
+          0.35555553436279297
+        ],
+        "plan_direction_end": [
+          0.6166966557502747,
+          0.3262576460838318
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "bar.png": {
+        "scene": "FOTO_Bar",
+        "position_world": [
+          1.5199999809265137,
+          7.400000095367432,
+          1.5499999523162842
+        ],
+        "plan_point": [
+          0.3933333456516266,
+          0.2777777910232544
+        ],
+        "plan_direction_end": [
+          0.3954831659793854,
+          0.22224068641662598
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "lavanderia.png": {
+        "scene": "FOTO_Lavanderia",
+        "position_world": [
+          4.650000095367432,
+          8.149999618530273,
+          1.350000023841858
+        ],
+        "plan_point": [
+          0.6541666984558105,
+          0.23611116409301758
+        ],
+        "plan_direction_end": [
+          0.6379622220993042,
+          0.18161606788635254
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "lavabo.png": {
+        "scene": "FOTO_Lavabo",
+        "position_world": [
+          3.319999933242798,
+          2.4600000381469727,
+          1.2999999523162842
+        ],
+        "plan_point": [
+          0.5433333516120911,
+          0.5522222220897675
+        ],
+        "plan_direction_end": [
+          0.615937352180481,
+          0.524953156709671
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "escada-superior.png": {
+        "scene": "FOTO_Chegada_Escada",
+        "position_world": [
+          4.0,
+          2.630000114440918,
+          4.550000190734863
+        ],
+        "plan_point": [
+          0.6000000238418579,
+          0.5427777767181396
+        ],
+        "plan_direction_end": [
+          0.6833333373069763,
+          0.5427777767181396
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "suite.png": {
+        "scene": "FOTO_Suite",
+        "position_world": [
+          2.450000047683716,
+          2.4000000953674316,
+          4.400000095367432
+        ],
+        "plan_point": [
+          0.47083333134651184,
+          0.5555555522441864
+        ],
+        "plan_direction_end": [
+          0.42982858419418335,
+          0.6039201617240906
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "quarto-frente.png": {
+        "scene": "FOTO_Quarto_Frente",
+        "position_world": [
+          4.050000190734863,
+          1.5,
+          4.449999809265137
+        ],
+        "plan_point": [
+          0.6041666865348816,
+          0.6055555641651154
+        ],
+        "plan_direction_end": [
+          0.6362179517745972,
+          0.6568376123905182
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      },
+      "quarto-fundos.png": {
+        "scene": "FOTO_Quarto_Fundos",
+        "position_world": [
+          3.3499999046325684,
+          5.150000095367432,
+          4.400000095367432
+        ],
+        "plan_point": [
+          0.5458333492279053,
+          0.4027777910232544
+        ],
+        "plan_direction_end": [
+          0.5933663249015808,
+          0.35714614391326904
+        ],
+        "door_start": [
+          0.5350000262260437,
+          0.5188888907432556
+        ],
+        "door_end": [
+          0.5958333611488342,
+          0.5188888907432556
+        ]
+      }
+    },
+    "plan_views": {
+      "planta-terreo.png": {
+        "position_world": [
+          2.799999952316284,
+          3.4000000953674316,
+          25.0
+        ],
+        "rotation_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 18.0,
+        "resolution": [
+          1200,
+          1800
+        ]
+      },
+      "planta-superior.png": {
+        "position_world": [
+          2.799999952316284,
+          2.9749999046325684,
+          25.0
+        ],
+        "rotation_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ortho_scale": 12.0,
+        "resolution": [
+          1200,
+          1800
+        ]
+      }
+    }
+  },
+  "scope": "Integridade do arquivo e remoção de contradições fotográficas específicas. Não aprova a planta completa, escala real ou implantação do superior."
+}

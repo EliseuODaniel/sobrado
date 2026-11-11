@@ -1,0 +1,25 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.255  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend"
+00:00.359  cycles           | WARNING OptiX initialization failed with error code 7804
+00:00.359  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+RENDER_DEVICE {"requested": "auto", "backend": "CPU", "devices": ["Intel Core i9-14900HX"], "fallback_reason": "Nenhum dispositivo OptiX enumerado pelo Blender neste processo."}
+00:10.018  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/terreo-3d.png'
+HOUSE_RENDERED PLANTA_Terreo /home/edann/projects/casa-interiores/renders/planta-casa/terreo-3d.png
+00:20.236  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/superior-3d.png'
+HOUSE_RENDERED PLANTA_Superior /home/edann/projects/casa-interiores/renders/planta-casa/superior-3d.png
+00:34.023  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/terreo-superior.png'
+HOUSE_RENDERED PLANTA_Terreo_Cotas /home/edann/projects/casa-interiores/renders/planta-casa/terreo-superior.png
+00:55.391  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/pavimento-superior.png'
+HOUSE_RENDERED PLANTA_Superior_Cotas /home/edann/projects/casa-interiores/renders/planta-casa/pavimento-superior.png
+01:15.928  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/sala-fundos.png'
+HOUSE_RENDERED FOTO_Sala_Fundos /home/edann/projects/casa-interiores/renders/planta-casa/sala-fundos.png
+01:36.041  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/sala-frente.png'
+HOUSE_RENDERED FOTO_Sala_Frente /home/edann/projects/casa-interiores/renders/planta-casa/sala-frente.png
+01:57.567  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/cozinha.png'
+HOUSE_RENDERED FOTO_Cozinha /home/edann/projects/casa-interiores/renders/planta-casa/cozinha.png
+02:06.899  render           | Saved: '/home/edann/projects/casa-interiores/renders/planta-casa/volumetria.png'
+HOUSE_RENDERED CASA_Completa /home/edann/projects/casa-interiores/renders/planta-casa/volumetria.png
+HOUSE_VALIDATED 25 checks; renders 8
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-10T19:40:45.632461+00:00",
+  "source": "projeto/.em-validacao.blend",
+  "destination": "projeto/casa-reconstruida.blend",
+  "sha256": "b7a8f031488450e8c9ded6715e2496246bd5b26b6c1e1fd24d714ffb45437cae",
+  "previous_sha256": "1f3acadf9ddd815e13cb7191a1a2c0f92b03edecc13640ad81e7103afde4b5f0",
+  "previous_copy": "historico/rascunhos/revisao08/antes-camera-quarto/projeto/casa-reconstruida.blend",
+  "original_previous_delivery": "historico/revisao07/projeto/casa-reconstruida.blend",
+  "validation": "relatorios/atual/validacao.json",
+  "upper_geometry_checks": 14,
+  "source_sketch": {
+    "path": "referencias-ajustes/superior-croqui-26a026a1.png",
+    "sha256": "26a026a1ed7976441f0ea9a7f1d8341f031666827d7db897744cc03475e1e14b",
+    "original_editable_path": "referencias-ajustes/segundo-pavimento.png",
+    "bedroom_positions": "confirmed_relative_by_user",
+    "bathroom_positions": "user_proposed_relative_not_verified",
+    "dimensions": "estimated",
+    "hall_interpretation": "Hall over low initial part of first flight; opening retained over high treads, as visible in the drawing"
+  },
+  "external_publication": false
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp_utc": "2026-11-11T01:43:59.913827+00:00",
+  "objective": "Criar proposta industrial para sala, cozinha, lazer e quarto dos fundos e publicar no main de origin",
+  "state": "Sete renders finais e dois painéis inspecionados; modelo e recursos validados",
+  "base": "projeto/casa-reconstruida.blend",
+  "variant": "projeto/industrial-v01/casa-industrial.blend",
+  "receipts": [
+    "relatorios/industrial-v01/modelo.json",
+    "relatorios/industrial-v01/previas/rodada02/previas.json",
+    "relatorios/industrial-v01/validacao.json",
+    "relatorios/industrial-v01/base-validada.json",
+    "relatorios/industrial-v01/renders.json",
+    "relatorios/industrial-v01/revisao-visual.json"
+  ],
+  "obligations": {
+    "geometry": "2575 malhas/curvas herdadas preservadas; 3 testes de contorno aprovados",
+    "renders": "Sete PNGs finais em 1600 × 1000 e dois painéis comparativos",
+    "visual_review": "Sete renders finais inspecionados e comparados às quatro referências",
+    "git_push": "Autorizado: próximo passo externo após validar esta entrega local"
+  },
+  "remaining": [
+    "Commit e push no main de origin",
+    "Conferir SHA local e remoto"
+  ],
+  "unknowns": [
+    "Escala e distribuição dos banheiros permanecem estimadas",
+    "Mobiliário simplificado em relação às referências"
+  ],
+  "scope": "Entrega local; ponto de controle imediatamente anterior à publicação solicitada"
+}

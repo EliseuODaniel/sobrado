@@ -1,0 +1,279 @@
+{
+  "checks": {
+    "contagens_7_curva_4": {
+      "passed": true,
+      "detail": {
+        "1": 7,
+        "curva": 6,
+        "2": 4
+      }
+    },
+    "alturas_continuas_ate_piso_superior": {
+      "passed": true,
+      "detail": [
+        0.17058822512626648,
+        0.34117648005485535,
+        0.5117647051811218,
+        0.6823529005050659,
+        0.8529411554336548,
+        1.0235294103622437,
+        1.1941176652908325,
+        1.3647059202194214,
+        1.5352940559387207,
+        1.7058823108673096,
+        1.8764705657958984,
+        2.0470588207244873,
+        2.217647075653076,
+        2.388235330581665,
+        2.558823585510254,
+        2.7294118404388428,
+        2.9000000953674316
+      ]
+    },
+    "escada_lavabo_garagem_e_limite_superior_alinhados": {
+      "passed": true,
+      "detail": {
+        "first_south": 3.059999942779541,
+        "final_south": 2.200000047683716,
+        "upper_front_room_wall": [
+          2.200000047683716,
+          2.200000047683716,
+          2.200000047683716
+        ],
+        "garage_rear_reference": [
+          2.2,
+          2.2,
+          2.2,
+          2.2
+        ]
+      }
+    },
+    "lances_encostados_sem_faixa_intermediaria": {
+      "passed": true,
+      "detail": {
+        "first_south_y": 3.059999942779541,
+        "final_north_y": 3.06000018119812,
+        "gap_m": -2.384185791015625e-07
+      }
+    },
+    "lance_final_mais_curto_e_chega_antes_do_inicial": {
+      "passed": true,
+      "detail": {
+        "first_x": [
+          3.990000009536743,
+          4.970000267028809
+        ],
+        "final_x": [
+          4.409999847412109,
+          4.970000267028809
+        ]
+      }
+    },
+    "degraus_consecutivos_sem_lacunas_no_plano": {
+      "passed": true,
+      "detail": []
+    },
+    "laje_sobre_degraus_baixos_sem_colisao_de_altura": {
+      "passed": true,
+      "detail": {
+        "clearances_m": [
+          2.5194120556116104,
+          2.348824054002762,
+          2.1782355904579163
+        ],
+        "scope": "folga no estudo, não verificação normativa"
+      }
+    },
+    "chegada_ligada_a_laje": {
+      "passed": true,
+      "detail": {
+        "hit": "Laje superior sobre acesso lavabo 01",
+        "position": [
+          4.37999963760376,
+          2.630000114440918,
+          2.9000000953674316
+        ]
+      }
+    },
+    "hall_ampliado_tem_laje_sobre_primeiro_lance": {
+      "passed": true,
+      "detail": {
+        "point": [
+          4.2,
+          3.49
+        ],
+        "hit": "Laje superior sobre acesso lavabo 01",
+        "height": 2.9000000953674316
+      }
+    },
+    "circulacao_conecta_tres_quartos_sem_parede_ou_vao": {
+      "passed": true,
+      "detail": {
+        "routes": {
+          "suite": [
+            [
+              4.11,
+              2.63
+            ],
+            [
+              3.3,
+              2.75
+            ],
+            [
+              2.45,
+              2.75
+            ]
+          ],
+          "frente": [
+            [
+              4.11,
+              2.63
+            ],
+            [
+              3.4,
+              1.9000000000000001
+            ]
+          ],
+          "fundos": [
+            [
+              4.11,
+              2.63
+            ],
+            [
+              3.38,
+              3.1900000000000004
+            ],
+            [
+              3.38,
+              4.5
+            ]
+          ]
+        },
+        "failures": []
+      }
+    },
+    "camas_nas_posicoes_relativas_confirmadas": {
+      "passed": true,
+      "detail": {
+        "suite": [
+          1.149999976158142,
+          0.0,
+          2.9000000953674316
+        ],
+        "frente": [
+          4.75,
+          0.15000000596046448,
+          2.9000000953674316
+        ],
+        "fundos": [
+          4.849999904632568,
+          6.349999904632568,
+          2.9000000953674316
+        ]
+      }
+    },
+    "quartos_e_banheiros_dentro_envoltoria_fora_vao": {
+      "passed": true,
+      "detail": []
+    },
+    "acessos_wcs_pelos_lados_do_novo_croqui": {
+      "passed": true,
+      "detail": {
+        "routes": {
+          "suite": [
+            [
+              0.85,
+              3.05
+            ],
+            [
+              0.85,
+              3.65
+            ]
+          ],
+          "social": [
+            [
+              3.35,
+              3.75
+            ],
+            [
+              2.45,
+              3.75
+            ]
+          ]
+        },
+        "failures": []
+      }
+    },
+    "wcs_paralelos_na_faixa_esquerda_sem_area_inventada": {
+      "passed": true,
+      "detail": {
+        "wc_suite": [
+          0,
+          1.4,
+          3.3,
+          7.6
+        ],
+        "wc_social": [
+          1.4,
+          2.8,
+          3.3,
+          7.6
+        ]
+      }
+    },
+    "camas_cabem_nos_ambientes_reproporcionados": {
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "dimensions_preserved": true,
+        "metrics": {
+          "suite": {
+            "bounds": [
+              0.1749999225139618,
+              2.125,
+              -0.7000000476837158,
+              0.7000000476837158
+            ],
+            "size_xy": [
+              1.9500000774860382,
+              1.4000000953674316
+            ]
+          },
+          "quarto_branco": {
+            "bounds": [
+              4.309999942779541,
+              5.190000057220459,
+              -0.7999999523162842,
+              1.100000023841858
+            ],
+            "size_xy": [
+              0.880000114440918,
+              1.899999976158142
+            ]
+          },
+          "quarto_azul": {
+            "bounds": [
+              4.354000091552734,
+              5.317500114440918,
+              5.372499942779541,
+              7.327499866485596
+            ],
+            "size_xy": [
+              0.9635000228881836,
+              1.9549999237060547
+            ]
+          }
+        }
+      }
+    },
+    "banheiros_marcados_como_hipotese": {
+      "passed": true,
+      "detail": [
+        "banho_suite",
+        "banho_social"
+      ]
+    }
+  },
+  "all_passed": true,
+  "scope": "Conectividade e coerência do estudo aproximado; não certifica medidas ou execução."
+}

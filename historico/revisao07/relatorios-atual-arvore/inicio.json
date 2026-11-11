@@ -1,0 +1,90 @@
+{
+  "timestamp_utc": "2026-11-10T17:51:25.821723+00:00",
+  "scope": "Conectar fisicamente o acesso da cozinha à porta horizontal e sincronizar todas as vistas com a planta aprovada",
+  "source": {
+    "path": "referencias-ajustes/terreo-revisao06-porta-lavabo.png",
+    "sha256": "dcbcc8e242b113b183cdffe37da3a93de4ce816078757c8def75f47e2746c196",
+    "status": "authoritative_user_annotation_confirmed_in_conversation",
+    "metric_dimensions_confirmed": false
+  },
+  "diagnostic_before": "historico/revisao06/relatorios/atual/diagnostico-vistas.json",
+  "previous_blend_sha256": "4f274f2c41362908b21802790ae5643f5ebf8e4d1f1bcbc71e8b81952c5fa1af",
+  "archive_manifest": "historico/revisao06/ARQUIVAMENTO.json",
+  "additional_archives": [
+    {
+      "source": "projeto/.em-validacao.blend (primeiro enquadramento)",
+      "destination": "historico/rascunhos/revisao07/primeiro-enquadramento.blend",
+      "sha256": "0c336eb0ab04782cd6097eeb70399acd90da8493e40075f8def9c4c8304941d3"
+    },
+    {
+      "source": "relatorios/progresso.json (revisão 06)",
+      "destination": "historico/rascunhos/revisao07/progresso-anterior.json",
+      "sha256": "414aaa7b4c5e53fdbd7c71bbb8eacf1f1e08f704716b71f56881d19b8e5551c0"
+    },
+    {
+      "source": "renders/atual/previas/fachada-frontal.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/fachada-frontal.png",
+      "sha256": "d92de44ad50ff60be8ff4f600a0937ca33a998bee94df36ea3762a355df4084e"
+    },
+    {
+      "source": "renders/atual/previas/lavabo.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/lavabo.png",
+      "sha256": "5e65a1f1df5a7ac293e6d2bfb400921893f2f61a2bcc4cb4155a11241e2e4cbe"
+    },
+    {
+      "source": "renders/atual/previas/fachada-obliqua.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/fachada-obliqua.png",
+      "sha256": "8fe3b716bea20c77eeb8bfecf1b192c9fbe0ec2b229f6692a0124dd164d6ad52"
+    },
+    {
+      "source": "renders/atual/previas/sala-frente.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/sala-frente.png",
+      "sha256": "89503745756ff96c0836028c5b82f99da7416a395e1dab2074c3f3520881785d"
+    },
+    {
+      "source": "renders/atual/previas/escada-acesso.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/escada-acesso.png",
+      "sha256": "df440591a39b4e156a3c1f6c269f802565ae2752e134ff9fab4fe421cadfeec9"
+    },
+    {
+      "source": "renders/atual/previas/bar.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/bar.png",
+      "sha256": "dc7ef43f8a40e1b1bed544775c4fdb8dcc355df4756771af43a15882193760b3"
+    },
+    {
+      "source": "renders/atual/previas/cozinha-reversa.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/cozinha-reversa.png",
+      "sha256": "ee5de82789627fa6331e6b8733b1d65c3a712944fe312abe705312c95b7adf17"
+    },
+    {
+      "source": "renders/atual/previas/acesso-lavabo.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/acesso-lavabo.png",
+      "sha256": "9137f4896b21f1d3c92ba0151d795db6bc8c5e7872ff1b20b1e4e562d71cf8f5"
+    },
+    {
+      "source": "renders/atual/previas/cozinha.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/cozinha.png",
+      "sha256": "7c2981e36cbd3e044332bf6fca4a787d487631d9e562ada709252941f0e002fa"
+    },
+    {
+      "source": "renders/atual/previas/lavanderia.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/lavanderia.png",
+      "sha256": "2c0316678fb974c1373b7502badd2b2d454555a8f111fba37c00c9727ac0dace"
+    },
+    {
+      "source": "renders/atual/previas/sala-fundos.png",
+      "destination": "historico/rascunhos/revisao07/renders/atual/previas/sala-fundos.png",
+      "sha256": "553c2c8c19a8da52b803e4e4f009327e05593894464cd9f93912164c07041d7b"
+    },
+    {
+      "source": "relatorios/atual/renders-previa.json",
+      "destination": "historico/rascunhos/revisao07/relatorios/atual/renders-previa.json",
+      "sha256": "8552c56c6cd1c30ee9e48cf9e9f67d4881418c24b0df9af241e0c26168ff348f"
+    },
+    {
+      "source": "relatorios/atual/previa.log",
+      "destination": "historico/rascunhos/revisao07/relatorios/atual/previa.log",
+      "sha256": "7fcd079ee3757fe979b88cb0f0ffa26ab7354c3e5d51ba94b20fa4cf3a13ffe6"
+    }
+  ]
+}
