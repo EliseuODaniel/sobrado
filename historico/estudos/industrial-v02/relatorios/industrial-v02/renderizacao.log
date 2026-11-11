@@ -1,0 +1,32 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.273  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v02/casa-industrial-hq.blend"
+RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
+04:56.903  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v02/sala.png'
+HQ_RENDER HQ_Sala
+09:31.842  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v02/cozinha.png'
+HQ_RENDER HQ_Cozinha
+Traceback (most recent call last):
+  File "/home/edann/projects/casa-interiores/scripts/style_industrial_hq.py", line 368, in <module>
+    (REPORTS/('previas.json' if preview else 'renders.json')).write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
+                        ^^^^^^
+  File "/home/edann/projects/casa-interiores/scripts/style_industrial_hq.py", line 365, in main
+    print('HQ_RENDER',scene.name,flush=True)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/edann/projects/casa-interiores/scripts/style_industrial_hq.py", line 354, in render
+  File "/home/edann/projects/casa-interiores/scripts/style_industrial.py", line 23, in sha
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ~~~~~~~~~~~~~~~^^
+  File "/home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/5.2/python/lib/python3.13/pathlib/_abc.py", line 625, in read_bytes
+    with self.open(mode='rb') as f:
+         ~~~~~~~~~^^^^^^^^^^^
+  File "/home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/5.2/python/lib/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/edann/projects/casa-interiores/renders/industrial-v02/lazer-fundos.png'
+
+Error: script failed, file: 'scripts/style_industrial_hq.py', exiting.
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Sent an internal break event. Press ^C again to kill Blender
+
+Blender quit

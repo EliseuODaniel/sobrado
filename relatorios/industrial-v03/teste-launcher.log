@@ -1,0 +1,8 @@
+test_default_preserves_environment_and_arguments (scripts.test_blender_launcher.BlenderLauncherTest.test_default_preserves_environment_and_arguments) ... ok
+test_forwards_failure_status (scripts.test_blender_launcher.BlenderLauncherTest.test_forwards_failure_status) ... ok
+test_wsl_driver_applies_only_to_child_and_preserves_script_arguments (scripts.test_blender_launcher.BlenderLauncherTest.test_wsl_driver_applies_only_to_child_and_preserves_script_arguments) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.151s
+
+OK

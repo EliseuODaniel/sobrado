@@ -1,0 +1,8 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.336  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v03/casa-fotografica.blend"
+/home/edann/projects/casa-interiores/scripts/audit_photographic.py:23: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  materials = [material for material in bpy.data.materials if material.use_nodes]
+PHOTO_RESOURCES_VALIDATED 3376 mesh objects; 126 packed images
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

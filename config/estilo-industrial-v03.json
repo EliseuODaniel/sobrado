@@ -1,0 +1,99 @@
+{
+  "version": "industrial-v03",
+  "base_blend": "projeto/fontes/casa-base-detalhada.blend",
+  "output_blend": "projeto/industrial-v03/casa-fotografica.blend",
+  "report_directory": "relatorios/industrial-v03",
+  "render_directory": "renders/industrial-v03",
+  "asset_manifest": "assets/industrial-v03/manifesto.json",
+  "resolution": [
+    2880,
+    1800
+  ],
+  "samples": 768,
+  "adaptive_threshold": 0.008,
+  "jobs": [
+    {
+      "scene": "PHOTO_Sala",
+      "source": "HQ_Sala",
+      "file": "sala.png",
+      "position": [
+        2.7,
+        3.2,
+        1.25
+      ],
+      "target": [
+        0.7,
+        1.55,
+        0.9
+      ],
+      "lens": 26,
+      "focus": [
+        0.62,
+        1.65,
+        0.6
+      ]
+    },
+    {
+      "scene": "PHOTO_Sala_Integrada",
+      "source": "HQ_Sala",
+      "file": "sala-integrada.png",
+      "position": [
+        1.72,
+        0.43,
+        1.52
+      ],
+      "target": [
+        1.6,
+        6.6,
+        1.35
+      ],
+      "lens": 23,
+      "focus": [
+        1.52,
+        4.3,
+        1.0
+      ]
+    },
+    {
+      "scene": "PHOTO_Cozinha",
+      "source": "HQ_Cozinha",
+      "file": "cozinha.png",
+      "focus": [
+        4.5,
+        6.9,
+        1.1
+      ]
+    },
+    {
+      "scene": "PHOTO_Lazer",
+      "source": "HQ_Lazer",
+      "file": "lazer-fundos.png",
+      "focus": [
+        1.5,
+        9.6,
+        1.2
+      ]
+    },
+    {
+      "scene": "PHOTO_Quarto",
+      "source": "HQ_Quarto",
+      "file": "quarto-fundos.png",
+      "position": [
+        3.79,
+        4.52,
+        4.35
+      ],
+      "target": [
+        4.05,
+        6.75,
+        3.95
+      ],
+      "lens": 21,
+      "focus": [
+        4.1,
+        6.3,
+        3.9
+      ]
+    }
+  ]
+}

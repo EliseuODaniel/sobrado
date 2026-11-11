@@ -17,6 +17,15 @@ linux=root/'.tools/blender-5.2.4-linux-x64/blender'
 exe=os.environ.get('BLENDER_EXECUTABLE') or (str(linux) if linux.is_file() else shutil.which('blender'))
 if not exe:raise SystemExit('Blender não localizado. Defina BLENDER_EXECUTABLE para a instalação 5.2 LTS.')
 args=sys.argv[1:]
+render_env=None
+if '--wsl-gpu' in args:
+    args.remove('--wsl-gpu')
+    cuda=Path('/usr/lib/wsl/lib/libcuda.so.1')
+    if not cuda.is_file():raise SystemExit('--wsl-gpu exige a biblioteca CUDA do driver WSL.')
+    render_env=os.environ.copy()
+    render_env['LD_PRELOAD']=str(cuda)
+    render_env['LD_LIBRARY_PATH']='/usr/lib/wsl/lib'+(':'+render_env['LD_LIBRARY_PATH'] if render_env.get('LD_LIBRARY_PATH') else '')
+    print('WSL_GPU_DRIVER',cuda,flush=True)
 if '--python' in args and '--python-exit-code' not in args:
     args=['--python-exit-code','1',*args]
 is_windows=str(exe).lower().endswith('.exe') and shutil.which('wslpath')
@@ -29,4 +38,4 @@ for i,arg in enumerate(args):
         arg=subprocess.check_output(['wslpath','-w',str(path)],text=True).strip()
     converted.append(arg)
 print('BLENDER_EXECUTABLE',exe,flush=True)
-raise SystemExit(subprocess.run([exe,*converted],cwd=root).returncode)
+raise SystemExit(subprocess.run([exe,*converted],cwd=root,env=render_env).returncode)

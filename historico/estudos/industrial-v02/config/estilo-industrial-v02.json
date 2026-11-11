@@ -1,0 +1,17 @@
+{
+  "version": "industrial-v02",
+  "base_blend": "projeto/industrial-v01/casa-industrial.blend",
+  "output_blend": "projeto/industrial-v02/casa-industrial-hq.blend",
+  "render_directory": "renders/industrial-v02",
+  "report_directory": "relatorios/industrial-v02",
+  "asset_manifests": ["assets/industrial-v02/manifesto.json", "assets/industrial-v02/manifesto-modelo.json"],
+  "resolution": [1920, 1200],
+  "samples": 256,
+  "adaptive_threshold": 0.018,
+  "jobs": [
+    {"source_scene": "IND_Sala_Integrada", "scene": "HQ_Sala", "file": "sala.png", "previous": "sala-integrada.png"},
+    {"source_scene": "IND_Cozinha", "scene": "HQ_Cozinha", "file": "cozinha.png", "previous": "cozinha.png"},
+    {"source_scene": "IND_Lazer_Fundos", "scene": "HQ_Lazer", "file": "lazer-fundos.png", "previous": "lazer-fundos.png"},
+    {"source_scene": "IND_Quarto_Fundos", "scene": "HQ_Quarto", "file": "quarto-fundos.png", "previous": "quarto-fundos.png"}
+  ]
+}

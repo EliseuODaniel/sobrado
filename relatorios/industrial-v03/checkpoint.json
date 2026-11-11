@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-11-11T12:07:00.253947+00:00",
+  "objective": "Renderização industrial fotográfica nativa e editável, arquitetura preservada, repositório organizado e publicação main",
+  "local_delivery_complete": true,
+  "receipts": {
+    "native_model": "modelo.json",
+    "architecture_and_images": "validacao.json",
+    "independent_resource_audit": "recursos-nativos.json",
+    "five_final_renders": "renders.json",
+    "launcher_tests": "teste-launcher.log",
+    "visual_review": "revisao-visual.json",
+    "archive_moves": "../../historico/estudos/industrial-v02/ARQUIVAMENTO.json"
+  },
+  "publication": "Commit/push ocorrem após fechar este manifesto. Verificação do SHA remoto será registrada em .git/casa-industrial-v03-publicacao.json para evitar autorreferência do commit.",
+  "unknowns": [
+    "Equivalência estética a uma produção Unreal não tem benchmark definido",
+    "Cotas e banheiros continuam com as hipóteses da reconstrução"
+  ]
+}

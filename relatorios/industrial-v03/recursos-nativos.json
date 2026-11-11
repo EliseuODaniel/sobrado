@@ -1,0 +1,123 @@
+{
+  "timestamp_utc": "2026-11-11T04:22:01.497072+00:00",
+  "blend_sha256": "701129c65c74fbadbd1a6697fb3ac8ef9896849a108867b1e344a1ef3df85966",
+  "blender_version": "5.2.4 LTS",
+  "external_libraries": [],
+  "packed_file_images": 126,
+  "mesh_objects": 3376,
+  "vertices_in_mesh_datablocks": 431222,
+  "node_materials": 95,
+  "editable_asset_instances": 24,
+  "geometry_compared": 3446,
+  "envelope": {
+    "checks": {
+      "mesmo_contorno_do_corpo_principal": {
+        "passed": true,
+        "detail": {
+          "terreo": [
+            0.0,
+            5.599999904632568,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "superior": [
+            0.0,
+            5.600000381469727,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "expected": [
+            0,
+            5.6,
+            -1.65,
+            7.6
+          ]
+        }
+      },
+      "cobertura_das_lajes_sem_faixas_ausentes": {
+        "passed": true,
+        "detail": {
+          "cells_tested": 12,
+          "differences": [],
+          "upper_stair_voids": [
+            [
+              4.41,
+              5.6,
+              2.2,
+              3.92
+            ]
+          ]
+        }
+      },
+      "fundos_wcs_quarto_coplanares_com_cozinha": {
+        "passed": true,
+        "detail": {
+          "exterior_face_upper": {
+            "S1 limite posterior estimado peitoril": 7.674999713897705,
+            "S1 limite posterior estimado trecho": 7.674999713897705,
+            "S1 limite posterior estimado trecho final": 7.674999713897705,
+            "S1 limite posterior estimado verga": 7.674999713897705
+          },
+          "exterior_face_kitchen": {
+            "Parede janela cozinha peitoril": 7.674999713897705,
+            "Parede janela cozinha trecho": 7.674999713897705,
+            "Parede janela cozinha trecho final": 7.674999713897705,
+            "Parede janela cozinha verga": 7.674999713897705
+          },
+          "expected_exterior_face_y": 7.675,
+          "axis_y": 7.6
+        }
+      }
+    },
+    "all_passed": true,
+    "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural."
+  },
+  "scenes": {
+    "PHOTO_Sala": {
+      "camera": "PHOTO_Sala_Camera",
+      "samples_max": 768,
+      "adaptive_threshold": 0.00800000037997961,
+      "resolution": [
+        2880,
+        1800
+      ]
+    },
+    "PHOTO_Sala_Integrada": {
+      "camera": "PHOTO_Sala_Integrada_Camera",
+      "samples_max": 768,
+      "adaptive_threshold": 0.00800000037997961,
+      "resolution": [
+        2880,
+        1800
+      ]
+    },
+    "PHOTO_Cozinha": {
+      "camera": "PHOTO_Cozinha_Camera",
+      "samples_max": 768,
+      "adaptive_threshold": 0.00800000037997961,
+      "resolution": [
+        2880,
+        1800
+      ]
+    },
+    "PHOTO_Lazer": {
+      "camera": "PHOTO_Lazer_Camera",
+      "samples_max": 768,
+      "adaptive_threshold": 0.00800000037997961,
+      "resolution": [
+        2880,
+        1800
+      ]
+    },
+    "PHOTO_Quarto": {
+      "camera": "PHOTO_Quarto_Camera",
+      "samples_max": 768,
+      "adaptive_threshold": 0.00800000037997961,
+      "resolution": [
+        2880,
+        1800
+      ]
+    }
+  },
+  "all_passed": true
+}

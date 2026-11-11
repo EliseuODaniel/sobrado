@@ -1,0 +1,40 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.281  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/fontes/casa-base-detalhada.blend"
+PHOTO_ASSET sofa_02 [1.8071672916412354, 0.817751407623291, 0.7094888687133789]
+/home/edann/projects/casa-interiores/scripts/photographic_interiors.py:109: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat.use_nodes:continue
+PHOTO_ASSET throw_pillows_01 [1.0215678215026855, 0.6274925470352173, 0.4501592814922333]
+PHOTO_ASSET industrial_coffee_table [0.7782644629478455, 0.7579282522201538, 0.6384220719337463]
+PHOTO_ASSET potted_plant_04 [0.17027407884597778, 0.1859453022480011, 0.2675964832305908]
+PHOTO_ASSET potted_plant_01 [0.5873871445655823, 0.633564829826355, 1.3501639366149902]
+PHOTO_ASSET book_encyclopedia_set_01 [0.5512974262237549, 0.16306233406066895, 0.23741818964481354]
+PHOTO_ASSET industrial_wall_lamp [0.2734608054161072, 0.1403784453868866, 0.42990660667419434]
+PHOTO_ASSET electric_stove [0.5025948286056519, 0.6476211547851562, 0.8586971759796143]
+PHOTO_ASSET vintage_microwave [1.0737111568450928, 0.7455552816390991, 0.5258261561393738]
+PHOTO_ASSET vintage_electric_kettle [0.32089072465896606, 0.24855303764343262, 0.3047400116920471]
+PHOTO_ASSET metal_stool_01 [0.3519909083843231, 0.354570209980011, 0.882774293422699]
+PHOTO_ASSET wine_bottles_01 [0.676324725151062, 0.08056290447711945, 0.3313671946525574]
+/home/edann/projects/casa-interiores/scripts/photographic_interiors.py:298: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('PHOTO Jardim e luz natural CC0');world.use_nodes=True;n=world.node_tree.nodes;l=world.node_tree.links
+00:15.552  cycles           | WARNING OptiX initialization failed with error code 7805
+00:15.552  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+/home/edann/projects/casa-interiores/scripts/photographic_interiors.py:328: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Emissor '+scene.name);mat.use_nodes=True;n=mat.node_tree.nodes;n.clear();em=n.new('ShaderNodeEmission');em.inputs['Color'].default_value=(1,.93,.83,1);em.inputs['Strength'].default_value=power;out=n.new('ShaderNodeOutputMaterial');mat.node_tree.links.new(em.outputs[0],out.inputs['Surface']);mesh.materials.append(mat)
+00:18.023  blend.writefile  | WARNING Found an ID 'OBSRC vintage_electric_kettle vintage_electric_kettle' flagged as copy/paste clipboard data while writing a regular blendfile, clearing the flag
+Info: Found IDs flagged as copy/paste clipboard data while writing a regular blendfile, the flag has been cleared in these IDs
+Info: Saved as "casa-fotografica.blend"
+PHOTO_MODEL_BUILT 3446 source geometries preserved
+00:26.743  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/previas/sala.png'
+PHOTO_RENDER PHOTO_Sala
+00:34.444  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/previas/sala-integrada.png'
+PHOTO_RENDER PHOTO_Sala_Integrada
+00:40.338  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/previas/cozinha.png'
+PHOTO_RENDER PHOTO_Cozinha
+00:47.672  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/previas/lazer-fundos.png'
+PHOTO_RENDER PHOTO_Lazer
+00:53.271  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/previas/quarto-fundos.png'
+PHOTO_RENDER PHOTO_Quarto
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

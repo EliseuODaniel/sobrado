@@ -1,0 +1,18 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.276  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v03/casa-fotografica.blend"
+00:03.190  cycles           | WARNING OptiX initialization failed with error code 7805
+00:03.190  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+04:43.509  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/sala.png'
+PHOTO_RENDER PHOTO_Sala
+09:15.780  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/sala-integrada.png'
+PHOTO_RENDER PHOTO_Sala_Integrada
+12:54.115  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/cozinha.png'
+PHOTO_RENDER PHOTO_Cozinha
+16:51.518  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/lazer-fundos.png'
+PHOTO_RENDER PHOTO_Lazer
+20:37.047  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v03/quarto-fundos.png'
+PHOTO_RENDER PHOTO_Quarto
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

@@ -1,0 +1,101 @@
+{
+  "timestamp_utc": "2026-11-11T04:37:17.389843+00:00",
+  "blend_sha256": "701129c65c74fbadbd1a6697fb3ac8ef9896849a108867b1e344a1ef3df85966",
+  "preview": false,
+  "device": {
+    "backend": "CUDA",
+    "devices": [
+      "NVIDIA GeForce RTX 4070 Laptop GPU"
+    ]
+  },
+  "envelope": {
+    "checks": {
+      "mesmo_contorno_do_corpo_principal": {
+        "passed": true,
+        "detail": {
+          "terreo": [
+            0.0,
+            5.599999904632568,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "superior": [
+            0.0,
+            5.600000381469727,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "expected": [
+            0,
+            5.6,
+            -1.65,
+            7.6
+          ]
+        }
+      },
+      "cobertura_das_lajes_sem_faixas_ausentes": {
+        "passed": true,
+        "detail": {
+          "cells_tested": 12,
+          "differences": [],
+          "upper_stair_voids": [
+            [
+              4.41,
+              5.6,
+              2.2,
+              3.92
+            ]
+          ]
+        }
+      },
+      "fundos_wcs_quarto_coplanares_com_cozinha": {
+        "passed": true,
+        "detail": {
+          "exterior_face_upper": {
+            "S1 limite posterior estimado peitoril": 7.674999713897705,
+            "S1 limite posterior estimado trecho": 7.674999713897705,
+            "S1 limite posterior estimado trecho final": 7.674999713897705,
+            "S1 limite posterior estimado verga": 7.674999713897705
+          },
+          "exterior_face_kitchen": {
+            "Parede janela cozinha peitoril": 7.674999713897705,
+            "Parede janela cozinha trecho": 7.674999713897705,
+            "Parede janela cozinha trecho final": 7.674999713897705,
+            "Parede janela cozinha verga": 7.674999713897705
+          },
+          "expected_exterior_face_y": 7.675,
+          "axis_y": 7.6
+        }
+      }
+    },
+    "all_passed": true,
+    "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural."
+  },
+  "outputs": {
+    "renders/industrial-v03/sala.png": {
+      "sha256": "ffd100b04dbaee5f495f49d12d762e1ee4302b2b970690281fc5ec8cd35f4a88",
+      "bytes": 6101272,
+      "scene": "PHOTO_Sala"
+    },
+    "renders/industrial-v03/sala-integrada.png": {
+      "sha256": "fa10eed121a9f5bbb6001fa15de449baf352516f0526deb064fb03195723fa60",
+      "bytes": 5337522,
+      "scene": "PHOTO_Sala_Integrada"
+    },
+    "renders/industrial-v03/cozinha.png": {
+      "sha256": "a039bcb99561682a7f031ec753b8bbcd27ba6e4d0bb688d3f5f4b2db9f2ea12c",
+      "bytes": 5235901,
+      "scene": "PHOTO_Cozinha"
+    },
+    "renders/industrial-v03/lazer-fundos.png": {
+      "sha256": "957a37d1bee9ebb8a9bd426cc4c1f1e976f459913e66b33ceef87d7cda27b90c",
+      "bytes": 5935944,
+      "scene": "PHOTO_Lazer"
+    },
+    "renders/industrial-v03/quarto-fundos.png": {
+      "sha256": "ca6d6482289e813bcf01558be93b6e63a8a09c5d907aab4c06321c8f5d0e7c5f",
+      "bytes": 5669999,
+      "scene": "PHOTO_Quarto"
+    }
+  }
+}

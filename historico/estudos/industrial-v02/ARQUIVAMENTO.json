@@ -1,0 +1,106 @@
+{
+  "timestamp_utc": "2026-11-11T04:15:18.893949+00:00",
+  "reason": "Estudo rejeitado por realismo insuficiente; renders parciais, não entrega final. Base técnica preservada para regenerar v03.",
+  "moves": [
+    {
+      "from": "projeto/industrial-v02/casa-industrial-hq.blend",
+      "to": "projeto/fontes/casa-base-detalhada.blend",
+      "sha256": "70980ced81d16e89c38d458d3f2c6e021d0c6da3d5c9e42b9d669846a5cff09a"
+    },
+    {
+      "from": "relatorios/industrial-v02/modelo.json",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/modelo.json",
+      "sha256": "e6fff370a833d0f0824d426de917d16d769996f6c9e5bce0d56d4632e082b12c"
+    },
+    {
+      "from": "relatorios/industrial-v02/validacao.log",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/validacao.log",
+      "sha256": "3ef0bf1a2298931fe2e7203514180714d38409cec11b5dfc5ef34a5b71f66486"
+    },
+    {
+      "from": "relatorios/industrial-v02/dispositivo-cuda.log",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/dispositivo-cuda.log",
+      "sha256": "058118484cb3e44aa55c56cb7f2b866c769a55958d4710fe7a08f3ca2075d8b4"
+    },
+    {
+      "from": "relatorios/industrial-v02/dispositivo-optix.log",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/dispositivo-optix.log",
+      "sha256": "b2f82f6172cc970443b4efdd0d9b9f765c6c9aef31b06761dfca2aeb900fe640"
+    },
+    {
+      "from": "relatorios/industrial-v02/cameras.json",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/cameras.json",
+      "sha256": "b7dd7228e2584f43b5aa2596e0a55ddb1c758bbb476d5e571dd054b8d272887d"
+    },
+    {
+      "from": "relatorios/industrial-v02/previas.json",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/previas.json",
+      "sha256": "7b22da4a4acdb974943ed7cd9dd5d19643638dc6ca204fbf9a73fb914d138f42"
+    },
+    {
+      "from": "relatorios/industrial-v02/checkpoint.json",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/checkpoint.json",
+      "sha256": "de70aae2762f1d8d5e36a9e15a31cfd250dbacb3ae4b06a04e8aba0c2a21e58a"
+    },
+    {
+      "from": "relatorios/industrial-v02/renderizacao.log",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/renderizacao.log",
+      "sha256": "8ffcb5130780205ec6d45ae1775f8036be1f93e1dcb625629266b3199a557a9e"
+    },
+    {
+      "from": "relatorios/industrial-v02/geracao-previas.log",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/geracao-previas.log",
+      "sha256": "47887ecca807be23caeb72d56825dc264807dfb966e813303574ad360e54ac02"
+    },
+    {
+      "from": "relatorios/industrial-v02/validacao.json",
+      "to": "historico/estudos/industrial-v02/relatorios/industrial-v02/validacao.json",
+      "sha256": "f8f7bfb6ac9d8ccf6234ec10946b4d32dc2799d41429b4a41bf69c49e7ff510c"
+    },
+    {
+      "from": "renders/industrial-v02/sala.png",
+      "to": "historico/estudos/industrial-v02/renders/industrial-v02/sala.png",
+      "sha256": "6f63010335ddd36aac5e575d4b455540c067bd92060a1cba628ead9408b81b22"
+    },
+    {
+      "from": "renders/industrial-v02/cozinha.png",
+      "to": "historico/estudos/industrial-v02/renders/industrial-v02/cozinha.png",
+      "sha256": "87be8d8dca0f3d20c380ad97f4262a1d040050a5a51edce4dd23fc1d19f3df3b"
+    },
+    {
+      "from": "renders/industrial-v02/previas/sala.png",
+      "to": "historico/estudos/industrial-v02/renders/industrial-v02/previas/sala.png",
+      "sha256": "cf5064d74c8f142c2804b41e07ffce7e8d6ed93c5f4176912bcd32c56681d69e"
+    },
+    {
+      "from": "renders/industrial-v02/previas/quarto-fundos.png",
+      "to": "historico/estudos/industrial-v02/renders/industrial-v02/previas/quarto-fundos.png",
+      "sha256": "b66d536e06ee95fa5cccfd05f510e3526fef0c8f0764a41a2b609394bb937176"
+    },
+    {
+      "from": "renders/industrial-v02/previas/cozinha.png",
+      "to": "historico/estudos/industrial-v02/renders/industrial-v02/previas/cozinha.png",
+      "sha256": "a50897094a01334d59367cce030f7f762d5078eaaf6ceed26e1df963eca0f17c"
+    },
+    {
+      "from": "renders/industrial-v02/previas/lazer-fundos.png",
+      "to": "historico/estudos/industrial-v02/renders/industrial-v02/previas/lazer-fundos.png",
+      "sha256": "092ce15edd2c81cea243022b136a1cab87ef99c0a3ef0bc13c87fbed575ec481"
+    },
+    {
+      "from": "config/estilo-industrial-v02.json",
+      "to": "historico/estudos/industrial-v02/config/estilo-industrial-v02.json",
+      "sha256": "2bd53ce219ee32e8de6466e58f4738b690bc19e4fc3421f0cddeea94f8938262"
+    },
+    {
+      "from": "scripts/style_industrial_hq.py",
+      "to": "historico/estudos/industrial-v02/scripts/style_industrial_hq.py",
+      "sha256": "af5cd2da650c4146921efa381b8d113a95f3b77ddbad779c34e1315242011d46"
+    },
+    {
+      "from": "scripts/industrial_hq_delivery.py",
+      "to": "historico/estudos/industrial-v02/scripts/industrial_hq_delivery.py",
+      "sha256": "06b9e28e40d4a000aacac15aa947b5958770cb9485fde9c27df9f6fd8f67a996"
+    }
+  ]
+}

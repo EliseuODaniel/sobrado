@@ -1,0 +1,31 @@
+{
+  "timestamp_utc": "2026-11-11T02:43:49.570361+00:00",
+  "objective": "Melhorar realismo nativo dos quatro ambientes industriais, preservando arquitetura; manter versões e publicação main autorizada na tarefa anterior",
+  "base": "projeto/industrial-v01/casa-industrial.blend",
+  "candidate": "projeto/industrial-v02/casa-industrial-hq.blend",
+  "state": "Usuário rejeitou o nível de realismo; render interrompido e publicação suspensa para nova direção de acabamento",
+  "receipts": [
+    "relatorios/industrial-v02/modelo.json",
+    "relatorios/industrial-v02/previas.json",
+    "assets/industrial-v02/manifesto.json",
+    "assets/industrial-v02/manifesto-modelo.json",
+    "relatorios/industrial-v02/validacao.json"
+  ],
+  "observed": {
+    "architecture": "3326 geometrias originais mantidas; duas bancadas recebem modificador de abertura da cuba; testes de contorno passaram",
+    "assets": "13 mapas/HDRI CC0 e cinco arquivos da cadeira, baixados e verificados por MD5 e SHA-256; editor demonstrativo próprio",
+    "gpu": "RTX4070 aparece no nvidia-smi, mas OptiX e CUDA não enumeram dispositivo no Blender; teste de render usou CPU",
+    "visual": "Prévias finais inspecionadas; escala UV ativa corrigida, cimento e madeira refinados, grande reflexão da luz do quarto removida; figuras comparativas finais pendentes"
+  },
+  "remaining": [
+    "Reformular mobiliário e acabamento em uma sala principal de referência",
+    "Inspecionar ganho visual substancial antes de expandir",
+    "Preservar arquitetura e documentar limites de fidelidade"
+  ],
+  "unknowns": [
+    "Realismo é avaliação visual, não há benchmark de equivalência a Unreal",
+    "Dimensões e posição dos banheiros continuam estimadas"
+  ],
+  "render_session": 98776,
+  "latest_instruction": "Ainda não está hiper realista o suficiente; quer nível do último Unreal Engine ou o mais próximo possível"
+}

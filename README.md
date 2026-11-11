@@ -1,5 +1,46 @@
 # Casa — reconstrução e proposta industrial
 
+## Versão atual: industrial v03, inteiramente editável
+
+Cinco renderizações nativas refinam sala, sala/jantar, cozinha, lazer nos fundos e quarto dos fundos. O ganho vem de móveis detalhados, materiais fotográficos, tecidos com volume, luz e câmeras revistas. A arquitetura da revisão 10 continua preservada. Foi mantido o Blender/Cycles e habilitado render real na RTX 4070 Laptop com CUDA.
+
+- [Galeria atual](renders/industrial-v03/painel-ambientes.jpg)
+- [Comparação com as inspirações](renders/industrial-v03/referencias-e-proposta.jpg)
+- [Sala](renders/industrial-v03/sala.png), [sala integrada](renders/industrial-v03/sala-integrada.png), [cozinha](renders/industrial-v03/cozinha.png), [lazer](renders/industrial-v03/lazer-fundos.png) e [quarto](renders/industrial-v03/quarto-fundos.png)
+- [Modelo Blender editável](projeto/industrial-v03/casa-fotografica.blend)
+- [Relatório de validação e limites](relatorios/industrial-v03/RELATORIO.md)
+- [Licenças e fontes](assets/industrial-v03/README.md)
+
+As imagens são renderizações do arquivo 3D salvo, sem retoque generativo. Materiais, móveis, câmeras e luzes são editáveis. O jardim visto nas janelas é contexto de iluminação ilustrativo. O sofá Chesterfield e os eletrodomésticos vintage são escolhas desta proposta, com diferenças em relação às inspirações. O resultado visual pode ser avaliado nas comparações; não há equivalência certificada a Unreal Engine.
+
+### Abrir e editar
+
+O arquivo grande usa Git LFS. Ao clonar, execute `git lfs install` e `git lfs pull`; baixar apenas o ponteiro de texto não baixa o modelo.
+
+Abra `projeto/industrial-v03/casa-fotografica.blend` no Blender 5.2.4. Escolha uma cena `PHOTO_…`, `Num 0` para a câmera e `F12` para renderizar. A cena inicial é `PHOTO_Sala`. Guarde suas alterações com **Salvar como**, em outro arquivo; o gerador não substitui um destino existente.
+
+- Mova móveis importados pelos objetos pais `PHOTO …` no Outliner, usando `G` e `R`. Cadeiras herdadas ficam sob `HQ …`; bancada e beliche mantêm seus pais originais. Todos os elementos continuam em escala de metros.
+- Para editar vértices de um ativo importado, abra a cena `EDITAR_Ativos` e habilite no View Layer apenas a coleção `PHOTO_Ativo_…` desejada. Por padrão o sofá está visível. Alterações na malha fonte afetam suas instâncias. Para uma cópia independente, use Make Instances Real numa cópia do objeto.
+- Ajuste materiais no Shader Editor, incluindo mapas de cor, rugosidade e normal. As imagens usadas estão empacotadas. A biblioteca externa permite reimportar os originais.
+- A iluminação comum está em `PHOTO_Mobiliario`; cada cena também tem uma coleção `RIG_PHOTO_…` com painel emissivo fotográfico. São elementos de iluminação 3D editáveis. Coleções antigas e peças substituídas ficam preservadas e ocultas no render; use as cenas `PHOTO_…` para esta proposta.
+- Na interface, selecione CUDA nas preferências Cycles e a GPU nas propriedades de renderização. Se CUDA não estiver disponível na sua instalação, escolha CPU. No WSL desta máquina, o comando abaixo usa o driver correto só no processo do Blender; não muda drivers ou configurações globais.
+
+```bash
+# Renderizar novamente a partir do .blend salvo:
+python3 scripts/run_blender.py --wsl-gpu --background projeto/industrial-v03/casa-fotografica.blend \
+  --python scripts/photographic_interiors.py -- --render-only
+# Conferir o arquivo nativo em processo limpo:
+python3 scripts/run_blender.py --wsl-gpu --background projeto/industrial-v03/casa-fotografica.blend \
+  --python scripts/photographic_interiors.py -- --validate-only
+python3 scripts/run_blender.py --background projeto/industrial-v03/casa-fotografica.blend \
+  --python scripts/audit_photographic.py
+python3 scripts/photographic_delivery.py
+```
+
+`config/estilo-industrial-v03.json` define as vistas e saídas. A geração usa `projeto/fontes/casa-base-detalhada.blend`; para regenerar, escolha antes um **novo destino** no arquivo de configuração e execute o gerador a partir dessa base. `--preview` produz testes locais; `--cpu` permite renderizar sem CUDA, omitindo também `--wsl-gpu`. Os finais usam 2880 × 1800, até 768 amostras adaptativas, AgX e denoise.
+
+A base técnica intermediária e a v01 foram preservadas. O estudo v02 teve renderização interrompida por qualidade insuficiente e foi movido para [histórico de estudos](historico/estudos/industrial-v02/README.md), com manifesto dos movimentos. Rascunhos e binários históricos ficam apenas localmente. Os renders arquitetônicos em `renders/atual/` continuam sendo a referência das plantas; a v03 muda decoração e enquadramento.
+
 ## Proposta industrial v01
 
 Nova decoração para sala/jantar, cozinha, lazer nos fundos e quarto dos fundos, inspirada nas quatro imagens de `referencias-estilo-industrial/`. Cimento, madeira nogueira, aço preto, couro caramelo e iluminação quente formam a proposta. O quarto mantém o beliche e recebe bancada e detalhes de escritório. A arquitetura e os móveis herdados mantêm a geometria da revisão 10.

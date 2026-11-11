@@ -1,0 +1,149 @@
+{
+  "timestamp_utc": "2026-11-11T02:08:14.796959+00:00",
+  "license": "CC0-1.0",
+  "records": [
+    {
+      "asset": "brown_leather",
+      "channel": "Diffuse",
+      "path": "assets/industrial-v02/brown_leather/brown_leather_albedo_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_albedo_2k.jpg",
+      "source_page": "https://polyhaven.com/a/brown_leather",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "b0de2403a31efa31e501b0028c0bd8e504d5bd6318f4a5ce90c550c3067f96d8",
+      "bytes": 2137518
+    },
+    {
+      "asset": "brown_leather",
+      "channel": "Rough",
+      "path": "assets/industrial-v02/brown_leather/brown_leather_rough_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_rough_2k.jpg",
+      "source_page": "https://polyhaven.com/a/brown_leather",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "8a47afca2630310849034fe40ca9497db0956c67c0d933e6efd49d3cd2befe83",
+      "bytes": 2801956
+    },
+    {
+      "asset": "brown_leather",
+      "channel": "nor_gl",
+      "path": "assets/industrial-v02/brown_leather/brown_leather_nor_gl_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_leather/brown_leather_nor_gl_2k.jpg",
+      "source_page": "https://polyhaven.com/a/brown_leather",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "3386277290af50b4d464dc9a9f195bbf8dd6f137b9ae0274552397d2f0135c98",
+      "bytes": 3030702
+    },
+    {
+      "asset": "wood_table_001",
+      "channel": "Diffuse",
+      "path": "assets/industrial-v02/wood_table_001/wood_table_001_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/wood_table_001",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "63ae5cd186197b40f18bc020fe2b652bb08df4d9fc6240c6cbf8a7e3bc32c096",
+      "bytes": 924532
+    },
+    {
+      "asset": "wood_table_001",
+      "channel": "Rough",
+      "path": "assets/industrial-v02/wood_table_001/wood_table_001_rough_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_rough_2k.jpg",
+      "source_page": "https://polyhaven.com/a/wood_table_001",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "c788876d80e4d96598590631f8de92447fb1b0ba1265a812514ee717d270ac3e",
+      "bytes": 963377
+    },
+    {
+      "asset": "wood_table_001",
+      "channel": "nor_gl",
+      "path": "assets/industrial-v02/wood_table_001/wood_table_001_nor_gl_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_001/wood_table_001_nor_gl_2k.jpg",
+      "source_page": "https://polyhaven.com/a/wood_table_001",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "d56f02c911391267ddc6adc92e8a5bc29b9803196e8d57ad5b9702e6c842dc28",
+      "bytes": 385020
+    },
+    {
+      "asset": "grey_plaster",
+      "channel": "Diffuse",
+      "path": "assets/industrial-v02/grey_plaster/grey_plaster_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_plaster/grey_plaster_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/grey_plaster",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2cd3a4fb2723d93da0eccf9b23aced757acabc35f94b0a97fc8986fe7e4242b5",
+      "bytes": 3216521
+    },
+    {
+      "asset": "grey_plaster",
+      "channel": "Rough",
+      "path": "assets/industrial-v02/grey_plaster/grey_plaster_rough_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_plaster/grey_plaster_rough_2k.jpg",
+      "source_page": "https://polyhaven.com/a/grey_plaster",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "5b67dd0ab5d0236e073c9f138f3f822f1cf2ae51a1046da0637a657aca69511e",
+      "bytes": 2736400
+    },
+    {
+      "asset": "grey_plaster",
+      "channel": "nor_gl",
+      "path": "assets/industrial-v02/grey_plaster/grey_plaster_nor_gl_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_plaster/grey_plaster_nor_gl_2k.jpg",
+      "source_page": "https://polyhaven.com/a/grey_plaster",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "8edc6d8b8258f85ed741551f30bfee9807f3fcbfe14678f5c283435c66590e2f",
+      "bytes": 1237098
+    },
+    {
+      "asset": "denim_fabric",
+      "channel": "Diffuse",
+      "path": "assets/industrial-v02/denim_fabric/denim_fabric_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/denim_fabric",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "164fdc3adbae7eab65171b05fb43aac5e3945615cb905b37b48049b2630c56d2",
+      "bytes": 3980719
+    },
+    {
+      "asset": "denim_fabric",
+      "channel": "Rough",
+      "path": "assets/industrial-v02/denim_fabric/denim_fabric_rough_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_rough_2k.jpg",
+      "source_page": "https://polyhaven.com/a/denim_fabric",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "883d2767fb6e97b956eebf8137de75d8f2470a3a2d0e98be620bdd3e727f20fd",
+      "bytes": 2221998
+    },
+    {
+      "asset": "denim_fabric",
+      "channel": "nor_gl",
+      "path": "assets/industrial-v02/denim_fabric/denim_fabric_nor_gl_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_nor_gl_2k.jpg",
+      "source_page": "https://polyhaven.com/a/denim_fabric",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "832028890fa552e6ee758d8c63f09fccf5de01d83032affac404ddd3fa214d20",
+      "bytes": 2110796
+    },
+    {
+      "asset": "residential_garden",
+      "channel": "hdri",
+      "path": "assets/industrial-v02/residential_garden/residential_garden_2k.hdr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/residential_garden_2k.hdr",
+      "source_page": "https://polyhaven.com/a/residential_garden",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2bd38842a2e4d2b0bd75746316718f2fcd09db2b9db6c1bd334d31f37d53ec71",
+      "bytes": 6535886
+    }
+  ]
+}

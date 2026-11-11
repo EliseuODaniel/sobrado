@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-11-11T12:07:02.737455+00:00",
+  "blend_sha256": "701129c65c74fbadbd1a6697fb3ac8ef9896849a108867b1e344a1ef3df85966",
+  "renders": {
+    "renders/industrial-v03/sala.png": "ffd100b04dbaee5f495f49d12d762e1ee4302b2b970690281fc5ec8cd35f4a88",
+    "renders/industrial-v03/sala-integrada.png": "fa10eed121a9f5bbb6001fa15de449baf352516f0526deb064fb03195723fa60",
+    "renders/industrial-v03/cozinha.png": "a039bcb99561682a7f031ec753b8bbcd27ba6e4d0bb688d3f5f4b2db9f2ea12c",
+    "renders/industrial-v03/lazer-fundos.png": "957a37d1bee9ebb8a9bd426cc4c1f1e976f459913e66b33ceef87d7cda27b90c",
+    "renders/industrial-v03/quarto-fundos.png": "ca6d6482289e813bcf01558be93b6e63a8a09c5d907aab4c06321c8f5d0e7c5f"
+  },
+  "scope": "Cinco renders finais e comparações inspecionados visualmente. Avaliação qualitativa; não benchmark de Unreal.",
+  "observations": [
+    "Sofá detalhado, almofadas com dobras e cortinas com volume",
+    "Cozinha e bar com cubas profundas, madeira, metal e iluminação quente",
+    "Quarto com beliche, roupa de cama, cadeira e luminária modeladas",
+    "A referência foi adaptada à arquitetura: mobiliário, enquadramento e luz diferem",
+    "Marcenaria, geladeiras e elementos herdados ainda têm simplificações"
+  ]
+}

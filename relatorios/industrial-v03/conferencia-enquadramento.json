@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-11T04:23:37.647448+00:00",
+  "files": [
+    "renders/industrial-v03/previas/sala.png",
+    "renders/industrial-v03/sala.png"
+  ],
+  "preview_resolution": [
+    1152,
+    720
+  ],
+  "final_resolution": [
+    2880,
+    1800
+  ],
+  "mean_absolute_rgb_delta_after_downsampling": [
+    1.828392650462963,
+    1.6456983024691358,
+    1.6096908757716049
+  ],
+  "observation": "Conferência por pixels e inspeção confirmam enquadramento preservado. Diferença percebida inicialmente vinha da escala de exibição. Pequenas diferenças de sombreamento, amostragem e antialias são esperadas."
+}

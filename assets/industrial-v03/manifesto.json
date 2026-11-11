@@ -1,0 +1,1095 @@
+{
+  "timestamp_utc": "2026-11-11T02:58:14.064603+00:00",
+  "records": [
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/sofa_02_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/sofa_02/sofa_02_2k.blend",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "418e3e48fe50b0c32adfe1cc1237cc823746220954c5736fcf00b37e1a8800f6",
+      "bytes": 247569
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sofa_02/sofa_02_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "db9b3400a83372278a0cb65e998a8480f3a366199e66e242d1455265967dbd60",
+      "bytes": 4916874
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "d37c3c65d2bc4dfb9c61b8355cc0e5e0e92e34ae6affa819daa1cabe03d9e135",
+      "bytes": 323319
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_roughness_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sofa_02/sofa_02_roughness_2k.jpg",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "1d20b82b2d33c07690aea63b2e360c37fdd71120ed5f1ab2731b6694da00ca03",
+      "bytes": 405582
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_metallic_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sofa_02/sofa_02_metallic_2k.exr",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "219dea098836fbcac1fa7f971aa9aaaa691061b56b6986066bc16bb17bf8a413",
+      "bytes": 13296
+    },
+    {
+      "asset": "industrial_coffee_table",
+      "path": "assets/industrial-v03/industrial_coffee_table/industrial_coffee_table_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/industrial_coffee_table/industrial_coffee_table_2k.blend",
+      "source_page": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "4a1edabfc897853d8ccd50874cf0199af189bb992ea262aa91d70327a8e6f60a",
+      "bytes": 933458
+    },
+    {
+      "asset": "industrial_coffee_table",
+      "path": "assets/industrial-v03/industrial_coffee_table/textures/industrial_coffee_table_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_coffee_table/industrial_coffee_table_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "3012a4a3fa0f41face4d06307b352f925e55450807abded01162ba6d6628b644",
+      "bytes": 2115167
+    },
+    {
+      "asset": "industrial_coffee_table",
+      "path": "assets/industrial-v03/industrial_coffee_table/textures/industrial_coffee_table_metal_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/industrial_coffee_table/industrial_coffee_table_metal_2k.exr",
+      "source_page": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "34fdcbf33b5946a286cfc45101a9a24adff577b5d889f04bcb588700d8157e95",
+      "bytes": 1253291
+    },
+    {
+      "asset": "industrial_coffee_table",
+      "path": "assets/industrial-v03/industrial_coffee_table/textures/industrial_coffee_table_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/industrial_coffee_table/industrial_coffee_table_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "8b498cd97a4030cf770598e5eea5592af8964042b8d3636cee7ad87bd8be1602",
+      "bytes": 4099323
+    },
+    {
+      "asset": "industrial_coffee_table",
+      "path": "assets/industrial-v03/industrial_coffee_table/textures/industrial_coffee_table_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/industrial_coffee_table/industrial_coffee_table_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f4d6e614ae7c31233cb3ab67c158d3cdbe5506a9f3c671600452b5dda813b57f",
+      "bytes": 2592007
+    },
+    {
+      "asset": "throw_pillows_01",
+      "path": "assets/industrial-v03/throw_pillows_01/throw_pillows_01_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/throw_pillows_01/throw_pillows_01_2k.blend",
+      "source_page": "https://polyhaven.com/a/throw_pillows_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "ba430553adfa9831a3cf0373728db142886203c5dbc8578963a12cee3957d8af",
+      "bytes": 390419
+    },
+    {
+      "asset": "throw_pillows_01",
+      "path": "assets/industrial-v03/throw_pillows_01/textures/throw_pillows_01_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/throw_pillows_01/throw_pillows_01_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/throw_pillows_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "6467e4a8a1acd361d4eed84f539642117aa972e402313102b92771e93993cc66",
+      "bytes": 10798338
+    },
+    {
+      "asset": "throw_pillows_01",
+      "path": "assets/industrial-v03/throw_pillows_01/textures/throw_pillows_01_rough_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/throw_pillows_01/throw_pillows_01_rough_2k.jpg",
+      "source_page": "https://polyhaven.com/a/throw_pillows_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "d3e1956bfedf62d50b527bdfcfd053aabf674f4d6df931a2d8b87e554fe8b24f",
+      "bytes": 1275948
+    },
+    {
+      "asset": "throw_pillows_01",
+      "path": "assets/industrial-v03/throw_pillows_01/textures/throw_pillows_01_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/throw_pillows_01/throw_pillows_01_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/throw_pillows_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "119dc2fa364113e862fd09805bf70fc24e96119f0cefd8ecf32d18ac3dbfb831",
+      "bytes": 898774
+    },
+    {
+      "asset": "potted_plant_04",
+      "path": "assets/industrial-v03/potted_plant_04/potted_plant_04_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/potted_plant_04/potted_plant_04_2k.blend",
+      "source_page": "https://polyhaven.com/a/potted_plant_04",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "7c917f78e527ee5b882b53893c2b4dc9bc495da4f07dbb19aa7cf05428501003",
+      "bytes": 297303
+    },
+    {
+      "asset": "potted_plant_04",
+      "path": "assets/industrial-v03/potted_plant_04/textures/potted_plant_04_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/potted_plant_04/potted_plant_04_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/potted_plant_04",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "088004de42f405aaa5e14b22f9376e066d3b1ba58e957ad7a67a14697f086bcf",
+      "bytes": 1804144
+    },
+    {
+      "asset": "potted_plant_04",
+      "path": "assets/industrial-v03/potted_plant_04/textures/potted_plant_04_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/potted_plant_04/potted_plant_04_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/potted_plant_04",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "c2cc78e35e9c83bc3647aeef124dbb3343d28a0d58b713cfcb543dd795c353da",
+      "bytes": 5472710
+    },
+    {
+      "asset": "potted_plant_04",
+      "path": "assets/industrial-v03/potted_plant_04/textures/potted_plant_04_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/potted_plant_04/potted_plant_04_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/potted_plant_04",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "cb53f3ac88b49cd394a0b703e9e14ed20fae68fe79d89fae7c9fe385dcdf7415",
+      "bytes": 1458337
+    },
+    {
+      "asset": "fern_02",
+      "path": "assets/industrial-v03/fern_02/fern_02_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/fern_02/fern_02_2k.blend",
+      "source_page": "https://polyhaven.com/a/fern_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "cf721e00ed5bb72f0b9c3fb59b8febc7b2b9b2082f162d5a80ba3a11e4e7028d",
+      "bytes": 262018
+    },
+    {
+      "asset": "fern_02",
+      "path": "assets/industrial-v03/fern_02/textures/fern_02_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/fern_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "9ee18172170728050871772e2cd6d8d37b52f9138e61b49b04486623f9caf84b",
+      "bytes": 993703
+    },
+    {
+      "asset": "fern_02",
+      "path": "assets/industrial-v03/fern_02/textures/fern_02_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fern_02/fern_02_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/fern_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2787b69707c37a4b90627085f36e818b13816c6587aa0d06c5c6d004ccde7557",
+      "bytes": 2895843
+    },
+    {
+      "asset": "fern_02",
+      "path": "assets/industrial-v03/fern_02/textures/fern_02_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fern_02/fern_02_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/fern_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "877fd64af4d815a2522700c676b2c32c6f075ce8bca59c6a2d267309b2fca550",
+      "bytes": 901394
+    },
+    {
+      "asset": "fern_02",
+      "path": "assets/industrial-v03/fern_02/textures/fern_02_alpha_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_alpha_2k.png",
+      "source_page": "https://polyhaven.com/a/fern_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f51eb9b8f9f4b25a882f8fe12d1ef53ba69448bac7e71396ec1f05b684e9ea75",
+      "bytes": 230089
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/industrial_wall_lamp_1k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/industrial_wall_lamp/industrial_wall_lamp_1k.blend",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "53a23bd59525380e39efa019de98ce090c3862903983d8487e1b664fe5bb1672",
+      "bytes": 220041
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_diff_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_wall_lamp/industrial_wall_lamp_diff_1k.jpg",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "e0f824b7e639fceb7ca5b7b7f67a8168bc53db184b818770126167d16d424b2e",
+      "bytes": 669629
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_emissive_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/industrial_wall_lamp/industrial_wall_lamp_emissive_1k.png",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "35bbfaa9b11fe33fdeef65b99d182acb36c3019a80eb99de9aa0c48a7a3e92f7",
+      "bytes": 339464
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_glass_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/industrial_wall_lamp/industrial_wall_lamp_glass_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "6a2ae3029147751efff4fa8b9af3206b6ad7e125745c6d16839d764829a33943",
+      "bytes": 1041085
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_glass_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/industrial_wall_lamp/industrial_wall_lamp_glass_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f5e350e6c5015b0d8f97aa60ce16f1a84d25d039398d0e36ea830265bf12e101",
+      "bytes": 4741827
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_glass_nor_gl_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/industrial_wall_lamp/industrial_wall_lamp_glass_nor_gl_1k.png",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "64e62e54070f3488630e8f16fd3924333d8a77576fd0792d57857321d1b0a83f",
+      "bytes": 4372238
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_glass_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/industrial_wall_lamp/industrial_wall_lamp_glass_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2e66f90027a31582cde193283dbcef8a7ebb1e5a04fdc82cdfd98f53bbe6e1f1",
+      "bytes": 1344178
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_nor_gl_1k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_wall_lamp/industrial_wall_lamp_nor_gl_1k.exr",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "df735d457ea7ee61f8d96ee879311641d17df5b5dd9c77005d6eb3715d9cf212",
+      "bytes": 1597413
+    },
+    {
+      "asset": "industrial_wall_lamp",
+      "path": "assets/industrial-v03/industrial_wall_lamp/textures/industrial_wall_lamp_rough_1k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/industrial_wall_lamp/industrial_wall_lamp_rough_1k.exr",
+      "source_page": "https://polyhaven.com/a/industrial_wall_lamp",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "fc57472a9e3d4bb4a2b6baee02462bcfec6adfde1082fad59847a6aaa1043f0b",
+      "bytes": 663466
+    },
+    {
+      "asset": "floor_tiles_02",
+      "path": "assets/industrial-v03/floor_tiles_02/floor_tiles_02_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/floor_tiles_02/floor_tiles_02_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/floor_tiles_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "9a4e5acbb6c71e03979cc75fe1121ae0dc66583153cab9f32116c79e33707634",
+      "bytes": 1381118
+    },
+    {
+      "asset": "floor_tiles_02",
+      "path": "assets/industrial-v03/floor_tiles_02/floor_tiles_02_rough_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/floor_tiles_02/floor_tiles_02_rough_2k.jpg",
+      "source_page": "https://polyhaven.com/a/floor_tiles_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "95007052c6cc7a92284a5cea92ebdaecbfae6fcdd6dfd6ac443e2af43ddcd9a6",
+      "bytes": 1214592
+    },
+    {
+      "asset": "floor_tiles_02",
+      "path": "assets/industrial-v03/floor_tiles_02/floor_tiles_02_nor_gl_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/floor_tiles_02/floor_tiles_02_nor_gl_2k.jpg",
+      "source_page": "https://polyhaven.com/a/floor_tiles_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "0c0d11a6ee43f523131db810720e4232ff35f05c126a7959d499a715294a1ad6",
+      "bytes": 540151
+    },
+    {
+      "asset": "garden_nook",
+      "path": "assets/industrial-v03/garden_nook/garden_nook_2k.hdr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/garden_nook_2k.hdr",
+      "source_page": "https://polyhaven.com/a/garden_nook",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "fe1cbe0b62d5a4696626afc7b66d172a8de670b9092af1fdee9302d86748fde1",
+      "bytes": 7279910
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/sofa_02_4k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/sofa_02/sofa_02_4k.blend",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "988b30ccc577ff0d8ce0ab0716de7db8ea2e40079f9ce6e671a955d678baea00",
+      "bytes": 247662
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_metallic_4k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sofa_02/sofa_02_metallic_4k.exr",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "1a72eac27d5b30e789aeaf1228d1dacf508a9e1f6f0dacd871bfd64d6672f066",
+      "bytes": 42864
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_roughness_4k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sofa_02/sofa_02_roughness_4k.jpg",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "e4db60259be80764750cee1ca1a5588bd1c3019223dad3be04ff12327acb1fbb",
+      "bytes": 1928402
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_diff_4k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sofa_02/sofa_02_diff_4k.jpg",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "643609b157f61a5e2b5cd945d75a34ab2380fcd1cf40976285814840759f37c0",
+      "bytes": 1333400
+    },
+    {
+      "asset": "sofa_02",
+      "path": "assets/industrial-v03/sofa_02/textures/sofa_02_nor_gl_4k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sofa_02/sofa_02_nor_gl_4k.exr",
+      "source_page": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "92e35fa331a6b75d8ead49f775624bcfe00f7a727630f35e2800e462ac8b8b57",
+      "bytes": 20835863
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/potted_plant_01_1k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/potted_plant_01/potted_plant_01_1k.blend",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "7ec6c8782889627ff251240e52ee3d4e601bb64d8d2ab2dc682bc78f049b11ab",
+      "bytes": 2784361
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_pot_nor_gl_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_pot_nor_gl_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "70fdafbdede97cd1c811007002026ccc5ecbde74db1114ed4f90c75a2c4d78a9",
+      "bytes": 4818586
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_leaves_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_leaves_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "83d339ea0c13609fff151afd778d5625bc42eacf5e60454eedabf0b571b0bbaf",
+      "bytes": 3368765
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_pot_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_pot_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f4f4232fb21f7aa33caca8ee1fd7acedfc437c46d635b09f636c12b057759e6f",
+      "bytes": 1629094
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_leaves_nor_gl_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_leaves_nor_gl_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "a5b928cdcbade2872edd19d239de6110e047e31113524ba8a931853b4f9a0916",
+      "bytes": 4012816
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_pot_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_pot_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "db986d79c9af9d10463ba3c8400bfaa7d2271e0a94cd0607b07e29e7053be3a8",
+      "bytes": 4849826
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_leaves_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_leaves_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "380ff44359f128b7cf0e2912b378a0f61f4b0d8e8707dbe043c92465d82e9592",
+      "bytes": 90654
+    },
+    {
+      "asset": "potted_plant_01",
+      "path": "assets/industrial-v03/potted_plant_01/textures/potted_plant_01_leaves_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/potted_plant_01/potted_plant_01_leaves_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/potted_plant_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "8b3332d70c9d955a108ef38077121588d30d9866a54c2992fe6a5d1c43e92124",
+      "bytes": 1059300
+    },
+    {
+      "asset": "metal_stool_01",
+      "path": "assets/industrial-v03/metal_stool_01/metal_stool_01_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/metal_stool_01/metal_stool_01_2k.blend",
+      "source_page": "https://polyhaven.com/a/metal_stool_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "994446060635c9cff2c7911f14f4f94f443a7923a62e4ad1dc6dad3337842cd7",
+      "bytes": 284447
+    },
+    {
+      "asset": "metal_stool_01",
+      "path": "assets/industrial-v03/metal_stool_01/textures/metal_stool_01_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_01/metal_stool_01_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/metal_stool_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "33252d4df87ebc9250382a63aa5ea5aba27c131eef21dc610c2e2797c9c9b656",
+      "bytes": 2422250
+    },
+    {
+      "asset": "metal_stool_01",
+      "path": "assets/industrial-v03/metal_stool_01/textures/metal_stool_01_metal_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_stool_01/metal_stool_01_metal_2k.exr",
+      "source_page": "https://polyhaven.com/a/metal_stool_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "de67de6c123be113deddcc3b5be9b82bfd6080b65b6b27571f27a90a4fe22f6a",
+      "bytes": 1024302
+    },
+    {
+      "asset": "metal_stool_01",
+      "path": "assets/industrial-v03/metal_stool_01/textures/metal_stool_01_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_stool_01/metal_stool_01_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/metal_stool_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "c960bec0a2c5834780a94373d06cc812267efbf5b7f0f356cd5e6354470b21b6",
+      "bytes": 6350929
+    },
+    {
+      "asset": "metal_stool_01",
+      "path": "assets/industrial-v03/metal_stool_01/textures/metal_stool_01_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_stool_01/metal_stool_01_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/metal_stool_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "32fed820aca28ea0ddfa7003e26fe019047b55d30c04ac2ec0f2847f609b530b",
+      "bytes": 2797542
+    },
+    {
+      "asset": "desk_lamp_arm_01",
+      "path": "assets/industrial-v03/desk_lamp_arm_01/desk_lamp_arm_01_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/desk_lamp_arm_01/desk_lamp_arm_01_2k.blend",
+      "source_page": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "798e9046f65c01e39a4a2ef2200a6cdbc20f5867705e34a04bfc067390ff2fec",
+      "bytes": 802957
+    },
+    {
+      "asset": "desk_lamp_arm_01",
+      "path": "assets/industrial-v03/desk_lamp_arm_01/textures/desk_lamp_arm_01_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/desk_lamp_arm_01/desk_lamp_arm_01_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "233c58c11c924db2a04622c09695509d2612f60f3b42d9407b592508aec809cf",
+      "bytes": 4633095
+    },
+    {
+      "asset": "desk_lamp_arm_01",
+      "path": "assets/industrial-v03/desk_lamp_arm_01/textures/desk_lamp_arm_01_mask01_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/desk_lamp_arm_01/desk_lamp_arm_01_mask01_2k.png",
+      "source_page": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "dd3dde689c7a5b09417aab463ce8e78bb7d9b5321e40a0d01b3c1d3af7d02647",
+      "bytes": 21479
+    },
+    {
+      "asset": "desk_lamp_arm_01",
+      "path": "assets/industrial-v03/desk_lamp_arm_01/textures/desk_lamp_arm_01_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/desk_lamp_arm_01/desk_lamp_arm_01_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f056008b2b5ebf588acfe5d5906fe85f13cf6c01a7016d135ae82848ef628518",
+      "bytes": 5306315
+    },
+    {
+      "asset": "desk_lamp_arm_01",
+      "path": "assets/industrial-v03/desk_lamp_arm_01/textures/desk_lamp_arm_01_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/desk_lamp_arm_01/desk_lamp_arm_01_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "c5f8c5be367a40585f89ce0aeac0224e36146eef63c12864222af080a9784869",
+      "bytes": 2438937
+    },
+    {
+      "asset": "desk_lamp_arm_01",
+      "path": "assets/industrial-v03/desk_lamp_arm_01/textures/desk_lamp_arm_01_metal_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/desk_lamp_arm_01/desk_lamp_arm_01_metal_2k.exr",
+      "source_page": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "269268870cd731ee8c6d4af777182c499c3dc40438ade01a8c495e752c4427a8",
+      "bytes": 2804270
+    },
+    {
+      "asset": "electric_stove",
+      "path": "assets/industrial-v03/electric_stove/electric_stove_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/electric_stove/electric_stove_2k.blend",
+      "source_page": "https://polyhaven.com/a/electric_stove",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "853d4f2301e807653e79a7abd24de1e134fbc3074c2d50ee7672659ffa404090",
+      "bytes": 511187
+    },
+    {
+      "asset": "electric_stove",
+      "path": "assets/industrial-v03/electric_stove/textures/electric_stove_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/electric_stove/electric_stove_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/electric_stove",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "8be7e6fadc64fe47f847751af090a7950bcc876c4049203ef6c56368260dc752",
+      "bytes": 3532279
+    },
+    {
+      "asset": "electric_stove",
+      "path": "assets/industrial-v03/electric_stove/textures/electric_stove_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/electric_stove/electric_stove_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/electric_stove",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "d614a4e88934e0cfa641b02f855d67141341412ff98791e94d549d8d26aacc37",
+      "bytes": 1614960
+    },
+    {
+      "asset": "electric_stove",
+      "path": "assets/industrial-v03/electric_stove/textures/electric_stove_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/electric_stove/electric_stove_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/electric_stove",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "4dd9c38d64759d2d67e3b7b0c4237723d04165ee1d6ee148665c9e0e008b4507",
+      "bytes": 3252021
+    },
+    {
+      "asset": "electric_stove",
+      "path": "assets/industrial-v03/electric_stove/textures/electric_stove_opacity_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/electric_stove/electric_stove_opacity_2k.png",
+      "source_page": "https://polyhaven.com/a/electric_stove",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "3f009b101d2338e004da6c50e7276383d14582413056de3386cf3e9f247af150",
+      "bytes": 72905
+    },
+    {
+      "asset": "electric_stove",
+      "path": "assets/industrial-v03/electric_stove/textures/electric_stove_metal_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/electric_stove/electric_stove_metal_2k.exr",
+      "source_page": "https://polyhaven.com/a/electric_stove",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "b3792f15bc8cd2a12a36f4c925544d6b8a895b134bf9ed4d10a550204c25e304",
+      "bytes": 2000937
+    },
+    {
+      "asset": "vintage_microwave",
+      "path": "assets/industrial-v03/vintage_microwave/vintage_microwave_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/vintage_microwave/vintage_microwave_2k.blend",
+      "source_page": "https://polyhaven.com/a/vintage_microwave",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "ff902f394e814fc40495482dd877784f2f53bf9375de39bd53752e4533a1a0e7",
+      "bytes": 325117
+    },
+    {
+      "asset": "vintage_microwave",
+      "path": "assets/industrial-v03/vintage_microwave/textures/vintage_microwave_alpha_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/vintage_microwave/vintage_microwave_alpha_2k.png",
+      "source_page": "https://polyhaven.com/a/vintage_microwave",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "69b8175bb6e17ba28ff0a3a90c060043e1a98f441246ba29b1665d0b8f045519",
+      "bytes": 308469
+    },
+    {
+      "asset": "vintage_microwave",
+      "path": "assets/industrial-v03/vintage_microwave/textures/vintage_microwave_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_microwave/vintage_microwave_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/vintage_microwave",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "b69743571d5a0fc12399429ab6913721e8d260f60abdb7079351c4a459ab13ec",
+      "bytes": 1699192
+    },
+    {
+      "asset": "vintage_microwave",
+      "path": "assets/industrial-v03/vintage_microwave/textures/vintage_microwave_metal_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_microwave/vintage_microwave_metal_2k.exr",
+      "source_page": "https://polyhaven.com/a/vintage_microwave",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "0cef1c44fcb980c80ffccb82b9403f6d0335a0cd0adc54761aa82cb5c97f4d2a",
+      "bytes": 551315
+    },
+    {
+      "asset": "vintage_microwave",
+      "path": "assets/industrial-v03/vintage_microwave/textures/vintage_microwave_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_microwave/vintage_microwave_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/vintage_microwave",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "296c6e04085ec5c8c65497a537d6cb15fef6bd11e66c1da1f9f88cf6009a0fab",
+      "bytes": 2100010
+    },
+    {
+      "asset": "vintage_microwave",
+      "path": "assets/industrial-v03/vintage_microwave/textures/vintage_microwave_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_microwave/vintage_microwave_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/vintage_microwave",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f8f617d562c00a10281fdee07d6dc166a05fcbedcef718f6c2a03391af4cf841",
+      "bytes": 2009245
+    },
+    {
+      "asset": "vintage_electric_kettle",
+      "path": "assets/industrial-v03/vintage_electric_kettle/vintage_electric_kettle_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/vintage_electric_kettle/vintage_electric_kettle_2k.blend",
+      "source_page": "https://polyhaven.com/a/vintage_electric_kettle",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "7b3f327d7a4833ba8acbfb3eb4ba48e2bf6e5dabc88c491a33ac5e709bdbefc7",
+      "bytes": 402843
+    },
+    {
+      "asset": "vintage_electric_kettle",
+      "path": "assets/industrial-v03/vintage_electric_kettle/textures/vintage_electric_kettle_alpha_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/vintage_electric_kettle/vintage_electric_kettle_alpha_2k.png",
+      "source_page": "https://polyhaven.com/a/vintage_electric_kettle",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "44ed458917ecc3307d67b0990e25093a369b85ae098a73dd2a56636170a1f228",
+      "bytes": 114164
+    },
+    {
+      "asset": "vintage_electric_kettle",
+      "path": "assets/industrial-v03/vintage_electric_kettle/textures/vintage_electric_kettle_diff_2k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/vintage_electric_kettle/vintage_electric_kettle_diff_2k.jpg",
+      "source_page": "https://polyhaven.com/a/vintage_electric_kettle",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "6861d30b8cbeab6214d4afb5793fd7b2147a356aca3f437a3aaf06c2acb65a6e",
+      "bytes": 1995436
+    },
+    {
+      "asset": "vintage_electric_kettle",
+      "path": "assets/industrial-v03/vintage_electric_kettle/textures/vintage_electric_kettle_metal_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_electric_kettle/vintage_electric_kettle_metal_2k.exr",
+      "source_page": "https://polyhaven.com/a/vintage_electric_kettle",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f3d0faeb02356605cb71e1896c55d252935be47dd6d5f8c9387a900c993ed133",
+      "bytes": 1704616
+    },
+    {
+      "asset": "vintage_electric_kettle",
+      "path": "assets/industrial-v03/vintage_electric_kettle/textures/vintage_electric_kettle_nor_gl_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_electric_kettle/vintage_electric_kettle_nor_gl_2k.exr",
+      "source_page": "https://polyhaven.com/a/vintage_electric_kettle",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2e77502907e4106e79cac8473860f799c1d74ecd945ad2493e63ad1365b48632",
+      "bytes": 5589504
+    },
+    {
+      "asset": "vintage_electric_kettle",
+      "path": "assets/industrial-v03/vintage_electric_kettle/textures/vintage_electric_kettle_rough_2k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/vintage_electric_kettle/vintage_electric_kettle_rough_2k.exr",
+      "source_page": "https://polyhaven.com/a/vintage_electric_kettle",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "5e38091ad30a29fb250e3891ac86b260895e88e382a79c767db31f8c3b839012",
+      "bytes": 2217099
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/book_encyclopedia_set_01_2k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_2k.blend",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "76019d7de4f90fc12aa82c6d9b9b6c89e03e773a3954100910883ed94f55171f",
+      "bytes": 1619208
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_roughness_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_paper_roughness_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "034cb60d6a3b75a9ffafd12522837ada345f3a5c9eb189b7414819a6be088982",
+      "bytes": 8597
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_diff_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_cover_diff_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "9f93800db579470c7ab2f198890d191973b94593a8c797ed825aaa10bc030ad0",
+      "bytes": 3727355
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_nor_gl_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_cover_nor_gl_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "a734f1dd24a262f29486433469fb1c8d38066ccfe1a2095ac94c19f4c541e519",
+      "bytes": 62824
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_metallic_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_cover_metallic_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "d1f9aca3d619f3e7b1b824c6709cc566fc7dd70469442c6dac57b4c8b3655a59",
+      "bytes": 70467
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_cover_roughness_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_cover_roughness_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "027ee5965aa46766b6ed1f3a9e8b7e2d912c7056b950bcde09f956cc7b6fc8b5",
+      "bytes": 2059998
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_nor_gl_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_paper_nor_gl_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "fc467eb9a4ea4ffc0222513594768c881dbf147cd7a2294814c9cd8deb3c8d3f",
+      "bytes": 1374815
+    },
+    {
+      "asset": "book_encyclopedia_set_01",
+      "path": "assets/industrial-v03/book_encyclopedia_set_01/textures/book_encyclopedia_set_01_paper_diff_2k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/book_encyclopedia_set_01/book_encyclopedia_set_01_paper_diff_2k.png",
+      "source_page": "https://polyhaven.com/a/book_encyclopedia_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "9ef4c115773d0b3a403b5c887b29cc39277ea7b045608d1343a736dba9a38d91",
+      "bytes": 1041521
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/wine_bottles_01_1k.blend",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/wine_bottles_01/wine_bottles_01_1k.blend",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "b03380a94e5c8b8e44ce2b01daf93579543c7d2855afd2282953de6de1d05f95",
+      "bytes": 787649
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_intertwine_01_metal_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_intertwine_01_metal_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "9c531cc931bbed3888039de5044db0083b5aa5d77c7169d96576571650c9fd20",
+      "bytes": 41622
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_intertwine_01_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_intertwine_01_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "017cb3316196e2bccf5967dfa68e2e385f3310be85d95528ddcd03b05798e778",
+      "bytes": 143653
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_01_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_01_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "b1ac84c8f46077c98cff03421d8c23767b71b5d2a856a582cf26f349c13d59eb",
+      "bytes": 291695
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_02_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_02_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "4fd0554f84d0e038ee78210581f36fa98b9d34259360515396942894724f8769",
+      "bytes": 5618
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_02_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_02_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f626558997ce886b63bbc31a36ff5624e3ed109841896a6c1c88bfc16ae1fd14",
+      "bytes": 395996
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_01_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_01_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2caa9e0ea9fa79f99f034bd1b66476c6a3650086c5a6a0db3082dddbbf24438a",
+      "bytes": 12381
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_clearwater_crystals_01_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_clearwater_crystals_01_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "29f2055084dc301ad9ec8f4474f9faf525027973503eb2b2e6010aee0bb29a6a",
+      "bytes": 100337
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_02_metal_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_02_metal_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "026cb88e190931d1e5bd606ac5017d18c03b1a1131a433dd440eb7c44aaec6ec",
+      "bytes": 213351
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_paper_nor_gl_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_paper_nor_gl_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "7c4fd8880b98208c14777d7594dd7621e32598da586bc5e0a9db2ad0618a60e7",
+      "bytes": 5767211
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_metal_1k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wine_bottles_01/wine_bottles_01_metal_1k.exr",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "d0c21f67d70eb6300d8089656cf782e56e199fd8dd9b415175ca8112261105c6",
+      "bytes": 15594
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_intertwine_01_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_intertwine_01_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "8d571389ff63bd1b4972175ac272100bf65e52e64d1a303524715f5a17bf0ef2",
+      "bytes": 51557
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_01_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_01_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "1d94492b10f46e12b9866aa8ec05cb5bbbf79c6ea436fee4482d19dd2ae0a4ad",
+      "bytes": 227439
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_02_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_02_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "afd91bdb7d18f33521a6491edd551e07ba46dbf8a25994ada476d07c0f855d75",
+      "bytes": 268514
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_clearwater_crystals_01_diff_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_clearwater_crystals_01_diff_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "a00cf3f1eaa334ab262dee63f58cff1a0fa2350dfa1d50df37315998123abfc8",
+      "bytes": 104311
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_ftero_vinea_01_metal_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_ftero_vinea_01_metal_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "e73b7f3057e5e7d31af84ad3ac8e2859579a6d8ac763c57392adbef11e475139",
+      "bytes": 140972
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_rough_1k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wine_bottles_01/wine_bottles_01_rough_1k.exr",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "335894f69c45e72b91f4986d4b7308b2e5103df26afea7507806560cd4fd97d5",
+      "bytes": 979528
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_intertwine_01_rough_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_intertwine_01_rough_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "3807014b4b4f1cb46241aa72da630a71b4ac8d76a62d055dd1aa87f7780452d8",
+      "bytes": 75838
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_diff_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wine_bottles_01/wine_bottles_01_diff_1k.jpg",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f440b6364c87eb440c9ca201759cfdaf2735e3147488eadc24be334f1e457a09",
+      "bytes": 110230
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "7eb24aa69109db7d3b61e712fe27ff276dad0e13de2adfd1fb8807775a431e31",
+      "bytes": 5249
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_nor_gl_1k.exr",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/wine_bottles_01/wine_bottles_01_nor_gl_1k.exr",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "3cda57d3a05a18dfbc5cf9f8c2bbda59c3b323bcdb15eef3afcb08eb251443ff",
+      "bytes": 425907
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_clearwater_crystals_01_metal_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_clearwater_crystals_01_metal_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "f411f5d2e67fede7f090edf212dc7cb340e8226464aa7be885557b1da3cb183b",
+      "bytes": 82981
+    },
+    {
+      "asset": "wine_bottles_01",
+      "path": "assets/industrial-v03/wine_bottles_01/textures/wine_bottles_01_label_clearwater_crystals_01_alpha_1k.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/wine_bottles_01/wine_bottles_01_label_clearwater_crystals_01_alpha_1k.png",
+      "source_page": "https://polyhaven.com/a/wine_bottles_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "sha256": "2bc2b281b48e39808cdf174c0ac66dfcea806e3f9ccc96b4476bc064d500abda",
+      "bytes": 19981
+    }
+  ]
+}

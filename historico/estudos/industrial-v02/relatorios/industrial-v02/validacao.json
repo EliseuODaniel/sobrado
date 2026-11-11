@@ -1,0 +1,119 @@
+{
+  "timestamp_utc": "2026-11-11T02:37:13.385027+00:00",
+  "blend_sha256": "70980ced81d16e89c38d458d3f2c6e021d0c6da3d5c9e42b9d669846a5cff09a",
+  "source_geometries_checked": 3326,
+  "expected_furniture_changes": [
+    "Bancada pia cozinha",
+    "Bar tampo granito"
+  ],
+  "envelope": {
+    "checks": {
+      "mesmo_contorno_do_corpo_principal": {
+        "passed": true,
+        "detail": {
+          "terreo": [
+            0.0,
+            5.599999904632568,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "superior": [
+            0.0,
+            5.600000381469727,
+            -1.649999976158142,
+            7.600000381469727
+          ],
+          "expected": [
+            0,
+            5.6,
+            -1.65,
+            7.6
+          ]
+        }
+      },
+      "cobertura_das_lajes_sem_faixas_ausentes": {
+        "passed": true,
+        "detail": {
+          "cells_tested": 12,
+          "differences": [],
+          "upper_stair_voids": [
+            [
+              4.41,
+              5.6,
+              2.2,
+              3.92
+            ]
+          ]
+        }
+      },
+      "fundos_wcs_quarto_coplanares_com_cozinha": {
+        "passed": true,
+        "detail": {
+          "exterior_face_upper": {
+            "S1 limite posterior estimado peitoril": 7.674999713897705,
+            "S1 limite posterior estimado trecho": 7.674999713897705,
+            "S1 limite posterior estimado trecho final": 7.674999713897705,
+            "S1 limite posterior estimado verga": 7.674999713897705
+          },
+          "exterior_face_kitchen": {
+            "Parede janela cozinha peitoril": 7.674999713897705,
+            "Parede janela cozinha trecho": 7.674999713897705,
+            "Parede janela cozinha trecho final": 7.674999713897705,
+            "Parede janela cozinha verga": 7.674999713897705
+          },
+          "expected_exterior_face_y": 7.675,
+          "axis_y": 7.6
+        }
+      }
+    },
+    "all_passed": true,
+    "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural."
+  },
+  "missing_images": [],
+  "active_metric_uv": {
+    "Bar frente madeira": true,
+    "Churrasqueira revestimento madeira frontal": true,
+    "Escrivaninha quarto fundos": true,
+    "HQ assento sofá": true
+  },
+  "cameras": {
+    "HQ_Sala": {
+      "position": [
+        1.7799999713897705,
+        0.41999998688697815,
+        1.600000023841858
+      ],
+      "lens": 21.0,
+      "same_as_v01": true
+    },
+    "HQ_Cozinha": {
+      "position": [
+        3.5,
+        5.320000171661377,
+        1.4800000190734863
+      ],
+      "lens": 19.0,
+      "same_as_v01": true
+    },
+    "HQ_Lazer": {
+      "position": [
+        2.700000047683716,
+        7.849999904632568,
+        1.5800000429153442
+      ],
+      "lens": 19.0,
+      "same_as_v01": true
+    },
+    "HQ_Quarto": {
+      "position": [
+        3.6500000953674316,
+        4.519999980926514,
+        4.489999771118164
+      ],
+      "lens": 20.0,
+      "same_as_v01": true
+    }
+  },
+  "base_preserved": true,
+  "all_passed": true
+}
