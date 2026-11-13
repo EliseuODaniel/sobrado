@@ -1,0 +1,17 @@
+{
+  "root": "/mnt/c/Users/edann/AppData/Local/Temp/CasaInteriores/industrial-v06",
+  "files_verified": [
+    "config/estilo-industrial-v06.json",
+    "projeto/industrial-v06/casa-industrial-fotorrealista.blend",
+    "relatorios/industrial-v06/modelo.json",
+    "scripts/industrial_bar_policy.py",
+    "scripts/industrial_photoreal.py",
+    "scripts/industrial_photoreal_data.py",
+    "scripts/industrial_photoreal_details.py",
+    "scripts/industrial_photoreal_furniture.py",
+    "scripts/industrial_photoreal_materials.py",
+    "scripts/industrial_photoreal_render_native.py"
+  ],
+  "blend_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "note": "Cópias locais temporárias; os resultados são conferidos e copiados de volta ao projeto."
+}

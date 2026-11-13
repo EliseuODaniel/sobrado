@@ -1,0 +1,38 @@
+[
+  {
+    "photo": "referencias-originais/sala1.webp",
+    "photo_sha256": "45783b9547a24e8747ec1f6745b2c5ef52415635ffca5d5d9e4ec4f11a696851",
+    "render": "renders/atual/02-ambientes/sala-fundos.png",
+    "file": "renders/atual/04-comparacoes/foto-modelo-sala.jpg"
+  },
+  {
+    "photo": "referencias-originais/cozinha1.webp",
+    "photo_sha256": "b16aa660874651851a3a872679832cd6a51091d57a75033838cc219e88070c80",
+    "render": "renders/atual/02-ambientes/cozinha.png",
+    "file": "renders/atual/04-comparacoes/foto-modelo-cozinha.jpg"
+  },
+  {
+    "photo": "referencias-originais/area1.webp",
+    "photo_sha256": "b2ad9d582bc588114fcc79fb1a7940824b9cc9a4598aaa237cfdd395b6c3768c",
+    "render": "renders/atual/02-ambientes/bar.png",
+    "file": "renders/atual/04-comparacoes/foto-modelo-lazer.jpg"
+  },
+  {
+    "photo": "referencias-originais/lavanderia1.webp",
+    "photo_sha256": "9bcd7d49912e4cea23e63af413d717646c7259dbe2a976218a1948ae3d7592b6",
+    "render": "renders/atual/02-ambientes/lavanderia.png",
+    "file": "renders/atual/04-comparacoes/foto-modelo-lavanderia.jpg"
+  },
+  {
+    "photo": "referencias-originais/quartosuite1.webp",
+    "photo_sha256": "85e94b72addf29cb79c37ce2f49665f1f3d4e43e5011af79aa1c2b5f32560579",
+    "render": "renders/atual/02-ambientes/suite.png",
+    "file": "renders/atual/04-comparacoes/foto-modelo-suite.jpg"
+  },
+  {
+    "photo": "referencias-originais/quartoazul1.webp",
+    "photo_sha256": "d7a13345fe9d99a006155071e7da839cb01c18216771c9fe87cf92ae17117799",
+    "render": "renders/atual/02-ambientes/quarto-fundos.png",
+    "file": "renders/atual/04-comparacoes/foto-modelo-quarto-fundos.jpg"
+  }
+]

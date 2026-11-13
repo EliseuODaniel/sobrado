@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sala-foto",
+    "file": "renders/atual/02-ambientes/sala-foto.png",
+    "sha256": "1a66c58c6ca6729a56c63e7ea8d06aee6f78567716116b8c7439409fdeb81aba",
+    "blend_sha256": "046cd1415dce0b5ce2f028569b2b3e087f2f3cf43f1db5e815bbf024f2b8d529",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": false,
+    "resolution": [
+      3840,
+      2880
+    ],
+    "samples": 512,
+    "adaptive_threshold": 0.00800000037997961,
+    "seconds": 465.31,
+    "timestamp_utc": "2026-11-13T09:48:17.460048+00:00"
+  }
+]

@@ -1,0 +1,56 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.283  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07.blend"
+00:00.560  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.560  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:02.908  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/planta-terreo-humanizada.png'
+R07_RENDER_OK planta-terreo-humanizada 2.31
+00:04.740  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/planta-superior-humanizada.png'
+R07_RENDER_OK planta-superior-humanizada 1.8
+00:07.099  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/terreo-3d.png'
+R07_RENDER_OK terreo-3d 2.29
+00:09.182  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/superior-3d.png'
+R07_RENDER_OK superior-3d 2.04
+00:12.027  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/volumetria.png'
+R07_RENDER_OK volumetria 2.74
+00:14.549  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/fachada.png'
+R07_RENDER_OK fachada 2.43
+00:17.275  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/fundos.png'
+R07_RENDER_OK fundos 2.64
+00:20.013  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/cobertura.png'
+R07_RENDER_OK cobertura 2.63
+00:22.859  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/sala-integrada.png'
+R07_RENDER_OK sala-integrada 2.82
+00:25.725  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/sala.png'
+R07_RENDER_OK sala 2.81
+00:28.494  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/sala-tv.png'
+R07_RENDER_OK sala-tv 2.71
+00:31.400  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/jantar.png'
+R07_RENDER_OK jantar 2.84
+00:34.269  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/cozinha.png'
+R07_RENDER_OK cozinha 2.8
+00:37.117  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/cozinha-reversa.png'
+R07_RENDER_OK cozinha-reversa 2.78
+00:40.030  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/escada-acesso.png'
+R07_RENDER_OK escada-acesso 2.85
+00:43.034  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/lavabo.png'
+R07_RENDER_OK lavabo 2.94
+00:45.539  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/suite.png'
+R07_RENDER_OK suite 2.45
+00:47.897  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/quarto-frente.png'
+R07_RENDER_OK quarto-frente 2.3
+00:50.225  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/quarto-fundos.png'
+R07_RENDER_OK quarto-fundos 2.28
+00:52.707  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/banheiro-suite.png'
+R07_RENDER_OK banheiro-suite 2.43
+00:55.287  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/banheiro-social.png'
+R07_RENDER_OK banheiro-social 2.53
+00:58.057  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/sacada.png'
+R07_RENDER_OK sacada 2.67
+01:01.033  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/lazer-fundos.png'
+R07_RENDER_OK lazer-fundos 2.86
+01:05.739  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/lavanderia.png'
+R07_RENDER_OK lavanderia 4.6
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

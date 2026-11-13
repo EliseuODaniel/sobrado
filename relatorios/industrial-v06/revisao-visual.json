@@ -1,0 +1,178 @@
+{
+  "timestamp_utc": "2026-11-13T08:22:00.926323+00:00",
+  "blend_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "stage": "final_delivery_reviewed",
+  "reviewed_ids": [
+    "sala-integrada-dia",
+    "sala-integrada-noite",
+    "bar-dia",
+    "bar-noite",
+    "escritorio-dia",
+    "escritorio-noite",
+    "planta-terreo",
+    "planta-superior",
+    "terreo-3d",
+    "superior-3d",
+    "sala-fundos",
+    "sala-frente",
+    "cozinha",
+    "cozinha-reversa",
+    "bar",
+    "lavanderia",
+    "fundos-abertos",
+    "divisao-lazer-lavanderia",
+    "escada-acesso",
+    "escada-superior",
+    "lavabo",
+    "suite",
+    "quarto-frente",
+    "quarto-fundos",
+    "fachada-frontal",
+    "volumetria",
+    "sala-tv",
+    "mesa-jantar",
+    "bar-detalhe",
+    "escritorio-alternativa",
+    "escritorio-reverso"
+  ],
+  "sheets": [
+    "relatorios/industrial-v06/revisao-final-previas-1.jpg",
+    "relatorios/industrial-v06/revisao-final-previas-2.jpg",
+    "relatorios/industrial-v06/revisao-final-previas-3.jpg"
+  ],
+  "observations": [
+    "Bar sem geladeira nos seis ângulos de apresentação e nas plantas; geladeira da cozinha mantida.",
+    "Vasos do terreno fora das vistas isoladas dos pavimentos. Louças superiores vinculadas aos conjuntos.",
+    "Lavanderia, lavabo, escadas e quarto frontal legíveis com luminárias correspondentes.",
+    "Sala e escritório preservam os enquadramentos da planta atual e as quatro referências de estilo.",
+    "Textura do couro e suavização de almofadas conferidas em diagnóstico na densidade de pixels 4K."
+  ],
+  "limitations": [
+    "A revisão perceptiva não certifica equivalência a Unreal nem aparência fotográfica por métrica automática.",
+    "Entorno ilustrativo; móveis e equipamentos de estudo, sobretudo nos quartos e utilidades, conservam simplificações e dimensões aproximadas.",
+    "Unreal/Lumen, conversão de materiais para Unreal e navegação interativa não foram executados."
+  ],
+  "final_review_so_far": {
+    "reviewed_ids": [
+      "sala-integrada-dia",
+      "sala-integrada-noite",
+      "bar-dia",
+      "bar-noite",
+      "escritorio-dia",
+      "escritorio-noite"
+    ],
+    "source_png_sha256": {
+      "sala-integrada-dia": "c97e5033ec49990c59cf4e5e08ce580e9c0ae687b293043725251582a5659115",
+      "sala-integrada-noite": "b2074e612da5525b9bbbae2462e752ec55e83bf17ddab05bc9eef64d3ba6d0c0",
+      "bar-dia": "e4f14ffe525ac620dc79a5f7e3c850e666b98490a90486bfa079455b7b8ea269",
+      "bar-noite": "365bfda327ffbb7f6d0a42352e51f29ea64e42295b7d2f245a62b17f3cf21f0d",
+      "escritorio-dia": "84fe7fbc9150dc6eec76200973d2c685105bc132bf7af5949e2cc722e69d0ae3",
+      "escritorio-noite": "2a023492f2a7d92a1e7d2ddc302a82c4390ce82709ff9bc253c8a966420ecb67"
+    },
+    "whole_frame_review_copies": "diagnosticos/final-*.jpg, 1600x1200",
+    "native_pixel_density_crops": [
+      "diagnosticos/primeiro-final-couro-100pct.png",
+      "diagnosticos/primeiro-final-madeira-100pct.png"
+    ],
+    "observations": [
+      "Seis enquadramentos finais conferidos: bar sem geladeira, pares dia/noite consistentes, telas preenchidas, reflexos de vidros e cadeira perfurada legíveis.",
+      "Couro e madeira conferidos também em recortes a 100%; nenhuma nova alteração do modelo indicada nesta revisão."
+    ],
+    "remaining": "Nenhum render pendente nesta entrega industrial; limites de representação listados acima.",
+    "technical_overviews_reviewed": {
+      "planta-terreo": "18af6efaa779078b691b978e2112e79fdc1441113f31d987032c9cebeb14f8a7",
+      "planta-superior": "7dce4ff0152a089d20d7b3a87c631ea8c0ddd97d96b10c7768dded3628a6d2e6",
+      "terreo-3d": "b002bc4025249f77737cb901b0d4fb70200d9699bea1b6046d826ba8cd26e405"
+    }
+  },
+  "reviewed_final_ids": [
+    "sala-integrada-dia",
+    "sala-integrada-noite",
+    "bar-dia",
+    "bar-noite",
+    "escritorio-dia",
+    "escritorio-noite",
+    "planta-terreo",
+    "planta-superior",
+    "terreo-3d",
+    "superior-3d",
+    "sala-fundos",
+    "sala-frente",
+    "cozinha",
+    "cozinha-reversa",
+    "bar",
+    "lavanderia",
+    "fundos-abertos",
+    "divisao-lazer-lavanderia",
+    "escada-acesso",
+    "escada-superior",
+    "lavabo",
+    "suite",
+    "quarto-frente",
+    "quarto-fundos",
+    "fachada-frontal",
+    "volumetria",
+    "sala-tv",
+    "mesa-jantar",
+    "bar-detalhe",
+    "escritorio-alternativa",
+    "escritorio-reverso"
+  ],
+  "reviewed_final_sha256": {
+    "sala-integrada-dia": "c97e5033ec49990c59cf4e5e08ce580e9c0ae687b293043725251582a5659115",
+    "sala-integrada-noite": "b2074e612da5525b9bbbae2462e752ec55e83bf17ddab05bc9eef64d3ba6d0c0",
+    "bar-dia": "e4f14ffe525ac620dc79a5f7e3c850e666b98490a90486bfa079455b7b8ea269",
+    "bar-noite": "365bfda327ffbb7f6d0a42352e51f29ea64e42295b7d2f245a62b17f3cf21f0d",
+    "escritorio-dia": "84fe7fbc9150dc6eec76200973d2c685105bc132bf7af5949e2cc722e69d0ae3",
+    "escritorio-noite": "2a023492f2a7d92a1e7d2ddc302a82c4390ce82709ff9bc253c8a966420ecb67",
+    "planta-terreo": "18af6efaa779078b691b978e2112e79fdc1441113f31d987032c9cebeb14f8a7",
+    "planta-superior": "7dce4ff0152a089d20d7b3a87c631ea8c0ddd97d96b10c7768dded3628a6d2e6",
+    "terreo-3d": "b002bc4025249f77737cb901b0d4fb70200d9699bea1b6046d826ba8cd26e405",
+    "superior-3d": "17eb4c1e272a13a105f922546203c18aed45b9c205a4e3088ab17d720806099a",
+    "sala-fundos": "035d99c39844061fa2f8dedcbf8600d992e874ef7bfa2e44cd26c925d6d5de1b",
+    "sala-frente": "d76269bfb3979a1f779f7b1c7a921f40a4d54c67a59f90bb1a8748d95653eb65",
+    "cozinha": "a7ce7f05c5832571f6c584769c6c9a9b4008351ae12a407cd7c6133095e6d7e3",
+    "cozinha-reversa": "839e2c9b25d9bd62dfa08708dfb2f200e79d8c4150e8872f3da02298c2398ae9",
+    "bar": "18cd3d40ccbc48cdf180439f7d27e2f6649978a141ff28aa111331d5e91d6f73",
+    "lavanderia": "d1f4f9eec0501d8a77dbcdac2514bbff8051ef1afc2a342020fe4cf4ef428921",
+    "fundos-abertos": "a578b64bb97956f9a8f4cd89d420726f193798ba9c194f78f9c9d53102351f16",
+    "divisao-lazer-lavanderia": "80ff02c1b334f70ab81203afd1cfa7bb5be622cf589ff64dc122a4b0b1daad5e",
+    "escada-acesso": "8bad98e3c4a5ad2005d402f0928944b1fcaf216572d9bd9c5e889764149cf4be",
+    "escada-superior": "5b3ceed3ec6d8d5a65cc40ed25ffd2587f5efe8536666f2faa62c9f5125954f0",
+    "lavabo": "7cea32540b6311e598eb5de12927acdb07dc4c1cd3dd1ed224868120f89f58f1",
+    "suite": "68e886444babdc26bbd481726d2d629079d309a99e64751d58bbff1a7d226994",
+    "quarto-frente": "82b56b2b1b78aff2dccf81cf5e67a7ea62e915c25fc02b44e2a72bbc0a58f4f3",
+    "quarto-fundos": "3c42fad2f16a28499e39c9bb4db8137e403f608b97713953552c1cdfe6367361",
+    "fachada-frontal": "ba493946604d5f1575dc6c91fa6a99299206a8ba067e378c8779b5c7a8eb8359",
+    "volumetria": "3e2df97849c1924211fe9297c9f06952487fa89ddd16da1ed0afbe99e5d5ed84",
+    "sala-tv": "55e5ade585ed723dddc1b81699f7429dde27f3a810ed0edb65ccba6c59074789",
+    "mesa-jantar": "40cea5328d14d6a43e8215baa3bfaab66a735c46d529573c2c3def43fa69e650",
+    "bar-detalhe": "d325e10c17168c39e518773b0cb7611143ebb8334eb63ee59d90315b1dbe70b8",
+    "escritorio-alternativa": "90ce214d97bdce0cc148df87d7a2acce7f17cd2827d4f56526eb0f5752d3c509",
+    "escritorio-reverso": "fec6e5b971932f6de5252cc8e71a30da98b2773cb49a495648af6eee2cf337cc"
+  },
+  "final_sheets": [
+    "relatorios/industrial-v06/revisao-final-renders-1.jpg",
+    "relatorios/industrial-v06/revisao-final-renders-2.jpg",
+    "relatorios/industrial-v06/revisao-final-renders-3.jpg"
+  ],
+  "pdf_pages_reviewed": [
+    1,
+    2,
+    14
+  ],
+  "browser_receipt": "browser-final.json",
+  "final_native_density_crops": [
+    "diagnosticos/primeiro-final-couro-100pct.png",
+    "diagnosticos/primeiro-final-madeira-100pct.png",
+    "diagnosticos/final-cuba-100pct.png",
+    "diagnosticos/final-vidros-100pct.png",
+    "diagnosticos/final-cadeira-100pct.png"
+  ],
+  "final_observations": [
+    "31 enquadramentos finais revisados nos painéis, com conferência individual dos seis pilotos e das vistas gerais/ambientes concluídos.",
+    "Bar sem geladeira em plantas, perspectivas, detalhes e pares de iluminação; cozinha mantém sua geladeira.",
+    "Couro, madeira, cuba, vidro e cadeira conferidos em recortes na densidade de pixels original.",
+    "Capas e plantas do PDF legíveis; filtros, imagens, links, controles e visualizações desktop/mobile conferidos no navegador."
+  ]
+}

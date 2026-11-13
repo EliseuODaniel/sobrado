@@ -1,0 +1,19 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.298  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+COL ATUAL_Corte_Superior 28
+COL R07_Piso_Superior 4
+COL ATUAL_AMB_quarto_azul 24
+COL ATUAL_AMB_quarto_branco 9
+COL ATUAL_Suite 17
+COL ATUAL_Detalhes_Quarto_Frente 2
+COL ATUAL_Banheiros 30
+COL R07_Escada 22
+COL R07_Iluminacao 0
+COL EST_Cameras 20
+COL IND07_Iluminacao 0
+COL PHOTO6_Acabamento_Superior 57
+COL PHOTO6_Entorno 6
+COL PHOTO6_Luz_day 25
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

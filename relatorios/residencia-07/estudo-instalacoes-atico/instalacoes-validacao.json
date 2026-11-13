@@ -1,0 +1,856 @@
+{
+  "timestamp_utc": "2026-11-12T13:14:11.037949+00:00",
+  "kind": "instalacoes",
+  "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+  "scope": "Geometria visual de estudo; não constitui levantamento presencial ou cálculo de engenharia.",
+  "checks": [
+    {
+      "name": "arquivo nativo salvo",
+      "passed": true
+    },
+    {
+      "name": "base 07 preservada",
+      "passed": true
+    },
+    {
+      "name": "configuração do estudo",
+      "passed": true
+    },
+    {
+      "name": "geradores registrados",
+      "passed": true
+    },
+    {
+      "name": "conjunto de cenas",
+      "passed": true
+    },
+    {
+      "name": "nenhuma biblioteca externa vinculada",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "destino estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "destino estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "destino estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "destino estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "configuração coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "destino coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "resolução coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "sem override coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "unidade coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "câmera reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "destino reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "vértices das cópias preservados",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "cópias efetivamente comparadas",
+      "passed": true,
+      "details": 364
+    },
+    {
+      "name": "cópias da base comparadas independentemente",
+      "passed": true,
+      "details": {
+        "external": 364,
+        "local_proposal_copies": 0
+      }
+    },
+    {
+      "name": "20 vistas de estrutura e redes",
+      "passed": true
+    },
+    {
+      "name": "transparência EST Parede transparente",
+      "passed": true
+    },
+    {
+      "name": "transparência EST Laje transparente",
+      "passed": true
+    },
+    {
+      "name": "seis disciplinas de rede",
+      "passed": true
+    },
+    {
+      "name": "grafo corresponde à configuração",
+      "passed": true
+    },
+    {
+      "name": "tubos tridimensionais electric",
+      "passed": true
+    },
+    {
+      "name": "diâmetro nominal preservado electric",
+      "passed": true
+    },
+    {
+      "name": "rede electric isolada no piso 0",
+      "passed": true
+    },
+    {
+      "name": "rede electric isolada no piso 1",
+      "passed": true
+    },
+    {
+      "name": "tubos tridimensionais cold",
+      "passed": true
+    },
+    {
+      "name": "diâmetro nominal preservado cold",
+      "passed": true
+    },
+    {
+      "name": "rede cold isolada no piso 0",
+      "passed": true
+    },
+    {
+      "name": "rede cold isolada no piso 1",
+      "passed": true
+    },
+    {
+      "name": "tubos tridimensionais hot",
+      "passed": true
+    },
+    {
+      "name": "diâmetro nominal preservado hot",
+      "passed": true
+    },
+    {
+      "name": "rede hot isolada no piso 0",
+      "passed": true
+    },
+    {
+      "name": "rede hot isolada no piso 1",
+      "passed": true
+    },
+    {
+      "name": "tubos tridimensionais sewer",
+      "passed": true
+    },
+    {
+      "name": "diâmetro nominal preservado sewer",
+      "passed": true
+    },
+    {
+      "name": "rede sewer isolada no piso 0",
+      "passed": true
+    },
+    {
+      "name": "rede sewer isolada no piso 1",
+      "passed": true
+    },
+    {
+      "name": "tubos tridimensionais vent",
+      "passed": true
+    },
+    {
+      "name": "diâmetro nominal preservado vent",
+      "passed": true
+    },
+    {
+      "name": "rede vent isolada no piso 0",
+      "passed": true
+    },
+    {
+      "name": "rede vent isolada no piso 1",
+      "passed": true
+    },
+    {
+      "name": "tubos tridimensionais telecom",
+      "passed": true
+    },
+    {
+      "name": "diâmetro nominal preservado telecom",
+      "passed": true
+    },
+    {
+      "name": "rede telecom isolada no piso 0",
+      "passed": true
+    },
+    {
+      "name": "rede telecom isolada no piso 1",
+      "passed": true
+    },
+    {
+      "name": "arquitetura isolada piso 0",
+      "passed": true
+    },
+    {
+      "name": "arquitetura isolada piso 1",
+      "passed": true
+    },
+    {
+      "name": "estrutura sem móveis estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "parede em sálvia estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "estrutura sem móveis estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "parede em sálvia estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "estrutura sem móveis estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "parede em sálvia estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "estrutura sem móveis estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "parede em sálvia estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "reservatório documentado",
+      "passed": true
+    },
+    {
+      "name": "conjunto exato de imagens",
+      "passed": true
+    },
+    {
+      "name": "imagem salva estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "imagem salva estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "imagem salva estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "imagem salva estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "imagem salva eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva reservatorio-3d",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "renders_required": true
+}

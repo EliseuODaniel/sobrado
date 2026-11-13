@@ -1,0 +1,172 @@
+[
+  {
+    "original": "renders/atual/acesso-lavabo-planta.png",
+    "archive": "historico/atual-pre-residencia07/renders/acesso-lavabo-planta.png",
+    "sha256": "44f0433fbb080321106751cc6f123c721835cf0e8caca52837c23145a781203e"
+  },
+  {
+    "original": "renders/atual/acesso-lavabo.png",
+    "archive": "historico/atual-pre-residencia07/renders/acesso-lavabo.png",
+    "sha256": "9b2309d537660bc9c8c0d534989710ca7927fcde69d5c0e4368b04f903bddf4c"
+  },
+  {
+    "original": "renders/atual/antes-depois.png",
+    "archive": "historico/atual-pre-residencia07/renders/antes-depois.png",
+    "sha256": "3320584ab8c96a7bf84a0f230f1c680cfc09670a5934693949b52ccd70dde00e"
+  },
+  {
+    "original": "renders/atual/bar.png",
+    "archive": "historico/atual-pre-residencia07/renders/bar.png",
+    "sha256": "2437bf33c2ff57cc13e596d15e220f805ff4b89f565eadf8d57da2739bd0789e"
+  },
+  {
+    "original": "renders/atual/comparacao-escada.png",
+    "archive": "historico/atual-pre-residencia07/renders/comparacao-escada.png",
+    "sha256": "0b29c0af6a78bb0dbd4fb1859cb85088dc701d01a1bc813c9708a8885b9c7fff"
+  },
+  {
+    "original": "renders/atual/comparacao-fachada.png",
+    "archive": "historico/atual-pre-residencia07/renders/comparacao-fachada.png",
+    "sha256": "c66b70d10c78b6502632be5b0092957a7e901bb7d439dc9bfcbc350f2c68d491"
+  },
+  {
+    "original": "renders/atual/comparacao-fotos.png",
+    "archive": "historico/atual-pre-residencia07/renders/comparacao-fotos.png",
+    "sha256": "49a79467883a9552bb963ccd5cee0cf33c7e0d492f1dc54c341fa48657486dfa"
+  },
+  {
+    "original": "renders/atual/comparacao-planta.png",
+    "archive": "historico/atual-pre-residencia07/renders/comparacao-planta.png",
+    "sha256": "4c796b8116745a142c46ff4e7a714587aaeb84d789f53992c8d9c58b5bfac638"
+  },
+  {
+    "original": "renders/atual/comparacao-quartos.png",
+    "archive": "historico/atual-pre-residencia07/renders/comparacao-quartos.png",
+    "sha256": "41a179b5ff479263d9779a319e1709b2d59f2df22a51b75110571555885afb89"
+  },
+  {
+    "original": "renders/atual/comparacao-superior.png",
+    "archive": "historico/atual-pre-residencia07/renders/comparacao-superior.png",
+    "sha256": "3208c6321fbcae98300ebf5b4b06e5e6cbd1f16cf6fe6f51ee65f07f20d7706b"
+  },
+  {
+    "original": "renders/atual/cozinha-reversa.png",
+    "archive": "historico/atual-pre-residencia07/renders/cozinha-reversa.png",
+    "sha256": "871504c35b8dd6439c36677b9c9603155e7d10329563e69c1cc7e27e724f232a"
+  },
+  {
+    "original": "renders/atual/cozinha.png",
+    "archive": "historico/atual-pre-residencia07/renders/cozinha.png",
+    "sha256": "33d7ae489f4351b8ddf02d5280fbf2f7c9b740f0e1c0451053692e425c0353d6"
+  },
+  {
+    "original": "renders/atual/escada-acesso.png",
+    "archive": "historico/atual-pre-residencia07/renders/escada-acesso.png",
+    "sha256": "70223296286f4f56b8da57acfc1d18210f43dba39161bef2f3ec7fa11c2c29d3"
+  },
+  {
+    "original": "renders/atual/escada-superior.png",
+    "archive": "historico/atual-pre-residencia07/renders/escada-superior.png",
+    "sha256": "2f818b909e05d1d414c54cc043301c855e4bedb0e3c3e13d975dbf3c90c3a05e"
+  },
+  {
+    "original": "renders/atual/estudos-superior.png",
+    "archive": "historico/atual-pre-residencia07/renders/estudos-superior.png",
+    "sha256": "73bb192efff5b7917fd124d4144919a62df98f17757fe87f1dddb517dea8285b"
+  },
+  {
+    "original": "renders/atual/fachada-frontal.png",
+    "archive": "historico/atual-pre-residencia07/renders/fachada-frontal.png",
+    "sha256": "f43114c14662b027b1a36cdfe4e154351ed3bdfe898aa54bc0ed4a8579d8496d"
+  },
+  {
+    "original": "renders/atual/fachada-obliqua.png",
+    "archive": "historico/atual-pre-residencia07/renders/fachada-obliqua.png",
+    "sha256": "0ae9e4fb097947e7f0250e54ca0749d01451c2e2d07de305dfc3c489e0ceb357"
+  },
+  {
+    "original": "renders/atual/lavabo-sob-escada.png",
+    "archive": "historico/atual-pre-residencia07/renders/lavabo-sob-escada.png",
+    "sha256": "0fdabd592c08172005b3686789625885bd828a29d82ed7738623bdeaa77c8d96"
+  },
+  {
+    "original": "renders/atual/lavabo.png",
+    "archive": "historico/atual-pre-residencia07/renders/lavabo.png",
+    "sha256": "5cf14490f4e1986afe0dbcd80b20fb3b3aedc621ca133cd1a05c5a0b2421e814"
+  },
+  {
+    "original": "renders/atual/lavanderia.png",
+    "archive": "historico/atual-pre-residencia07/renders/lavanderia.png",
+    "sha256": "a8bc4d32dc160ef1d3c71149954f453f1b0ef924651d3faa3aad194140f49a1a"
+  },
+  {
+    "original": "renders/atual/pavimentos-alinhados.png",
+    "archive": "historico/atual-pre-residencia07/renders/pavimentos-alinhados.png",
+    "sha256": "d8e8384fed588459cd47de1bbef34d6079887b66435086f8fe0de0282981e451"
+  },
+  {
+    "original": "renders/atual/pavimentos-sobrepostos.png",
+    "archive": "historico/atual-pre-residencia07/renders/pavimentos-sobrepostos.png",
+    "sha256": "01b6f9b06d7c6e4b9904c2b81db7acaaa4e36af73c3599198dd894f7fc9fa8ab"
+  },
+  {
+    "original": "renders/atual/planta-superior.png",
+    "archive": "historico/atual-pre-residencia07/renders/planta-superior.png",
+    "sha256": "f7b732d4ade9f7c9cb3681971b5c93b8b0e25639e5646972f83460e076379e19"
+  },
+  {
+    "original": "renders/atual/planta-terreo.png",
+    "archive": "historico/atual-pre-residencia07/renders/planta-terreo.png",
+    "sha256": "b68537cec81313fd8a0b77b781a59ba368622c37b73e582155a79e4141d1add8"
+  },
+  {
+    "original": "renders/atual/porta-lavabo.png",
+    "archive": "historico/atual-pre-residencia07/renders/porta-lavabo.png",
+    "sha256": "aeb5581845d38b8cf905be6fe93a6f7783596841d66b7bf96ac2f1fe2828fe01"
+  },
+  {
+    "original": "renders/atual/quarto-frente.png",
+    "archive": "historico/atual-pre-residencia07/renders/quarto-frente.png",
+    "sha256": "3202a0418eeee4f8426db90e92034cc1f828958fdc2ad6f747e5dd4968c1eb78"
+  },
+  {
+    "original": "renders/atual/quarto-fundos.png",
+    "archive": "historico/atual-pre-residencia07/renders/quarto-fundos.png",
+    "sha256": "1ce8559b593557bba08606527292c9fe43c411a3ec3670e76f44bf31e13ab903"
+  },
+  {
+    "original": "renders/atual/sala-frente-planta.png",
+    "archive": "historico/atual-pre-residencia07/renders/sala-frente-planta.png",
+    "sha256": "33be781386f1156b5d8d1ac718463a84e1bd049f28f463d8ed5e3f4d29cbb81c"
+  },
+  {
+    "original": "renders/atual/sala-frente.png",
+    "archive": "historico/atual-pre-residencia07/renders/sala-frente.png",
+    "sha256": "c4f269b7b0f810e4ca6599d35e5e8b999b60c309b17ac0b6c5af94ba23f8b2a2"
+  },
+  {
+    "original": "renders/atual/sala-fundos.png",
+    "archive": "historico/atual-pre-residencia07/renders/sala-fundos.png",
+    "sha256": "a719a4b6f8c8b3b1376ebd1b5f30b96542b412eb9f1c2d8aa029de258d6ac176"
+  },
+  {
+    "original": "renders/atual/suite.png",
+    "archive": "historico/atual-pre-residencia07/renders/suite.png",
+    "sha256": "f96c570a9b29ec1f234f8e60a9b91dbdfa5d858b1a06ad1c6cdc5f37a2e9ca67"
+  },
+  {
+    "original": "renders/atual/superior-3d.png",
+    "archive": "historico/atual-pre-residencia07/renders/superior-3d.png",
+    "sha256": "c339cf22bc871bd8f44b69f0e822b170e48727a14abfc69e4ecb8d73ae09feb3"
+  },
+  {
+    "original": "renders/atual/terreo-3d.png",
+    "archive": "historico/atual-pre-residencia07/renders/terreo-3d.png",
+    "sha256": "f898cb4574f28f23e63f233dda3f10ef6c2678691f378f8914b3295446fdc087"
+  },
+  {
+    "original": "renders/atual/volumetria.png",
+    "archive": "historico/atual-pre-residencia07/renders/volumetria.png",
+    "sha256": "37be2deb7b0037363862f429d0ae552692eaf4428bbcffecb6bfc7f90b56a9b8"
+  }
+]

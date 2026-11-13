@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1700" viewBox="0 0 1400 1700">
+<rect width="1400" height="1700" fill="#faf8f3"/>
+<text x="75" y="80" fill="#9c6238" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">CASA / 07</text>
+<text x="75" y="143" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="48" font-weight="bold" text-anchor="start">Ático · planta atualizada</text>
+<text x="75" y="185" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Nova área técnica à esquerda · escadas alinhadas · cota do piso +5,40 m</text>
+<polyline points="75.00,218.00 1325.00,218.00" fill="none" stroke="#c7c9bf" stroke-width="1"/>
+<polygon points="360.00,1226.00 706.50,1226.00 706.50,417.50 360.00,417.50" fill="#e8dfca" stroke="#607165" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="706.50,1226.00 1026.75,1226.00 1026.75,344.00 706.50,344.00" fill="#e8dfca" stroke="#607165" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="843.00,874.25 1016.25,874.25 1016.25,664.25 843.00,664.25" fill="#faf9f4" stroke="#607165" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="790.50,874.25 843.00,874.25 843.00,758.75 790.50,758.75" fill="#faf9f4" stroke="#607165" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="790.50,758.75 816.75,758.75 816.75,664.25 790.50,664.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="803.625" y="711.5" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">1</text>
+<polygon points="816.75,758.75 843.00,758.75 843.00,664.25 816.75,664.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="829.875" y="711.5" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">2</text>
+<polygon points="843.00,758.75 869.25,758.75 869.25,664.25 843.00,664.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="856.125" y="711.5" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">3</text>
+<polygon points="869.25,758.75 895.50,758.75 895.50,664.25 869.25,664.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="882.375" y="711.5" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">4</text>
+<polygon points="895.50,758.75 921.75,758.75 921.75,664.25 895.50,664.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="908.625" y="711.5" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">5</text>
+<polygon points="921.75,769.25 921.75,664.25 982.37,664.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="941.957259421637" y="699.25" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">6</text>
+<polygon points="921.75,769.25 982.37,664.25 1016.25,664.25 1016.25,714.69" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="984.1554445662276" y="703.1100998903951" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">7</text>
+<polygon points="921.75,769.25 1016.25,714.69 1016.25,769.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="984.75" y="751.0634665205268" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">8</text>
+<polygon points="921.75,769.25 1016.25,769.25 1016.25,823.81" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="984.75" y="787.4365334794733" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">9</text>
+<polygon points="921.75,769.25 1016.25,823.81 1016.25,874.25 982.37,874.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="984.1554445662276" y="835.3899001096049" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">10</text>
+<polygon points="921.75,769.25 982.37,874.25 921.75,874.25" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="941.957259421637" y="839.25" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">11</text>
+<polygon points="895.50,874.25 921.75,874.25 921.75,779.75 895.50,779.75" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="908.625" y="827.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">12</text>
+<polygon points="869.25,874.25 895.50,874.25 895.50,779.75 869.25,779.75" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="882.375" y="827.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">13</text>
+<polygon points="843.00,874.25 869.25,874.25 869.25,779.75 843.00,779.75" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="856.125" y="827.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">14</text>
+<polygon points="816.75,874.25 843.00,874.25 843.00,779.75 816.75,779.75" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="829.875" y="827.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">15</text>
+<polygon points="790.50,874.25 816.75,874.25 816.75,779.75 790.50,779.75" fill="#e5d3b8" stroke="#9d652f" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="803.625" y="827.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="normal" text-anchor="middle">16</text>
+<polygon points="375.75,879.50 706.50,879.50 706.50,643.25 375.75,643.25" fill="#dce7df" stroke="#71867b" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="549.0" cy="766.625" r="94.5" fill="#8db6c9" stroke="#456c80" stroke-width="2"/>
+<text x="549.0" y="766.625" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="middle">1.000 L</text>
+<text x="538.5" y="617.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">ÁREA TÉCNICA TRANSFERIDA</text>
+<polyline points="701.25,824.90 701.25,730.40" fill="none" stroke="#faf9f4" stroke-width="7"/>
+<text x="743.25" y="827.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="normal" text-anchor="middle">SAÍDA</text>
+<text x="528.0" y="995.0" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="normal" text-anchor="middle">ESTAR</text>
+<text x="538.5" y="501.5" fill="#354a40" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="normal" text-anchor="middle">ESCRITÓRIO</text>
+<polyline points="790.50,874.25 790.50,937.25" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="1016.25,874.25 1016.25,937.25" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="790.50,929.25 1016.25,929.25" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="786.50,935.25 794.50,923.25" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="1012.25,935.25 1020.25,923.25" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="903.375" y="919.25" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">2,15 · vão em L</text>
+<polyline points="1016.25,874.25 1063.25,874.25" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="1016.25,664.25 1063.25,664.25" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="1071.25,874.25 1071.25,664.25" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="1065.25,878.25 1077.25,870.25" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="1065.25,668.25 1077.25,660.25" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="1061.25" y="769.25" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle" transform="rotate(-90 1061.25 769.25)">2,00</text>
+<polyline points="706.50,890.00 706.50,998.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="790.50,890.00 790.50,998.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="706.50,990.00 790.50,990.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="702.50,996.00 710.50,984.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="786.50,996.00 794.50,984.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="748.5" y="980.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">0,80 · faixa livre</text>
+<polyline points="360.00,1226.00 360.00,1289.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="1026.75,1226.00 1026.75,1289.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="360.00,1281.00 1026.75,1281.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="356.00,1287.00 364.00,1275.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="1022.75,1287.00 1030.75,1275.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="693.375" y="1271.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">6,35 · base documental</text>
+<text x="75" y="1310" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="start">O vão frontal da v04 foi fechado. O novo vão reproduz o L da escada existente.</text>
+<text x="75" y="1350" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Caixa em X=1,80 / Y=3,175 m; base +5,45 m e volume externo ilustrativo.</text>
+<text x="75" y="1390" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Estar na frente, escritório atrás e armários baixos ajustados à cobertura.</text>
+<polyline points="75.00,1450.00 1325.00,1450.00" fill="none" stroke="#b9c1b5" stroke-width="1"/>
+<text x="75" y="1490" fill="#526157" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">PROPOSTA V05 · RESIDÊNCIA 07 · COTAS EM METROS</text>
+<text x="75" y="1525" fill="#526157" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Mansardas centralizadas e prolongadas até a cumeeira principal preservadas da v03.</text>
+<text x="75" y="1560" fill="#526157" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Posição nova da caixa e redes de conexão são propostas; apoios e cargas não dimensionados.</text>
+<text x="75" y="1595" fill="#526157" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">A escala da base vem das pranchas; o estado físico e as medidas executadas não foram medidos.</text>
+</svg>

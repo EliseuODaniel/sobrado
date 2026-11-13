@@ -1,0 +1,10 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.331  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend"
+/home/edann/projects/casa-interiores/scripts/finish_current_surfaces.py:14: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  uses_metric=any(s.material and s.material.use_nodes and any(n.type=='UVMAP' and n.uv_map=='FIEL2_Metros' for n in s.material.node_tree.nodes) for s in o.material_slots)
+Info: No new files have been packed
+Info: Saved as "casa-07-atual-fiel.surfaces.blend"
+CURRENT2_SURFACES_OK 2 white bathroom panels 26 UV repairs
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

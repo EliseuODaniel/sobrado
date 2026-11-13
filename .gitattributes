@@ -1,8 +1,46 @@
 projeto/industrial-v03/*.blend filter=lfs diff=lfs merge=lfs -text
 projeto/fontes/*.blend filter=lfs diff=lfs merge=lfs -text
-projeto/industrial-v04/*.blend filter=lfs diff=lfs merge=lfs -text
-assets/industrial-v04/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-assets/industrial-v04/**/*.exr filter=lfs diff=lfs merge=lfs -text
-assets/industrial-v04/**/*.blend filter=lfs diff=lfs merge=lfs -text
-assets/industrial-v04/**/*.png filter=lfs diff=lfs merge=lfs -text
-renders/industrial-v04/*.png filter=lfs diff=lfs merge=lfs -text
+assets/biblioteca-industrial/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/biblioteca-industrial/**/*.exr filter=lfs diff=lfs merge=lfs -text
+assets/biblioteca-industrial/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/biblioteca-industrial/**/*.png filter=lfs diff=lfs merge=lfs -text
+
+projeto/residencia-07/*.blend filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07/**/*.png filter=lfs diff=lfs merge=lfs -text
+projeto/residencia-07-atual/*.blend filter=lfs diff=lfs merge=lfs -text
+renders/atual/**/*.png filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+renders/atual/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+renders/atual/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+projeto/industrial-v05/*.blend filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v05/**/*.png filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v05/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v05/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+projeto/residencia-07-atico-v05/*.blend filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07-atico-v05/**/*.png filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07-atico-v05/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07-atico-v05/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+renders/residencia-07-atico-v05/**/*.gif filter=lfs diff=lfs merge=lfs -text
+projeto/industrial-v06/*.blend filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v06/**/*.png filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v06/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+renders/industrial-v06/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+assets/fotorrealismo-industrial/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/fotorrealismo-industrial/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/fotorrealismo-industrial/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+exports/fotorrealismo-industrial-v06/*.glb filter=lfs diff=lfs merge=lfs -text
+projeto/residencia-07-atual-v02/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/atual-fiel-v02/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/atual-fiel-v02/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/atual-fiel-v02/**/*.exr filter=lfs diff=lfs merge=lfs -text
+relatorios/**/*.png filter=lfs diff=lfs merge=lfs -text
+relatorios/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+relatorios/**/*.gif filter=lfs diff=lfs merge=lfs -text
+relatorios/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+historico/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+historico/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Preservar os bytes das evidências e dos shaders de referência.
+*.log -text
+*.mtlx -text

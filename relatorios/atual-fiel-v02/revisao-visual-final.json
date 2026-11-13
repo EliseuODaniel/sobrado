@@ -1,0 +1,243 @@
+{
+  "model_sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+  "reviewed": [
+    {
+      "id": "sala-foto",
+      "png_sha256": "2ab2dd51f26b378e1e8906f3406140e933d5195d0615e1c318b25296e661b770",
+      "reference_photo": "referencias-originais/sala5.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/sala-foto-refinada.jpg",
+      "observations": "Sofá com chaise, cadeiras, mesa, rack, painel, LEDs, cortina e orquídeas conferidos; tecido em recorte de densidade nativa. Composição aproximada às fotos.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T10:46:29.088847+00:00"
+    },
+    {
+      "id": "cozinha",
+      "png_sha256": "8ccf103533c88a78681788a80edac050d1f95ae38e5e6fc353b4df281ed862f0",
+      "reference_photo": "referencias-originais/cozinha1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/cozinha-refinada.jpg",
+      "observations": "Armários cinza, cuba profunda, granito, forno, coifa, micro-ondas, persiana e geladeira conferidos; sem colisão visível entre coifa e marcenaria.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T10:46:29.088864+00:00"
+    },
+    {
+      "id": "bar",
+      "png_sha256": "b5280b4d4c733c40742de7d43c001b25dbb0b08102fb112fce2089fa288e77dd",
+      "reference_photo": "referencias-originais/area1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/bar-refinado.jpg",
+      "observations": "Conferidos os quatro bancos estofados, marcenaria, granito, mosaico, armário envidraçado, pendentes e cobertura de madeira/vidro. A geladeira permanece na versão atual conforme a foto; a remoção solicitada era industrial.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T10:54:28.244758+00:00"
+    },
+    {
+      "id": "suite",
+      "png_sha256": "ab54c066bd68d5619e249eaa2b775878cd28966073d3359ddc8b4927977de385",
+      "reference_photo": "referencias-originais/quartosuite1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/suite-final.jpg",
+      "observations": "Cabeceira bege modular, faixa vertical taupe, roupeiro de madeira, cortina estampada com voile, tecido branco e ar-condicionado conferidos; aproximação visual às fotos.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T10:56:12.655378+00:00"
+    },
+    {
+      "id": "quarto-frente",
+      "png_sha256": "91175add063ab38e97de8fc79a26e686c5f2bd04f772d94420ccbc273473aa05",
+      "reference_photo": "referencias-originais/quartobranco1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/quarto-frente-final.jpg",
+      "observations": "Conferidos cama branca com grades, papel de corações, armários superiores, persiana e laminado claro; cores claras sem bloqueio da câmera.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T11:03:28.373537+00:00"
+    },
+    {
+      "id": "quarto-fundos",
+      "png_sha256": "0a5c73243c7c6635094b70993bdc7b0d0f879c07836f623d521c148e1224fe31",
+      "reference_photo": "referencias-originais/quartoazul2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/quarto-fundos-final.jpg",
+      "observations": "Parede azul, bancada branca, computador/teclado, prateleiras, beliche e tecidos conferidos. Papel geométrico aparece por reflexão; câmera sem atravessar o colchão.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T11:09:20.238914+00:00"
+    },
+    {
+      "id": "lavanderia",
+      "png_sha256": "e1020a90a52353bb92327b0cb40adef0802683faea369c1301657fb7234b5a8b",
+      "reference_photo": "referencias-originais/lavanderia1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/lavanderia-final.jpg",
+      "observations": "Conferidos duas lavadoras, tanque, armários brancos, granito, faixa travertino, plantas e cobertura.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727352+00:00"
+    },
+    {
+      "id": "banheiro-social",
+      "png_sha256": "8a9213805b37bac5d66a3a6d45b242bbd8ff33edb73d739cbd0bdaab525f63d6",
+      "reference_photo": "referencias-originais/banheiro2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/banheiro-social-final.jpg",
+      "observations": "Conferidos granito cinza, cuba rebaixada, espelho, louças, cerâmica branca e box. Recorte nativo adicional da cuba/torneira e granito.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727413+00:00"
+    },
+    {
+      "id": "planta-terreo",
+      "png_sha256": "0bb72bfabb09f831bbbc3eac793797b0293d31c1df8356812c1c46118cd9c7a6",
+      "reference_photo": null,
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/planta-terreo-final.jpg",
+      "observations": "Vista superior diagramática legível; conferidos disposição de sala/jantar, cozinha, escada e anexos sem a cobertura.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727418+00:00"
+    },
+    {
+      "id": "planta-superior",
+      "png_sha256": "b75d49f6c0c3afd013208c088b502ff4a86675901e419db2625b16e2a7dd5541",
+      "reference_photo": null,
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/planta-superior-final.jpg",
+      "observations": "Vista superior diagramática legível; conferidos três dormitórios, banheiros, circulação e vazio da escada.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727421+00:00"
+    },
+    {
+      "id": "terreo-3d",
+      "png_sha256": "fce130060733a30d4d162f429478db1c0bfeeb3e4fc1215cf602a0dc8ed00e6b",
+      "reference_photo": null,
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/terreo-3d-final.jpg",
+      "observations": "Corte axonométrico do térreo com mobiliário e anexos. Corte e ausência de forro são recursos diagramáticos.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727426+00:00"
+    },
+    {
+      "id": "superior-3d",
+      "png_sha256": "888fb7f1dc83d4b3e894e23834070faa9026ba3d2e2375d57d27f0157ed708bd",
+      "reference_photo": null,
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/superior-3d-final.jpg",
+      "observations": "Corte axonométrico superior com móveis, laminado e revestimentos; paredes cortadas/sem forro são apresentação diagramática.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727428+00:00"
+    },
+    {
+      "id": "sala-fundos",
+      "png_sha256": "1bce32eaee4cbe1f99e3cc77b77ad9112b1a7da66e98af8f8feaf2bd06765a75",
+      "reference_photo": "referencias-originais/sala2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/sala-fundos-final.jpg",
+      "observations": "Conferidos sofá, mesa/cadeiras, painel iluminado e continuidade visual até o bar; sem bloqueio de câmera.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727445+00:00"
+    },
+    {
+      "id": "sala-frente",
+      "png_sha256": "e0983cc7e59364ddc79aa29744825ed4ed271b45e5d02e3983113468921b662c",
+      "reference_photo": "referencias-originais/sala5.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/sala-frente-final.jpg",
+      "observations": "Conferidos chaise, cortina, painel, rack, mesa de vidro/orquídea e pendente; composição reversa aproximada.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727457+00:00"
+    },
+    {
+      "id": "cozinha-reversa",
+      "png_sha256": "c7bf112b553300fac6b629a53c64c6c0ebe78b6def739d6b91e69529bf468616",
+      "reference_photo": "referencias-originais/cozinha1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/cozinha-reversa-final.jpg",
+      "observations": "Vista reversa da cozinha para a sala: bancada, lava-louças e ripado legíveis; sem obstrução da câmera.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727468+00:00"
+    },
+    {
+      "id": "fundos-abertos",
+      "png_sha256": "80c9bf3f2dd6dda7cf56b8c25d1f7ca0734d406008ceb2a5c1e2324830e9d91f",
+      "reference_photo": "referencias-originais/sala2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/fundos-abertos-final.jpg",
+      "observations": "Conferidos continuidade da sala até os fundos abertos, jantar, ripado, painel e sofá. Enquadramento ilustrativo aproximado.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:39:15.727478+00:00"
+    },
+    {
+      "id": "divisao-lazer-lavanderia",
+      "png_sha256": "e0677d33ba5eddbbe4b15c555180497e1c1ac98dbf5c56ece62750cb52c95cb0",
+      "reference_photo": "referencias-originais/area2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/divisao-lazer-lavanderia-final.jpg",
+      "observations": "Divisão envidraçada e passagem para lavanderia legíveis, com detalhe das banquetas e da bancada do bar. Sem vegetação genérica atravessando a divisão.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:42:51.739735+00:00"
+    },
+    {
+      "id": "escada-acesso",
+      "png_sha256": "ddf18059bb3f1a610763e6d744fc85d984731e362c27749b2560e68feb6e8e29",
+      "reference_photo": "referencias-originais/escada1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/escada-acesso-final.jpg",
+      "observations": "Vista do acesso inferior: conferidos espelhos fechados, acabamento granular e patamares da escada existente; enquadramento mostra o desenvolvimento do lance.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:56:14.171972+00:00"
+    },
+    {
+      "id": "escada-superior",
+      "png_sha256": "148d1c8d0a083b403d20c171106f4b13d8ed3a74ceaa3e4624dd7c1f85696589",
+      "reference_photo": "referencias-originais/escada1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/escada-superior-final.jpg",
+      "observations": "Vista superior: conferidos patamares, acabamento granular, piso laminado claro e guarda de vidro com fixações. Escada existente preservada; não é a proposta do ático.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T13:56:14.172019+00:00"
+    },
+    {
+      "id": "lavabo",
+      "png_sha256": "ba58a0c13d723d46fbfe6166490bf59e752b816e3993df309c7392f616d53d6c",
+      "reference_photo": "referencias-originais/lavabo1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/lavabo-final.jpg",
+      "observations": "Conferidos papel de elipses, espelho, bancada escura, cuba e louça sob a escada existente; câmera legível.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:07:02.321574+00:00"
+    },
+    {
+      "id": "fachada-frontal",
+      "png_sha256": "49445b8c6d5bf20bc3e0f077397d4f306c2d692afbb311428d3d9b19216bb38d",
+      "reference_photo": "referencias-originais/exterior2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/fachada-frontal-final.jpg",
+      "observations": "Conferidos acabamento bege, telhado cinza, esquadrias, pavimento e vasos. Casas vizinhas são contexto volumétrico ilustrativo; sem levantamento do conjunto.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:07:02.321653+00:00"
+    },
+    {
+      "id": "volumetria",
+      "png_sha256": "dd0ccd6f3cef064423bbc5caa1ef3d43ab7fe56b3b385c03ddc4a99dcd698e8c",
+      "reference_photo": null,
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/volumetria-final.jpg",
+      "observations": "Vista externa posterior: conferidos corpo principal, cobertura existente, anexo envidraçado e fechamento lateral. Representação volumétrica dos trechos sem fotografias completas.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:15:47.292623+00:00"
+    },
+    {
+      "id": "suite-reversa",
+      "png_sha256": "c10c44fa991e7d916cba6615352f442d7d16e54afb0ece9f2f5e81e231a6a853",
+      "reference_photo": "referencias-originais/quartosuite2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/suite-reversa-final.jpg",
+      "observations": "Conferidos roupeiro de madeira com trilhos, painel de TV, lareira e porta fechada dentro do vão; composição aproximada à foto.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:15:47.292645+00:00"
+    },
+    {
+      "id": "quarto-azul-bancada",
+      "png_sha256": "6df9c4762c5e3173abce201a855fad05452b0eb91cf41bc213ac4859263ef2b4",
+      "reference_photo": "referencias-originais/quartoazul1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/quarto-azul-bancada-final.jpg",
+      "observations": "Vista reversa legível, com papel geométrico, porta dentro do vão, painel azul, TV, fio, teclado e prateleiras.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:28:31.385722+00:00"
+    },
+    {
+      "id": "quarto-branco-armario",
+      "png_sha256": "5284218e10b342af7110a2aeeddee671a54ca71f72dfe31d9894197c6939d31f",
+      "reference_photo": "referencias-originais/quartobranco2.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/quarto-branco-armario-final.jpg",
+      "observations": "Conferidos armários brancos com portas/puxadores, estante, TV, porta e parte da cama. Vista reversa sem obstrução.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:28:31.385739+00:00"
+    },
+    {
+      "id": "banheiro-suite",
+      "png_sha256": "4694f0e1b345878dcb7715936b984ad165d38c180e0a4090eb9b0cfabf8a3ac8",
+      "reference_photo": "referencias-originais/suite1.webp",
+      "review_image": "relatorios/atual-fiel-v02/revisao-final/banheiro-suite-final.jpg",
+      "observations": "Conferidos bancada com cuba rebaixada, granito, marcenaria, louça/caixa acoplada, espelho, cerâmica branca, vidro e ducha. Câmera diagonal sem folha de porta obstruindo.",
+      "status": "reviewed",
+      "timestamp_utc": "2026-11-13T14:36:40.533004+00:00"
+    }
+  ],
+  "scope": "Conferência visual dos elementos e da imagem; não é certificação de identidade fotográfica ou de medidas de móveis.",
+  "coverage_complete": true,
+  "reviewed_count": 26,
+  "status": "reviewed_all_final_views"
+}

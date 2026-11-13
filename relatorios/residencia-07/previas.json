@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cozinha",
+    "file": "renders/residencia-07/previas/cozinha.png",
+    "seconds": 3.07,
+    "backend": "CUDA",
+    "samples": 24,
+    "resolution": [
+      864,
+      648
+    ],
+    "sha256": "4fc836d1f975036af194100b8147ecd17f09657682303d7b06d89c8c71c2f9fb",
+    "blend_sha256": "2550ec8df689014267a083683bdfc0c5d897f02b0da728995b02a2be825996da"
+  },
+  {
+    "id": "suite",
+    "file": "renders/residencia-07/previas/suite.png",
+    "seconds": 2.36,
+    "backend": "CUDA",
+    "samples": 24,
+    "resolution": [
+      864,
+      648
+    ],
+    "sha256": "d4afc2962bba48c6794d93b12d2dac1c554bf815f12ba823ede1fc4ef643c32e",
+    "blend_sha256": "2550ec8df689014267a083683bdfc0c5d897f02b0da728995b02a2be825996da"
+  },
+  {
+    "id": "estrutura-terreo-3d",
+    "file": "renders/residencia-07/previas/estrutura-terreo-3d.png",
+    "seconds": 1.77,
+    "backend": "CUDA",
+    "samples": 24,
+    "resolution": [
+      864,
+      648
+    ],
+    "sha256": "0bbc9e4cd53e404c3d9c7eac3b58db7120d2f0a341f1024ce66f3d0853b7ed97",
+    "blend_sha256": "2550ec8df689014267a083683bdfc0c5d897f02b0da728995b02a2be825996da"
+  },
+  {
+    "id": "estrutura-superior-3d",
+    "file": "renders/residencia-07/previas/estrutura-superior-3d.png",
+    "seconds": 1.81,
+    "backend": "CUDA",
+    "samples": 24,
+    "resolution": [
+      864,
+      648
+    ],
+    "sha256": "19bd4f43cf319baedafbdc098a0cbef2c2ebfa3cab016bd06e334fac6b56b523",
+    "blend_sha256": "2550ec8df689014267a083683bdfc0c5d897f02b0da728995b02a2be825996da"
+  },
+  {
+    "id": "estrutura-conjunto-3d",
+    "file": "renders/residencia-07/previas/estrutura-conjunto-3d.png",
+    "seconds": 1.86,
+    "backend": "CUDA",
+    "samples": 24,
+    "resolution": [
+      864,
+      648
+    ],
+    "sha256": "d71987deaf70e2bd9b7187379159017b05b37f02741f5b8d3217417c1498f20a",
+    "blend_sha256": "2550ec8df689014267a083683bdfc0c5d897f02b0da728995b02a2be825996da"
+  },
+  {
+    "id": "estrutura-explodida-3d",
+    "file": "renders/residencia-07/previas/estrutura-explodida-3d.png",
+    "seconds": 1.78,
+    "backend": "CUDA",
+    "samples": 24,
+    "resolution": [
+      864,
+      648
+    ],
+    "sha256": "bddf8bdf1c1d78f520df9fa9e54f24a66d3b83ba8ac08cdaa83902818d5ed6ec",
+    "blend_sha256": "2550ec8df689014267a083683bdfc0c5d897f02b0da728995b02a2be825996da"
+  }
+]

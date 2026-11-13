@@ -1,0 +1,22 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.302  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
+00:00.530  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.530  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:11.610  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/atico-cobertura.png'
+ATC5_RENDER_OK atico-cobertura
+00:20.553  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/atico-frente.png'
+ATC5_RENDER_OK atico-frente
+00:29.944  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/atico-fundos.png'
+ATC5_RENDER_OK atico-fundos
+00:40.810  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/abertura-frente-detalhe.png'
+ATC5_RENDER_OK abertura-frente-detalhe
+00:52.120  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/abertura-fundos-detalhe.png'
+ATC5_RENDER_OK abertura-fundos-detalhe
+01:09.338  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/encontro-cumeeiras.png'
+ATC5_RENDER_OK encontro-cumeeiras
+01:28.130  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/01-exteriores/cobertura-vista-superior.png'
+ATC5_RENDER_OK cobertura-vista-superior
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

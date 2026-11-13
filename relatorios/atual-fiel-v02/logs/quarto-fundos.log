@@ -1,0 +1,7 @@
+00:12.641  blend            | Read blend: "C:\Users\edann\AppData\Local\Temp\CasaInteriores\atual-fiel-v02\projeto\residencia-07-atual-v02\casa-07-atual-fiel.blend"
+00:16.485  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+05:50.891  render           | Saved: 'C:\Users\edann\AppData\Local\Temp\CasaInteriores\atual-fiel-v02\renders\atual\02-ambientes\quarto-fundos.png'
+CURRENT2_OPTIX_RENDER_OK quarto-fundos 334.66
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

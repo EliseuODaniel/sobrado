@@ -1,0 +1,58 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.281  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v05/casa-industrial-residencia07-atual.blend"
+00:00.817  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.818  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:11.278  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/01-plantas/planta-terreo.png'
+IND07_RENDER_OK planta-terreo 10.39
+00:19.588  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/01-plantas/planta-superior.png'
+IND07_RENDER_OK planta-superior 8.3
+00:30.016  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/01-plantas/terreo-3d.png'
+IND07_RENDER_OK terreo-3d 10.38
+00:39.673  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/01-plantas/superior-3d.png'
+IND07_RENDER_OK superior-3d 9.64
+01:15.318  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/sala-fundos.png'
+IND07_RENDER_OK sala-fundos 35.65
+01:48.470  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/sala-frente.png'
+IND07_RENDER_OK sala-frente 33.06
+02:20.728  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/cozinha.png'
+IND07_RENDER_OK cozinha 32.16
+02:53.482  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/cozinha-reversa.png'
+IND07_RENDER_OK cozinha-reversa 32.65
+03:30.547  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/bar.png'
+IND07_RENDER_OK bar 36.98
+04:05.260  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/lavanderia.png'
+IND07_RENDER_OK lavanderia 34.63
+04:41.269  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/fundos-abertos.png'
+IND07_RENDER_OK fundos-abertos 35.87
+05:19.089  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/divisao-lazer-lavanderia.png'
+IND07_RENDER_OK divisao-lazer-lavanderia 37.7
+05:49.354  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/escada-acesso.png'
+IND07_RENDER_OK escada-acesso 30.16
+06:19.417  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/escada-superior.png'
+IND07_RENDER_OK escada-superior 29.98
+06:50.647  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/lavabo.png'
+IND07_RENDER_OK lavabo 31.1
+07:23.403  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/suite.png'
+IND07_RENDER_OK suite 32.66
+07:53.561  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/quarto-frente.png'
+IND07_RENDER_OK quarto-frente 30.02
+08:24.087  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/quarto-fundos.png'
+IND07_RENDER_OK quarto-fundos 30.42
+08:46.491  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/03-exteriores/fachada-frontal.png'
+IND07_RENDER_OK fachada-frontal 22.3
+09:15.050  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/03-exteriores/volumetria.png'
+IND07_RENDER_OK volumetria 28.44
+09:54.482  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/sala-tv.png'
+IND07_RENDER_OK sala-tv 39.32
+10:37.124  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/mesa-jantar.png'
+IND07_RENDER_OK mesa-jantar 41.92
+11:15.142  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/bar-detalhe.png'
+IND07_RENDER_OK bar-detalhe 37.87
+11:45.616  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/escritorio-alternativa.png'
+IND07_RENDER_OK escritorio-alternativa 30.37
+12:18.661  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v05/02-ambientes/escritorio-reverso.png'
+IND07_RENDER_OK escritorio-reverso 32.93
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

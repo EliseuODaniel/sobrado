@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Sem erros de recursos 1440",
+      "passed": true
+    },
+    {
+      "check": "Sem transbordar a tela 1440",
+      "passed": true
+    },
+    {
+      "check": "26 cartões de vistas 1440",
+      "passed": true
+    },
+    {
+      "check": "16 comparações 1440",
+      "passed": true
+    },
+    {
+      "check": "Imagens carregadas 1440",
+      "passed": true
+    },
+    {
+      "check": "Links funcionais 1440",
+      "passed": true
+    },
+    {
+      "check": "Sem erros de recursos 390",
+      "passed": true
+    },
+    {
+      "check": "Sem transbordar a tela 390",
+      "passed": true
+    },
+    {
+      "check": "26 cartões de vistas 390",
+      "passed": true
+    },
+    {
+      "check": "16 comparações 390",
+      "passed": true
+    },
+    {
+      "check": "Imagens carregadas 390",
+      "passed": true
+    },
+    {
+      "check": "Links funcionais 390",
+      "passed": true
+    }
+  ],
+  "total": 12
+}

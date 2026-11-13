@@ -1,0 +1,1999 @@
+{
+  "timestamp_utc": "2026-11-13T08:14:18.049355+00:00",
+  "blend_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "checks": [
+    {
+      "name": "hash do modelo reaberto",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "base v05 preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "configuração exata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "geradores exatos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mesmo conjunto arquitetônico",
+      "passed": true,
+      "detail": 795
+    },
+    {
+      "name": "geometria arquitetônica inalterada",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "comparação independente com a base",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "todos os alvos v04 ausentes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manutenção autorizada da fonte v05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "demais arquivos nativos preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bar sem geladeira",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "geladeira da cozinha preservada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "biblioteca extraída disponível",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quatro referências preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sem bibliotecas externas vinculadas no arquivo salvo",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "imagens necessárias empacotadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "19 arquivos oficiais íntegros",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "todos os recursos oficiais CC0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "três interfaces de tela empacotadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "31 cenas exatas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coordenadas métricas em todas as malhas PBR correspondentes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rodapés modelados",
+      "passed": true,
+      "detail": 80
+    },
+    {
+      "name": "louças superiores vinculadas aos conjuntos corretos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "louças superiores sobre o pavimento superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cadeira com malha perfurada",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa escritorio-reverso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "entorno apenas em vistas completas escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "arquitetura visível preservada escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "câmera fora das paredes escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "resolução escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amostragem escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "caminho escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "condição de luz escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "HDRI em cada cena escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fontes auxiliares sem discos nos reflexos escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritório como alternativa escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "conjunto exato de imagens",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra sala-integrada-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra sala-integrada-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra bar-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra bar-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra escritorio-dia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra escritorio-noite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra planta-terreo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra planta-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra terreo-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra superior-3d",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra sala-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra sala-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra cozinha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra cozinha-reversa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra bar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra fundos-abertos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra divisao-lazer-lavanderia",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra escada-acesso",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra escada-superior",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra lavabo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra suite",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra quarto-frente",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra quarto-fundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra fachada-frontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra volumetria",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra sala-tv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra mesa-jantar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra bar-detalhe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra escritorio-alternativa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "imagem nativa íntegra escritorio-reverso",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_passed": true,
+  "renders_required": true,
+  "scope": "Preservação geométrica e integridade da revisão industrial; não certifica medidas reais, engenharia ou fotorrealismo perceptivo."
+}

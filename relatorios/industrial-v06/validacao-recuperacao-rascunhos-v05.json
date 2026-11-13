@@ -1,0 +1,422 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "previa01 retained geometry",
+      "passed": true
+    },
+    {
+      "name": "previa01 25 scenes and no bar fridge",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects planta-superior",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera planta-superior",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects superior-3d",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera superior-3d",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects sala-frente",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera sala-frente",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects cozinha",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera cozinha",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects bar",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera bar",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects escada-superior",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera escada-superior",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects lavabo",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera lavabo",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects suite",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera suite",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects volumetria",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera volumetria",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects sala-tv",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera sala-tv",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "previa01 visible objects escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "previa01 camera escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "previa02 retained geometry",
+      "passed": true
+    },
+    {
+      "name": "previa02 25 scenes and no bar fridge",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects planta-superior",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera planta-superior",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects superior-3d",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera superior-3d",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects sala-frente",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera sala-frente",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects cozinha",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera cozinha",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects bar",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera bar",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects escada-superior",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera escada-superior",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects lavabo",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera lavabo",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects suite",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera suite",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects volumetria",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera volumetria",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects sala-tv",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera sala-tv",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "previa02 visible objects escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "previa02 camera escritorio-reverso",
+      "passed": true
+    }
+  ],
+  "scope": "Reabertura independente: objetos visíveis e câmeras das 25 cenas, geometria retida de cada rascunho e ausência da geladeira do bar."
+}

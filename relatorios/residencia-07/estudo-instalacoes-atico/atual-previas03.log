@@ -1,0 +1,16 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.277  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atual/casa-07-atual.blend"
+00:00.577  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.577  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:03.404  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/escada-acesso.png'
+STUDY_RENDER_OK atual escada-acesso 2.73
+00:06.035  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/escada-superior.png'
+STUDY_RENDER_OK atual escada-superior 2.56
+00:08.435  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/lavabo.png'
+STUDY_RENDER_OK atual lavabo 2.32
+00:10.780  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/suite.png'
+STUDY_RENDER_OK atual suite 2.28
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

@@ -1,0 +1,386 @@
+{
+  "timestamp_utc": "2026-11-13T10:09:35.799075+00:00",
+  "records": [
+    {
+      "asset": "scuba_suede",
+      "channel": "Diffuse",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/scuba_suede/scuba_suede_diff_4k.jpg",
+      "sha256": "943aa707af0129125349283461151834e0561ad39facd39d396ac8090c6be337",
+      "md5": "9863aab1dca694ac7f39765831558abe",
+      "bytes": 15061719,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/scuba_suede/scuba_suede_diff_4k.jpg",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2852202902890041,
+        0.27889999747276306
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "luminance_linear_mean": 0.09338825320847796
+    },
+    {
+      "asset": "scuba_suede",
+      "channel": "Rough",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/scuba_suede/scuba_suede_rough_4k.jpg",
+      "sha256": "ea037747bff6b3d5a8abb00ceaa523b0d361c0a29ac6aa5be3ced9737c31b61f",
+      "md5": "d230a4319160f447ea745eace505e3fc",
+      "bytes": 16618794,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/scuba_suede/scuba_suede_rough_4k.jpg",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2852202902890041,
+        0.27889999747276306
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "scuba_suede",
+      "channel": "nor_gl",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/scuba_suede/scuba_suede_nor_gl_4k.exr",
+      "sha256": "178c98fc4a62dce7aa46cc411ecb1a20f328c568b4181dac47e0d46238ac7657",
+      "md5": "dda2624d19c65976f748cb854f787e33",
+      "bytes": 33118312,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/scuba_suede/scuba_suede_nor_gl_4k.exr",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2852202902890041,
+        0.27889999747276306
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "scuba_suede",
+      "channel": "anisotropy_strength",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/scuba_suede/scuba_suede_anisotropy_strength_2k.exr",
+      "sha256": "129982ba6b446a011213d5743d7a1ee6da9ceddf25dbd12248185a59ecaf477c",
+      "md5": "6597273c00a09d88c4708f3742337b44",
+      "bytes": 3866949,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/scuba_suede/scuba_suede_anisotropy_strength_2k.exr",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2852202902890041,
+        0.27889999747276306
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "scuba_suede",
+      "channel": "anisotropy_rotation",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/scuba_suede/scuba_suede_anisotropy_rotation_2k.exr",
+      "sha256": "9c9e50172e4c335c8abd6cfec2ea652fe4d21e518ee1a7aee8276f010ea00690",
+      "md5": "ffc9feb20e2a3c7bd15807d3bff47b68",
+      "bytes": 4159490,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/scuba_suede/scuba_suede_anisotropy_rotation_2k.exr",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2852202902890041,
+        0.27889999747276306
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "scuba_suede",
+      "channel": "spec_ior",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/scuba_suede/scuba_suede_spec_ior_2k.exr",
+      "sha256": "2d59ce16dd73f2090ae7c66d9a0726ec4d9b613890d48b634429ec3c1ca7b385",
+      "md5": "c81777ad227419ee67b7649132f3f507",
+      "bytes": 3760304,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/scuba_suede/scuba_suede_spec_ior_2k.exr",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2852202902890041,
+        0.27889999747276306
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "bi_stretch",
+      "channel": "Diffuse",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/bi_stretch/bi_stretch_diff_4k.jpg",
+      "sha256": "dfc5c499ae0718f16d7553cc45aa6ffb299f51b36785352daeafe79d03164c10",
+      "md5": "7cf1abdc5560c8028f54c8187eae8419",
+      "bytes": 13505248,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/bi_stretch/bi_stretch_diff_4k.jpg",
+      "source_page": "https://polyhaven.com/a/bi_stretch",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2645644946243421,
+        0.26440000534057617
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "luminance_linear_mean": 0.492612770635833
+    },
+    {
+      "asset": "bi_stretch",
+      "channel": "Rough",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/bi_stretch/bi_stretch_rough_4k.jpg",
+      "sha256": "3849c05c6de8e2c6b9e4bf1dad872ac1d8827abda61def923f39d5b4266086f3",
+      "md5": "7d095730ea57ace4e6e750ecdcd8b253",
+      "bytes": 14588142,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/bi_stretch/bi_stretch_rough_4k.jpg",
+      "source_page": "https://polyhaven.com/a/bi_stretch",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2645644946243421,
+        0.26440000534057617
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "bi_stretch",
+      "channel": "nor_gl",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/bi_stretch/bi_stretch_nor_gl_4k.exr",
+      "sha256": "e9752a24997e439fcd7eee4314c9880abfacd69e9a7c968bf39f18e40c03ae87",
+      "md5": "c4189c46448f99962db6266c1361c34a",
+      "bytes": 24356037,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/bi_stretch/bi_stretch_nor_gl_4k.exr",
+      "source_page": "https://polyhaven.com/a/bi_stretch",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2645644946243421,
+        0.26440000534057617
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "bi_stretch",
+      "channel": "anisotropy_strength",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/bi_stretch/bi_stretch_anisotropy_strength_2k.exr",
+      "sha256": "355aaae0409ba7b4e562f79ffe0ec691c10401f19a11d8826ef3d26d703cd636",
+      "md5": "46e263eb8822b4ba6b98b69feea694b3",
+      "bytes": 4225102,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/bi_stretch/bi_stretch_anisotropy_strength_2k.exr",
+      "source_page": "https://polyhaven.com/a/bi_stretch",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2645644946243421,
+        0.26440000534057617
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "bi_stretch",
+      "channel": "anisotropy_rotation",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/bi_stretch/bi_stretch_anisotropy_rotation_2k.exr",
+      "sha256": "e60459132df25487d9effd91b507ecc9b3997155acca64be226aefa4135d0a4e",
+      "md5": "1603b0bc41197fb2864626c70136defc",
+      "bytes": 4093228,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/bi_stretch/bi_stretch_anisotropy_rotation_2k.exr",
+      "source_page": "https://polyhaven.com/a/bi_stretch",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2645644946243421,
+        0.26440000534057617
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "bi_stretch",
+      "channel": "spec_ior",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/bi_stretch/bi_stretch_spec_ior_2k.exr",
+      "sha256": "0e450c95f3bce459102fd089fdd38a29d49f458eeb3b1b2ef1bcca7c2e673609",
+      "md5": "3b171c6d24cd74258c7a226a80904b18",
+      "bytes": 3375338,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/bi_stretch/bi_stretch_spec_ior_2k.exr",
+      "source_page": "https://polyhaven.com/a/bi_stretch",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.2645644946243421,
+        0.26440000534057617
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "waffle_pique_cotton",
+      "channel": "Diffuse",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/waffle_pique_cotton/waffle_pique_cotton_diff_4k.jpg",
+      "sha256": "ebf47d8be3c72c80f5a2101096ac3e2433d8e5a6520a5a54ca5d15579059f391",
+      "md5": "3db530461a3c1eef692005919ca78818",
+      "bytes": 11741498,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/waffle_pique_cotton/waffle_pique_cotton_diff_4k.jpg",
+      "source_page": "https://polyhaven.com/a/waffle_pique_cotton",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.280787176718274,
+        0.2768000066280365
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "luminance_linear_mean": 0.39673327152503557
+    },
+    {
+      "asset": "waffle_pique_cotton",
+      "channel": "Rough",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/waffle_pique_cotton/waffle_pique_cotton_rough_4k.jpg",
+      "sha256": "429301f89af963e516eecdaa9944964eea5e5b02403ff37c154a45b09104b1c2",
+      "md5": "4dc27de9d8ca5e8c6610d342417267a9",
+      "bytes": 13482617,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/waffle_pique_cotton/waffle_pique_cotton_rough_4k.jpg",
+      "source_page": "https://polyhaven.com/a/waffle_pique_cotton",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.280787176718274,
+        0.2768000066280365
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "waffle_pique_cotton",
+      "channel": "nor_gl",
+      "resolution": "4k",
+      "path": "assets/atual-fiel-v02/tecidos/waffle_pique_cotton/waffle_pique_cotton_nor_gl_4k.exr",
+      "sha256": "001e34c8a253c846237341481ccbfc8875510aebe5e0fde0e9d4e16ee0fa1ed9",
+      "md5": "6ea6047c15d500bf84ed9796a77ede0f",
+      "bytes": 22090190,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/waffle_pique_cotton/waffle_pique_cotton_nor_gl_4k.exr",
+      "source_page": "https://polyhaven.com/a/waffle_pique_cotton",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.280787176718274,
+        0.2768000066280365
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "waffle_pique_cotton",
+      "channel": "anisotropy_strength",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/waffle_pique_cotton/waffle_pique_cotton_anisotropy_strength_2k.exr",
+      "sha256": "144df3312a0b353aac6b19afbceecc973a4211ddb083634dbd2049b5bf4fa150",
+      "md5": "b43aaeaf5db4f059dee3cd67b544339c",
+      "bytes": 4145702,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/waffle_pique_cotton/waffle_pique_cotton_anisotropy_strength_2k.exr",
+      "source_page": "https://polyhaven.com/a/waffle_pique_cotton",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.280787176718274,
+        0.2768000066280365
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "waffle_pique_cotton",
+      "channel": "anisotropy_rotation",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/waffle_pique_cotton/waffle_pique_cotton_anisotropy_rotation_2k.exr",
+      "sha256": "1386d864a0061d5d2a280dd58bded75fd011b192cd4af716573cd2ee194c046f",
+      "md5": "39cadcaa1ac43f51fc2d7e4731d7e44a",
+      "bytes": 3470955,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/waffle_pique_cotton/waffle_pique_cotton_anisotropy_rotation_2k.exr",
+      "source_page": "https://polyhaven.com/a/waffle_pique_cotton",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.280787176718274,
+        0.2768000066280365
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "asset": "waffle_pique_cotton",
+      "channel": "spec_ior",
+      "resolution": "2k",
+      "path": "assets/atual-fiel-v02/tecidos/waffle_pique_cotton/waffle_pique_cotton_spec_ior_2k.exr",
+      "sha256": "2b6f45ead00616e0c6987d1983b61fc37c53914b724e2321879fcb157ceed0ff",
+      "md5": "e50ec56a7023f71d004c421f3d95f11b",
+      "bytes": 3784278,
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/waffle_pique_cotton/waffle_pique_cotton_spec_ior_2k.exr",
+      "source_page": "https://polyhaven.com/a/waffle_pique_cotton",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "dimensions_m": [
+        0.280787176718274,
+        0.2768000066280365
+      ],
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "passed": true,
+  "total": 188,
+  "checks": [
+    {
+      "check": "Modelo final corresponde ao recibo",
+      "passed": true
+    },
+    {
+      "check": "Fonte anterior preservada",
+      "passed": true
+    },
+    {
+      "check": "Conjunto exato de vistas",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa sala-foto",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra cozinha",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente cozinha",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa cozinha",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K cozinha",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra bar",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente bar",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa bar",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K bar",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra suite",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente suite",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa suite",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K suite",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa lavanderia",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa planta-superior",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa superior-3d",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa sala-frente",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa escada-superior",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra lavabo",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente lavabo",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa lavabo",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K lavabo",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra volumetria",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente volumetria",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa volumetria",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K volumetria",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Imagem íntegra banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Imagem do modelo corrente banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Configuração final nativa banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "PNG nativo RGB16 em 4K banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/00-cadernos/caderno-atual.pdf",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-atual-superior.pdf",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-atual-superior.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-atual-superior.svg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-atual-terreo.pdf",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-atual-terreo.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-atual-terreo.svg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-superior.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/planta-terreo.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/superior-3d.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/01-plantas/terreo-3d.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/banheiro-social.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/banheiro-suite.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/bar.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/cozinha-reversa.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/cozinha.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/divisao-lazer-lavanderia.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/escada-acesso.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/escada-superior.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/fundos-abertos.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/lavabo.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/lavanderia.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/quarto-azul-bancada.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/quarto-branco-armario.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/quarto-frente.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/sala-foto.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/sala-frente.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/sala-fundos.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/suite-reversa.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/02-ambientes/suite.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/03-exteriores/fachada-frontal.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/03-exteriores/volumetria.png",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/banheiro-social.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/banheiro-suite.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/bar.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/cozinha.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/escada-superior.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/fachada-frontal.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/lavabo.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/lavanderia.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/quarto-azul-bancada.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/quarto-branco-armario.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/quarto-frente.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/quarto-fundos.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/sala-foto.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/sala-fundos.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/suite-reversa.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/04-comparacoes/suite.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/banheiro-social.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/banheiro-suite.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/bar.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/cozinha-reversa.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/cozinha.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/divisao-lazer-lavanderia.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/escada-acesso.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/escada-superior.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/fachada-frontal.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/fundos-abertos.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/lavabo.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/lavanderia.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/planta-superior.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/planta-terreo.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/quarto-azul-bancada.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/quarto-branco-armario.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/quarto-frente.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/quarto-fundos.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/sala-foto.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/sala-frente.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/sala-fundos.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/suite-reversa.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/suite.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/superior-3d.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/terreo-3d.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/miniaturas/volumetria.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/06-galerias/painel-geral.jpg",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/LEIA-ME.md",
+      "passed": true
+    },
+    {
+      "check": "Artefato renders/atual/galeria.html",
+      "passed": true
+    },
+    {
+      "check": "Comparações por ambiente",
+      "passed": true
+    },
+    {
+      "check": "Caderno completo",
+      "passed": true
+    },
+    {
+      "check": "Fotos originais preservadas",
+      "passed": true
+    }
+  ],
+  "model_sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+  "renders": 26,
+  "comparisons": 16,
+  "scope": "Integridade dos arquivos; não certifica fotorealismo por pontuação automática."
+}

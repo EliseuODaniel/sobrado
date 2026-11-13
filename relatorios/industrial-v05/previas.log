@@ -1,0 +1,14 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.252  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v05/casa-industrial-residencia07-atual.blend"
+00:00.713  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.714  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:03.962  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/industrial-v05/previas/sala-fundos.png'
+IND07_RENDER_OK sala-fundos 3.25
+00:07.238  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/industrial-v05/previas/bar.png'
+IND07_RENDER_OK bar 3.2
+00:10.407  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/industrial-v05/previas/escritorio-alternativa.png'
+IND07_RENDER_OK escritorio-alternativa 3.09
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

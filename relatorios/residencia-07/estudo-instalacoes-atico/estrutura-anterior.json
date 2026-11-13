@@ -1,0 +1,58 @@
+[
+  {
+    "id": "estrutura-terreo-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-terreo-3d.png",
+    "seconds": 17.86,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "50d79a328c3372411a15aa63dc6b0fbd99049cb60b6fc235c96b5666ab50a6f3",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+    "archive": "historico/residencia-07-estrutura-branca/estrutura-terreo-3d.png"
+  },
+  {
+    "id": "estrutura-superior-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-superior-3d.png",
+    "seconds": 18.75,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "9397d98f18de0a0f1b5c61b6faba279d9d2d830a51adda9be1b4a116dbe5a893",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+    "archive": "historico/residencia-07-estrutura-branca/estrutura-superior-3d.png"
+  },
+  {
+    "id": "estrutura-conjunto-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-conjunto-3d.png",
+    "seconds": 18.19,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "acbee72db4523a70d78a9acadc021e2bcb6a1f41967f77acb3c414a516e7d66c",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+    "archive": "historico/residencia-07-estrutura-branca/estrutura-conjunto-3d.png"
+  },
+  {
+    "id": "estrutura-explodida-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-explodida-3d.png",
+    "seconds": 17.88,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "db390417b23587a85b0455557087f0466b8454386d145360232fdfacf02b1605",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+    "archive": "historico/residencia-07-estrutura-branca/estrutura-explodida-3d.png"
+  }
+]

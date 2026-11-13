@@ -1,0 +1,78 @@
+ALL_CURRENT_PREVIEWS_COMPLETE
+PIPELINE_START v06-previas-validacao
+PIPELINE_END v06-previas-validacao 0
+PIPELINE_START v06-finais-4k
+OPTIX_START sala-integrada-dia
+OPTIX_DONE sala-integrada-dia 369.48 4213
+OPTIX_START sala-integrada-noite
+OPTIX_DONE sala-integrada-noite 382.5 4213
+OPTIX_START bar-dia
+OPTIX_DONE bar-dia 307.53 4213
+OPTIX_START bar-noite
+OPTIX_DONE bar-noite 12836.45 4650
+OPTIX_START escritorio-dia
+OPTIX_DONE escritorio-dia 327.27 4809
+OPTIX_START escritorio-noite
+OPTIX_DONE escritorio-noite 313.85 4809
+OPTIX_START planta-terreo
+OPTIX_DONE planta-terreo 156.51 4361
+OPTIX_START planta-superior
+OPTIX_DONE planta-superior 109.69 2743
+OPTIX_START terreo-3d
+OPTIX_DONE terreo-3d 138.59 4361
+OPTIX_START superior-3d
+OPTIX_DONE superior-3d 189.94 2743
+OPTIX_START sala-fundos
+OPTIX_DONE sala-fundos 389.28 4858
+OPTIX_START sala-frente
+OPTIX_DONE sala-frente 432.22 4922
+OPTIX_START cozinha
+OPTIX_DONE cozinha 471.12 4965
+OPTIX_START cozinha-reversa
+OPTIX_DONE cozinha-reversa 404.13 4834
+OPTIX_START bar
+OPTIX_DONE bar 411.53 4930
+OPTIX_START lavanderia
+OPTIX_DONE lavanderia 343.65 4894
+OPTIX_START fundos-abertos
+OPTIX_DONE fundos-abertos 405.25 4790
+OPTIX_START divisao-lazer-lavanderia
+OPTIX_DONE divisao-lazer-lavanderia 408.26 4870
+OPTIX_START escada-acesso
+OPTIX_DONE escada-acesso 362.75 4871
+OPTIX_START escada-superior
+OPTIX_DONE escada-superior 356.05 4719
+OPTIX_START lavabo
+OPTIX_DONE lavabo 364.2 4871
+OPTIX_START suite
+OPTIX_DONE suite 362.6 4719
+OPTIX_START quarto-frente
+OPTIX_DONE quarto-frente 340.8 4719
+OPTIX_START quarto-fundos
+OPTIX_DONE quarto-fundos 365.79 4782
+OPTIX_START fachada-frontal
+OPTIX_DONE fachada-frontal 216.67 4799
+OPTIX_START volumetria
+OPTIX_DONE volumetria 223.16 4872
+OPTIX_START sala-tv
+OPTIX_DONE sala-tv 347.35 4870
+OPTIX_START mesa-jantar
+OPTIX_DONE mesa-jantar 384.76 4876
+OPTIX_START bar-detalhe
+OPTIX_DONE bar-detalhe 392.97 4876
+OPTIX_START escritorio-alternativa
+OPTIX_DONE escritorio-alternativa 340.16 4890
+OPTIX_START escritorio-reverso
+OPTIX_DONE escritorio-reverso 347.97 4890
+PIPELINE_END v06-finais-4k 0
+PIPELINE_START v06-auditoria-final
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.799  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+PHOTO6_AUDIT 398 True
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit
+PIPELINE_END v06-auditoria-final 0
+PIPELINE_START v06-entrega
+PHOTO6_DELIVERY 98 PASSED
+PIPELINE_END v06-entrega 0

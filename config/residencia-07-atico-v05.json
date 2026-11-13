@@ -1,0 +1,99 @@
+{
+  "resolution": [
+    1920,
+    1440
+  ],
+  "samples": 96,
+  "preview_percentage": 45,
+  "preview_samples": 24,
+  "adaptive_threshold": 0.03,
+  "ceiling": {
+    "vertical_reserve_below_roof_underside": 0.15,
+    "board_vertical_thickness": 0.0125,
+    "clip_min_z": 5.42,
+    "height_reference": 2.1,
+    "description": "Forro inclinado acompanhando as águas; reserva vertical proposta de 15 cm incluindo placa e espaço para fixação."
+  },
+  "version": "atico-v05",
+  "base_blend": "projeto/fontes/atico-cobertura-forro-sem-acesso.blend",
+  "current_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+  "output_blend": "projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend",
+  "render_directory": "renders/residencia-07-atico-v05",
+  "report_directory": "relatorios/residencia-07-atico-v05",
+  "stair": {
+    "base_z": 2.7,
+    "top_z": 5.4,
+    "risers": 16,
+    "rise": 0.16875,
+    "going": 0.25,
+    "flight_width": 0.9,
+    "floor_holes": [
+      [
+        4.6,
+        6.25,
+        2.15,
+        4.15
+      ],
+      [
+        4.1,
+        4.6,
+        2.15,
+        3.25
+      ]
+    ],
+    "arrival_path": [
+      [
+        3.8,
+        2.6,
+        2.7
+      ],
+      [
+        3.8,
+        3.7,
+        2.7
+      ],
+      [
+        4.1,
+        3.7,
+        2.7
+      ]
+    ],
+    "upper_exit": [
+      4.1,
+      2.6,
+      5.4
+    ],
+    "existing_hall_nominal_width": 0.65
+  },
+  "tank": {
+    "old_center_xy": [
+      5.35,
+      3.175
+    ],
+    "center_xy": [
+      1.8,
+      3.175
+    ],
+    "base_z": 5.45,
+    "capacity_liters": 1000,
+    "technical_room": [
+      0.15,
+      3.3,
+      2.1,
+      4.35
+    ],
+    "relocation_authorized": true
+  },
+  "notes": [
+    "Última decisão do usuário: mover a caixa e posicionar os dois lances novos exatamente sobre os atuais. Esta instrução substitui a alternativa anterior de retorno aos fundos e caixa fixa.",
+    "Os 16 pisos da nova U repetem exatamente os polígonos XY dos 16 pisos existentes, com deslocamento exclusivamente vertical de +2,70 m.",
+    "Caixa de 1.000 L proposta no lado esquerdo do ático, de X=5,35 para X=1,80 m, Y=3,175 m e base +5,45 m mantidos. Volume externo ilustrativo; nova posição é proposta, não levantamento.",
+    "Área técnica transferida para a esquerda. Alimentação e extravasor são estudos de novos percursos; apoios e cargas do reservatório precisam de dimensionamento.",
+    "A chegada existente liga-se ao primeiro lance novo pelo hall, com cerca de 1,10 m entre eixos dos lances. O vidro/guarda anterior é retirado para liberar a nova subida.",
+    "O vão da laje do ático reproduz o vão em L da escada existente; o pequeno patamar sobre os dois primeiros pisos é mantido e sua altura livre é verificada. A abertura frontal da v04 é fechada.",
+    "A divisória e a porta do quarto frontal são restauradas ao modelo atual; nenhum dos dois quartos recebe a nova escada nesta revisão. O hall nominal de 65 cm permanece como restrição da base, sem certificação executiva.",
+    "Forro inclinado com reserva vertical de 15 cm, incluindo placa de 1,25 cm, sob os 8 cm representados da cobertura. Altura livre máxima de 3,77 m. Mansardas da v03 preservadas.",
+    "Escritório transferido para a faixa posterior e estar para a frontal; armários baixos ajustados para não atravessar a cobertura.",
+    "A base documental e os projetos anteriores são preservados. A revisão é geométrica e visual; estrutura, apoios, instalações definitivas e condições legais de uso não são dimensionados."
+  ]
+}

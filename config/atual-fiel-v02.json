@@ -1,0 +1,37 @@
+{
+  "version": "atual-fiel-v02",
+  "base_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+  "base_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+  "output_blend": "projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend",
+  "render_directory": "renders/atual",
+  "report_directory": "relatorios/atual-fiel-v02",
+  "reference_directory": "referencias-originais",
+  "resolution": [
+    3840,
+    2880
+  ],
+  "samples": 512,
+  "adaptive_threshold": 0.008,
+  "preview_percentage": 33,
+  "preview_samples": 64,
+  "protected_collections": [
+    "ATUAL_Arquitetura",
+    "ATUAL_Corte_Terreo",
+    "ATUAL_Corte_Superior",
+    "ATUAL_Fundos",
+    "ATUAL_Cobertura_Fundos",
+    "ATUAL_Escada",
+    "R07_Piso_Terreo",
+    "R07_Piso_Superior",
+    "R07_Escada",
+    "R07_Teto_Superior",
+    "R07_Cobertura",
+    "R07_Contexto"
+  ],
+  "notes": [
+    "Reconstrução visual por fotos, sem calibração fotogramétrica ou medição dos móveis.",
+    "Arquitetura documental e alterações aprovadas preservadas; mobiliário e revestimentos reinterpretados pelas fotos.",
+    "A geladeira do bar permanece na casa atual, conforme as fotos; a remoção anterior era apenas das propostas industriais.",
+    "Cycles nativo; Unreal não instalado, sem alegação de comparação executada."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "reason": "Estado anterior à reconstrução atual fiel v02",
+  "files": [
+    {
+      "file": "historico/estudos/atual-v01/renders/00-cadernos/caderno-atual.pdf",
+      "sha256": "2b853ea20fdf0e975a8de35e3be356f3eba2fbf3ec9a9271eb7f1089eda7f526"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-atual-superior.pdf",
+      "sha256": "11b06c417ac1ddfd430d1cb9c445b11056810096a5ccbb71c1ecda70d72b33a7"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-atual-superior.png",
+      "sha256": "9e14ca15d3f66a50e80baacc0a1ca119a16516d5cb36340f672b63f06680236b"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-atual-superior.svg",
+      "sha256": "558db94b6c75128826ea966b2756f939dee49774f9b909ce9ac4d1224da3c7e1"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-atual-terreo.pdf",
+      "sha256": "4612fada90809e3e6c717c80b727a547bfd4ef7ca729e61602aa7f8a15159c80"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-atual-terreo.png",
+      "sha256": "4b1655e17863805517a5f1d1883c10a48d042f846e92f077414d06508eeee16a"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-atual-terreo.svg",
+      "sha256": "be85ef7f8c001ec88c96bebd19038934adbb63fd93b97c0f89b55c703608c357"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-superior.png",
+      "sha256": "7d2ef81977dab9f4b40953adeafef77f6b4c04f8dd642d5c73debc6936f963cf"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/planta-terreo.png",
+      "sha256": "63385d0d0aa8648e2d6827d142ce848e6c7d396fae6a086a74afa01eab2842f4"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/superior-3d.png",
+      "sha256": "e7135d3642428dde45c5c57043011cc3f6d7b561c9aebc831da8448efa250a86"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/01-plantas/terreo-3d.png",
+      "sha256": "16ca42fae697ed0110b0f0952f7ec57c96328474ec09b249d4348723ca9e8915"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/bar.png",
+      "sha256": "0c478eb5ea82dca55595785c2de11b1600a53dac4941b469adf7758c73f7b436"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/cozinha-reversa.png",
+      "sha256": "f61d4da73c9dc35502c38d27d1ca387c7ab33a4513f32af8dc09f469241783ec"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/cozinha.png",
+      "sha256": "1b7d72cbff44b08e470dbdbbfa60599220df5f5ac17ddfa2c5e0b0dcd27758da"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/divisao-lazer-lavanderia.png",
+      "sha256": "607ec681ca31e305797105b2d19b71a144e92b9bcfe116050ed2154b42e727be"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/escada-acesso.png",
+      "sha256": "03ba36e39648669caa9212b0e71b0d5ab41e4ed21c16ecd961fcc97909e9a935"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/escada-superior.png",
+      "sha256": "0f59be0a7a0b6e64848899dfd855f9cd48567685fd93e703fee95a91f33554da"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/fundos-abertos.png",
+      "sha256": "e112a22bf2eb0005f883034655453e2d076fbbe8a6a7adc440f425c459a4100a"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/lavabo.png",
+      "sha256": "3da3f145248fbb4c128d67e2e1f7b2eaab71fe9343f8a4eabf0a75e4f46ff698"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/lavanderia.png",
+      "sha256": "3c790fd3440c03d80a99246458d050fbc61aafd9cbc4912ce8725af1c23af1e5"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/quarto-frente.png",
+      "sha256": "064474c750495c3663abee968a7f8cb21a2935db3a5fa8db5af26c2ca7e809a2"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/quarto-fundos.png",
+      "sha256": "19d6750454d3b4082a7d4fac3234859a45cc350340ff1bc87a8ed99935f0f9e6"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/sala-frente.png",
+      "sha256": "6b5fb05265a028851d8ec301cf7aed2c562d521eef8642045e6e05de3b2b1dd0"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/sala-fundos.png",
+      "sha256": "d6508f806c8f520e9c4533b8f88f7ac8000a2a468848f4d39eee8cb9fdebc70f"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/02-ambientes/suite.png",
+      "sha256": "ae09cbf6591ff69ba5481a8131a715472d5cce5d391fc3f6a940c2d0f58ad3c8"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/03-exteriores/fachada-frontal.png",
+      "sha256": "dcdeba3d15f271b1b5ee38abfade3f95e7ae2d7db75dd5f399b942c05c4ceb55"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/03-exteriores/volumetria.png",
+      "sha256": "e1ad34904d932f39512253fbd777cf4a7c2bd6029ed44f07a08242dadd8b5d92"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/04-comparacoes/foto-modelo-cozinha.jpg",
+      "sha256": "bde31be7243aa65f8c6a458af9bee64adf522933c3030c0d0773a514021de489"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/04-comparacoes/foto-modelo-lavanderia.jpg",
+      "sha256": "c03f2570ba0891ca02370d038b41ef39b386aefff07b26e00b8ae59256ce8f10"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/04-comparacoes/foto-modelo-lazer.jpg",
+      "sha256": "a1647d0737b3ae8bb5ad57679202c0cf61b9287443560ccb7033cd869f1b3ea4"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/04-comparacoes/foto-modelo-quarto-fundos.jpg",
+      "sha256": "9c509df54f5dccc0f7a91fa1ec5fd83d7f3b4f7239772acb39128fa88326fa07"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/04-comparacoes/foto-modelo-sala.jpg",
+      "sha256": "c1623def9cb920a0d17be098734fdfa3d0c685fdca6d9948cba1c680db0bb5e0"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/04-comparacoes/foto-modelo-suite.jpg",
+      "sha256": "7bb0ff57e30e075defd91b66638370aa135f1024381f59b2c131519452ad652c"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/06-galerias/painel-geral.jpg",
+      "sha256": "c9e40e61295f44c0532fb563226380b93907fc31fc82bd8a8af67e6f26e723a1"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/LEIA-ME.md",
+      "sha256": "efb9423bfa7d3387ed66514ca5f25bfd2b56cc4cb050803653c57adcec897fe1"
+    },
+    {
+      "file": "historico/estudos/atual-v01/renders/galeria.html",
+      "sha256": "e5a12a58130d74ced6fe4bb7d6d0606a916812b7d364edc90be637e2d27e2ea6"
+    }
+  ]
+}

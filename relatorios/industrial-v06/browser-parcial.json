@@ -1,0 +1,14 @@
+{
+  "scope": "Galeria provisória, prévias e arquivos já concluídos; repetir conferência da galeria definitiva após os 31 renders.",
+  "desktop": {
+    "title": "Industrial v06 / imagens em processamento",
+    "images": 6,
+    "allImagesLoaded": true,
+    "overflow": false
+  },
+  "mobile": {
+    "overflow": false
+  },
+  "errors": [],
+  "passed": true
+}

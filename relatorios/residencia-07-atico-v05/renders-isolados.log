@@ -1,0 +1,20 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.263  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
+00:00.490  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.490  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:09.168  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/01-vistas/01-referencia.png'
+ATC5_RENDER_OK 01-referencia
+00:17.563  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/01-vistas/02-giro-90.png'
+ATC5_RENDER_OK 02-giro-90
+00:26.029  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/01-vistas/03-giro-180.png'
+ATC5_RENDER_OK 03-giro-180
+00:34.581  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/01-vistas/04-giro-270.png'
+ATC5_RENDER_OK 04-giro-270
+00:43.332  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/01-vistas/05-lateral-patamares.png'
+ATC5_RENDER_OK 05-lateral-patamares
+00:52.239  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/01-vistas/06-vista-superior.png'
+ATC5_RENDER_OK 06-vista-superior
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

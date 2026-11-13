@@ -1,0 +1,29 @@
+{
+  "source_info": {
+    "brown_leather": {
+      "file": "api/brown_leather-info.json",
+      "url": "https://api.polyhaven.com/info/brown_leather",
+      "nominal_capture_m": 0.4,
+      "chosen_finish_tile_m": 0.08333333333333333,
+      "note": "Derivação do mapa para acabamento de grão mais fino, conforme referência; não é medição do sofá real."
+    },
+    "denim_fabric": {
+      "file": "api/denim_fabric-info.json",
+      "url": "https://api.polyhaven.com/info/denim_fabric",
+      "nominal_capture_m": 0.1,
+      "chosen_tile_m": 0.1
+    }
+  },
+  "changes": [
+    "Couro: normal 0.23 -> 0.12 e repetição 2.8 -> 12 por metro para acabamento fino",
+    "Têxtil: repetição 3 -> 10 por metro para amostra nominal de 100 mm",
+    "Atlas UV original de estofados preservado; densidade métrica a partir da relação de áreas 3D/UV",
+    "Almofadas: subdivisão 2 no render, sem alterar a arquitetura",
+    "Aço pintado e grafite: resposta dielétrica da pintura, metallic=0"
+  ],
+  "corrected_native_sha256": "839e7719076a9b4f7ff0a9f9703674b3791b7245b2b56058e60cbac51c4e8665",
+  "verification": "Diagnostic crop rendering at 4K pixel density, 128 samples; final 31 frames will use 512 samples.",
+  "final_native_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "subsequent_changes": "Enquadramentos preservados; depois do diagnóstico foram corrigidos vínculos de louças, apresentação do entorno, luminárias e tecido da suíte.",
+  "full_resolution_review": "Sala integrada de dia conferida no PNG final 3840x2880 e em dois recortes a 100%; demais finais em conferência conforme produção."
+}

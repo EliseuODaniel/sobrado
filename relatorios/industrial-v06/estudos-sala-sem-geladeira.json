@@ -1,0 +1,44 @@
+[
+  {
+    "file": "historico/ate-revisao05/projeto/sala-industrial.blend",
+    "sha256": "60701fbe9de9a1c3f4a867468379ad53893e8ea13bc9621eec8bd714584b6e90",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  },
+  {
+    "file": "historico/ate-revisao05/projeto/versoes/sala-industrial-preview-20261110T094533Z.blend",
+    "sha256": "cace05b2f0d31cee13efbb6ac4d60a6d60cd108851c3b8830b8405cc5361078b",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  },
+  {
+    "file": "historico/ate-revisao05/projeto/versoes/sala-industrial-preview-20261110T095320Z.blend",
+    "sha256": "901dcc2a882ca5342cda0eb76ff96b6573325757bf8e6ed78282a86b27ed5601",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  },
+  {
+    "file": "historico/ate-revisao05/projeto/versoes/sala-industrial-v01-antes-ajuste-manta.blend",
+    "sha256": "ae80b82484d31418a8382599e3c71882b6d13b4f55d887406d41d590d0ddbb97",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  },
+  {
+    "file": "historico/ate-revisao05/projeto/versoes/sala-industrial-v02-antes-ajuste-reflexo.blend",
+    "sha256": "833c1c2c2c47cc495f3050d6d287f8f04f7c7ec3ee98f5299c4022d8864e68b8",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  },
+  {
+    "file": "historico/ate-revisao05/projeto/versoes/sala-industrial-v03-antes-sapatas.blend",
+    "sha256": "6b392c46bff57e25efb11469574ac49fefbfe0bb191564c99ceaec03e0f37f02",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  },
+  {
+    "file": "projeto/fontes/mobiliario-industrial.blend",
+    "sha256": "5a33e3d8b04d3e5c8c9ba29bea318e932ec905997ea487519ada4cc52ba4fca3",
+    "bar_fridge_roots": [],
+    "native_unchanged": true
+  }
+]

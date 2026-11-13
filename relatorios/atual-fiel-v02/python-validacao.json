@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "count": 21,
+  "files": [
+    "scripts/current_photoreal.py",
+    "scripts/current_photoreal_audit.py",
+    "scripts/current_photoreal_data.py",
+    "scripts/current_photoreal_details.py",
+    "scripts/current_photoreal_exterior.py",
+    "scripts/current_photoreal_furniture.py",
+    "scripts/current_photoreal_geometry.py",
+    "scripts/current_photoreal_materials.py",
+    "scripts/current_photoreal_refinement.py",
+    "scripts/deliver_current_photoreal.py",
+    "scripts/fetch_current_fabrics.py",
+    "scripts/finalize_current_delivery.py",
+    "scripts/finish_current_cameras.py",
+    "scripts/finish_current_entry.py",
+    "scripts/finish_current_floor.py",
+    "scripts/finish_current_surfaces.py",
+    "scripts/finish_current_textiles.py",
+    "scripts/rebuild_current_photoreal.py",
+    "scripts/render_current_photoreal.py",
+    "scripts/report_current_progress.py",
+    "scripts/validate_current_delivery.py"
+  ],
+  "python": "3.12.3",
+  "timestamp_utc": "2026-11-13T14:28:49.001098+00:00"
+}

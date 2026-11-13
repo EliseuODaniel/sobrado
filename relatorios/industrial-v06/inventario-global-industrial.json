@@ -1,0 +1,20 @@
+{
+  "scope": "Industrial raster/PDF/native files outside Git/tools caches; generated files still grow during final render.",
+  "counts": {
+    "historico": 60,
+    "projeto": 5,
+    "assets": 136,
+    "referencias-estilo-industrial": 4,
+    "renders": 66,
+    "relatorios": 64
+  },
+  "outside_known_paths": [
+    "projeto/fontes/mobiliario-industrial.blend"
+  ],
+  "verified_additional_library": {
+    "file": "projeto/fontes/mobiliario-industrial.blend",
+    "receipt": "estudos-sala-sem-geladeira.json"
+  },
+  "unaccounted_paths": [],
+  "industrial_blender_backups": []
+}

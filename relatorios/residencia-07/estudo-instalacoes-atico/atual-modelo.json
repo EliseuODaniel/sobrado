@@ -1,0 +1,409 @@
+{
+  "timestamp_utc": "2026-11-12T04:52:44.019152+00:00",
+  "kind": "atual",
+  "blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+  "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+  "source_blend": "projeto/residencia-07/casa-07.blend",
+  "source_blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+  "config_sha256": "3f0175bde3b79b053660a5acd087a971d7fc35f77a8a6989de9906fdb64a42d5",
+  "jobs": [
+    {
+      "id": "planta-terreo",
+      "title": "Atual · Térreo com fundo aberto e móveis atuais",
+      "pos": [
+        3.2,
+        4.1,
+        20
+      ],
+      "target": [
+        3.2,
+        4.1,
+        0
+      ],
+      "mode": "plan0",
+      "ortho": 17.5,
+      "top": true,
+      "scene": "ATUAL_planta-terreo",
+      "file": "renders/atual/01-plantas/planta-terreo.png"
+    },
+    {
+      "id": "planta-superior",
+      "title": "Atual · Superior com móveis das referências",
+      "pos": [
+        3.2,
+        4.1,
+        22
+      ],
+      "target": [
+        3.2,
+        4.1,
+        2.7
+      ],
+      "mode": "plan1",
+      "ortho": 17.5,
+      "top": true,
+      "scene": "ATUAL_planta-superior",
+      "file": "renders/atual/01-plantas/planta-superior.png"
+    },
+    {
+      "id": "terreo-3d",
+      "title": "Atual · Térreo e área posterior",
+      "pos": [
+        15,
+        -14,
+        18
+      ],
+      "target": [
+        3.2,
+        4.7,
+        0.7
+      ],
+      "mode": "iso0",
+      "ortho": 16.8,
+      "scene": "ATUAL_terreo-3d",
+      "file": "renders/atual/01-plantas/terreo-3d.png"
+    },
+    {
+      "id": "superior-3d",
+      "title": "Atual · Superior em 3D",
+      "pos": [
+        12,
+        -10,
+        17
+      ],
+      "target": [
+        3.1,
+        3,
+        3.3
+      ],
+      "mode": "iso1",
+      "ortho": 12.5,
+      "scene": "ATUAL_superior-3d",
+      "file": "renders/atual/01-plantas/superior-3d.png"
+    },
+    {
+      "id": "sala-fundos",
+      "title": "Atual · Sala integrada aos fundos",
+      "pos": [
+        2.85,
+        0.95,
+        1.45
+      ],
+      "target": [
+        1.6,
+        6.5,
+        1.2
+      ],
+      "mode": "photo",
+      "lens": 19,
+      "scene": "ATUAL_sala-fundos",
+      "file": "renders/atual/02-ambientes/sala-fundos.png"
+    },
+    {
+      "id": "sala-frente",
+      "title": "Atual · Sofá cinza e mesa de vidro",
+      "pos": [
+        2.85,
+        4.9,
+        1.45
+      ],
+      "target": [
+        1.3,
+        1.3,
+        1.0
+      ],
+      "mode": "photo",
+      "lens": 20,
+      "scene": "ATUAL_sala-frente",
+      "file": "renders/atual/02-ambientes/sala-frente.png"
+    },
+    {
+      "id": "cozinha",
+      "title": "Atual · Cozinha com armários cinza",
+      "pos": [
+        3.65,
+        4.65,
+        1.5
+      ],
+      "target": [
+        5.2,
+        6.55,
+        1.25
+      ],
+      "mode": "photo",
+      "lens": 18,
+      "scene": "ATUAL_cozinha",
+      "file": "renders/atual/02-ambientes/cozinha.png"
+    },
+    {
+      "id": "cozinha-reversa",
+      "title": "Atual · Cozinha para a sala",
+      "pos": [
+        5.45,
+        5.7,
+        1.5
+      ],
+      "target": [
+        3.6,
+        4.7,
+        1.2
+      ],
+      "mode": "photo",
+      "lens": 19,
+      "scene": "ATUAL_cozinha-reversa",
+      "file": "renders/atual/02-ambientes/cozinha-reversa.png"
+    },
+    {
+      "id": "bar",
+      "title": "Atual · Lazer com quatro banquetas e vidro",
+      "pos": [
+        2.85,
+        6.5,
+        1.5
+      ],
+      "target": [
+        1.65,
+        9.7,
+        1.3
+      ],
+      "mode": "photo",
+      "lens": 23,
+      "scene": "ATUAL_bar",
+      "file": "renders/atual/02-ambientes/bar.png"
+    },
+    {
+      "id": "lavanderia",
+      "title": "Atual · Lavanderia separada do lazer",
+      "pos": [
+        3.8,
+        7.6,
+        1.5
+      ],
+      "target": [
+        5.25,
+        9.8,
+        1.2
+      ],
+      "mode": "photo",
+      "lens": 19,
+      "scene": "ATUAL_lavanderia",
+      "file": "renders/atual/02-ambientes/lavanderia.png"
+    },
+    {
+      "id": "fundos-abertos",
+      "title": "Atual · Abertura para a área posterior",
+      "pos": [
+        1.6,
+        8.0,
+        1.5
+      ],
+      "target": [
+        1.6,
+        3.5,
+        1.2
+      ],
+      "mode": "photo",
+      "lens": 21,
+      "scene": "ATUAL_fundos-abertos",
+      "file": "renders/atual/02-ambientes/fundos-abertos.png"
+    },
+    {
+      "id": "divisao-lazer-lavanderia",
+      "title": "Atual · Divisão entre lazer e lavanderia",
+      "pos": [
+        0.85,
+        8.8,
+        1.5
+      ],
+      "target": [
+        3.45,
+        8.1,
+        1.25
+      ],
+      "mode": "photo",
+      "lens": 23,
+      "scene": "ATUAL_divisao-lazer-lavanderia",
+      "file": "renders/atual/02-ambientes/divisao-lazer-lavanderia.png"
+    },
+    {
+      "id": "escada-acesso",
+      "title": "Atual · Acesso à escada pela circulação",
+      "pos": [
+        3.8,
+        3.95,
+        1.48
+      ],
+      "target": [
+        5.35,
+        3.3,
+        1.22
+      ],
+      "mode": "photo",
+      "lens": 19,
+      "scene": "ATUAL_escada-acesso",
+      "file": "renders/atual/02-ambientes/escada-acesso.png"
+    },
+    {
+      "id": "escada-superior",
+      "title": "Atual · Escada e hall superior",
+      "pos": [
+        4.1,
+        3.65,
+        4.3
+      ],
+      "target": [
+        5.5,
+        3.1,
+        1.7
+      ],
+      "mode": "photo",
+      "lens": 20,
+      "scene": "ATUAL_escada-superior",
+      "file": "renders/atual/02-ambientes/escada-superior.png"
+    },
+    {
+      "id": "lavabo",
+      "title": "Atual · Lavabo sob a escada",
+      "pos": [
+        3.92,
+        2.35,
+        1.35
+      ],
+      "target": [
+        5.7,
+        2.9,
+        0.95
+      ],
+      "mode": "photo",
+      "lens": 15,
+      "scene": "ATUAL_lavabo",
+      "file": "renders/atual/02-ambientes/lavabo.png"
+    },
+    {
+      "id": "suite",
+      "title": "Atual · Suíte e roupeiro fotografados",
+      "pos": [
+        3.0,
+        -0.08,
+        4.2
+      ],
+      "target": [
+        1.6,
+        1.7,
+        3.7
+      ],
+      "mode": "photo",
+      "lens": 22,
+      "scene": "ATUAL_suite",
+      "file": "renders/atual/02-ambientes/suite.png"
+    },
+    {
+      "id": "quarto-frente",
+      "title": "Atual · Quarto branco",
+      "pos": [
+        4.65,
+        -0.78,
+        4.18
+      ],
+      "target": [
+        5.6,
+        0.7,
+        3.7
+      ],
+      "mode": "photo",
+      "lens": 20,
+      "scene": "ATUAL_quarto-frente",
+      "file": "renders/atual/02-ambientes/quarto-frente.png"
+    },
+    {
+      "id": "quarto-fundos",
+      "title": "Atual · Quarto azul, beliche e bancada",
+      "pos": [
+        3.8,
+        4.65,
+        4.18
+      ],
+      "target": [
+        5.25,
+        6.15,
+        3.7
+      ],
+      "mode": "photo",
+      "lens": 19,
+      "scene": "ATUAL_quarto-fundos",
+      "file": "renders/atual/02-ambientes/quarto-fundos.png"
+    },
+    {
+      "id": "fachada-frontal",
+      "title": "Atual · Fachada frontal na base 07",
+      "pos": [
+        3.1,
+        -19,
+        5.0
+      ],
+      "target": [
+        3.1,
+        2,
+        4
+      ],
+      "mode": "exterior",
+      "lens": 38,
+      "scene": "ATUAL_fachada-frontal",
+      "file": "renders/atual/03-exteriores/fachada-frontal.png"
+    },
+    {
+      "id": "volumetria",
+      "title": "Atual · Casa e cobertura posterior",
+      "pos": [
+        16,
+        18,
+        14
+      ],
+      "target": [
+        3.1,
+        4.8,
+        3.8
+      ],
+      "mode": "exterior",
+      "ortho": 18,
+      "scene": "ATUAL_volumetria",
+      "file": "renders/atual/03-exteriores/volumetria.png"
+    }
+  ],
+  "objects": 2167,
+  "photo_directory": "referencias-originais",
+  "furniture_source": "projeto/casa-reconstruida.blend",
+  "furniture_source_sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
+  "photo_rooms": [
+    "AMB_sala",
+    "AMB_jantar",
+    "AMB_bar",
+    "AMB_cozinha",
+    "AMB_lavabo",
+    "AMB_lavanderia",
+    "AMB_quarto_azul",
+    "AMB_quarto_branco"
+  ],
+  "furniture_objects": 1260,
+  "rear_opening": {
+    "wall": "T-fundos-sala",
+    "clear_x": [
+      0.15,
+      3.3
+    ],
+    "height": 2.55,
+    "source": "Abertura informada pelo usuário; continuidade também visível em sala1.webp e sala7.webp."
+  },
+  "current_notes": [
+    "Estado atual reconstruído visualmente, sem levantamento presencial.",
+    "Arquitetura métrica da residência 07; mudanças dos fundos e móveis baseados nas fotos e nas instruções do usuário.",
+    "Profundidade dos anexos, espessuras dos fechamentos novos e dimensões dos móveis continuam aproximadas.",
+    "Coleções de móveis do estudo fotográfico anterior são reposicionadas sem escalar os móveis.",
+    "Redes originais de 2011 não são apresentadas como levantamento das instalações após a reforma."
+  ],
+  "generators": {
+    "scripts/residence07_current.py": "ad036a12ed46278c4ffbc38121ff0cf5e51342694f0fcedc6ee86fb12428afab",
+    "scripts/residence07_studies_data.py": "e9af8ad4a8662db1a855e3f7091f0f96d0910e7e6e55bf5b29d0f90bbfca0f54",
+    "scripts/residence07_studies_scene.py": "4940e69b6fa079136aceff8f1e66a48ee30d33b9852e97dd2d5dffc9c65b3bcf"
+  }
+}

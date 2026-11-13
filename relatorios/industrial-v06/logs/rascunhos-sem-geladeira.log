@@ -1,0 +1,125 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.312  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend"
+00:00.970  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend"
+00:09.330  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/cozinha-reversa.png'
+Info: Saved as "casa-industrial.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/cozinha-reversa.png
+00:17.358  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/cozinha.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/cozinha.png
+00:26.323  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/lazer-fundos.png
+00:34.544  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/quarto-escritorio.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/quarto-escritorio.png
+00:44.058  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/quarto-fundos.png
+00:52.697  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/sala-frente.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/sala-frente.png
+01:02.750  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/previas/sala-integrada.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada01/previas/sala-integrada.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend
+01:02.850  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend"
+01:03.614  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend"
+01:12.170  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/cozinha-reversa.png'
+Info: Saved as "casa-industrial.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/cozinha-reversa.png
+01:21.574  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/cozinha.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/cozinha.png
+01:29.523  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/lazer-fundos.png
+01:37.836  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/quarto-escritorio.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/quarto-escritorio.png
+01:46.645  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/quarto-fundos.png
+01:55.558  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/sala-frente.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/sala-frente.png
+02:05.481  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/previas/sala-integrada.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v01/rodada02/previas/sala-integrada.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend
+02:05.609  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend"
+02:07.106  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend"
+02:23.891  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/previas/cozinha.png'
+Info: Saved as "casa-industrial-hq.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada01/previas/cozinha.png
+02:38.588  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada01/previas/lazer-fundos.png
+02:53.695  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada01/previas/quarto-fundos.png
+03:10.338  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/previas/sala.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada01/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend
+03:10.505  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend"
+03:11.870  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend"
+03:28.882  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/previas/cozinha.png'
+Info: Saved as "casa-industrial-hq.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada02/previas/cozinha.png
+03:43.289  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada02/previas/lazer-fundos.png
+03:58.796  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada02/previas/quarto-fundos.png
+04:15.840  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/previas/sala.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada02/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend
+04:16.009  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend"
+04:17.375  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend"
+04:34.282  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/previas/cozinha.png'
+Info: Saved as "casa-industrial-hq.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada03/previas/cozinha.png
+04:48.366  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada03/previas/lazer-fundos.png
+05:03.118  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada03/previas/quarto-fundos.png
+05:20.085  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/previas/sala.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada03/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend
+05:20.264  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend"
+05:21.630  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend"
+05:38.721  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/previas/cozinha.png'
+Info: Saved as "casa-industrial-hq.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada04/previas/cozinha.png
+05:53.119  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada04/previas/lazer-fundos.png
+06:07.824  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada04/previas/quarto-fundos.png
+06:24.881  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/previas/sala.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v02/rodada04/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend
+06:25.179  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend"
+06:27.862  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend"
+07:50.537  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada01/previas/sala.png'
+Info: Saved as "casa-fotografica.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada01/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend
+07:51.125  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend"
+07:53.779  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend"
+09:49.452  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada02/previas/sala.png'
+Info: Saved as "casa-fotografica.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada02/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend
+09:49.960  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend"
+09:54.462  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend"
+11:53.687  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/previas/cozinha.png'
+Info: Saved as "casa-fotografica.sem-geladeira-bar.blend"
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada03/previas/cozinha.png
+14:47.677  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/previas/lazer-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada03/previas/lazer-fundos.png
+16:11.668  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/previas/quarto-fundos.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada03/previas/quarto-fundos.png
+17:54.523  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/previas/sala-integrada.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada03/previas/sala-integrada.png
+20:03.216  render           | Saved: '/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/previas/sala.png'
+ARCHIVE_DRAFT_UPDATED historico/rascunhos/industrial-v03/rodada03/previas/sala.png
+ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend
+20:03.653  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa01.blend"
+20:06.982  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa01.blend"
+Traceback (most recent call last):
+  File "/home/edann/projects/casa-interiores/relatorios/industrial-v06/atualizar-rascunhos-industriais.py", line 59, in <module>
+    assert before == {o.name: geometry_fingerprint(o) for o in bpy.data.objects}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Warning: Library file, loading empty scene
+Info: Saved as "previa01.sem-geladeira-bar.blend"
+
+Error: script failed, file: 'relatorios/industrial-v06/atualizar-rascunhos-industriais.py', exiting.
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

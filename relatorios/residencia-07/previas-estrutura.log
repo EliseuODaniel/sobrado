@@ -1,0 +1,20 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.342  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07.blend"
+00:00.702  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.702  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:03.840  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/cozinha.png'
+R07_RENDER_OK cozinha 3.07
+00:06.257  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/suite.png'
+R07_RENDER_OK suite 2.36
+00:08.052  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/estrutura-terreo-3d.png'
+R07_RENDER_OK estrutura-terreo-3d 1.77
+00:09.890  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/estrutura-superior-3d.png'
+R07_RENDER_OK estrutura-superior-3d 1.81
+00:11.781  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/estrutura-conjunto-3d.png'
+R07_RENDER_OK estrutura-conjunto-3d 1.86
+00:13.587  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/estrutura-explodida-3d.png'
+R07_RENDER_OK estrutura-explodida-3d 1.78
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

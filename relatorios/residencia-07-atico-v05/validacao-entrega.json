@@ -1,0 +1,280 @@
+{
+  "timestamp_utc": "2026-11-12T18:07:31.608436+00:00",
+  "checks": [
+    {
+      "name": "modelo e renders auditados",
+      "passed": true
+    },
+    {
+      "name": "48 imagens e quadros",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-planta-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-cobertura",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG abertura-frente-detalhe",
+      "passed": true
+    },
+    {
+      "name": "PNG abertura-fundos-detalhe",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-interior-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-interior-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-reservatorio",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-aberturas-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG encontro-cumeeiras",
+      "passed": true
+    },
+    {
+      "name": "PNG cobertura-vista-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-u-conjunto",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-u-chegada-existente",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-u-detalhe",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-u-planta-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-forro-corte",
+      "passed": true
+    },
+    {
+      "name": "PNG atico-alturas-forro",
+      "passed": true
+    },
+    {
+      "name": "PNG 01-referencia",
+      "passed": true
+    },
+    {
+      "name": "PNG 02-giro-90",
+      "passed": true
+    },
+    {
+      "name": "PNG 03-giro-180",
+      "passed": true
+    },
+    {
+      "name": "PNG 04-giro-270",
+      "passed": true
+    },
+    {
+      "name": "PNG 05-lateral-patamares",
+      "passed": true
+    },
+    {
+      "name": "PNG 06-vista-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-00",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-01",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-02",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-03",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-04",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-05",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-06",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-07",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-08",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-09",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-10",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-11",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-12",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-13",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-14",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-15",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-16",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-17",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-18",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-19",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-20",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-21",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-22",
+      "passed": true
+    },
+    {
+      "name": "PNG giro-23",
+      "passed": true
+    },
+    {
+      "name": "SVG e PNG escadas-alinhadas",
+      "passed": true
+    },
+    {
+      "name": "PDF escadas-alinhadas",
+      "passed": true
+    },
+    {
+      "name": "SVG e PNG planta-atico-cotada",
+      "passed": true
+    },
+    {
+      "name": "PDF planta-atico-cotada",
+      "passed": true
+    },
+    {
+      "name": "SVG e PNG mapa-alturas-forro",
+      "passed": true
+    },
+    {
+      "name": "PDF mapa-alturas-forro",
+      "passed": true
+    },
+    {
+      "name": "SVG e PNG reposicionamento-caixa",
+      "passed": true
+    },
+    {
+      "name": "PDF reposicionamento-caixa",
+      "passed": true
+    },
+    {
+      "name": "SVG e PNG corte-alturas-escadas",
+      "passed": true
+    },
+    {
+      "name": "PDF corte-alturas-escadas",
+      "passed": true
+    },
+    {
+      "name": "caderno 25 páginas",
+      "passed": true
+    },
+    {
+      "name": "PDF de seis ângulos e painel",
+      "passed": true
+    },
+    {
+      "name": "GIF de 24 quadros",
+      "passed": true
+    },
+    {
+      "name": "links LEIA-ME.md",
+      "passed": true
+    },
+    {
+      "name": "links galeria.html",
+      "passed": true
+    },
+    {
+      "name": "links 07-escadas/galeria.html",
+      "passed": true
+    },
+    {
+      "name": "links 07-escadas/LEIA-ME.md",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "native_checks": 251,
+  "browser_verification": "PASSED_UNCHANGED_VIEWER",
+  "scope": "Entrega geométrica e visual; hall existente e estrutura/apoios/redes definitivas não dimensionados.",
+  "browser_checks": 13,
+  "browser_receipt": "validacao-navegador.json",
+  "maintenance": "Visor e 48 renders nativos mantidos; propostas descartadas e comparação excluídas."
+}

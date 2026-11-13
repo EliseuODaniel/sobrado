@@ -1,0 +1,7 @@
+00:01.844  blend            | Read blend: "C:\Users\edann\AppData\Local\Temp\CasaInteriores\industrial-v06\projeto\industrial-v06\casa-industrial-fotorrealista.blend"
+00:06.984  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+03:49.890  render           | Saved: 'C:\Users\edann\AppData\Local\Temp\CasaInteriores\industrial-v06\renders\industrial-v06\03-exteriores\volumetria.png'
+PHOTO6_OPTIX_RENDER_OK volumetria 223.16
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

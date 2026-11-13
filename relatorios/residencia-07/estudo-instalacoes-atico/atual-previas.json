@@ -1,0 +1,32 @@
+[
+  {
+    "id": "escada-acesso",
+    "scene": "ATUAL_escada-acesso",
+    "file": "relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/escada-acesso.png",
+    "sha256": "b78de594cbf96ce600d164ef6b75a9f607f96f6b86551bad3126e3b066906972",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "97c837763146bdfc6b6a7ff0aa3b4638f3901ce001811078df9b870057b4a3a9",
+    "seconds": 7.97,
+    "preview": true
+  },
+  {
+    "id": "escada-superior",
+    "scene": "ATUAL_escada-superior",
+    "file": "relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/escada-superior.png",
+    "sha256": "94046dc1e71896cd8783208f0b2d6c4cca749e83d1777837f55231c090472521",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "97c837763146bdfc6b6a7ff0aa3b4638f3901ce001811078df9b870057b4a3a9",
+    "seconds": 9.51,
+    "preview": true
+  },
+  {
+    "id": "lavabo",
+    "scene": "ATUAL_lavabo",
+    "file": "relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/lavabo.png",
+    "sha256": "830d114bc4794fe36675baac1861504d4ece24c154b3357ee5aecefcee24439a",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "97c837763146bdfc6b6a7ff0aa3b4638f3901ce001811078df9b870057b4a3a9",
+    "seconds": 5.29,
+    "preview": true
+  }
+]

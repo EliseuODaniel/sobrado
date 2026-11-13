@@ -1,0 +1,36 @@
+{
+  "house_width": 6.35,
+  "floor_z": 5.4,
+  "ridge_y": 3.0,
+  "ridge_z": 9.4,
+  "eave_z": 5.4,
+  "roof_front_y": -1.35,
+  "roof_back_y": 7.35,
+  "roof_thickness": 0.08,
+  "dormers": [
+    {
+      "id": "frente",
+      "center_x": 3.175,
+      "width": 3.8,
+      "face_y": -0.65,
+      "direction": 1,
+      "eave_z": 7.5,
+      "peak_z": 9.4,
+      "window_width": 1.65,
+      "window_bottom": 6.35,
+      "window_top": 7.45
+    },
+    {
+      "id": "fundos",
+      "center_x": 3.175,
+      "width": 3.8,
+      "face_y": 6.15,
+      "direction": -1,
+      "eave_z": 7.5,
+      "peak_z": 9.4,
+      "window_width": 1.65,
+      "window_bottom": 6.35,
+      "window_top": 7.45
+    }
+  ]
+}

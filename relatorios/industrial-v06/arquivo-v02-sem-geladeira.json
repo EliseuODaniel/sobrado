@@ -1,0 +1,80 @@
+[
+  {
+    "file": "historico/estudos/industrial-v02/renders/industrial-v02/cozinha.png",
+    "sha256": "63fb043feb3554785ae687dc0c5036a643e0c8f2f95c7bcd7741998ffcf27e76",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "scene": "HQ_Cozinha",
+    "resolution": [
+      1920,
+      1200
+    ],
+    "seconds": 43.49,
+    "bar_fridge_absent": true
+  },
+  {
+    "file": "historico/estudos/industrial-v02/renders/industrial-v02/previas/cozinha.png",
+    "sha256": "f8f67475659edb95c038575b28f9bd131304715ce230ec4fe5d742a31abb7499",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "scene": "HQ_Cozinha",
+    "resolution": [
+      768,
+      480
+    ],
+    "seconds": 4.44,
+    "bar_fridge_absent": true
+  },
+  {
+    "file": "historico/estudos/industrial-v02/renders/industrial-v02/previas/lazer-fundos.png",
+    "sha256": "c435b994844b1212bf5637d29ef9adf44b13713fd011d8ba07a889f2ffbca0db",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "scene": "HQ_Lazer",
+    "resolution": [
+      768,
+      480
+    ],
+    "seconds": 4.68,
+    "bar_fridge_absent": true
+  },
+  {
+    "file": "historico/estudos/industrial-v02/renders/industrial-v02/previas/quarto-fundos.png",
+    "sha256": "730b5fe3ec7a2be01d546399e482cf8de831312ae0e211c71959ed0854e890c9",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "scene": "HQ_Quarto",
+    "resolution": [
+      768,
+      480
+    ],
+    "seconds": 4.58,
+    "bar_fridge_absent": true
+  },
+  {
+    "file": "historico/estudos/industrial-v02/renders/industrial-v02/previas/sala.png",
+    "sha256": "46b23422e12aacf1f8744d9799d38ccefa70f28fa5a3d4abfdfc29e31528dc3b",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "scene": "HQ_Sala",
+    "resolution": [
+      768,
+      480
+    ],
+    "seconds": 4.38,
+    "bar_fridge_absent": true
+  },
+  {
+    "file": "historico/estudos/industrial-v02/renders/industrial-v02/sala.png",
+    "sha256": "7e142561a38d1bb6e8a4c813590c59d6b7e9fa47bac33a54f5609d06e913cd71",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "scene": "HQ_Sala",
+    "resolution": [
+      1920,
+      1200
+    ],
+    "seconds": 45.75,
+    "bar_fridge_absent": true
+  }
+]

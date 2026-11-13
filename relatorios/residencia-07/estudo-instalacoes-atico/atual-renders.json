@@ -1,0 +1,202 @@
+[
+  {
+    "id": "planta-terreo",
+    "scene": "ATUAL_planta-terreo",
+    "file": "renders/atual/01-plantas/planta-terreo.png",
+    "sha256": "63385d0d0aa8648e2d6827d142ce848e6c7d396fae6a086a74afa01eab2842f4",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 14.14,
+    "preview": false
+  },
+  {
+    "id": "planta-superior",
+    "scene": "ATUAL_planta-superior",
+    "file": "renders/atual/01-plantas/planta-superior.png",
+    "sha256": "7d2ef81977dab9f4b40953adeafef77f6b4c04f8dd642d5c73debc6936f963cf",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 13.06,
+    "preview": false
+  },
+  {
+    "id": "terreo-3d",
+    "scene": "ATUAL_terreo-3d",
+    "file": "renders/atual/01-plantas/terreo-3d.png",
+    "sha256": "16ca42fae697ed0110b0f0952f7ec57c96328474ec09b249d4348723ca9e8915",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 13.74,
+    "preview": false
+  },
+  {
+    "id": "superior-3d",
+    "scene": "ATUAL_superior-3d",
+    "file": "renders/atual/01-plantas/superior-3d.png",
+    "sha256": "e7135d3642428dde45c5c57043011cc3f6d7b561c9aebc831da8448efa250a86",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 13.09,
+    "preview": false
+  },
+  {
+    "id": "sala-fundos",
+    "scene": "ATUAL_sala-fundos",
+    "file": "renders/atual/02-ambientes/sala-fundos.png",
+    "sha256": "d6508f806c8f520e9c4533b8f88f7ac8000a2a468848f4d39eee8cb9fdebc70f",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 25.2,
+    "preview": false
+  },
+  {
+    "id": "sala-frente",
+    "scene": "ATUAL_sala-frente",
+    "file": "renders/atual/02-ambientes/sala-frente.png",
+    "sha256": "6b5fb05265a028851d8ec301cf7aed2c562d521eef8642045e6e05de3b2b1dd0",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 24.72,
+    "preview": false
+  },
+  {
+    "id": "cozinha",
+    "scene": "ATUAL_cozinha",
+    "file": "renders/atual/02-ambientes/cozinha.png",
+    "sha256": "1b7d72cbff44b08e470dbdbbfa60599220df5f5ac17ddfa2c5e0b0dcd27758da",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 24.45,
+    "preview": false
+  },
+  {
+    "id": "cozinha-reversa",
+    "scene": "ATUAL_cozinha-reversa",
+    "file": "renders/atual/02-ambientes/cozinha-reversa.png",
+    "sha256": "f61d4da73c9dc35502c38d27d1ca387c7ab33a4513f32af8dc09f469241783ec",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 25.67,
+    "preview": false
+  },
+  {
+    "id": "bar",
+    "scene": "ATUAL_bar",
+    "file": "renders/atual/02-ambientes/bar.png",
+    "sha256": "0c478eb5ea82dca55595785c2de11b1600a53dac4941b469adf7758c73f7b436",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 28.91,
+    "preview": false
+  },
+  {
+    "id": "lavanderia",
+    "scene": "ATUAL_lavanderia",
+    "file": "renders/atual/02-ambientes/lavanderia.png",
+    "sha256": "3c790fd3440c03d80a99246458d050fbc61aafd9cbc4912ce8725af1c23af1e5",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 29.42,
+    "preview": false
+  },
+  {
+    "id": "fundos-abertos",
+    "scene": "ATUAL_fundos-abertos",
+    "file": "renders/atual/02-ambientes/fundos-abertos.png",
+    "sha256": "e112a22bf2eb0005f883034655453e2d076fbbe8a6a7adc440f425c459a4100a",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 27.05,
+    "preview": false
+  },
+  {
+    "id": "divisao-lazer-lavanderia",
+    "scene": "ATUAL_divisao-lazer-lavanderia",
+    "file": "renders/atual/02-ambientes/divisao-lazer-lavanderia.png",
+    "sha256": "607ec681ca31e305797105b2d19b71a144e92b9bcfe116050ed2154b42e727be",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 31.57,
+    "preview": false
+  },
+  {
+    "id": "escada-acesso",
+    "scene": "ATUAL_escada-acesso",
+    "file": "renders/atual/02-ambientes/escada-acesso.png",
+    "sha256": "03ba36e39648669caa9212b0e71b0d5ab41e4ed21c16ecd961fcc97909e9a935",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 24.4,
+    "preview": false
+  },
+  {
+    "id": "escada-superior",
+    "scene": "ATUAL_escada-superior",
+    "file": "renders/atual/02-ambientes/escada-superior.png",
+    "sha256": "0f59be0a7a0b6e64848899dfd855f9cd48567685fd93e703fee95a91f33554da",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 24.75,
+    "preview": false
+  },
+  {
+    "id": "lavabo",
+    "scene": "ATUAL_lavabo",
+    "file": "renders/atual/02-ambientes/lavabo.png",
+    "sha256": "3da3f145248fbb4c128d67e2e1f7b2eaab71fe9343f8a4eabf0a75e4f46ff698",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 25.52,
+    "preview": false
+  },
+  {
+    "id": "suite",
+    "scene": "ATUAL_suite",
+    "file": "renders/atual/02-ambientes/suite.png",
+    "sha256": "ae09cbf6591ff69ba5481a8131a715472d5cce5d391fc3f6a940c2d0f58ad3c8",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 24.85,
+    "preview": false
+  },
+  {
+    "id": "quarto-frente",
+    "scene": "ATUAL_quarto-frente",
+    "file": "renders/atual/02-ambientes/quarto-frente.png",
+    "sha256": "064474c750495c3663abee968a7f8cb21a2935db3a5fa8db5af26c2ca7e809a2",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 25.57,
+    "preview": false
+  },
+  {
+    "id": "quarto-fundos",
+    "scene": "ATUAL_quarto-fundos",
+    "file": "renders/atual/02-ambientes/quarto-fundos.png",
+    "sha256": "19d6750454d3b4082a7d4fac3234859a45cc350340ff1bc87a8ed99935f0f9e6",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 24.75,
+    "preview": false
+  },
+  {
+    "id": "fachada-frontal",
+    "scene": "ATUAL_fachada-frontal",
+    "file": "renders/atual/03-exteriores/fachada-frontal.png",
+    "sha256": "dcdeba3d15f271b1b5ee38abfade3f95e7ae2d7db75dd5f399b942c05c4ceb55",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 17.26,
+    "preview": false
+  },
+  {
+    "id": "volumetria",
+    "scene": "ATUAL_volumetria",
+    "file": "renders/atual/03-exteriores/volumetria.png",
+    "sha256": "e1ad34904d932f39512253fbd777cf4a7c2bd6029ed44f07a08242dadd8b5d92",
+    "source_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+    "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "seconds": 20.73,
+    "preview": false
+  }
+]

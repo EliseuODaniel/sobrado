@@ -1,0 +1,516 @@
+{
+  "timestamp_utc": "2026-11-12T03:51:09.553129+00:00",
+  "unit": "07",
+  "sheets": [
+    "estrutura-terreo",
+    "estrutura-superior",
+    "cotas-originais-terreo",
+    "cotas-originais-superior",
+    "instalacoes-coordenadas-terreo",
+    "instalacoes-coordenadas-superior",
+    "eletrica-terreo",
+    "eletrica-superior",
+    "hidraulica-terreo",
+    "hidraulica-superior",
+    "esgoto-terreo",
+    "esgoto-superior",
+    "tv-telefone-terreo",
+    "tv-telefone-superior"
+  ],
+  "pages": 22,
+  "layers": [
+    {
+      "layer": "eletrica-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/ELE04.pdf",
+      "source_sha256": "6263795fa573b4edca6c6e77b040a3927742dc487534565df580d4b362e287eb",
+      "colored_only": true,
+      "origin_pt": [
+        540.8,
+        1153.6
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        387.87199999999996,
+        236.03199999999993,
+        693.2736,
+        1087.488
+      ],
+      "vector_elements": 1971
+    },
+    {
+      "layer": "hidraulica-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID04.pdf",
+      "source_sha256": "5daa38bb6c0ea7a5bfe65377edccfbca7bc188cbee4131c73d8e7a9263c8b391",
+      "colored_only": true,
+      "origin_pt": [
+        190.64,
+        713.2
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        88.68799999999999,
+        101.48799999999994,
+        462.18240000000003,
+        724.9920000000001
+      ],
+      "vector_elements": 3357
+    },
+    {
+      "layer": "esgoto-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID08.pdf",
+      "source_sha256": "0c103fd859dfba81713a8669c12d6988ec05af80989a70dae0a3952f65f48e6c",
+      "colored_only": true,
+      "origin_pt": [
+        267.68,
+        690.28
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        165.728,
+        78.56799999999987,
+        462.18240000000003,
+        724.9920000000001
+      ],
+      "vector_elements": 5749
+    },
+    {
+      "layer": "tv-telefone-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL04.pdf",
+      "source_sha256": "e25f23e8c222a8cc878cf109012df3de2f54ef1958981eb0232adf6b2e666fdc",
+      "colored_only": true,
+      "origin_pt": [
+        540.8,
+        1223.44
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        387.87199999999996,
+        305.87200000000007,
+        693.2736,
+        1087.488
+      ],
+      "vector_elements": 1240
+    },
+    {
+      "layer": "eletrica-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/ELE05.pdf",
+      "source_sha256": "778637bc0e11dfc552644203b8eabf3441e52e4069924639e170aea4b7bd4156",
+      "colored_only": true,
+      "origin_pt": [
+        613.64,
+        1001.92
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        460.712,
+        254.27199999999993,
+        693.2736,
+        917.568
+      ],
+      "vector_elements": 1273
+    },
+    {
+      "layer": "hidraulica-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID04.pdf",
+      "source_sha256": "5daa38bb6c0ea7a5bfe65377edccfbca7bc188cbee4131c73d8e7a9263c8b391",
+      "colored_only": true,
+      "origin_pt": [
+        690.92,
+        713.2
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        588.968,
+        214.76799999999997,
+        462.18240000000003,
+        611.7120000000001
+      ],
+      "vector_elements": 3357
+    },
+    {
+      "layer": "esgoto-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID08.pdf",
+      "source_sha256": "0c103fd859dfba81713a8669c12d6988ec05af80989a70dae0a3952f65f48e6c",
+      "colored_only": true,
+      "origin_pt": [
+        767.96,
+        640.0
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        666.008,
+        141.56799999999993,
+        462.18240000000003,
+        611.7120000000001
+      ],
+      "vector_elements": 5749
+    },
+    {
+      "layer": "tv-telefone-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL05.pdf",
+      "source_sha256": "c0ed7b719446e386b8b8fde82b76f12c07be0d242af7d778aa2ce1bac231f780",
+      "colored_only": true,
+      "origin_pt": [
+        502.52,
+        1082.56
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        349.592,
+        334.9119999999999,
+        693.2736,
+        917.568
+      ],
+      "vector_elements": 1360
+    },
+    {
+      "layer": "eletrica-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/ELE04.pdf",
+      "source_sha256": "6263795fa573b4edca6c6e77b040a3927742dc487534565df580d4b362e287eb",
+      "colored_only": false,
+      "origin_pt": [
+        540.8,
+        1153.6
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        387.87199999999996,
+        236.03199999999993,
+        693.2736,
+        1087.488
+      ],
+      "vector_elements": 6272
+    },
+    {
+      "layer": "eletrica-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/ELE05.pdf",
+      "source_sha256": "778637bc0e11dfc552644203b8eabf3441e52e4069924639e170aea4b7bd4156",
+      "colored_only": false,
+      "origin_pt": [
+        613.64,
+        1001.92
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        460.712,
+        254.27199999999993,
+        693.2736,
+        917.568
+      ],
+      "vector_elements": 4844
+    },
+    {
+      "layer": "hidraulica-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID04.pdf",
+      "source_sha256": "5daa38bb6c0ea7a5bfe65377edccfbca7bc188cbee4131c73d8e7a9263c8b391",
+      "colored_only": false,
+      "origin_pt": [
+        190.64,
+        713.2
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        88.68799999999999,
+        101.48799999999994,
+        462.18240000000003,
+        724.9920000000001
+      ],
+      "vector_elements": 7760
+    },
+    {
+      "layer": "hidraulica-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID04.pdf",
+      "source_sha256": "5daa38bb6c0ea7a5bfe65377edccfbca7bc188cbee4131c73d8e7a9263c8b391",
+      "colored_only": false,
+      "origin_pt": [
+        690.92,
+        713.2
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        588.968,
+        214.76799999999997,
+        462.18240000000003,
+        611.7120000000001
+      ],
+      "vector_elements": 7760
+    },
+    {
+      "layer": "esgoto-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID08.pdf",
+      "source_sha256": "0c103fd859dfba81713a8669c12d6988ec05af80989a70dae0a3952f65f48e6c",
+      "colored_only": false,
+      "origin_pt": [
+        267.68,
+        690.28
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        165.728,
+        78.56799999999987,
+        462.18240000000003,
+        724.9920000000001
+      ],
+      "vector_elements": 21044
+    },
+    {
+      "layer": "esgoto-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/HID08.pdf",
+      "source_sha256": "0c103fd859dfba81713a8669c12d6988ec05af80989a70dae0a3952f65f48e6c",
+      "colored_only": false,
+      "origin_pt": [
+        767.96,
+        640.0
+      ],
+      "points_per_meter": 56.64,
+      "clip_viewbox_pt": [
+        666.008,
+        141.56799999999993,
+        462.18240000000003,
+        611.7120000000001
+      ],
+      "vector_elements": 21044
+    },
+    {
+      "layer": "tv-telefone-terreo",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL04.pdf",
+      "source_sha256": "e25f23e8c222a8cc878cf109012df3de2f54ef1958981eb0232adf6b2e666fdc",
+      "colored_only": false,
+      "origin_pt": [
+        540.8,
+        1223.44
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        387.87199999999996,
+        305.87200000000007,
+        693.2736,
+        1087.488
+      ],
+      "vector_elements": 4865
+    },
+    {
+      "layer": "tv-telefone-superior",
+      "source": "plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL05.pdf",
+      "source_sha256": "c0ed7b719446e386b8b8fde82b76f12c07be0d242af7d778aa2ce1bac231f780",
+      "colored_only": false,
+      "origin_pt": [
+        502.52,
+        1082.56
+      ],
+      "points_per_meter": 84.96,
+      "clip_viewbox_pt": [
+        349.592,
+        334.9119999999999,
+        693.2736,
+        917.568
+      ],
+      "vector_elements": 4096
+    }
+  ],
+  "registration_checks": [
+    {
+      "layer": "eletrica-terreo",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": 0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "eletrica-terreo",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25141,
+      "error_m": 0.00141,
+      "passed": true
+    },
+    {
+      "layer": "eletrica-terreo",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20198,
+      "error_m": 0.00198,
+      "passed": true
+    },
+    {
+      "layer": "eletrica-superior",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": 0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "eletrica-superior",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25141,
+      "error_m": 0.00141,
+      "passed": true
+    },
+    {
+      "layer": "eletrica-superior",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20056,
+      "error_m": 0.00056,
+      "passed": true
+    },
+    {
+      "layer": "hidraulica-terreo",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": -0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "hidraulica-terreo",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "hidraulica-terreo",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20127,
+      "error_m": 0.00127,
+      "passed": true
+    },
+    {
+      "layer": "hidraulica-superior",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": -0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "hidraulica-superior",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "hidraulica-superior",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20127,
+      "error_m": 0.00127,
+      "passed": true
+    },
+    {
+      "layer": "esgoto-terreo",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": -0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "esgoto-terreo",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "esgoto-terreo",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20127,
+      "error_m": 0.00127,
+      "passed": true
+    },
+    {
+      "layer": "esgoto-superior",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": -0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "esgoto-superior",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "esgoto-superior",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20127,
+      "error_m": 0.00127,
+      "passed": true
+    },
+    {
+      "layer": "tv-telefone-terreo",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": 0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "tv-telefone-terreo",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25141,
+      "error_m": 0.00141,
+      "passed": true
+    },
+    {
+      "layer": "tv-telefone-terreo",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20057,
+      "error_m": 0.00057,
+      "passed": true
+    },
+    {
+      "layer": "tv-telefone-superior",
+      "anchor": "oeste",
+      "target_m": 0,
+      "source_m": 0.0,
+      "error_m": 0.0,
+      "passed": true
+    },
+    {
+      "layer": "tv-telefone-superior",
+      "anchor": "interna geminada",
+      "target_m": 6.25,
+      "source_m": 6.25141,
+      "error_m": 0.00141,
+      "passed": true
+    },
+    {
+      "layer": "tv-telefone-superior",
+      "anchor": "fundos cozinha/quarto",
+      "target_m": 7.2,
+      "source_m": 7.20057,
+      "error_m": 0.00057,
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "technical_config_sha256": "46b95a1cb4f0ec5f56993559c9c94f5b7a25f5d0abe5ca44d14ccc1fbdc12da5",
+  "pdf_sha256": "c65db27113edda343c06a6e868fdc1bdaa70c9b52b3baf75ae74d261a3ecfe7a",
+  "notes": [
+    "Traçados, símbolos, códigos de circuitos, seções, diâmetros e alturas são preservados vetorialmente dos PDFs fornecidos.",
+    "As pranchas elétricas e de TV/telefone originais dizem sem escala. O registro métrico foi reconstruído pelas faces das paredes da tipologia interna; não medir comprimentos de cabos ou eletrodutos nos diagramas esquemáticos.",
+    "Os originais completos acompanham o caderno para conservar legendas, detalhes ampliados, listas e esquemas de alimentação.",
+    "A base estrutural mostra paredes, lajes e escada indicadas na arquitetura, sem mobiliário. Não foi fornecido projeto de fundações, armaduras ou dimensionamento estrutural.",
+    "A sobreposição serve à leitura conjunta das disciplinas. Não equivale a detecção tridimensional de interferências nem aprova a execução.",
+    "Cotas arquitetônicas externas transcritas do projeto. Divergências internas entre traço, cota e área permanecem identificadas no relatório."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "version": "industrial-v06-fotorrealismo",
+  "base_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+  "output_blend": "projeto/industrial-v06/casa-industrial-fotorrealista.blend",
+  "report_directory": "relatorios/industrial-v06",
+  "render_directory": "renders/industrial-v06",
+  "asset_manifest": "assets/fotorrealismo-industrial/manifesto.json",
+  "references": "referencias-estilo-industrial",
+  "resolution": [
+    3840,
+    2880
+  ],
+  "samples": 512,
+  "adaptive_threshold": 0.008,
+  "preview_percentage": 25,
+  "preview_samples": 48,
+  "day_world_strength": 0.32,
+  "night_world_strength": 0.012,
+  "day_exposure": 0.15,
+  "night_exposure": 0.55,
+  "notes": [
+    "Acabamento industrial sobre a planta atual da residência 07, preservada sem alterar posições, topologia e modificadores da arquitetura protegida.",
+    "Materiais fotográficos CC0 em 4K, UVs métricas, ferragens, rodapés, rack metálico e iluminação diurna/noturna.",
+    "Quatro referências de referencias-estilo-industrial orientam materiais, móveis, marcenaria e luz; a planta atual controla dimensões e aberturas.",
+    "Estado atual, base original e ático não recebem alteração de projeto nesta revisão industrial.",
+    "O entorno externo é ilustrativo. Anexos e móveis conservam as medidas aproximadas da base atual.",
+    "Imagens calculadas em Cycles com aceleração de GPU. Não apresentar esta entrega como renderização Unreal ou benchmark entre motores.",
+    "Sem geladeira no bar, conforme decisão do proprietário; a geladeira da cozinha permanece."
+  ]
+}

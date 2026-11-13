@@ -1,0 +1,379 @@
+[
+  {
+    "id": "planta-terreo-humanizada",
+    "file": "renders/residencia-07/04-plantas-3d/planta-terreo-humanizada.png",
+    "seconds": 12.78,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "4d064df028ec2a1b17010c0bd9007b0e3ca5ad59eccab512a53a33e279ae8549",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "planta-superior-humanizada",
+    "file": "renders/residencia-07/04-plantas-3d/planta-superior-humanizada.png",
+    "seconds": 11.63,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "6ed2fbf20299745fdd8addcb50b7de38ca29f96e4f5f08a3968a6930de1427a5",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "terreo-3d",
+    "file": "renders/residencia-07/04-plantas-3d/terreo-3d.png",
+    "seconds": 12.19,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "a37fc151eef63f67213b23b9661d147d7dcd76a67fdae6f368aebed1782d909b",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "superior-3d",
+    "file": "renders/residencia-07/04-plantas-3d/superior-3d.png",
+    "seconds": 19.2,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "2e6dc1e140a75678f428b1b8529c0d236509c0a6cb04d0512c37269fbf41a524",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "volumetria",
+    "file": "renders/residencia-07/05-imagens/exteriores/volumetria.png",
+    "seconds": 29.25,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "d1e62a3bfc19b0058588a90c25ad3e99298e52183c5183ccf61d957f3e13297d",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "fachada",
+    "file": "renders/residencia-07/05-imagens/exteriores/fachada.png",
+    "seconds": 24.26,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "e5b0f6a32a5790dc5b32522534176d15f17ceb79669a30099bf8025a8874d3df",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "fundos",
+    "file": "renders/residencia-07/05-imagens/exteriores/fundos.png",
+    "seconds": 31.62,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "12bf6f6982f9934737ddaddd85dcf0d41b7b94f2a0a8c0b96be4f4718bfd68b3",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "cobertura",
+    "file": "renders/residencia-07/05-imagens/exteriores/cobertura.png",
+    "seconds": 31.47,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "dba9a7549bd91bc99dfb9f51918f6ca9764aaaafe52791d4b725b0f4976709b3",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "sala-integrada",
+    "file": "renders/residencia-07/05-imagens/terreo/sala-integrada.png",
+    "seconds": 47.86,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "3d401d71732152e400c99a42859cc7332c67f7df12e422a82e9249817b8bfcd3",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "sala",
+    "file": "renders/residencia-07/05-imagens/terreo/sala.png",
+    "seconds": 46.93,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "25471f5b0edbd9167f415ea0551013535014db34a955a666bd442b6291448d92",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "sala-tv",
+    "file": "renders/residencia-07/05-imagens/terreo/sala-tv.png",
+    "seconds": 44.88,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "c3746ae277c3cee1a6b9664d9bd304f46a0b617f31fbe7c9d5b80f7065f93b5a",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "jantar",
+    "file": "renders/residencia-07/05-imagens/terreo/jantar.png",
+    "seconds": 48.42,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "e2305510f79c9a5764b8bc1a34810df47eed963afbabadd4d8f93d415a7e253b",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "cozinha",
+    "file": "renders/residencia-07/05-imagens/terreo/cozinha.png",
+    "seconds": 46.24,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "5754ce425713bdcf7b8d12a58e99718cba374e87cee29dcf1d377c08f84b0500",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "cozinha-reversa",
+    "file": "renders/residencia-07/05-imagens/terreo/cozinha-reversa.png",
+    "seconds": 49.59,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "7184529750239efdaf7ca7d371a9ef6d692c5dda415b5ec676434122fb2f4545",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "escada-acesso",
+    "file": "renders/residencia-07/05-imagens/terreo/escada-acesso.png",
+    "seconds": 47.84,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "ae6d8efaaecae92be4a3bb518ae9f99ce011b0e7cbf35c4b13ddd9c66d57309f",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "lavabo",
+    "file": "renders/residencia-07/05-imagens/terreo/lavabo.png",
+    "seconds": 46.09,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "417e08653fa9a9b8a50991f631da6d2f5a262e44d26066f305f7d5d750d7fdfc",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "suite",
+    "file": "renders/residencia-07/05-imagens/superior/suite.png",
+    "seconds": 37.85,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "5768c538edf703b4c63f1c2aab0609d80e9c99f3dccbf600895fb9cf6924f23e",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "quarto-frente",
+    "file": "renders/residencia-07/05-imagens/superior/quarto-frente.png",
+    "seconds": 40.36,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "1aefeaeb64d4312bb9de251be095caddb6aa8eab8cb9cc1e218019a09538d225",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "quarto-fundos",
+    "file": "renders/residencia-07/05-imagens/superior/quarto-fundos.png",
+    "seconds": 38.82,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "7f8d1ac47f366588308d12a1f5644b042db55c5a1264991a0d8137c9506d5218",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "banheiro-suite",
+    "file": "renders/residencia-07/05-imagens/superior/banheiro-suite.png",
+    "seconds": 46.71,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "226f20146456fbe65328ac6d8fc354afd2c4d6be7b7ffe7aff3de6c18ffad7d2",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "banheiro-social",
+    "file": "renders/residencia-07/05-imagens/superior/banheiro-social.png",
+    "seconds": 44.44,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "cbe194d6973eeb2b83fd7277b066f19a650a38ea80163d64594e84a948dffd2a",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "sacada",
+    "file": "renders/residencia-07/05-imagens/exteriores/sacada.png",
+    "seconds": 33.4,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "c978b8858ca6551dc4ebc1ee0e265356c272f946749af107ef2bced3b187c452",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "lazer-fundos",
+    "file": "renders/residencia-07/05-imagens/fundos-proposta/lazer-fundos.png",
+    "seconds": 40.16,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "7376f5a1412a925863649a14938fd21c3471312aff1b2a304f0dc52e04b6177a",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "lavanderia",
+    "file": "renders/residencia-07/05-imagens/fundos-proposta/lavanderia.png",
+    "seconds": 38.71,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "b7294e3b29c1e69d6108bca96d2e4a4cf1abb40eec29b666e071cb8e624f51aa",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "lavabo-planta",
+    "file": "renders/residencia-07/04-plantas-3d/lavabo-planta.png",
+    "seconds": 29.86,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "d893c1733579d3833b6ecd69300d05f96014a25f3297f4ab2d99bc5358837fef",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "estrutura-terreo-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-terreo-3d.png",
+    "seconds": 17.86,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "50d79a328c3372411a15aa63dc6b0fbd99049cb60b6fc235c96b5666ab50a6f3",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "estrutura-superior-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-superior-3d.png",
+    "seconds": 18.75,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "9397d98f18de0a0f1b5c61b6faba279d9d2d830a51adda9be1b4a116dbe5a893",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "estrutura-conjunto-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-conjunto-3d.png",
+    "seconds": 18.19,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "acbee72db4523a70d78a9acadc021e2bcb6a1f41967f77acb3c414a516e7d66c",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  },
+  {
+    "id": "estrutura-explodida-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-explodida-3d.png",
+    "seconds": 17.88,
+    "backend": "CUDA",
+    "samples": 192,
+    "resolution": [
+      1920,
+      1440
+    ],
+    "sha256": "db390417b23587a85b0455557087f0466b8454386d145360232fdfacf02b1605",
+    "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+  }
+]

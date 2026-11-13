@@ -1,0 +1,173 @@
+{
+  "timestamp_utc": "2026-11-13T00:44:53.069474+00:00",
+  "artifacts": [
+    {
+      "file": "renders/industrial-v05/00-cadernos/caderno-industrial-v05.pdf",
+      "sha256": "c5e3dc8f2fdbf35063df80d6d47ec8265c4329d177661813c4df98252d84a621"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/cotas-oficiais-superior.pdf",
+      "sha256": "8a9fbe00aebbb2921f9572f0c88b328a6a7198d714ddb86d076a142151a176b5"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/cotas-oficiais-terreo.pdf",
+      "sha256": "dfe001a1b7b74a510d25e080b0ee202008de50b8eb702f64530f830efe5c95b8"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-industrial-superior.pdf",
+      "sha256": "210dafb0fc7f2aab6e8022382a6265578f52d9db03dfd18c1515527534cab206"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-industrial-superior.png",
+      "sha256": "1987d82448933353f13b8f8695c3bfdcc93a4b0bf1198e12a142edb60940cfd2"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-industrial-superior.svg",
+      "sha256": "7bb7764c5aadde7aafcc97cdf6d0f9ec5c596adfdea0763577e80b254da64827"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-industrial-terreo.pdf",
+      "sha256": "78435db9ac09ac8614815bc1de779f8d0f7995194e05cb535f23f592535d86bd"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-industrial-terreo.png",
+      "sha256": "cbaeaedf12ba053ca6866bfc26ef01a7d23981a0b07fbfbec2100f6cf6b9822f"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-industrial-terreo.svg",
+      "sha256": "74d5c410ccc6bad03d0c3a63849b328670ac73c7df7eee6a0fee0ddcc6670815"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-superior.png",
+      "sha256": "f4e93019fc0e15e8451702e4a2033761c4ec701f27982c06512d75d5fb2d5229"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/planta-terreo.png",
+      "sha256": "b0da0598e931fd1ad0e80e1d79ce6c1efce1b482bcf97ade1db9132a4eef3265"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/superior-3d.png",
+      "sha256": "6943c793213386f7895856ab7fdbb68d6997d34beef0cded515377466008926b"
+    },
+    {
+      "file": "renders/industrial-v05/01-plantas/terreo-3d.png",
+      "sha256": "808b07410e555d381ce21bc84da66dd7c29d23be8e4faabc78e51cc479c08339"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/bar-detalhe.png",
+      "sha256": "3798c1caada2c18997d0216b60224270b94e5a32306b6cc4c967649d2b4de933"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/bar.png",
+      "sha256": "d49bbfd4a058c44ab038dfa574ebd6467cf2cc079f6cb499c1c01973f5d52208"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/cozinha-reversa.png",
+      "sha256": "84c4aca9953bc69ccbd6c791fef18fe05cecf216d65c1194fd96dab861a53124"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/cozinha.png",
+      "sha256": "b4b3bf9c939a54adaab216a358005066a19263a0af9e10e15d3c5e6eec7170f8"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/divisao-lazer-lavanderia.png",
+      "sha256": "2e9d187a7453e3cd8c949b805d8d3c1ec9d1ac6ca34afa59bd954f1a77e1a27c"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/escada-acesso.png",
+      "sha256": "0c4c48da17b3c0d9936d522d25febb2cd04ab04d2a6e4ad7e7f4c4662bfbc384"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/escada-superior.png",
+      "sha256": "12c94fd5497e898c7e985b3a8a3f60a5c9437bd997c086e8c544ba3cf9857adf"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/escritorio-alternativa.png",
+      "sha256": "7da6cb591b691dc423a2b6ee403f8fa46a6fa9836b13ae5f2b816f0c2ea3ad8b"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/escritorio-reverso.png",
+      "sha256": "5feca3a9e62d17ef8056b200fd79b5a33bcc2c28bc91185b1a7190080c2845ee"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/fundos-abertos.png",
+      "sha256": "82badb94960db01e613574e25dce94ba7004cbcf50ed2041b6399ab1535fa87a"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/lavabo.png",
+      "sha256": "c479f725bae1abbc131a76b26bc30a0930cb6aa7db2f8c5fad22ae66ef6443fb"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/lavanderia.png",
+      "sha256": "c8895a0b5e46cd8454cb77b11250c6b081e547e625246ec293e3320bebbb90ae"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/mesa-jantar.png",
+      "sha256": "44d2cfd30a1be897ff45a8efdb98743e3aa47962bf8dfd9dec7ba55f22243b0c"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/quarto-frente.png",
+      "sha256": "ac9f50844ef14bc8b26fea75f66c19aab9e6cfd9518f349385b99e532fc0f026"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/quarto-fundos.png",
+      "sha256": "abf10f94eaa8d5d99543ec3a177cc4ed9eba98220410ad66462dae0508e0423a"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/sala-frente.png",
+      "sha256": "dd92c23ac042011f299689fa46b83a5edd8967bf1ecd91e7375086d20934bba7"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/sala-fundos.png",
+      "sha256": "f1fd104c5a69805312a79dac0d1a07a2302f39ab91a145618b744d03a4df9180"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/sala-tv.png",
+      "sha256": "745c857488a87d67a77dfaf2b1c0af7ac4ea00c0e2fd4b0682d04e5d367a0000"
+    },
+    {
+      "file": "renders/industrial-v05/02-ambientes/suite.png",
+      "sha256": "6612852ea38cf7c4aaa7f9f8c144c8c23a827acbadbaa067c00e77b33f3c050f"
+    },
+    {
+      "file": "renders/industrial-v05/03-exteriores/fachada-frontal.png",
+      "sha256": "e44eb60f20a3b1153af47770bac1eb537b5a9ef44433af3b2159fe9ab4c58457"
+    },
+    {
+      "file": "renders/industrial-v05/03-exteriores/volumetria.png",
+      "sha256": "a68492c20bae25e56b9ea57389ec9c8884004eb5a9d42c7399b0fbacacad3c4b"
+    },
+    {
+      "file": "renders/industrial-v05/04-comparacoes/atual-e-industrial-bar.jpg",
+      "sha256": "3c808d31eca6bfb341c6c272e2a48336d4c27e59b07e4317149fef8ee6122d43"
+    },
+    {
+      "file": "renders/industrial-v05/04-comparacoes/atual-e-industrial-cozinha.jpg",
+      "sha256": "b89dd69b79c2d64d78a9c9e01e52097b2417d759fb0bb2e4053d830630bbd048"
+    },
+    {
+      "file": "renders/industrial-v05/04-comparacoes/atual-e-industrial-planta-terreo.jpg",
+      "sha256": "dd5e8acb0c349826005d6e4e5e767ce5572a8e779bb87102af7842a11f4b601f"
+    },
+    {
+      "file": "renders/industrial-v05/04-comparacoes/atual-e-industrial-sala-fundos.jpg",
+      "sha256": "aae022d547cde9b718eb3b7125ae8769a9a1d8ecdd75d6cad32f846cc4f7621b"
+    },
+    {
+      "file": "renders/industrial-v05/05-referencias/referencias-e-proposta.jpg",
+      "sha256": "52b69b27b02b9e9206c66a4ef7b57ed41df5a4a6506e67db6ba2a80734e24d39"
+    },
+    {
+      "file": "renders/industrial-v05/06-galerias/painel-geral.jpg",
+      "sha256": "ab6ade104b10ccee73c57d2a3c8044d3eae6c677c5ca39728c2e88abaf79f8de"
+    },
+    {
+      "file": "renders/industrial-v05/LEIA-ME.md",
+      "sha256": "850f97c8a549f58b2c378a90db61ce1047bd5e37770845efc4d4c1835472db90"
+    },
+    {
+      "file": "renders/industrial-v05/galeria.html",
+      "sha256": "82500a01191aa6784d40d34d78e107a30d67d6a703c28a4318e0ef7abbf832c4"
+    }
+  ]
+}

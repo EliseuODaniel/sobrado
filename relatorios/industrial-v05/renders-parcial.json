@@ -1,0 +1,252 @@
+[
+  {
+    "id": "planta-terreo",
+    "file": "renders/industrial-v05/01-plantas/planta-terreo.png",
+    "sha256": "b0da0598e931fd1ad0e80e1d79ce6c1efce1b482bcf97ade1db9132a4eef3265",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 12.19
+  },
+  {
+    "id": "planta-superior",
+    "file": "renders/industrial-v05/01-plantas/planta-superior.png",
+    "sha256": "f4e93019fc0e15e8451702e4a2033761c4ec701f27982c06512d75d5fb2d5229",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 9.7
+  },
+  {
+    "id": "terreo-3d",
+    "file": "renders/industrial-v05/01-plantas/terreo-3d.png",
+    "sha256": "808b07410e555d381ce21bc84da66dd7c29d23be8e4faabc78e51cc479c08339",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 10.92
+  },
+  {
+    "id": "superior-3d",
+    "file": "renders/industrial-v05/01-plantas/superior-3d.png",
+    "sha256": "6943c793213386f7895856ab7fdbb68d6997d34beef0cded515377466008926b",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 9.99
+  },
+  {
+    "id": "sala-fundos",
+    "file": "renders/industrial-v05/02-ambientes/sala-fundos.png",
+    "sha256": "f1fd104c5a69805312a79dac0d1a07a2302f39ab91a145618b744d03a4df9180",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 35.32
+  },
+  {
+    "id": "sala-frente",
+    "file": "renders/industrial-v05/02-ambientes/sala-frente.png",
+    "sha256": "dd92c23ac042011f299689fa46b83a5edd8967bf1ecd91e7375086d20934bba7",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 34.16
+  },
+  {
+    "id": "cozinha",
+    "file": "renders/industrial-v05/02-ambientes/cozinha.png",
+    "sha256": "b4b3bf9c939a54adaab216a358005066a19263a0af9e10e15d3c5e6eec7170f8",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 32.22
+  },
+  {
+    "id": "cozinha-reversa",
+    "file": "renders/industrial-v05/02-ambientes/cozinha-reversa.png",
+    "sha256": "84c4aca9953bc69ccbd6c791fef18fe05cecf216d65c1194fd96dab861a53124",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 33.12
+  },
+  {
+    "id": "bar",
+    "file": "renders/industrial-v05/02-ambientes/bar.png",
+    "sha256": "d49bbfd4a058c44ab038dfa574ebd6467cf2cc079f6cb499c1c01973f5d52208",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 37.42
+  },
+  {
+    "id": "lavanderia",
+    "file": "renders/industrial-v05/02-ambientes/lavanderia.png",
+    "sha256": "c8895a0b5e46cd8454cb77b11250c6b081e547e625246ec293e3320bebbb90ae",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 34.75
+  },
+  {
+    "id": "fundos-abertos",
+    "file": "renders/industrial-v05/02-ambientes/fundos-abertos.png",
+    "sha256": "82badb94960db01e613574e25dce94ba7004cbcf50ed2041b6399ab1535fa87a",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 36.5
+  },
+  {
+    "id": "divisao-lazer-lavanderia",
+    "file": "renders/industrial-v05/02-ambientes/divisao-lazer-lavanderia.png",
+    "sha256": "2e9d187a7453e3cd8c949b805d8d3c1ec9d1ac6ca34afa59bd954f1a77e1a27c",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 36.7
+  },
+  {
+    "id": "escada-acesso",
+    "file": "renders/industrial-v05/02-ambientes/escada-acesso.png",
+    "sha256": "0c4c48da17b3c0d9936d522d25febb2cd04ab04d2a6e4ad7e7f4c4662bfbc384",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 28.89
+  },
+  {
+    "id": "escada-superior",
+    "file": "renders/industrial-v05/02-ambientes/escada-superior.png",
+    "sha256": "12c94fd5497e898c7e985b3a8a3f60a5c9437bd997c086e8c544ba3cf9857adf",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 30.79
+  },
+  {
+    "id": "lavabo",
+    "file": "renders/industrial-v05/02-ambientes/lavabo.png",
+    "sha256": "c479f725bae1abbc131a76b26bc30a0930cb6aa7db2f8c5fad22ae66ef6443fb",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 30.68
+  },
+  {
+    "id": "suite",
+    "file": "renders/industrial-v05/02-ambientes/suite.png",
+    "sha256": "6612852ea38cf7c4aaa7f9f8c144c8c23a827acbadbaa067c00e77b33f3c050f",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 31.75
+  },
+  {
+    "id": "quarto-frente",
+    "file": "renders/industrial-v05/02-ambientes/quarto-frente.png",
+    "sha256": "ac9f50844ef14bc8b26fea75f66c19aab9e6cfd9518f349385b99e532fc0f026",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 64.23
+  },
+  {
+    "id": "quarto-fundos",
+    "file": "renders/industrial-v05/02-ambientes/quarto-fundos.png",
+    "sha256": "abf10f94eaa8d5d99543ec3a177cc4ed9eba98220410ad66462dae0508e0423a",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 31.58
+  },
+  {
+    "id": "fachada-frontal",
+    "file": "renders/industrial-v05/03-exteriores/fachada-frontal.png",
+    "sha256": "e44eb60f20a3b1153af47770bac1eb537b5a9ef44433af3b2159fe9ab4c58457",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 32.2
+  },
+  {
+    "id": "volumetria",
+    "file": "renders/industrial-v05/03-exteriores/volumetria.png",
+    "sha256": "a68492c20bae25e56b9ea57389ec9c8884004eb5a9d42c7399b0fbacacad3c4b",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 28.77
+  },
+  {
+    "id": "sala-tv",
+    "file": "renders/industrial-v05/02-ambientes/sala-tv.png",
+    "sha256": "745c857488a87d67a77dfaf2b1c0af7ac4ea00c0e2fd4b0682d04e5d367a0000",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 37.62
+  },
+  {
+    "id": "mesa-jantar",
+    "file": "renders/industrial-v05/02-ambientes/mesa-jantar.png",
+    "sha256": "44d2cfd30a1be897ff45a8efdb98743e3aa47962bf8dfd9dec7ba55f22243b0c",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 55.11
+  },
+  {
+    "id": "bar-detalhe",
+    "file": "renders/industrial-v05/02-ambientes/bar-detalhe.png",
+    "sha256": "3798c1caada2c18997d0216b60224270b94e5a32306b6cc4c967649d2b4de933",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 41.17
+  },
+  {
+    "id": "escritorio-alternativa",
+    "file": "renders/industrial-v05/02-ambientes/escritorio-alternativa.png",
+    "sha256": "7da6cb591b691dc423a2b6ee403f8fa46a6fa9836b13ae5f2b816f0c2ea3ad8b",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 149.6
+  },
+  {
+    "id": "escritorio-reverso",
+    "file": "renders/industrial-v05/02-ambientes/escritorio-reverso.png",
+    "sha256": "5feca3a9e62d17ef8056b200fd79b5a33bcc2c28bc91185b1a7190080c2845ee",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": false,
+    "samples": 128,
+    "seconds": 42.99
+  }
+]

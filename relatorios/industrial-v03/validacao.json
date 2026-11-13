@@ -1,8 +1,8 @@
 {
-  "timestamp_utc": "2026-11-11T04:37:17.367782+00:00",
-  "blend_sha256": "701129c65c74fbadbd1a6697fb3ac8ef9896849a108867b1e344a1ef3df85966",
-  "base_sha256": "70980ced81d16e89c38d458d3f2c6e021d0c6da3d5c9e42b9d669846a5cff09a",
-  "geometry_compared": 3446,
+  "timestamp_utc": "2026-11-13T01:54:18.528387+00:00",
+  "blend_sha256": "193c402e4447851f45d8bf20f22f5acc1474ca2191996094e6c45c97f3a593f7",
+  "base_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+  "geometry_compared": 3441,
   "geometry_differences": [],
   "envelope": {
     "checks": {
@@ -67,7 +67,7 @@
     "all_passed": true,
     "scope": "Contorno das lajes e face posterior do corpo principal. Não inclui pátio, anexos térreos, acabamentos salientes ou aprovação estrutural."
   },
-  "packed_images": 126,
+  "packed_images": 125,
   "missing_images": [],
   "scenes": {
     "PHOTO_Sala": {

@@ -1,0 +1,34 @@
+{
+  "objective": "Refazer industrial a partir das referências usando planta atual da unidade 07 e medidas documentais oficiais.",
+  "status": "COMPLETE_VISUAL_AND_DOCUMENTARY",
+  "obligations": [
+    "Preservar geometria atual e arquivos anteriores",
+    "Interpretar quatro referências industriais",
+    "Gerar modelo editável independente, todas as plantas e imagens",
+    "Incluir alternativa de escritório sem alterar a arquitetura",
+    "Conferir modelo salvo, renderizações, cadernos e fontes"
+  ],
+  "design_choice": "Partir do modelo atual e verificar hashes geométricos; a v04 fornece somente móveis. Adaptar a arquitetura estimada da v04 foi descartado porque contrariaria a base oficial.",
+  "unknowns": [
+    "Anexos posteriores e medidas dos móveis continuam aproximados; não houve levantamento presencial.",
+    "O escritório é uma alternativa de mobiliário para o quarto dos fundos, em cenas próprias; as demais vistas conservam a opção de dormitório.",
+    "Instalações existentes não são alteradas nem certificadas por esta proposta de interiores."
+  ],
+  "next_user_request": {
+    "objective": "Após concluir industrial, refazer ático com duas mansardas/frontões com janelas verticais, frente e fundos, conforme duas fotos fornecidas.",
+    "references": "referencias-atico",
+    "preserve": [
+      "Caixa de água de 1000L e manutenção",
+      "Acesso independente",
+      "Versão anterior preservada"
+    ],
+    "status": "COMPLETE_VISUAL_AND_DOCUMENTARY",
+    "delivery": "renders/residencia-07-atico-v02/LEIA-ME.md"
+  },
+  "verification": "relatorios/industrial-v05/validacao-entrega.json",
+  "results": {
+    "views": 25,
+    "native_checks": 224,
+    "delivery_checks": 56
+  }
+}

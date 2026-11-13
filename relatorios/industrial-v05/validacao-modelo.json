@@ -1,0 +1,800 @@
+{
+  "timestamp_utc": "2026-11-12T12:51:16.862832+00:00",
+  "blend_sha256": "810711bee4ff36840d30aeb3ccc62716c13ac83f5d26adcee14577f181d13007",
+  "checks": [
+    {
+      "name": "hash do modelo salvo",
+      "passed": true
+    },
+    {
+      "name": "casa atual preservada",
+      "passed": true
+    },
+    {
+      "name": "biblioteca industrial anterior preservada",
+      "passed": true
+    },
+    {
+      "name": "configuração industrial",
+      "passed": true
+    },
+    {
+      "name": "configuração oficial",
+      "passed": true
+    },
+    {
+      "name": "configuração da reforma atual",
+      "passed": true
+    },
+    {
+      "name": "geradores usados",
+      "passed": true
+    },
+    {
+      "name": "quatro referências preservadas",
+      "passed": true
+    },
+    {
+      "name": "nenhuma biblioteca vinculada no arquivo salvo",
+      "passed": true
+    },
+    {
+      "name": "conjunto exato de elementos arquitetônicos",
+      "passed": true,
+      "details": 795
+    },
+    {
+      "name": "arquitetura atual inalterada",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "comparação independente com o arquivo atual",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "conjunto exato de 25 cenas",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "câmera planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "dimensões planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "origem atual planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "destino organizado planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível planta-superior",
+      "passed": true
+    },
+    {
+      "name": "câmera planta-superior",
+      "passed": true
+    },
+    {
+      "name": "dimensões planta-superior",
+      "passed": true
+    },
+    {
+      "name": "origem atual planta-superior",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial planta-superior",
+      "passed": true
+    },
+    {
+      "name": "destino organizado planta-superior",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado planta-superior",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "dimensões terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "origem atual terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível superior-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera superior-3d",
+      "passed": true
+    },
+    {
+      "name": "dimensões superior-3d",
+      "passed": true
+    },
+    {
+      "name": "origem atual superior-3d",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial superior-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado superior-3d",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado superior-3d",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "dimensões sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "origem atual sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível sala-frente",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-frente",
+      "passed": true
+    },
+    {
+      "name": "dimensões sala-frente",
+      "passed": true
+    },
+    {
+      "name": "origem atual sala-frente",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial sala-frente",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sala-frente",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado sala-frente",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível cozinha",
+      "passed": true
+    },
+    {
+      "name": "câmera cozinha",
+      "passed": true
+    },
+    {
+      "name": "dimensões cozinha",
+      "passed": true
+    },
+    {
+      "name": "origem atual cozinha",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial cozinha",
+      "passed": true
+    },
+    {
+      "name": "destino organizado cozinha",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado cozinha",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "câmera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "dimensões cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "origem atual cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "destino organizado cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível bar",
+      "passed": true
+    },
+    {
+      "name": "câmera bar",
+      "passed": true
+    },
+    {
+      "name": "dimensões bar",
+      "passed": true
+    },
+    {
+      "name": "origem atual bar",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial bar",
+      "passed": true
+    },
+    {
+      "name": "destino organizado bar",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado bar",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível lavanderia",
+      "passed": true
+    },
+    {
+      "name": "câmera lavanderia",
+      "passed": true
+    },
+    {
+      "name": "dimensões lavanderia",
+      "passed": true
+    },
+    {
+      "name": "origem atual lavanderia",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial lavanderia",
+      "passed": true
+    },
+    {
+      "name": "destino organizado lavanderia",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado lavanderia",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "câmera fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "dimensões fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "origem atual fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "destino organizado fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "câmera divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "dimensões divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "origem atual divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "destino organizado divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "câmera escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "dimensões escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "origem atual escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "destino organizado escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível escada-superior",
+      "passed": true
+    },
+    {
+      "name": "câmera escada-superior",
+      "passed": true
+    },
+    {
+      "name": "dimensões escada-superior",
+      "passed": true
+    },
+    {
+      "name": "origem atual escada-superior",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial escada-superior",
+      "passed": true
+    },
+    {
+      "name": "destino organizado escada-superior",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado escada-superior",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível lavabo",
+      "passed": true
+    },
+    {
+      "name": "câmera lavabo",
+      "passed": true
+    },
+    {
+      "name": "dimensões lavabo",
+      "passed": true
+    },
+    {
+      "name": "origem atual lavabo",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial lavabo",
+      "passed": true
+    },
+    {
+      "name": "destino organizado lavabo",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado lavabo",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível suite",
+      "passed": true
+    },
+    {
+      "name": "câmera suite",
+      "passed": true
+    },
+    {
+      "name": "dimensões suite",
+      "passed": true
+    },
+    {
+      "name": "origem atual suite",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial suite",
+      "passed": true
+    },
+    {
+      "name": "destino organizado suite",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado suite",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "câmera quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "dimensões quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "origem atual quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "destino organizado quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "dimensões quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "origem atual quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "destino organizado quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "câmera fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "dimensões fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "origem atual fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "destino organizado fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível volumetria",
+      "passed": true
+    },
+    {
+      "name": "câmera volumetria",
+      "passed": true
+    },
+    {
+      "name": "dimensões volumetria",
+      "passed": true
+    },
+    {
+      "name": "origem atual volumetria",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial volumetria",
+      "passed": true
+    },
+    {
+      "name": "destino organizado volumetria",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado volumetria",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível sala-tv",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-tv",
+      "passed": true
+    },
+    {
+      "name": "dimensões sala-tv",
+      "passed": true
+    },
+    {
+      "name": "origem atual sala-tv",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial sala-tv",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sala-tv",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado sala-tv",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "câmera mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "dimensões mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "origem atual mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "destino organizado mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "câmera bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "dimensões bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "origem atual bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "destino organizado bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "câmera escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "dimensões escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "origem atual escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "destino organizado escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "sem beliche no escritório escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "arquitetura visível escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "câmera escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "dimensões escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "origem atual escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "contrato industrial escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "destino organizado escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "escritório isolado escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "sem beliche no escritório escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "fundo da sala continua aberto",
+      "passed": true
+    },
+    {
+      "name": "cobertura posterior preservada",
+      "passed": true
+    },
+    {
+      "name": "divisão lazer e lavanderia preservada",
+      "passed": true
+    },
+    {
+      "name": "quatro banquetas novas",
+      "passed": true
+    },
+    {
+      "name": "sofá de couro importado",
+      "passed": true
+    },
+    {
+      "name": "mesa de madeira modelada",
+      "passed": true
+    },
+    {
+      "name": "todas as imagens usadas empacotadas",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "renders_required": false,
+  "scope": "Proposta visual industrial sobre a arquitetura atual documental; não equivale a levantamento ou projeto executivo."
+}

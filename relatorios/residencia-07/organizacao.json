@@ -1,0 +1,326 @@
+{
+  "timestamp_utc": "2026-11-12T03:54:16.369016+00:00",
+  "moves": [
+    {
+      "from": "renders/residencia-07/caderno-residencia-07.pdf",
+      "to": "renders/residencia-07/00-cadernos/caderno-residencia-07.pdf",
+      "sha256": "6adc3a910f91c42c475dd382f0c8af0dc70e9d5fb96b9be69505cc6bb92eb770"
+    },
+    {
+      "from": "renders/residencia-07/corte-longitudinal.pdf",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/corte-longitudinal.pdf",
+      "sha256": "f8c06e1a7dbe556f7363694513c9acbb205dc6a2bbadd6d14aa9986bdffdc8a9"
+    },
+    {
+      "from": "renders/residencia-07/corte-longitudinal.png",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/corte-longitudinal.png",
+      "sha256": "3c5c4c223ffd8eb63989a53c13b878578f313f229f9957421c7665c71d0b265e"
+    },
+    {
+      "from": "renders/residencia-07/corte-longitudinal.svg",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/corte-longitudinal.svg",
+      "sha256": "f917704fdefffa6fb21c18a8899ae73d15b54a1257451a434f6d11d30dae32bb"
+    },
+    {
+      "from": "renders/residencia-07/cotas-originais-superior.pdf",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/cotas-originais-superior.pdf",
+      "sha256": "8a9fbe00aebbb2921f9572f0c88b328a6a7198d714ddb86d076a142151a176b5"
+    },
+    {
+      "from": "renders/residencia-07/cotas-originais-superior.png",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/cotas-originais-superior.png",
+      "sha256": "cca2f4a51f3d7dbb740faf856d9ef6f193e4addcd15779eb4e8a2907335e25f8"
+    },
+    {
+      "from": "renders/residencia-07/cotas-originais-superior.svg",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/cotas-originais-superior.svg",
+      "sha256": "44f8a16d8f5ce63dfa54760009daa5ba33cba36649ba02d34f20363d83c7f080"
+    },
+    {
+      "from": "renders/residencia-07/cotas-originais-terreo.pdf",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/cotas-originais-terreo.pdf",
+      "sha256": "dfe001a1b7b74a510d25e080b0ee202008de50b8eb702f64530f830efe5c95b8"
+    },
+    {
+      "from": "renders/residencia-07/cotas-originais-terreo.png",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/cotas-originais-terreo.png",
+      "sha256": "9b71637f7ead2cd998669e86f9f04d7a152884e5b68f8fd9f7bbd0d6e74e93c0"
+    },
+    {
+      "from": "renders/residencia-07/cotas-originais-terreo.svg",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/cotas-originais-terreo.svg",
+      "sha256": "acf4a6cc0df7b82910e3a129249056680a9dac5563e2314a4fc965383300c387"
+    },
+    {
+      "from": "renders/residencia-07/eletrica-superior.pdf",
+      "to": "renders/residencia-07/03-instalacoes/eletrica/eletrica-superior.pdf",
+      "sha256": "2348e6e79a171293b1f0c6016922c8a2c906c7a0d440bb20e96873e02d527f25"
+    },
+    {
+      "from": "renders/residencia-07/eletrica-superior.png",
+      "to": "renders/residencia-07/03-instalacoes/eletrica/eletrica-superior.png",
+      "sha256": "f894997c91937f07f261d528e4f100e23cb34ea9b1c8c887b8f94f1c406dd830"
+    },
+    {
+      "from": "renders/residencia-07/eletrica-superior.svg",
+      "to": "renders/residencia-07/03-instalacoes/eletrica/eletrica-superior.svg",
+      "sha256": "45deacfcf47fffc0dc8ee304a7c222c7897795f41f570899410345e839b0b2e1"
+    },
+    {
+      "from": "renders/residencia-07/eletrica-terreo.pdf",
+      "to": "renders/residencia-07/03-instalacoes/eletrica/eletrica-terreo.pdf",
+      "sha256": "2d3fa6375ef4ce781d4b6f2cecd94dcbb7792c998eb208cbded8e82ad272a4e5"
+    },
+    {
+      "from": "renders/residencia-07/eletrica-terreo.png",
+      "to": "renders/residencia-07/03-instalacoes/eletrica/eletrica-terreo.png",
+      "sha256": "bf637be5a322a60490f602ba288950a789ca8f18c9424bdde6dc902032df6824"
+    },
+    {
+      "from": "renders/residencia-07/eletrica-terreo.svg",
+      "to": "renders/residencia-07/03-instalacoes/eletrica/eletrica-terreo.svg",
+      "sha256": "72386b90c8d6dd603be1f09cf8a4d023ecc97fd5302e97720fb50cf42ef3ecbf"
+    },
+    {
+      "from": "renders/residencia-07/esgoto-superior.pdf",
+      "to": "renders/residencia-07/03-instalacoes/esgoto/esgoto-superior.pdf",
+      "sha256": "0231e91b1f49925e6c64519139ff491fbbb3dadfc72a0f8d4bf0996b589d7964"
+    },
+    {
+      "from": "renders/residencia-07/esgoto-superior.png",
+      "to": "renders/residencia-07/03-instalacoes/esgoto/esgoto-superior.png",
+      "sha256": "549d27793650924ed051461c73af38194f04f34d30093f95a71523ac7fb92a1e"
+    },
+    {
+      "from": "renders/residencia-07/esgoto-superior.svg",
+      "to": "renders/residencia-07/03-instalacoes/esgoto/esgoto-superior.svg",
+      "sha256": "adc47de53cccc471b209d888ed4c745e23e689fb8bb2c98aa5f81764a770cf7e"
+    },
+    {
+      "from": "renders/residencia-07/esgoto-terreo.pdf",
+      "to": "renders/residencia-07/03-instalacoes/esgoto/esgoto-terreo.pdf",
+      "sha256": "7833130c506b3e64669a3d4af4bfb3c94dbfa9e2113fb4b788255c8763719f86"
+    },
+    {
+      "from": "renders/residencia-07/esgoto-terreo.png",
+      "to": "renders/residencia-07/03-instalacoes/esgoto/esgoto-terreo.png",
+      "sha256": "9ecc44a4db71c85166f59845657991c7608dc232a720586a7fd1d6a6354d2f07"
+    },
+    {
+      "from": "renders/residencia-07/esgoto-terreo.svg",
+      "to": "renders/residencia-07/03-instalacoes/esgoto/esgoto-terreo.svg",
+      "sha256": "7937412ae418b4ec92a1127cca7268363f0a7939382a4d96bc5486f896e354e6"
+    },
+    {
+      "from": "renders/residencia-07/estrutura-superior.pdf",
+      "to": "renders/residencia-07/02-estrutura/2d/estrutura-superior.pdf",
+      "sha256": "b5edef0cdf67ab940193aef4c26b855e5f75eb3832037649c4777e543058c677"
+    },
+    {
+      "from": "renders/residencia-07/estrutura-superior.png",
+      "to": "renders/residencia-07/02-estrutura/2d/estrutura-superior.png",
+      "sha256": "06d75d24b004a7001167a83a33bbdce07c3a2d4867cf3b96715d9e25d627fe4d"
+    },
+    {
+      "from": "renders/residencia-07/estrutura-superior.svg",
+      "to": "renders/residencia-07/02-estrutura/2d/estrutura-superior.svg",
+      "sha256": "34f2277ef74d7f56d4b8266db232e6040c4c04f1ae3eb35d602b13d4ba47ff93"
+    },
+    {
+      "from": "renders/residencia-07/estrutura-terreo.pdf",
+      "to": "renders/residencia-07/02-estrutura/2d/estrutura-terreo.pdf",
+      "sha256": "7d18f22f21ed0a75072a54d0d6ec9dbbc63c45fb96412d1b500746d3ad0d78e5"
+    },
+    {
+      "from": "renders/residencia-07/estrutura-terreo.png",
+      "to": "renders/residencia-07/02-estrutura/2d/estrutura-terreo.png",
+      "sha256": "36dbccbf0c42a1944a139e294cf4c69ea73de5013f68d9138e7d2cc7daa1a08d"
+    },
+    {
+      "from": "renders/residencia-07/estrutura-terreo.svg",
+      "to": "renders/residencia-07/02-estrutura/2d/estrutura-terreo.svg",
+      "sha256": "8012571dcd714c2d38e2750f438e0813ef3752d96ee3ffa564cbd1704267dee9"
+    },
+    {
+      "from": "renders/residencia-07/fachada.png",
+      "to": "renders/residencia-07/05-imagens/exteriores/fachada.png",
+      "sha256": "2238d181a0d6bf8733ba1dd74db1eeb921798d46d58703bab70ac71e05a81e55"
+    },
+    {
+      "from": "renders/residencia-07/fundos.png",
+      "to": "renders/residencia-07/05-imagens/exteriores/fundos.png",
+      "sha256": "5bb74659e17e8e07d3ca29ba58e076adb185a72d7176efca81fe04fe75559724"
+    },
+    {
+      "from": "renders/residencia-07/hidraulica-superior.pdf",
+      "to": "renders/residencia-07/03-instalacoes/hidraulica/hidraulica-superior.pdf",
+      "sha256": "1ac423b43f83ddc5010217dad658930e88709c16580f5f0a7f6056da8ce21204"
+    },
+    {
+      "from": "renders/residencia-07/hidraulica-superior.png",
+      "to": "renders/residencia-07/03-instalacoes/hidraulica/hidraulica-superior.png",
+      "sha256": "e9f0faba0cd11924df566a2fafb62509d691851a874dc8f72778bd2f28ad90a5"
+    },
+    {
+      "from": "renders/residencia-07/hidraulica-superior.svg",
+      "to": "renders/residencia-07/03-instalacoes/hidraulica/hidraulica-superior.svg",
+      "sha256": "26a49fe20a3d672b310bfc2178620ab92070910034ff4d0a1c3239bc45b43820"
+    },
+    {
+      "from": "renders/residencia-07/hidraulica-terreo.pdf",
+      "to": "renders/residencia-07/03-instalacoes/hidraulica/hidraulica-terreo.pdf",
+      "sha256": "20cb738ad2690cb0d6d28ff158e13ecefc41a4eff7e8d4ef15922063370304e0"
+    },
+    {
+      "from": "renders/residencia-07/hidraulica-terreo.png",
+      "to": "renders/residencia-07/03-instalacoes/hidraulica/hidraulica-terreo.png",
+      "sha256": "3ab4f3cd9a535122fd5b4a40b7a6140f57219c1c1d14e4ead67ad56f5e86a916"
+    },
+    {
+      "from": "renders/residencia-07/hidraulica-terreo.svg",
+      "to": "renders/residencia-07/03-instalacoes/hidraulica/hidraulica-terreo.svg",
+      "sha256": "11c37b4a6f42d55537cdcc4d6cf40c9700ffc276901fcbbaae54864da483b4c4"
+    },
+    {
+      "from": "renders/residencia-07/instalacoes-coordenadas-superior.pdf",
+      "to": "renders/residencia-07/03-instalacoes/coordenadas/instalacoes-coordenadas-superior.pdf",
+      "sha256": "e1dc40d5f5e82b799120a86a19e2d31a89acace8a6730e9bf6efff130a7c7e8e"
+    },
+    {
+      "from": "renders/residencia-07/instalacoes-coordenadas-superior.png",
+      "to": "renders/residencia-07/03-instalacoes/coordenadas/instalacoes-coordenadas-superior.png",
+      "sha256": "bcc8f421fd1077b174c518ffe85ff5dd1234bd8a5120ff3c2182f9481eee0876"
+    },
+    {
+      "from": "renders/residencia-07/instalacoes-coordenadas-superior.svg",
+      "to": "renders/residencia-07/03-instalacoes/coordenadas/instalacoes-coordenadas-superior.svg",
+      "sha256": "e422f197b56f7b69709e0248990ac4ba2b6902dc9dea13ac7335724bfc727388"
+    },
+    {
+      "from": "renders/residencia-07/instalacoes-coordenadas-terreo.pdf",
+      "to": "renders/residencia-07/03-instalacoes/coordenadas/instalacoes-coordenadas-terreo.pdf",
+      "sha256": "d9f697ee2ed5ae6c4871956b7d72cc98952d456d46d5c6c35542176f781ec58b"
+    },
+    {
+      "from": "renders/residencia-07/instalacoes-coordenadas-terreo.png",
+      "to": "renders/residencia-07/03-instalacoes/coordenadas/instalacoes-coordenadas-terreo.png",
+      "sha256": "8819eb7c8435728a6336722304341036a60284a3a25b3f7a754c671b92e0cfd1"
+    },
+    {
+      "from": "renders/residencia-07/instalacoes-coordenadas-terreo.svg",
+      "to": "renders/residencia-07/03-instalacoes/coordenadas/instalacoes-coordenadas-terreo.svg",
+      "sha256": "f3ed0bd0391cdaf7d6df609ef265c80b44ba57b7854876f34af0fed325fdd408"
+    },
+    {
+      "from": "renders/residencia-07/pavimentos-sobrepostos.pdf",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/pavimentos-sobrepostos.pdf",
+      "sha256": "b41f096233399a114536513ff8a39781bcb82e73eb671ec58820d0327185cdec"
+    },
+    {
+      "from": "renders/residencia-07/pavimentos-sobrepostos.png",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/pavimentos-sobrepostos.png",
+      "sha256": "d96fd7ba6b9dc76da0b97c509005ab0b424729588f176ba679f8aecf07e8dcd5"
+    },
+    {
+      "from": "renders/residencia-07/pavimentos-sobrepostos.svg",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/pavimentos-sobrepostos.svg",
+      "sha256": "63747c8eb83c31eaf0541949ad53a2c588ff4e3aa2a17d871323ac292818f369"
+    },
+    {
+      "from": "renders/residencia-07/planta-superior-humanizada.png",
+      "to": "renders/residencia-07/04-plantas-3d/planta-superior-humanizada.png",
+      "sha256": "d1418aa6a3081cd2544eeed42c8ad9e66bc95162f2cf110e33a742b0e9879877"
+    },
+    {
+      "from": "renders/residencia-07/planta-superior.pdf",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/planta-superior.pdf",
+      "sha256": "f7bc5b72ab759195cd851d41c7af67b6206ed146224b0aa06de5ff45ff9b88fc"
+    },
+    {
+      "from": "renders/residencia-07/planta-superior.png",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/planta-superior.png",
+      "sha256": "0b517c4cffbab4af13a1174f792c4347f0a94e156b6479aa2a760869ece145fe"
+    },
+    {
+      "from": "renders/residencia-07/planta-superior.svg",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/planta-superior.svg",
+      "sha256": "2f2edaa45c1b8930eae784e3d5b0ce76e0feef9d144345dc3e758078b63be3a6"
+    },
+    {
+      "from": "renders/residencia-07/planta-terreo-humanizada.png",
+      "to": "renders/residencia-07/04-plantas-3d/planta-terreo-humanizada.png",
+      "sha256": "5cb98a9f3185b4f064ad5158116606532fcef6f195f667df44d3adc25f3f2b43"
+    },
+    {
+      "from": "renders/residencia-07/planta-terreo.pdf",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/planta-terreo.pdf",
+      "sha256": "d769248db015d0523f55930b4f3cf60d8b75e5230e820190105bf9f32c1ceaf3"
+    },
+    {
+      "from": "renders/residencia-07/planta-terreo.png",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/planta-terreo.png",
+      "sha256": "0b73634cb8da63267bb3f1c8eadcb86c2138800c49af6e24f01421ee776556ac"
+    },
+    {
+      "from": "renders/residencia-07/planta-terreo.svg",
+      "to": "renders/residencia-07/01-plantas-arquitetonicas/planta-terreo.svg",
+      "sha256": "348d17f98836fc363d6ac87a3983a7da90a35135a1ef479edb47155004f61fa1"
+    },
+    {
+      "from": "renders/residencia-07/plantas-tecnicas-residencia-07.pdf",
+      "to": "renders/residencia-07/00-cadernos/plantas-tecnicas-residencia-07.pdf",
+      "sha256": "c65db27113edda343c06a6e868fdc1bdaa70c9b52b3baf75ae74d261a3ecfe7a"
+    },
+    {
+      "from": "renders/residencia-07/superior-3d.png",
+      "to": "renders/residencia-07/04-plantas-3d/superior-3d.png",
+      "sha256": "e85c5f789d3e68bac74a2d4bb79fa688e4cb76b5c9b1dd98298eb55c10233189"
+    },
+    {
+      "from": "renders/residencia-07/terreo-3d.png",
+      "to": "renders/residencia-07/04-plantas-3d/terreo-3d.png",
+      "sha256": "be62271647aa6d6602effbd18746d5c788f1606e7e9479252b99dd2cd5c6dd00"
+    },
+    {
+      "from": "renders/residencia-07/tv-telefone-superior.pdf",
+      "to": "renders/residencia-07/03-instalacoes/tv-telefone/tv-telefone-superior.pdf",
+      "sha256": "a1a4358d09e28d680a92f4cdecd688cf96594fbb862e738e6b54ca5aa989e10a"
+    },
+    {
+      "from": "renders/residencia-07/tv-telefone-superior.png",
+      "to": "renders/residencia-07/03-instalacoes/tv-telefone/tv-telefone-superior.png",
+      "sha256": "7816746dc04a2dd74ca02a56ceadbd32151243c7bb2ba6b7f9256afb2732e4f1"
+    },
+    {
+      "from": "renders/residencia-07/tv-telefone-superior.svg",
+      "to": "renders/residencia-07/03-instalacoes/tv-telefone/tv-telefone-superior.svg",
+      "sha256": "b73f46b7184e323e10630f1021d837dd9594e4d7eddef640c81cdebd2dbb4f88"
+    },
+    {
+      "from": "renders/residencia-07/tv-telefone-terreo.pdf",
+      "to": "renders/residencia-07/03-instalacoes/tv-telefone/tv-telefone-terreo.pdf",
+      "sha256": "edaa021ae6ecebc39c38e3dc06277ddd88fd636f97537cce4b1bd0fd40884779"
+    },
+    {
+      "from": "renders/residencia-07/tv-telefone-terreo.png",
+      "to": "renders/residencia-07/03-instalacoes/tv-telefone/tv-telefone-terreo.png",
+      "sha256": "ccf48c8c7a66cfe93feedaa082a9ff7b79a1333551653c8b01e67a6422f3a845"
+    },
+    {
+      "from": "renders/residencia-07/tv-telefone-terreo.svg",
+      "to": "renders/residencia-07/03-instalacoes/tv-telefone/tv-telefone-terreo.svg",
+      "sha256": "abb02d3702052abad8f508228dd0634c4083753581481d146dbd613d7b51632b"
+    },
+    {
+      "from": "renders/residencia-07/volumetria.png",
+      "to": "renders/residencia-07/05-imagens/exteriores/volumetria.png",
+      "sha256": "868f8c5f3961f8fcd06798aa2062bf1007044523f5350503d984be0a50aacd82"
+    },
+    {
+      "from": "renders/residencia-07/previas",
+      "to": "renders/residencia-07/_trabalho/previas",
+      "type": "directory"
+    }
+  ],
+  "all_hashes_preserved": true
+}

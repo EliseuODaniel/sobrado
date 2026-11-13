@@ -1,0 +1,1107 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Arquivo reaberto é exatamente a gravação temporária",
+      "passed": true
+    },
+    {
+      "check": "Fonte atual preservada",
+      "passed": true
+    },
+    {
+      "check": "Geometria estrutural e alterações aprovadas preservadas",
+      "passed": true
+    },
+    {
+      "check": "Conjunto de cenas sem faltas ou sobras",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P3-entrada",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Folha P3-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J1-lavabo vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-social vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J2-suite vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-frente vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-quarto-fundos vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J3-sala vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 J4-cozinha vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P3-entrada",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Maçaneta P3-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-banheiro-social montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-banheiro-social montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-banheiro-social verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-banheiro-suite montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-banheiro-suite montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-banheiro-suite verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-lavabo montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-lavabo montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P1-lavabo verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P2-quarto-frente montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P2-quarto-frente montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P2-quarto-frente verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P2-quarto-fundos montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P2-quarto-fundos montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P2-quarto-fundos verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P3-entrada montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P3-entrada montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P3-entrada verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P3-suite montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P3-suite montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 P3-suite verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite central",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite montante",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite montante.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite peitoril",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite travessa",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite verga",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite vidro",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 PJ1-suite vidro.001",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P3-entrada",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Porta P3-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J2-social",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J2-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J3-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J3-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J3-sala",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao J4-cozinha",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P3-entrada",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao P3-suite",
+      "passed": true
+    },
+    {
+      "check": "Esquadria oficial ATUAL BASE R07 Vao PJ1-suite",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Gabinete banho.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Bancada banho.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Cuba banho.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Espelho banho.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Louca base.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Louca assento.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Louca abertura.001",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Gabinete banho.002",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Bancada banho.002",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Cuba banho.002",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Espelho banho.002",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Louca base.002",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Louca assento.002",
+      "passed": true
+    },
+    {
+      "check": "Peça do banheiro posicionada ATUAL R07 Louca abertura.002",
+      "passed": true
+    },
+    {
+      "check": "Câmera planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K planta-terreo",
+      "passed": true
+    },
+    {
+      "check": "Câmera planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K planta-superior",
+      "passed": true
+    },
+    {
+      "check": "Câmera terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K terreo-3d",
+      "passed": true
+    },
+    {
+      "check": "Câmera superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K superior-3d",
+      "passed": true
+    },
+    {
+      "check": "Câmera sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K sala-fundos",
+      "passed": true
+    },
+    {
+      "check": "Câmera sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K sala-frente",
+      "passed": true
+    },
+    {
+      "check": "Câmera cozinha",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera cozinha",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada cozinha",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K cozinha",
+      "passed": true
+    },
+    {
+      "check": "Câmera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K cozinha-reversa",
+      "passed": true
+    },
+    {
+      "check": "Câmera bar",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera bar",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada bar",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K bar",
+      "passed": true
+    },
+    {
+      "check": "Câmera lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Câmera fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K fundos-abertos",
+      "passed": true
+    },
+    {
+      "check": "Câmera divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "check": "Câmera escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K escada-acesso",
+      "passed": true
+    },
+    {
+      "check": "Câmera escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K escada-superior",
+      "passed": true
+    },
+    {
+      "check": "Câmera lavabo",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera lavabo",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada lavabo",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K lavabo",
+      "passed": true
+    },
+    {
+      "check": "Câmera suite",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera suite",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada suite",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K suite",
+      "passed": true
+    },
+    {
+      "check": "Câmera quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Câmera quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Câmera fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K fachada-frontal",
+      "passed": true
+    },
+    {
+      "check": "Câmera volumetria",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera volumetria",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada volumetria",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K volumetria",
+      "passed": true
+    },
+    {
+      "check": "Câmera sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K sala-foto",
+      "passed": true
+    },
+    {
+      "check": "Câmera suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K suite-reversa",
+      "passed": true
+    },
+    {
+      "check": "Câmera quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K quarto-azul-bancada",
+      "passed": true
+    },
+    {
+      "check": "Câmera quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K quarto-branco-armario",
+      "passed": true
+    },
+    {
+      "check": "Câmera banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Câmera banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Posição de câmera banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Cena preservada banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Saída 4K banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Geladeira do bar atual preservada",
+      "passed": true
+    },
+    {
+      "check": "Geladeira da cozinha preservada",
+      "passed": true
+    },
+    {
+      "check": "Quantidade Banqueta bar encosto",
+      "passed": true
+    },
+    {
+      "check": "Quantidade Cadeira jantar encosto",
+      "passed": true
+    },
+    {
+      "check": "Quantidade Cadeira cabeceira encosto",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Sofa almofada encosto",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Cortina sala voil",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Papel azul junto porta",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Quarto branco papel coracoes",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Suite cortina voil",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Coifa vidro curvo",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Cuba cozinha profunda",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Lavadora vidro",
+      "passed": true
+    },
+    {
+      "check": "Detalhe fotográfico Lavabo papel elipses",
+      "passed": true
+    },
+    {
+      "check": "Sete folhas fechadas na apresentação",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P1-lavabo",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P3-entrada",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P3-entrada",
+      "passed": true
+    },
+    {
+      "check": "Folha centralizada e no nível correto P3-suite",
+      "passed": true
+    },
+    {
+      "check": "Folha alinhada ao vão P3-suite",
+      "passed": true
+    },
+    {
+      "check": "Texturas presentes ou empacotadas",
+      "passed": true
+    },
+    {
+      "check": "Fotografias originais preservadas",
+      "passed": true
+    }
+  ],
+  "total": 274,
+  "protected_count": 674,
+  "opening_repairs": 121,
+  "scenes": 26,
+  "objects": 3455,
+  "scope": "Validação determinística de geometria, recursos e entrega; semelhança fotográfica exige inspeção visual."
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-12",
+  "source": {
+    "file": "projeto/industrial-v01/casa-industrial.blend",
+    "before_sha256": "0a9a24271c3d0d497ad2f9d63bcccbf0261ebbbe75883726aeacbd7166304fb7",
+    "after_sha256": "9a2f38a3e3ae6c5dd3fb51918d0b7c85233c2c4fc058a7577dcdd73a78e8b711",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "kitchen_members_unchanged": {
+      "Geladeira cozinha": "228190431d63bcca529418aca4056fea7a58b4c33391b7fcd397e49e175c780b",
+      "Corpo geladeira.001": "a4d8e69997bff893060cc49365088dd1a5ba68d11d7bf319d3a3a736b558446e",
+      "Porta geladeira.002": "96433b8a348c589bf603f05295827b14a0ad10bd52cb6a66558bdb1e5759021d",
+      "Porta geladeira.003": "bd54a9063a8fa8b9d9c52dc71b766fd34cc514b309b5fdffb3d9ca988e7f87c5",
+      "Puxador geladeira.002": "4665bf3e739b22649a6807c8851945d50653ed2a98071b5a59db2cc70f219178",
+      "Puxador geladeira.003": "86cc2f2fcfe214676e8f7c0a6ff60a50beea8d309f0531585378d276e5a67072"
+    },
+    "bar_fridge_absent_after_reopen": true,
+    "architecture_protected_unchanged": false
+  },
+  "note": "Manutenção autorizada do arquivo nativo; recibos de geração anteriores permanecem históricos. Não há imagens de entrega nas pastas renders destas revisões antigas."
+}

@@ -1,0 +1,66 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.294  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07.blend"
+00:00.597  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.598  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:13.415  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/04-plantas-3d/planta-terreo-humanizada.png'
+R07_RENDER_OK planta-terreo-humanizada 12.78
+00:25.102  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/04-plantas-3d/planta-superior-humanizada.png'
+R07_RENDER_OK planta-superior-humanizada 11.63
+00:37.352  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/04-plantas-3d/terreo-3d.png'
+R07_RENDER_OK terreo-3d 12.19
+00:56.578  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/04-plantas-3d/superior-3d.png'
+R07_RENDER_OK superior-3d 19.2
+01:25.962  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/exteriores/volumetria.png'
+R07_RENDER_OK volumetria 29.25
+01:50.331  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/exteriores/fachada.png'
+R07_RENDER_OK fachada 24.26
+02:22.052  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/exteriores/fundos.png'
+R07_RENDER_OK fundos 31.62
+02:53.637  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/exteriores/cobertura.png'
+R07_RENDER_OK cobertura 31.47
+03:41.525  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/sala-integrada.png'
+R07_RENDER_OK sala-integrada 47.86
+04:28.516  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/sala.png'
+R07_RENDER_OK sala 46.93
+05:13.469  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/sala-tv.png'
+R07_RENDER_OK sala-tv 44.88
+06:01.964  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/jantar.png'
+R07_RENDER_OK jantar 48.42
+06:48.290  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/cozinha.png'
+R07_RENDER_OK cozinha 46.24
+07:37.973  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/cozinha-reversa.png'
+R07_RENDER_OK cozinha-reversa 49.59
+08:25.928  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/escada-acesso.png'
+R07_RENDER_OK escada-acesso 47.84
+09:12.095  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/terreo/lavabo.png'
+R07_RENDER_OK lavabo 46.09
+09:50.018  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/superior/suite.png'
+R07_RENDER_OK suite 37.85
+10:30.485  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/superior/quarto-frente.png'
+R07_RENDER_OK quarto-frente 40.36
+11:09.403  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/superior/quarto-fundos.png'
+R07_RENDER_OK quarto-fundos 38.82
+11:56.164  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/superior/banheiro-suite.png'
+R07_RENDER_OK banheiro-suite 46.71
+12:40.710  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/superior/banheiro-social.png'
+R07_RENDER_OK banheiro-social 44.44
+13:14.267  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/exteriores/sacada.png'
+R07_RENDER_OK sacada 33.4
+13:54.619  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/fundos-proposta/lazer-fundos.png'
+R07_RENDER_OK lazer-fundos 40.16
+14:33.430  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/05-imagens/fundos-proposta/lavanderia.png'
+R07_RENDER_OK lavanderia 38.71
+15:03.405  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/04-plantas-3d/lavabo-planta.png'
+R07_RENDER_OK lavabo-planta 29.86
+15:21.317  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-terreo-3d.png'
+R07_RENDER_OK estrutura-terreo-3d 17.86
+15:40.096  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-superior-3d.png'
+R07_RENDER_OK estrutura-superior-3d 18.75
+15:58.329  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-conjunto-3d.png'
+R07_RENDER_OK estrutura-conjunto-3d 18.19
+16:16.243  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-explodida-3d.png'
+R07_RENDER_OK estrutura-explodida-3d 17.88
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

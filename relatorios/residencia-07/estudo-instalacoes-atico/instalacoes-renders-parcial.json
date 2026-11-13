@@ -1,0 +1,202 @@
+[
+  {
+    "id": "estrutura-terreo-3d",
+    "scene": "COLOR_estrutura-terreo-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-terreo-3d.png",
+    "sha256": "b2e2382377d8a0ae5d523d2fcce231ae852fcc5f35e5d36ff78c908f8393c295",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 7.85,
+    "preview": false
+  },
+  {
+    "id": "estrutura-superior-3d",
+    "scene": "COLOR_estrutura-superior-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-superior-3d.png",
+    "sha256": "fdc393a92bc0df19ba93678b5cdd8b07994284faa5a877a4f3f33fcc3c031020",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 7.87,
+    "preview": false
+  },
+  {
+    "id": "estrutura-conjunto-3d",
+    "scene": "COLOR_estrutura-conjunto-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-conjunto-3d.png",
+    "sha256": "ab45877ad771ed533591ddc545250a0d05eb3c8bddee96c5daa1cbbdc2ddc9fc",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 7.71,
+    "preview": false
+  },
+  {
+    "id": "estrutura-explodida-3d",
+    "scene": "COLOR_estrutura-explodida-3d",
+    "file": "renders/residencia-07/02-estrutura/3d/estrutura-explodida-3d.png",
+    "sha256": "d7ffb3cca7e6c712f57bceb5ab3aa98cc69a7802d446b8800d20f0039c7742e8",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 7.43,
+    "preview": false
+  },
+  {
+    "id": "eletrica-terreo-transparente",
+    "scene": "INST_eletrica-terreo-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-terreo-transparente.png",
+    "sha256": "e14617c6c0b0d2dd9f299c66bbede63629e8555ab7db40c7923b8fafcf7f44ed",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 8.24,
+    "preview": false
+  },
+  {
+    "id": "eletrica-superior-transparente",
+    "scene": "INST_eletrica-superior-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-superior-transparente.png",
+    "sha256": "63b2df43ec5e81e44d205095c1fe6c81714cccef81c5f1a5197b9516d873c6e4",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 9.33,
+    "preview": false
+  },
+  {
+    "id": "eletrica-conjunto-transparente",
+    "scene": "INST_eletrica-conjunto-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-conjunto-transparente.png",
+    "sha256": "bb84c86560d64230a85d75a7b1cc6076577722555fb1695d3f55e3498cc82d6c",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 17.37,
+    "preview": false
+  },
+  {
+    "id": "hidraulica-terreo-transparente",
+    "scene": "INST_hidraulica-terreo-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-terreo-transparente.png",
+    "sha256": "af7b4f8daace653d1c5598c21df3ea8ae6b53ba6cd996ecfd1a757cc21dd8447",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 18.98,
+    "preview": false
+  },
+  {
+    "id": "hidraulica-superior-transparente",
+    "scene": "INST_hidraulica-superior-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-superior-transparente.png",
+    "sha256": "cbc9a0e8df0f6594c0c31cff946ded4c0d11450b5296bd01bfba864644caf5df",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 14.08,
+    "preview": false
+  },
+  {
+    "id": "hidraulica-conjunto-transparente",
+    "scene": "INST_hidraulica-conjunto-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-conjunto-transparente.png",
+    "sha256": "9cdf43613533cf4cfb3d49a9cbf41bfa076b912a23f1229af60155a392868fe3",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 9.68,
+    "preview": false
+  },
+  {
+    "id": "esgoto-terreo-transparente",
+    "scene": "INST_esgoto-terreo-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-terreo-transparente.png",
+    "sha256": "74fab1179f6565b49c401228ee3b3042e0a0ad10616bcabe0839ad0ecad2ea50",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 7.68,
+    "preview": false
+  },
+  {
+    "id": "esgoto-superior-transparente",
+    "scene": "INST_esgoto-superior-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-superior-transparente.png",
+    "sha256": "5a7e7b8798d48bd924b3f6ed9ede4907f699e7202baa16e93cad2799e63ea65f",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 8.37,
+    "preview": false
+  },
+  {
+    "id": "esgoto-conjunto-transparente",
+    "scene": "INST_esgoto-conjunto-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-conjunto-transparente.png",
+    "sha256": "393cdc9ea409913fe6ae144f3f7de63df7a3de9a4b30208c3b44c0db7d38045a",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 9.86,
+    "preview": false
+  },
+  {
+    "id": "tv-telefone-terreo-transparente",
+    "scene": "INST_tv-telefone-terreo-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-terreo-transparente.png",
+    "sha256": "011686a9a4d344d91945315e771ca25ca70a1805c53447b8ed08104fb866977d",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 8.09,
+    "preview": false
+  },
+  {
+    "id": "tv-telefone-superior-transparente",
+    "scene": "INST_tv-telefone-superior-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-superior-transparente.png",
+    "sha256": "49a8e77136567b6e11825cbd52deda946fbf1f38ee9e20a4c3ed3d67968906ec",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 8.95,
+    "preview": false
+  },
+  {
+    "id": "tv-telefone-conjunto-transparente",
+    "scene": "INST_tv-telefone-conjunto-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-conjunto-transparente.png",
+    "sha256": "d5c4325471a39a9f4c75c75edfb50270fca313634570ec4bd32c11b833b7cf6a",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 16.07,
+    "preview": false
+  },
+  {
+    "id": "coordenadas-terreo-transparente",
+    "scene": "INST_coordenadas-terreo-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-terreo-transparente.png",
+    "sha256": "5ad0c0b2a48aaa2cb8eb0d158c1768c5fe1e806806b39fb8e09a3fc354a08c8c",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 24.02,
+    "preview": false
+  },
+  {
+    "id": "coordenadas-superior-transparente",
+    "scene": "INST_coordenadas-superior-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-superior-transparente.png",
+    "sha256": "9d051bec5fb36c4e640b982eeed48ca2b0640e97e8c077930d97cdd090c341a1",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 15.72,
+    "preview": false
+  },
+  {
+    "id": "coordenadas-conjunto-transparente",
+    "scene": "INST_coordenadas-conjunto-transparente",
+    "file": "renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-conjunto-transparente.png",
+    "sha256": "60a0157cbcca32332cbd77cfde8dc855f9d29be729acd0d63deecc12c38b0bf2",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 26.4,
+    "preview": false
+  },
+  {
+    "id": "reservatorio-3d",
+    "scene": "INST_reservatorio-3d",
+    "file": "renders/residencia-07/03-instalacoes/3d/reservatorio/reservatorio-3d.png",
+    "sha256": "03c3681c89962f947e1c5609121ca4aa308d4eadbcfb797cdeb055fd858a6a17",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+    "seconds": 29.14,
+    "preview": false
+  }
+]

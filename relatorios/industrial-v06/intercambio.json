@@ -1,0 +1,38 @@
+{
+  "blend_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "exporter_sha256": "e0f166f7c27f39cb1e2129b7cd1fe747b15e2bdbf1f9f2e5b06a435dc7048f40",
+  "exports": [
+    {
+      "file": "exports/fotorrealismo-industrial-v06/residencia-07-industrial-geometria.glb",
+      "sha256": "e8db42cfe3cdb5effb2b0ce0b319a4cfc3e25d9a501500750b5c9a32c856472b",
+      "meshes": 1164,
+      "nodes": 1414,
+      "units": "meters",
+      "materials": "named placeholders; not converted shaders"
+    },
+    {
+      "file": "exports/fotorrealismo-industrial-v06/escritorio-alternativo-geometria.glb",
+      "sha256": "d5c0e4418dd4bdf0248ddf882457fcc2b65537032f7ae812cb80dc30a580237b",
+      "meshes": 1118,
+      "nodes": 1346,
+      "units": "meters",
+      "materials": "named placeholders; not converted shaders"
+    },
+    {
+      "file": "exports/fotorrealismo-industrial-v06/referencia-1-metro.glb",
+      "sha256": "ac43e6103e3f37b3bad8b4a4fc0af5d084a9e87f977b9cfaad8e9190ee5cc16a",
+      "meshes": 1,
+      "nodes": 1,
+      "units": "meters",
+      "materials": "named placeholders; not converted shaders"
+    }
+  ],
+  "unit_cube_roundtrip_passed": true,
+  "wall_bounds_roundtrip_error_m": {
+    "ATUAL BASE R07 Parede S-banheiro-social-circulacao 00": 0.0,
+    "ATUAL BASE R07 Parede S-banheiro-social-circulacao 01": 0.0,
+    "ATUAL BASE R07 Parede S-banheiro-social-circulacao 02": 0.0
+  },
+  "source_native_unchanged": true,
+  "scope": "Geometry and UV interchange. No Unreal import, shader conversion, lighting or runtime performance test."
+}

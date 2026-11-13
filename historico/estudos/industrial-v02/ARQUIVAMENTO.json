@@ -102,5 +102,13 @@
       "to": "historico/estudos/industrial-v02/scripts/industrial_hq_delivery.py",
       "sha256": "06b9e28e40d4a000aacac15aa947b5958770cb9485fde9c27df9f6fd8f67a996"
     }
-  ]
+  ],
+  "maintenance_without_bar_fridge": {
+    "date": "2026-11-12",
+    "receipt": "relatorios/industrial-v06/arquivo-v02-sem-geladeira.json",
+    "source": "projeto/fontes/casa-base-detalhada.blend",
+    "source_current_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "all_existing_images_updated": true,
+    "original_aspect_ratio_restored": true
+  }
 }

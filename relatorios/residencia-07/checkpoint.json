@@ -1,0 +1,69 @@
+{
+  "objective": "Refazer todas as plantas, o modelo Blender e as imagens da residência 07 a partir de plantas/. Inclui plantas sem mobiliário, estrutura indicada, hidráulica, elétrica, TV/telefone e cotas documentadas.",
+  "status": "VERIFIED: entrega documental e visual concluída; limites estruturais descritos no relatório",
+  "source": "arq03.pdf: tipologia da esquerda, explicitamente inclui a unidade 07; arq04.pdf: cortes e fachada; arq01.pdf: implantação e áreas",
+  "verified": [
+    "PDFs inspecionados visualmente",
+    "Largura entre limite esquerdo e eixo da geminação: 6,35 m",
+    "Níveis 0,00 / 2,70 / 5,40 m; pé-direito 2,55 m; lajes 0,15 m",
+    "Corpo térreo esquerdo 5,70 m; cozinha avança 1,50 m",
+    "Superior: recuo posterior dos banheiros em relação ao quarto; sacada frontal"
+  ],
+  "registration": {
+    "arq03_rotated_ground_origin_pt": [
+      581.72,
+      621.88
+    ],
+    "arq03_rotated_upper_origin_pt": [
+      581.72,
+      1296.16
+    ],
+    "points_per_meter": 56.64
+  },
+  "unknowns": [
+    "Divergências entre algumas cotas, áreas declaradas e traços do PDF",
+    "Alterações executadas após o projeto de 2011",
+    "DWG ainda não convertido; PDFs são a fonte geométrica desta revisão"
+  ],
+  "obligations": {
+    "source_receipts": "VERIFIED: fontes.json",
+    "new_shared_geometry": "VERIFIED: config/residencia-07.json",
+    "native_blender": "VERIFIED: modelo.json; 29 cenas, 4 sem móveis; normais corrigidas sem mover vértices",
+    "all_new_plans_and_images": "VERIFIED: 29 renders finais, 47 páginas de apresentação",
+    "independent_validation": "VERIFIED: 334 verificações finais, 24 registros de instalações e 20 testes",
+    "current_documentation": "VERIFIED: README, índice, relatório e links locais",
+    "technical_installations": "VERIFIED: instalacoes.json, 14 pranchas, 22 páginas, 24 registros métricos",
+    "organization": "VERIFIED: 88 artefatos organizados; raiz somente LEIA-ME.md"
+  },
+  "environment": {
+    "pdf_python": ".tools/planta-venv/bin/python",
+    "dependencies": [
+      "PyMuPDF==1.26.7",
+      "Pillow==12.0.0"
+    ],
+    "blender": "scripts/run_blender.py --wsl-gpu",
+    "gpu": "RTX 4070 Laptop 8GB"
+  },
+  "decisions": [
+    "Criar revisão residencia-07 separada; preservar versões anteriores",
+    "Redesenho vetorial e Blender compartilham configuração métrica",
+    "Manter linguagem industrial já estabelecida como proposta de decoração, distinguindo do projeto original"
+  ],
+  "notes": [
+    "Geração 1 arquivada em historico/rascunhos/residencia-07/casa-07-previa-01.blend; geração 2 em projeto/residencia-07/casa-07.blend",
+    "Validação da geração 1 passou 227 verificações; repetir após geração 2",
+    "PDFs complementares internos: ELE04/05/06, HID04/05/08, TV-TEL04/05",
+    "Registro ELE04 origem [540.80,1153.60] escala84.96; ELE05 origem [613.64,1001.92] escala84.96; HID04 T [190.64,713.20], S [690.92,713.20], escala56.64; HID08 T [267.68,690.28], S [767.96,640.00], escala56.64; TV04 T [540.80,1223.44] escala84.96; TV05 S [502.52,1082.56] escala84.96"
+  ],
+  "remaining": [],
+  "paths_contract": "scripts/residence07_geometry.py: artifact_path e preview_path; não salvar imagens na raiz",
+  "final_receipts": [
+    "validacao-completa.json",
+    "manifesto.json",
+    "instalacoes.json",
+    "renders.json",
+    "testes.log",
+    "RELATORIO.md"
+  ],
+  "final_blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8"
+}

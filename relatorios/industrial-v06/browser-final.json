@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-11-13T08:16:21.364Z",
+  "blend_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "checks": [
+    {
+      "name": "31 cards and all thumbnails decode",
+      "passed": true,
+      "images": 37
+    },
+    {
+      "name": "filter ambientes",
+      "passed": true,
+      "count": 19
+    },
+    {
+      "name": "filter dia-noite",
+      "passed": true,
+      "count": 6
+    },
+    {
+      "name": "filter plantas",
+      "passed": true,
+      "count": 4
+    },
+    {
+      "name": "filter exteriores",
+      "passed": true,
+      "count": 2
+    },
+    {
+      "name": "filter todos",
+      "passed": true,
+      "count": 31
+    },
+    {
+      "name": "three accessible day/night sliders respond at both ends",
+      "passed": true
+    },
+    {
+      "name": "all gallery links respond to HEAD",
+      "passed": true,
+      "count": 36
+    },
+    {
+      "name": "no horizontal overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "no page errors or HTTP failures",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "errors": [],
+  "requests": [],
+  "scope": "Galeria local final em Chromium, filtros, sliders, miniaturas, links e desktop/mobile."
+}

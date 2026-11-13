@@ -1,0 +1,23 @@
+{
+  "blend_sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+  "file": "relatorios/atual-fiel-v02/revisao-refinamento/tecidos-densidade-nativa.png",
+  "sha256": "b1c5a21552350a0b826c814e5363e17cd99cdc15a95f5118715428e47350bf23",
+  "crop_fraction": [
+    0.38,
+    0.74,
+    0.2,
+    0.59
+  ],
+  "parent_resolution": [
+    3840,
+    2880
+  ],
+  "actual_crop_resolution": [
+    1382,
+    1123
+  ],
+  "samples": 512,
+  "backend": "OPTIX",
+  "seconds": 67.62,
+  "note": "Recorte renderizado com densidade de pixels do PNG final, sem redimensionar a imagem nem salvar o modelo."
+}

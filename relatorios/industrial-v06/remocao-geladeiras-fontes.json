@@ -1,0 +1,94 @@
+[
+  {
+    "file": "projeto/industrial-v01/casa-industrial.blend",
+    "before_sha256": "0a9a24271c3d0d497ad2f9d63bcccbf0261ebbbe75883726aeacbd7166304fb7",
+    "after_sha256": "9a2f38a3e3ae6c5dd3fb51918d0b7c85233c2c4fc058a7577dcdd73a78e8b711",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "kitchen_members_unchanged": {
+      "Geladeira cozinha": "228190431d63bcca529418aca4056fea7a58b4c33391b7fcd397e49e175c780b",
+      "Corpo geladeira.001": "a4d8e69997bff893060cc49365088dd1a5ba68d11d7bf319d3a3a736b558446e",
+      "Porta geladeira.002": "96433b8a348c589bf603f05295827b14a0ad10bd52cb6a66558bdb1e5759021d",
+      "Porta geladeira.003": "bd54a9063a8fa8b9d9c52dc71b766fd34cc514b309b5fdffb3d9ca988e7f87c5",
+      "Puxador geladeira.002": "4665bf3e739b22649a6807c8851945d50653ed2a98071b5a59db2cc70f219178",
+      "Puxador geladeira.003": "86cc2f2fcfe214676e8f7c0a6ff60a50beea8d309f0531585378d276e5a67072"
+    },
+    "bar_fridge_absent_after_reopen": true,
+    "architecture_protected_unchanged": false
+  },
+  {
+    "file": "projeto/fontes/casa-base-detalhada.blend",
+    "before_sha256": "70980ced81d16e89c38d458d3f2c6e021d0c6da3d5c9e42b9d669846a5cff09a",
+    "after_sha256": "66bdf57002e86bcfbde736670f28db425b3104372a268de868f78baba3ce73ba",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "kitchen_members_unchanged": {
+      "Geladeira cozinha": "228190431d63bcca529418aca4056fea7a58b4c33391b7fcd397e49e175c780b",
+      "Corpo geladeira.001": "a4d8e69997bff893060cc49365088dd1a5ba68d11d7bf319d3a3a736b558446e",
+      "Porta geladeira.002": "96433b8a348c589bf603f05295827b14a0ad10bd52cb6a66558bdb1e5759021d",
+      "Porta geladeira.003": "bd54a9063a8fa8b9d9c52dc71b766fd34cc514b309b5fdffb3d9ca988e7f87c5",
+      "Puxador geladeira.002": "4665bf3e739b22649a6807c8851945d50653ed2a98071b5a59db2cc70f219178",
+      "Puxador geladeira.003": "86cc2f2fcfe214676e8f7c0a6ff60a50beea8d309f0531585378d276e5a67072"
+    },
+    "bar_fridge_absent_after_reopen": true,
+    "architecture_protected_unchanged": false
+  },
+  {
+    "file": "projeto/industrial-v03/casa-fotografica.blend",
+    "before_sha256": "701129c65c74fbadbd1a6697fb3ac8ef9896849a108867b1e344a1ef3df85966",
+    "after_sha256": "193c402e4447851f45d8bf20f22f5acc1474ca2191996094e6c45c97f3a593f7",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "kitchen_members_unchanged": {
+      "Geladeira cozinha": "228190431d63bcca529418aca4056fea7a58b4c33391b7fcd397e49e175c780b",
+      "Corpo geladeira.001": "a4d8e69997bff893060cc49365088dd1a5ba68d11d7bf319d3a3a736b558446e",
+      "Porta geladeira.002": "96433b8a348c589bf603f05295827b14a0ad10bd52cb6a66558bdb1e5759021d",
+      "Porta geladeira.003": "bd54a9063a8fa8b9d9c52dc71b766fd34cc514b309b5fdffb3d9ca988e7f87c5",
+      "Puxador geladeira.002": "4665bf3e739b22649a6807c8851945d50653ed2a98071b5a59db2cc70f219178",
+      "Puxador geladeira.003": "86cc2f2fcfe214676e8f7c0a6ff60a50beea8d309f0531585378d276e5a67072"
+    },
+    "bar_fridge_absent_after_reopen": true,
+    "architecture_protected_unchanged": false
+  },
+  {
+    "file": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "before_sha256": "810711bee4ff36840d30aeb3ccc62716c13ac83f5d26adcee14577f181d13007",
+    "after_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "removed": [
+      "ATUAL Corpo geladeira",
+      "ATUAL Geladeira bar observada",
+      "ATUAL Porta geladeira",
+      "ATUAL Porta geladeira.001",
+      "ATUAL Puxador geladeira",
+      "ATUAL Puxador geladeira.001"
+    ],
+    "kitchen_members_unchanged": {
+      "ATUAL Geladeira cozinha": "5fabedc52b662a9f5bf7388318794159ce928e002d501561c25eed9b5247f9e4",
+      "ATUAL Corpo geladeira.001": "7ce6a75331a78ee8923f714c0e63bc9b2da3aa1365fcecc0e34dc6be178bf6b9",
+      "ATUAL Porta geladeira.002": "a149b7d05a54df55fd96c473211468cc5d883ae23c3b0640273ed0e3f9064bcd",
+      "ATUAL Porta geladeira.003": "c0fa99c969c6bf76384d9d2aa4301d00e9c06cc72e2b6a0ef58052613ce9f193",
+      "ATUAL Puxador geladeira.002": "a4b4df4b52c3fc6b7cbd4e87fb52b8f9aaf32efdbcc22b34c7cc6150e0aa0649",
+      "ATUAL Puxador geladeira.003": "8c76ae07d7e9122e140ca0b23756ef6b9e94520dad740085974a20e80b438255"
+    },
+    "bar_fridge_absent_after_reopen": true,
+    "architecture_protected_unchanged": true
+  }
+]

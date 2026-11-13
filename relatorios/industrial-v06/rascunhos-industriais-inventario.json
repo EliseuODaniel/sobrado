@@ -1,0 +1,362 @@
+[
+  {
+    "file": "historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend",
+    "before_sha256": "5d568a0cb0803a6e5857a6052ad1351d8d636d2e7d01a6bd5c5050d542964516",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/cozinha-reversa.png",
+        "before_sha256": "0e31714fcabfab0e54bb5bb424bab9a23a183222b337e713214f184db771c388",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/cozinha.png",
+        "before_sha256": "be8279e01065632ed307223ea258e5bed425c04e11e57455b28a83e8eb66ecec",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/lazer-fundos.png",
+        "before_sha256": "f35f09f5a6ad97ac2b4c5354b05216f07d57b2e1a1c25845dabd5999b99260a6",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/quarto-escritorio.png",
+        "before_sha256": "b35b43adf32fe21aaea7ac4ad4249bb395fea85eb1dc38151d400bf60cd0f9b9",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/quarto-fundos.png",
+        "before_sha256": "35cc51bb76e9d57f384ebb6e916151d24a6fc279156f3016b3c96823afbf7258",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/sala-frente.png",
+        "before_sha256": "529c5608b48c09ec10a21b3d4404902484217248f67e8c0889cb1a1e255d3376",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/sala-integrada.png",
+        "before_sha256": "c077cccd84fcae108e87046127da56b1a9cb6e817aa23a06b723a3df42f2f1d2",
+        "resolution": [
+          720,
+          450
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend",
+    "before_sha256": "9c66bf0b8643c28b12244cfdd6a90ce13915ab3ff0d0c399ded0215a7775e70b",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/cozinha-reversa.png",
+        "before_sha256": "ef0b261721c02b55e46519ef33a59fa910c001be10e8fac5d076cf36b949c2a9",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/cozinha.png",
+        "before_sha256": "87bb8c1099ca0e787765aa592cf3969d9db402c8070f5adee0b2b574497c4501",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/lazer-fundos.png",
+        "before_sha256": "0fca82fcf39054ff885f51ff61e0b97277674c26aaed2941797b319ef67ea050",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/quarto-escritorio.png",
+        "before_sha256": "2ed090b3050dfc1cf24dde5bb13758737e9a7f38315986bf54a580041134b520",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/quarto-fundos.png",
+        "before_sha256": "903e9f2b5859498f89b88d9a8f67b0f032467c55caa981d5d23ef841fe411b1c",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/sala-frente.png",
+        "before_sha256": "3962cba6b124e148037e9d9be11a1318758c43bc1f21f0773911ffea005616f1",
+        "resolution": [
+          720,
+          450
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/sala-integrada.png",
+        "before_sha256": "28d26738f9fe0bf40929bc246279d6865ca65370ec83ec93b5622feddd18da67",
+        "resolution": [
+          720,
+          450
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend",
+    "before_sha256": "5ae114d745da1dbc46a63cdaed4201dfc83bd0b3daabac27170811de0b12f5d4",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/cozinha.png",
+        "before_sha256": "0ccf614045488db0429d602babb2bc4b140eeff65e0be508fe91c079ccad0f9f",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/lazer-fundos.png",
+        "before_sha256": "1b6f208f5e4368846019c20c9f1990d99998c4d88dd6c5301331037f3b3dc842",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/quarto-fundos.png",
+        "before_sha256": "3475352fc245f7411b438492991bc89a94076ad7856015663918613275a3afe5",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/sala.png",
+        "before_sha256": "e147c978d0f8d8f65874e94e461627ee4891f1afd084cc1257f3d874deea036d",
+        "resolution": [
+          768,
+          480
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend",
+    "before_sha256": "cfb28e55326daa60e2b717eb73f379aec50cdceb186dbea0720b0c215eea1ce7",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/cozinha.png",
+        "before_sha256": "f24627b942034f88a914044b5583e46743dc631a02c1b77cc6bed094ce3ceb45",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/lazer-fundos.png",
+        "before_sha256": "9d9d250b94b79b9a9f958ce89dfa69bc5a9c5fe83497c9c94b50d62990203e5e",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/quarto-fundos.png",
+        "before_sha256": "fdb7c80313f35ecf11049a9a7d7d0fa794792048e8e8415e9f30eb4b39cb21ed",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/sala.png",
+        "before_sha256": "960c46937de72ad27b0e7773c5703284aea1cff0d87255d9679d59010e8da0c2",
+        "resolution": [
+          768,
+          480
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend",
+    "before_sha256": "3dd184ebc92aee368f78a4071915d1b9115422df6073dc44fdbaaf24d1a6d7f0",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/cozinha.png",
+        "before_sha256": "7ae8a7176fb5800fef7501eddf7a76ae4832fd073c279eeeda0ab6b9a589ae28",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/lazer-fundos.png",
+        "before_sha256": "e5d41eef73cc971e72ec70e7b79a50da27f5e5e53abdc1c5c3562f2e86347ec8",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/quarto-fundos.png",
+        "before_sha256": "ff9dc0085303ec0896c9164d552df256ce84588d15d766d456a52620b52b72bf",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/sala.png",
+        "before_sha256": "2c78e6713b31037edec1a053bf207a2780e11211e5eeef2c45e4cc00fba018b0",
+        "resolution": [
+          768,
+          480
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend",
+    "before_sha256": "9ab8468948deb002bb3fc6d87b4c7ed0f1dd7517d0cf7a9c6dfb26da86b72b2e",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/cozinha.png",
+        "before_sha256": "4982774aa8a5eb7600e8a1f725f943a4c97dc2f082c82ee082f411a77cc6c3c6",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/lazer-fundos.png",
+        "before_sha256": "3f910240d8cbc1de96079f1265792a905a61047187989c7fdda6fe88bece1493",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/quarto-fundos.png",
+        "before_sha256": "cbe3a058137d162fc65f0eb1793bf618c001c528befd3b670456d9475b67b52d",
+        "resolution": [
+          768,
+          480
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/sala.png",
+        "before_sha256": "6a6cbb98bd68dc9845a197965c050bdad15ede059893a5abeef4783401c7dfc6",
+        "resolution": [
+          768,
+          480
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend",
+    "before_sha256": "4b1ad3b75cf227c0f4f1acb4bdd7292139b16b0dc3c6f377689b3be24208bab0",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada01/previas/sala.png",
+        "before_sha256": "036384d88437998847935f9255d88b95c481caf8aeabccd904d5427833258f78",
+        "resolution": [
+          1152,
+          720
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend",
+    "before_sha256": "a05b420a9bd668252cf542b2a8dc368d887c655221f188360feb6c5c195bcc8e",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada02/previas/sala.png",
+        "before_sha256": "b5ba066461298f0cc891d21db96ca3c255a9a6c74326c7f838159446c401ab90",
+        "resolution": [
+          1152,
+          720
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend",
+    "before_sha256": "dda92806416cda7a0efcb099a06753b55b7778a7ced21f1a2a743ef81495de37",
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/cozinha.png",
+        "before_sha256": "f28cc1c8ae106731fd2d1b06380a29fc8b07836d6c8f6059eb836a08a4f91ece",
+        "resolution": [
+          1152,
+          720
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/lazer-fundos.png",
+        "before_sha256": "60384a6fda2797bbb6f6db255118701c08a82a324c734daeaa34cc8f028b5bb4",
+        "resolution": [
+          1152,
+          720
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/quarto-fundos.png",
+        "before_sha256": "b111ce8242bbedb2c7b142609103d98aea2a0b629bd19e7424a589b39c0c63fe",
+        "resolution": [
+          1152,
+          720
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/sala-integrada.png",
+        "before_sha256": "576d507f5918d084b5b69fd7b1447e3a3d5c892af820966bcf67b58fc56e3e76",
+        "resolution": [
+          1152,
+          720
+        ]
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/sala.png",
+        "before_sha256": "fa713bcae11fd7bbbdc4aacc2e54e2f5cb64ad25e0b56af7d5f2320d6cb9cb0e",
+        "resolution": [
+          1152,
+          720
+        ]
+      }
+    ]
+  },
+  {
+    "file": "historico/rascunhos/industrial-v05/previa01.blend",
+    "before_sha256": "97c99f83740d085ab638f8ab475fa52f3105f781be9b175b245f6625d5b92642",
+    "images": []
+  },
+  {
+    "file": "historico/rascunhos/industrial-v05/previa02.blend",
+    "before_sha256": "7c3930291dd1f7b1cc94e0d1803ebc43f3069951da3567cff2c570b6412cb144",
+    "images": []
+  }
+]

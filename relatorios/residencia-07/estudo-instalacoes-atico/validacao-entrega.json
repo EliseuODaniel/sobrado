@@ -1,0 +1,459 @@
+{
+  "timestamp_utc": "2026-11-12T18:07:47.788432+00:00",
+  "checks": [
+    {
+      "name": "auditoria nativa completa atual",
+      "passed": true
+    },
+    {
+      "name": "conjunto de imagens atual",
+      "passed": true
+    },
+    {
+      "name": "hash planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "PNG planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "hash planta-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG planta-superior",
+      "passed": true
+    },
+    {
+      "name": "hash terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "hash superior-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG superior-3d",
+      "passed": true
+    },
+    {
+      "name": "hash sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "hash sala-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG sala-frente",
+      "passed": true
+    },
+    {
+      "name": "hash cozinha",
+      "passed": true
+    },
+    {
+      "name": "PNG cozinha",
+      "passed": true
+    },
+    {
+      "name": "hash cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "PNG cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "hash bar",
+      "passed": true
+    },
+    {
+      "name": "PNG bar",
+      "passed": true
+    },
+    {
+      "name": "hash lavanderia",
+      "passed": true
+    },
+    {
+      "name": "PNG lavanderia",
+      "passed": true
+    },
+    {
+      "name": "hash fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "PNG fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "hash divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "PNG divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "hash escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "hash escada-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-superior",
+      "passed": true
+    },
+    {
+      "name": "hash lavabo",
+      "passed": true
+    },
+    {
+      "name": "PNG lavabo",
+      "passed": true
+    },
+    {
+      "name": "hash suite",
+      "passed": true
+    },
+    {
+      "name": "PNG suite",
+      "passed": true
+    },
+    {
+      "name": "hash quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "hash quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "hash fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "PNG fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "hash volumetria",
+      "passed": true
+    },
+    {
+      "name": "PNG volumetria",
+      "passed": true
+    },
+    {
+      "name": "páginas do caderno atual",
+      "passed": true,
+      "details": 29
+    },
+    {
+      "name": "links locais renders/atual/LEIA-ME.md",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "links locais renders/atual/galeria.html",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "auditoria nativa completa instalacoes",
+      "passed": true
+    },
+    {
+      "name": "conjunto de imagens instalacoes",
+      "passed": true
+    },
+    {
+      "name": "hash estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "hash estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "hash estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "hash estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "hash eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG eletrica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG eletrica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG eletrica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG hidraulica-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG hidraulica-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG hidraulica-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG esgoto-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG esgoto-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG esgoto-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG tv-telefone-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG tv-telefone-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG tv-telefone-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG coordenadas-terreo-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG coordenadas-superior-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "PNG coordenadas-conjunto-transparente",
+      "passed": true
+    },
+    {
+      "name": "hash reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG reservatorio-3d",
+      "passed": true
+    },
+    {
+      "name": "páginas do caderno instalacoes",
+      "passed": true,
+      "details": 21
+    },
+    {
+      "name": "links locais renders/residencia-07/03-instalacoes/3d/LEIA-ME.md",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "links locais renders/residencia-07/03-instalacoes/3d/galeria.html",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "ático vigente v05 conferido",
+      "passed": true
+    },
+    {
+      "name": "artefatos atuais do ático",
+      "passed": true
+    },
+    {
+      "name": "34 arquivos anteriores preservados",
+      "passed": true
+    },
+    {
+      "name": "relatórios anteriores preservados",
+      "passed": true
+    },
+    {
+      "name": "nenhum PNG obsoleto na raiz atual",
+      "passed": true
+    },
+    {
+      "name": "pastas da versão atual",
+      "passed": true
+    },
+    {
+      "name": "planta vetorial atual terreo.png",
+      "passed": true
+    },
+    {
+      "name": "planta vetorial atual terreo.svg",
+      "passed": true
+    },
+    {
+      "name": "planta vetorial atual terreo.pdf",
+      "passed": true
+    },
+    {
+      "name": "planta vetorial atual superior.png",
+      "passed": true
+    },
+    {
+      "name": "planta vetorial atual superior.svg",
+      "passed": true
+    },
+    {
+      "name": "planta vetorial atual superior.pdf",
+      "passed": true
+    },
+    {
+      "name": "31 fotos originais preservadas",
+      "passed": true
+    },
+    {
+      "name": "seis comparações com fotos",
+      "passed": true
+    },
+    {
+      "name": "manifesto íntegro",
+      "passed": true
+    },
+    {
+      "name": "base documental continua íntegra",
+      "passed": true
+    },
+    {
+      "name": "29 imagens documentais com origem verificável",
+      "passed": true
+    },
+    {
+      "name": "quatro estruturas atualizadas na entrega base",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "browser_verification": {
+    "status": "UNAVAILABLE",
+    "reason": "Conector sem Chrome instalado; tentativa com Chromium local excedeu 35 segundos. Links e imagens são conferidos estaticamente; filtro da galeria não foi exercitado em navegador."
+  },
+  "native_checks": {
+    "atual": 183,
+    "instalacoes": 210,
+    "atico": 251
+  },
+  "images": {
+    "atual": 20,
+    "instalacoes": 20,
+    "atico": 48
+  },
+  "delivery_artifacts": 129
+}

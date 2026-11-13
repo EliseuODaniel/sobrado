@@ -1,0 +1,8 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:02.879  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa01.blend"
+00:04.572  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa02.blend"
+previa01 {'name': 'previa01', 'sha256': 'f9c5fa1a40e55fb6fb6a2ca706f82bb300a3815fb6c8cea62adb23cbccfc9441', 'objects': 2225, 'scenes': 1, 'scenes_first': ['Empty'], 'protected_differences': [], 'protected_missing': [], 'bar_roots': []}
+previa02 {'name': 'previa02', 'sha256': '7c3930291dd1f7b1cc94e0d1803ebc43f3069951da3567cff2c570b6412cb144', 'objects': 2256, 'scenes': 25, 'scenes_first': ['IND07_bar', 'IND07_bar-detalhe', 'IND07_cozinha', 'IND07_cozinha-reversa', 'IND07_divisao-lazer-lavanderia', 'IND07_escada-acesso'], 'protected_differences': [], 'protected_missing': [], 'bar_roots': ['ATUAL Geladeira bar observada']}
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

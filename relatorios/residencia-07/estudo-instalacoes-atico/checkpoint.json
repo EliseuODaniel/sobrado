@@ -1,0 +1,47 @@
+{
+  "objective": "Colorir suavemente a estrutura; modelar instalações em 3D com paredes transparentes; propor ático com caixa dágua em projeto separado; refazer renders/atual com residência 07, alterações e móveis das fotos.",
+  "status": "COMPLETE_VISUAL_AND_DOCUMENTARY",
+  "scope": [
+    "Estrutura: quatro PNGs em renders/residencia-07/02-estrutura/3d",
+    "Redes: 16 novas vistas 3D, inclusive transparentes",
+    "Ático: projeto/residencia-07-atico e renders/residencia-07-atico",
+    "Atual: projeto/residencia-07-atual e refatoração integral de renders/atual; arquivar antigos com hashes"
+  ],
+  "decisions": [
+    "Preservar projeto/casa-07.blend original; novo modelo casa-07-instalacoes.blend para a estrutura colorida e redes",
+    "Caixa de 1000L confirmada em HID04, centro XY5.35,3.175 sobre escada; forma ilustrativa D1.80 H1.15",
+    "Proposta ático: piso5.4, cumeeira9.4 sem elevar; nova escada caracol no quarto frontal convertido em acesso, evitando caixa de água",
+    "Traçados 3D embutidos são estudo, alturas documentadas de ELE04 e HID05 transcritas",
+    "Estado atual usa móveis nativos AMB_ do projeto/casa-reconstruida.blend sem esticá-los; adaptar posição à base07; abrir fundo e cobrir/dividir lazer/lavanderia"
+  ],
+  "sources": [
+    "config/residencia-07-estudos.json",
+    "scripts/residence07_studies_data.py",
+    "referencias-originais",
+    "relatorios/referencias-originais/contato-01.jpg",
+    "relatorios/referencias-originais/contato-02.jpg",
+    "relatorios/referencias-originais/contato-04.jpg",
+    "relatorios/referencias-originais/contato-05.jpg"
+  ],
+  "unknowns": [
+    "Alturas e trajetos embutidos sem desenho 3D",
+    "Capacidade resistente, laje do ático, nova abertura e reforços",
+    "Dimensões exatas dos anexos e dos móveis nas fotos"
+  ],
+  "remaining": [],
+  "verification": "relatorios/residencia-07/estudo-instalacoes-atico/validacao-entrega.json",
+  "results": {
+    "images": {
+      "atual": 20,
+      "instalacoes": 20,
+      "atico": 48
+    },
+    "native_checks": {
+      "atual": 183,
+      "instalacoes": 210,
+      "atico": 251
+    },
+    "delivery_checks": 108,
+    "artifacts": 129
+  }
+}

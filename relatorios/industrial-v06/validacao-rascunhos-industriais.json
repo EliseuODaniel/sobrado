@@ -1,0 +1,202 @@
+{
+  "timestamp_utc": "2026-11-13T05:50:28.965646+00:00",
+  "all_passed": true,
+  "models": 11,
+  "previews": 37,
+  "checks": [
+    {
+      "name": "native historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v05/previa01.blend",
+      "passed": true
+    },
+    {
+      "name": "native historico/rascunhos/industrial-v05/previa02.blend",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/cozinha-reversa.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/quarto-escritorio.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/sala-frente.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada01/previas/sala-integrada.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/cozinha-reversa.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/quarto-escritorio.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/sala-frente.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v01/rodada02/previas/sala-integrada.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada01/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada01/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada01/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada01/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada02/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada02/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada02/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada02/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada03/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada03/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada03/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada03/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada04/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada04/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada04/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v02/rodada04/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada01/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada02/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada03/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada03/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada03/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada03/previas/sala-integrada.png",
+      "passed": true
+    },
+    {
+      "name": "image historico/rascunhos/industrial-v03/rodada03/previas/sala.png",
+      "passed": true
+    }
+  ],
+  "recovery_receipt": "rascunhos-industriais-sem-geladeira.json",
+  "scope": "Hashes dos 11 nativos, 37 imagens e resolução original. Recuperação das cenas do rascunho v05 descrita no recibo."
+}

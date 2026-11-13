@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "local_links": 22,
+  "checks": [
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "../../renders/atual/galeria.html",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "../../renders/atual/galeria.html",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "../../renders/atual/00-cadernos/caderno-atual.pdf",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "../../projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "../../renders/atual/galeria.html#comparacoes",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "validacao-nativa.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "entrega-validacao.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "navegador-validacao.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "revisao-visual-final.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "python-validacao.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "preservacao-modelos.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "../../PLANO-FOTORREALISMO.md",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "FIDELIDADE.md",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/RELATORIO.md",
+      "link": "PESQUISA-E-CRITERIOS.md",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/FIDELIDADE.md",
+      "link": "revisao-visual-final.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/FIDELIDADE.md",
+      "link": "revisao-refinamento/recorte-recibo.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/CONTINUAR.md",
+      "link": "RELATORIO.md",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/CONTINUAR.md",
+      "link": "checkpoint.json",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/CONTINUAR.md",
+      "link": "../../renders/atual/galeria.html",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/CONTINUAR.md",
+      "link": "../../renders/atual/00-cadernos/caderno-atual.pdf",
+      "exists": true
+    },
+    {
+      "document": "relatorios/atual-fiel-v02/CONTINUAR.md",
+      "link": "../../projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend",
+      "exists": true
+    },
+    {
+      "document": "projeto/residencia-07-atual-v02/LEIA-ME.md",
+      "link": "../../renders/atual/galeria.html",
+      "exists": true
+    }
+  ],
+  "timestamp_utc": "2026-11-13T14:42:47.363769+00:00"
+}

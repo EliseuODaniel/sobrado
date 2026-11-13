@@ -1,0 +1,44 @@
+{
+  "objective": "Corrigir a escada conforme montagem confirmada e atualizar todo o ático",
+  "status": "COMPLETE_VISUAL_AND_BROWSER_VERIFIED",
+  "confirmed": "Última instrução: ambos os lances exatamente sobre os existentes; mover a caixa permitido.",
+  "pending": null,
+  "obligations": [
+    "Dois lances novos com XY idêntico aos inferiores",
+    "Caixa movida 3,55 m em X, base Z mantida",
+    "Vão em L e folgas sob patamar/forro conferidos",
+    "Quartos superior frontal e posterior preservados",
+    "Modelo completo, desenhos, imagens e giro atualizados"
+  ],
+  "observed": [
+    "modelo.json",
+    "validacao-completa.json",
+    "validacao-entrega.json",
+    "validacao-navegador.json",
+    "testes.json",
+    "manifesto.json"
+  ],
+  "remaining": [],
+  "decision": "Novo acesso empilhado em U, caixa proposta em XY [1.80,3.175], base Z5.45 preservada.",
+  "resumed_utc": "2026-11-12T17:38:27.655041+00:00",
+  "verification": "validacao-entrega.json",
+  "results": {
+    "native_checks": 251,
+    "delivery_checks": 67,
+    "main_views": 18,
+    "isolated_views": 6,
+    "orbit_frames": 24,
+    "plans": 5,
+    "book_pages": 25
+  },
+  "template": {
+    "file": "scripts/templates/atico-escadas.html",
+    "sha256": "b333d02884f7de39f6fa9fa808962df2049acdb3b6d4c73c258cf622bc1f6320"
+  },
+  "browser_checks": 13,
+  "known_constraints": [
+    "Hall nominal de 65 cm herdado da base",
+    "Apoios/cargas da caixa e redes definitivas sem dimensionamento executivo"
+  ],
+  "maintenance": "Propostas anteriores excluídas a pedido do usuário; V05 independente de arquivos descartados."
+}

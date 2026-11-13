@@ -1,0 +1,12 @@
+[
+  {
+    "id": "hidraulica-terreo-transparente",
+    "scene": "INST_hidraulica-terreo-transparente",
+    "file": "relatorios/residencia-07/estudo-instalacoes-atico/previas/instalacoes/hidraulica-terreo-transparente.png",
+    "sha256": "67b38cb53d0d305a445ee979eabec425b26669eb47dede6c3a49feb17bd41229",
+    "source_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+    "blend_sha256": "48873ce82ee081e4ef0d278cd07494991e3e8bd1854f8875f426da295fcefb38",
+    "seconds": 2.7,
+    "preview": true
+  }
+]

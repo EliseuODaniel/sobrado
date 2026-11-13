@@ -1,0 +1,26 @@
+{
+  "objective": "Excluir propostas antigas de escada/caixa e preservar a v05 correta e funcional",
+  "status": "COMPLETE",
+  "keep": [
+    "v05 com lances sobrepostos e caixa lateral",
+    "modelos originais/atual/industrial",
+    "referências fornecidas pelo usuário"
+  ],
+  "remove": [
+    "propostas de ático anteriores e derivados da escada descartada",
+    "comparações da v05 que exibem a escada descartada",
+    "rascunhos e geradores exclusivos dessas propostas"
+  ],
+  "approved_blend": "projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend",
+  "approved_blend_sha256": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a",
+  "remaining": [],
+  "deleted_files": 327,
+  "deleted_bytes": 617055697,
+  "approved_model_unchanged": true,
+  "rebuild_objects": 1197,
+  "native_checks": 251,
+  "delivery_checks": 67,
+  "consolidated_checks": 108,
+  "unit_tests": 37,
+  "completed_utc": "2026-11-12T18:09:24.062772+00:00"
+}

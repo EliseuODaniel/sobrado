@@ -1,0 +1,13 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.253  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v05/casa-industrial-residencia07-atual.blend"
+PHOTO_ASSET potted_plant_02 [0.7011570334434509, 0.6573866009712219, 0.8411787152290344]
+PHOTO_ASSET potted_plant_04 [0.17027407884597778, 0.1859453022480011, 0.2675964832305908]
+/home/edann/projects/casa-interiores/scripts/industrial_photoreal.py:31: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new('PHOTO6 Mundo ' + lighting); w.use_nodes = True
+Info: Applied modifier was not first, result may not be as expected
+Info: Packed 10 file(s)
+Info: Saved as "casa-industrial-fotorrealista.building.blend"
+PHOTO6_BUILD_OK 31 scenes 795 protected 724 materials updated
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

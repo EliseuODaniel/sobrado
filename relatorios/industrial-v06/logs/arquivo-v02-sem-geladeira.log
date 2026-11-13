@@ -1,0 +1,20 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.263  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/fontes/casa-base-detalhada.blend"
+00:00.761  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.761  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:44.294  render           | Saved: '/home/edann/projects/casa-interiores/historico/estudos/industrial-v02/renders/industrial-v02/cozinha.png'
+ARCHIVE_BAR_UPDATED historico/estudos/industrial-v02/renders/industrial-v02/cozinha.png
+00:48.770  render           | Saved: '/home/edann/projects/casa-interiores/historico/estudos/industrial-v02/renders/industrial-v02/previas/cozinha.png'
+ARCHIVE_BAR_UPDATED historico/estudos/industrial-v02/renders/industrial-v02/previas/cozinha.png
+00:53.594  render           | Saved: '/home/edann/projects/casa-interiores/historico/estudos/industrial-v02/renders/industrial-v02/previas/lazer-fundos.png'
+ARCHIVE_BAR_UPDATED historico/estudos/industrial-v02/renders/industrial-v02/previas/lazer-fundos.png
+00:58.426  render           | Saved: '/home/edann/projects/casa-interiores/historico/estudos/industrial-v02/renders/industrial-v02/previas/quarto-fundos.png'
+ARCHIVE_BAR_UPDATED historico/estudos/industrial-v02/renders/industrial-v02/previas/quarto-fundos.png
+01:02.920  render           | Saved: '/home/edann/projects/casa-interiores/historico/estudos/industrial-v02/renders/industrial-v02/previas/sala.png'
+ARCHIVE_BAR_UPDATED historico/estudos/industrial-v02/renders/industrial-v02/previas/sala.png
+01:48.655  render           | Saved: '/home/edann/projects/casa-interiores/historico/estudos/industrial-v02/renders/industrial-v02/sala.png'
+ARCHIVE_BAR_UPDATED historico/estudos/industrial-v02/renders/industrial-v02/sala.png
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

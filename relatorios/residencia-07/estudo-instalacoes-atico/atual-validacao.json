@@ -1,0 +1,748 @@
+{
+  "timestamp_utc": "2026-11-12T13:14:12.252918+00:00",
+  "kind": "atual",
+  "blend_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+  "scope": "Geometria visual de estudo; não constitui levantamento presencial ou cálculo de engenharia.",
+  "checks": [
+    {
+      "name": "arquivo nativo salvo",
+      "passed": true
+    },
+    {
+      "name": "base 07 preservada",
+      "passed": true
+    },
+    {
+      "name": "configuração do estudo",
+      "passed": true
+    },
+    {
+      "name": "geradores registrados",
+      "passed": true
+    },
+    {
+      "name": "conjunto de cenas",
+      "passed": true
+    },
+    {
+      "name": "nenhuma biblioteca externa vinculada",
+      "passed": true
+    },
+    {
+      "name": "câmera planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "origem métrica planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "configuração planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "destino planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "resolução planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "sem override planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "unidade planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "câmera planta-superior",
+      "passed": true
+    },
+    {
+      "name": "origem métrica planta-superior",
+      "passed": true
+    },
+    {
+      "name": "configuração planta-superior",
+      "passed": true
+    },
+    {
+      "name": "destino planta-superior",
+      "passed": true
+    },
+    {
+      "name": "resolução planta-superior",
+      "passed": true
+    },
+    {
+      "name": "sem override planta-superior",
+      "passed": true
+    },
+    {
+      "name": "unidade planta-superior",
+      "passed": true
+    },
+    {
+      "name": "câmera terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "destino terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera superior-3d",
+      "passed": true
+    },
+    {
+      "name": "origem métrica superior-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração superior-3d",
+      "passed": true
+    },
+    {
+      "name": "destino superior-3d",
+      "passed": true
+    },
+    {
+      "name": "resolução superior-3d",
+      "passed": true
+    },
+    {
+      "name": "sem override superior-3d",
+      "passed": true
+    },
+    {
+      "name": "unidade superior-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "origem métrica sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "configuração sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "destino sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "resolução sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "sem override sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "unidade sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-frente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica sala-frente",
+      "passed": true
+    },
+    {
+      "name": "configuração sala-frente",
+      "passed": true
+    },
+    {
+      "name": "destino sala-frente",
+      "passed": true
+    },
+    {
+      "name": "resolução sala-frente",
+      "passed": true
+    },
+    {
+      "name": "sem override sala-frente",
+      "passed": true
+    },
+    {
+      "name": "unidade sala-frente",
+      "passed": true
+    },
+    {
+      "name": "câmera cozinha",
+      "passed": true
+    },
+    {
+      "name": "origem métrica cozinha",
+      "passed": true
+    },
+    {
+      "name": "configuração cozinha",
+      "passed": true
+    },
+    {
+      "name": "destino cozinha",
+      "passed": true
+    },
+    {
+      "name": "resolução cozinha",
+      "passed": true
+    },
+    {
+      "name": "sem override cozinha",
+      "passed": true
+    },
+    {
+      "name": "unidade cozinha",
+      "passed": true
+    },
+    {
+      "name": "câmera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "origem métrica cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "configuração cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "destino cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "resolução cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "sem override cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "unidade cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "câmera bar",
+      "passed": true
+    },
+    {
+      "name": "origem métrica bar",
+      "passed": true
+    },
+    {
+      "name": "configuração bar",
+      "passed": true
+    },
+    {
+      "name": "destino bar",
+      "passed": true
+    },
+    {
+      "name": "resolução bar",
+      "passed": true
+    },
+    {
+      "name": "sem override bar",
+      "passed": true
+    },
+    {
+      "name": "unidade bar",
+      "passed": true
+    },
+    {
+      "name": "câmera lavanderia",
+      "passed": true
+    },
+    {
+      "name": "origem métrica lavanderia",
+      "passed": true
+    },
+    {
+      "name": "configuração lavanderia",
+      "passed": true
+    },
+    {
+      "name": "destino lavanderia",
+      "passed": true
+    },
+    {
+      "name": "resolução lavanderia",
+      "passed": true
+    },
+    {
+      "name": "sem override lavanderia",
+      "passed": true
+    },
+    {
+      "name": "unidade lavanderia",
+      "passed": true
+    },
+    {
+      "name": "câmera fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "origem métrica fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "configuração fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "destino fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "resolução fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "sem override fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "unidade fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "câmera divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "origem métrica divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "configuração divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "destino divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "resolução divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "sem override divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "unidade divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "câmera escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "origem métrica escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "configuração escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "destino escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "resolução escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "sem override escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "unidade escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "câmera escada-superior",
+      "passed": true
+    },
+    {
+      "name": "origem métrica escada-superior",
+      "passed": true
+    },
+    {
+      "name": "configuração escada-superior",
+      "passed": true
+    },
+    {
+      "name": "destino escada-superior",
+      "passed": true
+    },
+    {
+      "name": "resolução escada-superior",
+      "passed": true
+    },
+    {
+      "name": "sem override escada-superior",
+      "passed": true
+    },
+    {
+      "name": "unidade escada-superior",
+      "passed": true
+    },
+    {
+      "name": "câmera lavabo",
+      "passed": true
+    },
+    {
+      "name": "origem métrica lavabo",
+      "passed": true
+    },
+    {
+      "name": "configuração lavabo",
+      "passed": true
+    },
+    {
+      "name": "destino lavabo",
+      "passed": true
+    },
+    {
+      "name": "resolução lavabo",
+      "passed": true
+    },
+    {
+      "name": "sem override lavabo",
+      "passed": true
+    },
+    {
+      "name": "unidade lavabo",
+      "passed": true
+    },
+    {
+      "name": "câmera suite",
+      "passed": true
+    },
+    {
+      "name": "origem métrica suite",
+      "passed": true
+    },
+    {
+      "name": "configuração suite",
+      "passed": true
+    },
+    {
+      "name": "destino suite",
+      "passed": true
+    },
+    {
+      "name": "resolução suite",
+      "passed": true
+    },
+    {
+      "name": "sem override suite",
+      "passed": true
+    },
+    {
+      "name": "unidade suite",
+      "passed": true
+    },
+    {
+      "name": "câmera quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "origem métrica quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "configuração quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "destino quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "resolução quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "sem override quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "unidade quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "câmera quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "origem métrica quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "configuração quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "destino quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "resolução quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "sem override quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "unidade quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "origem métrica fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "configuração fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "destino fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "resolução fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "sem override fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "unidade fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "câmera volumetria",
+      "passed": true
+    },
+    {
+      "name": "origem métrica volumetria",
+      "passed": true
+    },
+    {
+      "name": "configuração volumetria",
+      "passed": true
+    },
+    {
+      "name": "destino volumetria",
+      "passed": true
+    },
+    {
+      "name": "resolução volumetria",
+      "passed": true
+    },
+    {
+      "name": "sem override volumetria",
+      "passed": true
+    },
+    {
+      "name": "unidade volumetria",
+      "passed": true
+    },
+    {
+      "name": "vértices das cópias preservados",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "cópias efetivamente comparadas",
+      "passed": true,
+      "details": 22
+    },
+    {
+      "name": "cópias da base comparadas independentemente",
+      "passed": true,
+      "details": {
+        "external": 22,
+        "local_proposal_copies": 0
+      }
+    },
+    {
+      "name": "20 vistas do estado atual",
+      "passed": true
+    },
+    {
+      "name": "parede dos fundos retirada",
+      "passed": true
+    },
+    {
+      "name": "esquadria retirada da abertura",
+      "passed": true
+    },
+    {
+      "name": "cobertura posterior em dois panos",
+      "passed": true
+    },
+    {
+      "name": "divisão com porta de vidro",
+      "passed": true
+    },
+    {
+      "name": "oito conjuntos de móveis das fotos",
+      "passed": true
+    },
+    {
+      "name": "origem dos móveis preservada",
+      "passed": true
+    },
+    {
+      "name": "móveis importados editáveis",
+      "passed": true
+    },
+    {
+      "name": "sem coleção industrial",
+      "passed": true
+    },
+    {
+      "name": "sem teto coincidente com laje superior",
+      "passed": true
+    },
+    {
+      "name": "escada visível em ATUAL_planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "escada visível em ATUAL_terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "louças dentro do lavabo",
+      "passed": true
+    },
+    {
+      "name": "conjunto exato de imagens",
+      "passed": true
+    },
+    {
+      "name": "imagem salva planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "imagem salva planta-superior",
+      "passed": true
+    },
+    {
+      "name": "imagem salva terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "imagem salva superior-3d",
+      "passed": true
+    },
+    {
+      "name": "imagem salva sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "imagem salva sala-frente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva cozinha",
+      "passed": true
+    },
+    {
+      "name": "imagem salva cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "imagem salva bar",
+      "passed": true
+    },
+    {
+      "name": "imagem salva lavanderia",
+      "passed": true
+    },
+    {
+      "name": "imagem salva fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "imagem salva divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "imagem salva escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "imagem salva escada-superior",
+      "passed": true
+    },
+    {
+      "name": "imagem salva lavabo",
+      "passed": true
+    },
+    {
+      "name": "imagem salva suite",
+      "passed": true
+    },
+    {
+      "name": "imagem salva quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "imagem salva quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "imagem salva fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "imagem salva volumetria",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "renders_required": true
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1700" viewBox="0 0 1400 1700">
+<rect width="1400" height="1700" fill="#faf8f3"/>
+<text x="75" y="80" fill="#9c6238" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">CASA / 07</text>
+<text x="75" y="143" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="48" font-weight="bold" text-anchor="start">Base estrutural · térreo</text>
+<text x="75" y="185" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Paredes, laje, vãos e escada da arquitetura · sem mobiliário</text>
+<polyline points="75.00,218.00 1325.00,218.00" fill="none" stroke="#c7c9bf" stroke-width="1"/>
+<polygon points="350.00,1160.00 350.00,675.50 362.75,675.50 362.75,1160.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="356.38,1147.25 413.75,1147.25 413.75,1160.00 356.38,1160.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="541.25,1147.25 577.80,1147.25 577.80,1160.00 541.25,1160.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="573.29,1149.12 576.60,1145.81 585.61,1154.83 582.31,1158.13" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="624.68,1097.73 628.12,1094.29 637.13,1103.31 633.70,1106.74" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="626.25,1098.80 626.25,983.62 639.00,983.62 639.00,1098.80" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="632.62,977.25 738.88,977.25 738.88,990.00 632.62,990.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="738.88,977.25 789.88,977.25 789.88,990.00 738.88,990.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="789.88,977.25 881.25,977.25 881.25,990.00 789.88,990.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="881.25,1160.00 881.25,548.00 889.75,548.00 889.75,1160.00" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="356.38,675.50 435.00,675.50 435.00,688.25 356.38,688.25" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="562.50,675.50 636.88,675.50 636.88,688.25 562.50,688.25" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="630.50,681.88 630.50,554.38 643.25,554.38 643.25,681.88" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="636.88,548.00 687.02,548.00 687.02,560.75 636.88,560.75" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="814.52,548.00 881.25,548.00 881.25,560.75 814.52,560.75" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="698.50,794.50 881.25,794.50 881.25,807.25 698.50,807.25" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="660.25,983.62 660.25,975.12 673.00,975.12 673.00,983.62" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="660.25,924.12 660.25,890.12 673.00,890.12 673.00,924.12" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="666.62,883.75 804.75,883.75 804.75,896.50 666.62,896.50" fill="#48554b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="698.50,883.75 719.75,883.75 719.75,807.25 698.50,807.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="719.75,883.75 741.00,883.75 741.00,807.25 719.75,807.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="741.00,883.75 762.25,883.75 762.25,807.25 741.00,807.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="762.25,883.75 783.50,883.75 783.50,807.25 762.25,807.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="783.50,883.75 804.75,883.75 804.75,807.25 783.50,807.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="804.75,892.25 804.75,807.25 853.82,807.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="804.75,892.25 853.82,807.25 881.25,807.25 881.25,848.08" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="804.75,892.25 881.25,848.08 881.25,892.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="804.75,892.25 881.25,892.25 881.25,936.42" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="804.75,892.25 881.25,936.42 881.25,977.25 853.82,977.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="804.75,892.25 853.82,977.25 804.75,977.25" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="783.50,977.25 804.75,977.25 804.75,900.75 783.50,900.75" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="762.25,977.25 783.50,977.25 783.50,900.75 762.25,900.75" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="741.00,977.25 762.25,977.25 762.25,900.75 741.00,900.75" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="719.75,977.25 741.00,977.25 741.00,900.75 719.75,900.75" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polygon points="698.50,977.25 719.75,977.25 719.75,900.75 698.50,900.75" fill="none" stroke="#92998d" stroke-width="0.8" stroke-linejoin="round"/>
+<polyline points="350.00,1160.00 573.55,1160.00 639.00,1094.55 639.00,990.00 889.75,990.00 889.75,548.00 630.50,548.00 630.50,675.50 350.00,675.50 350.00,1160.00" fill="none" stroke="#9a7150" stroke-width="1.2" stroke-dasharray="7 4"/>
+<text x="490.25" y="917.75" fill="#737c71" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">ESTAR / JANTAR</text>
+<text x="766.5" y="679.75" fill="#737c71" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">COZINHA</text>
+<text x="758.0" y="1083.5" fill="#737c71" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">GARAGEM</text>
+<text x="753.75" y="939.0" fill="#737c71" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="middle">LAVABO</text>
+<polyline points="350.00,1160.00 350.00,1233.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="889.75,1160.00 889.75,1233.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="350.00,1225.00 889.75,1225.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="346.00,1231.00 354.00,1219.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="885.75,1231.00 893.75,1219.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="619.875" y="1215" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">6,35 m · eixo da geminação</text>
+<polyline points="350.00,1160.00 152.00,1160.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="350.00,675.50 152.00,675.50" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="160.00,1160.00 160.00,675.50" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="154.00,1164.00 166.00,1156.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="154.00,679.50 166.00,671.50" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="150" y="917.75" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle" transform="rotate(-90 150 917.75)">5,70 m</text>
+<polyline points="889.75,1160.00 951.75,1160.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="889.75,548.00 951.75,548.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="959.75,1160.00 959.75,548.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="953.75,1164.00 965.75,1156.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="953.75,552.00 965.75,544.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="949.75" y="854.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle" transform="rotate(-90 949.75 854.0)">7,20 m</text>
+<polyline points="643.25,548.00 643.25,521.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="881.25,548.00 881.25,521.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="643.25,513.00 881.25,513.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="639.25,519.00 647.25,507.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="877.25,519.00 885.25,507.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="762.25" y="503.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle">2,80 m</text>
+<polyline points="350.00,675.50 92.00,675.50" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="350.00,548.00 92.00,548.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="100.00,675.50 100.00,548.00" fill="none" stroke="#879088" stroke-width="1"/>
+<polyline points="94.00,679.50 106.00,671.50" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<polyline points="94.00,552.00 106.00,544.00" fill="none" stroke="#4a574e" stroke-width="1.5"/>
+<text x="90" y="611.75" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="middle" transform="rotate(-90 90 611.75)">1,50 m</text>
+<text x="75" y="285" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="bold" text-anchor="start">NÍVEIS</text>
+<text x="75" y="320" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Piso: 0,00 m</text>
+<text x="75" y="353" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Pé-direito: 2,55 m</text>
+<text x="75" y="386" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Laje: 0,15 m</text>
+<text x="75" y="419" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Paredes: 0,15 m*</text>
+<text x="75" y="452" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Geminada: 0,20 m</text>
+<text x="75" y="490" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="start">* espessura arquitetônica</text>
+<text x="75" y="518" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="normal" text-anchor="start">Função resistente não informada.</text>
+<text x="75" y="1350" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="normal" text-anchor="start">Elementos indicados no projeto arquitetônico; não classifica paredes como portantes.</text>
+<text x="75" y="1377" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="normal" text-anchor="start">Fundações, armaduras e seções de vigas/pilares: não fornecidas.</text>
+<text x="75" y="1404" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="normal" text-anchor="start">A planta sem mobiliário está cotada; o cálculo estrutural permanece não informado.</text>
+<polyline points="75.00,1480.00 1325.00,1480.00" fill="none" stroke="#c7c9bf" stroke-width="1"/>
+<text x="75" y="1520" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="bold" text-anchor="start">RESIDÊNCIA 07 · PRANCHAS TÉCNICAS SEM MOBILIÁRIO</text>
+<text x="75" y="1556" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Cotas em metros. Símbolos e especificações: consultar os originais anexos.</text>
+<text x="75" y="1590" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Projeto fornecido de 2011 · situação construída não levantada.</text>
+<text x="1315" y="1625" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="normal" text-anchor="end">E01</text>
+</svg>

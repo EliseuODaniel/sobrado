@@ -1,0 +1,39 @@
+{
+  "input_sha256": "bb909f29a010608bf77eaaedb0342db7dad998e8ee8916e35d9484c4236555e3",
+  "camera": "bar-dia",
+  "resolution": [
+    3840,
+    2880
+  ],
+  "max_samples": 512,
+  "cuda_render_seconds": 451.19,
+  "windows_optix_render_seconds": 314.8,
+  "process_receipts": [
+    {
+      "id": "bar-dia",
+      "blend_sha256": "bb909f29a010608bf77eaaedb0342db7dad998e8ee8916e35d9484c4236555e3",
+      "preview": false,
+      "seconds_process": 452.97,
+      "baseline_gpu_MiB": 46,
+      "peak_global_gpu_MiB": 4061,
+      "samples_of_gpu_memory": 110,
+      "note": "Memória global da GPU, inclui outros processos; amostragem a cada ~4s, não pico exato do Blender.",
+      "exit_code": 0,
+      "log": "relatorios/industrial-v06/logs/bar-dia.log"
+    },
+    {
+      "id": "bar-dia",
+      "blend_sha256": "bb909f29a010608bf77eaaedb0342db7dad998e8ee8916e35d9484c4236555e3",
+      "backend": "OPTIX",
+      "preview": false,
+      "seconds_process": 325.04,
+      "baseline_gpu_MiB": 46,
+      "peak_global_gpu_MiB": 4063,
+      "samples_of_gpu_memory": 77,
+      "note": "Memória global da GPU; inclui Windows e outros processos. Amostrada a cada ~4 segundos.",
+      "exit_code": 0,
+      "log": "relatorios/industrial-v06/logs/bar-dia-optix.log"
+    }
+  ],
+  "scope": "Comparação operacional do mesmo arquivo/câmera/configuração; plataformas e versões menores do Blender diferem. O modelo de teste foi depois substituído pela revisão sem geladeira no bar. Não é uma comparação com Unreal."
+}

@@ -1,0 +1,16 @@
+{
+  "source_blend_sha256": "839e7719076a9b4f7ff0a9f9703674b3791b7245b2b56058e60cbac51c4e8665",
+  "reference_frame": [
+    3840,
+    2880
+  ],
+  "normalized_border": [
+    0,
+    0.35,
+    0.02,
+    0.56
+  ],
+  "samples": 128,
+  "seconds": 27.594563771999674,
+  "scope": "Recorte de diagnóstico na densidade do quadro 4K; não representa a imagem final de 512 amostras."
+}

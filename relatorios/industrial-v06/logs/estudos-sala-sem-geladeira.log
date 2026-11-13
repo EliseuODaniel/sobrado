@@ -1,0 +1,13 @@
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.469  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/ate-revisao05/projeto/sala-industrial.blend"
+00:00.794  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/ate-revisao05/projeto/versoes/sala-industrial-preview-20261110T094533Z.blend"
+00:01.032  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/ate-revisao05/projeto/versoes/sala-industrial-preview-20261110T095320Z.blend"
+00:01.252  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/ate-revisao05/projeto/versoes/sala-industrial-v01-antes-ajuste-manta.blend"
+00:01.488  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/ate-revisao05/projeto/versoes/sala-industrial-v02-antes-ajuste-reflexo.blend"
+00:01.721  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/ate-revisao05/projeto/versoes/sala-industrial-v03-antes-sapatas.blend"
+00:02.029  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/fontes/mobiliario-industrial.blend"
+Warning: Library file, loading empty scene
+LEGACY_LIVING_STUDIES_VERIFIED 7
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

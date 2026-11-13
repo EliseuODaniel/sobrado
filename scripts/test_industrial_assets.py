@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from scripts import fetch_industrial_v04_assets as assets
+from scripts import fetch_industrial_assets as assets
 
 
 class AssetDownloadTest(unittest.TestCase):

@@ -1,0 +1,232 @@
+{
+  "timestamp_utc": "2026-11-13T00:44:52.927182+00:00",
+  "checks": [
+    {
+      "name": "modelo reaberto e imagens conferidos",
+      "passed": true
+    },
+    {
+      "name": "conjunto exato de 25 imagens",
+      "passed": true
+    },
+    {
+      "name": "hash planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "PNG planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "hash planta-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG planta-superior",
+      "passed": true
+    },
+    {
+      "name": "hash terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "hash superior-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG superior-3d",
+      "passed": true
+    },
+    {
+      "name": "hash sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "hash sala-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG sala-frente",
+      "passed": true
+    },
+    {
+      "name": "hash cozinha",
+      "passed": true
+    },
+    {
+      "name": "PNG cozinha",
+      "passed": true
+    },
+    {
+      "name": "hash cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "PNG cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "hash bar",
+      "passed": true
+    },
+    {
+      "name": "PNG bar",
+      "passed": true
+    },
+    {
+      "name": "hash lavanderia",
+      "passed": true
+    },
+    {
+      "name": "PNG lavanderia",
+      "passed": true
+    },
+    {
+      "name": "hash fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "PNG fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "hash divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "PNG divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "hash escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "hash escada-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG escada-superior",
+      "passed": true
+    },
+    {
+      "name": "hash lavabo",
+      "passed": true
+    },
+    {
+      "name": "PNG lavabo",
+      "passed": true
+    },
+    {
+      "name": "hash suite",
+      "passed": true
+    },
+    {
+      "name": "PNG suite",
+      "passed": true
+    },
+    {
+      "name": "hash quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "hash quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "hash fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "PNG fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "hash volumetria",
+      "passed": true
+    },
+    {
+      "name": "PNG volumetria",
+      "passed": true
+    },
+    {
+      "name": "hash sala-tv",
+      "passed": true
+    },
+    {
+      "name": "PNG sala-tv",
+      "passed": true
+    },
+    {
+      "name": "hash mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "PNG mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "hash bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "PNG bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "hash escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "PNG escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "hash escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "PNG escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "35 páginas do caderno",
+      "passed": true
+    },
+    {
+      "name": "links LEIA-ME.md",
+      "passed": true
+    },
+    {
+      "name": "links galeria.html",
+      "passed": true
+    },
+    {
+      "name": "fontes oficiais preservadas",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "native_checks": 224,
+  "scope": "Arquitetura atual preservada, proposta de interiores, imagens e documentos locais. Galeria HTML validada estaticamente."
+}

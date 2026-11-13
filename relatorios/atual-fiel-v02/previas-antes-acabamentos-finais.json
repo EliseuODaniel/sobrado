@@ -1,0 +1,522 @@
+[
+  {
+    "id": "sala-foto",
+    "file": "relatorios/atual-fiel-v02/previas/sala-foto.png",
+    "sha256": "926a5205f9c42add7c16868090d587a650e42a1c3325c1a2ef5afc7233ccb538",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.99,
+    "timestamp_utc": "2026-11-13T09:22:42.185988+00:00"
+  },
+  {
+    "id": "cozinha",
+    "file": "relatorios/atual-fiel-v02/previas/cozinha.png",
+    "sha256": "be5b121aae6f1611a30ae7efb375b9cc1736250d657309234efa04455482298d",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 11.62,
+    "timestamp_utc": "2026-11-13T09:22:57.947252+00:00"
+  },
+  {
+    "id": "bar",
+    "file": "relatorios/atual-fiel-v02/previas/bar.png",
+    "sha256": "36c143f1df1de24d7046fa88ef790b0db27848e6634a230dbcad06dec829f3ce",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.26,
+    "timestamp_utc": "2026-11-13T09:23:15.425056+00:00"
+  },
+  {
+    "id": "suite",
+    "file": "relatorios/atual-fiel-v02/previas/suite.png",
+    "sha256": "16fb4c742649dfa2606ae5dc7f62346f2f9c6ff8c0c63ca1a5dbffe1f1a8dc86",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 11.65,
+    "timestamp_utc": "2026-11-13T09:23:31.720704+00:00"
+  },
+  {
+    "id": "quarto-frente",
+    "file": "relatorios/atual-fiel-v02/previas/quarto-frente.png",
+    "sha256": "5898daa75a6403603790ba00bb4b0895cf857e9a5f14daf7d77af8979fbb7c71",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.06,
+    "timestamp_utc": "2026-11-13T09:23:49.189357+00:00"
+  },
+  {
+    "id": "quarto-fundos",
+    "file": "relatorios/atual-fiel-v02/previas/quarto-fundos.png",
+    "sha256": "4aa70bf4929c9e11461017cad0550e6458bcb85c59c31842c4d8ecf952f57ce6",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 12.32,
+    "timestamp_utc": "2026-11-13T09:24:06.042329+00:00"
+  },
+  {
+    "id": "lavanderia",
+    "file": "relatorios/atual-fiel-v02/previas/lavanderia.png",
+    "sha256": "3443bb646f2bfd3884bfc0469afeef863664194b917555bdaa2c24dd46af3c64",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.55,
+    "timestamp_utc": "2026-11-13T09:24:24.293789+00:00"
+  },
+  {
+    "id": "banheiro-social",
+    "file": "relatorios/atual-fiel-v02/previas/banheiro-social.png",
+    "sha256": "86636f69c5c47d0906ecfeb57a21da6c6e64958459112ea315c4e8c0508392cd",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.84,
+    "timestamp_utc": "2026-11-13T09:24:42.841335+00:00"
+  },
+  {
+    "id": "planta-terreo",
+    "file": "relatorios/atual-fiel-v02/previas/planta-terreo.png",
+    "sha256": "4887160d38c925c5f2fd4b8ad47c657ea740cd78c1ae0f6407b67c5fee6dc232",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 7.55,
+    "timestamp_utc": "2026-11-13T09:24:55.111966+00:00"
+  },
+  {
+    "id": "planta-superior",
+    "file": "relatorios/atual-fiel-v02/previas/planta-superior.png",
+    "sha256": "45083406f700c7e53ef2a729a75f4ee7b62a920be4dcd76222798278002e59bf",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 5.57,
+    "timestamp_utc": "2026-11-13T09:25:05.328918+00:00"
+  },
+  {
+    "id": "terreo-3d",
+    "file": "relatorios/atual-fiel-v02/previas/terreo-3d.png",
+    "sha256": "cff390b7362f807f787fe39916d674e8dae88a34d07dbee378418e4b930a0f6d",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 7.15,
+    "timestamp_utc": "2026-11-13T09:25:17.207677+00:00"
+  },
+  {
+    "id": "superior-3d",
+    "file": "relatorios/atual-fiel-v02/previas/superior-3d.png",
+    "sha256": "fbacaebcc80d29339cf431ec115ada4123f69fdee46c3e6edad8eb868f12a060",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 6.05,
+    "timestamp_utc": "2026-11-13T09:25:27.515808+00:00"
+  },
+  {
+    "id": "sala-fundos",
+    "file": "relatorios/atual-fiel-v02/previas/sala-fundos.png",
+    "sha256": "86f24642fba3013bdc81c26eac1cf5d0330440a922cfdfd2a4224f3de60a4383",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.14,
+    "timestamp_utc": "2026-11-13T09:25:44.940735+00:00"
+  },
+  {
+    "id": "sala-frente",
+    "file": "relatorios/atual-fiel-v02/previas/sala-frente.png",
+    "sha256": "d94c9e45eb26d1c383a6c42645e66788c697f5faaa3f244a69c2cc5505ec8c8d",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.47,
+    "timestamp_utc": "2026-11-13T09:26:02.851614+00:00"
+  },
+  {
+    "id": "cozinha-reversa",
+    "file": "relatorios/atual-fiel-v02/previas/cozinha-reversa.png",
+    "sha256": "408ff0c569739c7ce07ed2f2f42dbdba969969e70458560fb2e755bc00eb9479",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 12.91,
+    "timestamp_utc": "2026-11-13T09:26:20.215922+00:00"
+  },
+  {
+    "id": "fundos-abertos",
+    "file": "relatorios/atual-fiel-v02/previas/fundos-abertos.png",
+    "sha256": "aa455be0fbcc43f6970f03f16545b97369467ef9e4961d8b347994d8c7e5ea9d",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 12.71,
+    "timestamp_utc": "2026-11-13T09:26:37.404393+00:00"
+  },
+  {
+    "id": "divisao-lazer-lavanderia",
+    "file": "relatorios/atual-fiel-v02/previas/divisao-lazer-lavanderia.png",
+    "sha256": "9f4c39b121c999d20a352754b8a5a009486892567f8739bde65e496ff77502b6",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 12.51,
+    "timestamp_utc": "2026-11-13T09:26:54.438118+00:00"
+  },
+  {
+    "id": "escada-acesso",
+    "file": "relatorios/atual-fiel-v02/previas/escada-acesso.png",
+    "sha256": "7c2a358443fcc4e5536cb79fe753f46facc4535eca3930729e660b39d97129f2",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 14.28,
+    "timestamp_utc": "2026-11-13T09:27:13.193990+00:00"
+  },
+  {
+    "id": "escada-superior",
+    "file": "relatorios/atual-fiel-v02/previas/escada-superior.png",
+    "sha256": "52ebecdf116b9b9c092a2a0a16445d2d62d31061532ba5c227aeafc6060a06f4",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 12.96,
+    "timestamp_utc": "2026-11-13T09:27:30.655252+00:00"
+  },
+  {
+    "id": "lavabo",
+    "file": "relatorios/atual-fiel-v02/previas/lavabo.png",
+    "sha256": "ddb0bd76037212e9c43ee076a15854021da3f15d1c11c74e545f99021cdd45f6",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 14.03,
+    "timestamp_utc": "2026-11-13T09:27:49.100850+00:00"
+  },
+  {
+    "id": "fachada-frontal",
+    "file": "relatorios/atual-fiel-v02/previas/fachada-frontal.png",
+    "sha256": "33ea4ca2385aa433f3cc4cc30165c021fd3a26e7209ad59a96bd381c174f7379",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 10.87,
+    "timestamp_utc": "2026-11-13T09:28:04.440210+00:00"
+  },
+  {
+    "id": "volumetria",
+    "file": "relatorios/atual-fiel-v02/previas/volumetria.png",
+    "sha256": "7b80acc926c18915b2ff6978f30efd1e752e1c10a3ee0cd86ce8657f3d3d2875",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 9.88,
+    "timestamp_utc": "2026-11-13T09:28:18.874542+00:00"
+  },
+  {
+    "id": "suite-reversa",
+    "file": "relatorios/atual-fiel-v02/previas/suite-reversa.png",
+    "sha256": "7018d8451bf938015d321e8d831d1625683b72528f50a73e2dfdba08d6e2b577",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 10.7,
+    "timestamp_utc": "2026-11-13T09:28:33.964672+00:00"
+  },
+  {
+    "id": "quarto-azul-bancada",
+    "file": "relatorios/atual-fiel-v02/previas/quarto-azul-bancada.png",
+    "sha256": "d7045f9217382f7da31fbbb6e9d20c490e5230ff7bdff01416624b54a613c936",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 11.36,
+    "timestamp_utc": "2026-11-13T09:28:49.673859+00:00"
+  },
+  {
+    "id": "quarto-branco-armario",
+    "file": "relatorios/atual-fiel-v02/previas/quarto-branco-armario.png",
+    "sha256": "7fcb9945773b9ff1ffcc7b23683241b55de9dbaa46a051de2c81936a525e334b",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 12.98,
+    "timestamp_utc": "2026-11-13T09:29:07.037637+00:00"
+  },
+  {
+    "id": "banheiro-suite",
+    "file": "relatorios/atual-fiel-v02/previas/banheiro-suite.png",
+    "sha256": "8b312c04d9156a3f4da47eb8b2bd155616341167a105df3e8c0e30866590a36c",
+    "blend_sha256": "bff938a70143718ac2c5d841e212b442a1d67c0b0f4970b9c49f77eb71d4c236",
+    "config_sha256": "88c6035bd34f22f4cf85506ed614b7fb4bf7dc5f9a50e97321683e2875758bbf",
+    "backend": "OPTIX",
+    "render_script_sha256": "8975e39a7382b749fd9cd553b5b3325ca8e56b528b17d05f8801153b37c306b5",
+    "blender_version": "5.2.3 LTS",
+    "platform": "Windows native",
+    "preview": true,
+    "resolution": [
+      1267,
+      950
+    ],
+    "samples": 64,
+    "adaptive_threshold": 0.03500000014901161,
+    "seconds": 13.41,
+    "timestamp_utc": "2026-11-13T09:29:24.911699+00:00"
+  }
+]

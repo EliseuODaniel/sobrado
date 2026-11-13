@@ -1,0 +1,37 @@
+test_default_preserves_environment_and_arguments (test_blender_launcher.BlenderLauncherTest.test_default_preserves_environment_and_arguments) ... ok
+test_forwards_failure_status (test_blender_launcher.BlenderLauncherTest.test_forwards_failure_status) ... ok
+test_wsl_driver_applies_only_to_child_and_preserves_script_arguments (test_blender_launcher.BlenderLauncherTest.test_wsl_driver_applies_only_to_child_and_preserves_script_arguments) ... ok
+test_bad_upstream_hash_does_not_create_a_model (test_industrial_assets.AssetDownloadTest.test_bad_upstream_hash_does_not_create_a_model) ... ok
+test_changed_local_file_is_preserved_and_rejected (test_industrial_assets.AssetDownloadTest.test_changed_local_file_is_preserved_and_rejected) ... ASSET_VERIFIED modern_arm_chair_01
+ASSET_VERIFIED potted_plant_02
+ASSET_VERIFIED calathea_orbifolia_01
+ASSET_VERIFIED slate_floor_03
+ok
+test_untrusted_endpoint_is_rejected_before_network (test_industrial_assets.AssetDownloadTest.test_untrusted_endpoint_is_rejected_before_network) ... ok
+test_verified_files_are_reused_without_download_or_rewrite (test_industrial_assets.AssetDownloadTest.test_verified_files_are_reused_without_download_or_rewrite) ... ASSET_VERIFIED modern_arm_chair_01
+ASSET_VERIFIED potted_plant_02
+ASSET_VERIFIED calathea_orbifolia_01
+ASSET_VERIFIED slate_floor_03
+ASSET_VERIFIED modern_arm_chair_01
+ASSET_VERIFIED potted_plant_02
+ASSET_VERIFIED calathea_orbifolia_01
+ASSET_VERIFIED slate_floor_03
+ok
+test_all_cameras_have_distinct_organized_destinations (test_residence07.Residence07Tests.test_all_cameras_have_distinct_organized_destinations) ... ok
+test_diagonal_has_true_metric_width (test_residence07.Residence07Tests.test_diagonal_has_true_metric_width) ... ok
+test_door_and_window_openings_have_no_solid (test_residence07.Residence07Tests.test_door_and_window_openings_have_no_solid) ... ok
+test_gross_footprints_match_source_area_schedule (test_residence07.Residence07Tests.test_gross_footprints_match_source_area_schedule) ... ok
+test_new_artifact_needs_explicit_category (test_residence07.Residence07Tests.test_new_artifact_needs_explicit_category) ... ok
+test_outline_is_stepped (test_residence07.Residence07Tests.test_outline_is_stepped) ... ok
+test_previews_are_separate (test_residence07.Residence07Tests.test_previews_are_separate) ... ok
+test_reject_opening_outside_wall (test_residence07.Residence07Tests.test_reject_opening_outside_wall) ... ok
+test_reject_other_unit (test_residence07.Residence07Tests.test_reject_other_unit) ... ok
+test_reject_overlapping_openings (test_residence07.Residence07Tests.test_reject_overlapping_openings) ... ok
+test_reject_unclosed_vertical_levels (test_residence07.Residence07Tests.test_reject_unclosed_vertical_levels) ... ok
+test_structural_3d_has_own_folder (test_residence07.Residence07Tests.test_structural_3d_has_own_folder) ... ok
+test_winders_fill_the_turn (test_residence07.Residence07Tests.test_winders_fill_the_turn) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.419s
+
+OK

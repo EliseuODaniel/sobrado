@@ -1,0 +1,1339 @@
+{
+  "timestamp_utc": "2026-11-12T04:03:04.356826+00:00",
+  "scope": "modelo Blender salvo e referências PDF; imagens se --require-renders",
+  "unit": "07",
+  "blender_version": "5.2.4 LTS",
+  "blend_sha256": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+  "checked_wall_solids": 65,
+  "source_anchors": [
+    {
+      "anchor": "fundos sala",
+      "level": 0,
+      "expected_m": 5.7,
+      "pdf_m": 5.7013,
+      "error_m": 0.0013
+    },
+    {
+      "anchor": "fundos cozinha",
+      "level": 0,
+      "expected_m": 7.2,
+      "pdf_m": 7.2013,
+      "error_m": 0.0013
+    },
+    {
+      "anchor": "frente superior",
+      "level": 1,
+      "expected_m": -1.2,
+      "pdf_m": -1.1992,
+      "error_m": 0.0008
+    },
+    {
+      "anchor": "fundos banheiros",
+      "level": 1,
+      "expected_m": 6.5,
+      "pdf_m": 6.5021,
+      "error_m": 0.0021
+    },
+    {
+      "anchor": "fundos quarto",
+      "level": 1,
+      "expected_m": 7.2,
+      "pdf_m": 7.2013,
+      "error_m": 0.0013
+    },
+    {
+      "anchor": "face oeste",
+      "level": 0,
+      "expected_m": 0,
+      "pdf_m": -0.0,
+      "error_m": 0.0
+    },
+    {
+      "anchor": "face interna geminada",
+      "level": 0,
+      "expected_m": 6.25,
+      "pdf_m": 6.25,
+      "error_m": 0.0
+    },
+    {
+      "anchor": "divisão principal",
+      "level": 1,
+      "expected_m": 3.3,
+      "pdf_m": 3.2987,
+      "error_m": 0.0013
+    }
+  ],
+  "checks": [
+    {
+      "name": "hash do modelo salvo",
+      "passed": true
+    },
+    {
+      "name": "configuração usada na geração",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_banheiro-social",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_banheiro-suite",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_cobertura",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_cozinha",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_fachada",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_fundos",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_jantar",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_lavabo",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_lavabo-planta",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_lavanderia",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_lazer-fundos",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_planta-superior-humanizada",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_planta-terreo-humanizada",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_sacada",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_sala",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_sala-integrada",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_sala-tv",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_suite",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_superior-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "configuração da cena R07_volumetria",
+      "passed": true
+    },
+    {
+      "name": "conjunto exato de cenas",
+      "passed": true
+    },
+    {
+      "name": "sem bibliotecas vinculadas",
+      "passed": true
+    },
+    {
+      "name": "texturas usadas empacotadas",
+      "passed": true,
+      "details": 11
+    },
+    {
+      "name": "normais externas de prismas fechados",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "número de sólidos T-oeste",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-oeste 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-frente-sala",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-frente-sala 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-frente-sala 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-frente-sala 02",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-frente-sala 03",
+      "passed": true
+    },
+    {
+      "name": "vão real J3-sala",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-entrada-diagonal",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-entrada-diagonal 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-entrada-diagonal 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-entrada-diagonal 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P3-entrada",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-retorno-garagem",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-retorno-garagem 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-garagem-lavabo",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-garagem-lavabo 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-garagem-lavabo 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-garagem-lavabo 02",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-garagem-lavabo 03",
+      "passed": true
+    },
+    {
+      "name": "vão real J1-lavabo",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-geminada",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-geminada 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-fundos-sala",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-sala 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-sala 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-sala 02",
+      "passed": true
+    },
+    {
+      "name": "vão real PJ1-jardim",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-retorno-cozinha",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-retorno-cozinha 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-fundos-cozinha",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-cozinha 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-cozinha 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-cozinha 02",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-fundos-cozinha 03",
+      "passed": true
+    },
+    {
+      "name": "vão real J4-cozinha",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-cozinha-escada",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-cozinha-escada 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-lavabo-oeste",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-lavabo-oeste 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-lavabo-oeste 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-lavabo-oeste 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P1-lavabo",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos T-lavabo-fundo",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede T-lavabo-fundo 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-oeste",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-oeste 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-geminada",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-geminada 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-fachada-quarto",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fachada-quarto 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fachada-quarto 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fachada-quarto 02",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fachada-quarto 03",
+      "passed": true
+    },
+    {
+      "name": "vão real J3-quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-sacada",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-sacada 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-suite-sacada",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-sacada 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-sacada 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-sacada 02",
+      "passed": true
+    },
+    {
+      "name": "vão real PJ1-suite",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-suite-circulacao",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-circulacao 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-circulacao 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-circulacao 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P3-suite",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-suite-banheiro",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-banheiro 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-banheiro 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-suite-banheiro 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P1-banheiro-suite",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-divisao-banheiros",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-divisao-banheiros 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-banheiro-social-circulacao",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-banheiro-social-circulacao 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-banheiro-social-circulacao 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-banheiro-social-circulacao 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P1-banheiro-social",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-fundos-banheiros",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 02",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 03",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 04",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 05",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-banheiros 06",
+      "passed": true
+    },
+    {
+      "name": "vão real J2-suite",
+      "passed": true
+    },
+    {
+      "name": "vão real J2-social",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-retorno-quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-retorno-quarto-fundos 00",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-fundos-quarto",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-quarto 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-quarto 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-quarto 02",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-fundos-quarto 03",
+      "passed": true
+    },
+    {
+      "name": "vão real J3-quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-quarto-fundos-circulacao",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-quarto-fundos-circulacao 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-quarto-fundos-circulacao 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-quarto-fundos-circulacao 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P2-quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "número de sólidos S-quarto-frente-circulacao",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-quarto-frente-circulacao 00",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-quarto-frente-circulacao 01",
+      "passed": true
+    },
+    {
+      "name": "vértices R07 Parede S-quarto-frente-circulacao 02",
+      "passed": true
+    },
+    {
+      "name": "vão real P2-quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "área bruta térrea coincide com ARQ03",
+      "passed": true,
+      "details": 40.769999999999996
+    },
+    {
+      "name": "contorno superior coincide com área total de ARQ03",
+      "passed": true,
+      "details": 51.03
+    },
+    {
+      "name": "laje Terreo0",
+      "passed": true
+    },
+    {
+      "name": "laje Superior0",
+      "passed": true
+    },
+    {
+      "name": "laje Superior1",
+      "passed": true
+    },
+    {
+      "name": "laje Superior2",
+      "passed": true
+    },
+    {
+      "name": "laje Superior3",
+      "passed": true
+    },
+    {
+      "name": "vão da escada sem laje",
+      "passed": true
+    },
+    {
+      "name": "16 degraus presentes",
+      "passed": true
+    },
+    {
+      "name": "escada vence 2,70 m",
+      "passed": true
+    },
+    {
+      "name": "primeiro espelho 16,875 cm",
+      "passed": true
+    },
+    {
+      "name": "cobertura correta",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/ELE01.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/ELE02.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/ELE03.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/ELE04.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/ELE05.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/ELE06.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID01.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID02.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID03.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID04.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID05.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID06.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID07.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/HID08.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL01.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL02.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL03.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL04.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/PDF - COMPLEMENTARES ZANON 131/TV-TEL05.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/Projeto PMC zanon 05.dwg",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/arq01.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/arq02.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/arq03.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/arq04.pdf",
+      "passed": true
+    },
+    {
+      "name": "fonte preservada plantas/arq05.pdf",
+      "passed": true
+    },
+    {
+      "name": "PDF independente fundos sala",
+      "passed": true,
+      "details": {
+        "expected_m": 5.7,
+        "pdf_m": 5.7013,
+        "error_m": 0.0013
+      }
+    },
+    {
+      "name": "PDF independente fundos cozinha",
+      "passed": true,
+      "details": {
+        "expected_m": 7.2,
+        "pdf_m": 7.2013,
+        "error_m": 0.0013
+      }
+    },
+    {
+      "name": "PDF independente frente superior",
+      "passed": true,
+      "details": {
+        "expected_m": -1.2,
+        "pdf_m": -1.1992,
+        "error_m": 0.0008
+      }
+    },
+    {
+      "name": "PDF independente fundos banheiros",
+      "passed": true,
+      "details": {
+        "expected_m": 6.5,
+        "pdf_m": 6.5021,
+        "error_m": 0.0021
+      }
+    },
+    {
+      "name": "PDF independente fundos quarto",
+      "passed": true,
+      "details": {
+        "expected_m": 7.2,
+        "pdf_m": 7.2013,
+        "error_m": 0.0013
+      }
+    },
+    {
+      "name": "PDF independente face oeste",
+      "passed": true,
+      "details": {
+        "expected_m": 0,
+        "pdf_m": -0.0,
+        "error_m": 0.0
+      }
+    },
+    {
+      "name": "PDF independente face interna geminada",
+      "passed": true,
+      "details": {
+        "expected_m": 6.25,
+        "pdf_m": 6.25,
+        "error_m": 0.0
+      }
+    },
+    {
+      "name": "PDF independente divisão principal",
+      "passed": true,
+      "details": {
+        "expected_m": 3.3,
+        "pdf_m": 3.2987,
+        "error_m": 0.0013
+      }
+    },
+    {
+      "name": "câmera planta-terreo-humanizada",
+      "passed": true
+    },
+    {
+      "name": "destino organizado planta-terreo-humanizada",
+      "passed": true
+    },
+    {
+      "name": "coleções planta-terreo-humanizada",
+      "passed": true
+    },
+    {
+      "name": "câmera planta-superior-humanizada",
+      "passed": true
+    },
+    {
+      "name": "destino organizado planta-superior-humanizada",
+      "passed": true
+    },
+    {
+      "name": "coleções planta-superior-humanizada",
+      "passed": true
+    },
+    {
+      "name": "câmera terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "coleções terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera superior-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado superior-3d",
+      "passed": true
+    },
+    {
+      "name": "coleções superior-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera volumetria",
+      "passed": true
+    },
+    {
+      "name": "destino organizado volumetria",
+      "passed": true
+    },
+    {
+      "name": "coleções volumetria",
+      "passed": true
+    },
+    {
+      "name": "câmera fachada",
+      "passed": true
+    },
+    {
+      "name": "destino organizado fachada",
+      "passed": true
+    },
+    {
+      "name": "coleções fachada",
+      "passed": true
+    },
+    {
+      "name": "câmera fundos",
+      "passed": true
+    },
+    {
+      "name": "destino organizado fundos",
+      "passed": true
+    },
+    {
+      "name": "coleções fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera cobertura",
+      "passed": true
+    },
+    {
+      "name": "destino organizado cobertura",
+      "passed": true
+    },
+    {
+      "name": "coleções cobertura",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-integrada",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sala-integrada",
+      "passed": true
+    },
+    {
+      "name": "coleções sala-integrada",
+      "passed": true
+    },
+    {
+      "name": "câmera sala",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sala",
+      "passed": true
+    },
+    {
+      "name": "coleções sala",
+      "passed": true
+    },
+    {
+      "name": "câmera sala-tv",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sala-tv",
+      "passed": true
+    },
+    {
+      "name": "coleções sala-tv",
+      "passed": true
+    },
+    {
+      "name": "câmera jantar",
+      "passed": true
+    },
+    {
+      "name": "destino organizado jantar",
+      "passed": true
+    },
+    {
+      "name": "coleções jantar",
+      "passed": true
+    },
+    {
+      "name": "câmera cozinha",
+      "passed": true
+    },
+    {
+      "name": "destino organizado cozinha",
+      "passed": true
+    },
+    {
+      "name": "coleções cozinha",
+      "passed": true
+    },
+    {
+      "name": "câmera cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "destino organizado cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "coleções cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "câmera escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "destino organizado escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "coleções escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "câmera lavabo",
+      "passed": true
+    },
+    {
+      "name": "destino organizado lavabo",
+      "passed": true
+    },
+    {
+      "name": "coleções lavabo",
+      "passed": true
+    },
+    {
+      "name": "câmera suite",
+      "passed": true
+    },
+    {
+      "name": "destino organizado suite",
+      "passed": true
+    },
+    {
+      "name": "coleções suite",
+      "passed": true
+    },
+    {
+      "name": "câmera quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "destino organizado quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "coleções quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "câmera quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "destino organizado quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "coleções quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera banheiro-suite",
+      "passed": true
+    },
+    {
+      "name": "destino organizado banheiro-suite",
+      "passed": true
+    },
+    {
+      "name": "coleções banheiro-suite",
+      "passed": true
+    },
+    {
+      "name": "câmera banheiro-social",
+      "passed": true
+    },
+    {
+      "name": "destino organizado banheiro-social",
+      "passed": true
+    },
+    {
+      "name": "coleções banheiro-social",
+      "passed": true
+    },
+    {
+      "name": "câmera sacada",
+      "passed": true
+    },
+    {
+      "name": "destino organizado sacada",
+      "passed": true
+    },
+    {
+      "name": "coleções sacada",
+      "passed": true
+    },
+    {
+      "name": "câmera lazer-fundos",
+      "passed": true
+    },
+    {
+      "name": "destino organizado lazer-fundos",
+      "passed": true
+    },
+    {
+      "name": "coleções lazer-fundos",
+      "passed": true
+    },
+    {
+      "name": "câmera lavanderia",
+      "passed": true
+    },
+    {
+      "name": "destino organizado lavanderia",
+      "passed": true
+    },
+    {
+      "name": "coleções lavanderia",
+      "passed": true
+    },
+    {
+      "name": "câmera lavabo-planta",
+      "passed": true
+    },
+    {
+      "name": "destino organizado lavabo-planta",
+      "passed": true
+    },
+    {
+      "name": "coleções lavabo-planta",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "coleções estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "sem mobiliário estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "material neutro estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "escopo estrutural explícito estrutura-terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "coleções estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "sem mobiliário estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "material neutro estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "escopo estrutural explícito estrutura-superior-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "coleções estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "sem mobiliário estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "material neutro estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "escopo estrutural explícito estrutura-conjunto-3d",
+      "passed": true
+    },
+    {
+      "name": "câmera estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "destino organizado estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "coleções estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "sem mobiliário estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "material neutro estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "escopo estrutural explícito estrutura-explodida-3d",
+      "passed": true
+    },
+    {
+      "name": "vista explodida separada",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "renders": "NOT_REQUESTED",
+  "area_comparison": [
+    {
+      "room": "sala",
+      "declared_m2": 18.01,
+      "model_polygon_m2": 18.1303,
+      "delta_m2": 0.1203
+    },
+    {
+      "room": "cozinha",
+      "declared_m2": 7.84,
+      "model_polygon_m2": 7.7,
+      "delta_m2": -0.14
+    },
+    {
+      "room": "garagem",
+      "declared_m2": 5.8,
+      "model_polygon_m2": 5.7,
+      "delta_m2": -0.1
+    },
+    {
+      "room": "lavabo",
+      "declared_m2": 1.9,
+      "model_polygon_m2": 2.3275,
+      "delta_m2": 0.4275
+    },
+    {
+      "room": "suite",
+      "declared_m2": 11.16,
+      "model_polygon_m2": 11.34,
+      "delta_m2": 0.18
+    },
+    {
+      "room": "quarto-frente",
+      "declared_m2": 8.69,
+      "model_polygon_m2": 8.54,
+      "delta_m2": -0.15
+    },
+    {
+      "room": "quarto-fundos",
+      "declared_m2": 7.84,
+      "model_polygon_m2": 7.7,
+      "delta_m2": -0.14
+    },
+    {
+      "room": "banheiro-suite",
+      "declared_m2": 4.5,
+      "model_polygon_m2": 4.5,
+      "delta_m2": -0.0
+    },
+    {
+      "room": "banheiro-social",
+      "declared_m2": 4.35,
+      "model_polygon_m2": 4.5,
+      "delta_m2": 0.15
+    },
+    {
+      "room": "sacada",
+      "declared_m2": 2.02,
+      "model_polygon_m2": 1.575,
+      "delta_m2": -0.445
+    },
+    {
+      "room": "circulacao",
+      "declared_m2": 2.3,
+      "model_polygon_m2": 1.3,
+      "delta_m2": -1.0
+    }
+  ],
+  "unknowns": [
+    "O PDF é a fonte geométrica; o DWG original permanece preservado, sem edição ou conversão.",
+    "A origem está na frente do térreo. Y positivo aponta para os fundos; o superior avança até Y=-1,20.",
+    "X=6,35 é o eixo da parede geminada de 0,20 m; representa-se apenas a metade pertencente à unidade.",
+    "O quadro de esquadrias da prancha 03 conserva o cabeçalho residência 01. Os códigos foram cruzados com os vãos da tipologia interna.",
+    "Há diferenças de centímetros entre cotas, traços e áreas declaradas; elas são apresentadas no relatório, sem ajustar artificialmente as áreas.",
+    "Mobiliário industrial, iluminação e paisagismo são proposta. Churrasqueira e lavanderia posteriores são uma camada de proposta baseada nas fotos anteriores; não constam na arquitetura original de 2011.",
+    "A reconstrução descreve o projeto fornecido, sem confirmar a situação construída atual."
+  ]
+}

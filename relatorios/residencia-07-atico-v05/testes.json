@@ -1,0 +1,8 @@
+{
+  "timestamp_utc": "2026-11-12T17:39:36.639552+00:00",
+  "command": "python3 -m unittest discover -s scripts -p 'test_residence07*.py'",
+  "observed_tests": 51,
+  "exit_code": 0,
+  "all_passed": true,
+  "scope": "Regressões da base, estudos, industrial e áticos, incluindo cinco testes de alinhamento/vão/caixa da v05."
+}

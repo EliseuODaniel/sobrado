@@ -1,0 +1,400 @@
+{
+  "timestamp_utc": "2026-11-13T08:14:56.143358+00:00",
+  "checks": [
+    {
+      "name": "auditoria do arquivo e renders",
+      "passed": true
+    },
+    {
+      "name": "31 imagens exatas",
+      "passed": true
+    },
+    {
+      "name": "hash sala-integrada-dia",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K sala-integrada-dia",
+      "passed": true
+    },
+    {
+      "name": "16 bits sala-integrada-dia",
+      "passed": true
+    },
+    {
+      "name": "hash sala-integrada-noite",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K sala-integrada-noite",
+      "passed": true
+    },
+    {
+      "name": "16 bits sala-integrada-noite",
+      "passed": true
+    },
+    {
+      "name": "hash bar-dia",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K bar-dia",
+      "passed": true
+    },
+    {
+      "name": "16 bits bar-dia",
+      "passed": true
+    },
+    {
+      "name": "hash bar-noite",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K bar-noite",
+      "passed": true
+    },
+    {
+      "name": "16 bits bar-noite",
+      "passed": true
+    },
+    {
+      "name": "hash escritorio-dia",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K escritorio-dia",
+      "passed": true
+    },
+    {
+      "name": "16 bits escritorio-dia",
+      "passed": true
+    },
+    {
+      "name": "hash escritorio-noite",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K escritorio-noite",
+      "passed": true
+    },
+    {
+      "name": "16 bits escritorio-noite",
+      "passed": true
+    },
+    {
+      "name": "hash planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "16 bits planta-terreo",
+      "passed": true
+    },
+    {
+      "name": "hash planta-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K planta-superior",
+      "passed": true
+    },
+    {
+      "name": "16 bits planta-superior",
+      "passed": true
+    },
+    {
+      "name": "hash terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "16 bits terreo-3d",
+      "passed": true
+    },
+    {
+      "name": "hash superior-3d",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K superior-3d",
+      "passed": true
+    },
+    {
+      "name": "16 bits superior-3d",
+      "passed": true
+    },
+    {
+      "name": "hash sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "16 bits sala-fundos",
+      "passed": true
+    },
+    {
+      "name": "hash sala-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K sala-frente",
+      "passed": true
+    },
+    {
+      "name": "16 bits sala-frente",
+      "passed": true
+    },
+    {
+      "name": "hash cozinha",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K cozinha",
+      "passed": true
+    },
+    {
+      "name": "16 bits cozinha",
+      "passed": true
+    },
+    {
+      "name": "hash cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "16 bits cozinha-reversa",
+      "passed": true
+    },
+    {
+      "name": "hash bar",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K bar",
+      "passed": true
+    },
+    {
+      "name": "16 bits bar",
+      "passed": true
+    },
+    {
+      "name": "hash lavanderia",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K lavanderia",
+      "passed": true
+    },
+    {
+      "name": "16 bits lavanderia",
+      "passed": true
+    },
+    {
+      "name": "hash fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "16 bits fundos-abertos",
+      "passed": true
+    },
+    {
+      "name": "hash divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "16 bits divisao-lazer-lavanderia",
+      "passed": true
+    },
+    {
+      "name": "hash escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "16 bits escada-acesso",
+      "passed": true
+    },
+    {
+      "name": "hash escada-superior",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K escada-superior",
+      "passed": true
+    },
+    {
+      "name": "16 bits escada-superior",
+      "passed": true
+    },
+    {
+      "name": "hash lavabo",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K lavabo",
+      "passed": true
+    },
+    {
+      "name": "16 bits lavabo",
+      "passed": true
+    },
+    {
+      "name": "hash suite",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K suite",
+      "passed": true
+    },
+    {
+      "name": "16 bits suite",
+      "passed": true
+    },
+    {
+      "name": "hash quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "16 bits quarto-frente",
+      "passed": true
+    },
+    {
+      "name": "hash quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "16 bits quarto-fundos",
+      "passed": true
+    },
+    {
+      "name": "hash fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "16 bits fachada-frontal",
+      "passed": true
+    },
+    {
+      "name": "hash volumetria",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K volumetria",
+      "passed": true
+    },
+    {
+      "name": "16 bits volumetria",
+      "passed": true
+    },
+    {
+      "name": "hash sala-tv",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K sala-tv",
+      "passed": true
+    },
+    {
+      "name": "16 bits sala-tv",
+      "passed": true
+    },
+    {
+      "name": "hash mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "16 bits mesa-jantar",
+      "passed": true
+    },
+    {
+      "name": "hash bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "16 bits bar-detalhe",
+      "passed": true
+    },
+    {
+      "name": "hash escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "16 bits escritorio-alternativa",
+      "passed": true
+    },
+    {
+      "name": "hash escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "PNG 4K escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "16 bits escritorio-reverso",
+      "passed": true
+    },
+    {
+      "name": "41 páginas no caderno",
+      "passed": true
+    },
+    {
+      "name": "links locais LEIA-ME.md",
+      "passed": true
+    },
+    {
+      "name": "links locais galeria.html",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "native_checks": 398,
+  "scope": "Arquivos nativos, 31 imagens 4K, comparações, plantas documentais e caderno. Não valida Unreal ou aparência fotográfica por métrica automática."
+}

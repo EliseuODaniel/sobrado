@@ -1,0 +1,358 @@
+{
+  "status": "completed",
+  "model_sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+  "verified_final_images": 26,
+  "staging_directory": "/mnt/c/Users/edann/AppData/Local/Temp/CasaInteriores/atual-fiel-v02",
+  "staging_files": [
+    {
+      "relative_file": "config/atual-fiel-v02.json",
+      "bytes": 1319
+    },
+    {
+      "relative_file": "scripts/current_photoreal_data.py",
+      "bytes": 2852
+    },
+    {
+      "relative_file": "scripts/render_current_photoreal.py",
+      "bytes": 5611
+    },
+    {
+      "relative_file": "projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend",
+      "bytes": 435669180
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/banheiro-social-native.json",
+      "bytes": 745
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/banheiro-suite-native.json",
+      "bytes": 744
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/bar-native.json",
+      "bytes": 722
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/cozinha-native.json",
+      "bytes": 730
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/cozinha-reversa-native.json",
+      "bytes": 746
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/divisao-lazer-lavanderia-native.json",
+      "bytes": 764
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/escada-acesso-native.json",
+      "bytes": 742
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/escada-superior-native.json",
+      "bytes": 746
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/fachada-frontal-native.json",
+      "bytes": 746
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/fundos-abertos-native.json",
+      "bytes": 743
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/lavabo-native.json",
+      "bytes": 728
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/lavanderia-native.json",
+      "bytes": 737
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/modelo.json",
+      "bytes": 225910
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/planta-superior-native.json",
+      "bytes": 743
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/planta-terreo-native.json",
+      "bytes": 740
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/quarto-azul-bancada-native.json",
+      "bytes": 754
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/quarto-branco-armario-native.json",
+      "bytes": 758
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/quarto-frente-native.json",
+      "bytes": 741
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/quarto-fundos-native.json",
+      "bytes": 742
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/sala-foto-native.json",
+      "bytes": 734
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/sala-frente-native.json",
+      "bytes": 738
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/sala-fundos-native.json",
+      "bytes": 738
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/suite-native.json",
+      "bytes": 726
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/suite-reversa-native.json",
+      "bytes": 742
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/superior-3d-native.json",
+      "bytes": 736
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/terreo-3d-native.json",
+      "bytes": 732
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/volumetria-native.json",
+      "bytes": 737
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/banheiro-social.png",
+      "bytes": 5043206
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/banheiro-suite.png",
+      "bytes": 5069814
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/bar.png",
+      "bytes": 5219120
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/cozinha-reversa.png",
+      "bytes": 4884524
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/cozinha.png",
+      "bytes": 5381476
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/divisao-lazer-lavanderia.png",
+      "bytes": 4772717
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/escada-acesso.png",
+      "bytes": 5190403
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/escada-superior.png",
+      "bytes": 5272033
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/fachada-frontal.png",
+      "bytes": 4849727
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/fundos-abertos.png",
+      "bytes": 5126895
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/lavabo.png",
+      "bytes": 5150988
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/lavanderia.png",
+      "bytes": 4977894
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/planta-superior.png",
+      "bytes": 1594842
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/planta-terreo.png",
+      "bytes": 1855785
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/quarto-azul-bancada.png",
+      "bytes": 4862140
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/quarto-branco-armario.png",
+      "bytes": 4169063
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/quarto-frente.png",
+      "bytes": 4691912
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/quarto-fundos.png",
+      "bytes": 5128539
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/sala-foto.png",
+      "bytes": 5293713
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/sala-frente.png",
+      "bytes": 5321457
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/sala-fundos.png",
+      "bytes": 5187786
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/suite-reversa.png",
+      "bytes": 5378636
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/suite.png",
+      "bytes": 5371181
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/superior-3d.png",
+      "bytes": 2933004
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/terreo-3d.png",
+      "bytes": 2121196
+    },
+    {
+      "relative_file": "relatorios/atual-fiel-v02/previas/volumetria.png",
+      "bytes": 4873477
+    },
+    {
+      "relative_file": "renders/atual/01-plantas/planta-superior.png",
+      "bytes": 11929198
+    },
+    {
+      "relative_file": "renders/atual/01-plantas/planta-terreo.png",
+      "bytes": 13072909
+    },
+    {
+      "relative_file": "renders/atual/01-plantas/superior-3d.png",
+      "bytes": 20908942
+    },
+    {
+      "relative_file": "renders/atual/01-plantas/terreo-3d.png",
+      "bytes": 14899360
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/banheiro-social.png",
+      "bytes": 40302555
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/banheiro-suite.png",
+      "bytes": 40535685
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/bar.png",
+      "bytes": 43914105
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/cozinha-reversa.png",
+      "bytes": 39537406
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/cozinha.png",
+      "bytes": 44971367
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/divisao-lazer-lavanderia.png",
+      "bytes": 40519945
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/escada-acesso.png",
+      "bytes": 44141229
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/escada-superior.png",
+      "bytes": 44298104
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/fundos-abertos.png",
+      "bytes": 41689481
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/lavabo.png",
+      "bytes": 42335626
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/lavanderia.png",
+      "bytes": 40091665
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/quarto-azul-bancada.png",
+      "bytes": 38327159
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/quarto-branco-armario.png",
+      "bytes": 33054062
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/quarto-frente.png",
+      "bytes": 38705481
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/quarto-fundos.png",
+      "bytes": 42357641
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/sala-foto.png",
+      "bytes": 43645416
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/sala-frente.png",
+      "bytes": 43905175
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/sala-fundos.png",
+      "bytes": 43798529
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/suite-reversa.png",
+      "bytes": 47423028
+    },
+    {
+      "relative_file": "renders/atual/02-ambientes/suite.png",
+      "bytes": 47678546
+    },
+    {
+      "relative_file": "renders/atual/03-exteriores/fachada-frontal.png",
+      "bytes": 38846590
+    },
+    {
+      "relative_file": "renders/atual/03-exteriores/volumetria.png",
+      "bytes": 39019747
+    },
+    {
+      "relative_file": "scripts/__pycache__/current_photoreal_data.cpython-313.pyc",
+      "bytes": 4745
+    }
+  ],
+  "native_temporary_files": [
+    {
+      "file": "projeto/residencia-07-atual-v02/casa-07-atual-fiel.building.blend",
+      "bytes": 236191036,
+      "sha256": "a7349674143c3b534a488a6d7c1d481eba60a0bf9251faa0293b707f859c6341"
+    },
+    {
+      "file": "projeto/residencia-07-atual-v02/casa-07-atual-fiel.building.blend1",
+      "bytes": 35372926,
+      "sha256": "311823f2f55a3496f662f8a3c863146e9cd7fb3a5513ea4de946ded24b3f455e"
+    }
+  ],
+  "timestamp_utc": "2026-11-13T14:41:21.117165+00:00",
+  "reclaimed_bytes": 1807123312
+}

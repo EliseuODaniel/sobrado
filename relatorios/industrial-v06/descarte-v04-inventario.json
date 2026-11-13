@@ -1,0 +1,422 @@
+[
+  {
+    "file": "projeto/industrial-v04/casa-industrial-refinada.blend",
+    "bytes": 368914257,
+    "sha256": "77f74916822c0623d4826ffc367d948eee51582a4723b9923b564d375cb8e270"
+  },
+  {
+    "file": "renders/industrial-v04/sala-integrada.png",
+    "bytes": 27911197,
+    "sha256": "8a60ecaff6036b9e911b433481d73bc6615f289c1658ee4748c0d37b39b51f63"
+  },
+  {
+    "file": "renders/industrial-v04/painel-ambientes.jpg",
+    "bytes": 817075,
+    "sha256": "4214fb97fa89cefd4e61970b4a8056f3e8ddab18dbbf0f682cfbc054ea8f2f3b"
+  },
+  {
+    "file": "renders/industrial-v04/referencias-e-proposta.jpg",
+    "bytes": 1899562,
+    "sha256": "04b9adf48b022b25abe26f470ef2e37c4bcc51337c61521094b2f576465d9513"
+  },
+  {
+    "file": "renders/industrial-v04/sala.png",
+    "bytes": 28843575,
+    "sha256": "331269d9ac42f1fc51699f18de519a041269cecb7cb018234c6dc39d202dd37c"
+  },
+  {
+    "file": "renders/industrial-v04/quarto-fundos.png",
+    "bytes": 28174248,
+    "sha256": "74fa66ea27e96dc5388966c766f8511bd0a439405a2b461d2824674c894f58a2"
+  },
+  {
+    "file": "renders/industrial-v04/sala-tv.png",
+    "bytes": 26054366,
+    "sha256": "58e0220f8e68fb618a2408f435ca2a215e966cd673d97e27b130532379219687"
+  },
+  {
+    "file": "renders/industrial-v04/cozinha.png",
+    "bytes": 24774830,
+    "sha256": "7a4dd5c6acccfd33fde810a476dfff070fd5261954ebd01c97bcb73358af1a20"
+  },
+  {
+    "file": "renders/industrial-v04/evolucao-v03-v04.jpg",
+    "bytes": 1194827,
+    "sha256": "47cb06f6606cc75c0090ef2c9a21f6686e5e7d2619c38c327ea6e3fe507a999c"
+  },
+  {
+    "file": "renders/industrial-v04/lazer-fundos.png",
+    "bytes": 28775975,
+    "sha256": "8129ceb8d76a7056a3de18f100656dd354e182ec4ca23dbf8b09a61d86c4a04c"
+  },
+  {
+    "file": "renders/industrial-v04/previas/sala-integrada.png",
+    "bytes": 4627936,
+    "sha256": "56d6a876236afdc970d963d4f56b3157d4c528685c47c5bc6f431d27d9cc918b"
+  },
+  {
+    "file": "renders/industrial-v04/previas/sala.png",
+    "bytes": 4668307,
+    "sha256": "836a23d9cb93ec80e78ab1e2f1869edeaeabdfe6db0f7ff0033c950c616024fc"
+  },
+  {
+    "file": "renders/industrial-v04/previas/quarto-fundos.png",
+    "bytes": 4722079,
+    "sha256": "611851473fed5580ba1714a076c398045f4a9c6297d3bf3d0faf602094da8ab6"
+  },
+  {
+    "file": "renders/industrial-v04/previas/sala-tv.png",
+    "bytes": 4413937,
+    "sha256": "e37707eed5856be92b7e26822f1917fc856cf6aa0adff2385e265d5bec62bf7c"
+  },
+  {
+    "file": "renders/industrial-v04/previas/cozinha.png",
+    "bytes": 4423064,
+    "sha256": "1681cec52f7704e93c5d26ef80c974d1f4fe5515b4fc03cf0189566aaddf75ae"
+  },
+  {
+    "file": "renders/industrial-v04/previas/lazer-fundos.png",
+    "bytes": 4672960,
+    "sha256": "782ec16e2112a2b20b55f05b7604eb6a030243a784678279e689a1aac1a99cd8"
+  },
+  {
+    "file": "relatorios/industrial-v04/modelo.json",
+    "bytes": 354402,
+    "sha256": "4b28d0fbdafc9267fb0a3c3006d9ebbc1b5020946f000b269b10f1e02438dc49"
+  },
+  {
+    "file": "relatorios/industrial-v04/testes.log",
+    "bytes": 1614,
+    "sha256": "9f43e9cc80eab1a9cd14fda1fe24f48ad0ae5fdac5d999761b7a07c27cc62b8a"
+  },
+  {
+    "file": "relatorios/industrial-v04/RELATORIO.md",
+    "bytes": 5205,
+    "sha256": "f814ebfed18a42b08ea51332365003a23ea3bb3cd88c41bbe429137ea421e92e"
+  },
+  {
+    "file": "relatorios/industrial-v04/renders.json",
+    "bytes": 1986,
+    "sha256": "85d3d6f08bd62c95249a2102185c07234049e8827214ae3103c855ba17e5d2da"
+  },
+  {
+    "file": "relatorios/industrial-v04/direcao-de-arte.md",
+    "bytes": 2594,
+    "sha256": "f3645574ed47f1e3e4230ff38a5e4b15dea6c3afa8ad99c01f8fbd757cce83a3"
+  },
+  {
+    "file": "relatorios/industrial-v04/previas.json",
+    "bytes": 2004,
+    "sha256": "18f6089ea7a4365131bb0c28fb855ca61dadca3b5b9e1bf598595860fc8f5e9a"
+  },
+  {
+    "file": "relatorios/industrial-v04/checkpoint.json",
+    "bytes": 970,
+    "sha256": "175beb997f09ae8bd1e148948e34b0e04b1484fc8fc2a1d5a4fe5c3b22293b30"
+  },
+  {
+    "file": "relatorios/industrial-v04/manifesto.json",
+    "bytes": 39030,
+    "sha256": "70128d885cbc04903963f1359936841b7543e9af5338310a497e0e31239c7c64"
+  },
+  {
+    "file": "relatorios/industrial-v04/renderizacao.log",
+    "bytes": 1409,
+    "sha256": "5764205e3651315d3bc96fa4c407bc79dd7362695ddb09252a6e2e762b93aaf6"
+  },
+  {
+    "file": "relatorios/industrial-v04/revisao-visual.json",
+    "bytes": 1424,
+    "sha256": "8b003cb9b0e922c318aaecf528d2c70bf388d10e129689b5225743bd589276b1"
+  },
+  {
+    "file": "relatorios/industrial-v04/auditoria-nativa.log",
+    "bytes": 379,
+    "sha256": "1100598d9d19aa855dd35104ea071d0d6ff28dc463b85af0a4d884aca7240c98"
+  },
+  {
+    "file": "relatorios/industrial-v04/geracao-previas.log",
+    "bytes": 2779,
+    "sha256": "8cdb993ae8b1f1e682a6a114546c3e26fbe5edbca85894f05a8e885dfc36ba32"
+  },
+  {
+    "file": "relatorios/industrial-v04/validacao.json",
+    "bytes": 2282,
+    "sha256": "58a4e047c75ebc8ceb239a8b154b7d64158d095fab7afa9ee4eab452a930e892"
+  },
+  {
+    "file": "relatorios/industrial-v04/recursos-nativos.json",
+    "bytes": 1857,
+    "sha256": "db914426992e85e9a4cdc05f14f75f1e146252298277420364e01960a125c258"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/geracao-01.log",
+    "bytes": 2175,
+    "sha256": "d0e56d1fd11b9e26f9c29127862ef22151d98085e67f6a6172003b8a7ee2760a"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/casa-industrial-refinada.blend",
+    "bytes": 291424401,
+    "sha256": "6caee4a9ac7fcbeb1d33272a2fa61b9811b2118b0eab182b278856caaf4852aa"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/casa-industrial-refinada.blend",
+    "bytes": 368853908,
+    "sha256": "f340f09e9be8d42a918e1f8010f4821e1fc065e112f0e09344ed90633b8cc9fe"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada01/modelo.json",
+    "bytes": 352741,
+    "sha256": "bb5b54f80f5d41b0927cdd42b8475d46d5db00a283227a25880a4bc51b8c75e8"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada01/casa-industrial-refinada.blend",
+    "bytes": 291373302,
+    "sha256": "7a42b3ddaaf6c1b1d53cf34f647e67d1d2a3c6fe8389c4326afa1b8280fb71af"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada01/geracao-previas.log",
+    "bytes": 1757,
+    "sha256": "18d3a1bc1aad98758048cbb0110444910abcd4e8f4e28fa89ad0474dcd318ec3"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/casa-industrial-refinada.blend",
+    "bytes": 368854461,
+    "sha256": "a3f3b2eac7efec976b29d2233555a39eba0a74fd1a4389a66c930ff197b3fc92"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/casa-industrial-refinada.blend",
+    "bytes": 368907189,
+    "sha256": "ed387b36e0dd2383c5411c12579eb4970716d1363cf26ecbbfb56010e9d60e24"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/industrial-v04/modelo.json",
+    "bytes": 352751,
+    "sha256": "9bb2379c5affdda8cfd7703e9b48e10228541bdf690046209808d0df117ab5b7"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/industrial-v04/previas.json",
+    "bytes": 1720,
+    "sha256": "4bfb2f9ad3a38e534e51763ede6ddf913670e420952b477c6e29fbae6ff2b88d"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/industrial-v04/geracao-previas.log",
+    "bytes": 1670,
+    "sha256": "8622e6318930c0f42e7edb389a366c33aa651c9180b14c94c110b0c5aa0c29fb"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/industrial-v04/validacao.json",
+    "bytes": 2282,
+    "sha256": "d9ccf605b5e7c6186688dc2ce10e080b3144014b78d5c3ed4c75ae81e14c4b04"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/previas/sala-integrada.png",
+    "bytes": 4669627,
+    "sha256": "ed6c768e2bd233f22ed57622c3f9e24588cb065aa2b396290656990638b8f1e9"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/previas/sala.png",
+    "bytes": 4768972,
+    "sha256": "57d7d1bafc2c73dc6746072a53d1183e363017eeed7527d1a983b1e201efa163"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/previas/quarto-fundos.png",
+    "bytes": 4725259,
+    "sha256": "98ed32ab075f6cad6c72e0e15a3cb7706df4adb29eef2a5c4ee7a7a4a60f3de7"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/previas/cozinha.png",
+    "bytes": 4544281,
+    "sha256": "cd67282c4f968afda006b00b01debbe01537c13c74af4133cf60d4be4347b4c8"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada02/previas/lazer-fundos.png",
+    "bytes": 4763439,
+    "sha256": "a82c5bf04ab04a4e0fec0e1e0be47186047398f89e7e5c5e10e9d5dce06d18e3"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/industrial-v04/modelo.json",
+    "bytes": 354402,
+    "sha256": "6acbcff586dd81164025eb05af9fa37b34156d9278ab36495d39017cb3ab37ec"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/industrial-v04/previas.json",
+    "bytes": 1721,
+    "sha256": "b296b8ab9db7e6ebd0e951dc3e4a9e055f1f82b840fd157f875dfebec3388281"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/industrial-v04/geracao-previas.log",
+    "bytes": 2333,
+    "sha256": "6eedbf6b5b71cd7aa1514e6d141b349ce1dcb0bf6b46098fc7d35956a12d58e5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/industrial-v04/validacao.json",
+    "bytes": 2282,
+    "sha256": "529a39cb73c13aa33a8039d3a4fe978c88d862d10912c3f5b201f22435b06ad5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/previas/sala-integrada.png",
+    "bytes": 4683613,
+    "sha256": "395a506d74c8c5551c5db90427014a44432b967b3237a431c0044fa3208f7ad5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/previas/sala.png",
+    "bytes": 4693863,
+    "sha256": "fef6a9f7507e5a912706b25b1e56c2f4554da1e9c3eafc29276523eaf97b90e1"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/previas/quarto-fundos.png",
+    "bytes": 4730856,
+    "sha256": "675ffee6a016f2800e2b4544cd0a18ea2dbe5fec754304586315f75714ef77c1"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/previas/cozinha.png",
+    "bytes": 4484293,
+    "sha256": "af213b6da2c7b8e82380cb7979257cf4a50002d7b711333dcdb3edd09527e042"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada04/previas/lazer-fundos.png",
+    "bytes": 4740409,
+    "sha256": "9a28b3689594df002575b61f4d66f505c660a73956a4fba614bed6d3bf64c754"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/industrial-v04/modelo.json",
+    "bytes": 354402,
+    "sha256": "1f1a536c3cb6e20ad288eedcbc31caac3bb578b8758eba41c9622044051d3503"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/industrial-v04/previas.json",
+    "bytes": 1720,
+    "sha256": "bd944e356254837252ab90cd41c344fa24eb71ff9e6e78ae9f472ec3feda67bb"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/industrial-v04/geracao-previas.log",
+    "bytes": 1809,
+    "sha256": "f4f0e0441080a7b1856706c43de24117b62b12c461fdd6f240bedff6f727eff5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/industrial-v04/validacao.json",
+    "bytes": 2282,
+    "sha256": "fa0290e552f4cde51741150b16c337ec37f85e70eb372422c9eac874476283e5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/previas/sala-integrada.png",
+    "bytes": 4722885,
+    "sha256": "2c9d6715144d8079efe10b8936f8ef46c16929ecb7d99e7bcb29e7979d88dc20"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/previas/sala.png",
+    "bytes": 4768211,
+    "sha256": "b81cb3aa272b34cc6b6a9151c8f6039f9ff6eaea8d9a99f5d3589edb721ee60c"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/previas/quarto-fundos.png",
+    "bytes": 4733027,
+    "sha256": "8ad0612838cb611481ae9fe0aeeba0b08674b5c8986da511dcf501a217dfa6cc"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/previas/cozinha.png",
+    "bytes": 4546305,
+    "sha256": "10e5c508df2e71cc4bbc8cb3901967ac12d37c03dfc895bc0557f010bfc76ff5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada03/previas/lazer-fundos.png",
+    "bytes": 4766523,
+    "sha256": "0fb0a45110213190e1d978a0de9390d149957387dfab9a4f8b8b1bb724883c77"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/industrial-v04/modelo.json",
+    "bytes": 354402,
+    "sha256": "42082c59fb65ede16a1f5ace9d78f9df14eb70b46028b8c5b77ef10c53c514c4"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/industrial-v04/previas.json",
+    "bytes": 2004,
+    "sha256": "c6ea7f55b42ca0295a135ed7826e9a6646ae3a7d81ec676ac422e53963f7a4be"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/industrial-v04/geracao-previas.log",
+    "bytes": 2779,
+    "sha256": "1ce89aab5c240817e3956987031e641adc3251d0465ba8df57a6f12b72bfb0c3"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/industrial-v04/validacao.json",
+    "bytes": 2282,
+    "sha256": "16c3629ea0ae838b1d589ac4eb2e2d5c91e6b789c3f8c8ce1da52ddd9f6cd5b3"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/previas/sala-integrada.png",
+    "bytes": 4613476,
+    "sha256": "0181d374633208d58bcb1ec88ae78823d26c465b09942175e9304d2adc62a365"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/previas/sala.png",
+    "bytes": 4669489,
+    "sha256": "cffe12f43203a5e60c1f00be49bed50a7aae71387e3121c46f792075b870166a"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/previas/quarto-fundos.png",
+    "bytes": 4702011,
+    "sha256": "f7d11818eda32884a806f073eab3ad6137dfc5b2b9d48ce1d621ced8c6acbd81"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/previas/sala-tv.png",
+    "bytes": 4382275,
+    "sha256": "40a8326ae7b9e95afa541866a89d5c45830576d5c5ec9cdfd6c5c8375f0328c5"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/previas/cozinha.png",
+    "bytes": 4422791,
+    "sha256": "18dc467a43a426c94ba2cbc184f1446b43310ee71f5858d8a00453dc2bfab75b"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v04/rodada05/previas/lazer-fundos.png",
+    "bytes": 4673225,
+    "sha256": "0b58bf77daa9abed67194d1bf5ff034407c4f11fdd5018a938651a65d6824a38"
+  },
+  {
+    "file": "config/estilo-industrial-v04.json",
+    "bytes": 1970,
+    "sha256": "1c5f1e6765525687c4e31d7bd412a299089c7b94fd929768bec145a7d315edd2"
+  },
+  {
+    "file": "scripts/refine_industrial.py",
+    "bytes": 31672,
+    "sha256": "c2d53d44630e64447621b68bd4893b1f4a82d45eda059e5cbe0319975d900638"
+  },
+  {
+    "file": "scripts/audit_refined.py",
+    "bytes": 3327,
+    "sha256": "902f3767c82b742f245a37b31363dc8c5b5b4b18e7bd16c02027bdac68580793"
+  },
+  {
+    "file": "scripts/refined_delivery.py",
+    "bytes": 12417,
+    "sha256": "6460009c16d5eaa563821d7fb569265a0e356b815275283d63c40f5fe0273c34"
+  },
+  {
+    "file": "scripts/__pycache__/fetch_industrial_v04_assets.cpython-312.pyc",
+    "bytes": 4495,
+    "sha256": "ea47a0bb632e175594c9318551ad66164bbb7bb2903ef6ce847beb1217a43faa"
+  },
+  {
+    "file": "scripts/__pycache__/refine_industrial.cpython-313.pyc",
+    "bytes": 79696,
+    "sha256": "dfce903d06489f7d6df95d6c298cb9b2ecf1a881a7aa432aac9dd68762322bfd"
+  },
+  {
+    "file": "scripts/__pycache__/refine_industrial.cpython-312.pyc",
+    "bytes": 79663,
+    "sha256": "fb08df36f033060e0eff9123d1b9be4136c916720c41c464f92661cf2d49ba31"
+  },
+  {
+    "file": "scripts/__pycache__/refined_delivery.cpython-312.pyc",
+    "bytes": 18909,
+    "sha256": "c10057cc1e2c7bf537d444cb31f22ab24a77140418f1f24903b1be70f1eac9a9"
+  },
+  {
+    "file": "scripts/__pycache__/audit_refined.cpython-312.pyc",
+    "bytes": 7873,
+    "sha256": "9d9cc357af49914fc360057f29125699f458f73c1aef26c6ffc77a191b400afc"
+  }
+]

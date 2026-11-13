@@ -1,0 +1,107 @@
+{
+  "scope": "Read-only native inventory, hardware receipts and planning documents; no new rendering or Unreal performance evaluation",
+  "checks": [
+    {
+      "name": "five_active_models",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_native_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_no_missing_referenced_image",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original_cycles_verified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atual_native_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atual_no_missing_referenced_image",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atual_cycles_verified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "instalacoes_native_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "instalacoes_no_missing_referenced_image",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "instalacoes_cycles_verified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "industrial_native_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "industrial_no_missing_referenced_image",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "industrial_cycles_verified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atico_native_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atico_no_missing_referenced_image",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "atico_cycles_verified",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "PLANO-FOTORREALISMO.md_local_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "LEIA-ME.md_local_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "audit_script_syntax",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "hardware_commands_passed",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "all_passed": true,
+  "total": 20
+}

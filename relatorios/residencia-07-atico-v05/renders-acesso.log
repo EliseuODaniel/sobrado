@@ -1,0 +1,20 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:01.528  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
+00:01.824  cycles           | WARNING OptiX initialization failed with error code 7805
+00:01.824  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:23.203  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/03-tecnica/escada-u-conjunto.png'
+ATC5_RENDER_OK escada-u-conjunto
+00:58.875  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/03-tecnica/escada-u-chegada-existente.png'
+ATC5_RENDER_OK escada-u-chegada-existente
+01:06.376  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/03-tecnica/escada-u-detalhe.png'
+ATC5_RENDER_OK escada-u-detalhe
+01:19.792  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/04-plantas/escada-u-planta-superior.png'
+ATC5_RENDER_OK escada-u-planta-superior
+01:30.435  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/03-tecnica/atico-forro-corte.png'
+ATC5_RENDER_OK atico-forro-corte
+01:40.067  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/04-plantas/atico-alturas-forro.png'
+ATC5_RENDER_OK atico-alturas-forro
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

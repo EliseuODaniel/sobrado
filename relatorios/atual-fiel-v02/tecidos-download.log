@@ -1,0 +1,21 @@
+FABRIC_VERIFIED scuba_suede Diffuse 14.36 MiB
+FABRIC_VERIFIED scuba_suede Rough 15.85 MiB
+FABRIC_VERIFIED scuba_suede anisotropy_rotation 3.97 MiB
+FABRIC_VERIFIED scuba_suede anisotropy_strength 3.69 MiB
+FABRIC_VERIFIED scuba_suede spec_ior 3.59 MiB
+FABRIC_VERIFIED bi_stretch Diffuse 12.88 MiB
+FABRIC_VERIFIED bi_stretch Rough 13.91 MiB
+FABRIC_VERIFIED bi_stretch anisotropy_strength 4.03 MiB
+FABRIC_VERIFIED bi_stretch anisotropy_rotation 3.9 MiB
+FABRIC_VERIFIED bi_stretch spec_ior 3.22 MiB
+FABRIC_VERIFIED scuba_suede nor_gl 31.58 MiB
+FABRIC_VERIFIED waffle_pique_cotton Diffuse 11.2 MiB
+FABRIC_VERIFIED bi_stretch nor_gl 23.23 MiB
+FABRIC_VERIFIED waffle_pique_cotton Rough 12.86 MiB
+FABRIC_VERIFIED waffle_pique_cotton anisotropy_strength 3.95 MiB
+FABRIC_VERIFIED waffle_pique_cotton anisotropy_rotation 3.31 MiB
+FABRIC_VERIFIED waffle_pique_cotton spec_ior 3.61 MiB
+FABRIC_VERIFIED waffle_pique_cotton nor_gl 21.07 MiB
+/home/edann/projects/casa-interiores/scripts/fetch_current_fabrics.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for pixel in im.getdata():
+CURRENT2_FABRICS_READY 18

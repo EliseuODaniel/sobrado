@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-11-10T20:46:15.734602+00:00",
+  "revision": 10,
+  "objective": "Encaixar os dois pisos no contorno do corpo principal, com fundos superiores coplanares à parede da cozinha",
+  "state": "Concluído: modelo ativo, renders finais e sobreposição conferidos; recibos conciliados pelo finalizador",
+  "receipts": [
+    "relatorios/atual/encaixe-antes.json",
+    "relatorios/atual/encaixe-pavimentos.json",
+    "relatorios/atual/auditoria-superior.json",
+    "relatorios/atual/auditoria-depois.json",
+    "relatorios/atual/promocao-local.json",
+    "relatorios/atual/renders-finais.json",
+    "relatorios/atual/comparacao.json"
+  ],
+  "run": {
+    "active_blend": "projeto/casa-reconstruida.blend",
+    "active_is": "revisão 10",
+    "expected_checks": [
+      18,
+      40,
+      16
+    ],
+    "envelope_checks": 3,
+    "renders": 23,
+    "comparisons": 11
+  },
+  "remaining": [],
+  "unknowns": [
+    "Dimensões reais sem medida de referência",
+    "Curva estimada em seis degraus e comprimento do primeiro lance ainda comprimido",
+    "Não é validação estrutural ou de execução"
+  ]
+}

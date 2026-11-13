@@ -1,0 +1,301 @@
+{
+  "timestamp_utc": "2026-11-12T18:07:31.667244+00:00",
+  "artifacts": [
+    {
+      "file": "renders/residencia-07-atico-v05/00-cadernos/caderno-atico-v05.pdf",
+      "sha256": "daec814fed9767aa3de7b2c1b1e93af1b4b5d613419d6f39c8b643c10c5779b2"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/abertura-frente-detalhe.png",
+      "sha256": "c4aefa15088e55c1ce1912e8f582f79f641897f194e2adb72a799df1ebc6f86c"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/abertura-fundos-detalhe.png",
+      "sha256": "9060d897f4660b26a8a0865399ff3721b953ccb47d316c099fd6de9f85ebb668"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/atico-cobertura.png",
+      "sha256": "404bf19df40a625c2b5b21d71dc9a14c8bdabe08ce6d776506bd95432963c64d"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/atico-frente.png",
+      "sha256": "e30b1ac3c142c7fbbc03a05abd82472903ddba8409604eb818125acf169fdbf9"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/atico-fundos.png",
+      "sha256": "5a33bbad88b87617580ba7e0c2334587d2530c81e88cf3befdc81863900645d1"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/cobertura-vista-superior.png",
+      "sha256": "fb271aabf202b3410e2d684b7b53207609ab6b20473b1730c668bbd4755634e3"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/01-exteriores/encontro-cumeeiras.png",
+      "sha256": "2e28fd71d92fa608dfc76c262d4109912fc0bff781855ea0f21c33407f72d30c"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/02-interiores/atico-interior-frente.png",
+      "sha256": "eef29c019922889668a4b66c8ee4e024dc4b0770374459ab141298ea38fa087c"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/02-interiores/atico-interior-fundos.png",
+      "sha256": "5c440ab039b71191c814cfda0957163fadd0889476772ba35d17eb65c7ed411c"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/03-tecnica/atico-aberturas-transparente.png",
+      "sha256": "18877d30fee415b1e5ccf37fbe5ca3bf331576fc83a2e2b86f87452c8572a7c6"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/03-tecnica/atico-forro-corte.png",
+      "sha256": "61f482e1c6cfe2ddb7adfb427eac9cb36acee236f4901c59c348a1a57d6ee041"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/03-tecnica/atico-reservatorio.png",
+      "sha256": "cbbdfde8a5f70cc45f907a4beef496d6dd227e12c8ea7150dc4852622117601b"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/03-tecnica/escada-u-chegada-existente.png",
+      "sha256": "50e7263b5a2b5c8ae460802f9568f2acc6fdf92190e53ade013be19e2e814330"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/03-tecnica/escada-u-conjunto.png",
+      "sha256": "181220cf6bb8f473a3974323a273432ee6893603fade24ece737b6f710777b5e"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/03-tecnica/escada-u-detalhe.png",
+      "sha256": "3a1535d8ed814a6268c29c2c0b6a5e247f4497bbfd22b4c06f44c748c60a99e5"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/atico-alturas-forro.png",
+      "sha256": "f4223604a36025b50df6d6c330a6f12e5902646c22a533bb942a21ccaed5a812"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/atico-planta-3d.png",
+      "sha256": "b34d543b47c5a79d34a44c67c7978ea78d082c6d563e25ae5d5428a1e268be29"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/corte-alturas-escadas.pdf",
+      "sha256": "5dfe7d1c6a3e98e7cc835e6f687d62f195252912d5949d80f00ffec7438855f6"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/corte-alturas-escadas.png",
+      "sha256": "f31a2a221bb899b6f71c4169703c74bbc7a30f3226f8b06417bc60a69e510fde"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/corte-alturas-escadas.svg",
+      "sha256": "930e73160e440976b45833ad9a96e80cb3fa544ad9c0ece67fe81fc7ad4937f4"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/escada-u-planta-superior.png",
+      "sha256": "0d464747f39e3986d1b2f40e77b06354c5356edea4dd49f645b0151471f8c0c3"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/escadas-alinhadas.pdf",
+      "sha256": "cbf231cd7341ca53cc23765d9f8c1d839f045b299e69fdd5c91f2f1587ba98d1"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/escadas-alinhadas.png",
+      "sha256": "8582105612b0455bc464dc1e70bc1d94a68db12107c37d9e6af2008c121b21df"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/escadas-alinhadas.svg",
+      "sha256": "ec42517758c4bab0d3d5f9a9dd921fa185ec57804f8285489b2e5202bc3cb67f"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/mapa-alturas-forro.pdf",
+      "sha256": "835a93dff471cdc9c4e9b3ecd56e929371bd2c63b154c2ca5f277390af75c8fe"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/mapa-alturas-forro.png",
+      "sha256": "af667e44bb8996271aa1c7f7172aad570b6752795a9b8414a24b06483c308c4c"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/mapa-alturas-forro.svg",
+      "sha256": "89c43fb1adddb37a8177765b40f640fe47082a482cf8a8f14f56b2364710e2ca"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/planta-atico-cotada.pdf",
+      "sha256": "8db5a03e5f87c86b483a4884d149823acc78f9e5f1220483086b5a6c24dcd8a2"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/planta-atico-cotada.png",
+      "sha256": "9fd900b2110cc0cb9076ad29c8f3e3a38b391ea20127fa3bdb613ee01d66cc97"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/planta-atico-cotada.svg",
+      "sha256": "34abd521f20291f7751ea8a0b4bd5a4d0a2e802623586ca962145df38565d331"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/reposicionamento-caixa.pdf",
+      "sha256": "9fff77ddfffeb093d6476bffb69b7166455c2a818a7fbce5e34cee517b9755e5"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/reposicionamento-caixa.png",
+      "sha256": "c991cd03e034a7c0fd53588eb3b623d79168864a16aed0b5126828c7abb15c9f"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/04-plantas/reposicionamento-caixa.svg",
+      "sha256": "f9ab5cda986439255ad78851a028e8617dd2efb584cb953c671be0eec33149ce"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/01-vistas/01-referencia.png",
+      "sha256": "ca6aceaab25454e0cf41d4fd02f36740adc7ed594c844906a3cf50c041d3793a"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/01-vistas/02-giro-90.png",
+      "sha256": "0d13a565869e09c93f4d0b53a3b76c975fde066af2ae7d9fea3fe67e28f24e64"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/01-vistas/03-giro-180.png",
+      "sha256": "569ae7808608f7889784e66b47ab53eb6f057568b667756338696c9564be1e74"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/01-vistas/04-giro-270.png",
+      "sha256": "774122577d54033558962ec86f55d1cbbe39896830ce5433048dcee227347cce"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/01-vistas/05-lateral-patamares.png",
+      "sha256": "247ac28fbd18eaa28897ed9d28cb449af3982397e2b184ca47cf6434e98abf92"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/01-vistas/06-vista-superior.png",
+      "sha256": "48f91fabf07cf1f2d64bdef12b189e13acd908c3c00b7553f59c7c2441a4a2ed"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-00.png",
+      "sha256": "597a7cf729e8001f25da2b01c0cc99eeb597e9b7485588b4588a55b6f9a4b445"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-01.png",
+      "sha256": "516d3255c2cc829b8c8e1693eb8fac9672fa54678e1a67b2da45c638cb84edf7"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-02.png",
+      "sha256": "702e7d73b8cb1fd4bf8654507ce7ba47a10baf2cf6b8df47c7a4466b4c22d7be"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-03.png",
+      "sha256": "54af18c439f085da11e7810c98026963b248eb1d1063543ba44e60d425a0606d"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-04.png",
+      "sha256": "66cf6701498c5cdb27f5d40ee11f1ec95d95ad7cce2cb5f807c3f87c89690d06"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-05.png",
+      "sha256": "64bf2cbb7944ce4a0dcff7e4fa7c762359486365a100aa92a691b981270515f4"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-06.png",
+      "sha256": "54761b421bd0c0d1deacb0c4fbee9909a7421ebb975b897ed6eee4d2c3f75ac3"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-07.png",
+      "sha256": "48d03cef9100ff3c20ec219ab298938ef1c0488096dd2e8e9cd1bd11fa12b6ff"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-08.png",
+      "sha256": "9597b50fa8e6636578ae5a6249d6df656edad96a529ca1a7133113dad56c2d63"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-09.png",
+      "sha256": "32919bc50a65519f50d4b1545174b062c410e57d6c42c60e37d1421bd5072aa8"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-10.png",
+      "sha256": "704df7ca97b0ba661e55b02bebfb3c3237519118959ae97ee1f5c078e2eb0923"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-11.png",
+      "sha256": "d616fad6217aafc42ec95f95731e714e59c4fb36ec940e6fb4bd65a17ed6e371"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-12.png",
+      "sha256": "eab105ab4ba723b9810fac2f7f2c5150e356092d55a443a7b64921dd30318013"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-13.png",
+      "sha256": "99fe9b9b94d6ba138810ae1084211ddc92c5c064b48b47a3a5b29576ee6a4f25"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-14.png",
+      "sha256": "4e8e0ea113d3b1dbd5c1d4d06cb4ee59509eaa94522f2416b30f2785e32271f8"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-15.png",
+      "sha256": "0262d5541db1b2df05faf620a91080e5cfed5a0c955c069873f650bdcf620ea0"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-16.png",
+      "sha256": "60e2a1a462d7e207fce4acacf67bd06a0bfd729fc565b389ced19c8d5a8d006d"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-17.png",
+      "sha256": "5c3a66f652a38f3aaa8d463415a317774dc50b6567e167af4e412576e0434c9c"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-18.png",
+      "sha256": "44e4484e2ac11119341ef701c99678667513e0a4d9c52f073a334312ab753e71"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-19.png",
+      "sha256": "47e00e06c237e6b4f6c2a50b5cef45445acad7565a829cbe148cb986b70052ca"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-20.png",
+      "sha256": "0a9481f18efb62e4ad8ea6792c03b126b497a076337a342f32078a9f842a0309"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-21.png",
+      "sha256": "6b699251adfc4ef410787ed3e874455b49a0e5e61dc59ba31da7023bfd52d0d7"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-22.png",
+      "sha256": "cb93471198860cc93ba24db9377e0c61ea2938f343b3835a81ccec2f8a31fee4"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-23.png",
+      "sha256": "b944dc91fe8ef1941487c048f937a3ab64edf23b81ad3cc66eea9fe2dd530c28"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/LEIA-ME.md",
+      "sha256": "dc0a031a1a5908895d63af2615367583136912d3444d18c8bae5fee080fa0222"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/escada-completa-caixa.pdf",
+      "sha256": "c24a4ac099632414a13ab9c43e9594b5e5bddb171862358937058302552e9695"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/escada-completa-caixa.png",
+      "sha256": "b6c59eaf269e799d89ff3c3d895628c34d334135f77d98bdaf0c5dc58cfa50e2"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/escadas-seis-angulos.pdf",
+      "sha256": "61041214ae9de1aac65828d20c701939d738ff6536e173f1ca578b7e3740f312"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/galeria.html",
+      "sha256": "b333d02884f7de39f6fa9fa808962df2049acdb3b6d4c73c258cf622bc1f6320"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/giro-360.gif",
+      "sha256": "c3d5e1082d39a0164bb06ea53eb53afe8d4da3e8770f5b6f2e8646a602945858"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/07-escadas/painel-seis-angulos.jpg",
+      "sha256": "198c6e2403381a14ef004e0454401d6b5cb615f73e6884489482ba9758a7dff5"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/LEIA-ME.md",
+      "sha256": "74b60892b5ed76424d8518efca7f07de1d18474bc2ff98d2ad7187cbb7418d03"
+    },
+    {
+      "file": "renders/residencia-07-atico-v05/galeria.html",
+      "sha256": "685931470b0feaa15d8c3503c1db83f9a35dd203ab9d846718c224e17c8159e0"
+    }
+  ],
+  "delivery_generators": {
+    "scripts/residence07_attic_v05_delivery.py": "d70acdfff92d0d78331b3ef6b3d10498cd400ea7cc3d26dfcd55d9f590072273",
+    "scripts/residence07_attic_v05_views.py": "38fb7f7f0232ba07a7fd35864636342cf988090992e99c648fb396b44fec93e4"
+  }
+}

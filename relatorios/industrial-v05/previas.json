@@ -1,0 +1,62 @@
+[
+  {
+    "id": "planta-terreo",
+    "file": "relatorios/industrial-v05/previas/planta-terreo.png",
+    "sha256": "331220ebf629be3423817e97f1bf4a53d0c2c7e80e310d32c5325127238e8512",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": true,
+    "samples": 24,
+    "seconds": 2.66
+  },
+  {
+    "id": "sala-fundos",
+    "file": "relatorios/industrial-v05/previas/sala-fundos.png",
+    "sha256": "e4baf5cd10525a1d6b3c532237a476fc9a7a66792c2298a6decd98425d66e198",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": true,
+    "samples": 24,
+    "seconds": 3.16
+  },
+  {
+    "id": "sala-frente",
+    "file": "relatorios/industrial-v05/previas/sala-frente.png",
+    "sha256": "aeaccc4b0787adbd120724b1b74312258329d103d207e2fc0055d06dec8db566",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": true,
+    "samples": 24,
+    "seconds": 3.06
+  },
+  {
+    "id": "cozinha",
+    "file": "relatorios/industrial-v05/previas/cozinha.png",
+    "sha256": "8794ccf51c51569e217643910ec5e0213abbd81ccca5cb7842666f3f295be229",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": true,
+    "samples": 24,
+    "seconds": 2.84
+  },
+  {
+    "id": "bar",
+    "file": "relatorios/industrial-v05/previas/bar.png",
+    "sha256": "e8a26377186908e836da84ddbee26d644ca412f3c0d666f0cb0b5927e262ce8a",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": true,
+    "samples": 24,
+    "seconds": 3.13
+  },
+  {
+    "id": "escritorio-alternativa",
+    "file": "relatorios/industrial-v05/previas/escritorio-alternativa.png",
+    "sha256": "e3960c45036b948422cb9eaff474a840fd351a0c6f4b10d232dd8ca170095e8a",
+    "blend_sha256": "a958e7ebf3a911c0eacb70427cc293a39c7420348057cbae9c6d3ac3098f9f60",
+    "source_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+    "preview": true,
+    "samples": 24,
+    "seconds": 2.77
+  }
+]

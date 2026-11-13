@@ -1,0 +1,97 @@
+[
+  {
+    "original": "relatorios/atual/RELATORIO.md",
+    "archive": "historico/atual-pre-residencia07/relatorios/RELATORIO.md",
+    "sha256": "c9286b7470ff369daf1bb054160c7ec71a2149ddf4cbcab001730f482d8eedaa"
+  },
+  {
+    "original": "relatorios/atual/auditoria-depois.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/auditoria-depois.json",
+    "sha256": "035e76598d2235fc33ac27f716922e038c83c028e062dd5ed8d3b7db472fff2b"
+  },
+  {
+    "original": "relatorios/atual/auditoria-superior.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/auditoria-superior.json",
+    "sha256": "2f8727a0cfabedb461bf3098fb7dd0b6af5d20281910085a96a08b5f4654e337"
+  },
+  {
+    "original": "relatorios/atual/baseline.log",
+    "archive": "historico/atual-pre-residencia07/relatorios/baseline.log",
+    "sha256": "9798cbe04ad4db7ca46acdfea9950daf910f44af22299aee52c67ef0a2260b18"
+  },
+  {
+    "original": "relatorios/atual/checkpoint.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/checkpoint.json",
+    "sha256": "46e6fa273f617248b1d606157f44f5effcd34c387cecdca15e954acff0bcf089"
+  },
+  {
+    "original": "relatorios/atual/comparacao.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/comparacao.json",
+    "sha256": "1ac0bc680044eac62ffb0007477b7a71ca19790d384d868010314dfc7b9fab37"
+  },
+  {
+    "original": "relatorios/atual/encaixe-antes.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/encaixe-antes.json",
+    "sha256": "114c95601c7a3bf9bdd399aa028551fe0e391e4998d2fa2dc10540aa6494d906"
+  },
+  {
+    "original": "relatorios/atual/encaixe-pavimentos.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/encaixe-pavimentos.json",
+    "sha256": "7519966f171140f96217f474079b1a1bef9c0c54f90a48f72b7d7cc92a16ae7b"
+  },
+  {
+    "original": "relatorios/atual/geracao.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/geracao.json",
+    "sha256": "b9fa3c29ef578081de2167368dc40e9ef15a0cb5a219dd3c9dacc23af04c24b1"
+  },
+  {
+    "original": "relatorios/atual/geracao.log",
+    "archive": "historico/atual-pre-residencia07/relatorios/geracao.log",
+    "sha256": "eb0765e4eb86874284861e3c3a1b62f59a2647af33027933bd06251e6e8d1de4"
+  },
+  {
+    "original": "relatorios/atual/inicio.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/inicio.json",
+    "sha256": "047fd8926acf235c8c1823995dc32faacc6dd88cd4215961383e2a104a411629"
+  },
+  {
+    "original": "relatorios/atual/manifesto.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/manifesto.json",
+    "sha256": "340c99de951872384ff2cb562ee044aa94e73a33f8fc1a99b21e85ba529cae0d"
+  },
+  {
+    "original": "relatorios/atual/moveis-antes.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/moveis-antes.json",
+    "sha256": "3f7a1b63fccef012750e8d5a5430a4d9f0b72170cd44756d90048b5b03fd80a7"
+  },
+  {
+    "original": "relatorios/atual/promocao-local.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/promocao-local.json",
+    "sha256": "ae427223b706e8c96be6f76e7905f4a959bd65642edd68c2421008a7183e7e2d"
+  },
+  {
+    "original": "relatorios/atual/proporcoes.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/proporcoes.json",
+    "sha256": "d042fd84e978243894c12d67e4e54bcfd3d0c6f5d813c0f6900ebb6906c20bdc"
+  },
+  {
+    "original": "relatorios/atual/renders-finais.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/renders-finais.json",
+    "sha256": "7555d095214fedb2a8ecc45bf481929e81284c30cd9c2633217fde0aa678f12a"
+  },
+  {
+    "original": "relatorios/atual/revisao.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/revisao.json",
+    "sha256": "ef6c994e05f7f994f8a3ef1e8b6af79748f63d88e8aa84e103526412cbb7fdb7"
+  },
+  {
+    "original": "relatorios/atual/validacao.json",
+    "archive": "historico/atual-pre-residencia07/relatorios/validacao.json",
+    "sha256": "b7336b74cf04cb7524e1276ef3cccf2396d0697ac809ff17e63c7701eec33354"
+  },
+  {
+    "original": "relatorios/atual/validacao.log",
+    "archive": "historico/atual-pre-residencia07/relatorios/validacao.log",
+    "sha256": "27af850f4eb820cd9055e3b1ebdc501039561a127da0dd032f08ca6c8a3dbe2a"
+  }
+]

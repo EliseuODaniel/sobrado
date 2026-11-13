@@ -1,0 +1,14 @@
+[
+  {
+    "report": "relatorios/industrial-v01/modelo.json",
+    "model": "projeto/industrial-v01/casa-industrial.blend",
+    "removed_mesh_baseline_entries": 5,
+    "generation_provenance_retained": true
+  },
+  {
+    "report": "relatorios/industrial-v03/modelo.json",
+    "model": "projeto/industrial-v03/casa-fotografica.blend",
+    "removed_mesh_baseline_entries": 5,
+    "generation_provenance_retained": true
+  }
+]

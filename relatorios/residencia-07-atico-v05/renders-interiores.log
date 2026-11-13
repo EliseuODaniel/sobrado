@@ -1,0 +1,18 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.276  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
+00:00.522  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.523  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:10.025  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/04-plantas/atico-planta-3d.png'
+ATC5_RENDER_OK atico-planta-3d
+00:29.257  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/02-interiores/atico-interior-frente.png'
+ATC5_RENDER_OK atico-interior-frente
+00:53.194  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/02-interiores/atico-interior-fundos.png'
+ATC5_RENDER_OK atico-interior-fundos
+01:14.258  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/03-tecnica/atico-reservatorio.png'
+ATC5_RENDER_OK atico-reservatorio
+01:33.651  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/03-tecnica/atico-aberturas-transparente.png'
+ATC5_RENDER_OK atico-aberturas-transparente
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

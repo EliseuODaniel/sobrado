@@ -1,0 +1,7 @@
+00:01.719  blend            | Read blend: "C:\Users\edann\AppData\Local\Temp\CasaInteriores\atual-fiel-v02\projeto\residencia-07-atual-v02\casa-07-atual-fiel.blend"
+00:05.734  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+05:25.297  render           | Saved: 'C:\Users\edann\AppData\Local\Temp\CasaInteriores\atual-fiel-v02\renders\atual\02-ambientes\quarto-azul-bancada.png'
+CURRENT2_OPTIX_RENDER_OK quarto-azul-bancada 319.94
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

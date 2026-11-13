@@ -1,0 +1,33 @@
+{
+  "checks": [
+    {
+      "name": "six exact archived images",
+      "passed": true
+    },
+    {
+      "name": "historico/estudos/industrial-v02/renders/industrial-v02/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "historico/estudos/industrial-v02/renders/industrial-v02/previas/cozinha.png",
+      "passed": true
+    },
+    {
+      "name": "historico/estudos/industrial-v02/renders/industrial-v02/previas/lazer-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "historico/estudos/industrial-v02/renders/industrial-v02/previas/quarto-fundos.png",
+      "passed": true
+    },
+    {
+      "name": "historico/estudos/industrial-v02/renders/industrial-v02/previas/sala.png",
+      "passed": true
+    },
+    {
+      "name": "historico/estudos/industrial-v02/renders/industrial-v02/sala.png",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

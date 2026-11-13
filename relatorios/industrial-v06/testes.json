@@ -1,0 +1,15 @@
+{
+  "observed_commands": [
+    {
+      "command": "python3 -m unittest discover -s scripts -p 'test_residence07*.py'",
+      "tests": 37,
+      "returncode": 0
+    },
+    {
+      "command": "python3 -m unittest discover -s scripts -p 'test_industrial*.py'",
+      "tests": 8,
+      "returncode": 0
+    }
+  ],
+  "scope": "Execuções observadas nesta etapa após a política de remoção e o refinamento; resultados dos comandos registrados no transcript da sessão."
+}

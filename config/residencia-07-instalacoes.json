@@ -1,0 +1,23 @@
+{
+  "unit": "07",
+  "source_directory": "plantas/PDF - COMPLEMENTARES ZANON 131",
+  "layers": [
+    {"id":"eletrica-terreo","title":"Elétrica · térreo","discipline":"ELE","level":0,"file":"ELE04.pdf","origin_pt":[540.80,1153.60],"points_per_meter":84.96},
+    {"id":"eletrica-superior","title":"Elétrica · superior","discipline":"ELE","level":1,"file":"ELE05.pdf","origin_pt":[613.64,1001.92],"points_per_meter":84.96},
+    {"id":"hidraulica-terreo","title":"Água fria / quente · térreo","discipline":"HID","level":0,"file":"HID04.pdf","origin_pt":[190.64,713.20],"points_per_meter":56.64},
+    {"id":"hidraulica-superior","title":"Água fria / quente · superior","discipline":"HID","level":1,"file":"HID04.pdf","origin_pt":[690.92,713.20],"points_per_meter":56.64},
+    {"id":"esgoto-terreo","title":"Esgoto e ventilação · térreo","discipline":"ESG","level":0,"file":"HID08.pdf","origin_pt":[267.68,690.28],"points_per_meter":56.64},
+    {"id":"esgoto-superior","title":"Esgoto e ventilação · superior","discipline":"ESG","level":1,"file":"HID08.pdf","origin_pt":[767.96,640.00],"points_per_meter":56.64},
+    {"id":"tv-telefone-terreo","title":"TV / telefone · térreo","discipline":"TV","level":0,"file":"TV-TEL04.pdf","origin_pt":[540.80,1223.44],"points_per_meter":84.96},
+    {"id":"tv-telefone-superior","title":"TV / telefone · superior","discipline":"TV","level":1,"file":"TV-TEL05.pdf","origin_pt":[502.52,1082.56],"points_per_meter":84.96}
+  ],
+  "appendices": ["ELE04.pdf","ELE05.pdf","ELE06.pdf","HID04.pdf","HID05.pdf","HID08.pdf","TV-TEL04.pdf","TV-TEL05.pdf"],
+  "notes": [
+    "Traçados, símbolos, códigos de circuitos, seções, diâmetros e alturas são preservados vetorialmente dos PDFs fornecidos.",
+    "As pranchas elétricas e de TV/telefone originais dizem sem escala. O registro métrico foi reconstruído pelas faces das paredes da tipologia interna; não medir comprimentos de cabos ou eletrodutos nos diagramas esquemáticos.",
+    "Os originais completos acompanham o caderno para conservar legendas, detalhes ampliados, listas e esquemas de alimentação.",
+    "A base estrutural mostra paredes, lajes e escada indicadas na arquitetura, sem mobiliário. Não foi fornecido projeto de fundações, armaduras ou dimensionamento estrutural.",
+    "A sobreposição serve à leitura conjunta das disciplinas. Não equivale a detecção tridimensional de interferências nem aprova a execução.",
+    "Cotas arquitetônicas externas transcritas do projeto. Divergências internas entre traço, cota e área permanecem identificadas no relatório."
+  ]
+}

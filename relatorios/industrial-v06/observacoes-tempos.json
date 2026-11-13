@@ -1,0 +1,11 @@
+{
+  "blend_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "clock_discrepancies": [
+    {
+      "id": "bar-noite",
+      "native_seconds": 12836.45,
+      "process_seconds": 331.58
+    }
+  ],
+  "note": "Os tempos são medições distintas: contador do Blender no Windows e duração do processo pelo controlador no WSL. O quadro listado apresentou divergência; não usar seu contador nativo para estimar custo contínuo de GPU ou comparar motores. A causa da divergência não foi confirmada."
+}

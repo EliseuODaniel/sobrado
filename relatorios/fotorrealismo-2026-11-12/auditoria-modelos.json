@@ -1,0 +1,1320 @@
+{
+  "timestamp_utc": "2026-11-12T22:27:53.596251+00:00",
+  "blender_version": "5.2.4 LTS",
+  "method": "Unique source meshes before evaluating modifiers. Selected-scene objects follow first view layer exclusions and hide_render; no frustum/occlusion culling. UV presence does not establish UV quality. Image nodes may be disconnected. No blend save operation.",
+  "models": [
+    {
+      "id": "original",
+      "file": "projeto/residencia-07/casa-07.blend",
+      "size_bytes": 30773220,
+      "sha256_before": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+      "scenes": 29,
+      "selected_scene": "R07_sala-integrada",
+      "global": {
+        "objects": 2276,
+        "mesh_objects": 2057,
+        "unique_mesh_data": 739,
+        "unique_source_vertices": 26561,
+        "unique_source_polygons": 21780,
+        "mesh_objects_without_uv": 1472,
+        "mesh_objects_with_bevel": 555,
+        "material_count": 29,
+        "materials_with_image_nodes": 4,
+        "node_types": {
+          "NodeFrame": 2,
+          "NodeReroute": 1,
+          "ShaderNodeBsdfPrincipled": 29,
+          "ShaderNodeBump": 3,
+          "ShaderNodeHueSaturation": 6,
+          "ShaderNodeMapping": 2,
+          "ShaderNodeMath": 5,
+          "ShaderNodeMixRGB": 7,
+          "ShaderNodeNormalMap": 4,
+          "ShaderNodeOutputMaterial": 29,
+          "ShaderNodeTexCoord": 9,
+          "ShaderNodeTexImage": 14,
+          "ShaderNodeTexNoise": 6,
+          "ShaderNodeValToRGB": 3,
+          "ShaderNodeVectorMath": 4
+        },
+        "image_textures": [
+          {
+            "name": "brown_leather_albedo_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_metal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 11,
+          "SUN": 1
+        }
+      },
+      "selected_scene_render_enabled": {
+        "objects": 1245,
+        "mesh_objects": 1084,
+        "unique_mesh_data": 278,
+        "unique_source_vertices": 13849,
+        "unique_source_polygons": 11746,
+        "mesh_objects_without_uv": 856,
+        "mesh_objects_with_bevel": 208,
+        "material_count": 27,
+        "materials_with_image_nodes": 4,
+        "node_types": {
+          "NodeFrame": 2,
+          "NodeReroute": 1,
+          "ShaderNodeBsdfPrincipled": 27,
+          "ShaderNodeBump": 3,
+          "ShaderNodeHueSaturation": 6,
+          "ShaderNodeMapping": 2,
+          "ShaderNodeMath": 5,
+          "ShaderNodeMixRGB": 7,
+          "ShaderNodeNormalMap": 4,
+          "ShaderNodeOutputMaterial": 27,
+          "ShaderNodeTexCoord": 9,
+          "ShaderNodeTexImage": 14,
+          "ShaderNodeTexNoise": 6,
+          "ShaderNodeValToRGB": 3,
+          "ShaderNodeVectorMath": 4
+        },
+        "image_textures": [
+          {
+            "name": "brown_leather_albedo_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_metal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 11,
+          "SUN": 1
+        }
+      },
+      "render": {
+        "engine": "CYCLES",
+        "resolution": [
+          1920,
+          1440
+        ],
+        "percentage": 100,
+        "samples": 192,
+        "adaptive": true,
+        "adaptive_threshold": 0.02500000037252903,
+        "denoising": true,
+        "view_transform": "AgX",
+        "exposure": 0.10000000149011612,
+        "camera": {
+          "name": "R07 Camera sala-integrada",
+          "type": "PERSP",
+          "lens_mm": 18.0,
+          "dof": false
+        },
+        "world_environment_texture_nodes": 0,
+        "world_sky_nodes": 1
+      },
+      "sha256_after": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+      "unchanged": true
+    },
+    {
+      "id": "atual",
+      "file": "projeto/residencia-07-atual/casa-07-atual.blend",
+      "size_bytes": 3390747,
+      "sha256_before": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+      "scenes": 20,
+      "selected_scene": "ATUAL_sala-fundos",
+      "global": {
+        "objects": 2167,
+        "mesh_objects": 1987,
+        "unique_mesh_data": 868,
+        "unique_source_vertices": 16140,
+        "unique_source_polygons": 12484,
+        "mesh_objects_without_uv": 1290,
+        "mesh_objects_with_bevel": 684,
+        "material_count": 56,
+        "materials_with_image_nodes": 1,
+        "node_types": {
+          "ShaderNodeBsdfPrincipled": 56,
+          "ShaderNodeBump": 10,
+          "ShaderNodeHueSaturation": 2,
+          "ShaderNodeMath": 11,
+          "ShaderNodeMixRGB": 3,
+          "ShaderNodeNormalMap": 1,
+          "ShaderNodeOutputMaterial": 56,
+          "ShaderNodeTexCoord": 12,
+          "ShaderNodeTexImage": 3,
+          "ShaderNodeTexNoise": 20,
+          "ShaderNodeValToRGB": 10,
+          "ShaderNodeVectorMath": 11
+        },
+        "image_textures": [
+          {
+            "name": "wood_table_001_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 11,
+          "SUN": 1
+        }
+      },
+      "selected_scene_render_enabled": {
+        "objects": 2093,
+        "mesh_objects": 1913,
+        "unique_mesh_data": 794,
+        "unique_source_vertices": 15452,
+        "unique_source_polygons": 11992,
+        "mesh_objects_without_uv": 1222,
+        "mesh_objects_with_bevel": 678,
+        "material_count": 55,
+        "materials_with_image_nodes": 1,
+        "node_types": {
+          "ShaderNodeBsdfPrincipled": 55,
+          "ShaderNodeBump": 9,
+          "ShaderNodeHueSaturation": 2,
+          "ShaderNodeMath": 10,
+          "ShaderNodeMixRGB": 3,
+          "ShaderNodeNormalMap": 1,
+          "ShaderNodeOutputMaterial": 55,
+          "ShaderNodeTexCoord": 11,
+          "ShaderNodeTexImage": 3,
+          "ShaderNodeTexNoise": 18,
+          "ShaderNodeValToRGB": 9,
+          "ShaderNodeVectorMath": 10
+        },
+        "image_textures": [
+          {
+            "name": "wood_table_001_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 11,
+          "SUN": 1
+        }
+      },
+      "render": {
+        "engine": "CYCLES",
+        "resolution": [
+          1920,
+          1440
+        ],
+        "percentage": 100,
+        "samples": 96,
+        "adaptive": true,
+        "adaptive_threshold": 0.029999999329447746,
+        "denoising": true,
+        "view_transform": "AgX",
+        "exposure": -0.10000000149011612,
+        "camera": {
+          "name": "ATUAL_sala-fundos",
+          "type": "PERSP",
+          "lens_mm": 19.0,
+          "dof": false
+        },
+        "world_environment_texture_nodes": 0,
+        "world_sky_nodes": 1
+      },
+      "sha256_after": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+      "unchanged": true
+    },
+    {
+      "id": "instalacoes",
+      "file": "projeto/residencia-07/casa-07-instalacoes.blend",
+      "size_bytes": 442227,
+      "sha256_before": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+      "scenes": 20,
+      "selected_scene": "COLOR_estrutura-terreo-3d",
+      "global": {
+        "objects": 875,
+        "mesh_objects": 443,
+        "unique_mesh_data": 443,
+        "unique_source_vertices": 13212,
+        "unique_source_polygons": 12508,
+        "mesh_objects_without_uv": 329,
+        "mesh_objects_with_bevel": 76,
+        "material_count": 12,
+        "materials_with_image_nodes": 0,
+        "node_types": {
+          "ShaderNodeBsdfPrincipled": 12,
+          "ShaderNodeBsdfTransparent": 2,
+          "ShaderNodeMixShader": 2,
+          "ShaderNodeOutputMaterial": 12
+        },
+        "image_textures": [],
+        "light_types": {
+          "AREA": 11,
+          "SUN": 1
+        }
+      },
+      "selected_scene_render_enabled": {
+        "objects": 76,
+        "mesh_objects": 44,
+        "unique_mesh_data": 44,
+        "unique_source_vertices": 444,
+        "unique_source_polygons": 310,
+        "mesh_objects_without_uv": 38,
+        "mesh_objects_with_bevel": 6,
+        "material_count": 3,
+        "materials_with_image_nodes": 0,
+        "node_types": {
+          "ShaderNodeBsdfPrincipled": 3,
+          "ShaderNodeOutputMaterial": 3
+        },
+        "image_textures": [],
+        "light_types": {
+          "AREA": 11,
+          "SUN": 1
+        }
+      },
+      "render": {
+        "engine": "CYCLES",
+        "resolution": [
+          1920,
+          1440
+        ],
+        "percentage": 100,
+        "samples": 96,
+        "adaptive": true,
+        "adaptive_threshold": 0.029999999329447746,
+        "denoising": true,
+        "view_transform": "AgX",
+        "exposure": -0.6499999761581421,
+        "camera": {
+          "name": "COLOR_estrutura-terreo-3d",
+          "type": "ORTHO",
+          "lens_mm": 50.0,
+          "dof": false
+        },
+        "world_environment_texture_nodes": 0,
+        "world_sky_nodes": 1
+      },
+      "sha256_after": "e1592fe60cca434c94166d1a7189516e69945916d82cda3700cd6be30e135feb",
+      "unchanged": true
+    },
+    {
+      "id": "industrial",
+      "file": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+      "size_bytes": 143972874,
+      "sha256_before": "810711bee4ff36840d30aeb3ccc62716c13ac83f5d26adcee14577f181d13007",
+      "scenes": 25,
+      "selected_scene": "IND07_sala-fundos",
+      "global": {
+        "objects": 2519,
+        "mesh_objects": 2234,
+        "unique_mesh_data": 1052,
+        "unique_source_vertices": 71677,
+        "unique_source_polygons": 94664,
+        "mesh_objects_without_uv": 1361,
+        "mesh_objects_with_bevel": 832,
+        "material_count": 99,
+        "materials_with_image_nodes": 9,
+        "node_types": {
+          "NodeFrame": 10,
+          "NodeReroute": 5,
+          "ShaderNodeAddShader": 1,
+          "ShaderNodeBsdfPrincipled": 99,
+          "ShaderNodeBsdfTranslucent": 2,
+          "ShaderNodeBsdfTransparent": 2,
+          "ShaderNodeBump": 13,
+          "ShaderNodeHueSaturation": 10,
+          "ShaderNodeMapping": 6,
+          "ShaderNodeMath": 15,
+          "ShaderNodeMixRGB": 8,
+          "ShaderNodeMixShader": 3,
+          "ShaderNodeNormalMap": 9,
+          "ShaderNodeOutputMaterial": 99,
+          "ShaderNodeRGBCurve": 2,
+          "ShaderNodeTexCoord": 23,
+          "ShaderNodeTexImage": 31,
+          "ShaderNodeTexNoise": 27,
+          "ShaderNodeValToRGB": 14,
+          "ShaderNodeVectorMath": 13
+        },
+        "image_textures": [
+          {
+            "name": "brown_leather_albedo_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "calathea_orbifolia_01_alpha.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "calathea_orbifolia_01_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "calathea_orbifolia_01_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "calathea_orbifolia_01_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_metal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_leaves_alpha.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_leaves_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_leaves_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_leaves_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_pot_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_pot_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "potted_plant_02_pot_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "slate_floor_03_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "slate_floor_03_nor_gl_2k.exr",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "slate_floor_03_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "throw_pillows_01_diff.png.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "throw_pillows_01_nor_gl.png.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "throw_pillows_01_rough.png.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_diff_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 29,
+          "SPOT": 3,
+          "SUN": 1
+        }
+      },
+      "selected_scene_render_enabled": {
+        "objects": 2180,
+        "mesh_objects": 1927,
+        "unique_mesh_data": 857,
+        "unique_source_vertices": 25309,
+        "unique_source_polygons": 20724,
+        "mesh_objects_without_uv": 1180,
+        "mesh_objects_with_bevel": 717,
+        "material_count": 56,
+        "materials_with_image_nodes": 5,
+        "node_types": {
+          "NodeFrame": 2,
+          "NodeReroute": 1,
+          "ShaderNodeBsdfPrincipled": 56,
+          "ShaderNodeBump": 13,
+          "ShaderNodeHueSaturation": 8,
+          "ShaderNodeMapping": 2,
+          "ShaderNodeMath": 15,
+          "ShaderNodeMixRGB": 6,
+          "ShaderNodeNormalMap": 5,
+          "ShaderNodeOutputMaterial": 56,
+          "ShaderNodeTexCoord": 19,
+          "ShaderNodeTexImage": 17,
+          "ShaderNodeTexNoise": 27,
+          "ShaderNodeValToRGB": 14,
+          "ShaderNodeVectorMath": 13
+        },
+        "image_textures": [
+          {
+            "name": "brown_leather_albedo_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_nor_gl_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "denim_fabric_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_diff.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_metal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_nor_gl.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "modern_arm_chair_01_pillow_rough.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "slate_floor_03_diff_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "slate_floor_03_nor_gl_2k.exr",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "slate_floor_03_rough_2k.jpg",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_diff_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 29,
+          "SPOT": 3,
+          "SUN": 1
+        }
+      },
+      "render": {
+        "engine": "CYCLES",
+        "resolution": [
+          1920,
+          1440
+        ],
+        "percentage": 100,
+        "samples": 128,
+        "adaptive": true,
+        "adaptive_threshold": 0.02500000037252903,
+        "denoising": true,
+        "view_transform": "AgX",
+        "exposure": -0.11999999731779099,
+        "camera": {
+          "name": "IND07_sala-fundos_Camera",
+          "type": "PERSP",
+          "lens_mm": 19.0,
+          "dof": false
+        },
+        "world_environment_texture_nodes": 0,
+        "world_sky_nodes": 1
+      },
+      "sha256_after": "810711bee4ff36840d30aeb3ccc62716c13ac83f5d26adcee14577f181d13007",
+      "unchanged": true
+    },
+    {
+      "id": "atico",
+      "file": "projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend",
+      "size_bytes": 3230924,
+      "sha256_before": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a",
+      "scenes": 48,
+      "selected_scene": "ATC5_atico-interior-frente",
+      "global": {
+        "objects": 1763,
+        "mesh_objects": 1638,
+        "unique_mesh_data": 1322,
+        "unique_source_vertices": 19500,
+        "unique_source_polygons": 12808,
+        "mesh_objects_without_uv": 609,
+        "mesh_objects_with_bevel": 773,
+        "material_count": 46,
+        "materials_with_image_nodes": 1,
+        "node_types": {
+          "ShaderNodeBsdfPrincipled": 46,
+          "ShaderNodeBsdfTransparent": 1,
+          "ShaderNodeBump": 5,
+          "ShaderNodeHueSaturation": 2,
+          "ShaderNodeMath": 7,
+          "ShaderNodeMixRGB": 3,
+          "ShaderNodeMixShader": 1,
+          "ShaderNodeNewGeometry": 1,
+          "ShaderNodeNormalMap": 1,
+          "ShaderNodeOutputMaterial": 46,
+          "ShaderNodeSeparateXYZ": 1,
+          "ShaderNodeTexBrick": 1,
+          "ShaderNodeTexCoord": 6,
+          "ShaderNodeTexImage": 3,
+          "ShaderNodeTexNoise": 7,
+          "ShaderNodeValToRGB": 4,
+          "ShaderNodeVectorMath": 5
+        },
+        "image_textures": [
+          {
+            "name": "wood_table_001_diff_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 14,
+          "SUN": 1
+        }
+      },
+      "selected_scene_render_enabled": {
+        "objects": 904,
+        "mesh_objects": 781,
+        "unique_mesh_data": 465,
+        "unique_source_vertices": 6244,
+        "unique_source_polygons": 4466,
+        "mesh_objects_without_uv": 490,
+        "mesh_objects_with_bevel": 268,
+        "material_count": 41,
+        "materials_with_image_nodes": 1,
+        "node_types": {
+          "ShaderNodeBsdfPrincipled": 41,
+          "ShaderNodeBump": 5,
+          "ShaderNodeHueSaturation": 2,
+          "ShaderNodeMath": 7,
+          "ShaderNodeMixRGB": 3,
+          "ShaderNodeNewGeometry": 1,
+          "ShaderNodeNormalMap": 1,
+          "ShaderNodeOutputMaterial": 41,
+          "ShaderNodeSeparateXYZ": 1,
+          "ShaderNodeTexBrick": 1,
+          "ShaderNodeTexCoord": 6,
+          "ShaderNodeTexImage": 3,
+          "ShaderNodeTexNoise": 7,
+          "ShaderNodeValToRGB": 4,
+          "ShaderNodeVectorMath": 5
+        },
+        "image_textures": [
+          {
+            "name": "wood_table_001_diff_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_nor_gl_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          },
+          {
+            "name": "wood_table_001_rough_2k.jpg.001",
+            "size": [
+              2048,
+              2048
+            ],
+            "source": "FILE",
+            "packed": true,
+            "external_exists": true,
+            "missing": false
+          }
+        ],
+        "light_types": {
+          "AREA": 12,
+          "SUN": 1
+        }
+      },
+      "render": {
+        "engine": "CYCLES",
+        "resolution": [
+          1920,
+          1440
+        ],
+        "percentage": 100,
+        "samples": 96,
+        "adaptive": true,
+        "adaptive_threshold": 0.029999999329447746,
+        "denoising": true,
+        "view_transform": "AgX",
+        "exposure": -0.10000000149011612,
+        "camera": {
+          "name": "ATC5_atico-interior-frente_Camera",
+          "type": "PERSP",
+          "lens_mm": 21.0,
+          "dof": false
+        },
+        "world_environment_texture_nodes": 0,
+        "world_sky_nodes": 1
+      },
+      "sha256_after": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a",
+      "unchanged": true
+    }
+  ]
+}

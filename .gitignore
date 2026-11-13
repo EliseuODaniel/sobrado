@@ -25,3 +25,9 @@ __pycache__/
 /historico/**/*.blend
 /historico/rascunhos/
 /renders/industrial-*/previas/
+
+# Prévias da reconstrução da residência 07
+/renders/residencia-07/_trabalho/
+/relatorios/residencia-07/estudo-instalacoes-atico/previas/
+/relatorios/industrial-v05/previas/
+/relatorios/residencia-07-atico-v05/previas/

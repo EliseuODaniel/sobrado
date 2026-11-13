@@ -1,0 +1,40 @@
+{
+  "objective": "Descartar industrial v04 após extrair biblioteca independente e implementar melhoria máxima industrial na planta atual conforme quatro referências.",
+  "scope": "Industrial sem geladeira no bar em todos os modelos industriais e imagens vigentes; máximo refinamento da v06",
+  "status": "complete",
+  "obligations": {
+    "v04_removal": "VERIFIED: 84 version files/caches deleted, independent furniture library, base prepare test passed",
+    "photoreal_implementation": "COMPLETE for industrial v06: 31 scenes, 19 CC0 4K resources, metric UVs, furniture/hardware/light refinements. Protected architecture preserved; remaining representational limits documented.",
+    "renders_and_visual_review": "COMPLETE: all 31 native 3840x2880 RGB16 PNGs rendered, final sheets and representative 100% crops reviewed; 41-page PDF inspected.",
+    "geometry_and_delivery_validation": "COMPLETE: 398 v06 native checks, 98 delivery checks and 11 browser checks passed; current GLB cube/three-wall roundtrip passed. Earlier v05/archives and 37+8 unit tests documented.",
+    "unreal_pilot": "NOT_EXECUTED / FUTURE: user has no Unreal installation. Production uses Cycles/GPU; no engine equivalence, Lumen or FPS claim.",
+    "bar_fridge_removal": "VERIFIED: delivery sources v01/v02/v03/v05 and current v06 clean; all 25 v05 outputs + six v05 previews + six archived v02 outputs + 37 archived draft previews updated. 11 draft natives maintained, 48 file checks and 104 independent scene recovery checks passed. Legacy living-only studies and furniture library verified no bar fridge."
+  },
+  "constraints": [
+    "No subagents",
+    "No invented Unreal comparison",
+    "No architectural changes for composition",
+    "No resurrection of rejected stairs"
+  ],
+  "authoritative_model": "relatorios/industrial-v06/modelo.json",
+  "resume_next": "Industrial delivery complete. Do not rerender unchanged outputs. Unreal comparison and expansion to original/current/attic/technical models remain future plan stages.",
+  "benchmark": {
+    "source_hash": "bb909f29a010608bf77eaaedb0342db7dad998e8ee8916e35d9484c4236555e3",
+    "cuda_seconds": 451.19,
+    "windows_optix_seconds": 314.8,
+    "scope": "Same previous v06 bar frame, hardware paths and minor Blender versions differ; benchmark model superseded by authorised fridge removal and plant/sink refinement."
+  },
+  "active_processes": {},
+  "bar_removal_sources_receipt": "relatorios/industrial-v06/remocao-geladeiras-fontes.json",
+  "final_v06_sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+  "quality_correction": {
+    "reason": "Full-resolution crop showed overly coarse leather and pillow silhouette facets; preserve native UV atlas on upholstery, calibrate weave to 100 mm scan and use finer leather finish, smooth pillows. Architecture and bar policy unchanged.",
+    "old_input_sha256": "e4ceea56b06bf6ff50afd2771270ac226e4eda56d8d44177035616e4e0a0e4fe",
+    "native_windows_render_stopped": true,
+    "note": "This is an implementation iteration, not a user-requested pause.",
+    "diagnostic_crop": "relatorios/industrial-v06/diagnosticos/couro-linho-densidade-4k.png",
+    "diagnostic_result": "Reviewed: oversized grain removed; native UV atlas retained and softer pillow silhouette. Final 512-sample frames still to render."
+  },
+  "completed_utc": "2026-11-13T08:23:32.238288+00:00",
+  "cleanup_receipt": "limpeza-staging.json"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "atico-interior-frente",
+    "file": "relatorios/residencia-07-atico-v05/previas/atico-interior-frente.png",
+    "sha256": "18fe46df5b341a6315e2553733ef1a6a68d9f7da6b31e671aa6890b7d5309f25",
+    "blend_sha256": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a",
+    "group": "main",
+    "preview": true,
+    "seconds": 1.95
+  },
+  {
+    "id": "atico-interior-fundos",
+    "file": "relatorios/residencia-07-atico-v05/previas/atico-interior-fundos.png",
+    "sha256": "02ab6b27b885160df863a031cc1079ee88624ad05f75d73382e8f4c5d0ffd55b",
+    "blend_sha256": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a",
+    "group": "main",
+    "preview": true,
+    "seconds": 1.76
+  }
+]

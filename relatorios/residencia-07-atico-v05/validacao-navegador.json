@@ -1,0 +1,62 @@
+{
+  "timestamp_utc": "2026-11-12T17:44:31.195Z",
+  "browser": "151.0.7922.34",
+  "url": "http://127.0.0.1:8874/renders/residencia-07-atico-v05/07-escadas/galeria.html",
+  "html_sha256": "b333d02884f7de39f6fa9fa808962df2049acdb3b6d4c73c258cf622bc1f6320",
+  "checks": [
+    {
+      "name": "visor mostra v05",
+      "passed": true
+    },
+    {
+      "name": "angulo inicial 270 graus",
+      "passed": true
+    },
+    {
+      "name": "barra altera imagem e angulo",
+      "passed": true
+    },
+    {
+      "name": "avanco 15 graus",
+      "passed": true
+    },
+    {
+      "name": "retorno 15 graus",
+      "passed": true
+    },
+    {
+      "name": "fechamento 360 graus",
+      "passed": true
+    },
+    {
+      "name": "giro inverso fecha volta",
+      "passed": true
+    },
+    {
+      "name": "reproducao automatica",
+      "passed": true
+    },
+    {
+      "name": "pausa",
+      "passed": true
+    },
+    {
+      "name": "giro por arraste",
+      "passed": true
+    },
+    {
+      "name": "imagens carregadas",
+      "passed": true
+    },
+    {
+      "name": "tela pequena sem estouro horizontal",
+      "passed": true
+    },
+    {
+      "name": "sem erros JavaScript",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "errors": []
+}

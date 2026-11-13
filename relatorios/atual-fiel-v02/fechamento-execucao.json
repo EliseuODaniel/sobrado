@@ -1,0 +1,11 @@
+{
+  "render_queue_marker": "CURRENT2_ALL_FINAL_RENDERS_DONE",
+  "queue_wrapper_exit_code": 143,
+  "queue_interpretation": "Marcador final presente e 26 recibos nativos aprovados. Não se atribui código zero ao wrapper; a conclusão é sustentada pelos arquivos e pela validação independente.",
+  "finalizer_exit_code": 0,
+  "delivery_checks": 188,
+  "browser_checks": 12,
+  "visual_reviews": 26,
+  "pdf_review": "revisao-final/pdf-contato.jpg",
+  "timestamp_utc": "2026-11-13T14:41:30.053422+00:00"
+}

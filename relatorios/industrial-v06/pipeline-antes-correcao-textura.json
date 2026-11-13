@@ -1,0 +1,50 @@
+[
+  {
+    "phase": "v05-previas-sem-geladeira",
+    "started_utc": "2026-11-13T00:54:47.710131+00:00",
+    "status": "passed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/run_blender.py",
+      "--wsl-gpu",
+      "--background",
+      "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+      "--python",
+      "scripts/residence07_industrial.py",
+      "--",
+      "--render-only",
+      "--preview",
+      "--only",
+      "bar,cozinha,escritorio-alternativa,planta-terreo,sala-frente,sala-fundos"
+    ],
+    "exit_code": 0,
+    "completed_utc": "2026-11-13T00:55:06.841304+00:00"
+  },
+  {
+    "phase": "v06-previas-noturnas",
+    "started_utc": "2026-11-13T00:55:06.841548+00:00",
+    "status": "passed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/render_industrial_windows.py",
+      "--preview",
+      "--only",
+      "sala-integrada-noite,bar-noite,escritorio-noite",
+      "--resume"
+    ],
+    "exit_code": 0,
+    "completed_utc": "2026-11-13T00:55:52.980285+00:00"
+  },
+  {
+    "phase": "v06-finais-4k",
+    "started_utc": "2026-11-13T00:55:52.980507+00:00",
+    "status": "failed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/render_industrial_windows.py",
+      "--resume"
+    ],
+    "exit_code": 255,
+    "completed_utc": "2026-11-13T01:09:43.370043+00:00"
+  }
+]

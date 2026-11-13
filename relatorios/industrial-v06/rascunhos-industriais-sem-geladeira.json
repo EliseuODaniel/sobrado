@@ -1,0 +1,743 @@
+[
+  {
+    "file": "historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend",
+    "before_sha256": "5d568a0cb0803a6e5857a6052ad1351d8d636d2e7d01a6bd5c5050d542964516",
+    "after_sha256": "beb0b4467e63700c278fd0fb9f0ebc43e1c95ccadc00d43d8e81b78c5247342a",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/cozinha-reversa.png",
+        "before_sha256": "0e31714fcabfab0e54bb5bb424bab9a23a183222b337e713214f184db771c388",
+        "sha256": "7fff1878c04ecd73d7134ff2085dfb1faa015ea641cbeed09adf4524f5a639df",
+        "scene": "IND_Cozinha_Reversa",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 7.93,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/cozinha.png",
+        "before_sha256": "be8279e01065632ed307223ea258e5bed425c04e11e57455b28a83e8eb66ecec",
+        "sha256": "856fb5074a3780c37d46ecc02bbc2286ff1920ec8eb02da120d7df74ccdf4e0a",
+        "scene": "IND_Cozinha",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 7.92,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/lazer-fundos.png",
+        "before_sha256": "f35f09f5a6ad97ac2b4c5354b05216f07d57b2e1a1c25845dabd5999b99260a6",
+        "sha256": "32c1ad64a8f1f5b2340d7db11c956ed50337dc86f660946e1de7078fb5610034",
+        "scene": "IND_Lazer_Fundos",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.84,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/quarto-escritorio.png",
+        "before_sha256": "b35b43adf32fe21aaea7ac4ad4249bb395fea85eb1dc38151d400bf60cd0f9b9",
+        "sha256": "137dd65a95b8f13b7fa27866230515628d9de06b3947e4fe83edba9aaee24f96",
+        "scene": "IND_Quarto_Escritorio",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.12,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/quarto-fundos.png",
+        "before_sha256": "35cc51bb76e9d57f384ebb6e916151d24a6fc279156f3016b3c96823afbf7258",
+        "sha256": "19fd45056f9e16595d298b6789e4531246189e97f8fa6462a37cf9a56c1c744b",
+        "scene": "IND_Quarto_Fundos",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 9.4,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/sala-frente.png",
+        "before_sha256": "529c5608b48c09ec10a21b3d4404902484217248f67e8c0889cb1a1e255d3376",
+        "sha256": "eef8dc935d3d31e408a5c6ec70a6d5c0017e23d901a6f280fa80f27de90d5386",
+        "scene": "IND_Sala_Frente",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.53,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada01/previas/sala-integrada.png",
+        "before_sha256": "c077cccd84fcae108e87046127da56b1a9cb6e817aa23a06b723a3df42f2f1d2",
+        "sha256": "aeef82051edabe24a1fe289ce33b4e8efdc5dcc05b51827be51097afeb4c7622",
+        "scene": "IND_Sala_Integrada",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 9.95,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:38:40.285981+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend",
+    "before_sha256": "9c66bf0b8643c28b12244cfdd6a90ce13915ab3ff0d0c399ded0215a7775e70b",
+    "after_sha256": "286e0214fee6d817a8bab890572f2f7a9b70b21cac61d654c93210d2239ab45b",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/cozinha-reversa.png",
+        "before_sha256": "ef0b261721c02b55e46519ef33a59fa910c001be10e8fac5d076cf36b949c2a9",
+        "sha256": "b593ac741b89891dd9fbe1341ec26e881335701e7856015be10232f6774811df",
+        "scene": "IND_Cozinha_Reversa",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.12,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/cozinha.png",
+        "before_sha256": "87bb8c1099ca0e787765aa592cf3969d9db402c8070f5adee0b2b574497c4501",
+        "sha256": "79d2ca2859379df453c3d18e90d9222387e30f68a5db2c3d59f7c43a3835ae4b",
+        "scene": "IND_Cozinha",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 9.29,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/lazer-fundos.png",
+        "before_sha256": "0fca82fcf39054ff885f51ff61e0b97277674c26aaed2941797b319ef67ea050",
+        "sha256": "386a01d293f1716a6c35bdaf93eeb4923d9278e97b8d8e1c0405300724d88952",
+        "scene": "IND_Lazer_Fundos",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 7.83,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/quarto-escritorio.png",
+        "before_sha256": "2ed090b3050dfc1cf24dde5bb13758737e9a7f38315986bf54a580041134b520",
+        "sha256": "854e705a00c919535813439837507d7c562af1b727747452f6844011118fb96f",
+        "scene": "IND_Quarto_Escritorio",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.2,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/quarto-fundos.png",
+        "before_sha256": "903e9f2b5859498f89b88d9a8f67b0f032467c55caa981d5d23ef841fe411b1c",
+        "sha256": "61b6f9fd23948e7ac8b4af130adc0512cedb53f588aceb72e896f85db6ae29ab",
+        "scene": "IND_Quarto_Fundos",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.7,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/sala-frente.png",
+        "before_sha256": "3962cba6b124e148037e9d9be11a1318758c43bc1f21f0773911ffea005616f1",
+        "sha256": "bdac5515e1fbb618cf22c05a2c6dfd3780cb585290e555aeccaa8389cda4ca37",
+        "scene": "IND_Sala_Frente",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 8.81,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v01/rodada02/previas/sala-integrada.png",
+        "before_sha256": "28d26738f9fe0bf40929bc246279d6865ca65370ec83ec93b5622feddd18da67",
+        "sha256": "56a5c4000ac771af279d3ba07cb15594d93cab1e478dc0fc43cf71a2b1517afb",
+        "scene": "IND_Sala_Integrada",
+        "resolution": [
+          720,
+          450
+        ],
+        "samples": 16,
+        "seconds": 9.81,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:39:42.948583+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend",
+    "before_sha256": "5ae114d745da1dbc46a63cdaed4201dfc83bd0b3daabac27170811de0b12f5d4",
+    "after_sha256": "1fbd35ddddd1eecca7e8b2ee9215249f7ad9f63899d1cf14e63cbb327758d989",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/cozinha.png",
+        "before_sha256": "0ccf614045488db0429d602babb2bc4b140eeff65e0be508fe91c079ccad0f9f",
+        "sha256": "994bc37e69d11926b1df2f114a5ae5f422a7976246065ab18df6aaeb4ff8e151",
+        "scene": "HQ_Cozinha",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 15.98,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/lazer-fundos.png",
+        "before_sha256": "1b6f208f5e4368846019c20c9f1990d99998c4d88dd6c5301331037f3b3dc842",
+        "sha256": "1ccb12f7ffd988779a38d8c5c955a0090fb1c8447f83f9b85b47b2910187eb9a",
+        "scene": "HQ_Lazer",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 14.56,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/quarto-fundos.png",
+        "before_sha256": "3475352fc245f7411b438492991bc89a94076ad7856015663918613275a3afe5",
+        "sha256": "c02c869cc3cbba475aaf29a4fe5e15dfd98fe0f7305c4499cfbcfca970afd063",
+        "scene": "HQ_Quarto",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 14.93,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada01/previas/sala.png",
+        "before_sha256": "e147c978d0f8d8f65874e94e461627ee4891f1afd084cc1257f3d874deea036d",
+        "sha256": "f1af59acd7cc1d73bbb860ec3510de390d8dcf24c12ec4f6b549b367a0cffee5",
+        "scene": "HQ_Sala",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.56,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:40:46.831694+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend",
+    "before_sha256": "cfb28e55326daa60e2b717eb73f379aec50cdceb186dbea0720b0c215eea1ce7",
+    "after_sha256": "3fa1581c20fb4377e7222a2aecaca743c41ac1a0f70fb99ffee5c755bff93f1c",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/cozinha.png",
+        "before_sha256": "f24627b942034f88a914044b5583e46743dc631a02c1b77cc6bed094ce3ceb45",
+        "sha256": "adc0691510faf7fd2be211c161d8f7f520aac367af5a75ac2bdc58306d921add",
+        "scene": "HQ_Cozinha",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.18,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/lazer-fundos.png",
+        "before_sha256": "9d9d250b94b79b9a9f958ce89dfa69bc5a9c5fe83497c9c94b50d62990203e5e",
+        "sha256": "bb2725ceeaedd88d61ce79cb694b8fd6df5b493e3a747127a2e9ac1d35211e00",
+        "scene": "HQ_Lazer",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 14.28,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/quarto-fundos.png",
+        "before_sha256": "fdb7c80313f35ecf11049a9a7d7d0fa794792048e8e8415e9f30eb4b39cb21ed",
+        "sha256": "ba4a7f3d041592722a2dcfc804333cb265ee85410ba11a712a0294e037b8f5c5",
+        "scene": "HQ_Quarto",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 15.36,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada02/previas/sala.png",
+        "before_sha256": "960c46937de72ad27b0e7773c5703284aea1cff0d87255d9679d59010e8da0c2",
+        "sha256": "cae185906cc640539a075b6e1c5dff54782a52e0869526cb9f5436da1cc84e44",
+        "scene": "HQ_Sala",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.96,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:41:51.611661+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend",
+    "before_sha256": "3dd184ebc92aee368f78a4071915d1b9115422df6073dc44fdbaaf24d1a6d7f0",
+    "after_sha256": "28e4646b37e6eb628b44bad850f942b26a558846bc0fa25e5a4150c502153743",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/cozinha.png",
+        "before_sha256": "7ae8a7176fb5800fef7501eddf7a76ae4832fd073c279eeeda0ab6b9a589ae28",
+        "sha256": "f059ea2807cd2712484e65e62f0357b1dba8656ce4b840001f2e723cfa8c6a72",
+        "scene": "HQ_Cozinha",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.09,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/lazer-fundos.png",
+        "before_sha256": "e5d41eef73cc971e72ec70e7b79a50da27f5e5e53abdc1c5c3562f2e86347ec8",
+        "sha256": "4efff4f48c4f211c4f1447966e175ea99be7cc0d99529df34ccb4fcfb2ef210f",
+        "scene": "HQ_Lazer",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 13.94,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/quarto-fundos.png",
+        "before_sha256": "ff9dc0085303ec0896c9164d552df256ce84588d15d766d456a52620b52b72bf",
+        "sha256": "cff7037880910d694242b86b66ba4f515a284806c1bec6cd5470fa8fe225e7b9",
+        "scene": "HQ_Quarto",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 14.59,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada03/previas/sala.png",
+        "before_sha256": "2c78e6713b31037edec1a053bf207a2780e11211e5eeef2c45e4cc00fba018b0",
+        "sha256": "d27d25c3c4d291680c2f3452c88eb8fe0b892a149a23f2055fa8008922060df7",
+        "scene": "HQ_Sala",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.9,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:42:57.113375+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend",
+    "before_sha256": "9ab8468948deb002bb3fc6d87b4c7ed0f1dd7517d0cf7a9c6dfb26da86b72b2e",
+    "after_sha256": "97d43d451468162b690875d32e0125c680071674c08679b3eeee4fe078fed105",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/cozinha.png",
+        "before_sha256": "4982774aa8a5eb7600e8a1f725f943a4c97dc2f082c82ee082f411a77cc6c3c6",
+        "sha256": "d3c3af6fc42b3bb96110850bb0f7c33bfff2f34e54588344722c93e9826f3624",
+        "scene": "HQ_Cozinha",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.27,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/lazer-fundos.png",
+        "before_sha256": "3f910240d8cbc1de96079f1265792a905a61047187989c7fdda6fe88bece1493",
+        "sha256": "1fe847a9fe2ee40af0b642f147bf5523dc30bee5ab1d71af3ce9a76f0c2acbd7",
+        "scene": "HQ_Lazer",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 14.37,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/quarto-fundos.png",
+        "before_sha256": "cbe3a058137d162fc65f0eb1793bf618c001c528befd3b670456d9475b67b52d",
+        "sha256": "2e713fef61dfff53bc848a513def8593c19cebe71c3b7701734a9d2b8f35fdaf",
+        "scene": "HQ_Quarto",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 14.12,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v02/rodada04/previas/sala.png",
+        "before_sha256": "6a6cbb98bd68dc9845a197965c050bdad15ede059893a5abeef4783401c7dfc6",
+        "sha256": "767657a646b278381b73baa996b66edf3d0ddba89f0c815c08c5c118334ad52c",
+        "scene": "HQ_Sala",
+        "resolution": [
+          768,
+          480
+        ],
+        "samples": 24,
+        "seconds": 16.98,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:44:01.375346+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend",
+    "before_sha256": "4b1ad3b75cf227c0f4f1acb4bdd7292139b16b0dc3c6f377689b3be24208bab0",
+    "after_sha256": "164c60ffe6948363447c6c28ec86d37b69697f350154319f35994c4a3980275f",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada01/previas/sala.png",
+        "before_sha256": "036384d88437998847935f9255d88b95c481caf8aeabccd904d5427833258f78",
+        "sha256": "19ed149cf676841a48c0a03cee0ac8338f2505452c3f762de426c0a5a96aa88e",
+        "scene": "PHOTO_Sala",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 80.74,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:45:09.063404+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend",
+    "before_sha256": "a05b420a9bd668252cf542b2a8dc368d887c655221f188360feb6c5c195bcc8e",
+    "after_sha256": "a6e6bb041dedc154934e86187ed7a0959a6f7d3e11996f454f6cf71bd4b39336",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada02/previas/sala.png",
+        "before_sha256": "b5ba066461298f0cc891d21db96ca3c255a9a6c74326c7f838159446c401ab90",
+        "sha256": "9a20ffaf384a2b628f3c6359da7e84a17837326e519c27101c4aacb462abdc12",
+        "scene": "PHOTO_Sala",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 114.19,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:46:34.457473+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend",
+    "before_sha256": "dda92806416cda7a0efcb099a06753b55b7778a7ced21f1a2a743ef81495de37",
+    "after_sha256": "79215aff94d31446b47af0939ee6861814e7d83fa757c914d0b8fbb432243c10",
+    "removed": [
+      "Corpo geladeira",
+      "Geladeira bar observada",
+      "Porta geladeira",
+      "Porta geladeira.001",
+      "Puxador geladeira",
+      "Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "kitchen_roots_preserved": [
+      "Geladeira cozinha"
+    ],
+    "verified_after_reopen": true,
+    "images": [
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/cozinha.png",
+        "before_sha256": "f28cc1c8ae106731fd2d1b06380a29fc8b07836d6c8f6059eb836a08a4f91ece",
+        "sha256": "ad0f8a53f8d9d9905637014cc1c5a3f5c516513a6de91a8c22db76eba4791b6a",
+        "scene": "PHOTO_Cozinha",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 117.1,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/lazer-fundos.png",
+        "before_sha256": "60384a6fda2797bbb6f6db255118701c08a82a324c734daeaa34cc8f028b5bb4",
+        "sha256": "20a8711f0d8fd6a774824188ee6feece5161ee96a968b3b23fefde02b88a54c0",
+        "scene": "PHOTO_Lazer",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 173.09,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/quarto-fundos.png",
+        "before_sha256": "b111ce8242bbedb2c7b142609103d98aea2a0b629bd19e7424a589b39c0c63fe",
+        "sha256": "a287699f2e1e9e89e48ccff8f3b165ccc9083a4dd574b61f92e4f67fe8402c6b",
+        "scene": "PHOTO_Quarto",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 83.7,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/sala-integrada.png",
+        "before_sha256": "576d507f5918d084b5b69fd7b1447e3a3d5c892af820966bcf67b58fc56e3e76",
+        "sha256": "51a16bcdfee0bcf0f63cda8c20249a248b2645556fbee4d842a8629ec90c0e4a",
+        "scene": "PHOTO_Sala_Integrada",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 102.22,
+        "bar_fridge_absent": true
+      },
+      {
+        "file": "historico/rascunhos/industrial-v03/rodada03/previas/sala.png",
+        "before_sha256": "fa713bcae11fd7bbbdc4aacc2e54e2f5cb64ad25e0b56af7d5f2320d6cb9cb0e",
+        "sha256": "503bc1579cee79435c2e3250b66ca1e0a10350060bf50501c4cd6eee03b3459d",
+        "scene": "PHOTO_Sala",
+        "resolution": [
+          1152,
+          720
+        ],
+        "samples": 64,
+        "seconds": 128.57,
+        "bar_fridge_absent": true
+      }
+    ],
+    "timestamp_utc": "2026-11-13T01:48:35.720435+00:00"
+  },
+  {
+    "file": "historico/rascunhos/industrial-v05/previa01.blend",
+    "before_sha256": "97c99f83740d085ab638f8ab475fa52f3105f781be9b175b245f6625d5b92642",
+    "after_sha256": "82be8addb74a4f96e97e13c1656d5b5bc351817398d2c78273f73076a3ad4616",
+    "removed": [
+      "ATUAL Corpo geladeira",
+      "ATUAL Geladeira bar observada",
+      "ATUAL Porta geladeira",
+      "ATUAL Porta geladeira.001",
+      "ATUAL Puxador geladeira",
+      "ATUAL Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "verified_after_reopen": true,
+    "images": [],
+    "presentation_scenes_verified": 25,
+    "restored_cameras": [
+      "IND07_volumetria_Camera",
+      "IND07_terreo-3d_Camera",
+      "IND07_superior-3d_Camera",
+      "IND07_suite_Camera",
+      "IND07_sala-tv_Camera",
+      "IND07_sala-fundos_Camera",
+      "IND07_sala-frente_Camera",
+      "IND07_quarto-fundos_Camera",
+      "IND07_quarto-frente_Camera",
+      "IND07_planta-terreo_Camera",
+      "IND07_planta-superior_Camera",
+      "IND07_mesa-jantar_Camera",
+      "IND07_lavanderia_Camera",
+      "IND07_lavabo_Camera",
+      "IND07_fundos-abertos_Camera",
+      "IND07_fachada-frontal_Camera",
+      "IND07_escritorio-reverso_Camera",
+      "IND07_escritorio-alternativa_Camera",
+      "IND07_escada-superior_Camera",
+      "IND07_escada-acesso_Camera",
+      "IND07_divisao-lazer-lavanderia_Camera",
+      "IND07_cozinha_Camera",
+      "IND07_cozinha-reversa_Camera",
+      "IND07_bar_Camera",
+      "IND07_bar-detalhe_Camera"
+    ],
+    "recovery": {
+      "reason": "O primeiro salvamento descartou referências de cenas/coleções sem usuário efetivo. Detectado na reabertura.",
+      "layout_source": "historico/rascunhos/industrial-v05/previa02.blend",
+      "layout_source_sha256": "c4418d8b187db8d4c52d16dba080990d03bd9c94fc4e1f5b2daddfcf26b1e2ea",
+      "same_documented_jobs_and_config": true,
+      "retained_object_fingerprints_verified": 2225,
+      "protected_fingerprints_verified": 795,
+      "note": "25 cenas/câmeras e suas coleções restauradas da revisão seguinte. Objetos, materiais e luzes retidos da R1 remapeados sem substituir sua geometria."
+    }
+  },
+  {
+    "file": "historico/rascunhos/industrial-v05/previa02.blend",
+    "before_sha256": "7c3930291dd1f7b1cc94e0d1803ebc43f3069951da3567cff2c570b6412cb144",
+    "after_sha256": "c4418d8b187db8d4c52d16dba080990d03bd9c94fc4e1f5b2daddfcf26b1e2ea",
+    "removed": [
+      "ATUAL Corpo geladeira",
+      "ATUAL Geladeira bar observada",
+      "ATUAL Porta geladeira",
+      "ATUAL Porta geladeira.001",
+      "ATUAL Puxador geladeira",
+      "ATUAL Puxador geladeira.001"
+    ],
+    "non_bar_geometry_unchanged": true,
+    "verified_after_reopen": true,
+    "presentation_scenes_verified": 25,
+    "retention_flags_explicit": true,
+    "images": []
+  }
+]

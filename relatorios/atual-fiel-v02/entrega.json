@@ -1,0 +1,321 @@
+{
+  "timestamp_utc": "2026-11-13T14:36:35.614103+00:00",
+  "model_sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+  "renders": 26,
+  "comparisons": 16,
+  "pdf_pages": 45,
+  "artifacts": [
+    {
+      "file": "renders/atual/00-cadernos/caderno-atual.pdf",
+      "sha256": "c308393db3b5abbc62d492cda775f52c74c09e5d59bbe4bcacfab1d46de88dba"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-atual-superior.pdf",
+      "sha256": "11b06c417ac1ddfd430d1cb9c445b11056810096a5ccbb71c1ecda70d72b33a7"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-atual-superior.png",
+      "sha256": "9e14ca15d3f66a50e80baacc0a1ca119a16516d5cb36340f672b63f06680236b"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-atual-superior.svg",
+      "sha256": "558db94b6c75128826ea966b2756f939dee49774f9b909ce9ac4d1224da3c7e1"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-atual-terreo.pdf",
+      "sha256": "4612fada90809e3e6c717c80b727a547bfd4ef7ca729e61602aa7f8a15159c80"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-atual-terreo.png",
+      "sha256": "4b1655e17863805517a5f1d1883c10a48d042f846e92f077414d06508eeee16a"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-atual-terreo.svg",
+      "sha256": "be85ef7f8c001ec88c96bebd19038934adbb63fd93b97c0f89b55c703608c357"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-superior.png",
+      "sha256": "b75d49f6c0c3afd013208c088b502ff4a86675901e419db2625b16e2a7dd5541"
+    },
+    {
+      "file": "renders/atual/01-plantas/planta-terreo.png",
+      "sha256": "0bb72bfabb09f831bbbc3eac793797b0293d31c1df8356812c1c46118cd9c7a6"
+    },
+    {
+      "file": "renders/atual/01-plantas/superior-3d.png",
+      "sha256": "888fb7f1dc83d4b3e894e23834070faa9026ba3d2e2375d57d27f0157ed708bd"
+    },
+    {
+      "file": "renders/atual/01-plantas/terreo-3d.png",
+      "sha256": "fce130060733a30d4d162f429478db1c0bfeeb3e4fc1215cf602a0dc8ed00e6b"
+    },
+    {
+      "file": "renders/atual/02-ambientes/banheiro-social.png",
+      "sha256": "8a9213805b37bac5d66a3a6d45b242bbd8ff33edb73d739cbd0bdaab525f63d6"
+    },
+    {
+      "file": "renders/atual/02-ambientes/banheiro-suite.png",
+      "sha256": "4694f0e1b345878dcb7715936b984ad165d38c180e0a4090eb9b0cfabf8a3ac8"
+    },
+    {
+      "file": "renders/atual/02-ambientes/bar.png",
+      "sha256": "b5280b4d4c733c40742de7d43c001b25dbb0b08102fb112fce2089fa288e77dd"
+    },
+    {
+      "file": "renders/atual/02-ambientes/cozinha-reversa.png",
+      "sha256": "c7bf112b553300fac6b629a53c64c6c0ebe78b6def739d6b91e69529bf468616"
+    },
+    {
+      "file": "renders/atual/02-ambientes/cozinha.png",
+      "sha256": "8ccf103533c88a78681788a80edac050d1f95ae38e5e6fc353b4df281ed862f0"
+    },
+    {
+      "file": "renders/atual/02-ambientes/divisao-lazer-lavanderia.png",
+      "sha256": "e0677d33ba5eddbbe4b15c555180497e1c1ac98dbf5c56ece62750cb52c95cb0"
+    },
+    {
+      "file": "renders/atual/02-ambientes/escada-acesso.png",
+      "sha256": "ddf18059bb3f1a610763e6d744fc85d984731e362c27749b2560e68feb6e8e29"
+    },
+    {
+      "file": "renders/atual/02-ambientes/escada-superior.png",
+      "sha256": "148d1c8d0a083b403d20c171106f4b13d8ed3a74ceaa3e4624dd7c1f85696589"
+    },
+    {
+      "file": "renders/atual/02-ambientes/fundos-abertos.png",
+      "sha256": "80c9bf3f2dd6dda7cf56b8c25d1f7ca0734d406008ceb2a5c1e2324830e9d91f"
+    },
+    {
+      "file": "renders/atual/02-ambientes/lavabo.png",
+      "sha256": "ba58a0c13d723d46fbfe6166490bf59e752b816e3993df309c7392f616d53d6c"
+    },
+    {
+      "file": "renders/atual/02-ambientes/lavanderia.png",
+      "sha256": "e1020a90a52353bb92327b0cb40adef0802683faea369c1301657fb7234b5a8b"
+    },
+    {
+      "file": "renders/atual/02-ambientes/quarto-azul-bancada.png",
+      "sha256": "6df9c4762c5e3173abce201a855fad05452b0eb91cf41bc213ac4859263ef2b4"
+    },
+    {
+      "file": "renders/atual/02-ambientes/quarto-branco-armario.png",
+      "sha256": "5284218e10b342af7110a2aeeddee671a54ca71f72dfe31d9894197c6939d31f"
+    },
+    {
+      "file": "renders/atual/02-ambientes/quarto-frente.png",
+      "sha256": "91175add063ab38e97de8fc79a26e686c5f2bd04f772d94420ccbc273473aa05"
+    },
+    {
+      "file": "renders/atual/02-ambientes/quarto-fundos.png",
+      "sha256": "0a5c73243c7c6635094b70993bdc7b0d0f879c07836f623d521c148e1224fe31"
+    },
+    {
+      "file": "renders/atual/02-ambientes/sala-foto.png",
+      "sha256": "2ab2dd51f26b378e1e8906f3406140e933d5195d0615e1c318b25296e661b770"
+    },
+    {
+      "file": "renders/atual/02-ambientes/sala-frente.png",
+      "sha256": "e0983cc7e59364ddc79aa29744825ed4ed271b45e5d02e3983113468921b662c"
+    },
+    {
+      "file": "renders/atual/02-ambientes/sala-fundos.png",
+      "sha256": "1bce32eaee4cbe1f99e3cc77b77ad9112b1a7da66e98af8f8feaf2bd06765a75"
+    },
+    {
+      "file": "renders/atual/02-ambientes/suite-reversa.png",
+      "sha256": "c10c44fa991e7d916cba6615352f442d7d16e54afb0ece9f2f5e81e231a6a853"
+    },
+    {
+      "file": "renders/atual/02-ambientes/suite.png",
+      "sha256": "ab54c066bd68d5619e249eaa2b775878cd28966073d3359ddc8b4927977de385"
+    },
+    {
+      "file": "renders/atual/03-exteriores/fachada-frontal.png",
+      "sha256": "49445b8c6d5bf20bc3e0f077397d4f306c2d692afbb311428d3d9b19216bb38d"
+    },
+    {
+      "file": "renders/atual/03-exteriores/volumetria.png",
+      "sha256": "dd0ccd6f3cef064423bbc5caa1ef3d43ab7fe56b3b385c03ddc4a99dcd698e8c"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/banheiro-social.jpg",
+      "sha256": "398c57f828513bfea0c7361ce7593b2980355f839365d0273cc30826daa8607f"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/banheiro-suite.jpg",
+      "sha256": "126e6d576c0f5c3ae11e5ef5eaba1adb63cac7c3cc6fc3e64bc0d02dd55a7853"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/bar.jpg",
+      "sha256": "e4db54b24a1ff6ce194b39ce832145b5ecda7af12aa58316cb40f756f0b37e88"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/cozinha.jpg",
+      "sha256": "fcdc7d7effb7a21066275c9fc527d186fd0f210504cf2e1b42006d9009219e35"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/escada-superior.jpg",
+      "sha256": "8aa777d0b71c8ac8bb18de0772d8d940448e3c7b045adf434a081226f0726c44"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/fachada-frontal.jpg",
+      "sha256": "9ac07e0504e7c0ccef26ea915c9127d48d7b0e2362e4b7eb716471979210a8ab"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/lavabo.jpg",
+      "sha256": "17ea3afde111a696348170dd7838dd1995e0e0d30a2ab1d5f627da84f610b00a"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/lavanderia.jpg",
+      "sha256": "55c42504704577b6ea50a5f0ac17d3452a0bf99bcf42c9441e2441dc679fbfec"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/quarto-azul-bancada.jpg",
+      "sha256": "03e588389b34364e8d23e9746f84ec3ed0c76f6d25951ceabb0bff1f85524557"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/quarto-branco-armario.jpg",
+      "sha256": "4bc4f75dbbd1e2166a7fca0d8a518b45bc5d0196df3b2b584c44dbb07984ef6e"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/quarto-frente.jpg",
+      "sha256": "94ed4faa2617f3fec45379bc40a6189a631a671e65102a1fd78a93d5e2bf4c73"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/quarto-fundos.jpg",
+      "sha256": "7b4b04799a7eab89c43a894d0d0334268aee7338bb120ea5b7e706c5bae04151"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/sala-foto.jpg",
+      "sha256": "7358c18f927c5dc561ba919ab155e4c6cd0d9e01689da553929a087fb8268008"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/sala-fundos.jpg",
+      "sha256": "34e37c5923fec75ec21bf801ea8ff6f0c62c925318cb20dae73dfa33f5d1d404"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/suite-reversa.jpg",
+      "sha256": "9ac915e065478fd86aaa3f8dce32df13cc9e7f8bfb4bc29f2eb9849b40cfdd99"
+    },
+    {
+      "file": "renders/atual/04-comparacoes/suite.jpg",
+      "sha256": "5c0c00e81ae845466f6bb2c9b261b5525a58aa20fdaecbd0a92f295c6bc4b023"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/banheiro-social.jpg",
+      "sha256": "d543c5900ba072925f47255a3f1b6d65cfe249f67f5eedec944c6c78fd05114f"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/banheiro-suite.jpg",
+      "sha256": "192cc5c4f5f4f7b31520cc4cb26f7ad8a4630b0b348d4f72cc87c0c54e539a1c"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/bar.jpg",
+      "sha256": "a2b058c6fe4a6d16ace91fc22fb89641d7a4c2ca1eac664abd35d77273fa05ec"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/cozinha-reversa.jpg",
+      "sha256": "c9dd05ed93c1d30ba29708e029acdc8e78f662562c55ecf31c01aa2951e8083b"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/cozinha.jpg",
+      "sha256": "1a72b8b2c465da7057e07725bc50aaa529f2957fabef3aa9e977ee1fe18174b5"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/divisao-lazer-lavanderia.jpg",
+      "sha256": "14a7e3d0f1afe84d58f8446d87fc86de08d64a1abd3ed39fb07e4a1c229663f7"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/escada-acesso.jpg",
+      "sha256": "7d023c585ec49a05841e433d49d22a20c03efd9246566bb72a9bf2b847f384a6"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/escada-superior.jpg",
+      "sha256": "a9e501cf847e6cc21eb76f29c797de042a48112c5c2aee05fa77d13d93d707a3"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/fachada-frontal.jpg",
+      "sha256": "14d75d46dead96c3a20b5a13f9526df8e06c7aa64711b32e49ee2b55b4293de4"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/fundos-abertos.jpg",
+      "sha256": "562a3a89287c772bc800def6242919ef232e19c14d37e0c821b24ed03050b1e5"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/lavabo.jpg",
+      "sha256": "6aa1c5a2fb861444fc7bebbdabffc896e622596f93ef28e83e537feca93766c8"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/lavanderia.jpg",
+      "sha256": "8e2c8f380c59bd2658339512a43965b742e25586f050fafad8419026032cc846"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/planta-superior.jpg",
+      "sha256": "b0ef303947db50470f2cc8f280d1fcfadd381ff8b040acb9e24073894d25a772"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/planta-terreo.jpg",
+      "sha256": "2d7f87789fdaeb0cf5b015e6ea4a2bbd084531d40e97c6645bbf5cb9ac7f9f07"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/quarto-azul-bancada.jpg",
+      "sha256": "492b0ee637464150d590dec4f3d36984e301471b437b70be8b9f6168e6efc1fa"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/quarto-branco-armario.jpg",
+      "sha256": "b73c45f31a96c949bfb3263247ea7c8e65be206d445c9198b2bacb6538036ed6"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/quarto-frente.jpg",
+      "sha256": "2231b2389f9ca7d0b59ca04c6e728892a8b04d6672090b4cecbe277d318fe4d6"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/quarto-fundos.jpg",
+      "sha256": "3f2bd0ee710acbd0231b09749e608814e1e36346987901e8a1291d28613f210c"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/sala-foto.jpg",
+      "sha256": "9d0bb3ad52b03cfb64af7fe8ebbcf4045c25bc4028cf3afbc91065ae1331ecd3"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/sala-frente.jpg",
+      "sha256": "c1c639f252d8f1f31860ff89defe20f58281b951a0c4b3d89a3cb6f71adefe99"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/sala-fundos.jpg",
+      "sha256": "9c239f707f190b3f9a7d58be038ab7f0ab61bccfe6efa610b5865916c54b4814"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/suite-reversa.jpg",
+      "sha256": "66ee38370da49dbc1687fe997bbf52bd9e9bd398160edaa31e722274a955baf4"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/suite.jpg",
+      "sha256": "d5259c5e4c872465f244fc77e10cc63ce8190cfb8227bd0ff71d8f4e35567783"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/superior-3d.jpg",
+      "sha256": "4003d9772eea011f9e17d3b93e1e93adb88934f6268e5387f16ac892f80310aa"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/terreo-3d.jpg",
+      "sha256": "863f9184517ccc4f18c2deb5d9a15eb6726376eccd4a8f458dd73bacef03b44b"
+    },
+    {
+      "file": "renders/atual/06-galerias/miniaturas/volumetria.jpg",
+      "sha256": "8c4a9d5821f7437a62dcb714966b27215b54286f6bbff820d1ce88fd9115c158"
+    },
+    {
+      "file": "renders/atual/06-galerias/painel-geral.jpg",
+      "sha256": "77259fe4c8d8ad8708363219f1921bca5bec15eb1d25fa1f39e8b9b3e0420003"
+    },
+    {
+      "file": "renders/atual/LEIA-ME.md",
+      "sha256": "d4058eb0553546875005dfbae5413ed232d71713bf71c8d02a69b12f15b67322"
+    },
+    {
+      "file": "renders/atual/galeria.html",
+      "sha256": "53cfb81d55dedd41ad2fa1906f748a18d0ad64478d0cb29428acd7ee80716fdb"
+    }
+  ]
+}

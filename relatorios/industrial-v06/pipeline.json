@@ -1,0 +1,57 @@
+[
+  {
+    "phase": "v06-previas-validacao",
+    "started_utc": "2026-11-13T01:45:45.450361+00:00",
+    "status": "passed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/render_industrial_windows.py",
+      "--preview",
+      "--only",
+      "sala-integrada-dia,sala-integrada-noite,bar-dia,bar-noite,escritorio-dia,escritorio-noite",
+      "--resume"
+    ],
+    "exit_code": 0,
+    "completed_utc": "2026-11-13T01:46:03.960897+00:00"
+  },
+  {
+    "phase": "v06-finais-4k",
+    "started_utc": "2026-11-13T01:46:03.961306+00:00",
+    "status": "passed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/render_industrial_windows.py",
+      "--resume"
+    ],
+    "exit_code": 0,
+    "completed_utc": "2026-11-13T08:13:21.378828+00:00"
+  },
+  {
+    "phase": "v06-auditoria-final",
+    "started_utc": "2026-11-13T08:13:21.493905+00:00",
+    "status": "passed",
+    "command": [
+      "/usr/bin/python3",
+      "scripts/run_blender.py",
+      "--background",
+      "projeto/industrial-v06/casa-industrial-fotorrealista.blend",
+      "--python",
+      "scripts/industrial_photoreal_audit.py",
+      "--",
+      "--require-renders"
+    ],
+    "exit_code": 0,
+    "completed_utc": "2026-11-13T08:14:18.184920+00:00"
+  },
+  {
+    "phase": "v06-entrega",
+    "started_utc": "2026-11-13T08:14:18.185282+00:00",
+    "status": "passed",
+    "command": [
+      "/home/edann/projects/casa-interiores/.tools/planta-venv/bin/python",
+      "scripts/industrial_photoreal_delivery.py"
+    ],
+    "exit_code": 0,
+    "completed_utc": "2026-11-13T08:14:56.174969+00:00"
+  }
+]

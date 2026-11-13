@@ -1,0 +1,45 @@
+{
+  "base_blend": "projeto/residencia-07/casa-07.blend",
+  "services_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
+  "attic_blend": "projeto/residencia-07-atico/atico-proposta.blend",
+  "current_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+  "services_renders": "renders/residencia-07/03-instalacoes/3d",
+  "attic_renders": "renders/residencia-07-atico",
+  "current_renders": "renders/atual",
+  "report_directory": "relatorios/residencia-07/estudo-instalacoes-atico",
+  "resolution": [1920,1440],
+  "samples": 96,
+  "palette": {"wall":[0.37,0.53,0.44],"slab":[0.68,0.64,0.55],"stair":[0.52,0.46,0.34],"wall_opacity":0.12,"slab_opacity":0.055},
+  "tank": {
+    "capacity_liters":1000,
+    "center_xy":[5.35,3.175],
+    "base_z":5.45,
+    "display_diameter":1.80,
+    "display_height":1.15,
+    "position_source":"HID04: planta da caixa d'água; centro do símbolo em [1527.74,533.38] pt, origem [1224.68,713.20] pt, 56.64 pt/m",
+    "capacity_source":"HID04: CAIXA D'ÁGUA - 1000l",
+    "envelope_status":"Volume ilustrativo, sem marca ou cota física confirmada; posição XY e capacidade documentadas."
+  },
+  "attic": {
+    "floor_z":5.40,"ridge_y":3.0,"ridge_z":9.40,"eave_z":5.40,"roof_front_y":-1.35,"roof_back_y":7.35,
+    "floor_hole":[3.65,5.55,0.15,2.0],
+    "new_stair_center":[4.60,1.08],"new_stair_outer_radius":0.86,"new_stair_inner_radius":0.12,"new_stair_risers":16,
+    "technical_room":[3.60,6.25,2.10,4.35],
+    "clearance_reference":2.10,
+    "notes":["Estudo de aproveitamento do volume sem uso do projeto de 2011, sem elevar a cumeeira.","O quarto frontal é convertido em acesso/apoio para a nova escada; não permanece como dormitório nesta proposta.","Reservatório mantido sobre a região indicada em HID04, fora da nova abertura de acesso.","Laje, novo vão, escada, reforços, carga do reservatório e aberturas zenitais exigem projeto específico antes de executar.","A faixa de 2,10 m é uma referência geométrica de leitura, não uma afirmação de conformidade legal."]
+  },
+  "current": {
+    "photo_directory":"referencias-originais",
+    "furniture_source":"projeto/casa-reconstruida.blend",
+    "rear_opening":{"wall":"T-fundos-sala","clear_x":[0.15,3.30],"height":2.55,"source":"Abertura informada pelo usuário; continuidade também visível em sala1.webp e sala7.webp."},
+    "rear_area":{"x":[0.0,6.35],"y":[5.70,10.40],"division_x":3.375,"separating_wall_y":[7.20,10.40],"passage_y":[7.65,8.45],"roof_z":[2.75,3.0]},
+    "notes":["Estado atual reconstruído visualmente, sem levantamento presencial.","Arquitetura métrica da residência 07; mudanças dos fundos e móveis baseados nas fotos e nas instruções do usuário.","Profundidade dos anexos, espessuras dos fechamentos novos e dimensões dos móveis continuam aproximadas.","Coleções de móveis do estudo fotográfico anterior são reposicionadas sem escalar os móveis.","Redes originais de 2011 não são apresentadas como levantamento das instalações após a reforma."]
+  },
+  "source_notes":[
+    "Os esquemas de instalações não revelam todos os caminhos embutidos em três dimensões. A topologia 3D é de estudo; os pontos e alturas documentados são identificados.",
+    "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; interruptores a 1,10 m; quadro a 1,50 m.",
+    "HID05: cozinha a 0,60 m; banho: lavatório 0,60 m, vaso 0,20 m, registro 1,10 m e chuveiro/registro alto 2,10 m; água fria 25 mm, quente 22 mm.",
+    "HID04: entrada do reservatório 25 mm; alimentação, limpeza e extravasor 32 mm.",
+    "Espessuras de tubos e eletrodutos podem ser ampliadas graficamente para leitura; o diâmetro nominal permanece registrado nos objetos."
+  ]
+}

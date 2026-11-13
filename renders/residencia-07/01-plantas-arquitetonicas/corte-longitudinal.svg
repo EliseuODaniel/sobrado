@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1700" viewBox="0 0 1400 1700">
+<rect width="1400" height="1700" fill="#faf8f3"/>
+<text x="75" y="80" fill="#9c6238" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">CASA / 07</text>
+<text x="75" y="143" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="48" font-weight="bold" text-anchor="start">Cortes e cobertura</text>
+<text x="75" y="185" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Níveis verticais reconstituídos da prancha ARQ04</text>
+<polyline points="75.00,218.00 1325.00,218.00" fill="none" stroke="#c7c9bf" stroke-width="1"/>
+<polygon points="109.00,1315.75 991.00,1315.75 991.00,1300.00 109.00,1300.00" fill="#34443b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="115" y="1307" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">+0,00 m</text>
+<polyline points="205.00,1300.00 1100.00,1300.00" fill="none" stroke="#a4aba2" stroke-width="1" stroke-dasharray="6 5"/>
+<polygon points="109.00,1032.25 991.00,1032.25 991.00,1016.50 109.00,1016.50" fill="#34443b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="115" y="1023.5" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">+2,70 m</text>
+<polyline points="205.00,1016.50 1100.00,1016.50" fill="none" stroke="#a4aba2" stroke-width="1" stroke-dasharray="6 5"/>
+<polygon points="109.00,748.75 991.00,748.75 991.00,733.00 109.00,733.00" fill="#34443b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="115" y="740.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">+5,40 m</text>
+<polyline points="205.00,733.00 1100.00,733.00" fill="none" stroke="#a4aba2" stroke-width="1" stroke-dasharray="6 5"/>
+<polygon points="109.00,1300.00 124.75,1300.00 124.75,733.00 109.00,733.00" fill="#34443b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="991.00,1300.00 1006.75,1300.00 1006.75,733.00 991.00,733.00" fill="#34443b" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="109.00,733.00 550.00,313.00 991.00,733.00 970.00,733.00 550.00,336.10 130.00,733.00" fill="#9c6238" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="550" y="288.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">CUMEEIRA +9,40 m</text>
+<text x="550" y="1174.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="middle">PÉ-DIREITO 2,55 m</text>
+<text x="550" y="890.5" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="middle">PÉ-DIREITO 2,55 m</text>
+<text x="550" y="607.0" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="middle">ÁREA SOB COBERTURA · SEM USO</text>
+<text x="75" y="1428" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Lajes de 0,15 m · nível superior +2,70 m · cobertura +5,40 m.</text>
+<polyline points="75.00,1480.00 1325.00,1480.00" fill="none" stroke="#c7c9bf" stroke-width="1"/>
+<text x="75" y="1520" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="bold" text-anchor="start">BASE DOCUMENTAL · ARQ03 / ARQ04 · RESIDÊNCIA 07</text>
+<text x="75" y="1555" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Geometria reconstruída do projeto de 2011. Cotas em metros.</text>
+<text x="75" y="1587" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Áreas dos ambientes: valores declarados na prancha; conferir divergências no relatório.</text>
+<text x="75" y="1628" fill="#626963" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Modelo de estudo · não representa levantamento da situação construída.</text>
+<text x="1315" y="1625" fill="#25312b" font-family="DejaVu Sans, sans-serif" font-size="35" font-weight="normal" text-anchor="end">04</text>
+</svg>

@@ -1,0 +1,42 @@
+WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
+BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
+00:00.261  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atual/casa-07-atual.blend"
+00:00.553  cycles           | WARNING OptiX initialization failed with error code 7805
+00:00.553  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:02.277  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/planta-terreo.png'
+STUDY_RENDER_OK atual planta-terreo 1.72
+00:03.854  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/planta-superior.png'
+STUDY_RENDER_OK atual planta-superior 1.57
+00:05.629  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/terreo-3d.png'
+STUDY_RENDER_OK atual terreo-3d 1.74
+00:07.288  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/superior-3d.png'
+STUDY_RENDER_OK atual superior-3d 1.65
+00:09.609  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/sala-fundos.png'
+STUDY_RENDER_OK atual sala-fundos 2.25
+00:11.949  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/sala-frente.png'
+STUDY_RENDER_OK atual sala-frente 2.27
+00:14.342  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/cozinha.png'
+STUDY_RENDER_OK atual cozinha 2.33
+00:16.485  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/cozinha-reversa.png'
+STUDY_RENDER_OK atual cozinha-reversa 2.06
+00:19.079  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/bar.png'
+STUDY_RENDER_OK atual bar 2.53
+00:21.723  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/lavanderia.png'
+STUDY_RENDER_OK atual lavanderia 2.57
+00:24.179  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/fundos-abertos.png'
+STUDY_RENDER_OK atual fundos-abertos 2.39
+00:28.773  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/divisao-lazer-lavanderia.png'
+STUDY_RENDER_OK atual divisao-lazer-lavanderia 4.53
+00:31.257  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/suite.png'
+STUDY_RENDER_OK atual suite 2.4
+00:33.626  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/quarto-frente.png'
+STUDY_RENDER_OK atual quarto-frente 2.3
+00:35.996  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/quarto-fundos.png'
+STUDY_RENDER_OK atual quarto-fundos 2.28
+00:37.981  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/fachada-frontal.png'
+STUDY_RENDER_OK atual fachada-frontal 1.92
+00:40.182  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/volumetria.png'
+STUDY_RENDER_OK atual volumetria 2.13
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

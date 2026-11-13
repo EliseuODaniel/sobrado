@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-11-12T23:33:38.589843+00:00",
+  "deleted_files": 84,
+  "deleted_bytes": 2354561757,
+  "targets": [
+    "projeto/industrial-v04",
+    "renders/industrial-v04",
+    "relatorios/industrial-v04",
+    "historico/rascunhos/industrial-v04",
+    "config/estilo-industrial-v04.json",
+    "scripts/refine_industrial.py",
+    "scripts/audit_refined.py",
+    "scripts/refined_delivery.py",
+    "scripts/__pycache__/fetch_industrial_v04_assets.cpython-312.pyc",
+    "scripts/__pycache__/refine_industrial.cpython-313.pyc",
+    "scripts/__pycache__/refine_industrial.cpython-312.pyc",
+    "scripts/__pycache__/refined_delivery.cpython-312.pyc",
+    "scripts/__pycache__/audit_refined.cpython-312.pyc"
+  ],
+  "library": "projeto/fontes/mobiliario-industrial.blend",
+  "library_sha256": "5a33e3d8b04d3e5c8c9ba29bea318e932ec905997ea487519ada4cc52ba4fca3",
+  "preserved_native_files": {
+    "projeto/industrial-v05/casa-industrial-residencia07-atual.blend": "810711bee4ff36840d30aeb3ccc62716c13ac83f5d26adcee14577f181d13007",
+    "projeto/residencia-07/casa-07.blend": "cc82299b375aeb74635724a8e21972851bac1c4fe806819f20697a4fb374c0c8",
+    "projeto/residencia-07-atual/casa-07-atual.blend": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+    "projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a"
+  },
+  "reusable_assets_moved": {
+    "from": "assets/industrial-v04",
+    "to": "assets/biblioteca-industrial",
+    "verified_records": 26
+  },
+  "all_targets_absent": true,
+  "native_inputs_unchanged": true
+}

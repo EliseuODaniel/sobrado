@@ -1,0 +1,7 @@
+00:02.079  blend            | Read blend: "C:\Users\edann\AppData\Local\Temp\CasaInteriores\industrial-v06\projeto\industrial-v06\casa-industrial-fotorrealista.blend"
+00:07.547  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+06:55.547  render           | Saved: 'C:\Users\edann\AppData\Local\Temp\CasaInteriores\industrial-v06\renders\industrial-v06\02-ambientes\divisao-lazer-lavanderia.png'
+PHOTO6_OPTIX_RENDER_OK divisao-lazer-lavanderia 408.26
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

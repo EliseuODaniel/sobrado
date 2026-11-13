@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "projeto/residencia-07-atual/casa-07-atual.blend",
+      "sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
+      "matches_previous_receipt": true
+    },
+    {
+      "file": "projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend",
+      "sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+      "matches_previous_receipt": true
+    },
+    {
+      "file": "projeto/industrial-v06/casa-industrial-fotorrealista.blend",
+      "sha256": "d7a01479d5414f4efdaf83043d4ee4def3ccf95815fd80f96d126b7e8420f385",
+      "matches_previous_receipt": true
+    },
+    {
+      "file": "projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend",
+      "sha256": "91a8f4f2a58e5dcd17df7f1dbfc476cec2fc6e82d8bcb489b8ef2acc5547f27a",
+      "matches_previous_receipt": true
+    }
+  ],
+  "timestamp_utc": "2026-11-13T14:39:28.744617+00:00"
+}

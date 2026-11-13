@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sala-fundos",
+    "photo": "referencias-originais/sala2.webp",
+    "file": "renders/atual/04-comparacoes/sala-fundos.jpg",
+    "sha256": "34e37c5923fec75ec21bf801ea8ff6f0c62c925318cb20dae73dfa33f5d1d404"
+  },
+  {
+    "id": "cozinha",
+    "photo": "referencias-originais/cozinha1.webp",
+    "file": "renders/atual/04-comparacoes/cozinha.jpg",
+    "sha256": "fcdc7d7effb7a21066275c9fc527d186fd0f210504cf2e1b42006d9009219e35"
+  },
+  {
+    "id": "bar",
+    "photo": "referencias-originais/area1.webp",
+    "file": "renders/atual/04-comparacoes/bar.jpg",
+    "sha256": "e4db54b24a1ff6ce194b39ce832145b5ecda7af12aa58316cb40f756f0b37e88"
+  },
+  {
+    "id": "lavanderia",
+    "photo": "referencias-originais/lavanderia1.webp",
+    "file": "renders/atual/04-comparacoes/lavanderia.jpg",
+    "sha256": "55c42504704577b6ea50a5f0ac17d3452a0bf99bcf42c9441e2441dc679fbfec"
+  },
+  {
+    "id": "escada-superior",
+    "photo": "referencias-originais/escada1.webp",
+    "file": "renders/atual/04-comparacoes/escada-superior.jpg",
+    "sha256": "8aa777d0b71c8ac8bb18de0772d8d940448e3c7b045adf434a081226f0726c44"
+  },
+  {
+    "id": "lavabo",
+    "photo": "referencias-originais/lavabo1.webp",
+    "file": "renders/atual/04-comparacoes/lavabo.jpg",
+    "sha256": "17ea3afde111a696348170dd7838dd1995e0e0d30a2ab1d5f627da84f610b00a"
+  },
+  {
+    "id": "suite",
+    "photo": "referencias-originais/quartosuite1.webp",
+    "file": "renders/atual/04-comparacoes/suite.jpg",
+    "sha256": "5c0c00e81ae845466f6bb2c9b261b5525a58aa20fdaecbd0a92f295c6bc4b023"
+  },
+  {
+    "id": "quarto-frente",
+    "photo": "referencias-originais/quartobranco1.webp",
+    "file": "renders/atual/04-comparacoes/quarto-frente.jpg",
+    "sha256": "94ed4faa2617f3fec45379bc40a6189a631a671e65102a1fd78a93d5e2bf4c73"
+  },
+  {
+    "id": "quarto-fundos",
+    "photo": "referencias-originais/quartoazul2.webp",
+    "file": "renders/atual/04-comparacoes/quarto-fundos.jpg",
+    "sha256": "7b4b04799a7eab89c43a894d0d0334268aee7338bb120ea5b7e706c5bae04151"
+  },
+  {
+    "id": "fachada-frontal",
+    "photo": "referencias-originais/exterior2.webp",
+    "file": "renders/atual/04-comparacoes/fachada-frontal.jpg",
+    "sha256": "9ac07e0504e7c0ccef26ea915c9127d48d7b0e2362e4b7eb716471979210a8ab"
+  },
+  {
+    "id": "sala-foto",
+    "photo": "referencias-originais/sala5.webp",
+    "file": "renders/atual/04-comparacoes/sala-foto.jpg",
+    "sha256": "7358c18f927c5dc561ba919ab155e4c6cd0d9e01689da553929a087fb8268008"
+  },
+  {
+    "id": "suite-reversa",
+    "photo": "referencias-originais/quartosuite2.webp",
+    "file": "renders/atual/04-comparacoes/suite-reversa.jpg",
+    "sha256": "9ac915e065478fd86aaa3f8dce32df13cc9e7f8bfb4bc29f2eb9849b40cfdd99"
+  },
+  {
+    "id": "quarto-azul-bancada",
+    "photo": "referencias-originais/quartoazul1.webp",
+    "file": "renders/atual/04-comparacoes/quarto-azul-bancada.jpg",
+    "sha256": "03e588389b34364e8d23e9746f84ec3ed0c76f6d25951ceabb0bff1f85524557"
+  },
+  {
+    "id": "quarto-branco-armario",
+    "photo": "referencias-originais/quartobranco2.webp",
+    "file": "renders/atual/04-comparacoes/quarto-branco-armario.jpg",
+    "sha256": "4bc4f75dbbd1e2166a7fca0d8a518b45bc5d0196df3b2b584c44dbb07984ef6e"
+  },
+  {
+    "id": "banheiro-social",
+    "photo": "referencias-originais/banheiro2.webp",
+    "file": "renders/atual/04-comparacoes/banheiro-social.jpg",
+    "sha256": "398c57f828513bfea0c7361ce7593b2980355f839365d0273cc30826daa8607f"
+  },
+  {
+    "id": "banheiro-suite",
+    "photo": "referencias-originais/suite1.webp",
+    "file": "renders/atual/04-comparacoes/banheiro-suite.jpg",
+    "sha256": "126e6d576c0f5c3ae11e5ef5eaba1adb63cac7c3cc6fc3e64bc0d02dd55a7853"
+  }
+]

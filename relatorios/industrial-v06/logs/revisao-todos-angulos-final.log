@@ -1,0 +1,62 @@
+OPTIX_START sala-integrada-dia
+OPTIX_DONE sala-integrada-dia 9.24 3959
+OPTIX_START sala-integrada-noite
+OPTIX_DONE sala-integrada-noite 7.95 3959
+OPTIX_START bar-dia
+OPTIX_DONE bar-dia 7.55 3961
+OPTIX_START bar-noite
+OPTIX_DONE bar-noite 7.68 3959
+OPTIX_START escritorio-dia
+OPTIX_DONE escritorio-dia 7.5 3973
+OPTIX_START escritorio-noite
+OPTIX_DONE escritorio-noite 7.57 3973
+OPTIX_START planta-terreo
+OPTIX_DONE planta-terreo 6.08 167
+OPTIX_START planta-superior
+OPTIX_DONE planta-superior 3.08 1875
+OPTIX_START terreo-3d
+OPTIX_DONE terreo-3d 6.12 167
+OPTIX_START superior-3d
+OPTIX_DONE superior-3d 3.27 1875
+OPTIX_START sala-fundos
+OPTIX_DONE sala-fundos 7.72 3959
+OPTIX_START sala-frente
+OPTIX_DONE sala-frente 9.95 3959
+OPTIX_START cozinha
+OPTIX_DONE cozinha 10.31 3959
+OPTIX_START cozinha-reversa
+OPTIX_DONE cozinha-reversa 10.18 3959
+OPTIX_START bar
+OPTIX_DONE bar 10.46 3959
+OPTIX_START lavanderia
+OPTIX_DONE lavanderia 10.54 3223
+OPTIX_START fundos-abertos
+OPTIX_DONE fundos-abertos 10.85 3959
+OPTIX_START divisao-lazer-lavanderia
+OPTIX_DONE divisao-lazer-lavanderia 11.8 3959
+OPTIX_START escada-acesso
+OPTIX_DONE escada-acesso 11.43 3959
+OPTIX_START escada-superior
+OPTIX_DONE escada-superior 10.95 3807
+OPTIX_START lavabo
+OPTIX_DONE lavabo 10.66 3961
+OPTIX_START suite
+OPTIX_DONE suite 11.26 3807
+OPTIX_START quarto-frente
+OPTIX_DONE quarto-frente 10.23 3325
+OPTIX_START quarto-fundos
+OPTIX_DONE quarto-fundos 10.41 3807
+OPTIX_START fachada-frontal
+OPTIX_DONE fachada-frontal 10.32 629
+OPTIX_START volumetria
+OPTIX_DONE volumetria 9.98 3701
+OPTIX_START sala-tv
+OPTIX_DONE sala-tv 10.7 3959
+OPTIX_START mesa-jantar
+OPTIX_DONE mesa-jantar 10.46 3959
+OPTIX_START bar-detalhe
+OPTIX_DONE bar-detalhe 10.73 3477
+OPTIX_START escritorio-alternativa
+OPTIX_DONE escritorio-alternativa 11.41 3973
+OPTIX_START escritorio-reverso
+OPTIX_DONE escritorio-reverso 12.17 3973

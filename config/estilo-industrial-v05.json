@@ -1,0 +1,184 @@
+{
+  "version": "industrial-v05",
+  "unit": "07",
+  "base_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+  "official_config": "config/residencia-07.json",
+  "current_config": "config/residencia-07-estudos.json",
+  "furniture_library": "projeto/fontes/mobiliario-industrial.blend",
+  "references": "referencias-estilo-industrial",
+  "output_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+  "render_directory": "renders/industrial-v05",
+  "report_directory": "relatorios/industrial-v05",
+  "asset_directory": "assets/industrial-v05",
+  "resolution": [
+    1920,
+    1440
+  ],
+  "samples": 128,
+  "preview_percentage": 45,
+  "preview_samples": 24,
+  "adaptive_threshold": 0.025,
+  "protected_collections": [
+    "ATUAL_Arquitetura",
+    "ATUAL_Corte_Terreo",
+    "ATUAL_Corte_Superior",
+    "ATUAL_Fundos",
+    "ATUAL_Cobertura_Fundos",
+    "ATUAL_Escada",
+    "R07_Piso_Terreo",
+    "R07_Piso_Superior",
+    "R07_Escada",
+    "R07_Teto_Superior",
+    "R07_Cobertura",
+    "R07_Contexto"
+  ],
+  "palette": {
+    "cement": [
+      [
+        0.23,
+        0.22,
+        0.2
+      ],
+      [
+        0.28,
+        0.27,
+        0.245
+      ],
+      [
+        0.33,
+        0.32,
+        0.29
+      ]
+    ],
+    "floor": [
+      [
+        0.34,
+        0.32,
+        0.28
+      ],
+      [
+        0.46,
+        0.44,
+        0.39
+      ]
+    ],
+    "wood": [
+      [
+        0.1,
+        0.035,
+        0.012
+      ],
+      [
+        0.29,
+        0.125,
+        0.044
+      ],
+      [
+        0.43,
+        0.23,
+        0.1
+      ]
+    ],
+    "metal": [
+      0.012,
+      0.017,
+      0.019
+    ],
+    "graphite": [
+      0.032,
+      0.041,
+      0.043
+    ],
+    "petrol": [
+      0.026,
+      0.052,
+      0.067
+    ],
+    "linen": [
+      [
+        0.27,
+        0.25,
+        0.21
+      ],
+      [
+        0.51,
+        0.47,
+        0.39
+      ]
+    ],
+    "leather": [
+      [
+        0.12,
+        0.036,
+        0.013
+      ],
+      [
+        0.32,
+        0.13,
+        0.045
+      ]
+    ]
+  },
+  "dining": {
+    "center": [
+      1.6,
+      4.5
+    ],
+    "table_size": [
+      0.98,
+      1.7,
+      0.78
+    ],
+    "chairs": [
+      [
+        0.85,
+        4.0
+      ],
+      [
+        0.85,
+        5.0
+      ],
+      [
+        2.35,
+        4.0
+      ],
+      [
+        2.35,
+        5.0
+      ]
+    ]
+  },
+  "office": {
+    "room": "quarto-fundos",
+    "alternative": true,
+    "desk_center": [
+      3.81,
+      5.6,
+      3.46
+    ],
+    "desk_size": [
+      0.62,
+      2.0,
+      0.055
+    ],
+    "chair_center": [
+      4.58,
+      5.6,
+      2.7
+    ],
+    "shelving_center": [
+      5.95,
+      5.55,
+      3.9
+    ]
+  },
+  "notes": [
+    "Proposta industrial sobre a geometria atual da residência 07, preservada sem deslocar paredes, vãos, escada e cobertura posterior.",
+    "A biblioteca independente fornece móveis e materiais selecionados, sem arquitetura histórica.",
+    "Referências controlam acabamentos, mobiliário e iluminação; a planta atual controla o espaço.",
+    "Anexos posteriores e medidas dos móveis continuam aproximados; não houve levantamento presencial.",
+    "O escritório é uma alternativa de mobiliário para o quarto dos fundos, em cenas próprias; as demais vistas conservam a opção de dormitório.",
+    "Instalações existentes não são alteradas nem certificadas por esta proposta de interiores.",
+    "A proposta industrial não contém geladeira no bar; a geladeira da cozinha é preservada."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "objective": "Pesquisar e planejar o fotorrealismo de todos os modelos vigentes, comparando Unreal e alternativas; sem executar a migração.",
+  "date": "2026-11-12",
+  "obligations": {
+    "primary_source_research": "COMPLETE: links and version caveats in PLANO-FOTORREALISMO.md",
+    "native_model_audit": "VERIFIED: five native files, identical before/after/live SHA-256; three visual PNG receipts",
+    "hardware": "VERIFIED: hardware.json; no Unreal benchmark",
+    "options_and_decision": "COMPLETE: comparison of Cycles, Unreal 5.8 and Twinmotion; hybrid proposed subject to pilot",
+    "phased_plan_and_acceptance": "COMPLETE: phases 0-9, geometry/visual/performance/reimport acceptance"
+  },
+  "visual_receipts": [
+    "renders/industrial-v05/02-ambientes/sala-fundos.png",
+    "renders/atual/02-ambientes/sala-fundos.png",
+    "renders/residencia-07-atico-v05/02-interiores/atico-interior-frente.png"
+  ],
+  "constraints": [
+    "Preservar geometria e fontes métricas vigentes; não recriar propostas de escada descartadas",
+    "Manter entregas técnicas distintas de imagens fotográficas",
+    "Não instalar motores, comprar assets nem alterar modelos nesta etapa de planejamento"
+  ],
+  "unknowns": [
+    "Desempenho real UE neste host",
+    "Qualidade de UVs e escala física de cada textura",
+    "Levantamento dos detalhes atuais da residência",
+    "Disponibilidade de licenças de cada asset"
+  ],
+  "deliverables": [
+    "PLANO-FOTORREALISMO.md",
+    "relatorios/fotorrealismo-2026-11-12/auditoria-modelos.json",
+    "relatorios/fotorrealismo-2026-11-12/hardware.json",
+    "relatorios/fotorrealismo-2026-11-12/validacao.json"
+  ],
+  "status": "planning_complete_implementation_not_started"
+}

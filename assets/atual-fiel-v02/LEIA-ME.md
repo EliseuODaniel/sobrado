@@ -1,0 +1,1 @@
+Texturas procedurais autorais para reconstruir os padrões visíveis nas fotos (triângulos azuis, corações e elipses do lavabo). Não são recortes das fotos nem contêm marcas d’água. Escala e cores aproximadas por observação.

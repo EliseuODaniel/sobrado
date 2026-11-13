@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "bar_fridge_absent": true,
+  "kitchen_present": true,
+  "other_inherited_geometry_preserved": 2570,
+  "removed": [
+    "Corpo geladeira",
+    "Geladeira bar observada",
+    "Porta geladeira",
+    "Porta geladeira.001",
+    "Puxador geladeira",
+    "Puxador geladeira.001"
+  ],
+  "base_unchanged": true,
+  "temporary_outputs_removed": true,
+  "scope": "Regeneração v01 desde a casa atual histórica, sem sobrescrever modelos ou renders existentes."
+}

@@ -201,6 +201,8 @@ def kitchen(cfg):
 
 
 def bar(cfg):
+    from industrial_bar_policy import remove_bar_fridges
+    remove_bar_fridges()
     c=collection('IND_Decor_Lazer')
     back=cfg['layout']['bar']['back_y'];cy=cfg['layout']['bar']['counter_y']
     for obj in bpy.data.objects:
@@ -262,7 +264,10 @@ def bedroom(cfg):
 
 def build(root, cfg, folder):
     base=root/cfg['base_blend'];assert Path(bpy.data.filepath).resolve()==base
-    original_sha=sha(base);before=geometry()
+    original_sha=sha(base)
+    from industrial_bar_policy import remove_bar_fridges
+    removed_bar_fridge=remove_bar_fridges()
+    before=geometry()
     g.C.update({c.name:c for c in bpy.data.collections});g.M.update({m.name:m for m in bpy.data.materials})
     g.RNG.seed(1102026);g.LEAF_MESHES.clear()
     materials();restyle()
@@ -302,6 +307,7 @@ def build(root, cfg, folder):
             'base':cfg['base_blend'],'base_sha256':original_sha,'blend':cfg['output_blend'],
             'blend_sha256':sha(output),'geometry_objects_preserved':len(before),'geometry_differences':diff,
             'original_geometry_sha256':before,'new_objects':sorted(set(after)-set(before)),
+            'authorized_bar_fridge_removal':removed_bar_fridge,
             'envelope':envelope,'scenes':jobs,'references':{str(p.relative_to(root)):sha(p) for p in sorted((root/cfg['references']).glob('*.png'))}}
     (folder/'modelo.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print('INDUSTRIAL_BUILT',len(before),'geometrias preservadas',flush=True)
