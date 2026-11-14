@@ -412,7 +412,7 @@ def setup():
     h.camera('CAM_Exterior',(12,-15,10),(2.8,2.4,2.5),ortho=18)
     h.camera('CAM_Corte_Lavabo',(8,-4,4.2),(4.1,CFG['layout']['stairs']['return_y'],1.6),ortho=5.2)
     for name,cfg in CFG['cameras'].items():h.camera(name,cfg['position'],cfg['target'],lens=cfg['lens'])
-    inv=json.loads((ROOT/'relatorios/referencias-originais/inventario.json').read_text());seen=set()
+    inv=json.loads((ROOT/'arquivos/versoes-anteriores-2026-11-14/relatorios/referencias-originais/inventario.json').read_text());seen=set()
     for i,(name,meta) in enumerate(inv['inputs'].items()):
         if meta['sha256'] in seen:continue
         seen.add(meta['sha256']);im=bpy.data.images.load(str(ROOT/'referencias-originais'/name));im.pack();o=bpy.data.objects.new('REF_'+name,None);o.empty_display_type='IMAGE';o.data=im;o.empty_display_size=2;o.location=(25+(i%4)*2.2,(i//4)*1.5,0);o.hide_render=True;g.C['Referencias'].objects.link(o)
@@ -475,7 +475,7 @@ def main():
     output=args.output or Path(CFG['output']);output=output if output.is_absolute() else ROOT/output;assert output.suffix=='.blend';output=g.unique_path(output);output.parent.mkdir(parents=True,exist_ok=True)
     bpy.ops.wm.save_as_mainfile(filepath=str(output))
     report={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'blend':str(output.relative_to(ROOT)),'version':bpy.app.version_string,'revision':CFG.get('revision_number',2),'device':device,'objects':len(bpy.data.objects),'scenes':[s.name for s in bpy.data.scenes],'source_status':'Térreo conforme croqui aproximado do usuário e fotos. Quartos conforme croqui; banheiros e medidas provisórios.'}
-    (ROOT/'relatorios/atual/geracao.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('HOUSE_BUILT',json.dumps(report,ensure_ascii=False),flush=True)
+    (ROOT/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior/geracao.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print('HOUSE_BUILT',json.dumps(report,ensure_ascii=False),flush=True)
     if args.preview:
         scene=bpy.data.scenes['FOTO_Sala_Fundos'];scene.cycles.samples=16;scene.render.resolution_percentage=50;scene.render.filepath=str(ROOT/'renders/atual/previas/sala-fundos.png');bpy.ops.render.render(write_still=True,scene=scene.name)
 

@@ -1,0 +1,33 @@
+{
+  "center_xyz": [
+    2.799999952316284,
+    5.0,
+    5.449999809265137
+  ],
+  "diameter_illustrative_m": 1.8,
+  "capacity_l": 1000,
+  "clearance_to_stair_corner_m": 0.653,
+  "minimum_ceiling_gap_above_tank_m": 1.26,
+  "minimum_furniture_gap_m": 0.813,
+  "furniture_gaps": {
+    "ATC Tapete": 2.2,
+    "ATC Mesa escritorio": 0.813,
+    "ATC Pe mesa": 2.065,
+    "ATC Pe mesa.001": 0.959,
+    "ATC Monitor": 1.524,
+    "ATC Cadeira": 0.849,
+    "ATC Encosto": 0.833,
+    "ATC Sofa base": 2.65,
+    "ATC Sofa encosto": 3.332,
+    "ATC Sofa almofada": 3.047,
+    "ATC Sofa almofada.001": 2.857,
+    "ATC Sofa almofada.002": 2.751,
+    "ATC Mesa lateral": 2.76,
+    "ATC Armario baixo": 4.025,
+    "ATC Armario baixo.001": 1.85
+  },
+  "source_sha256": "36b1d25cf2d09be09d26f7b1db4f7f035f0c4e772a81c4f0a019bff8426b4e42",
+  "status": "Estudo geométrico; conexões reais, pressão, laje e apoios não verificados",
+  "source_plan": "HID04.pdf, prancha 04/08, 17/09/2012",
+  "pipe_notes": "Entrada 25 mm; alimentação, limpeza e extravasor 32 mm conforme HID04. Não confundir rede 3D aproximada com as-built. Percursos novos ainda não dimensionados."
+}

@@ -1,0 +1,1002 @@
+{
+  "scenes": [
+    {
+      "scene": "FIEL2_banheiro-social",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_banheiro-suite",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_bar",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_cozinha",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_cozinha-reversa",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_divisao-lazer-lavanderia",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_escada-acesso",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_escada-superior",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_fachada-frontal",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Exterior",
+        "FIEL2_Vizinhos_Apenas_Fachada"
+      ]
+    },
+    {
+      "scene": "FIEL2_fundos-abertos",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_lavabo",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_lavanderia",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_planta-superior",
+      "collections": [
+        "ATUAL_Corte_Superior",
+        "R07_Piso_Superior",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_R07_Escada",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luz_Plantas"
+      ]
+    },
+    {
+      "scene": "FIEL2_planta-terreo",
+      "collections": [
+        "ATUAL_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "ATUAL_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Escada",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luz_Plantas"
+      ]
+    },
+    {
+      "scene": "FIEL2_quarto-azul-bancada",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_quarto-branco-armario",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_quarto-frente",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_quarto-fundos",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_sala-foto",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_sala-frente",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_sala-fundos",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_suite",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_suite-reversa",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luminarias_Superior",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao"
+      ]
+    },
+    {
+      "scene": "FIEL2_superior-3d",
+      "collections": [
+        "ATUAL_Corte_Superior",
+        "R07_Piso_Superior",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_R07_Escada",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Luz_Plantas"
+      ]
+    },
+    {
+      "scene": "FIEL2_terreo-3d",
+      "collections": [
+        "ATUAL_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "ATUAL_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Escada",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luz_Plantas"
+      ]
+    },
+    {
+      "scene": "FIEL2_volumetria",
+      "collections": [
+        "ATUAL_Fundos",
+        "ATUAL_Cobertura_Fundos",
+        "ATUAL_Detalhes",
+        "ATUAL_AMB_sala",
+        "ATUAL_AMB_jantar",
+        "ATUAL_AMB_bar",
+        "ATUAL_AMB_cozinha",
+        "ATUAL_AMB_lavabo",
+        "ATUAL_AMB_lavanderia",
+        "ATUAL_AMB_quarto_azul",
+        "ATUAL_AMB_quarto_branco",
+        "ATUAL_Suite",
+        "ATUAL_Detalhes_Quarto_Frente",
+        "ATUAL_Banheiros",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Iluminacao",
+        "EST_Cameras",
+        "FIEL2_Apresentacao_ATUAL_Arquitetura",
+        "FIEL2_Contexto",
+        "FIEL2_Mobiliario_Terreo",
+        "FIEL2_Luminarias_Terreo",
+        "FIEL2_Detalhes_Cobertura",
+        "FIEL2_Iluminacao",
+        "FIEL2_Mobiliario_Superior",
+        "FIEL2_Exterior"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "ATUAL_AMB_bar",
+      "count": 46,
+      "z": [
+        0.0,
+        2.95
+      ]
+    },
+    {
+      "name": "ATUAL_AMB_cozinha",
+      "count": 63,
+      "z": [
+        0.0,
+        2.49
+      ]
+    },
+    {
+      "name": "ATUAL_AMB_lavabo",
+      "count": 12,
+      "z": [
+        0.0,
+        1.86
+      ]
+    },
+    {
+      "name": "ATUAL_AMB_lavanderia",
+      "count": 9,
+      "z": [
+        0.0,
+        2.41
+      ]
+    },
+    {
+      "name": "ATUAL_AMB_quarto_azul",
+      "count": 22,
+      "z": [
+        2.7,
+        5.4
+      ]
+    },
+    {
+      "name": "ATUAL_AMB_quarto_branco",
+      "count": 8,
+      "z": [
+        2.7,
+        3.25
+      ]
+    },
+    {
+      "name": "ATUAL_Arquitetura",
+      "count": 213,
+      "z": [
+        -1.04,
+        5.25
+      ]
+    },
+    {
+      "name": "ATUAL_Banheiros",
+      "count": 30,
+      "z": [
+        2.7,
+        4.76
+      ]
+    },
+    {
+      "name": "ATUAL_Cobertura_Fundos",
+      "count": 18,
+      "z": [
+        2.7,
+        3.05
+      ]
+    },
+    {
+      "name": "ATUAL_Corte_Superior",
+      "count": 28,
+      "z": [
+        2.7,
+        3.85
+      ]
+    },
+    {
+      "name": "ATUAL_Corte_Terreo",
+      "count": 19,
+      "z": [
+        0.0,
+        1.15
+      ]
+    },
+    {
+      "name": "ATUAL_Detalhes",
+      "count": 19,
+      "z": [
+        0.0,
+        2.55
+      ]
+    },
+    {
+      "name": "ATUAL_Detalhes_Quarto_Frente",
+      "count": 2,
+      "z": [
+        2.72,
+        5.16
+      ]
+    },
+    {
+      "name": "ATUAL_Escada",
+      "count": 22,
+      "z": [
+        -0.45,
+        2.7
+      ]
+    },
+    {
+      "name": "ATUAL_Fundos",
+      "count": 18,
+      "z": [
+        -0.15,
+        2.8
+      ]
+    },
+    {
+      "name": "ATUAL_Suite",
+      "count": 13,
+      "z": [
+        2.71,
+        5.06
+      ]
+    },
+    {
+      "name": "FIEL2_Apresentacao_ATUAL_Arquitetura",
+      "count": 209,
+      "z": [
+        -0.15,
+        5.25
+      ]
+    },
+    {
+      "name": "FIEL2_Apresentacao_ATUAL_Escada",
+      "count": 18,
+      "z": [
+        -0.01,
+        2.7
+      ]
+    },
+    {
+      "name": "FIEL2_Apresentacao_R07_Escada",
+      "count": 18,
+      "z": [
+        -0.72,
+        2.7
+      ]
+    },
+    {
+      "name": "FIEL2_Contexto",
+      "count": 9,
+      "z": [
+        -0.47,
+        0.01
+      ]
+    },
+    {
+      "name": "FIEL2_Detalhes_Cobertura",
+      "count": 24,
+      "z": [
+        2.7,
+        3.01
+      ]
+    },
+    {
+      "name": "FIEL2_Exterior",
+      "count": 88,
+      "z": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "FIEL2_Iluminacao",
+      "count": 29,
+      "z": null
+    },
+    {
+      "name": "FIEL2_Luminarias_Superior",
+      "count": 12,
+      "z": [
+        -0.01,
+        0.01
+      ]
+    },
+    {
+      "name": "FIEL2_Luminarias_Terreo",
+      "count": 14,
+      "z": [
+        2.49,
+        2.53
+      ]
+    },
+    {
+      "name": "FIEL2_Luz_Plantas",
+      "count": 2,
+      "z": null
+    },
+    {
+      "name": "FIEL2_Mobiliario_Superior",
+      "count": 384,
+      "z": [
+        -1.51,
+        5.16
+      ]
+    },
+    {
+      "name": "FIEL2_Mobiliario_Terreo",
+      "count": 1857,
+      "z": [
+        -0.0,
+        2.57
+      ]
+    },
+    {
+      "name": "FIEL2_Vizinho_Contexto",
+      "count": 329,
+      "z": [
+        -0.45,
+        9.5
+      ]
+    },
+    {
+      "name": "FIEL2_Vizinhos_Apenas_Fachada",
+      "count": 2,
+      "z": null
+    },
+    {
+      "name": "R07_Cobertura",
+      "count": 116,
+      "z": [
+        5.34,
+        9.5
+      ]
+    },
+    {
+      "name": "R07_Contexto",
+      "count": 355,
+      "z": [
+        -0.47,
+        0.43
+      ]
+    },
+    {
+      "name": "R07_Escada",
+      "count": 22,
+      "z": [
+        -0.72,
+        2.7
+      ]
+    },
+    {
+      "name": "R07_Piso_Superior",
+      "count": 4,
+      "z": [
+        2.55,
+        2.7
+      ]
+    },
+    {
+      "name": "R07_Piso_Terreo",
+      "count": 1,
+      "z": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "name": "R07_Teto_Superior",
+      "count": 1,
+      "z": [
+        5.25,
+        5.4
+      ]
+    }
+  ]
+}

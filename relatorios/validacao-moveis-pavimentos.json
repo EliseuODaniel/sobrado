@@ -1,0 +1,442 @@
+[
+  {
+    "version": "original",
+    "object_transforms_compared_to_evaluated_source": 4088,
+    "maximum_allowed_matrix_error": 0.0001,
+    "upper_bed_objects_verified": [
+      {
+        "object": "R07 Cama quarto frente cabeceira",
+        "z_m": 3.42
+      },
+      {
+        "object": "R07 Cama quarto frente colcha",
+        "z_m": 2.7
+      },
+      {
+        "object": "R07 Cama quarto frente colchao",
+        "z_m": 3.16
+      },
+      {
+        "object": "R07 Cama quarto frente estrado",
+        "z_m": 2.94
+      },
+      {
+        "object": "R07 Cama quarto frente travesseiro",
+        "z_m": 3.35
+      },
+      {
+        "object": "R07 Cama suite cabeceira",
+        "z_m": 3.42
+      },
+      {
+        "object": "R07 Cama suite colcha",
+        "z_m": 2.7
+      },
+      {
+        "object": "R07 Cama suite colchao",
+        "z_m": 3.16
+      },
+      {
+        "object": "R07 Cama suite estrado",
+        "z_m": 2.94
+      },
+      {
+        "object": "R07 Cama suite travesseiro",
+        "z_m": 3.35
+      },
+      {
+        "object": "R07 Cama suite travesseiro.001",
+        "z_m": 3.35
+      },
+      {
+        "object": "R07 Colchao beliche",
+        "z_m": 3.21
+      },
+      {
+        "object": "R07 Colchao beliche.001",
+        "z_m": 4.44
+      },
+      {
+        "object": "R07 Escada beliche",
+        "z_m": 2.9
+      },
+      {
+        "object": "R07 Escada beliche.001",
+        "z_m": 3.18
+      },
+      {
+        "object": "R07 Escada beliche.002",
+        "z_m": 3.46
+      },
+      {
+        "object": "R07 Escada beliche.003",
+        "z_m": 3.74
+      },
+      {
+        "object": "R07 Escada beliche.004",
+        "z_m": 4.02
+      },
+      {
+        "object": "R07 Escada beliche.005",
+        "z_m": 4.3
+      },
+      {
+        "object": "R07 Estrado beliche",
+        "z_m": 3.08
+      },
+      {
+        "object": "R07 Estrado beliche.001",
+        "z_m": 4.31
+      },
+      {
+        "object": "R07 Guarda beliche",
+        "z_m": 4.75
+      },
+      {
+        "object": "R07 Guarda beliche.001",
+        "z_m": 4.75
+      },
+      {
+        "object": "R07 Manta beliche",
+        "z_m": 3.33
+      },
+      {
+        "object": "R07 Manta beliche.001",
+        "z_m": 4.56
+      },
+      {
+        "object": "R07 Montante beliche",
+        "z_m": 3.74
+      },
+      {
+        "object": "R07 Montante beliche.001",
+        "z_m": 3.74
+      },
+      {
+        "object": "R07 Montante beliche.002",
+        "z_m": 3.74
+      },
+      {
+        "object": "R07 Montante beliche.003",
+        "z_m": 3.74
+      },
+      {
+        "object": "R07 Travesseiro beliche",
+        "z_m": 3.36
+      },
+      {
+        "object": "R07 Travesseiro beliche.001",
+        "z_m": 4.59
+      }
+    ],
+    "status": "passed"
+  },
+  {
+    "version": "atual",
+    "object_transforms_compared_to_evaluated_source": 9858,
+    "maximum_allowed_matrix_error": 0.0001,
+    "upper_bed_objects_verified": [
+      {
+        "object": "ATUAL Cama suite",
+        "z_m": 3.0
+      },
+      {
+        "object": "ATUAL Colchão cama.001",
+        "z_m": 3.16
+      },
+      {
+        "object": "ATUAL Colchão cama.002",
+        "z_m": 3.16
+      },
+      {
+        "object": "ATUAL Colchão cama.003",
+        "z_m": 4.18
+      },
+      {
+        "object": "ATUAL Degrau escada beliche",
+        "z_m": 2.9
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.001",
+        "z_m": 3.18
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.002",
+        "z_m": 3.46
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.003",
+        "z_m": 3.74
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.004",
+        "z_m": 4.02
+      },
+      {
+        "object": "ATUAL Estrado cama.001",
+        "z_m": 3.03
+      },
+      {
+        "object": "ATUAL Estrado cama.002",
+        "z_m": 3.03
+      },
+      {
+        "object": "ATUAL Estrado cama.003",
+        "z_m": 4.05
+      },
+      {
+        "object": "ATUAL Pilar beliche",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pilar beliche.001",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pilar beliche.002",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pilar beliche.003",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pé cama.004",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.005",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.006",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.007",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.008",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.009",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.010",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.011",
+        "z_m": 2.83
+      },
+      {
+        "object": "FIEL2 Beliche cabeceira",
+        "z_m": 3.86
+      },
+      {
+        "object": "FIEL2 Beliche grade superior",
+        "z_m": 4.48
+      },
+      {
+        "object": "FIEL2 Beliche travesseiro",
+        "z_m": 3.345
+      },
+      {
+        "object": "FIEL2 Beliche travesseiro.001",
+        "z_m": 4.365
+      },
+      {
+        "object": "FIEL2 Cama branca grade",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade lateral",
+        "z_m": 3.53
+      },
+      {
+        "object": "FIEL2 Cama branca grade.001",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.002",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.003",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.004",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.005",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.006",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.007",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.008",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca grade.009",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas.001",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas.002",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas.003",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas.004",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas.005",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca ripas.006",
+        "z_m": 3.36
+      },
+      {
+        "object": "FIEL2 Cama branca travessa",
+        "z_m": 3.53
+      },
+      {
+        "object": "FIEL2 Cama branca travessa.001",
+        "z_m": 3.53
+      }
+    ],
+    "status": "passed"
+  },
+  {
+    "version": "industrial",
+    "object_transforms_compared_to_evaluated_source": 3596,
+    "maximum_allowed_matrix_error": 0.0001,
+    "upper_bed_objects_verified": [
+      {
+        "object": "ATUAL Cama suite",
+        "z_m": 3.0
+      },
+      {
+        "object": "ATUAL Cama suite.001",
+        "z_m": 3.25
+      },
+      {
+        "object": "ATUAL Colchão cama.001",
+        "z_m": 3.16
+      },
+      {
+        "object": "ATUAL Colchão cama.002",
+        "z_m": 3.16
+      },
+      {
+        "object": "ATUAL Colchão cama.003",
+        "z_m": 4.18
+      },
+      {
+        "object": "ATUAL Degrau escada beliche",
+        "z_m": 2.9
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.001",
+        "z_m": 3.18
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.002",
+        "z_m": 3.46
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.003",
+        "z_m": 3.74
+      },
+      {
+        "object": "ATUAL Degrau escada beliche.004",
+        "z_m": 4.02
+      },
+      {
+        "object": "ATUAL Estrado cama.001",
+        "z_m": 3.03
+      },
+      {
+        "object": "ATUAL Estrado cama.002",
+        "z_m": 3.03
+      },
+      {
+        "object": "ATUAL Estrado cama.003",
+        "z_m": 4.05
+      },
+      {
+        "object": "ATUAL Pilar beliche",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pilar beliche.001",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pilar beliche.002",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pilar beliche.003",
+        "z_m": 3.62
+      },
+      {
+        "object": "ATUAL Pé cama.004",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.005",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.006",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.007",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.008",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.009",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.010",
+        "z_m": 2.83
+      },
+      {
+        "object": "ATUAL Pé cama.011",
+        "z_m": 2.83
+      }
+    ],
+    "status": "passed"
+  }
+]

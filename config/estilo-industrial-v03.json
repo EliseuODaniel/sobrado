@@ -1,8 +1,8 @@
 {
   "version": "industrial-v03",
-  "base_blend": "projeto/fontes/casa-base-detalhada.blend",
-  "output_blend": "projeto/industrial-v03/casa-fotografica.blend",
-  "report_directory": "relatorios/industrial-v03",
+  "base_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/fontes/casa-base-detalhada.blend",
+  "output_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v03/casa-fotografica.blend",
+  "report_directory": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v03",
   "render_directory": "renders/industrial-v03",
   "asset_manifest": "assets/industrial-v03/manifesto.json",
   "resolution": [

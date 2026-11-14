@@ -1,0 +1,9 @@
+{
+  "blend": "projeto\\residencia-07-atico-v05\\atico-telhado-transparente.blend",
+  "transparent_objects": 44,
+  "renders": [
+    "perspectiva-frontal.png",
+    "perspectiva-posterior.png"
+  ],
+  "gpu": true
+}

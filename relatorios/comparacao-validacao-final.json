@@ -1,0 +1,23 @@
+[
+  {
+    "version": "original",
+    "default_comparison_scene_verified": true,
+    "three_scenes": true,
+    "full_walls_in_frame": true,
+    "new_images_rendered": false
+  },
+  {
+    "version": "atual",
+    "default_comparison_scene_verified": true,
+    "three_scenes": true,
+    "full_walls_in_frame": true,
+    "new_images_rendered": false
+  },
+  {
+    "version": "industrial",
+    "default_comparison_scene_verified": true,
+    "three_scenes": true,
+    "full_walls_in_frame": true,
+    "new_images_rendered": false
+  }
+]

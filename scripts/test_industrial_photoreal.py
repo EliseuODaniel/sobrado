@@ -7,7 +7,7 @@ import industrial_photoreal_data as data
 
 class PhotorealContracts(unittest.TestCase):
     def test_original_cameras_are_preserved(self):
-        base = json.loads((data.ROOT / 'relatorios/industrial-v05/modelo.json').read_text())
+        base = json.loads((data.ROOT / 'arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v05/modelo.json').read_text())
         new = {j['id']: j for j in data.validate()}
         for job in base['jobs']:
             for key in ['pos', 'target', 'mode']:
@@ -25,7 +25,7 @@ class PhotorealContracts(unittest.TestCase):
     def test_no_historical_architecture_dependency(self):
         self.assertTrue((data.ROOT / data.CFG['base_blend']).is_file())
         self.assertFalse((data.ROOT / 'projeto/industrial-v04').exists())
-        self.assertTrue((data.ROOT / 'projeto/fontes/mobiliario-industrial.blend').is_file())
+        self.assertTrue((data.ROOT / 'arquivos/versoes-anteriores-2026-11-14/projeto/fontes/mobiliario-industrial.blend').is_file())
 
     def test_final_format_and_independent_destination(self):
         self.assertEqual(data.CFG['resolution'], [3840, 2880])

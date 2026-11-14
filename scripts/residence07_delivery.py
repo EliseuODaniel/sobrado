@@ -45,7 +45,7 @@ Comece pelo {link('caderno-residencia-07','caderno completo','pdf')} ou pelo {li
 As plantas e os renders desta revisão usam a tipologia da esquerda de ARQ03, que inclui a unidade 07.
 
 Atualizações: [instalações 3D e paredes transparentes](03-instalacoes/3d/LEIA-ME.md), [estado atual pelas fotos](../atual/LEIA-ME.md), [industrial sobre a planta atual](../industrial-v05/LEIA-ME.md) e [ático com escadas sobrepostas e caixa lateral](../residencia-07-atico-v05/LEIA-ME.md).
-As quatro estruturas receberam paredes em sálvia suave, lajes creme e escada areia. Suas imagens vêm do modelo editável `projeto/residencia-07/casa-07-instalacoes.blend`; a geometria da base foi preservada.
+As quatro estruturas receberam paredes em sálvia suave, lajes creme e escada areia. Suas imagens vêm do modelo editável `projeto/original/casa-07-instalacoes.blend`; a geometria da base foi preservada.
 
 | Pasta | Conteúdo |
 | --- | --- |
@@ -73,11 +73,11 @@ As paredes são cortadas a 1,15 m nas plantas 3D para mostrar a distribuição. 
 - {link('instalacoes-coordenadas-terreo','Instalações juntas no térreo','pdf')} e {link('instalacoes-coordenadas-superior','no superior','pdf')}.
 - {link('cotas-originais-terreo','Todas as cotas originais do térreo','pdf')} e {link('cotas-originais-superior','do superior','pdf')}.
 
-Os traçados das instalações preservam os símbolos, circuitos, bitolas, diâmetros e alturas dos PDFs fornecidos. As folhas originais completas acompanham o caderno técnico. Há divergências entre algumas cotas, traços e áreas do projeto de 2011; elas estão descritas no [relatório](../../relatorios/residencia-07/RELATORIO.md).
+Os traçados das instalações preservam os símbolos, circuitos, bitolas, diâmetros e alturas dos PDFs fornecidos. As folhas originais completas acompanham o caderno técnico. Há divergências entre algumas cotas, traços e áreas do projeto de 2011; elas estão descritas no [relatório](../../relatorios/original/RELATORIO.md).
 
 ## Modelo editável
 
-Abra [casa-07.blend](../../projeto/residencia-07/casa-07.blend). As cenas `R07_estrutura-…` mostram a base 3D sem móveis. As demais cenas apresentam os ambientes, as plantas e as fachadas. `Num 0` mostra a câmera e `F12` renderiza; os caminhos já apontam para estas pastas.
+Abra [casa-07.blend](../../projeto/original/casa-07.blend). As cenas `R07_estrutura-…` mostram a base 3D sem móveis. As demais cenas apresentam os ambientes, as plantas e as fachadas. `Num 0` mostra a câmera e `F12` renderiza; os caminhos já apontam para estas pastas.
 
 A base estrutural representa os elementos indicados na arquitetura. Fundações, armaduras e dimensionamento resistente não foram fornecidos. A reconstrução não confirma as alterações executadas no imóvel após 2011. A decoração industrial e os anexos dos fundos são proposta, identificada separadamente.
 '''
@@ -196,7 +196,7 @@ A linguagem industrial da versão anterior foi mantida como proposta: sofá e ca
 
 O modelo tem {model['objects']} objetos e {len(model['scenes'])} cenas. As imagens são renderizações Cycles do arquivo salvo, em 1920 × 1440 e até 192 amostras adaptativas, com CUDA. Não houve retoque generativo. As texturas usadas estão empacotadas e não há bibliotecas vinculadas; os recursos reaproveitados mantêm suas fontes em `assets/industrial-v03` e `assets/biblioteca-industrial`.
 
-Abra o [índice organizado](../../renders/residencia-07/LEIA-ME.md), o [modelo Blender](../../projeto/residencia-07/casa-07.blend) ou os comandos de reprodução no [README](../../README.md). Testes locais: `testes.log`. O arquivo final do modelo tem SHA-256 `{current_hash}`.
+Abra o [índice organizado](../../renders/original/LEIA-ME.md), o [modelo Blender](../../projeto/original/casa-07.blend) ou os comandos de reprodução no [README](../../README.md). Testes locais: `testes.log`. O arquivo final do modelo tem SHA-256 `{current_hash}`.
 '''
     (REPORT/'RELATORIO.md').write_text(body)
 

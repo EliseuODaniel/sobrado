@@ -12,7 +12,7 @@ import industrial_photoreal_data as data
 from industrial_bar_policy import bar_fridges
 
 ROOT, CFG = data.ROOT, data.CFG
-OUT = ROOT / 'exports/fotorrealismo-industrial-v06'
+OUT = ROOT / 'exports/industrial'
 REPORT = ROOT / CFG['report_directory']
 
 
@@ -74,7 +74,7 @@ Os GLBs contêm geometria, UVs e nomes dos materiais, em metros. A casa principa
 
 **Os materiais são placeholders.** Para reproduzir as imagens desta revisão, use o Blender editável, que contém os shaders completos. Materiais procedurais, correções de cor, relevo, vidros, luz e exposição precisam ser convertidos/reconstruídos no Unreal. As texturas licenciadas estão em `assets/fotorrealismo-industrial`; os grafos completos permanecem no `.blend`.
 
-Não houve importação ou benchmark no Unreal. Ao importar, conferir que o cubo de 1 m chega como 100 cm na unidade padrão do motor; este teste ainda está pendente. Recibo em `relatorios/industrial-v06/intercambio.json`.
+Não houve importação ou benchmark no Unreal. Ao importar, conferir que o cubo de 1 m chega como 100 cm na unidade padrão do motor; este teste ainda está pendente. Recibo em `relatorios/industrial/intercambio.json`.
 ''')
     print('PHOTO6_EXPORT_VERIFIED', len(exports), differences, flush=True)
 

@@ -40,7 +40,7 @@ def vectors():
         with fitz.open(target) as doc:pdf=doc.convert_to_pdf()
         with fitz.open('pdf',pdf) as doc:doc.save(target.with_suffix('.pdf'));doc[0].get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(target.with_suffix('.png'))
         outputs.append(target.with_suffix('.pdf'))
-        original=ROOT/'renders/residencia-07/01-plantas-arquitetonicas'/('cotas-originais-'+suffix+'.pdf')
+        original=ROOT/'renders/original/01-plantas-arquitetonicas'/('cotas-originais-'+suffix+'.pdf')
         dest=OUT/'01-plantas'/('cotas-oficiais-'+suffix+'.pdf');shutil.copy2(original,dest);outputs.append(dest)
     return outputs
 
@@ -71,7 +71,7 @@ def gallery(model):
 
 
 def comparisons(model):
-    byid={j['id']:ROOT/j['file'] for j in model['jobs']};current=json.loads((ROOT/'relatorios/residencia-07/estudo-instalacoes-atico/atual-modelo.json').read_text());before={j['id']:ROOT/j['file'] for j in current['jobs']}
+    byid={j['id']:ROOT/j['file'] for j in model['jobs']};current=json.loads((ROOT/'relatorios/original/estudo-instalacoes-atico/atual-modelo.json').read_text());before={j['id']:ROOT/j['file'] for j in current['jobs']}
     outputs=[]
     for id in ['sala-fundos','cozinha','bar','planta-terreo']:
         path=OUT/'04-comparacoes'/('atual-e-industrial-'+id+'.jpg');board([(before[id],byid[id],'Modelo do estado atual','Proposta industrial · mesma arquitetura e câmera')],path,'Atual e industrial / '+id,'Comparação na mesma câmera; a proposta altera móveis, acabamentos e luz.');outputs.append(path)

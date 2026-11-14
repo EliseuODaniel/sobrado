@@ -1,0 +1,38 @@
+{
+  "center_xyz": [
+    5.099999904632568,
+    5.099999904632568,
+    5.449999809265137
+  ],
+  "reference_dimensions_m": [
+    1.52,
+    1.52,
+    0.97
+  ],
+  "capacity_l": 1000,
+  "reference_product": "https://www.fortlev.com.br/produtos/reservatorios/caixa-dagua-de-polietileno-1000l/",
+  "window_horizontal_clearance_m": 0.34,
+  "stair_rear_clearance_m": 0.19,
+  "party_wall_clearance_m": 0.39,
+  "ceiling_gap_above_tank_m": 0.12,
+  "maintenance_60cm_all_around": false,
+  "status": "Estudo de posição: cabe no envelope e libera a janela; não aprovado para instalação, manutenção ou estrutura. Confirmar caixa real, acesso e tubulações.",
+  "furniture_clearances_m": {
+    "ATC Tapete": 2.987,
+    "ATC Mesa escritorio": 3.11,
+    "ATC Pe mesa": 3.877,
+    "ATC Pe mesa.001": 3.224,
+    "ATC Monitor": 3.743,
+    "ATC Cadeira": 2.748,
+    "ATC Encosto": 2.717,
+    "ATC Sofa base": 3.724,
+    "ATC Sofa encosto": 4.295,
+    "ATC Sofa almofada": 4.601,
+    "ATC Sofa almofada.001": 4.2,
+    "ATC Sofa almofada.002": 3.839,
+    "ATC Mesa lateral": 3.504,
+    "ATC Armario baixo": 4.561,
+    "ATC Armario baixo.001": 3.49
+  },
+  "source_sha256": "7e48a67ee073a49af1629412a335c3d8fccc2e515440a5f27716a985f4efc964"
+}

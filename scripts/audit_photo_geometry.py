@@ -192,7 +192,7 @@ def main():
             hit=view.ray_cast(deps,Vector((door_point[0],spec['start'][1]+.45,2.2)),Vector((0,0,1)),distance=1)
             check('passagem_com_laje_sobre_a_area_liberada',hit[0] and hit[4].name.startswith('Laje superior') and abs(hit[1].z-(cfg['estimated_dimensions_m']['floor_height']-.20))<.02,{'hit':hit[4].name if hit[0] else None,'location':list(hit[1]) if hit[0] else None},annotation)
     report={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'blend':bpy.data.filepath,'sha256':hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),'baseline':args.baseline,'checks':results,'all_passed':all(r['passed'] for r in results.values()),'scope':'Detecção de contradições discretas e visibilidade. Não prova equivalência métrica, fotográfica ou a implantação real do superior.'}
-    folder=root/'relatorios/atual';folder.mkdir(exist_ok=True)
+    folder=root/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior';folder.mkdir(exist_ok=True)
     out=folder/('auditoria-antes.json' if args.baseline else 'auditoria-depois.json');out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     for name,result in results.items():print(('PASS' if result['passed'] else 'FAIL'),name,flush=True)
     if not report['all_passed'] and not args.baseline:raise SystemExit(1)

@@ -10,7 +10,7 @@ from fetch_industrial_assets import request
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'assets/fotorrealismo-industrial'
-API = ROOT / 'relatorios/industrial-v06/api'
+API = ROOT / 'relatorios/industrial/api'
 
 
 def download(task):

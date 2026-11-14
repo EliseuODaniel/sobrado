@@ -18,7 +18,7 @@ import audit_envelope
 def main():
     p=argparse.ArgumentParser();p.add_argument('--project-root',type=Path,default=Path('.'));p.add_argument('--device',choices=['auto','cpu'],default='cpu');p.add_argument('--preview',action='store_true');p.add_argument('--no-render',action='store_true');args=p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     root=args.project_root.resolve();file=Path(bpy.data.filepath);before=hashlib.sha256(file.read_bytes()).hexdigest();cfg=json.loads((root/'config/planta-casa.json').read_text())
-    revision=cfg.get('revision_number',2);folder=root/'relatorios/atual';folder.mkdir(exist_ok=True)
+    revision=cfg.get('revision_number',2);folder=root/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior';folder.mkdir(exist_ok=True)
     report={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'revision':revision,'file':str(file.relative_to(root)),'sha256':before,'version':bpy.app.version_string,'checks':{},'unknowns':['Localização dos banheiros superiores e associação dos quartos às fotos','Forma e dimensões completas do retorno da escada','Dimensões reais; croqui do usuário não é levantamento métrico','Conciliação com a matrícula original, que não foi fornecida']}
     def check(name,ok,detail=None):
         report['checks'][name]={'passed':bool(ok),'detail':detail}
@@ -32,7 +32,7 @@ def main():
     check('dois_niveis',abs(bpy.data.objects['NIVEL_1 — superior'].location.z-cfg['estimated_dimensions_m']['floor_height'])<1e-5)
     steps=[o for o in bpy.data.objects if re.match(r'^Degrau \d{2} granito',o.name)]
     check('numero_degraus_da_hipotese',len(steps)==cfg['layout']['stairs']['risers'],len(steps))
-    inv=json.loads((root/'relatorios/referencias-originais/inventario.json').read_text())
+    inv=json.loads((root/'arquivos/versoes-anteriores-2026-11-14/relatorios/referencias-originais/inventario.json').read_text())
     check('originais_preservados',all(hashlib.sha256((root/'referencias-originais'/name).read_bytes()).hexdigest()==meta['sha256'] for name,meta in inv['inputs'].items()))
     check('referencias_empacotadas',len([i for i in bpy.data.images if i.packed_file and i.name.endswith('.webp')])==26)
     check('analise_chatgpt_nao_promovida',cfg['secondary_analysis']['verification']=='unverified_secondary_analysis' and cfg['confirmed_dimensions_m']=={})

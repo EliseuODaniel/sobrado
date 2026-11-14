@@ -14,7 +14,7 @@ def sha(path):
 
 
 def jobs():
-    base = json.loads((ROOT / 'relatorios/industrial-v05/modelo.json').read_text())
+    base = json.loads((ROOT / 'arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v05/modelo.json').read_text())
     result = []
     for original in base['jobs']:
         result.append({**original, 'source_scene': original['scene'], 'scene': 'PHOTO6_' + original['id'],

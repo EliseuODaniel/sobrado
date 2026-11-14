@@ -24,7 +24,7 @@ def main(dest):
     old=bpy.data.collections['ATUAL_Arquitetura']
     for obj in list(old.objects):bpy.data.objects.remove(obj,do_unlink=True)
     bpy.data.collections.remove(old)
-    current=geo.ROOT/'projeto/residencia-07-atual/casa-07-atual.blend'
+    current=geo.ROOT/'arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual/casa-07-atual.blend'
     with bpy.data.libraries.load(str(current),link=False) as (src,dst):dst.collections=['ATUAL_Arquitetura']
     body=dst.collections[0]
     # Materiais de degraus/guardas são componentes, não propostas de geometria.
@@ -47,7 +47,7 @@ def main(dest):
     record={'file':str(dest.relative_to(geo.ROOT)),'sha256':geo.sha(dest),'original_library_file':str(original.relative_to(geo.ROOT)),
         'original_sha256':original_hash,'preserved_geometry':before,'no_attic_access_objects':True,
         'scope':'Biblioteca de cobertura, forro, mobiliário e reservatório; apenas a escada original da casa, sem acesso antigo ao ático.'}
-    (geo.ROOT/'relatorios/limpeza-escadas/base-sem-acesso.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
+    (geo.ROOT/'arquivos/versoes-anteriores-2026-11-14/relatorios/limpeza-escadas/base-sem-acesso.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
     print('ATTIC_SOURCE_OK',len(before),'objetos; nenhuma escada de ático')
 
 

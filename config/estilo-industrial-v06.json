@@ -1,9 +1,9 @@
 {
   "version": "industrial-v06-fotorrealismo",
-  "base_blend": "projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
-  "output_blend": "projeto/industrial-v06/casa-industrial-fotorrealista.blend",
-  "report_directory": "relatorios/industrial-v06",
-  "render_directory": "renders/industrial-v06",
+  "base_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v05/casa-industrial-residencia07-atual.blend",
+  "output_blend": "projeto/industrial/casa-industrial-fotorrealista.blend",
+  "report_directory": "relatorios/industrial",
+  "render_directory": "renders/industrial",
   "asset_manifest": "assets/fotorrealismo-industrial/manifesto.json",
   "references": "referencias-estilo-industrial",
   "resolution": [

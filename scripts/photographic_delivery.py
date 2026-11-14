@@ -58,9 +58,9 @@ def main():
         for record in json.loads(manifest.read_text())['records']:
             path = ROOT / record['path']
             assert sha(path) == record['sha256'] and path.stat().st_size == record['bytes']
-    previous = load('relatorios/industrial-v01/modelo.json')
-    assert sha(ROOT / 'projeto/industrial-v01/casa-industrial.blend') == previous['blend_sha256']
-    assert sha(ROOT / 'projeto/casa-reconstruida.blend') == previous['base_sha256']
+    previous = load('arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v01/modelo.json')
+    assert sha(ROOT / 'arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v01/casa-industrial.blend') == previous['blend_sha256']
+    assert sha(ROOT / 'arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend') == previous['base_sha256']
     for name, digest in previous['references'].items():
         assert sha(ROOT / name) == digest
 
@@ -134,7 +134,7 @@ Cinco imagens finais saíram do `.blend` salvo e reaberto em outro processo. A n
 
 ## Modelo e alterações
 
-Arquivo: `projeto/industrial-v03/casa-fotografica.blend`. Cenas `PHOTO_Sala`, `PHOTO_Sala_Integrada`, `PHOTO_Cozinha`, `PHOTO_Lazer` e `PHOTO_Quarto`. A cena `EDITAR_Ativos` permite editar as malhas fontes das instâncias. Os pais `PHOTO …` permitem mover os móveis. Luzes comuns e painéis emissivos de cada cena também são objetos 3D editáveis.
+Arquivo: `arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v03/casa-fotografica.blend`. Cenas `PHOTO_Sala`, `PHOTO_Sala_Integrada`, `PHOTO_Cozinha`, `PHOTO_Lazer` e `PHOTO_Quarto`. A cena `EDITAR_Ativos` permite editar as malhas fontes das instâncias. Os pais `PHOTO …` permitem mover os móveis. Luzes comuns e painéis emissivos de cada cena também são objetos 3D editáveis.
 
 Auditoria independente: {resources['mesh_objects']} objetos de malha, {resources['vertices_in_mesh_datablocks']} vértices em datablocks e {resources['editable_asset_instances']} instâncias de ativos editáveis. Esses números descrevem o arquivo; não medem realismo visual.
 
@@ -146,7 +146,7 @@ Blender 5.2.4 / Cycles; CUDA na RTX 4070 Laptop, AgX, denoise, até 768 amostras
 
 O driver CUDA antigo instalado no Linux impedia detectar a GPU. `scripts/run_blender.py --wsl-gpu` seleciona `/usr/lib/wsl/lib/libcuda.so.1` somente para o processo filho. A execução de render foi validada com CUDA; OptiX não foi usado. Nenhum driver ou configuração global foi alterado. Na interface, configure CUDA ou selecione CPU conforme a sua instalação.
 
-Configuração ativa: `config/estilo-industrial-v03.json`. A base técnica está em `projeto/fontes/casa-base-detalhada.blend`; o estudo parcial v02 está arquivado com manifesto em `historico/estudos/industrial-v02/`. O gerador recusa sobrescrever um modelo existente. Consulte o README para renderizar ou escolher um destino novo antes de regenerar.
+Configuração ativa: `config/estilo-industrial-v03.json`. A base técnica está em `arquivos/versoes-anteriores-2026-11-14/projeto/fontes/casa-base-detalhada.blend`; o estudo parcial v02 está arquivado com manifesto em `arquivos/historico/estudos/industrial-v02/`. O gerador recusa sobrescrever um modelo existente. Consulte o README para renderizar ou escolher um destino novo antes de regenerar.
 
 ## Comparação e limites
 
@@ -162,7 +162,7 @@ Os ativos externos são [CC0 do Poly Haven](https://polyhaven.com/license); URLs
     files = [ROOT/cfg['output_blend'], ROOT/cfg['base_blend'], ROOT/'README.md',
         ROOT/'config/estilo-industrial-v03.json', ROOT/'scripts/photographic_interiors.py',
         ROOT/'scripts/photographic_delivery.py', ROOT/'scripts/audit_photographic.py', ROOT/'scripts/run_blender.py', ROOT/'scripts/test_blender_launcher.py', ROOT/'.gitattributes']
-    files += [ROOT/p for p in ['config/planta-casa.json', 'scripts/style_industrial.py', 'scripts/blender_primitives.py', 'scripts/audit_envelope.py', 'projeto/fontes/README.md', 'historico/estudos/industrial-v02/ARQUIVAMENTO.json']]
+    files += [ROOT/p for p in ['config/planta-casa.json', 'scripts/style_industrial.py', 'scripts/blender_primitives.py', 'scripts/audit_envelope.py', 'arquivos/versoes-anteriores-2026-11-14/projeto/fontes/README.md', 'arquivos/historico/estudos/industrial-v02/ARQUIVAMENTO.json']]
     files += [ROOT/p for p in expected] + sorted(renders.glob('*.jpg'))
     files += [p for p in folder.iterdir() if p.is_file() and p.name != 'manifesto.json']
     files += [p for p in (ROOT/'assets').rglob('*') if p.is_file()]

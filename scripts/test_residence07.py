@@ -61,7 +61,7 @@ class Residence07Tests(unittest.TestCase):
     def test_all_cameras_have_distinct_organized_destinations(self):
         paths=[geo.artifact_path(v['id']) for v in self.cfg['views']]
         self.assertEqual(len(paths),len(set(paths)))
-        for path in paths:self.assertNotEqual(path.parent,geo.ROOT/'renders/residencia-07')
+        for path in paths:self.assertNotEqual(path.parent,geo.ROOT/'renders/original')
 
     def test_structural_3d_has_own_folder(self):
         self.assertIn('02-estrutura/3d',str(geo.artifact_path('estrutura-terreo-3d')))

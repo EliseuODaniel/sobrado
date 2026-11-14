@@ -95,7 +95,7 @@ def audit(cfg):
             bounds=[min(v.x for v in points),max(v.x for v in points),min(v.y for v in points),max(v.y for v in points)]
             room=rooms[key]['bounds'];furniture_metrics[key]={'bounds':bounds,'size_xy':[bounds[1]-bounds[0],bounds[3]-bounds[2]]}
             if bounds[0]<room[0]+.05 or bounds[1]>room[1]-.05 or bounds[2]<room[2]+.05 or bounds[3]>room[3]-.05:furniture_errors.append(key)
-        baseline=json.loads((Path(__file__).resolve().parents[1]/'relatorios/atual/moveis-antes.json').read_text())
+        baseline=json.loads((Path(__file__).resolve().parents[1]/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior/moveis-antes.json').read_text())
         unchanged_sizes=all(all(abs(a-b)<1e-4 for a,b in zip(furniture_metrics[key]['size_xy'],baseline['beds'][key]['size_xy'])) for key in furniture_metrics)
         check('camas_cabem_nos_ambientes_reproporcionados',not furniture_errors and unchanged_sizes,{'errors':furniture_errors,'dimensions_preserved':unchanged_sizes,'metrics':furniture_metrics})
         check('banheiros_marcados_como_hipotese',not cfg['upper_layout']['bathrooms_confirmed'] and all('HIPÓTESE' in bpy.data.objects['Rótulo superior '+k].data.body for k in ['banho_suite','banho_social']),['banho_suite','banho_social'])

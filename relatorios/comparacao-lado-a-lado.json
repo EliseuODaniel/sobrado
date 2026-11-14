@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "original",
+    "default_scene": "VISUALIZACAO_original_COMPARACAO",
+    "left": "terreo",
+    "right": "dois-pavimentos",
+    "copied_objects": [
+      820,
+      1224
+    ],
+    "rendered": false,
+    "blend": "projeto/original/visualizacao-pavimentos.blend"
+  },
+  {
+    "variant": "atual",
+    "default_scene": "VISUALIZACAO_atual_COMPARACAO",
+    "left": "terreo",
+    "right": "dois-pavimentos",
+    "copied_objects": [
+      2191,
+      2737
+    ],
+    "rendered": false,
+    "blend": "projeto/atual/visualizacao-pavimentos.blend"
+  },
+  {
+    "variant": "industrial",
+    "default_scene": "VISUALIZACAO_industrial_COMPARACAO",
+    "left": "terreo",
+    "right": "dois-pavimentos",
+    "copied_objects": [
+      807,
+      991
+    ],
+    "rendered": false,
+    "blend": "projeto/industrial/visualizacao-pavimentos.blend"
+  }
+]

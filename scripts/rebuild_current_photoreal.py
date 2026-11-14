@@ -32,7 +32,7 @@ def main():
     target=data.ROOT/data.CFG['output_blend']
     if target.exists():
         previous=model();assert data.sha(target)==previous['blend_sha256'],'Modelo recebeu edição externa; preservar a edição antes de reconstruir.'
-        archive=data.ROOT/'historico/estudos/atual-v02/modelos'/previous['blend_sha256'];archive.mkdir(parents=True,exist_ok=True)
+        archive=data.ROOT/'arquivos/historico/estudos/atual-v02/modelos'/previous['blend_sha256'];archive.mkdir(parents=True,exist_ok=True)
         if not (archive/target.name).exists():shutil.copy2(target,archive/target.name)
         assert data.sha(archive/target.name)==previous['blend_sha256'];(archive/'modelo.json').write_text(json.dumps(previous,ensure_ascii=False,indent=2)+'\n')
     data.REPORT.mkdir(parents=True,exist_ok=True)

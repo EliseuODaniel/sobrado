@@ -1,0 +1,20 @@
+{
+  "python_files_syntax_checked": 100,
+  "main_delivery_links_missing": [],
+  "active_project_folders": [
+    "original",
+    "atual",
+    "industrial",
+    "atico"
+  ],
+  "active_render_folders": [
+    "original",
+    "atual",
+    "industrial",
+    "atico"
+  ],
+  "unit_tests": "37 testes test_residence07*.py aprovados",
+  "new_images_status": "Adiadas; vistas de pavimento anteriores à correção movidas para arquivos/versoes-anteriores-2026-11-14/correcao-transformacoes",
+  "blender_comparison_validation": "comparacao-validacao-final.json",
+  "furniture_evaluation_regression": "Corrigida; validacao-moveis-pavimentos.json"
+}

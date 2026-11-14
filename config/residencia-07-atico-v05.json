@@ -15,11 +15,11 @@
     "description": "Forro inclinado acompanhando as águas; reserva vertical proposta de 15 cm incluindo placa e espaço para fixação."
   },
   "version": "atico-v05",
-  "base_blend": "projeto/fontes/atico-cobertura-forro-sem-acesso.blend",
-  "current_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
-  "output_blend": "projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend",
-  "render_directory": "renders/residencia-07-atico-v05",
-  "report_directory": "relatorios/residencia-07-atico-v05",
+  "base_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/fontes/atico-cobertura-forro-sem-acesso.blend",
+  "current_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual/casa-07-atual.blend",
+  "output_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend",
+  "render_directory": "arquivos/versoes-anteriores-2026-11-14/renders/residencia-07-atico-v05",
+  "report_directory": "arquivos/versoes-anteriores-2026-11-14/relatorios/residencia-07-atico-v05",
   "stair": {
     "base_z": 2.7,
     "top_z": 5.4,

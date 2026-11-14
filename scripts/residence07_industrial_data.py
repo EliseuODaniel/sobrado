@@ -12,7 +12,7 @@ def references():
 
 
 def jobs():
-    source=json.loads((ROOT/'relatorios/residencia-07/estudo-instalacoes-atico/atual-modelo.json').read_text())
+    source=json.loads((ROOT/'relatorios/original/estudo-instalacoes-atico/atual-modelo.json').read_text())
     titles={'sala-fundos':'Sala industrial integrada aos fundos','sala-frente':'Sofá de couro caramelo e jantar de madeira',
         'cozinha':'Cozinha grafite, madeira e luz quente','cozinha-reversa':'Cozinha e integração com jantar',
         'bar':'Bar industrial com quatro banquetas','suite':'Suíte com madeira e cimento',

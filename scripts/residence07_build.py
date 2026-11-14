@@ -1,7 +1,7 @@
 """Reconstrói a unidade 07 em Blender, com cenas nativas e render reprodutível.
 
-Geração: run_blender.py --wsl-gpu --background projeto/fontes/mobiliario-industrial.blend --python este.py
-Render: run_blender.py --wsl-gpu --background projeto/residencia-07/casa-07.blend
+Geração: run_blender.py --wsl-gpu --background arquivos/versoes-anteriores-2026-11-14/projeto/fontes/mobiliario-industrial.blend --python este.py
+Render: run_blender.py --wsl-gpu --background projeto/original/casa-07.blend
         --python este.py -- --render-only [--preview] [--only <id>]
 """
 import argparse
@@ -525,7 +525,7 @@ def build():
     receipt={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'blend':str(BLEND.relative_to(ROOT)),
              'blend_sha256':geo.sha(BLEND),'config_sha256':geo.sha(geo.CONFIG),'objects':len(bpy.data.objects),
              'scenes':[s.name for s in bpy.data.scenes],'reused_furniture_objects':reused,
-             'source_blend':'projeto/fontes/mobiliario-industrial.blend','geometry':geo.validate(CFG)}
+             'source_blend':'arquivos/versoes-anteriores-2026-11-14/projeto/fontes/mobiliario-industrial.blend','geometry':geo.validate(CFG)}
     (REPORT/'modelo.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
     print('R07_BUILD_OK',json.dumps(receipt,ensure_ascii=False),flush=True)
 

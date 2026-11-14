@@ -1080,9 +1080,9 @@
     "note": "Reconstituição dos degraus desenhados; 16 espelhos para vencer 2,70 m, retorno com seis degraus compensados. Verificação de execução pendente."
   },
   "delivery": {
-    "blend": "projeto/residencia-07/casa-07.blend",
-    "renders": "renders/residencia-07",
-    "reports": "relatorios/residencia-07",
+    "blend": "projeto/original/casa-07.blend",
+    "renders": "renders/original",
+    "reports": "relatorios/original",
     "resolution": [
       1920,
       1440

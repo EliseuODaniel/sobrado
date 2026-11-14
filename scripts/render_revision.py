@@ -48,7 +48,7 @@ def main():
             scene=bpy.data.scenes[scene_name];cam=scene.camera
             plan_views[target]={'position_world':list(cam.matrix_world.translation),'rotation_world':list(cam.matrix_world.to_quaternion()),'ortho_scale':cam.data.ortho_scale,'resolution':[scene.render.resolution_x*scene.render.resolution_percentage//100,scene.render.resolution_y*scene.render.resolution_percentage//100]}
     report={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'revision':cfg['revision_number'],'blend':str(file.relative_to(root)),'sha256':original,'version':bpy.app.version_string,'preview':args.preview,'device':device,'outputs':outputs,'saved_file_unchanged':True,'viewpoints':viewpoints,'plan_views':plan_views}
-    (root/'relatorios/atual'/('renders-previa.json' if args.preview else 'renders-finais.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    (root/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior'/('renders-previa.json' if args.preview else 'renders-finais.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 
 
 if __name__=='__main__':main()

@@ -31,3 +31,16 @@ __pycache__/
 /relatorios/residencia-07/estudo-instalacoes-atico/previas/
 /relatorios/industrial-v05/previas/
 /relatorios/residencia-07-atico-v05/previas/
+
+# Histórico local já não publicado; movimentos de arquivos versionados são adicionados explicitamente.
+/arquivos/**/*.png
+/arquivos/**/*.blend
+/arquivos/**/*.jpg
+/arquivos/**/*.pdf
+/arquivos/**/*.gif
+/arquivos/**/*.log
+/arquivos/**/*.glb
+/arquivos/historico/rascunhos/
+/relatorios/validacao-blender-final.log
+/relatorios/*.log
+/relatorios/atico/*-anterior.log

@@ -1,0 +1,401 @@
+[
+  {
+    "source": "projeto/residencia-07",
+    "destination": "projeto/original",
+    "files": 3,
+    "bytes": 61989338.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/visualizacoes-pavimentos/original-sem-telhado.blend",
+    "destination": "projeto/original/visualizacao-pavimentos.blend",
+    "files": 1,
+    "bytes": 30701847.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/residencia-07-atual-v02",
+    "destination": "projeto/atual",
+    "files": 2,
+    "bytes": 435671049.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/visualizacoes-pavimentos/atual-sem-telhado.blend",
+    "destination": "projeto/atual/visualizacao-pavimentos.blend",
+    "files": 1,
+    "bytes": 435503168.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/industrial-v06",
+    "destination": "projeto/industrial",
+    "files": 2,
+    "bytes": 595224423.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/visualizacoes-pavimentos/industrial-sem-telhado.blend",
+    "destination": "projeto/industrial/visualizacao-pavimentos.blend",
+    "files": 1,
+    "bytes": 595008007.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/residencia-07-atico-v05/atico-caixa-canto-escada.blend",
+    "destination": "projeto/atico/atico-caixa-canto-escada.blend",
+    "files": 1,
+    "bytes": 3243355.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/residencia-07-atico-v05/LEIA-ME-caixa-canto.md",
+    "destination": "projeto/atico/LEIA-ME.md",
+    "files": 1,
+    "bytes": 1797.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/casa-reconstruida.blend",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend",
+    "files": 1,
+    "bytes": 3967358.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/fontes",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/fontes",
+    "files": 4,
+    "bytes": 208559421.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/industrial-v01",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v01",
+    "files": 1,
+    "bytes": 4477068.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/industrial-v02",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v02",
+    "files": 0,
+    "bytes": null,
+    "verified": true
+  },
+  {
+    "source": "projeto/industrial-v03",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v03",
+    "files": 1,
+    "bytes": 214743291.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/industrial-v05",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v05",
+    "files": 2,
+    "bytes": 143942897.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/residencia-07-atico-v05",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atico-v05",
+    "files": 6,
+    "bytes": 12969100.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/residencia-07-atual",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual",
+    "files": 2,
+    "bytes": 3391078.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/visualizacoes-pavimentos",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/visualizacoes-pavimentos",
+    "files": 0,
+    "bytes": null,
+    "verified": true
+  },
+  {
+    "source": "renders/residencia-07/_trabalho",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/original-trabalho",
+    "files": 28,
+    "bytes": 15941949.0,
+    "verified": true
+  },
+  {
+    "source": "renders/residencia-07",
+    "destination": "renders/original",
+    "files": 108,
+    "bytes": 564239969.0,
+    "verified": true
+  },
+  {
+    "source": "renders/industrial-v06",
+    "destination": "renders/industrial",
+    "files": 110,
+    "bytes": 1333554771.0,
+    "verified": true
+  },
+  {
+    "source": "renders/atico-caixa-canto",
+    "destination": "renders/atico",
+    "files": 7,
+    "bytes": 6536086.0,
+    "verified": true
+  },
+  {
+    "source": "renders/visualizacoes-pavimentos/original",
+    "destination": "renders/original/vistas-pavimentos",
+    "files": 2,
+    "bytes": 4257772.0,
+    "verified": true
+  },
+  {
+    "source": "renders/visualizacoes-pavimentos/atual",
+    "destination": "renders/atual/vistas-pavimentos",
+    "files": 2,
+    "bytes": 4938376.0,
+    "verified": true
+  },
+  {
+    "source": "renders/visualizacoes-pavimentos/industrial",
+    "destination": "renders/industrial/vistas-pavimentos",
+    "files": 0,
+    "bytes": null,
+    "verified": true
+  },
+  {
+    "source": "renders/atico-caixa-canto-execucao.log",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-caixa-canto-execucao.log",
+    "files": 1,
+    "bytes": 1847.0,
+    "verified": true
+  },
+  {
+    "source": "renders/atico-caixa-lateral",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-caixa-lateral",
+    "files": 5,
+    "bytes": 6567758.0,
+    "verified": true
+  },
+  {
+    "source": "renders/atico-telhado-transparente",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-telhado-transparente",
+    "files": 4,
+    "bytes": 4405084.0,
+    "verified": true
+  },
+  {
+    "source": "renders/atico-transparente-execucao.log",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-transparente-execucao.log",
+    "files": 1,
+    "bytes": 843.0,
+    "verified": true
+  },
+  {
+    "source": "renders/industrial-v05",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05",
+    "files": 42,
+    "bytes": 282701741.0,
+    "verified": true
+  },
+  {
+    "source": "renders/residencia-07-atico-v05",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/residencia-07-atico-v05",
+    "files": 73,
+    "bytes": 114986279.0,
+    "verified": true
+  },
+  {
+    "source": "renders/visualizacoes-pavimentos",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/renders/visualizacoes-pavimentos",
+    "files": 1,
+    "bytes": 3991.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/atual",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior",
+    "files": 3,
+    "bytes": 1451.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/residencia-07",
+    "destination": "relatorios/original",
+    "files": 122,
+    "bytes": 20971704.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/atual-fiel-v02",
+    "destination": "relatorios/atual",
+    "files": 210,
+    "bytes": 198404027.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/industrial-v06",
+    "destination": "relatorios/industrial",
+    "files": 234,
+    "bytes": 122654133.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/visualizacoes-pavimentos/original-verificacao.json",
+    "destination": "relatorios/original/verificacao-pavimentos.json",
+    "files": 1,
+    "bytes": 79598.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/visualizacoes-pavimentos/atual-verificacao.json",
+    "destination": "relatorios/atual/verificacao-pavimentos.json",
+    "files": 1,
+    "bytes": 222810.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/visualizacoes-pavimentos/industrial-verificacao.json",
+    "destination": "relatorios/industrial/verificacao-pavimentos.json",
+    "files": 1,
+    "bytes": 80006.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/atico-caixa-lateral",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/atico-caixa-lateral",
+    "files": 8,
+    "bytes": 596350.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/fotorrealismo-2026-11-12",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/fotorrealismo-2026-11-12",
+    "files": 6,
+    "bytes": 55395.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/industrial-v01",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v01",
+    "files": 14,
+    "bytes": 538015.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/industrial-v03",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v03",
+    "files": 15,
+    "bytes": 779605.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/industrial-v05",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v05",
+    "files": 21,
+    "bytes": 4459829.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/limpeza-escadas",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/limpeza-escadas",
+    "files": 15,
+    "bytes": 305491.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/progresso.json",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/progresso.json",
+    "files": 1,
+    "bytes": 1394.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/referencias-originais",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/referencias-originais",
+    "files": 8,
+    "bytes": 1260388.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/residencia-07-atico-v05",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/residencia-07-atico-v05",
+    "files": 32,
+    "bytes": 3121405.0,
+    "verified": true
+  },
+  {
+    "source": "relatorios/visualizacoes-pavimentos",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/visualizacoes-pavimentos",
+    "files": 15,
+    "bytes": 77925.0,
+    "verified": true
+  },
+  {
+    "source": "exports/fotorrealismo-industrial-v06",
+    "destination": "exports/industrial",
+    "files": 4,
+    "bytes": 32327325.0,
+    "verified": true
+  },
+  {
+    "source": "historico",
+    "destination": "arquivos/historico",
+    "files": 1058,
+    "bytes": 2579679464.0,
+    "verified": true
+  },
+  {
+    "source": "PLANO-FOTORREALISMO.md",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/documentos/PLANO-FOTORREALISMO.md",
+    "files": 1,
+    "bytes": 31046.0,
+    "verified": true
+  },
+  {
+    "source": "PLANO-RESIDENCIA-07.md",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/documentos/PLANO-RESIDENCIA-07.md",
+    "files": 1,
+    "bytes": 4747.0,
+    "verified": true
+  },
+  {
+    "source": "projeto/original/casa-07.blend1",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/original-backups/casa-07.blend1",
+    "files": 1,
+    "bytes": 30773891,
+    "verified": true
+  },
+  {
+    "source": "renders/atico/validar.py",
+    "destination": "relatorios/atico/validar-anterior.py",
+    "files": 1,
+    "bytes": 752,
+    "verified": true
+  },
+  {
+    "source": "renders/atico/validacao.log",
+    "destination": "relatorios/atico/validacao-anterior.log",
+    "files": 1,
+    "bytes": 320,
+    "verified": true
+  },
+  {
+    "source": "relatorios/preparar_organizacao.py",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/trabalho/preparar_organizacao.py",
+    "files": 1,
+    "bytes": 2900,
+    "verified": true
+  },
+  {
+    "source": "relatorios/organizar.ps1",
+    "destination": "arquivos/versoes-anteriores-2026-11-14/trabalho/organizar.ps1",
+    "files": 1,
+    "bytes": 1797,
+    "verified": true
+  }
+]

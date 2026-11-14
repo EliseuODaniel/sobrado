@@ -7,12 +7,12 @@ from pathlib import Path
 import subprocess
 from PIL import Image
 
-root=Path(__file__).resolve().parents[1];reports=root/'relatorios/atual'
+root=Path(__file__).resolve().parents[1];reports=root/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior'
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def read(name):return json.loads((reports/name).read_text())
 cfg=json.loads((root/'config/planta-casa.json').read_text());assert cfg['revision_number']==10
 validation=read('validacao.json');audit=read('auditoria-depois.json');upper=read('auditoria-superior.json');renders=read('renders-finais.json');comparison=read('comparacao.json');start=read('inicio.json');proportions=read('proporcoes.json');envelope=read('encaixe-pavimentos.json');old_envelope=read('encaixe-antes.json')
-blend=root/'projeto/casa-reconstruida.blend';fingerprint=sha(blend)
+blend=root/'arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend';fingerprint=sha(blend)
 assert fingerprint==validation['sha256']==audit['sha256']==renders['sha256']==comparison['blend_sha256']
 assert all(v['passed'] for v in validation['checks'].values()) and audit['all_passed'] and upper['all_passed']
 assert validation['checks']['escada_e_superior_coerentes']['detail']==upper and validation['photo_geometry_audit']==audit
@@ -33,13 +33,13 @@ assert read('moveis-antes.json')['sha256']==start['previous_blend_sha256']
 assert upper['checks']['camas_cabem_nos_ambientes_reproporcionados']['detail']['dimensions_preserved']
 archive_counts={}
 for name in ['ate-revisao05','revisao06','revisao07','revisao08','revisao09']:
-    manifest=json.loads((root/'historico'/name/'ARQUIVAMENTO.json').read_text())
+    manifest=json.loads((root/'arquivos/historico'/name/'ARQUIVAMENTO.json').read_text())
     for record in manifest['records']:assert sha(root/record['destination'])==record['sha256'],record['destination']
     archive_counts[name]=len(manifest['records'])
-legacy=json.loads((root/'historico/ate-revisao05/ARQUIVAMENTO.json').read_text());body=(root/'scripts/blender_primitives.py').read_text()
+legacy=json.loads((root/'arquivos/historico/ate-revisao05/ARQUIVAMENTO.json').read_text());body=(root/'scripts/blender_primitives.py').read_text()
 assert {n.name:hashlib.sha256(ast.get_source_segment(body,n).encode()).hexdigest() for n in ast.parse(body).body if isinstance(n,ast.FunctionDef)}==legacy['shared_helpers_unchanged_sha256']
 for record in start.get('drafts',[]):assert sha(root/record['destination'])==record['sha256']
-inv=json.loads((root/'relatorios/referencias-originais/inventario.json').read_text());assert all(sha(root/'referencias-originais'/name)==meta['sha256'] for name,meta in inv['inputs'].items())
+inv=json.loads((root/'arquivos/versoes-anteriores-2026-11-14/relatorios/referencias-originais/inventario.json').read_text());assert all(sha(root/'referencias-originais'/name)==meta['sha256'] for name,meta in inv['inputs'].items())
 assert [p.name for p in (root/'projeto').glob('*.blend')]==['casa-reconstruida.blend']
 images=list(dict.fromkeys(root/name for name in renders['outputs']+comparison['outputs']));assert set((root/'renders/atual').glob('*.png'))==set(images)
 for p in images:
@@ -94,7 +94,7 @@ O corpo principal tem projeção retangular de {d['width']*(d['upper_back_y']-d[
 
 Passaram 18 verificações de integridade, 40 de relações do térreo, 16 de escada/superior e os três testes específicos de contorno e coplanaridade. Comandos: `validate_house.py`, `house_atlas.py`, `compare_proportions.py --landmarks referencias-ajustes/proporcoes-r09-linhas.json`, `python3 -m py_compile scripts/*.py` e `git diff --check`.
 
-O arquivo atual é `projeto/casa-reconstruida.blend`. As 23 prévias foram inspecionadas antes dos renders finais em CPU no Blender 5.2.4 LTS. A revisão 09 está preservada em `historico/revisao09/`, com {archive_counts['revisao09']} registros. Fotos originais e referências foram preservadas. Não houve commit, push ou publicação.
+O arquivo atual é `arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend`. As 23 prévias foram inspecionadas antes dos renders finais em CPU no Blender 5.2.4 LTS. A revisão 09 está preservada em `arquivos/historico/revisao09/`, com {archive_counts['revisao09']} registros. Fotos originais e referências foram preservadas. Não houve commit, push ou publicação.
 
 ## Limites
 
@@ -102,8 +102,8 @@ O avanço do primeiro lance ainda está comprimido em cerca de {s['first_run']/s
 
 '''+ '\n'.join('- '+item for item in unknowns)+'\n'
 (reports/'RELATORIO.md').write_text(text)
-inputs=[root/'config/planta-casa.json',root/cfg['upper_layout_source']['path'],root/cfg['user_layout_source']['path'],root/'referencias-ajustes/proporcoes-r09-linhas.json',*sorted((root/'referencias-originais').glob('*.webp')),*[root/'historico'/name/'ARQUIVAMENTO.json' for name in archive_counts]]
-outputs=[blend,root/'README.md',root/'historico/README.md',root/'relatorios/progresso.json',*sorted((root/'scripts').glob('*.py')),*images,*sorted(reports.glob('*.json')),*sorted(reports.glob('*.log')),reports/'RELATORIO.md'];outputs=list(dict.fromkeys(p for p in outputs if p.name!='manifesto.json'))
+inputs=[root/'config/planta-casa.json',root/cfg['upper_layout_source']['path'],root/cfg['user_layout_source']['path'],root/'referencias-ajustes/proporcoes-r09-linhas.json',*sorted((root/'referencias-originais').glob('*.webp')),*[root/'arquivos/historico'/name/'ARQUIVAMENTO.json' for name in archive_counts]]
+outputs=[blend,root/'README.md',root/'arquivos/historico/README.md',root/'arquivos/versoes-anteriores-2026-11-14/relatorios/progresso.json',*sorted((root/'scripts').glob('*.py')),*images,*sorted(reports.glob('*.json')),*sorted(reports.glob('*.log')),reports/'RELATORIO.md'];outputs=list(dict.fromkeys(p for p in outputs if p.name!='manifesto.json'))
 def metadata(paths):return {str(p.relative_to(root)):{'sha256':sha(p),'bytes':p.stat().st_size} for p in paths}
 (reports/'manifesto.json').write_text(json.dumps({'timestamp_utc':stamp,'revision':10,'scope':review['scope'],'inputs':metadata(inputs),'outputs':metadata(outputs),'unknowns':unknowns,'deletions':[],'external_publication':False},ensure_ascii=False,indent=2)+'\n')
 print('CURRENT_DELIVERY_VERIFIED',18,40,16,23,11,3)

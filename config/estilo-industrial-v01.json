@@ -1,10 +1,10 @@
 {
   "version": "industrial-v01",
-  "base_blend": "projeto/casa-reconstruida.blend",
-  "output_blend": "projeto/industrial-v01/casa-industrial.blend",
+  "base_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend",
+  "output_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v01/casa-industrial.blend",
   "references": "referencias-estilo-industrial",
   "render_directory": "renders/industrial-v01",
-  "report_directory": "relatorios/industrial-v01",
+  "report_directory": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v01",
   "samples": 96,
   "resolution": [
     1600,

@@ -45,10 +45,10 @@ def plans():
     outputs = []
     for suffix in ['terreo', 'superior']:
         for ext in ['svg', 'pdf', 'png']:
-            source = ROOT / 'renders/industrial-v05/01-plantas' / ('planta-industrial-' + suffix + '.' + ext)
+            source = ROOT / 'arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05/01-plantas' / ('planta-industrial-' + suffix + '.' + ext)
             shutil.copy2(source, folder / source.name)
         for name in ['planta-industrial-', 'cotas-oficiais-']:
-            source = ROOT / 'renders/industrial-v05/01-plantas' / (name + suffix + '.pdf')
+            source = ROOT / 'arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05/01-plantas' / (name + suffix + '.pdf')
             dest = folder / source.name
             if not dest.exists(): shutil.copy2(source, dest)
             outputs.append(dest)
@@ -57,7 +57,7 @@ def plans():
 
 def comparisons(model):
     jobs = {j['id']: ROOT / j['file'] for j in model['jobs']}
-    old = {j['id']: ROOT / j['file'] for j in json.loads((ROOT / 'relatorios/industrial-v05/modelo.json').read_text())['jobs']}
+    old = {j['id']: ROOT / j['file'] for j in json.loads((ROOT / 'arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v05/modelo.json').read_text())['jobs']}
     outputs = []
     for key in ['sala-fundos', 'cozinha', 'bar', 'escritorio-alternativa']:
         dest = OUT / '04-comparacoes' / ('v05-e-v06-' + key + '.jpg')
@@ -144,7 +144,7 @@ As imagens foram calculadas no **Blender/Cycles com aceleração de GPU**, até 
 
 ## Intercâmbio
 
-[Geometria e UVs em GLB]({relative(ROOT / 'exports/fotorrealismo-industrial-v06/LEIA-ME.md')}). O teste de unidade e de três paredes por reimportação passou. Esses GLBs usam materiais de identificação; os shaders completos estão no Blender e ainda precisam de conversão para Unreal.
+[Geometria e UVs em GLB]({relative(ROOT / 'exports/industrial/LEIA-ME.md')}). O teste de unidade e de três paredes por reimportação passou. Esses GLBs usam materiais de identificação; os shaders completos estão no Blender e ainda precisam de conversão para Unreal.
 
 ## Imagens
 
@@ -204,7 +204,7 @@ O render é físico e usa recursos 3D editáveis. A qualidade visual deve ser av
 
 Recibos: `modelo.json`, `renders.json`, `gpu-render.json`, `validacao-completa.json`, `validacao-entrega.json`. O consumo em `gpu-render.json` é amostrado para a GPU inteira e inclui outros processos; não equivale ao pico exato do Blender. Os tempos são desta máquina e configuração, sem comparação com Unreal.
 
-[Galeria](../../renders/industrial-v06/galeria.html) · [índice](../../renders/industrial-v06/LEIA-ME.md).
+[Galeria](../../renders/industrial/galeria.html) · [índice](../../renders/industrial/LEIA-ME.md).
 ''')
 
 

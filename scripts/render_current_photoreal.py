@@ -34,7 +34,7 @@ def windows(p):return subprocess.check_output(['wslpath','-w',str(p)],text=True)
 
 def queue(args,m):
     assert m['status']=='validated' and data.sha(data.ROOT/m['blend'])==m['blend_sha256']
-    files={m['blend'],'scripts/current_photoreal_data.py','scripts/render_current_photoreal.py','config/atual-fiel-v02.json','relatorios/atual-fiel-v02/modelo.json'}
+    files={m['blend'],'scripts/current_photoreal_data.py','scripts/render_current_photoreal.py','config/atual-fiel-v02.json','relatorios/atual/modelo.json'}
     for relative in files:
         src,dst=data.ROOT/relative,STAGE/relative;dst.parent.mkdir(parents=True,exist_ok=True)
         if not dst.exists() or data.sha(src)!=data.sha(dst):shutil.copy2(src,dst)

@@ -7,8 +7,8 @@ import bpy
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'projeto/industrial-v04/casa-industrial-refinada.blend'
-DEST = ROOT / 'projeto/fontes/mobiliario-industrial.blend'
-REPORT = ROOT / 'relatorios/industrial-v06'
+DEST = ROOT / 'arquivos/versoes-anteriores-2026-11-14/projeto/fontes/mobiliario-industrial.blend'
+REPORT = ROOT / 'relatorios/industrial'
 
 
 def sha(path):

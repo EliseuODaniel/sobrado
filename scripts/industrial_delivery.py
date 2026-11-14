@@ -101,11 +101,11 @@ Sala/jantar, cozinha, lazer nos fundos e quarto dos fundos receberam uma propost
 
 ## Organização e reprodução
 
-Editável: `projeto/industrial-v01/casa-industrial.blend`. Cenas: `IND_…`. Novas peças: coleções `IND_Decor_…`. Materiais: `IND …`. As quatro referências acompanham o repositório, sem serem necessárias para renderizar; os revestimentos são procedurais e ajustáveis. As 26 fotos originais únicas herdadas continuam empacotadas. A configuração `config/estilo-industrial-v01.json` define câmeras, versão e saídas; cores e texturas ficam nos materiais do Blender e na função `materials()` do gerador.
+Editável: `arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v01/casa-industrial.blend`. Cenas: `IND_…`. Novas peças: coleções `IND_Decor_…`. Materiais: `IND …`. As quatro referências acompanham o repositório, sem serem necessárias para renderizar; os revestimentos são procedurais e ajustáveis. As 26 fotos originais únicas herdadas continuam empacotadas. A configuração `config/estilo-industrial-v01.json` define câmeras, versão e saídas; cores e texturas ficam nos materiais do Blender e na função `materials()` do gerador.
 
 O arquivo base e a geometria herdada ficam preservados. Na variante, o pendente de anéis, o pé central da mesa e a TV antiga do quarto ficam ocultos no render para receber as peças da proposta, sem excluir os objetos. A apresentação não é uma reprodução literal das imagens: proporções, mobiliário simplificado e incidência de luz obedecem ao modelo da casa.
 
-Os renders foram produzidos pelo Blender em Cycles/CPU, 96 amostras, AgX e denoise, em 1600 × 1000. O log da execução está em `renderizacao.log`. Houve uma rodada de prévias e refinamento de câmera, cimento, madeira, iluminação e posição das prateleiras; as prévias iniciais estão preservadas localmente em `historico/rascunhos/industrial-v01/rodada01/`.
+Os renders foram produzidos pelo Blender em Cycles/CPU, 96 amostras, AgX e denoise, em 1600 × 1000. O log da execução está em `renderizacao.log`. Houve uma rodada de prévias e refinamento de câmera, cimento, madeira, iluminação e posição das prateleiras; as prévias iniciais estão preservadas localmente em `arquivos/historico/rascunhos/industrial-v01/rodada01/`.
 
 Os binários antigos e rascunhos continuam no disco, ignorados pelo Git. Apenas modelos/renders atuais, referências, código, configuração e documentos/recibos históricos são publicados. A comprovação do push fica no SHA retornado por `git ls-remote origin refs/heads/main`, conferido após publicar; este relatório não antecipa esse resultado.
 

@@ -44,3 +44,15 @@ historico/**/*.pdf filter=lfs diff=lfs merge=lfs -text
 # Preservar os bytes das evidências e dos shaders de referência.
 *.log -text
 *.mtlx -text
+# Entregas atuais e arquivos movidos mantêm os binários no Git LFS.
+projeto/**/*.blend filter=lfs diff=lfs merge=lfs -text
+arquivos/**/*.blend filter=lfs diff=lfs merge=lfs -text
+renders/**/*.png filter=lfs diff=lfs merge=lfs -text
+renders/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+renders/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+renders/**/*.gif filter=lfs diff=lfs merge=lfs -text
+arquivos/**/*.png filter=lfs diff=lfs merge=lfs -text
+arquivos/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+arquivos/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+arquivos/**/*.gif filter=lfs diff=lfs merge=lfs -text
+exports/industrial/*.glb filter=lfs diff=lfs merge=lfs -text

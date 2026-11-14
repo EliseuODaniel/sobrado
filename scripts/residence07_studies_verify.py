@@ -41,7 +41,7 @@ def main():
                 target=path.parent/unquote(link.split('#')[0])
                 if not target.exists():bad.append(link)
             check('links locais '+str(path.relative_to(ROOT)),not bad,bad)
-    attic_report=ROOT/'relatorios/residencia-07-atico-v05'
+    attic_report=ROOT/'arquivos/versoes-anteriores-2026-11-14/relatorios/residencia-07-atico-v05'
     latest=json.loads((attic_report/'modelo.json').read_text())
     latest_audit=json.loads((attic_report/'validacao-completa.json').read_text())
     latest_delivery=json.loads((attic_report/'validacao-entrega.json').read_text())
@@ -57,15 +57,15 @@ def main():
     check('pastas da versão atual',sorted(p.name for p in (ROOT/data.CFG['current_renders']).iterdir() if p.is_dir())==['00-cadernos','01-plantas','02-ambientes','03-exteriores','04-comparacoes','06-galerias'])
     for level in ['terreo','superior']:
         for ext in ['png','svg','pdf']:check('planta vetorial atual '+level+'.'+ext,(ROOT/data.CFG['current_renders']/'01-plantas'/('planta-atual-'+level+'.'+ext)).exists())
-    photos=json.loads((ROOT/'relatorios/referencias-originais/inventario.json').read_text())
+    photos=json.loads((ROOT/'arquivos/versoes-anteriores-2026-11-14/relatorios/referencias-originais/inventario.json').read_text())
     check('31 fotos originais preservadas',len(photos['inputs'])==31 and all(geo.sha(ROOT/'referencias-originais'/p)==row['sha256'] for p,row in photos['inputs'].items()))
     comp=json.loads((REPORT/'atual-comparacoes.json').read_text())
     check('seis comparações com fotos',len(comp)==6 and all(geo.sha(ROOT/r['photo'])==r['photo_sha256'] and (ROOT/r['file']).exists() for r in comp))
     manifest=json.loads((REPORT/'entrega.json').read_text())
     check('manifesto íntegro',all(geo.sha(ROOT/r['file'])==r['sha256'] for r in manifest['artifacts']))
-    base=json.loads((ROOT/'relatorios/residencia-07/validacao-completa.json').read_text())
+    base=json.loads((ROOT/'relatorios/original/validacao-completa.json').read_text())
     check('base documental continua íntegra',base['all_passed'] and base['blend_sha256']==geo.sha(ROOT/data.CFG['base_blend']))
-    rows=json.loads((ROOT/'relatorios/residencia-07/renders.json').read_text())
+    rows=json.loads((ROOT/'relatorios/original/renders.json').read_text())
     check('29 imagens documentais com origem verificável',len(rows)==29 and all(geo.valid_render_record(r) for r in rows))
     check('quatro estruturas atualizadas na entrega base',all(r.get('source_blend')==data.CFG['services_blend'] for r in rows if r['id'].startswith('estrutura-')))
     result={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'checks':checks,'all_passed':all(c['passed'] for c in checks),
@@ -91,7 +91,7 @@ Conferência em {result['timestamp_utc']}. Entrega verificada para reconstruçã
 
 ## Estado atual e refatoração
 
-`renders/atual` foi inteiramente substituída pela reconstrução sobre a unidade 07. As 34 imagens da raiz foram preservadas em `historico/atual-pre-residencia07/renders`, com hashes em `atual-arquivos-anteriores.json`. A pasta vigente contém 20 vistas, duas plantas vetoriais em SVG/PDF/PNG, seis comparações foto/modelo, galeria navegável e caderno de 29 páginas.
+`renders/atual` foi inteiramente substituída pela reconstrução sobre a unidade 07. As 34 imagens da raiz foram preservadas em `arquivos/historico/atual-pre-residencia07/renders`, com hashes em `atual-arquivos-anteriores.json`. A pasta vigente contém 20 vistas, duas plantas vetoriais em SVG/PDF/PNG, seis comparações foto/modelo, galeria navegável e caderno de 29 páginas.
 
 A arquitetura deriva de ARQ03/04. A abertura do fundo da sala vem da instrução do usuário e das fotos; cobertura de vidro, vigas de madeira e divisão lazer/lavanderia aparecem na reconstrução posterior. A cozinha cinza, sofá cinza, mesa escura de vidro, bar com quatro banquetas e dormitórios seguem as referências disponíveis. A cama da suíte foi orientada para a parede da TV, com roupeiro ao fundo. As 31 fotos de entrada continuam com seus hashes originais.
 
@@ -103,7 +103,7 @@ São 16 novas vistas das redes: elétrica, hidráulica, esgoto/ventilação e TV
 
 ## Proposta de ático
 
-O ático vigente é a v05: dois lances exatamente sobre os inferiores e caixa de 1.000 L transferida para a esquerda, preservando sua cota de base. São 18 vistas gerais, seis isoladas e 24 quadros do giro. O forro tem reserva de 15 cm e as alturas são medidas sobre a geometria salva. As propostas antigas foram excluídas por solicitação do usuário. [Entrega vigente](../../../renders/residencia-07-atico-v05/LEIA-ME.md).
+O ático vigente é a v05: dois lances exatamente sobre os inferiores e caixa de 1.000 L transferida para a esquerda, preservando sua cota de base. São 18 vistas gerais, seis isoladas e 24 quadros do giro. O forro tem reserva de 15 cm e as alturas são medidas sobre a geometria salva. As propostas antigas foram excluídas por solicitação do usuário. [Entrega vigente](../../../arquivos/versoes-anteriores-2026-11-14/renders/residencia-07-atico-v05/LEIA-ME.md).
 
 ## Obrigações e limites
 
@@ -134,7 +134,7 @@ Os links e imagens das galerias HTML foram conferidos estaticamente. O conector 
     old.update(status='COMPLETE_VISUAL_AND_DOCUMENTARY',remaining=[],verification=str((REPORT/'validacao-entrega.json').relative_to(ROOT)),
         results={'images':result['images'],'native_checks':result['native_checks'],'delivery_checks':len(result['checks']),'artifacts':result['delivery_artifacts']})
     (REPORT/'checkpoint.json').write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'relatorios/atual/checkpoint.json').write_text(json.dumps({'status':old['status'],'model':models['atual']['blend'],'delivery':data.CFG['current_renders'],'verification':old['verification']},ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior/checkpoint.json').write_text(json.dumps({'status':old['status'],'model':models['atual']['blend'],'delivery':data.CFG['current_renders'],'verification':old['verification']},ensure_ascii=False,indent=2)+'\n')
 
 
 if __name__=='__main__':main()

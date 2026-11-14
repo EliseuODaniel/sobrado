@@ -1,0 +1,566 @@
+{
+  "scenes": [
+    {
+      "scene": "R07_banheiro-social",
+      "collections": [
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Teto_Superior",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_banheiro-suite",
+      "collections": [
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Teto_Superior",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_cobertura",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_cozinha",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_cozinha-reversa",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_escada-acesso",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_estrutura-conjunto-3d",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Paredes_Superior",
+        "R07_Piso_Terreo",
+        "R07_Piso_Superior",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_estrutura-explodida-3d",
+      "collections": [
+        "R07_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Escada",
+        "R07_Superior_Explodido",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_estrutura-superior-3d",
+      "collections": [
+        "R07_Corte_Superior",
+        "R07_Piso_Superior",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_estrutura-terreo-3d",
+      "collections": [
+        "R07_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_fachada",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_fundos",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_jantar",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_lavabo",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_lavabo-planta",
+      "collections": [
+        "R07_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_lavanderia",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Proposta_Fundos",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_lazer-fundos",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Proposta_Fundos",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_planta-superior-humanizada",
+      "collections": [
+        "R07_Corte_Superior",
+        "R07_Piso_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_planta-terreo-humanizada",
+      "collections": [
+        "R07_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_quarto-frente",
+      "collections": [
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Teto_Superior",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_quarto-fundos",
+      "collections": [
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Teto_Superior",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_sacada",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_sala",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_sala-integrada",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_sala-tv",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Teto_Terreo",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_suite",
+      "collections": [
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Teto_Superior",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_superior-3d",
+      "collections": [
+        "R07_Corte_Superior",
+        "R07_Piso_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_terreo-3d",
+      "collections": [
+        "R07_Corte_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    },
+    {
+      "scene": "R07_volumetria",
+      "collections": [
+        "R07_Paredes_Terreo",
+        "R07_Piso_Terreo",
+        "R07_Esquadrias_Terreo",
+        "R07_Mobiliario_Terreo",
+        "R07_Escada",
+        "R07_Paredes_Superior",
+        "R07_Piso_Superior",
+        "R07_Esquadrias_Superior",
+        "R07_Mobiliario_Superior",
+        "R07_Teto_Superior",
+        "R07_Cobertura",
+        "R07_Contexto",
+        "R07_Iluminacao",
+        "R07_Cameras"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "R07_Cameras",
+      "count": 29,
+      "z": null
+    },
+    {
+      "name": "R07_Cobertura",
+      "count": 116,
+      "z": [
+        -3.16,
+        9.5
+      ]
+    },
+    {
+      "name": "R07_Contexto",
+      "count": 355,
+      "z": [
+        -0.47,
+        1.51
+      ]
+    },
+    {
+      "name": "R07_Corte_Superior",
+      "count": 28,
+      "z": [
+        2.7,
+        3.85
+      ]
+    },
+    {
+      "name": "R07_Corte_Terreo",
+      "count": 21,
+      "z": [
+        0.0,
+        1.15
+      ]
+    },
+    {
+      "name": "R07_Escada",
+      "count": 22,
+      "z": [
+        -0.01,
+        3.62
+      ]
+    },
+    {
+      "name": "R07_Esquadrias_Superior",
+      "count": 80,
+      "z": [
+        -1.07,
+        1.07
+      ]
+    },
+    {
+      "name": "R07_Esquadrias_Terreo",
+      "count": 50,
+      "z": [
+        -0.02,
+        2.12
+      ]
+    },
+    {
+      "name": "R07_Iluminacao",
+      "count": 12,
+      "z": null
+    },
+    {
+      "name": "R07_Mobiliario_Superior",
+      "count": 299,
+      "z": [
+        -1.1,
+        2.71
+      ]
+    },
+    {
+      "name": "R07_Mobiliario_Terreo",
+      "count": 742,
+      "z": [
+        0.0,
+        2.55
+      ]
+    },
+    {
+      "name": "R07_Paredes_Superior",
+      "count": 38,
+      "z": [
+        2.7,
+        5.25
+      ]
+    },
+    {
+      "name": "R07_Paredes_Terreo",
+      "count": 30,
+      "z": [
+        0.0,
+        2.55
+      ]
+    },
+    {
+      "name": "R07_Piso_Superior",
+      "count": 4,
+      "z": [
+        2.55,
+        2.7
+      ]
+    },
+    {
+      "name": "R07_Piso_Terreo",
+      "count": 1,
+      "z": [
+        -0.15,
+        0.0
+      ]
+    },
+    {
+      "name": "R07_Proposta_Fundos",
+      "count": 412,
+      "z": [
+        -1.4,
+        1.4
+      ]
+    },
+    {
+      "name": "R07_Superior_Explodido",
+      "count": 32,
+      "z": [
+        2.55,
+        3.85
+      ]
+    },
+    {
+      "name": "R07_Teto_Superior",
+      "count": 1,
+      "z": [
+        5.25,
+        5.4
+      ]
+    },
+    {
+      "name": "R07_Teto_Terreo",
+      "count": 4,
+      "z": [
+        2.55,
+        2.7
+      ]
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
-  "base_blend": "projeto/residencia-07/casa-07.blend",
-  "services_blend": "projeto/residencia-07/casa-07-instalacoes.blend",
-  "attic_blend": "projeto/residencia-07-atico/atico-proposta.blend",
-  "current_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
-  "services_renders": "renders/residencia-07/03-instalacoes/3d",
-  "attic_renders": "renders/residencia-07-atico",
+  "base_blend": "projeto/original/casa-07.blend",
+  "services_blend": "projeto/original/casa-07-instalacoes.blend",
+  "attic_blend": "projeto/original-atico/atico-proposta.blend",
+  "current_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual/casa-07-atual.blend",
+  "services_renders": "renders/original/03-instalacoes/3d",
+  "attic_renders": "renders/original-atico",
   "current_renders": "renders/atual",
-  "report_directory": "relatorios/residencia-07/estudo-instalacoes-atico",
+  "report_directory": "relatorios/original/estudo-instalacoes-atico",
   "resolution": [1920,1440],
   "samples": 96,
   "palette": {"wall":[0.37,0.53,0.44],"slab":[0.68,0.64,0.55],"stair":[0.52,0.46,0.34],"wall_opacity":0.12,"slab_opacity":0.055},
@@ -30,7 +30,7 @@
   },
   "current": {
     "photo_directory":"referencias-originais",
-    "furniture_source":"projeto/casa-reconstruida.blend",
+    "furniture_source":"arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend",
     "rear_opening":{"wall":"T-fundos-sala","clear_x":[0.15,3.30],"height":2.55,"source":"Abertura informada pelo usuário; continuidade também visível em sala1.webp e sala7.webp."},
     "rear_area":{"x":[0.0,6.35],"y":[5.70,10.40],"division_x":3.375,"separating_wall_y":[7.20,10.40],"passage_y":[7.65,8.45],"roof_z":[2.75,3.0]},
     "notes":["Estado atual reconstruído visualmente, sem levantamento presencial.","Arquitetura métrica da residência 07; mudanças dos fundos e móveis baseados nas fotos e nas instruções do usuário.","Profundidade dos anexos, espessuras dos fechamentos novos e dimensões dos móveis continuam aproximadas.","Coleções de móveis do estudo fotográfico anterior são reposicionadas sem escalar os móveis.","Redes originais de 2011 não são apresentadas como levantamento das instalações após a reforma."]

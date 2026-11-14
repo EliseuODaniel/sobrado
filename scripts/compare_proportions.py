@@ -19,5 +19,5 @@ def compare(config):
     return {'rooms':rows,'max_edge_difference_fraction':max(row['max_edge_difference_fraction'] for row in rows.values())}
 before,after=compare(previous),compare(cfg)
 report={'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'source':cfg['upper_layout_source'],'landmarks':str(args.landmarks),'method':landmarks['method'],'before':before,'after':after,'improved_relative_to_sketch':after['max_edge_difference_fraction']<before['max_edge_difference_fraction'],'scope':'Coerência proporcional com o croqui, não medição do imóvel, estudo estrutural ou conciliação registral'}
-(root/'relatorios/atual/proporcoes.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+(root/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior/proporcoes.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print('PROPORTIONS',round(before['max_edge_difference_fraction']*100,2),round(after['max_edge_difference_fraction']*100,2),report['improved_relative_to_sketch'])

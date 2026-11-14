@@ -19,9 +19,9 @@ def request(url):
             time.sleep(1)
 
 def main():
-    catalog=json.loads((ROOT/'relatorios/atual-fiel-v02/fontes/fabric-assets.json').read_text());tasks=[]
+    catalog=json.loads((ROOT/'relatorios/atual/fontes/fabric-assets.json').read_text());tasks=[]
     for asset in ASSETS:
-        d=json.loads((ROOT/'relatorios/atual-fiel-v02/fontes'/(asset+'-files.json')).read_text())
+        d=json.loads((ROOT/'relatorios/atual/fontes'/(asset+'-files.json')).read_text())
         for channel in ['Diffuse','Rough','nor_gl','anisotropy_strength','anisotropy_rotation','spec_ior']:
             resolution='4k' if channel in ['Diffuse','Rough','nor_gl'] else '2k';fmt='exr' if channel in ['nor_gl','anisotropy_strength','anisotropy_rotation','spec_ior'] else 'jpg';record=d[channel][resolution][fmt];tasks.append((asset,channel,resolution,record))
     def fetch(task):

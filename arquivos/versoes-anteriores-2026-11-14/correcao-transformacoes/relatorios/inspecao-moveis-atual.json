@@ -1,0 +1,1102 @@
+[
+  {
+    "file": "base",
+    "count": 384,
+    "beds": [
+      {
+        "name": "FIEL2 Suite fundo cabeceira",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -1.1399999856948853,
+          1.1399999856948853
+        ]
+      },
+      {
+        "name": "FIEL2 Suite cabeceira modulo",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.18250000476837158,
+          0.18250000476837158
+        ]
+      },
+      {
+        "name": "FIEL2 Suite cabeceira modulo.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.18250000476837158,
+          0.18250000476837158
+        ]
+      },
+      {
+        "name": "FIEL2 Suite cabeceira modulo.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.18250000476837158,
+          0.18250000476837158
+        ]
+      },
+      {
+        "name": "FIEL2 Suite cabeceira modulo.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.18250000476837158,
+          0.18250000476837158
+        ]
+      },
+      {
+        "name": "FIEL2 Suite colcha drapeada",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          3.130802869796753,
+          3.347055435180664
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca travessa",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.027499999850988388,
+          0.027499999850988388
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.004",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca travessa.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.027499999850988388,
+          0.027499999850988388
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.005",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.006",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.007",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.008",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade.009",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.1599999964237213,
+          0.1599999964237213
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca grade lateral",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.02250000089406967,
+          0.02250000089406967
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas.004",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas.005",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Cama branca ripas.006",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.15000000596046448,
+          0.15000000596046448
+        ]
+      },
+      {
+        "name": "FIEL2 Quarto branco colcha",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          3.060802936553955,
+          3.2561352252960205
+        ]
+      },
+      {
+        "name": "FIEL2 Beliche colcha",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          3.1108028888702393,
+          3.2561352252960205
+        ]
+      },
+      {
+        "name": "FIEL2 Beliche travesseiro",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.07000000029802322,
+          0.07000000029802322
+        ]
+      },
+      {
+        "name": "FIEL2 Beliche colcha.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          4.130803108215332,
+          4.276135444641113
+        ]
+      },
+      {
+        "name": "FIEL2 Beliche travesseiro.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.07000000029802322,
+          0.07000000029802322
+        ]
+      },
+      {
+        "name": "FIEL2 Beliche grade superior",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.125,
+          0.125
+        ]
+      },
+      {
+        "name": "FIEL2 Beliche cabeceira",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.5600000023841858,
+          0.5600000023841858
+        ]
+      }
+    ]
+  },
+  {
+    "file": "vista",
+    "count": 2738,
+    "beds": [
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Apoio lateral cabeceira",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.550000011920929,
+          0.550000011920929
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Apoio lateral cabeceira.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.550000011920929,
+          0.550000011920929
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Cama suite",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.20000000298023224,
+          0.20000000298023224
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Colchão cama.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.08500000089406967,
+          0.08500000089406967
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Colchão cama.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.08500000089406967,
+          0.08500000089406967
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Colchão cama.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.08500000089406967,
+          0.08500000089406967
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Degrau escada beliche",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.20999999344348907,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Degrau escada beliche.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.20999999344348907,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Degrau escada beliche.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.20999999344348907,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Degrau escada beliche.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.20999999344348907,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Degrau escada beliche.004",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.20999999344348907,
+          0.20999999344348907
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Estrado cama.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.09000000357627869,
+          0.09000000357627869
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Estrado cama.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.09000000357627869,
+          0.09000000357627869
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Estrado cama.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.09000000357627869,
+          0.09000000357627869
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Mesa cabeceira",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.05999999865889549,
+          0.05999999865889549
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Mesa cabeceira.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.05999999865889549,
+          0.05999999865889549
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pilar beliche",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.9200000166893005,
+          0.9200000166893005
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pilar beliche.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.9200000166893005,
+          0.9200000166893005
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pilar beliche.002",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.9200000166893005,
+          0.9200000166893005
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pilar beliche.003",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.9200000166893005,
+          0.9200000166893005
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.004",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.005",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.006",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.007",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.008",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.009",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.010",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos ATUAL Pé cama.011",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.12999999523162842,
+          0.12999999523162842
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Beliche cabeceira",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.5600000023841858,
+          0.5600000023841858
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Beliche colcha",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          3.1094627380371094,
+          3.2561352252960205
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Beliche colcha.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          4.129462718963623,
+          4.276135444641113
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Beliche grade superior",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.125,
+          0.125
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Beliche travesseiro",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.07000000029802322,
+          0.07000000029802322
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Beliche travesseiro.001",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.07000000029802322,
+          0.07000000029802322
+        ]
+      },
+      {
+        "name": "COMPARACAO dois-pavimentos VISTA dois-pavimentos FIEL2 Cadeira cabeceira assento",
+        "type": "MESH",
+        "hide_render": false,
+        "hide_viewport": false,
+        "hide_set": false,
+        "location": [
+          5.199999809265137,
+          0.0,
+          0.0
+        ],
+        "z": [
+          -0.05249999836087227,
+          0.05249999836087227
+        ]
+      }
+    ]
+  }
+]

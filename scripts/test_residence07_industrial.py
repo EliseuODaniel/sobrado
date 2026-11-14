@@ -7,12 +7,12 @@ import residence07_industrial_data as data
 
 class IndustrialDataTests(unittest.TestCase):
     def test_current_source_and_independent_output(self):
-        self.assertEqual(data.CFG['base_blend'],'projeto/residencia-07-atual/casa-07-atual.blend')
+        self.assertEqual(data.CFG['base_blend'],'arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual/casa-07-atual.blend')
         self.assertNotEqual(data.CFG['base_blend'],data.CFG['furniture_library'])
         self.assertNotEqual(data.CFG['output_blend'],data.CFG['base_blend'])
 
     def test_all_twenty_current_cameras_are_preserved(self):
-        source=json.loads((data.ROOT/'relatorios/residencia-07/estudo-instalacoes-atico/atual-modelo.json').read_text())
+        source=json.loads((data.ROOT/'relatorios/original/estudo-instalacoes-atico/atual-modelo.json').read_text())
         jobs={j['id']:j for j in data.jobs()}
         for original in source['jobs']:
             self.assertIn(original['id'],jobs)
@@ -21,7 +21,7 @@ class IndustrialDataTests(unittest.TestCase):
     def test_unique_industrial_destinations(self):
         jobs=data.jobs();self.assertEqual(len(jobs),25)
         self.assertEqual(len({j['file'] for j in jobs}),25)
-        self.assertTrue(all(j['file'].startswith('renders/industrial-v05/') for j in jobs))
+        self.assertTrue(all(j['file'].startswith('arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05/') for j in jobs))
 
     def test_office_is_an_explicit_alternative(self):
         offices={j['id'] for j in data.jobs() if j['mode']=='office'}

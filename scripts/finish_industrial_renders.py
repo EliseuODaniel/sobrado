@@ -6,7 +6,7 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / 'relatorios/industrial-v06'
+REPORT = ROOT / 'relatorios/industrial'
 
 
 def main():
@@ -15,7 +15,7 @@ def main():
           'sala-integrada-dia,sala-integrada-noite,bar-dia,bar-noite,escritorio-dia,escritorio-noite', '--resume']),
         ('v06-finais-4k', [sys.executable, 'scripts/render_industrial_windows.py', '--resume']),
         ('v06-auditoria-final', [sys.executable, 'scripts/run_blender.py', '--background',
-          'projeto/industrial-v06/casa-industrial-fotorrealista.blend', '--python', 'scripts/industrial_photoreal_audit.py', '--', '--require-renders']),
+          'projeto/industrial/casa-industrial-fotorrealista.blend', '--python', 'scripts/industrial_photoreal_audit.py', '--', '--require-renders']),
         ('v06-entrega', [str(ROOT / '.tools/planta-venv/bin/python'), 'scripts/industrial_photoreal_delivery.py']),
     ]
     history = []

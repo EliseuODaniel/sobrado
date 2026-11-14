@@ -12,7 +12,7 @@ def sha(path):
         return hashlib.file_digest(f, 'sha256').hexdigest()
 
 def jobs():
-    original = json.loads((ROOT / 'relatorios/residencia-07/estudo-instalacoes-atico/atual-modelo.json').read_text())['jobs']
+    original = json.loads((ROOT / 'relatorios/original/estudo-instalacoes-atico/atual-modelo.json').read_text())['jobs']
     # Enquadramentos próximos das referências, mantendo a câmera dentro dos ambientes.
     cameras = {
         'sala-fundos': ([2.65, .55, 1.48], [1.45, 5.50, 1.30], 21),

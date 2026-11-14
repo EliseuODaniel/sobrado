@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "original",
+    "blend": "projeto/original/visualizacao-pavimentos.blend",
+    "output_paths_updated": 2,
+    "missing_external_images": [],
+    "geometry_preserved": true,
+    "render_status": "Pendente por solicitação do usuário; imagens existentes preservadas"
+  },
+  {
+    "variant": "atual",
+    "blend": "projeto/atual/visualizacao-pavimentos.blend",
+    "output_paths_updated": 2,
+    "missing_external_images": [],
+    "geometry_preserved": true,
+    "render_status": "Pendente por solicitação do usuário; imagens existentes preservadas"
+  },
+  {
+    "variant": "industrial",
+    "blend": "projeto/industrial/visualizacao-pavimentos.blend",
+    "output_paths_updated": 2,
+    "missing_external_images": [],
+    "geometry_preserved": true,
+    "render_status": "Pendente por solicitação do usuário; imagens existentes preservadas"
+  },
+  {
+    "variant": "atico",
+    "blend": "projeto/atico/atico-caixa-canto-escada.blend",
+    "output_paths_updated": 51,
+    "missing_external_images": [],
+    "geometry_preserved": true,
+    "render_status": "Pendente por solicitação do usuário; imagens existentes preservadas"
+  }
+]

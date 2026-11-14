@@ -305,7 +305,7 @@
     "seed": 42,
     "exposure": 0.0
   },
-  "output": "projeto/casa-reconstruida.blend",
+  "output": "arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend",
   "secondary_analysis": {
     "source": "Texto enviado pelo usuário, identificado por ele como análise do ChatGPT sobre a matrícula nº 92.432. Documento original não recebido nem conferido.",
     "verification": "unverified_secondary_analysis",
@@ -896,9 +896,9 @@
     }
   },
   "previous_delivery": {
-    "root": "historico/revisao09",
-    "config": "historico/revisao09/config/planta-casa.json",
-    "blend": "historico/revisao09/projeto/casa-reconstruida.blend"
+    "root": "arquivos/historico/revisao09",
+    "config": "arquivos/historico/revisao09/config/planta-casa.json",
+    "blend": "arquivos/historico/revisao09/arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend"
   },
   "view_policy": "Todas as fotografias usam os mesmos objetos físicos da planta; o acesso possui uma vista própria. Cortes e plantas sem escada são identificados explicitamente.",
   "upper_layout_source": {

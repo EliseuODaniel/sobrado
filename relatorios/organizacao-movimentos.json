@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-14",
+  "archive": "arquivos/versoes-anteriores-2026-11-14",
+  "moves": [
+    {
+      "source": "projeto/residencia-07",
+      "destination": "projeto/original"
+    },
+    {
+      "source": "projeto/visualizacoes-pavimentos/original-sem-telhado.blend",
+      "destination": "projeto/original/visualizacao-pavimentos.blend"
+    },
+    {
+      "source": "projeto/residencia-07-atual-v02",
+      "destination": "projeto/atual"
+    },
+    {
+      "source": "projeto/visualizacoes-pavimentos/atual-sem-telhado.blend",
+      "destination": "projeto/atual/visualizacao-pavimentos.blend"
+    },
+    {
+      "source": "projeto/industrial-v06",
+      "destination": "projeto/industrial"
+    },
+    {
+      "source": "projeto/visualizacoes-pavimentos/industrial-sem-telhado.blend",
+      "destination": "projeto/industrial/visualizacao-pavimentos.blend"
+    },
+    {
+      "source": "projeto/residencia-07-atico-v05/atico-caixa-canto-escada.blend",
+      "destination": "projeto/atico/atico-caixa-canto-escada.blend"
+    },
+    {
+      "source": "projeto/residencia-07-atico-v05/LEIA-ME-caixa-canto.md",
+      "destination": "projeto/atico/LEIA-ME.md"
+    },
+    {
+      "source": "projeto/casa-reconstruida.blend",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend"
+    },
+    {
+      "source": "projeto/fontes",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/fontes"
+    },
+    {
+      "source": "projeto/industrial-v01",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v01"
+    },
+    {
+      "source": "projeto/industrial-v02",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v02"
+    },
+    {
+      "source": "projeto/industrial-v03",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v03"
+    },
+    {
+      "source": "projeto/industrial-v05",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/industrial-v05"
+    },
+    {
+      "source": "projeto/residencia-07-atico-v05",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atico-v05"
+    },
+    {
+      "source": "projeto/residencia-07-atual",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual"
+    },
+    {
+      "source": "projeto/visualizacoes-pavimentos",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/visualizacoes-pavimentos"
+    },
+    {
+      "source": "renders/residencia-07/_trabalho",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/original-trabalho"
+    },
+    {
+      "source": "renders/residencia-07",
+      "destination": "renders/original"
+    },
+    {
+      "source": "renders/industrial-v06",
+      "destination": "renders/industrial"
+    },
+    {
+      "source": "renders/atico-caixa-canto",
+      "destination": "renders/atico"
+    },
+    {
+      "source": "renders/visualizacoes-pavimentos/original",
+      "destination": "renders/original/vistas-pavimentos"
+    },
+    {
+      "source": "renders/visualizacoes-pavimentos/atual",
+      "destination": "renders/atual/vistas-pavimentos"
+    },
+    {
+      "source": "renders/visualizacoes-pavimentos/industrial",
+      "destination": "renders/industrial/vistas-pavimentos"
+    },
+    {
+      "source": "renders/atico-caixa-canto-execucao.log",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-caixa-canto-execucao.log"
+    },
+    {
+      "source": "renders/atico-caixa-lateral",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-caixa-lateral"
+    },
+    {
+      "source": "renders/atico-telhado-transparente",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-telhado-transparente"
+    },
+    {
+      "source": "renders/atico-transparente-execucao.log",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/atico-transparente-execucao.log"
+    },
+    {
+      "source": "renders/industrial-v05",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05"
+    },
+    {
+      "source": "renders/residencia-07-atico-v05",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/residencia-07-atico-v05"
+    },
+    {
+      "source": "renders/visualizacoes-pavimentos",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/renders/visualizacoes-pavimentos"
+    },
+    {
+      "source": "relatorios/atual",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior"
+    },
+    {
+      "source": "relatorios/residencia-07",
+      "destination": "relatorios/original"
+    },
+    {
+      "source": "relatorios/atual-fiel-v02",
+      "destination": "relatorios/atual"
+    },
+    {
+      "source": "relatorios/industrial-v06",
+      "destination": "relatorios/industrial"
+    },
+    {
+      "source": "relatorios/visualizacoes-pavimentos/original-verificacao.json",
+      "destination": "relatorios/original/verificacao-pavimentos.json"
+    },
+    {
+      "source": "relatorios/visualizacoes-pavimentos/atual-verificacao.json",
+      "destination": "relatorios/atual/verificacao-pavimentos.json"
+    },
+    {
+      "source": "relatorios/visualizacoes-pavimentos/industrial-verificacao.json",
+      "destination": "relatorios/industrial/verificacao-pavimentos.json"
+    },
+    {
+      "source": "relatorios/atico-caixa-lateral",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/atico-caixa-lateral"
+    },
+    {
+      "source": "relatorios/fotorrealismo-2026-11-12",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/fotorrealismo-2026-11-12"
+    },
+    {
+      "source": "relatorios/industrial-v01",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v01"
+    },
+    {
+      "source": "relatorios/industrial-v03",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v03"
+    },
+    {
+      "source": "relatorios/industrial-v05",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/industrial-v05"
+    },
+    {
+      "source": "relatorios/limpeza-escadas",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/limpeza-escadas"
+    },
+    {
+      "source": "relatorios/progresso.json",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/progresso.json"
+    },
+    {
+      "source": "relatorios/referencias-originais",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/referencias-originais"
+    },
+    {
+      "source": "relatorios/residencia-07-atico-v05",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/residencia-07-atico-v05"
+    },
+    {
+      "source": "relatorios/visualizacoes-pavimentos",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/relatorios/visualizacoes-pavimentos"
+    },
+    {
+      "source": "exports/fotorrealismo-industrial-v06",
+      "destination": "exports/industrial"
+    },
+    {
+      "source": "historico",
+      "destination": "arquivos/historico"
+    },
+    {
+      "source": "PLANO-FOTORREALISMO.md",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/documentos/PLANO-FOTORREALISMO.md"
+    },
+    {
+      "source": "PLANO-RESIDENCIA-07.md",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/documentos/PLANO-RESIDENCIA-07.md"
+    },
+    {
+      "source": "projeto/original/casa-07.blend1",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/projeto/original-backups/casa-07.blend1"
+    },
+    {
+      "source": "renders/atico/validar.py",
+      "destination": "relatorios/atico/validar-anterior.py"
+    },
+    {
+      "source": "renders/atico/validacao.log",
+      "destination": "relatorios/atico/validacao-anterior.log"
+    },
+    {
+      "source": "relatorios/preparar_organizacao.py",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/trabalho/preparar_organizacao.py"
+    },
+    {
+      "source": "relatorios/organizar.ps1",
+      "destination": "arquivos/versoes-anteriores-2026-11-14/trabalho/organizar.ps1"
+    }
+  ],
+  "preserve": "Sem exclusões; somente Move-Item dentro do projeto."
+}

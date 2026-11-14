@@ -1,10 +1,10 @@
 {
   "version": "atual-fiel-v02",
-  "base_blend": "projeto/residencia-07-atual/casa-07-atual.blend",
+  "base_blend": "arquivos/versoes-anteriores-2026-11-14/projeto/residencia-07-atual/casa-07-atual.blend",
   "base_sha256": "585b9c6a2844053ebf29da25cd80367f79d21039dfc476940f55435649c68ea5",
-  "output_blend": "projeto/residencia-07-atual-v02/casa-07-atual-fiel.blend",
+  "output_blend": "projeto/atual/casa-07-atual-fiel.blend",
   "render_directory": "renders/atual",
-  "report_directory": "relatorios/atual-fiel-v02",
+  "report_directory": "relatorios/atual",
   "reference_directory": "referencias-originais",
   "resolution": [
     3840,

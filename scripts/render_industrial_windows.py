@@ -20,7 +20,7 @@ def windows(path):
 
 
 def prepare(model):
-    files = {model['blend'], 'config/estilo-industrial-v06.json', 'relatorios/industrial-v06/modelo.json',
+    files = {model['blend'], 'config/estilo-industrial-v06.json', 'relatorios/industrial/modelo.json',
              'scripts/industrial_photoreal_data.py', 'scripts/industrial_photoreal_render_native.py', *model['generators']}
     for relative in files:
         source, dest = ROOT / relative, STAGE / relative
