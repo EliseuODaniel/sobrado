@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.823  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/versoes/revisao-02-antes/projeto/casa-reconstruida.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.823  blend            | Read blend: "/home/edann/projects/sobrado/projeto/versoes/revisao-02-antes/projeto/casa-reconstruida.blend"
 FAIL tv_na_parede_interna_lateral
 FAIL porta_lavabo_na_mesma_face
 FAIL porta_lavabo_fechada_como_na_foto

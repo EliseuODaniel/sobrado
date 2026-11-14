@@ -89,7 +89,7 @@ BLENDER_EXECUTABLE=/caminho/para/blender python3 scripts/run_blender.py --versio
 Equivalente para uma instalação Windows funcional; ajuste o caminho do executável. Estes comandos são instruções de uso, não registros de execução neste host:
 
 ```powershell
-Set-Location "\\wsl.localhost\Ubuntu\home\edann\projects\casa-interiores"
+Set-Location "\\wsl.localhost\Ubuntu\home\edann\projects\sobrado"
 $Blender = "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe"
 & $Blender --background --factory-startup --python-exit-code 1 `
   --python ".\scripts\build_scene.py" -- `

@@ -1,9 +1,9 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.271  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07-instalacoes.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.271  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07/casa-07-instalacoes.blend"
 00:00.402  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.402  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:03.108  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/instalacoes/hidraulica-terreo-transparente.png'
+00:03.108  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07/estudo-instalacoes-atico/previas/instalacoes/hidraulica-terreo-transparente.png'
 STUDY_RENDER_OK instalacoes hidraulica-terreo-transparente 2.7
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

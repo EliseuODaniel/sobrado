@@ -1,17 +1,17 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.263  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v01/casa-industrial.blend"
-/home/edann/projects/casa-interiores/scripts/style_industrial_hq.py:244: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.263  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v01/casa-industrial.blend"
+/home/edann/projects/sobrado/scripts/style_industrial_hq.py:244: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   world=bpy.data.worlds.new('HQ Jardim HDRI CC0');world.use_nodes=True
 Info: Saved as "casa-industrial-hq.blend"
 HQ_MODEL_BUILT 3326 source geometries; ['Bancada pia cozinha', 'Bar tampo granito']
 RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
-00:32.855  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v02/previas/sala.png'
+00:32.855  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v02/previas/sala.png'
 HQ_RENDER HQ_Sala
-00:38.792  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v02/previas/cozinha.png'
+00:38.792  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v02/previas/cozinha.png'
 HQ_RENDER HQ_Cozinha
-00:44.185  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v02/previas/lazer-fundos.png'
+00:44.185  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v02/previas/lazer-fundos.png'
 HQ_RENDER HQ_Lazer
-00:49.600  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v02/previas/quarto-fundos.png'
+00:49.600  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v02/previas/quarto-fundos.png'
 HQ_RENDER HQ_Quarto
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

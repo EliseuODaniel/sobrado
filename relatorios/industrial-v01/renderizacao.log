@@ -1,19 +1,19 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.262  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v01/casa-industrial.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.262  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v01/casa-industrial.blend"
 RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
-01:17.125  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/sala-integrada.png'
+01:17.125  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/sala-integrada.png'
 INDUSTRIAL_RENDER IND_Sala_Integrada
-02:35.343  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/sala-frente.png'
+02:35.343  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/sala-frente.png'
 INDUSTRIAL_RENDER IND_Sala_Frente
-03:46.080  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/cozinha.png'
+03:46.080  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/cozinha.png'
 INDUSTRIAL_RENDER IND_Cozinha
-05:01.517  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/cozinha-reversa.png'
+05:01.517  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/cozinha-reversa.png'
 INDUSTRIAL_RENDER IND_Cozinha_Reversa
-06:14.341  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/lazer-fundos.png'
+06:14.341  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/lazer-fundos.png'
 INDUSTRIAL_RENDER IND_Lazer_Fundos
-07:25.140  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/quarto-fundos.png'
+07:25.140  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/quarto-fundos.png'
 INDUSTRIAL_RENDER IND_Quarto_Fundos
-08:35.805  render           | Saved: '/home/edann/projects/casa-interiores/renders/industrial-v01/quarto-escritorio.png'
+08:35.805  render           | Saved: '/home/edann/projects/sobrado/renders/industrial-v01/quarto-escritorio.png'
 INDUSTRIAL_RENDER IND_Quarto_Escritorio
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

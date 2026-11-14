@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.264  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-terreo-revisao04.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.264  blend            | Read blend: "/home/edann/projects/sobrado/projeto/casa-terreo-revisao04.blend"
 PASS tv_na_parede_interna_lateral
 PASS porta_lavabo_na_mesma_face
 PASS porta_lavabo_fechada_como_na_foto
@@ -24,31 +24,31 @@ PASS lavabo_na_projecao_segundo_lance
 PASS garagem_ocupa_antiga_area_lavabo
 PASS loucas_e_espelho_dentro_lavabo_abaixo_forro
 RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
-00:19.605  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/sala-fundos.png'
+00:19.605  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/sala-fundos.png'
 REVISION_RENDER FOTO_Sala_Fundos
-00:41.037  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/sala-frente.png'
+00:41.037  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/sala-frente.png'
 REVISION_RENDER FOTO_Sala_Frente
-01:04.133  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/escada-acesso.png'
+01:04.133  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/escada-acesso.png'
 REVISION_RENDER FOTO_Detalhe_Escada
-01:26.375  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/cozinha.png'
+01:26.375  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/cozinha.png'
 REVISION_RENDER FOTO_Cozinha
-01:49.755  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/cozinha-reversa.png'
+01:49.755  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/cozinha-reversa.png'
 REVISION_RENDER FOTO_Cozinha_Reversa
-02:09.243  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/bar.png'
+02:09.243  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/bar.png'
 REVISION_RENDER FOTO_Bar
-02:19.594  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/terreo-3d.png'
+02:19.594  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/terreo-3d.png'
 REVISION_RENDER PLANTA_Terreo
-02:39.043  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/terreo-superior.png'
+02:39.043  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/terreo-superior.png'
 REVISION_RENDER PLANTA_Terreo_Cotas
-02:49.056  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/superior-pendente.png'
+02:49.056  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/superior-pendente.png'
 REVISION_RENDER PLANTA_Superior
-03:09.869  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/superior-envoltoria.png'
+03:09.869  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/superior-envoltoria.png'
 REVISION_RENDER PLANTA_Superior_Cotas
-03:19.112  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/estudos-superior.png'
+03:19.112  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/estudos-superior.png'
 REVISION_RENDER ESTUDOS_Superior
-03:29.873  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/volumetria.png'
+03:29.873  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/volumetria.png'
 REVISION_RENDER CASA_Completa
-03:41.286  render           | Saved: '/home/edann/projects/casa-interiores/renders/revisao-04/final/lavabo-sob-escada.png'
+03:41.286  render           | Saved: '/home/edann/projects/sobrado/renders/revisao-04/final/lavabo-sob-escada.png'
 REVISION_RENDER CORTE_Lavabo_Escada
 REVISION_VALIDATED 15 integrity checks; 23 photo geometry checks
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)

@@ -1,9 +1,9 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-/home/edann/projects/casa-interiores/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+/home/edann/projects/sobrado/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-/home/edann/projects/casa-interiores/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+/home/edann/projects/sobrado/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-/home/edann/projects/casa-interiores/scripts/build_scene.py:796: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+/home/edann/projects/sobrado/scripts/build_scene.py:796: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   world=bpy.data.worlds.new('Ambiente diurno suave');world.use_nodes=True
 01:12.214  cycles           | WARNING OptiX initialization failed with error code 7804
 01:12.214  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library

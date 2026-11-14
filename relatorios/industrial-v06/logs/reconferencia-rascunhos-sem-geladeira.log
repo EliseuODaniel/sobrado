@@ -1,25 +1,25 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.423  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.423  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v01/rodada01/casa-industrial.blend
-00:00.750  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend"
+00:00.750  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v01/rodada02/casa-industrial.blend
-00:01.094  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend"
+00:01.094  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada01/casa-industrial-hq.blend
-00:01.736  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend"
+00:01.736  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada02/casa-industrial-hq.blend
-00:02.539  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend"
+00:02.539  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada03/casa-industrial-hq.blend
-00:03.225  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend"
+00:03.225  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v02/rodada04/casa-industrial-hq.blend
-00:03.900  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend"
+00:03.900  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v03/rodada01/casa-fotografica.blend
-00:05.655  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend"
+00:05.655  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v03/rodada02/casa-fotografica.blend
-00:07.296  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend"
+00:07.296  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v03/rodada03/casa-fotografica.blend
-00:08.703  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa01.blend"
+00:08.703  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v05/previa01.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v05/previa01.blend
-00:09.160  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa02.blend"
+00:09.160  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v05/previa02.blend"
 ARCHIVE_DRAFT_MODEL_VERIFIED historico/rascunhos/industrial-v05/previa02.blend
 ARCHIVE_DRAFTS_COMPLETE 11 37
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)

@@ -1,6 +1,6 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:03.939  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa01.blend"
-00:09.943  blend            | Read blend: "/home/edann/projects/casa-interiores/historico/rascunhos/industrial-v05/previa02.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:03.939  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v05/previa01.blend"
+00:09.943  blend            | Read blend: "/home/edann/projects/sobrado/historico/rascunhos/industrial-v05/previa02.blend"
 DRAFT_V05_PRESENTATION_CHECKS 104 PASSED
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

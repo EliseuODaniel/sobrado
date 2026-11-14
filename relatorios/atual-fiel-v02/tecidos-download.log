@@ -16,6 +16,6 @@ FABRIC_VERIFIED waffle_pique_cotton anisotropy_strength 3.95 MiB
 FABRIC_VERIFIED waffle_pique_cotton anisotropy_rotation 3.31 MiB
 FABRIC_VERIFIED waffle_pique_cotton spec_ior 3.61 MiB
 FABRIC_VERIFIED waffle_pique_cotton nor_gl 21.07 MiB
-/home/edann/projects/casa-interiores/scripts/fetch_current_fabrics.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+/home/edann/projects/sobrado/scripts/fetch_current_fabrics.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
   for pixel in im.getdata():
 CURRENT2_FABRICS_READY 18

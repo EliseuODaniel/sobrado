@@ -1,4 +1,4 @@
-# Casa — residência 07, reconstrução e interiores
+# Sobrado — residência 07, reconstrução e interiores
 
 [Plano de fotorrealismo e comparação Blender/Unreal](PLANO-FOTORREALISMO.md) — pesquisa de 12/11/2026, auditoria dos cinco modelos vigentes e evolução por etapas. A execução industrial em Cycles está descrita abaixo; o teste no Unreal permanece pendente.
 

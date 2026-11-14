@@ -1,19 +1,19 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.324  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.324  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07/casa-07.blend"
 00:00.639  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.640  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:02.751  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/planta-superior-humanizada.png'
+00:02.751  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/previas/planta-superior-humanizada.png'
 R07_RENDER_OK planta-superior-humanizada 2.09
-00:05.587  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/volumetria.png'
+00:05.587  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/previas/volumetria.png'
 R07_RENDER_OK volumetria 2.67
-00:08.618  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/sala-integrada.png'
+00:08.618  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/previas/sala-integrada.png'
 R07_RENDER_OK sala-integrada 3.01
-00:11.196  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/suite.png'
+00:11.196  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/previas/suite.png'
 R07_RENDER_OK suite 2.52
-00:13.671  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/quarto-frente.png'
+00:13.671  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/previas/quarto-frente.png'
 R07_RENDER_OK quarto-frente 2.42
-00:16.215  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/previas/banheiro-suite.png'
+00:16.215  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/previas/banheiro-suite.png'
 R07_RENDER_OK banheiro-suite 2.49
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

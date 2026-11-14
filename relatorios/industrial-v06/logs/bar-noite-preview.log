@@ -1,9 +1,9 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.252  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.252  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
 00:01.049  cycles           | WARNING OptiX initialization failed with error code 7805
 00:01.049  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:07.364  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/industrial-v06/previas/bar-noite.png'
+00:07.364  render           | Saved: '/home/edann/projects/sobrado/relatorios/industrial-v06/previas/bar-noite.png'
 PHOTO6_RENDER_OK bar-noite 6.22
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

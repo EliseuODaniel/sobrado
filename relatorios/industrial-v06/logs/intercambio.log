@@ -1,7 +1,7 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.288  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
-INFO Draco is available, use library at /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/lib/libbf_intern_draco_bridge.so
-INFO MeshOptimizer is available, use library at /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/lib/libbf_intern_meshopt_bridge.so
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.288  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+INFO Draco is available, use library at /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/lib/libbf_intern_draco_bridge.so
+INFO MeshOptimizer is available, use library at /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/lib/libbf_intern_meshopt_bridge.so
 22:35:57 | INFO: Starting glTF 2.0 export
 22:35:57 | INFO: Extracting primitive: Cube.029
 22:35:57 | INFO: Primitives created: 1

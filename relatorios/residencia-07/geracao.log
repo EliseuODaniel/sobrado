@@ -1,10 +1,10 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.391  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v04/casa-industrial-refinada.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.391  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v04/casa-industrial-refinada.blend"
 R07_REUSE_OK 112
 R07_ARCHITECTURE_OK
 R07_INTERIORS_OK
-/home/edann/projects/casa-interiores/scripts/residence07_build.py:418: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+/home/edann/projects/sobrado/scripts/residence07_build.py:418: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   world=bpy.data.worlds.new('R07 Ceu diurno');world.use_nodes=True
 R07_SCENES_OK
 00:50.638  cycles           | WARNING OptiX initialization failed with error code 7805

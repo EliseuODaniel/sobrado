@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-/home/edann/projects/casa-interiores/scripts/build_house.py:318: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+/home/edann/projects/sobrado/scripts/build_house.py:318: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   world=bpy.data.worlds.new('Ambiente');world.use_nodes=True;world.node_tree.nodes['Background'].inputs['Color'].default_value=(.52,.59,.66,1);world.node_tree.nodes['Background'].inputs['Strength'].default_value=.40;bpy.context.scene.world=world
 RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
 Info: Saved as "casa-terreo-revisao03.blend"

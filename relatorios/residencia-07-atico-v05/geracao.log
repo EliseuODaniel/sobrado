@@ -1,6 +1,6 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.313  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v04/atico-escada-u-forro.blend"
-/home/edann/projects/casa-interiores/scripts/residence07_attic_v05.py:178: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.313  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07-atico-v04/atico-escada-u-forro.blend"
+/home/edann/projects/sobrado/scripts/residence07_attic_v05.py:178: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   detail_world=bpy.data.worlds.new('ATC5 Fundo claro');detail_world.use_nodes=True;detail_world.node_tree.nodes['Background'].inputs['Color'].default_value=(.82,.86,.9,1);detail_world.node_tree.nodes['Background'].inputs['Strength'].default_value=.6
 Info: No new files have been packed
 Info: Deleted 1272 data-block(s)

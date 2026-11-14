@@ -1,8 +1,8 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.256  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/versoes/sala-industrial-preview-20261110T095320Z.blend"
-00:04.686  render           | Saved: '/home/edann/projects/casa-interiores/renders/previa-camera-lateral-01.png'
-00:09.329  render           | Saved: '/home/edann/projects/casa-interiores/renders/previa-camera-lateral-02.png'
-00:13.823  render           | Saved: '/home/edann/projects/casa-interiores/renders/previa-camera-lateral-03.png'
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.256  blend            | Read blend: "/home/edann/projects/sobrado/projeto/versoes/sala-industrial-preview-20261110T095320Z.blend"
+00:04.686  render           | Saved: '/home/edann/projects/sobrado/renders/previa-camera-lateral-01.png'
+00:09.329  render           | Saved: '/home/edann/projects/sobrado/renders/previa-camera-lateral-02.png'
+00:13.823  render           | Saved: '/home/edann/projects/sobrado/renders/previa-camera-lateral-03.png'
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 
 Blender quit

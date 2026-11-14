@@ -98,7 +98,7 @@
   ],
   "photo_geometry_audit": {
     "timestamp_utc": "2026-11-10T16:23:30.385937+00:00",
-    "blend": "/home/edann/projects/casa-interiores/projeto/casa-terreo-revisao05.blend",
+    "blend": "/home/edann/projects/sobrado/projeto/casa-terreo-revisao05.blend",
     "sha256": "14ed408209dfc47896f632d59f5a6b005058daef9ec8a886f9c2e7be7d00efd2",
     "baseline": false,
     "checks": {

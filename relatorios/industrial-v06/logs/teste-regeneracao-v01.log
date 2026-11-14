@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.445  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/casa-reconstruida.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.445  blend            | Read blend: "/home/edann/projects/sobrado/projeto/casa-reconstruida.blend"
 Info: Saved as "teste.blend"
 INDUSTRIAL_BUILT 2570 geometrias preservadas
 V01_NATIVE_REGENERATION_PASS 2570

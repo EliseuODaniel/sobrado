@@ -114,7 +114,7 @@ Equivalente com o executável diretamente:
 Exemplo de PowerShell para uma instalação Windows funcional, ajustando o caminho do executável:
 
 ```powershell
-Set-Location "\\wsl.localhost\Ubuntu\home\edann\projects\casa-interiores"
+Set-Location "\\wsl.localhost\Ubuntu\home\edann\projects\sobrado"
 $Blender = "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe"
 & $Blender --background --factory-startup --python-exit-code 1 `
   --python ".\scripts\build_house.py" -- --project-root "." --device auto

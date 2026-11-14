@@ -1,8 +1,8 @@
-/home/edann/projects/casa-interiores/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+/home/edann/projects/sobrado/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-/home/edann/projects/casa-interiores/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+/home/edann/projects/sobrado/scripts/build_scene.py:155: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
   m.use_nodes = True
-/home/edann/projects/casa-interiores/scripts/build_scene.py:755: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+/home/edann/projects/sobrado/scripts/build_scene.py:755: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
   world=bpy.data.worlds.new('Ambiente diurno suave');world.use_nodes=True
 RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
 Info: Saved as "sala-industrial-preview-20261110T094533Z.blend"

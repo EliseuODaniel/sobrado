@@ -1,15 +1,15 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.251  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atual/casa-07-atual.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.251  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07-atual/casa-07-atual.blend"
 00:00.515  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.516  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:04.122  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/sala-fundos.png'
+00:04.122  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/sala-fundos.png'
 STUDY_RENDER_OK atual sala-fundos 3.53
-00:06.526  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/cozinha-reversa.png'
+00:06.526  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/cozinha-reversa.png'
 STUDY_RENDER_OK atual cozinha-reversa 2.33
-00:08.835  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/suite.png'
+00:08.835  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/suite.png'
 STUDY_RENDER_OK atual suite 2.24
-00:11.174  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/quarto-frente.png'
+00:11.174  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07/estudo-instalacoes-atico/previas/atual/quarto-frente.png'
 STUDY_RENDER_OK atual quarto-frente 2.26
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

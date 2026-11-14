@@ -481,7 +481,7 @@
   ],
   "photo_geometry_audit": {
     "timestamp_utc": "2026-11-10T20:35:48.902961+00:00",
-    "blend": "/home/edann/projects/casa-interiores/projeto/.em-validacao.blend",
+    "blend": "/home/edann/projects/sobrado/projeto/.em-validacao.blend",
     "sha256": "ba9b599e1a685fec19976497fd5c8fb95c2bf5e03db79e7e01d39a37784beb7d",
     "baseline": false,
     "checks": {

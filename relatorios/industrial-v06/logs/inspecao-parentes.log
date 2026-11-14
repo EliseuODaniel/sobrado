@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.306  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.306  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
 ATUAL R07 Vaso sanitario.001 parent None loc [0.5199999809265137, 4.820000171661377, 2.700000047683716] rot [0.0, 0.0, 1.5707963705062866] basis [[-0.0, -1.0, 0.0, 0.52], [1.0, -0.0, 0.0, 4.82], [0.0, 0.0, 1.0, 2.7], [0.0, 0.0, 0.0, 1.0]]
 ATUAL R07 Louca base.001 parent None loc [0.0, 0.0, 0.20000000298023224] rot [0.0, 0.0, 0.0] basis [[0.19, 0.0, 0.0, 0.0], [0.0, 0.26, 0.0, 0.0], [0.0, 0.0, 0.2, 0.2], [0.0, 0.0, 0.0, 1.0]]
 ATUAL R07 Lavatorio.001 parent None loc [0.5099999904632568, 3.950000047683716, 2.700000047683716] rot [0.0, 0.0, 1.5707963705062866] basis [[-0.0, -1.0, 0.0, 0.51], [1.0, -0.0, 0.0, 3.95], [0.0, 0.0, 1.0, 2.7], [0.0, 0.0, 0.0, 1.0]]

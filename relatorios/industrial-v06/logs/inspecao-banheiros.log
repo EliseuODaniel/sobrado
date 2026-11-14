@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.310  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.310  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
 ATUAL R07 Vaso sanitario.001 decor [(0.52, 0.52), (4.82, 4.82), (2.7, 2.7)]
 ATUAL R07 Louca base.001 decor [(-0.19, 0.19), (-0.26, 0.26), (0.0, 0.4)]
 ATUAL R07 Louca assento.001 decor [(-0.2, 0.2), (-0.325, 0.245), (0.345, 0.455)]

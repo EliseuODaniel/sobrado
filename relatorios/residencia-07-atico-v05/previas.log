@@ -1,19 +1,19 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.273  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.273  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
 00:00.547  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.547  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:02.154  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07-atico-v05/previas/atico-planta-3d.png'
+00:02.154  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07-atico-v05/previas/atico-planta-3d.png'
 ATC5_RENDER_OK atico-planta-3d
-00:03.968  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07-atico-v05/previas/atico-interior-frente.png'
+00:03.968  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07-atico-v05/previas/atico-interior-frente.png'
 ATC5_RENDER_OK atico-interior-frente
-00:05.696  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07-atico-v05/previas/atico-interior-fundos.png'
+00:05.696  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07-atico-v05/previas/atico-interior-fundos.png'
 ATC5_RENDER_OK atico-interior-fundos
-00:07.706  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07-atico-v05/previas/escada-u-chegada-existente.png'
+00:07.706  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07-atico-v05/previas/escada-u-chegada-existente.png'
 ATC5_RENDER_OK escada-u-chegada-existente
-00:09.111  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07-atico-v05/previas/01-referencia.png'
+00:09.111  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07-atico-v05/previas/01-referencia.png'
 ATC5_RENDER_OK 01-referencia
-00:10.526  render           | Saved: '/home/edann/projects/casa-interiores/relatorios/residencia-07-atico-v05/previas/05-lateral-patamares.png'
+00:10.526  render           | Saved: '/home/edann/projects/sobrado/relatorios/residencia-07-atico-v05/previas/05-lateral-patamares.png'
 ATC5_RENDER_OK 05-lateral-patamares
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

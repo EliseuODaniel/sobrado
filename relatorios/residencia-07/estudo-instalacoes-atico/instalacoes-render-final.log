@@ -1,47 +1,47 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.298  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07-instalacoes.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.298  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07/casa-07-instalacoes.blend"
 00:00.472  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.472  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:08.314  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-terreo-3d.png'
+00:08.314  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/02-estrutura/3d/estrutura-terreo-3d.png'
 STUDY_RENDER_OK instalacoes estrutura-terreo-3d 7.85
-00:16.186  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-superior-3d.png'
+00:16.186  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/02-estrutura/3d/estrutura-superior-3d.png'
 STUDY_RENDER_OK instalacoes estrutura-superior-3d 7.87
-00:23.899  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-conjunto-3d.png'
+00:23.899  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/02-estrutura/3d/estrutura-conjunto-3d.png'
 STUDY_RENDER_OK instalacoes estrutura-conjunto-3d 7.71
-00:31.339  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/02-estrutura/3d/estrutura-explodida-3d.png'
+00:31.339  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/02-estrutura/3d/estrutura-explodida-3d.png'
 STUDY_RENDER_OK instalacoes estrutura-explodida-3d 7.43
-00:39.582  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-terreo-transparente.png'
+00:39.582  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-terreo-transparente.png'
 STUDY_RENDER_OK instalacoes eletrica-terreo-transparente 8.24
-00:48.915  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-superior-transparente.png'
+00:48.915  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-superior-transparente.png'
 STUDY_RENDER_OK instalacoes eletrica-superior-transparente 9.33
-01:06.295  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-conjunto-transparente.png'
+01:06.295  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/eletrica/eletrica-conjunto-transparente.png'
 STUDY_RENDER_OK instalacoes eletrica-conjunto-transparente 17.37
-01:25.275  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-terreo-transparente.png'
+01:25.275  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-terreo-transparente.png'
 STUDY_RENDER_OK instalacoes hidraulica-terreo-transparente 18.98
-01:39.366  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-superior-transparente.png'
+01:39.366  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-superior-transparente.png'
 STUDY_RENDER_OK instalacoes hidraulica-superior-transparente 14.08
-01:49.053  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-conjunto-transparente.png'
+01:49.053  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/hidraulica/hidraulica-conjunto-transparente.png'
 STUDY_RENDER_OK instalacoes hidraulica-conjunto-transparente 9.68
-01:56.746  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-terreo-transparente.png'
+01:56.746  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-terreo-transparente.png'
 STUDY_RENDER_OK instalacoes esgoto-terreo-transparente 7.68
-02:05.124  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-superior-transparente.png'
+02:05.124  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-superior-transparente.png'
 STUDY_RENDER_OK instalacoes esgoto-superior-transparente 8.37
-02:14.988  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-conjunto-transparente.png'
+02:14.988  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/esgoto/esgoto-conjunto-transparente.png'
 STUDY_RENDER_OK instalacoes esgoto-conjunto-transparente 9.86
-02:23.078  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-terreo-transparente.png'
+02:23.078  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-terreo-transparente.png'
 STUDY_RENDER_OK instalacoes tv-telefone-terreo-transparente 8.09
-02:32.034  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-superior-transparente.png'
+02:32.034  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-superior-transparente.png'
 STUDY_RENDER_OK instalacoes tv-telefone-superior-transparente 8.95
-02:48.103  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-conjunto-transparente.png'
+02:48.103  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/tv/tv-telefone-conjunto-transparente.png'
 STUDY_RENDER_OK instalacoes tv-telefone-conjunto-transparente 16.07
-03:12.131  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-terreo-transparente.png'
+03:12.131  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-terreo-transparente.png'
 STUDY_RENDER_OK instalacoes coordenadas-terreo-transparente 24.02
-03:27.865  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-superior-transparente.png'
+03:27.865  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-superior-transparente.png'
 STUDY_RENDER_OK instalacoes coordenadas-superior-transparente 15.72
-03:54.276  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-conjunto-transparente.png'
+03:54.276  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/coordenadas/coordenadas-conjunto-transparente.png'
 STUDY_RENDER_OK instalacoes coordenadas-conjunto-transparente 26.4
-04:23.423  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07/03-instalacoes/3d/reservatorio/reservatorio-3d.png'
+04:23.423  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07/03-instalacoes/3d/reservatorio/reservatorio-3d.png'
 STUDY_RENDER_OK instalacoes reservatorio-3d 29.14
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

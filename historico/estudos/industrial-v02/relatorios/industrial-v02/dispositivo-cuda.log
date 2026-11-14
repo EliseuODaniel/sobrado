@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.271  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v01/casa-industrial.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.271  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v01/casa-industrial.blend"
 00:00.522  cycles           | WARNING OptiX initialization failed with error code 7804
 00:00.522  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
 00:01.007  render           | Saved: '/tmp/casa-cuda-test.png'

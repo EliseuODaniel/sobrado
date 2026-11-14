@@ -48,7 +48,7 @@
     "started_utc": "2026-11-13T08:14:18.185282+00:00",
     "status": "passed",
     "command": [
-      "/home/edann/projects/casa-interiores/.tools/planta-venv/bin/python",
+      "/home/edann/projects/sobrado/.tools/planta-venv/bin/python",
       "scripts/industrial_photoreal_delivery.py"
     ],
     "exit_code": 0,

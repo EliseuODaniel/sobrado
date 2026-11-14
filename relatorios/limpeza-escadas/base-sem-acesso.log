@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:01.315  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v04/atico-escada-u-forro.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:01.315  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07-atico-v04/atico-escada-u-forro.blend"
 Info: Deleted 1272 data-block(s)
 Info: No new files have been packed
 Info: Saved as "atico-cobertura-forro-sem-acesso.blend"

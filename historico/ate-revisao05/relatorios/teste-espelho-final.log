@@ -1,10 +1,10 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.254  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/sala-industrial.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.254  blend            | Read blend: "/home/edann/projects/sobrado/projeto/sala-industrial.blend"
 RENDER_DEVICE {"requested": "cpu", "backend": "CPU", "devices": ["CPU"], "fallback_reason": null}
-00:01.852  render           | Saved: '/home/edann/projects/casa-interiores/renders/espelho-antes.png'
-RENDER_WRITTEN /home/edann/projects/casa-interiores/renders/espelho-antes.png
-00:03.021  render           | Saved: '/home/edann/projects/casa-interiores/renders/espelho-depois.png'
-RENDER_WRITTEN /home/edann/projects/casa-interiores/renders/espelho-depois.png
+00:01.852  render           | Saved: '/home/edann/projects/sobrado/renders/espelho-antes.png'
+RENDER_WRITTEN /home/edann/projects/sobrado/renders/espelho-antes.png
+00:03.021  render           | Saved: '/home/edann/projects/sobrado/renders/espelho-depois.png'
+RENDER_WRITTEN /home/edann/projects/sobrado/renders/espelho-depois.png
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 
 Blender quit

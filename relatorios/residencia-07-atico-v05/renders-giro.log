@@ -1,55 +1,55 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.295  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.295  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07-atico-v05/atico-escadas-sobrepostas-caixa-lateral.blend"
 00:00.515  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.515  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:03.159  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-00.png'
+00:03.159  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-00.png'
 ATC5_RENDER_OK giro-00
-00:05.484  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-01.png'
+00:05.484  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-01.png'
 ATC5_RENDER_OK giro-01
-00:07.658  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-02.png'
+00:07.658  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-02.png'
 ATC5_RENDER_OK giro-02
-00:09.836  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-03.png'
+00:09.836  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-03.png'
 ATC5_RENDER_OK giro-03
-00:12.053  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-04.png'
+00:12.053  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-04.png'
 ATC5_RENDER_OK giro-04
-00:14.233  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-05.png'
+00:14.233  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-05.png'
 ATC5_RENDER_OK giro-05
-00:16.428  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-06.png'
+00:16.428  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-06.png'
 ATC5_RENDER_OK giro-06
-00:18.759  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-07.png'
+00:18.759  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-07.png'
 ATC5_RENDER_OK giro-07
-00:21.032  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-08.png'
+00:21.032  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-08.png'
 ATC5_RENDER_OK giro-08
-00:23.296  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-09.png'
+00:23.296  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-09.png'
 ATC5_RENDER_OK giro-09
-00:25.578  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-10.png'
+00:25.578  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-10.png'
 ATC5_RENDER_OK giro-10
-00:27.927  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-11.png'
+00:27.927  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-11.png'
 ATC5_RENDER_OK giro-11
-00:30.360  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-12.png'
+00:30.360  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-12.png'
 ATC5_RENDER_OK giro-12
-00:32.728  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-13.png'
+00:32.728  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-13.png'
 ATC5_RENDER_OK giro-13
-00:35.060  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-14.png'
+00:35.060  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-14.png'
 ATC5_RENDER_OK giro-14
-00:37.415  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-15.png'
+00:37.415  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-15.png'
 ATC5_RENDER_OK giro-15
-00:39.730  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-16.png'
+00:39.730  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-16.png'
 ATC5_RENDER_OK giro-16
-00:42.208  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-17.png'
+00:42.208  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-17.png'
 ATC5_RENDER_OK giro-17
-00:44.845  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-18.png'
+00:44.845  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-18.png'
 ATC5_RENDER_OK giro-18
-00:47.357  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-19.png'
+00:47.357  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-19.png'
 ATC5_RENDER_OK giro-19
-00:49.907  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-20.png'
+00:49.907  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-20.png'
 ATC5_RENDER_OK giro-20
-00:52.419  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-21.png'
+00:52.419  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-21.png'
 ATC5_RENDER_OK giro-21
-00:55.222  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-22.png'
+00:55.222  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-22.png'
 ATC5_RENDER_OK giro-22
-00:57.997  render           | Saved: '/home/edann/projects/casa-interiores/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-23.png'
+00:57.997  render           | Saved: '/home/edann/projects/sobrado/renders/residencia-07-atico-v05/07-escadas/02-giro/quadros/giro-23.png'
 ATC5_RENDER_OK giro-23
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 

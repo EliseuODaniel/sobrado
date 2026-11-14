@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.298  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.298  blend            | Read blend: "/home/edann/projects/sobrado/projeto/industrial-v06/casa-industrial-fotorrealista.blend"
 COL ATUAL_Corte_Superior 28
 COL R07_Piso_Superior 4
 COL ATUAL_AMB_quarto_azul 24

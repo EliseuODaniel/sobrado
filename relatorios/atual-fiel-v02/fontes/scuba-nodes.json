@@ -78,7 +78,7 @@
   },
   {
     "image_node": "disp",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_disp_2k.png",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_disp_2k.png",
     "to": [
       [
         "Displacement.001",
@@ -88,7 +88,7 @@
   },
   {
     "image_node": "diff",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_diff_2k.jpg",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_diff_2k.jpg",
     "to": [
       [
         "Principled BSDF.001",
@@ -98,7 +98,7 @@
   },
   {
     "image_node": "metal",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_metal_2k.exr",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_metal_2k.exr",
     "to": [
       [
         "Principled BSDF.001",
@@ -108,7 +108,7 @@
   },
   {
     "image_node": "spec_ior",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_spec_ior_2k.png",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_spec_ior_2k.png",
     "to": [
       [
         "Principled BSDF.001",
@@ -118,7 +118,7 @@
   },
   {
     "image_node": "rough",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_rough_2k.exr",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_rough_2k.exr",
     "to": [
       [
         "Principled BSDF.001",
@@ -132,7 +132,7 @@
   },
   {
     "image_node": "nor_gl",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_nor_gl_2k.exr",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_nor_gl_2k.exr",
     "to": [
       [
         "Normal Map.001",
@@ -142,7 +142,7 @@
   },
   {
     "image_node": "anisotropy_strength",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_anisotropy_strength_2k.png",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_anisotropy_strength_2k.png",
     "to": [
       [
         "Principled BSDF.001",
@@ -152,7 +152,7 @@
   },
   {
     "image_node": "anisotropy_rotation",
-    "image": "/home/edann/projects/casa-interiores/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_anisotropy_rotation_2k.png",
+    "image": "/home/edann/projects/sobrado/relatorios/atual-fiel-v02/fontes/textures/scuba_suede_anisotropy_rotation_2k.png",
     "to": [
       [
         "Principled BSDF.001",

@@ -1,5 +1,5 @@
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.240  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07/casa-07.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.240  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07/casa-07.blend"
 Info: No new files have been packed
 Info: Deleted 3258 data-block(s)
 Info: Saved as "casa-07-instalacoes.blend"

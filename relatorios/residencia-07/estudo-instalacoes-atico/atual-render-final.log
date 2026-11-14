@@ -1,47 +1,47 @@
 WSL_GPU_DRIVER /usr/lib/wsl/lib/libcuda.so.1
-BLENDER_EXECUTABLE /home/edann/projects/casa-interiores/.tools/blender-5.2.4-linux-x64/blender
-00:00.291  blend            | Read blend: "/home/edann/projects/casa-interiores/projeto/residencia-07-atual/casa-07-atual.blend"
+BLENDER_EXECUTABLE /home/edann/projects/sobrado/.tools/blender-5.2.4-linux-x64/blender
+00:00.291  blend            | Read blend: "/home/edann/projects/sobrado/projeto/residencia-07-atual/casa-07-atual.blend"
 00:00.531  cycles           | WARNING OptiX initialization failed with error code 7805
 00:00.532  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
-00:14.663  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/01-plantas/planta-terreo.png'
+00:14.663  render           | Saved: '/home/edann/projects/sobrado/renders/atual/01-plantas/planta-terreo.png'
 STUDY_RENDER_OK atual planta-terreo 14.14
-00:27.729  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/01-plantas/planta-superior.png'
+00:27.729  render           | Saved: '/home/edann/projects/sobrado/renders/atual/01-plantas/planta-superior.png'
 STUDY_RENDER_OK atual planta-superior 13.06
-00:41.521  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/01-plantas/terreo-3d.png'
+00:41.521  render           | Saved: '/home/edann/projects/sobrado/renders/atual/01-plantas/terreo-3d.png'
 STUDY_RENDER_OK atual terreo-3d 13.74
-00:54.625  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/01-plantas/superior-3d.png'
+00:54.625  render           | Saved: '/home/edann/projects/sobrado/renders/atual/01-plantas/superior-3d.png'
 STUDY_RENDER_OK atual superior-3d 13.09
-01:19.905  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/sala-fundos.png'
+01:19.905  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/sala-fundos.png'
 STUDY_RENDER_OK atual sala-fundos 25.2
-01:44.701  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/sala-frente.png'
+01:44.701  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/sala-frente.png'
 STUDY_RENDER_OK atual sala-frente 24.72
-02:09.233  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/cozinha.png'
+02:09.233  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/cozinha.png'
 STUDY_RENDER_OK atual cozinha 24.45
-02:34.982  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/cozinha-reversa.png'
+02:34.982  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/cozinha-reversa.png'
 STUDY_RENDER_OK atual cozinha-reversa 25.67
-03:03.969  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/bar.png'
+03:03.969  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/bar.png'
 STUDY_RENDER_OK atual bar 28.91
-03:33.466  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/lavanderia.png'
+03:33.466  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/lavanderia.png'
 STUDY_RENDER_OK atual lavanderia 29.42
-04:00.593  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/fundos-abertos.png'
+04:00.593  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/fundos-abertos.png'
 STUDY_RENDER_OK atual fundos-abertos 27.05
-04:32.275  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/divisao-lazer-lavanderia.png'
+04:32.275  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/divisao-lazer-lavanderia.png'
 STUDY_RENDER_OK atual divisao-lazer-lavanderia 31.57
-04:56.785  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/escada-acesso.png'
+04:56.785  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/escada-acesso.png'
 STUDY_RENDER_OK atual escada-acesso 24.4
-05:21.612  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/escada-superior.png'
+05:21.612  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/escada-superior.png'
 STUDY_RENDER_OK atual escada-superior 24.75
-05:47.211  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/lavabo.png'
+05:47.211  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/lavabo.png'
 STUDY_RENDER_OK atual lavabo 25.52
-06:12.135  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/suite.png'
+06:12.135  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/suite.png'
 STUDY_RENDER_OK atual suite 24.85
-06:37.791  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/quarto-frente.png'
+06:37.791  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/quarto-frente.png'
 STUDY_RENDER_OK atual quarto-frente 25.57
-07:02.621  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/02-ambientes/quarto-fundos.png'
+07:02.621  render           | Saved: '/home/edann/projects/sobrado/renders/atual/02-ambientes/quarto-fundos.png'
 STUDY_RENDER_OK atual quarto-fundos 24.75
-07:19.959  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/03-exteriores/fachada-frontal.png'
+07:19.959  render           | Saved: '/home/edann/projects/sobrado/renders/atual/03-exteriores/fachada-frontal.png'
 STUDY_RENDER_OK atual fachada-frontal 17.26
-07:40.766  render           | Saved: '/home/edann/projects/casa-interiores/renders/atual/03-exteriores/volumetria.png'
+07:40.766  render           | Saved: '/home/edann/projects/sobrado/renders/atual/03-exteriores/volumetria.png'
 STUDY_RENDER_OK atual volumetria 20.73
 Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
 
