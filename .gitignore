@@ -44,3 +44,4 @@ __pycache__/
 /relatorios/validacao-blender-final.log
 /relatorios/*.log
 /relatorios/atico/*-anterior.log
+/relatorios/infraestrutura/*.log

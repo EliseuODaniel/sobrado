@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scenes": 7,
+  "tank_original_xyz": [
+    5.35,
+    3.175,
+    5.45
+  ],
+  "attic_present": false,
+  "full_network_segments_verified": 131,
+  "point_positions_verified": 58,
+  "forros_translucent": true,
+  "comparison_walls_in_camera_frame": true,
+  "original_sources_preserved": true,
+  "new_images_rendered": false,
+  "executable_design_verified": false,
+  "limitations": "Traçados 3D são interpretativos; conexões reais, dimensionamento e interferências não verificados."
+}

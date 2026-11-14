@@ -1,6 +1,6 @@
-# Sobrado — quatro versões ativas
+# Sobrado — versões ativas e infraestrutura
 
-As entregas atuais estão organizadas em **original**, **atual**, **industrial** e **atico**. As revisões anteriores foram movidas para [arquivos](arquivos/LEIA-ME.md), sem exclusões.
+As versões arquitetônicas estão organizadas em **original**, **atual**, **industrial** e **atico**. A pasta **infraestrutura** reúne elétrica e hidráulica, com a caixa na posição original e sem construção do ático. As revisões anteriores foram movidas para [arquivos](arquivos/LEIA-ME.md), sem exclusões.
 
 | Versão | Blender para visualizar | Modelo completo da versão |
 | --- | --- | --- |
@@ -12,6 +12,10 @@ As entregas atuais estão organizadas em **original**, **atual**, **industrial**
 Os três arquivos de pavimentos abrem na cena `VISUALIZACAO_<versao>_COMPARACAO`: à esquerda o térreo isolado; à direita o térreo com o segundo pavimento, sem telhado. As duas casas aparecem lado a lado no mesmo arquivo. Para ver cada uma separadamente, selecione as cenas `VISUALIZACAO_<versao>_terreo` ou `VISUALIZACAO_<versao>_dois-pavimentos`. O térreo aparece sem o segundo pavimento; a outra cena conserva os dois pisos e a laje intermediária, sem telhado. As paredes laterais permanecem completas e opacas. Enquadramento, escala e iluminação de apresentação são iguais entre versões.
 
 **Blender primeiro; novas imagens adiadas por solicitação do usuário.** Imagens já existentes foram preservadas. [Índice das imagens e versões](renders/galeria.html).
+
+## Infraestrutura
+
+[Blender de elétrica, hidráulica e forros](projeto/infraestrutura/instalacoes-pavimentos-forro.blend): sete cenas, com os pavimentos lado a lado, vistas por disciplina e detalhe da caixa. Abre na comparação geral. Caixa na posição original; casa sem construção do ático. Paredes e forros translúcidos permitem ler as redes. [Cenas, cores e limites](projeto/infraestrutura/LEIA-ME.md) · [Validação](relatorios/infraestrutura/validacao.json).
 
 ## Organização
 
