@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-14",
+  "scope": "Validação e correção da representação 3D da água quente, não da instalação construída",
+  "before": {
+    "renderable_hot_edges": 18,
+    "extra_identical_edges": 5,
+    "separate_edges_crossing_floor": 4
+  },
+  "after": {
+    "hot_edges": 19,
+    "overlaps": [],
+    "shared_columns_crossing_floor": 1,
+    "hot_fixture_ids": [
+      "AQ-banho-social-chuveiro",
+      "AQ-banho-social-lavatorio",
+      "AQ-banho-suite-chuveiro",
+      "AQ-banho-suite-lavatorio",
+      "AQ-cozinha"
+    ]
+  },
+  "sources": {
+    "HID04.pdf": "5daa38bb6c0ea7a5bfe65377edccfbca7bc188cbee4131c73d8e7a9263c8b391",
+    "HID05.pdf": "67f2a35b343d6788140ede6382d783a9810abe6a2adbd440c2d4c9fe3ffbb014"
+  },
+  "original_tank_xyz": [
+    5.35,
+    3.175,
+    5.45
+  ],
+  "header_height_m": 5.15,
+  "header_height_documented": false,
+  "final_blend_sha256": "8e144a512a32b20140caf576dd1bcadcbbc33141a69eaf8d4421ffd5e175ce3a",
+  "rendered_new_images": false
+}

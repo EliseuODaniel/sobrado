@@ -15,6 +15,13 @@ def graph():
     original = deepcopy(source.pipe_points())
     nodes = {n['id']: n for n in original['nodes'] if n['system'] in COLORS}
     edges = [e for e in original['edges'] if e['system'] in COLORS]
+    # O estudo anterior gerava uma coluna por aparelho, com trechos coincidentes.
+    # Conservam-se o aquecedor e os cinco pontos; a distribuição passa a ser comum.
+    hot_points = {key: value for key, value in nodes.items()
+                  if value['system'] == 'hot' and value['kind'] in {'heater', 'outlet'}}
+    nodes = {key: value for key, value in nodes.items() if value['system'] != 'hot'}
+    nodes.update(hot_points)
+    edges = [e for e in edges if e['system'] != 'hot']
 
     def node(key, xyz, system='cold', kind='junction'):
         assert key not in nodes
@@ -27,6 +34,32 @@ def graph():
             edges.append(dict(a=a, b=b, system=nodes[a]['system'],
                               nominal_diameter_m=diameter, geometry='segment', proposed=True,
                               source='Ligação esquemática de apresentação; dimensionamento executivo pendente'))
+
+    # HID04: AQ-1 comum aos banheiros, CPVC 22 mm, "sob a laje".
+    # XY é aproximado pelo registro da prancha; Z=5,15 é de apresentação, não cota documental.
+    for key, xyz in [('AQ-DESVIO-AQUECEDOR', (3.35, 6.1, 1.2)),
+                     ('AQ-COLUNA-BASE', (3.35, 6.3, 1.2)),
+                     ('AQ-COLUNA-TOPO', (3.35, 6.3, 5.15)),
+                     ('AQ-TRONCO-SOCIAL', (1.83, 6.3, 5.15)),
+                     ('AQ-TRONCO-SUITE', (.18, 6.3, 5.15)),
+                     ('AQ-COZINHA-BAIXO', (3.47, 6.1, .48)),
+                     ('AQ-COZINHA-DESVIO-X', (4.9, 6.1, .48)),
+                     ('AQ-COZINHA-DESVIO-Y', (4.9, 7.02, .48))]:
+        node(key, xyz, 'hot')
+    chain(['AQ-AQUECEDOR', 'AQ-DESVIO-AQUECEDOR', 'AQ-COLUNA-BASE',
+           'AQ-COLUNA-TOPO', 'AQ-TRONCO-SOCIAL', 'AQ-TRONCO-SUITE'], .022)
+    chain(['AQ-AQUECEDOR', 'AQ-COZINHA-BAIXO', 'AQ-COZINHA-DESVIO-X',
+           'AQ-COZINHA-DESVIO-Y', 'AQ-cozinha'], .022)
+    for room, x, header in [('suite', .18, 'AQ-TRONCO-SUITE'),
+                            ('social', 1.83, 'AQ-TRONCO-SOCIAL')]:
+        top = f'AQ-{room}-TEE-CHUVEIRO'
+        low = f'AQ-{room}-TEE-LAVATORIO'
+        turn = f'AQ-{room}-DESVIO-LAVATORIO'
+        node(top, (x, 6.3, 4.8), 'hot')
+        node(low, (x, 6.3, 3.18), 'hot')
+        node(turn, (x, 3.95, 3.18), 'hot')
+        chain([header, top, low, turn, f'AQ-banho-{room}-lavatorio'], .022)
+        chain([top, f'AQ-banho-{room}-chuveiro'], .022)
     # O reservatório e o aquecedor são equipamentos: a conexão interna não é um tubo externo.
     equipment = [dict(kind='tank', inlet='AF-ENTRADA', outlet='AF-SAIDA')]
     for key, xyz in [('AF-AQUECEDOR-ALTO', (3.47, 3.175, 2.35)),
@@ -59,3 +92,23 @@ def clip_segment(a, b, zmin, zmax):
     if high-low < 1e-9:
         return None
     return [[a[i] + (b[i]-a[i])*t for i in range(3)] for t in [low, high]]
+
+
+def hot_geometry_issues(graph):
+    """Detecta trechos quentes não ortogonais ou com sobreposição de comprimento positivo."""
+    nodes = {n['id']: n for n in graph['nodes']}
+    groups = {}; issues = []
+    for i, edge in enumerate(graph['edges']):
+        if edge['system'] != 'hot' or edge['geometry'] == 'junction': continue
+        a, b = nodes[edge['a']]['xyz'], nodes[edge['b']]['xyz']
+        axes = [j for j in range(3) if abs(a[j]-b[j]) > 1e-8]
+        if len(axes) != 1:
+            issues.append(dict(kind='non_orthogonal_or_zero', edge=i)); continue
+        axis = axes[0]
+        key = (axis, *[round(a[j], 7) for j in range(3) if j != axis])
+        low, high = sorted((a[axis], b[axis]))
+        for oldlow, oldhigh, oldindex in groups.get(key, []):
+            if min(high, oldhigh)-max(low, oldlow) > 1e-8:
+                issues.append(dict(kind='overlap', edges=[oldindex, i]))
+        groups.setdefault(key, []).append((low, high, i))
+    return issues

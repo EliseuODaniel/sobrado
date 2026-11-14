@@ -10,6 +10,9 @@ import infrastructure_data as data
 import blender_primitives as g
 
 DEST = ROOT/'projeto/infraestrutura/instalacoes-pavimentos-forro.blend'
+if '--output' in sys.argv:
+    DEST = Path(sys.argv[sys.argv.index('--output')+1]).resolve()
+    assert DEST.is_relative_to(ROOT), DEST
 REPORT = ROOT/'relatorios/infraestrutura'
 assert not DEST.exists(), DEST
 assert Path(bpy.data.filepath).resolve() == ROOT/'projeto/atual/casa-07-atual-fiel.blend'
@@ -127,6 +130,7 @@ tank = next(o for o in tankcol.objects if o.get('capacity_liters'))
 assert (tank.matrix_world.translation-Vector(data.TANK)).length < 1e-4, tuple(tank.matrix_world.translation)
 
 graph = data.graph(); nodes = {n['id']: n for n in graph['nodes']}
+assert not data.hot_geometry_issues(graph), data.hot_geometry_issues(graph)
 networks = {key: collection('INFRA_Rede_'+key) for key in data.COLORS}
 levels = {(key, lv): collection(f'INFRA_Rede_{key}_Piso_{lv}') for key in data.COLORS for lv in [0, 1]}
 
@@ -251,6 +255,8 @@ record = dict(blend=DEST.relative_to(ROOT).as_posix(), source=source.relative_to
                   'Arquitetura atual sem construção do ático; caixa na posição documental original.',
                   'Paredes laterais completas, lajes e forros translúcidos para ler as redes.',
                   'Rede 3D interpretativa existente; novas ligações esquemáticas identificadas.',
+                  'Água quente com coluna compartilhada e distribuição comum, sem trechos coincidentes.',
+                  'HID04 indica distribuição sob a laje; Z=5,15 m é altura de apresentação, não cota documental.',
                   'Limpeza/extravasor terminam em conexão externa pendente; não ligados ao esgoto.',
                   'Sem cálculo de pressão, carga, circuitos, queda de tensão ou interferências.'])
 (REPORT/'modelo.json').write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding='utf-8')

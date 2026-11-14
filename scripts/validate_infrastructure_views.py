@@ -1,11 +1,13 @@
 """Valida o Blender reaberto, sem renderizar imagens."""
 from pathlib import Path
-import json, hashlib
+import json, hashlib, sys
 import bpy
 from mathutils import Vector
 from bpy_extras.object_utils import world_to_camera_view
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT/'scripts'))
+import infrastructure_data
 report = ROOT/'relatorios/infraestrutura'
 record = json.loads((report/'modelo.json').read_text(encoding='utf-8'))
 path = ROOT/record['blend']
@@ -20,6 +22,11 @@ tank = next(o for o in bpy.data.collections['INFRA_Caixa_Original'].objects if o
 assert (tank.matrix_world.translation-Vector((5.35, 3.175, 5.45))).length < 1e-4
 assert not any('ATC' in o.name or 'atico' in o.name.lower() for s in bpy.data.scenes for o in s.objects)
 nodes = {n['id']: n for n in record['graph']['nodes']}
+assert infrastructure_data.hot_geometry_issues(record['graph']) == []
+hot_columns = [e for e in record['graph']['edges'] if e['system'] == 'hot' and
+               min(nodes[e['a']]['xyz'][2], nodes[e['b']]['xyz'][2]) < 2.7 <
+               max(nodes[e['a']]['xyz'][2], nodes[e['b']]['xyz'][2])]
+assert len(hot_columns) == 1
 checked = 0; markers = 0
 for system in ['cold', 'hot', 'electric', 'overflow', 'drain']:
     col = bpy.data.collections['INFRA_Rede_'+system]
@@ -62,6 +69,7 @@ result = dict(status='passed', scenes=7, tank_original_xyz=[5.35, 3.175, 5.45],
               attic_present=False, full_network_segments_verified=checked,
               point_positions_verified=markers, forros_translucent=True,
               comparison_walls_in_camera_frame=True,
+              hot_network_overlaps=0, hot_network_single_shared_column=True,
               original_sources_preserved=True, new_images_rendered=False,
               executable_design_verified=False,
               limitations='Traçados 3D são interpretativos; conexões reais, dimensionamento e interferências não verificados.')

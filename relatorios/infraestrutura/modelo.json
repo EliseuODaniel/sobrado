@@ -466,237 +466,6 @@
         "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
       },
       {
-        "id": "AQ-AQUECEDOR",
-        "xyz": [
-          3.47,
-          6.1,
-          1.2
-        ],
-        "system": "hot",
-        "kind": "heater",
-        "source": "HID05: aquecedor; posicionamento XY de estudo"
-      },
-      {
-        "id": "AQ-cozinha-coluna",
-        "xyz": [
-          3.5,
-          6.1,
-          0.48
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-cozinha-piso",
-        "xyz": [
-          4.9,
-          6.1,
-          0.48
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-cozinha-desvio",
-        "xyz": [
-          4.9,
-          7.02,
-          0.48
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-cozinha",
-        "xyz": [
-          4.9,
-          7.02,
-          0.6
-        ],
-        "system": "hot",
-        "kind": "outlet",
-        "source": "HID05: pontos de água quente CPVC 22 mm"
-      },
-      {
-        "id": "AQ-banho-suite-lavatorio-coluna",
-        "xyz": [
-          3.5,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-suite-lavatorio-piso",
-        "xyz": [
-          0.18,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-suite-lavatorio-desvio",
-        "xyz": [
-          0.18,
-          3.95,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-suite-lavatorio",
-        "xyz": [
-          0.18,
-          3.95,
-          3.3000000000000003
-        ],
-        "system": "hot",
-        "kind": "outlet",
-        "source": "HID05: pontos de água quente CPVC 22 mm"
-      },
-      {
-        "id": "AQ-banho-suite-chuveiro-coluna",
-        "xyz": [
-          3.5,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-suite-chuveiro-piso",
-        "xyz": [
-          0.18,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-suite-chuveiro-desvio",
-        "xyz": [
-          0.18,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-suite-chuveiro",
-        "xyz": [
-          0.18,
-          6.1,
-          4.800000000000001
-        ],
-        "system": "hot",
-        "kind": "outlet",
-        "source": "HID05: pontos de água quente CPVC 22 mm"
-      },
-      {
-        "id": "AQ-banho-social-lavatorio-coluna",
-        "xyz": [
-          3.5,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-social-lavatorio-piso",
-        "xyz": [
-          1.83,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-social-lavatorio-desvio",
-        "xyz": [
-          1.83,
-          3.95,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-social-lavatorio",
-        "xyz": [
-          1.83,
-          3.95,
-          3.3000000000000003
-        ],
-        "system": "hot",
-        "kind": "outlet",
-        "source": "HID05: pontos de água quente CPVC 22 mm"
-      },
-      {
-        "id": "AQ-banho-social-chuveiro-coluna",
-        "xyz": [
-          3.5,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-social-chuveiro-piso",
-        "xyz": [
-          1.83,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-social-chuveiro-desvio",
-        "xyz": [
-          1.83,
-          6.1,
-          3.18
-        ],
-        "system": "hot",
-        "kind": "junction",
-        "source": "Percurso 3D de estudo, posição em planta aproximada"
-      },
-      {
-        "id": "AQ-banho-social-chuveiro",
-        "xyz": [
-          1.83,
-          6.1,
-          4.800000000000001
-        ],
-        "system": "hot",
-        "kind": "outlet",
-        "source": "HID05: pontos de água quente CPVC 22 mm"
-      },
-      {
         "id": "ELE-QD-0",
         "xyz": [
           3.48,
@@ -1423,6 +1192,240 @@
         "source": "ELE04: interruptor a 1,10 m"
       },
       {
+        "id": "AQ-AQUECEDOR",
+        "xyz": [
+          3.47,
+          6.1,
+          1.2
+        ],
+        "system": "hot",
+        "kind": "heater",
+        "source": "HID05: aquecedor; posicionamento XY de estudo"
+      },
+      {
+        "id": "AQ-cozinha",
+        "xyz": [
+          4.9,
+          7.02,
+          0.6
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-suite-lavatorio",
+        "xyz": [
+          0.18,
+          3.95,
+          3.3000000000000003
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-suite-chuveiro",
+        "xyz": [
+          0.18,
+          6.1,
+          4.800000000000001
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-social-lavatorio",
+        "xyz": [
+          1.83,
+          3.95,
+          3.3000000000000003
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-social-chuveiro",
+        "xyz": [
+          1.83,
+          6.1,
+          4.800000000000001
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-DESVIO-AQUECEDOR",
+        "xyz": [
+          3.35,
+          6.1,
+          1.2
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-COLUNA-BASE",
+        "xyz": [
+          3.35,
+          6.3,
+          1.2
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-COLUNA-TOPO",
+        "xyz": [
+          3.35,
+          6.3,
+          5.15
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-TRONCO-SOCIAL",
+        "xyz": [
+          1.83,
+          6.3,
+          5.15
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-TRONCO-SUITE",
+        "xyz": [
+          0.18,
+          6.3,
+          5.15
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-COZINHA-BAIXO",
+        "xyz": [
+          3.47,
+          6.1,
+          0.48
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-COZINHA-DESVIO-X",
+        "xyz": [
+          4.9,
+          6.1,
+          0.48
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-COZINHA-DESVIO-Y",
+        "xyz": [
+          4.9,
+          7.02,
+          0.48
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-suite-TEE-CHUVEIRO",
+        "xyz": [
+          0.18,
+          6.3,
+          4.8
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-suite-TEE-LAVATORIO",
+        "xyz": [
+          0.18,
+          6.3,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-suite-DESVIO-LAVATORIO",
+        "xyz": [
+          0.18,
+          3.95,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-social-TEE-CHUVEIRO",
+        "xyz": [
+          1.83,
+          6.3,
+          4.8
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-social-TEE-LAVATORIO",
+        "xyz": [
+          1.83,
+          6.3,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AQ-social-DESVIO-LAVATORIO",
+        "xyz": [
+          1.83,
+          3.95,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
         "id": "AF-AQUECEDOR-ALTO",
         "xyz": [
           3.47,
@@ -1865,166 +1868,6 @@
         "b": "AF-lavanderia-lavadora",
         "system": "cold",
         "nominal_diameter_m": 0.025,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-AQUECEDOR",
-        "b": "AQ-cozinha-coluna",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-cozinha-coluna",
-        "b": "AQ-cozinha-piso",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-cozinha-piso",
-        "b": "AQ-cozinha-desvio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-cozinha-desvio",
-        "b": "AQ-cozinha",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-AQUECEDOR",
-        "b": "AQ-banho-suite-lavatorio-coluna",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-suite-lavatorio-coluna",
-        "b": "AQ-banho-suite-lavatorio-piso",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-suite-lavatorio-piso",
-        "b": "AQ-banho-suite-lavatorio-desvio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-suite-lavatorio-desvio",
-        "b": "AQ-banho-suite-lavatorio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-AQUECEDOR",
-        "b": "AQ-banho-suite-chuveiro-coluna",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-suite-chuveiro-coluna",
-        "b": "AQ-banho-suite-chuveiro-piso",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-suite-chuveiro-piso",
-        "b": "AQ-banho-suite-chuveiro-desvio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "junction"
-      },
-      {
-        "a": "AQ-banho-suite-chuveiro-desvio",
-        "b": "AQ-banho-suite-chuveiro",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-AQUECEDOR",
-        "b": "AQ-banho-social-lavatorio-coluna",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-social-lavatorio-coluna",
-        "b": "AQ-banho-social-lavatorio-piso",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-social-lavatorio-piso",
-        "b": "AQ-banho-social-lavatorio-desvio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-social-lavatorio-desvio",
-        "b": "AQ-banho-social-lavatorio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-AQUECEDOR",
-        "b": "AQ-banho-social-chuveiro-coluna",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-social-chuveiro-coluna",
-        "b": "AQ-banho-social-chuveiro-piso",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "segment"
-      },
-      {
-        "a": "AQ-banho-social-chuveiro-piso",
-        "b": "AQ-banho-social-chuveiro-desvio",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
-        "source": "Traçado 3D de estudo",
-        "geometry": "junction"
-      },
-      {
-        "a": "AQ-banho-social-chuveiro-desvio",
-        "b": "AQ-banho-social-chuveiro",
-        "system": "hot",
-        "nominal_diameter_m": 0.022,
         "source": "Traçado 3D de estudo",
         "geometry": "segment"
       },
@@ -2549,6 +2392,177 @@
         "geometry": "segment"
       },
       {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-DESVIO-AQUECEDOR",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-DESVIO-AQUECEDOR",
+        "b": "AQ-COLUNA-BASE",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-COLUNA-BASE",
+        "b": "AQ-COLUNA-TOPO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-COLUNA-TOPO",
+        "b": "AQ-TRONCO-SOCIAL",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-TRONCO-SOCIAL",
+        "b": "AQ-TRONCO-SUITE",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-COZINHA-BAIXO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-COZINHA-BAIXO",
+        "b": "AQ-COZINHA-DESVIO-X",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-COZINHA-DESVIO-X",
+        "b": "AQ-COZINHA-DESVIO-Y",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-COZINHA-DESVIO-Y",
+        "b": "AQ-cozinha",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-TRONCO-SUITE",
+        "b": "AQ-suite-TEE-CHUVEIRO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-suite-TEE-CHUVEIRO",
+        "b": "AQ-suite-TEE-LAVATORIO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-suite-TEE-LAVATORIO",
+        "b": "AQ-suite-DESVIO-LAVATORIO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-suite-DESVIO-LAVATORIO",
+        "b": "AQ-banho-suite-lavatorio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-suite-TEE-CHUVEIRO",
+        "b": "AQ-banho-suite-chuveiro",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-TRONCO-SOCIAL",
+        "b": "AQ-social-TEE-CHUVEIRO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-social-TEE-CHUVEIRO",
+        "b": "AQ-social-TEE-LAVATORIO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-social-TEE-LAVATORIO",
+        "b": "AQ-social-DESVIO-LAVATORIO",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-social-DESVIO-LAVATORIO",
+        "b": "AQ-banho-social-lavatorio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AQ-social-TEE-CHUVEIRO",
+        "b": "AQ-banho-social-chuveiro",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
         "a": "AF-PISO-0",
         "b": "AF-AQUECEDOR-ALTO",
         "system": "cold",
@@ -2682,6 +2696,9 @@
     "Paredes laterais completas, lajes e forros translúcidos para ler as redes.",
     "Rede 3D interpretativa existente; novas ligações esquemáticas identificadas.",
     "Limpeza/extravasor terminam em conexão externa pendente; não ligados ao esgoto.",
-    "Sem cálculo de pressão, carga, circuitos, queda de tensão ou interferências."
-  ]
+    "Sem cálculo de pressão, carga, circuitos, queda de tensão ou interferências.",
+    "Água quente corrigida: uma coluna comum, ramais compartilhados, sem sobreposições.",
+    "Distribuição sob a laje na HID04; altura Z=5,15 m é apenas de apresentação."
+  ],
+  "hot_water_correction": "relatorios/infraestrutura/validacao-agua-quente/auditoria.json"
 }

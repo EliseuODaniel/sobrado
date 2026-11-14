@@ -7,10 +7,12 @@
     5.45
   ],
   "attic_present": false,
-  "full_network_segments_verified": 131,
+  "full_network_segments_verified": 132,
   "point_positions_verified": 58,
   "forros_translucent": true,
   "comparison_walls_in_camera_frame": true,
+  "hot_network_overlaps": 0,
+  "hot_network_single_shared_column": true,
   "original_sources_preserved": true,
   "new_images_rendered": false,
   "executable_design_verified": false,

@@ -35,5 +35,26 @@ class InfrastructureTests(unittest.TestCase):
         self.assertIsNone(data.clip_segment([0, 0, 8], [1, 0, 8], 0, 2.7))
         self.assertEqual(data.clip_segment([0, 0, 2], [1, 0, 2], 0, 2.7), [[0, 0, 2], [1, 0, 2]])
 
+    def test_hot_supply_shares_one_column_and_keeps_five_documented_outlets(self):
+        graph = data.graph(); nodes = {n['id']: n for n in graph['nodes']}
+        fixtures = {n['id'] for n in nodes.values() if n['system']=='hot' and n['kind']=='outlet'}
+        self.assertEqual(fixtures, {'AQ-cozinha', 'AQ-banho-suite-lavatorio', 'AQ-banho-suite-chuveiro',
+                                    'AQ-banho-social-lavatorio', 'AQ-banho-social-chuveiro'})
+        columns = [e for e in graph['edges'] if e['system']=='hot' and
+                   min(nodes[e['a']]['xyz'][2], nodes[e['b']]['xyz'][2]) < 2.7 <
+                   max(nodes[e['a']]['xyz'][2], nodes[e['b']]['xyz'][2])]
+        self.assertEqual(len(columns), 1)
+        self.assertEqual(data.hot_geometry_issues(graph), [])
+
+    def test_overlap_guard_catches_duplicate_and_partial_overlapping_trunks(self):
+        graph = data.graph()
+        edge = next(e for e in graph['edges'] if e['a']=='AQ-COLUNA-TOPO')
+        graph['edges'].append(dict(edge))
+        self.assertTrue(any(i['kind']=='overlap' for i in data.hot_geometry_issues(graph)))
+        graph = data.graph()
+        graph['edges'].append(dict(a='AQ-COLUNA-TOPO', b='AQ-TRONCO-SUITE',
+                                   system='hot', geometry='segment', nominal_diameter_m=.022))
+        self.assertTrue(any(i['kind']=='overlap' for i in data.hot_geometry_issues(graph)))
+
 
 if __name__ == '__main__': unittest.main()

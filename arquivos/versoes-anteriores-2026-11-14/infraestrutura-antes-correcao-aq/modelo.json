@@ -1,0 +1,2687 @@
+{
+  "blend": "projeto/infraestrutura/instalacoes-pavimentos-forro.blend",
+  "source": "projeto/atual/casa-07-atual-fiel.blend",
+  "source_sha256": "3e453a03d1e50cb63967d8a3ff2540594b953bc9f57c9cbbb52acfc85b9518c0",
+  "tank_original_xyz": [
+    5.35,
+    3.175,
+    5.45
+  ],
+  "tank_capacity_liters": 1000,
+  "wall_objects_by_level": [
+    24,
+    38
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "AF-REDE",
+        "xyz": [
+          0.2,
+          -1.0,
+          -0.2
+        ],
+        "system": "cold",
+        "kind": "supply",
+        "source": "HID04/HID05: entrada de água; posição de percurso aproximada"
+      },
+      {
+        "id": "AF-SUBIDA",
+        "xyz": [
+          0.2,
+          3.175,
+          -0.2
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-MONTANTE",
+        "xyz": [
+          0.2,
+          3.175,
+          6.3500000000000005
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-ENTRADA",
+        "xyz": [
+          6.1899999999999995,
+          3.175,
+          6.3500000000000005
+        ],
+        "system": "cold",
+        "kind": "tank_inlet",
+        "source": "HID04: entrada 25 mm"
+      },
+      {
+        "id": "AF-SAIDA",
+        "xyz": [
+          4.51,
+          3.175,
+          5.57
+        ],
+        "system": "cold",
+        "kind": "tank_outlet",
+        "source": "HID04: alimentação 32 mm"
+      },
+      {
+        "id": "AF-DISTRIB",
+        "xyz": [
+          3.45,
+          3.175,
+          5.57
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-PISO-1",
+        "xyz": [
+          3.45,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-PISO-0",
+        "xyz": [
+          3.45,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-cozinha-alto",
+        "xyz": [
+          4.9,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-cozinha-desvio",
+        "xyz": [
+          4.9,
+          7.02,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-cozinha",
+        "xyz": [
+          4.9,
+          7.02,
+          0.6
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-lavabo-lavatorio-alto",
+        "xyz": [
+          4.35,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavabo-lavatorio-desvio",
+        "xyz": [
+          4.35,
+          3.08,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavabo-lavatorio",
+        "xyz": [
+          4.35,
+          3.08,
+          0.6
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-lavabo-vaso-alto",
+        "xyz": [
+          5.0,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavabo-vaso-desvio",
+        "xyz": [
+          5.0,
+          3.08,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavabo-vaso",
+        "xyz": [
+          5.0,
+          3.08,
+          0.2
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-banho-suite-lavatorio-alto",
+        "xyz": [
+          0.18,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-suite-lavatorio-desvio",
+        "xyz": [
+          0.18,
+          3.95,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-suite-lavatorio",
+        "xyz": [
+          0.18,
+          3.95,
+          3.3000000000000003
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-banho-suite-vaso-alto",
+        "xyz": [
+          0.18,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-suite-vaso-desvio",
+        "xyz": [
+          0.18,
+          4.82,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-suite-vaso",
+        "xyz": [
+          0.18,
+          4.82,
+          2.9000000000000004
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-banho-suite-chuveiro-alto",
+        "xyz": [
+          0.18,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-suite-chuveiro-desvio",
+        "xyz": [
+          0.18,
+          6.1,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-suite-chuveiro",
+        "xyz": [
+          0.18,
+          6.1,
+          4.800000000000001
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-banho-social-lavatorio-alto",
+        "xyz": [
+          1.83,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-social-lavatorio-desvio",
+        "xyz": [
+          1.83,
+          3.95,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-social-lavatorio",
+        "xyz": [
+          1.83,
+          3.95,
+          3.3000000000000003
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-banho-social-vaso-alto",
+        "xyz": [
+          1.83,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-social-vaso-desvio",
+        "xyz": [
+          1.83,
+          4.82,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-social-vaso",
+        "xyz": [
+          1.83,
+          4.82,
+          2.9000000000000004
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-banho-social-chuveiro-alto",
+        "xyz": [
+          1.83,
+          3.175,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-social-chuveiro-desvio",
+        "xyz": [
+          1.83,
+          6.1,
+          5.050000000000001
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-banho-social-chuveiro",
+        "xyz": [
+          1.83,
+          6.1,
+          4.800000000000001
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-lavanderia-tanque-alto",
+        "xyz": [
+          4.4,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavanderia-tanque-desvio",
+        "xyz": [
+          4.4,
+          10.2,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavanderia-tanque",
+        "xyz": [
+          4.4,
+          10.2,
+          1.0
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AF-lavanderia-lavadora-alto",
+        "xyz": [
+          5.6,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavanderia-lavadora-desvio",
+        "xyz": [
+          5.6,
+          10.2,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AF-lavanderia-lavadora",
+        "xyz": [
+          5.6,
+          10.2,
+          1.0
+        ],
+        "system": "cold",
+        "kind": "outlet",
+        "source": "HID05: altura do ponto transcrita; XY registrado pela arquitetura e pelas fotos para a lavanderia"
+      },
+      {
+        "id": "AQ-AQUECEDOR",
+        "xyz": [
+          3.47,
+          6.1,
+          1.2
+        ],
+        "system": "hot",
+        "kind": "heater",
+        "source": "HID05: aquecedor; posicionamento XY de estudo"
+      },
+      {
+        "id": "AQ-cozinha-coluna",
+        "xyz": [
+          3.5,
+          6.1,
+          0.48
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-cozinha-piso",
+        "xyz": [
+          4.9,
+          6.1,
+          0.48
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-cozinha-desvio",
+        "xyz": [
+          4.9,
+          7.02,
+          0.48
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-cozinha",
+        "xyz": [
+          4.9,
+          7.02,
+          0.6
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-suite-lavatorio-coluna",
+        "xyz": [
+          3.5,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-suite-lavatorio-piso",
+        "xyz": [
+          0.18,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-suite-lavatorio-desvio",
+        "xyz": [
+          0.18,
+          3.95,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-suite-lavatorio",
+        "xyz": [
+          0.18,
+          3.95,
+          3.3000000000000003
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-suite-chuveiro-coluna",
+        "xyz": [
+          3.5,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-suite-chuveiro-piso",
+        "xyz": [
+          0.18,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-suite-chuveiro-desvio",
+        "xyz": [
+          0.18,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-suite-chuveiro",
+        "xyz": [
+          0.18,
+          6.1,
+          4.800000000000001
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-social-lavatorio-coluna",
+        "xyz": [
+          3.5,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-social-lavatorio-piso",
+        "xyz": [
+          1.83,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-social-lavatorio-desvio",
+        "xyz": [
+          1.83,
+          3.95,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-social-lavatorio",
+        "xyz": [
+          1.83,
+          3.95,
+          3.3000000000000003
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "AQ-banho-social-chuveiro-coluna",
+        "xyz": [
+          3.5,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-social-chuveiro-piso",
+        "xyz": [
+          1.83,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-social-chuveiro-desvio",
+        "xyz": [
+          1.83,
+          6.1,
+          3.18
+        ],
+        "system": "hot",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "AQ-banho-social-chuveiro",
+        "xyz": [
+          1.83,
+          6.1,
+          4.800000000000001
+        ],
+        "system": "hot",
+        "kind": "outlet",
+        "source": "HID05: pontos de água quente CPVC 22 mm"
+      },
+      {
+        "id": "ELE-QD-0",
+        "xyz": [
+          3.48,
+          3.9,
+          1.5
+        ],
+        "system": "electric",
+        "kind": "panel",
+        "source": "ELE04/05: quadro 1,50 m"
+      },
+      {
+        "id": "ELE-TETO-0",
+        "xyz": [
+          3.48,
+          3.9,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L0-0-tr",
+        "xyz": [
+          1.6,
+          3.9,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L0-0",
+        "xyz": [
+          1.6,
+          1.5,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L0-1-tr",
+        "xyz": [
+          1.6,
+          3.9,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L0-1",
+        "xyz": [
+          1.6,
+          4.3,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L0-2-tr",
+        "xyz": [
+          4.85,
+          3.9,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L0-2",
+        "xyz": [
+          4.85,
+          5.7,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L0-3-tr",
+        "xyz": [
+          4.8,
+          3.9,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L0-3",
+        "xyz": [
+          4.8,
+          2.7,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-T0-0-alto",
+        "xyz": [
+          0.17,
+          0.9,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-0",
+        "xyz": [
+          0.17,
+          0.9,
+          0.3
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-1-alto",
+        "xyz": [
+          0.17,
+          3.7,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-1",
+        "xyz": [
+          0.17,
+          3.7,
+          0.3
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-2-alto",
+        "xyz": [
+          3.2,
+          1.35,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-2",
+        "xyz": [
+          3.2,
+          1.35,
+          0.3
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-3-alto",
+        "xyz": [
+          6.23,
+          4.73,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-3",
+        "xyz": [
+          6.23,
+          4.73,
+          1.1
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-4-alto",
+        "xyz": [
+          6.23,
+          5.7,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-4",
+        "xyz": [
+          6.23,
+          5.7,
+          1.1
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-5-alto",
+        "xyz": [
+          4.9,
+          7.02,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-5",
+        "xyz": [
+          4.9,
+          7.02,
+          1.1
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-6-alto",
+        "xyz": [
+          6.23,
+          6.4,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-6",
+        "xyz": [
+          6.23,
+          6.4,
+          2.2
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T0-7-alto",
+        "xyz": [
+          4.1,
+          3.2,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T0-7",
+        "xyz": [
+          4.1,
+          3.2,
+          1.1
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-S0-0-alto",
+        "xyz": [
+          2.64,
+          0.25,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-S0-0",
+        "xyz": [
+          2.64,
+          0.25,
+          1.1
+        ],
+        "system": "electric",
+        "kind": "switch",
+        "source": "ELE04: interruptor a 1,10 m"
+      },
+      {
+        "id": "ELE-S0-1-alto",
+        "xyz": [
+          3.5,
+          4.45,
+          2.42
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-S0-1",
+        "xyz": [
+          3.5,
+          4.45,
+          1.1
+        ],
+        "system": "electric",
+        "kind": "switch",
+        "source": "ELE04: interruptor a 1,10 m"
+      },
+      {
+        "id": "ELE-QD-1",
+        "xyz": [
+          3.48,
+          3.9,
+          4.2
+        ],
+        "system": "electric",
+        "kind": "panel",
+        "source": "ELE04/05: quadro 1,50 m"
+      },
+      {
+        "id": "ELE-TETO-1",
+        "xyz": [
+          3.48,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-0-tr",
+        "xyz": [
+          1.65,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-0",
+        "xyz": [
+          1.65,
+          1.4,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L1-1-tr",
+        "xyz": [
+          4.85,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-1",
+        "xyz": [
+          4.85,
+          0.45,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L1-2-tr",
+        "xyz": [
+          4.85,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-2",
+        "xyz": [
+          4.85,
+          5.7,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L1-3-tr",
+        "xyz": [
+          0.9,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-3",
+        "xyz": [
+          0.9,
+          4.8,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L1-4-tr",
+        "xyz": [
+          2.55,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-4",
+        "xyz": [
+          2.55,
+          4.8,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-L1-5-tr",
+        "xyz": [
+          3.85,
+          3.9,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-L1-5",
+        "xyz": [
+          3.85,
+          3.3,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "light",
+        "source": "ELE04/05: iluminação de teto; centros registrados aproximadamente"
+      },
+      {
+        "id": "ELE-T1-0-alto",
+        "xyz": [
+          0.17,
+          1.1,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-0",
+        "xyz": [
+          0.17,
+          1.1,
+          3.0
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-1-alto",
+        "xyz": [
+          3.27,
+          0.3,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-1",
+        "xyz": [
+          3.27,
+          0.3,
+          3.0
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-2-alto",
+        "xyz": [
+          6.23,
+          0.1,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-2",
+        "xyz": [
+          6.23,
+          0.1,
+          3.0
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-3-alto",
+        "xyz": [
+          6.23,
+          1.5,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-3",
+        "xyz": [
+          6.23,
+          1.5,
+          3.0
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-4-alto",
+        "xyz": [
+          6.23,
+          5.2,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-4",
+        "xyz": [
+          6.23,
+          5.2,
+          3.0
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-5-alto",
+        "xyz": [
+          3.48,
+          6.1,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-5",
+        "xyz": [
+          3.48,
+          6.1,
+          3.8000000000000003
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-6-alto",
+        "xyz": [
+          0.17,
+          4.0,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-6",
+        "xyz": [
+          0.17,
+          4.0,
+          3.8000000000000003
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-T1-7-alto",
+        "xyz": [
+          1.83,
+          4.0,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-T1-7",
+        "xyz": [
+          1.83,
+          4.0,
+          3.8000000000000003
+        ],
+        "system": "electric",
+        "kind": "socket",
+        "source": "ELE04: tomadas a 0,30 / 1,10 / 2,20 m; XY interpretado na base"
+      },
+      {
+        "id": "ELE-S1-0-alto",
+        "xyz": [
+          3.27,
+          2.5,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-S1-0",
+        "xyz": [
+          3.27,
+          2.5,
+          3.8000000000000003
+        ],
+        "system": "electric",
+        "kind": "switch",
+        "source": "ELE04: interruptor a 1,10 m"
+      },
+      {
+        "id": "ELE-S1-1-alto",
+        "xyz": [
+          3.75,
+          1.95,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-S1-1",
+        "xyz": [
+          3.75,
+          1.95,
+          3.8000000000000003
+        ],
+        "system": "electric",
+        "kind": "switch",
+        "source": "ELE04: interruptor a 1,10 m"
+      },
+      {
+        "id": "ELE-S1-2-alto",
+        "xyz": [
+          3.65,
+          4.35,
+          5.12
+        ],
+        "system": "electric",
+        "kind": "junction",
+        "source": "Percurso 3D de estudo, posição em planta aproximada"
+      },
+      {
+        "id": "ELE-S1-2",
+        "xyz": [
+          3.65,
+          4.35,
+          3.8000000000000003
+        ],
+        "system": "electric",
+        "kind": "switch",
+        "source": "ELE04: interruptor a 1,10 m"
+      },
+      {
+        "id": "AF-AQUECEDOR-ALTO",
+        "xyz": [
+          3.47,
+          3.175,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AF-AQUECEDOR-DESVIO",
+        "xyz": [
+          3.47,
+          6.1,
+          2.35
+        ],
+        "system": "cold",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "AF-AQUECEDOR",
+        "xyz": [
+          3.47,
+          6.1,
+          1.2
+        ],
+        "system": "cold",
+        "kind": "heater_inlet",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "EX-0",
+        "xyz": [
+          5.35,
+          4.015,
+          6.35
+        ],
+        "system": "overflow",
+        "kind": "tank_port",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "EX-1",
+        "xyz": [
+          5.35,
+          4.35,
+          6.35
+        ],
+        "system": "overflow",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "EX-2",
+        "xyz": [
+          5.35,
+          4.35,
+          5.05
+        ],
+        "system": "overflow",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "EX-3",
+        "xyz": [
+          5.35,
+          7.45,
+          5.05
+        ],
+        "system": "overflow",
+        "kind": "connection_pending",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "LP-0",
+        "xyz": [
+          5.35,
+          4.015,
+          5.52
+        ],
+        "system": "drain",
+        "kind": "tank_port",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "LP-1",
+        "xyz": [
+          5.7,
+          4.015,
+          5.52
+        ],
+        "system": "drain",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "LP-2",
+        "xyz": [
+          5.7,
+          4.015,
+          4.85
+        ],
+        "system": "drain",
+        "kind": "junction",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      },
+      {
+        "id": "LP-3",
+        "xyz": [
+          5.7,
+          7.45,
+          4.85
+        ],
+        "system": "drain",
+        "kind": "connection_pending",
+        "proposed": true,
+        "source": "Percurso proposto de apresentação; não é levantamento da instalação"
+      }
+    ],
+    "edges": [
+      {
+        "a": "AF-REDE",
+        "b": "AF-SUBIDA",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-SUBIDA",
+        "b": "AF-MONTANTE",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-MONTANTE",
+        "b": "AF-ENTRADA",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-SAIDA",
+        "b": "AF-DISTRIB",
+        "system": "cold",
+        "nominal_diameter_m": 0.032,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-DISTRIB",
+        "b": "AF-PISO-1",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-PISO-0",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-0",
+        "b": "AF-cozinha-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-cozinha-alto",
+        "b": "AF-cozinha-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-cozinha-desvio",
+        "b": "AF-cozinha",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-0",
+        "b": "AF-lavabo-lavatorio-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavabo-lavatorio-alto",
+        "b": "AF-lavabo-lavatorio-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavabo-lavatorio-desvio",
+        "b": "AF-lavabo-lavatorio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-0",
+        "b": "AF-lavabo-vaso-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavabo-vaso-alto",
+        "b": "AF-lavabo-vaso-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavabo-vaso-desvio",
+        "b": "AF-lavabo-vaso",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-banho-suite-lavatorio-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-suite-lavatorio-alto",
+        "b": "AF-banho-suite-lavatorio-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-suite-lavatorio-desvio",
+        "b": "AF-banho-suite-lavatorio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-banho-suite-vaso-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-suite-vaso-alto",
+        "b": "AF-banho-suite-vaso-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-suite-vaso-desvio",
+        "b": "AF-banho-suite-vaso",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-banho-suite-chuveiro-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-suite-chuveiro-alto",
+        "b": "AF-banho-suite-chuveiro-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-suite-chuveiro-desvio",
+        "b": "AF-banho-suite-chuveiro",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-banho-social-lavatorio-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-social-lavatorio-alto",
+        "b": "AF-banho-social-lavatorio-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-social-lavatorio-desvio",
+        "b": "AF-banho-social-lavatorio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-banho-social-vaso-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-social-vaso-alto",
+        "b": "AF-banho-social-vaso-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-social-vaso-desvio",
+        "b": "AF-banho-social-vaso",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-1",
+        "b": "AF-banho-social-chuveiro-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-social-chuveiro-alto",
+        "b": "AF-banho-social-chuveiro-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-banho-social-chuveiro-desvio",
+        "b": "AF-banho-social-chuveiro",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-0",
+        "b": "AF-lavanderia-tanque-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavanderia-tanque-alto",
+        "b": "AF-lavanderia-tanque-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavanderia-tanque-desvio",
+        "b": "AF-lavanderia-tanque",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-0",
+        "b": "AF-lavanderia-lavadora-alto",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavanderia-lavadora-alto",
+        "b": "AF-lavanderia-lavadora-desvio",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-lavanderia-lavadora-desvio",
+        "b": "AF-lavanderia-lavadora",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-cozinha-coluna",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-cozinha-coluna",
+        "b": "AQ-cozinha-piso",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-cozinha-piso",
+        "b": "AQ-cozinha-desvio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-cozinha-desvio",
+        "b": "AQ-cozinha",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-banho-suite-lavatorio-coluna",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-suite-lavatorio-coluna",
+        "b": "AQ-banho-suite-lavatorio-piso",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-suite-lavatorio-piso",
+        "b": "AQ-banho-suite-lavatorio-desvio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-suite-lavatorio-desvio",
+        "b": "AQ-banho-suite-lavatorio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-banho-suite-chuveiro-coluna",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-suite-chuveiro-coluna",
+        "b": "AQ-banho-suite-chuveiro-piso",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-suite-chuveiro-piso",
+        "b": "AQ-banho-suite-chuveiro-desvio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "junction"
+      },
+      {
+        "a": "AQ-banho-suite-chuveiro-desvio",
+        "b": "AQ-banho-suite-chuveiro",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-banho-social-lavatorio-coluna",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-social-lavatorio-coluna",
+        "b": "AQ-banho-social-lavatorio-piso",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-social-lavatorio-piso",
+        "b": "AQ-banho-social-lavatorio-desvio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-social-lavatorio-desvio",
+        "b": "AQ-banho-social-lavatorio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-AQUECEDOR",
+        "b": "AQ-banho-social-chuveiro-coluna",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-social-chuveiro-coluna",
+        "b": "AQ-banho-social-chuveiro-piso",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AQ-banho-social-chuveiro-piso",
+        "b": "AQ-banho-social-chuveiro-desvio",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "junction"
+      },
+      {
+        "a": "AQ-banho-social-chuveiro-desvio",
+        "b": "AQ-banho-social-chuveiro",
+        "system": "hot",
+        "nominal_diameter_m": 0.022,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-QD-0",
+        "b": "ELE-TETO-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-L0-0-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L0-0-tr",
+        "b": "ELE-L0-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-L0-1-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L0-1-tr",
+        "b": "ELE-L0-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-L0-2-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L0-2-tr",
+        "b": "ELE-L0-2",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-L0-3-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L0-3-tr",
+        "b": "ELE-L0-3",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-0-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-0-alto",
+        "b": "ELE-T0-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-1-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-1-alto",
+        "b": "ELE-T0-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-2-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-2-alto",
+        "b": "ELE-T0-2",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-3-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-3-alto",
+        "b": "ELE-T0-3",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-4-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-4-alto",
+        "b": "ELE-T0-4",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-5-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-5-alto",
+        "b": "ELE-T0-5",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-6-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-6-alto",
+        "b": "ELE-T0-6",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-T0-7-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T0-7-alto",
+        "b": "ELE-T0-7",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-S0-0-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-S0-0-alto",
+        "b": "ELE-S0-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-0",
+        "b": "ELE-S0-1-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-S0-1-alto",
+        "b": "ELE-S0-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-QD-1",
+        "b": "ELE-TETO-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-L1-0-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L1-0-tr",
+        "b": "ELE-L1-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-L1-1-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L1-1-tr",
+        "b": "ELE-L1-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-L1-2-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L1-2-tr",
+        "b": "ELE-L1-2",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-L1-3-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L1-3-tr",
+        "b": "ELE-L1-3",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-L1-4-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L1-4-tr",
+        "b": "ELE-L1-4",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-L1-5-tr",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-L1-5-tr",
+        "b": "ELE-L1-5",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-0-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-0-alto",
+        "b": "ELE-T1-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-1-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-1-alto",
+        "b": "ELE-T1-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-2-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-2-alto",
+        "b": "ELE-T1-2",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-3-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-3-alto",
+        "b": "ELE-T1-3",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-4-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-4-alto",
+        "b": "ELE-T1-4",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-5-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-5-alto",
+        "b": "ELE-T1-5",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-6-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-6-alto",
+        "b": "ELE-T1-6",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-T1-7-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-T1-7-alto",
+        "b": "ELE-T1-7",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-S1-0-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-S1-0-alto",
+        "b": "ELE-S1-0",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-S1-1-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-S1-1-alto",
+        "b": "ELE-S1-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-TETO-1",
+        "b": "ELE-S1-2-alto",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-S1-2-alto",
+        "b": "ELE-S1-2",
+        "system": "electric",
+        "nominal_diameter_m": 0.025,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "ELE-QD-0",
+        "b": "ELE-QD-1",
+        "system": "electric",
+        "nominal_diameter_m": 0.032,
+        "source": "Traçado 3D de estudo",
+        "geometry": "segment"
+      },
+      {
+        "a": "AF-PISO-0",
+        "b": "AF-AQUECEDOR-ALTO",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AF-AQUECEDOR-ALTO",
+        "b": "AF-AQUECEDOR-DESVIO",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "AF-AQUECEDOR-DESVIO",
+        "b": "AF-AQUECEDOR",
+        "system": "cold",
+        "nominal_diameter_m": 0.025,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "EX-0",
+        "b": "EX-1",
+        "system": "overflow",
+        "nominal_diameter_m": 0.032,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "EX-1",
+        "b": "EX-2",
+        "system": "overflow",
+        "nominal_diameter_m": 0.032,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "EX-2",
+        "b": "EX-3",
+        "system": "overflow",
+        "nominal_diameter_m": 0.032,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "LP-0",
+        "b": "LP-1",
+        "system": "drain",
+        "nominal_diameter_m": 0.032,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "LP-1",
+        "b": "LP-2",
+        "system": "drain",
+        "nominal_diameter_m": 0.032,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      },
+      {
+        "a": "LP-2",
+        "b": "LP-3",
+        "system": "drain",
+        "nominal_diameter_m": 0.032,
+        "geometry": "segment",
+        "proposed": true,
+        "source": "Ligação esquemática de apresentação; dimensionamento executivo pendente"
+      }
+    ],
+    "equipment": [
+      {
+        "kind": "tank",
+        "inlet": "AF-ENTRADA",
+        "outlet": "AF-SAIDA"
+      },
+      {
+        "kind": "heater",
+        "inlet": "AF-AQUECEDOR",
+        "outlet": "AQ-AQUECEDOR"
+      }
+    ],
+    "status": "Estudo de apresentação, com trechos propostos identificados; não é as-built ou projeto executivo"
+  },
+  "jobs": [
+    {
+      "scene": "INFRA_04_CONJUNTO_FORRO_CAIXA",
+      "file": "renders/infraestrutura/INFRA_04_CONJUNTO_FORRO_CAIXA.png"
+    },
+    {
+      "scene": "INFRA_05_CAIXA_ENTRADA_SAIDAS",
+      "file": "renders/infraestrutura/INFRA_05_CAIXA_ENTRADA_SAIDAS.png"
+    },
+    {
+      "scene": "INFRA_06_TERREO",
+      "file": "renders/infraestrutura/INFRA_06_TERREO.png"
+    },
+    {
+      "scene": "INFRA_07_SUPERIOR",
+      "file": "renders/infraestrutura/INFRA_07_SUPERIOR.png"
+    },
+    {
+      "scene": "INFRA_01_COMPARACAO_GERAL",
+      "file": "renders/infraestrutura/INFRA_01_COMPARACAO_GERAL.png"
+    },
+    {
+      "scene": "INFRA_02_COMPARACAO_ELETRICA",
+      "file": "renders/infraestrutura/INFRA_02_COMPARACAO_ELETRICA.png"
+    },
+    {
+      "scene": "INFRA_03_COMPARACAO_HIDRAULICA",
+      "file": "renders/infraestrutura/INFRA_03_COMPARACAO_HIDRAULICA.png"
+    }
+  ],
+  "default_scene": "INFRA_01_COMPARACAO_GERAL",
+  "attic_included": false,
+  "images_rendered": false,
+  "notes": [
+    "Arquitetura atual sem construção do ático; caixa na posição documental original.",
+    "Paredes laterais completas, lajes e forros translúcidos para ler as redes.",
+    "Rede 3D interpretativa existente; novas ligações esquemáticas identificadas.",
+    "Limpeza/extravasor terminam em conexão externa pendente; não ligados ao esgoto.",
+    "Sem cálculo de pressão, carga, circuitos, queda de tensão ou interferências."
+  ]
+}

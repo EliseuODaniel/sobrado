@@ -25,7 +25,7 @@ Cores: laranja = elétrica/eletrodutos; azul = água fria; vermelho = água quen
 | Arquivo reaberto e cena inicial | 7 cenas; comparação geral como padrão |
 | Posição original da caixa | Conferida em X=5,35 / Y=3,175 / Z=5,45 m |
 | Ausência de construção do ático | Conferida nas cenas; sem nova escada, mansardas ou caixa deslocada |
-| Redes e marcadores | 131 trechos e 58 pontos com coordenadas conferidas |
+| Redes e marcadores | 132 trechos e 58 pontos com coordenadas conferidas |
 | Forros e paredes laterais | Geometria presente; materiais translúcidos |
 | Situação construída, pressão, circuitos e interferências | Não verificados; dependem de levantamento e projeto executivo |
 
@@ -34,3 +34,9 @@ As redes 3D reaproveitam o estudo interpretativo existente baseado em ELE04/05, 
 O forro inferior tem uma placa fina de referência para leitura da face inferior da laje; não declara o material nem a espessura real instalada. O forro/fechamento superior e a cobertura usam a geometria existente da base, sem adaptação para ático.
 
 Novas imagens continuam adiadas. O arquivo está preparado para visualização no Blender e futura renderização. [Modelo e topologia](../../relatorios/infraestrutura/modelo.json) · [Validação](../../relatorios/infraestrutura/validacao.json).
+
+## Correção da água quente
+
+A rede quente foi revisada em 14/11/2026: cinco trechos idênticos extras foram eliminados; as quatro subidas sobrepostas deram lugar a uma coluna comum. Permanecem os cinco pontos de consumo: cozinha, dois lavatórios e dois chuveiros. O traçado usa distribuição compartilhada sob a laje, conforme leitura da HID04, e ramais dos banheiros/cozinha conforme HID05. Não foram acrescentados pontos quentes na lavanderia nem nos vasos.
+
+A altura de 5,15 m do distribuidor é de apresentação, não uma cota extraída da prancha. Posições do aquecedor e dos ramais embutidos ainda são aproximadas. [Auditoria e limites](../../relatorios/infraestrutura/validacao-agua-quente/RELATORIO.md). Reabra o Blender para carregar a correção.
