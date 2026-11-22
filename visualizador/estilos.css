@@ -228,7 +228,9 @@ progress { width: 100%; accent-color: var(--accent); }
 .floor-options, .wall-options { display: grid; gap: 4px; padding: 4px; background: #f0f2eb; border-radius: 10px; }
 .floor-options { grid-template-columns: 1.35fr .86fr 1fr; margin: 13px 0 12px; }
 .wall-options { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 8px; }
-.navigation-options { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0 0 14px; }
+.navigation-options { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0 0 6px; }
+.look-options { display: flex; gap: 5px; margin-bottom: 12px; }
+.look-options button { flex: 1; min-height: 38px; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; }
 .movement-pad {
   position: absolute;
   bottom: 60px;

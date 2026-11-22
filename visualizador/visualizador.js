@@ -37,8 +37,8 @@ const zoomIn = document.querySelector('#zoom-in');
 const zoomOut = document.querySelector('#zoom-out');
 const movementPad = document.querySelector('#movement-pad');
 const movementKeys = {
-  w: 'forward', arrowup: 'forward', s: 'backward', arrowdown: 'backward',
-  a: 'left', arrowleft: 'left', d: 'right', arrowright: 'right', q: 'down', e: 'up',
+  w: 'forward', s: 'backward', a: 'left', d: 'right', q: 'down', e: 'up',
+  arrowleft: 'lookLeft', arrowright: 'lookRight', arrowup: 'lookUp', arrowdown: 'lookDown',
 };
 
 const floorViews = {
@@ -117,7 +117,8 @@ async function start() {
   let aspect = 1;
   let sheetHalfHeight = 1;
   const controls = new OrbitControls(camera, canvas);
-  controls.listenToKeyEvents(canvas);
+  controls.zoomToCursor = true;
+  controls.zoomSpeed = 0.9;
   controls.enabled = false;
   controls.enableDamping = true;
   controls.dampingFactor = 0.12;
@@ -137,7 +138,7 @@ async function start() {
     requestAnimationFrame((now) => {
       framePending = false;
       updateMotion(now);
-      controls.update();
+      if (controls.enabled) controls.update();
       renderer.render(scene, camera);
       if (heldKeys.size || heldPointers.size) requestFrame();
     });
@@ -148,7 +149,7 @@ async function start() {
   const initialRoof = variant !== 'atico' && variant !== 'estrutural';
   let roofPreferred = initialRoof;
   let wallMode = 'glass';
-  let navigation = 'orbit';
+  let navigation = parameters.get('vista') === 'prancha' ? 'orbit' : 'free';
   let activePreset = null;
   let orientation = 'isometric';
   let modelReady = false;
@@ -360,6 +361,7 @@ async function start() {
       button.setAttribute('aria-pressed', String(button.dataset.presentation === presentation));
     }
     if (!modelReady) return;
+    if (presentation === 'prancha' && navigation !== 'orbit') setNavigation('orbit');
     updateView();
     frameActiveView();
     plan.draw();
@@ -428,16 +430,36 @@ async function start() {
   const heading = new THREE.Vector3();
   const right = new THREE.Vector3();
   const displacement = new THREE.Vector3();
+  const screenUp = new THREE.Vector3();
+  const attitude = new THREE.Euler(0, 0, 0, 'YXZ');
+  const mouseLook = document.querySelector('#mouse-look');
 
-  function travel(directions, distance) {
-    const axis = (positive, negative) => Number(directions.has(positive)) - Number(directions.has(negative));
+  function look(yaw, pitch) {
+    const distance = controls.getDistance();
+    attitude.setFromQuaternion(camera.quaternion);
+    attitude.y += yaw;
+    attitude.x = THREE.MathUtils.clamp(attitude.x + pitch, -Math.PI / 2 + 0.008, Math.PI / 2 - 0.008);
+    attitude.z = 0;
+    camera.quaternion.setFromEuler(attitude);
     camera.getWorldDirection(heading);
-    heading.y = 0;
+    controls.target.copy(camera.position).addScaledVector(heading, distance);
+    requestFrame();
+  }
+
+  function moveCamera(directions, fraction, lookStep) {
+    const axis = (positive, negative) => Number(directions.has(positive)) - Number(directions.has(negative));
+    const yaw = axis('lookLeft', 'lookRight');
+    const pitch = axis('lookUp', 'lookDown');
+    if (yaw || pitch) look(yaw * lookStep, pitch * lookStep);
+    camera.getWorldDirection(heading);
+    if (navigation === 'orbit') heading.y = 0;
     heading.normalize();
-    right.crossVectors(heading, camera.up);
+    right.crossVectors(heading, camera.up).normalize();
+    screenUp.set(0, 1, 0).applyQuaternion(camera.quaternion);
     displacement.copy(heading).multiplyScalar(axis('forward', 'backward'))
-      .addScaledVector(right, axis('right', 'left'));
-    displacement.y = axis('up', 'down');
+      .addScaledVector(right, axis('right', 'left'))
+      .addScaledVector(screenUp, axis('up', 'down'));
+    const distance = THREE.MathUtils.clamp(controls.getDistance() * 0.07, 0.08, 0.9) * fraction;
     displacement.clampLength(0, 1).multiplyScalar(distance);
     camera.position.add(displacement);
     controls.target.add(displacement);
@@ -450,7 +472,7 @@ async function start() {
     }
     const elapsed = Math.min(0.05, (now - (lastMotionAt ?? now)) / 1000);
     lastMotionAt = now;
-    travel(new Set([...heldKeys.values(), ...heldPointers.values()]), elapsed * 2.2);
+    moveCamera(new Set([...heldKeys.values(), ...heldPointers.values()]), elapsed * 12, elapsed * 1.45);
   }
 
   function stopMotion() {
@@ -460,7 +482,7 @@ async function start() {
   }
 
   function beginMotion(direction) {
-    travel(new Set([direction]), 0.16);
+    moveCamera(new Set([direction]), 1, 0.035);
     requestFrame();
   }
 
@@ -470,13 +492,11 @@ async function start() {
     if (camera.isOrthographicCamera !== usesAxonometry()) frameActiveView();
     else setCamera(camera.position.clone(), controls.target.clone());
     const free = mode === 'free';
-    const pan = mode === 'pan';
     controls.enabled = !free;
-    controls.mouseButtons.LEFT = pan ? THREE.MOUSE.PAN : THREE.MOUSE.ROTATE;
-    controls.touches.ONE = pan ? THREE.TOUCH.PAN : THREE.TOUCH.ROTATE;
+    if (!free && document.pointerLockElement === canvas) document.exitPointerLock();
+    mouseLook.hidden = !free || !canvas.requestPointerLock || !matchMedia('(any-pointer: fine)').matches;
     document.querySelector('#free-help').hidden = !free;
     document.querySelector('#orbit-help').hidden = mode !== 'orbit';
-    document.querySelector('#pan-help').hidden = !pan;
     movementPad.hidden = !free;
     zoomIn.hidden = zoomOut.hidden = free;
     for (const button of navigationButtons) {
@@ -488,8 +508,29 @@ async function start() {
   let clickStart = null;
   const sceneRay = new THREE.Raycaster();
   const pointerInScene = new THREE.Vector2();
+  function focusSurface(x, y) {
+    pointerInScene.set(x, y);
+    sceneRay.setFromCamera(pointerInScene, camera);
+    const surfaces = [];
+    scene.traverseVisible((node) => { if (node.isMesh) surfaces.push(node); });
+    const hit = sceneRay.intersectObjects(surfaces, false).find(({ point }) =>
+      !cutEnabled.checked || cutPlane.distanceToPoint(point) >= 0);
+    if (!hit) return;
+    if (camera.isOrthographicCamera) {
+      camera.zoom = Math.max(camera.zoom, 2);
+      camera.updateProjectionMatrix();
+    }
+    const offset = camera.position.clone().sub(controls.target).setLength(Math.min(3, controls.getDistance()));
+    setCamera(hit.point.clone().add(offset), hit.point);
+  }
+  canvas.addEventListener('dblclick', (event) => {
+    if (!modelReady || arrangement === 'dupla') return;
+    const rect = canvas.getBoundingClientRect();
+    focusSurface(2 * (event.clientX - rect.left) / rect.width - 1, 1 - 2 * (event.clientY - rect.top) / rect.height);
+  });
   canvas.addEventListener('pointerdown', (event) => {
-    if (event.isPrimary && event.button === 0 && arrangement === 'dupla' && navigation !== 'free') {
+    if (event.isPrimary && event.button === 0) canvas.focus({ preventScroll: true });
+    if (event.isPrimary && event.button === 0 && arrangement === 'dupla' && document.pointerLockElement !== canvas) {
       clickStart = [event.clientX, event.clientY];
     }
   });
@@ -505,7 +546,7 @@ async function start() {
     plan?.pickInScene(sceneRay);
   });
   canvas.addEventListener('pointerdown', (event) => {
-    if (navigation !== 'free' || dragPointer !== null || event.button !== 0) return;
+    if (navigation !== 'free' || dragPointer !== null || event.button !== 0 || document.pointerLockElement === canvas) return;
     dragPointer = { id: event.pointerId, x: event.clientX, y: event.clientY };
     canvas.setPointerCapture(event.pointerId);
   });
@@ -513,19 +554,24 @@ async function start() {
     if (dragPointer?.id === event.pointerId) dragPointer = null;
   });
   canvas.addEventListener('pointermove', (event) => {
+    if (document.pointerLockElement === canvas && navigation === 'free') {
+      look(-event.movementX * 0.0045, -event.movementY * 0.0045);
+      return;
+    }
     if (navigation !== 'free' || event.pointerId !== dragPointer?.id) return;
-    const aim = controls.target.clone().sub(camera.position);
-    const angles = new THREE.Spherical().setFromVector3(aim);
-    angles.theta += (event.clientX - dragPointer.x) * 0.005;
-    angles.phi -= (event.clientY - dragPointer.y) * 0.005;
+    look((dragPointer.x - event.clientX) * 0.0045, (dragPointer.y - event.clientY) * 0.0045);
     dragPointer.x = event.clientX;
     dragPointer.y = event.clientY;
-    angles.phi = THREE.MathUtils.clamp(angles.phi, 0.04, Math.PI - 0.04);
-    setCamera(camera.position, new THREE.Vector3().setFromSpherical(angles).add(camera.position));
+  });
+  mouseLook.addEventListener('click', async () => {
+    canvas.focus({ preventScroll: true });
+    try { await canvas.requestPointerLock(); }
+    catch { document.querySelector('#free-help').textContent = 'Arraste para olhar · WASD e Q/E para voar · Setas para mirar'; }
   });
   canvas.addEventListener('keydown', (event) => {
-    if (navigation !== 'free' || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (!modelReady || event.altKey || event.ctrlKey || event.metaKey) return;
     const key = event.key.toLowerCase();
+    if (key === 'f') { event.preventDefault(); if (!event.repeat) focusSurface(0, 0); return; }
     const direction = movementKeys[key];
     if (!direction) return;
     event.preventDefault();
@@ -573,7 +619,6 @@ async function start() {
     button.addEventListener('click', () => {
       activePreset = null;
       orientation = button.dataset.orientation;
-      if (navigation === 'free') setNavigation('orbit');
       updateView();
       frameActiveView();
     });
@@ -677,9 +722,13 @@ async function start() {
     zoomIn.addEventListener('click', () => zoom(0.83));
     zoomOut.addEventListener('click', () => zoom(1 / 0.83));
     for (const button of [overview, recenter, zoomIn, zoomOut, ...navigationButtons, ...orientationButtons]) button.disabled = false;
-    controls.enabled = true;
     modelReady = true;
+    for (const button of document.querySelectorAll('[data-turn]')) {
+      button.disabled = false;
+      button.addEventListener('click', () => moveCamera(new Set([button.dataset.turn]), 0, 0.16));
+    }
     selectView('full');
+    setNavigation(navigation);
     loading.hidden = true;
     setArrangement(arrangement);
   } catch (error) {
