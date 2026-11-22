@@ -1,9 +1,9 @@
 import * as THREE from 'three';
 
-const ink = 0x554b39;
+const ink = 0xf2d9b0;
 const palettes = {
-  telhado: [0xb29866, 0xe8d6a9],
-  default: [0xb5ad98, 0xf7eedb],
+  telhado: [0x54402d, 0x967545],
+  default: [0x383730, 0x757064],
 };
 
 export function createSheetStyle(root) {
@@ -11,7 +11,7 @@ export function createSheetStyle(root) {
   const materials = new Map();
   const edges = new Map();
   const pencil = new THREE.LineBasicMaterial({
-    color: ink, transparent: true, opacity: 0.38, depthWrite: false,
+    color: ink, transparent: true, opacity: 0.50, depthWrite: false,
   });
   const sitePencil = new THREE.LineBasicMaterial({
     color: ink, transparent: true, opacity: 0.19, depthWrite: false,
@@ -35,7 +35,7 @@ export function createSheetStyle(root) {
     const value = color.r * 0.2126 + color.g * 0.7152 + color.b * 0.0722;
     const tint = new THREE.Color(dark).lerp(new THREE.Color(light), Math.sqrt(value));
     const surface = {
-      color: source.transparent ? 0x91a18c : tint,
+      color: source.transparent ? 0x739c8e : tint,
       transparent: source.transparent,
       opacity: source.transparent ? Math.min(source.opacity, 0.32) : 1,
       depthWrite: !source.transparent,
@@ -46,7 +46,7 @@ export function createSheetStyle(root) {
       polygonOffsetUnits: 1,
     };
     const material = layer === 'contexto' && !source.transparent
-      ? new THREE.MeshBasicMaterial({ ...surface, color: 0xe9dfca, toneMapped: false })
+      ? new THREE.MeshBasicMaterial({ ...surface, color: 0x302b25, toneMapped: false })
       : new THREE.MeshLambertMaterial(surface);
     if (layer === 'telhado' && !source.transparent) {
       material.onBeforeCompile = (shader) => {

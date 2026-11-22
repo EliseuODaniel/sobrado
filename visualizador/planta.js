@@ -166,11 +166,12 @@ export function createPlan({ layers, scene, variant, requestFrame }) {
     transform = { originX, originY, scale };
     const x = (n) => originX + n * scale;
     const y = (n) => originY + n * scale;
-    const paper = document.body.dataset.presentation === 'prancha';
+    const theme = getComputedStyle(canvas);
+    const color = (token) => theme.getPropertyValue(token).trim();
     context.setTransform(ratio, 0, 0, ratio, 0, 0);
-    context.fillStyle = paper ? '#f0e8d5' : '#f8f8f1';
+    context.fillStyle = color('--well');
     context.fillRect(0, 0, width, height);
-    context.strokeStyle = paper ? '#e4dac5' : '#e7e8df';
+    context.strokeStyle = color('--plan-grid');
     context.lineWidth = 0.75;
     context.beginPath();
     const grid = (scale < 11 ? 2 : 1) * scale;
@@ -187,16 +188,16 @@ export function createPlan({ layers, scene, variant, requestFrame }) {
       }
       context.stroke();
     }
-    stroke(low, paper ? '#bbb098' : '#aab5a7', 0.7);
-    stroke(cut, paper ? '#564e3e' : '#3e524a', 1.15);
+    stroke(low, color('--plan-detail'), 0.7);
+    stroke(cut, color('--plan-cut'), 1.15);
     for (const item of furniture) {
       if (item.floor !== floor) continue;
       const { width: w, depth: d } = catalog[item.type];
       context.save();
       context.translate(x(item.x), y(item.z));
       context.rotate(item.angle);
-      context.fillStyle = selected === item ? '#9fc4de99' : '#a4ae9399';
-      context.strokeStyle = selected === item ? '#286087' : '#56674a';
+      context.fillStyle = selected === item ? '#83c7ef4d' : color('--selected');
+      context.strokeStyle = selected === item ? '#a6d9fc' : color('--accent');
       context.lineWidth = selected === item ? 2 : 1;
       context.fillRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
       context.strokeRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
@@ -207,13 +208,13 @@ export function createPlan({ layers, scene, variant, requestFrame }) {
       context.save();
       context.translate(x(cursor.x), y(cursor.z));
       if (mode === 'move') context.rotate(selected.angle);
-      context.strokeStyle = '#286087';
+      context.strokeStyle = '#a6d9fc';
       context.setLineDash([4, 3]);
       context.strokeRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
       context.restore();
     }
     const meters = scale > 86 ? 0.5 : scale < 18 ? 2 : 1;
-    context.fillStyle = '#534a3c';
+    context.fillStyle = color('--ink');
     context.fillRect(14, height - 17, meters * scale, 2);
     context.font = '11px monospace';
     context.fillText(`${formatMeters.format(meters)} m`, 14, height - 22);
