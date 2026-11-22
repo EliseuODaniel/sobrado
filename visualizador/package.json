@@ -1,0 +1,9 @@
+{
+  "name": "sobrado-visualizador",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.183.2"
+  }
+}

@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f0">
+  <link rel="icon" href="data:,">
+  <title>Sobrado · Visualizador 3D</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./node_modules/three/build/three.module.js",
+        "three/addons/": "./node_modules/three/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="visualizador.js"></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><span></span></div>
+      <div>
+        <h1>Sobrado</h1>
+        <p id="version">Visualizador 3D</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="presentation-options" role="group" aria-label="Estilo de visualização">
+        <button class="segment-button" data-presentation="model" type="button" aria-pressed="true">Modelo 3D</button>
+        <button class="segment-button" data-presentation="prancha" type="button" aria-pressed="false">Prancha</button>
+      </div>
+      <select id="model-version" aria-label="Maquete">
+        <option value="atual">Casa atual</option>
+        <option value="atico">Casa com ático</option>
+        <option value="estrutural">Estrutural</option>
+        <option value="industrial">Industrial</option>
+      </select>
+      <button id="overview" class="button button-overview" type="button" disabled>
+        <span aria-hidden="true">⌂</span> Vista geral
+      </button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <div class="work-area">
+      <div class="workspace-tools">
+        <div class="presentation-options" role="group" aria-label="Painéis visíveis">
+          <button class="segment-button" data-arrangement="3d" type="button" aria-pressed="true">3D</button>
+          <button class="segment-button" data-arrangement="planta" type="button" aria-pressed="false">Planta</button>
+          <button class="segment-button" data-arrangement="dupla" type="button" aria-pressed="false">Planta + 3D</button>
+        </div>
+        <form class="cut-controls" aria-label="Corte no 3D" hidden>
+          <label><input id="cut-enabled" type="checkbox"> Corte horizontal</label>
+          <input id="cut-height" type="range" min="0.2" max="9.5" step="0.05" value="3.8" aria-label="Altura do corte" disabled>
+          <output id="cut-value" for="cut-height"></output>
+        </form>
+      </div>
+      <div class="view-panes" data-arrangement="3d">
+        <section class="plan-pane" aria-label="Planta do pavimento" hidden>
+          <div class="plan-header">
+            <div>
+              <p>PLANTA DE CORTE</p>
+              <h2 id="plan-title">Térreo</h2>
+            </div>
+            <select id="plan-floor" aria-label="Pavimento da planta">
+              <option value="terreo">Térreo</option>
+              <option value="superior">Superior</option>
+              <option value="atico">Ático</option>
+            </select>
+            <div class="plan-zoom" role="group" aria-label="Zoom da planta">
+              <button type="button" data-plan-zoom="0.833" aria-label="Afastar planta">−</button>
+              <button type="button" data-plan-zoom="1.2" aria-label="Aproximar planta">+</button>
+              <button type="button" data-plan-zoom="1" aria-label="Recentrar planta">⌖</button>
+            </div>
+          </div>
+          <canvas id="plan-canvas" tabindex="0" aria-label="Planta do pavimento em escala" aria-describedby="furniture-status"></canvas>
+          <form class="furniture-tools" aria-label="Estudo de mobiliário">
+            <label>Inserir móvel
+              <select id="furniture-type">
+                <option value="sofa">Sofá · 2,10 × 0,90 m</option>
+                <option value="table">Mesa · 1,50 × 0,85 m</option>
+                <option value="bed">Cama · 1,58 × 1,98 m</option>
+              </select>
+            </label>
+            <button class="button" id="furniture-place" type="button" aria-pressed="false">Posicionar</button>
+            <button class="button" id="furniture-move" type="button" aria-pressed="false" disabled>Mover</button>
+            <button class="button" id="furniture-rotate" type="button" disabled>Girar 45°</button>
+            <button class="button" id="furniture-remove" type="button" disabled>Remover</button>
+            <p id="furniture-status" role="status">Os móveis de estudo ficam neste navegador.</p>
+          </form>
+        </section>
+        <section class="viewport" aria-label="Visualização da casa">
+      <div class="sheet-registration" aria-hidden="true"></div>
+      <canvas id="canvas" tabindex="0" aria-label="Modelo 3D interativo" aria-describedby="navigation-help"></canvas>
+
+      <div class="view-caption">
+        <p id="view-category">MODELO 3D</p>
+        <h2 id="view-title">Vista geral</h2>
+      </div>
+
+      <div class="camera-tools" role="group" aria-label="Controles de câmera">
+        <button id="zoom-in" class="icon-button" type="button" aria-label="Aproximar" title="Aproximar" disabled>+</button>
+        <button id="zoom-out" class="icon-button" type="button" aria-label="Afastar" title="Afastar" disabled>−</button>
+        <button id="recenter" class="icon-button recenter" type="button" aria-label="Recentrar câmera" title="Recentrar câmera" disabled><span aria-hidden="true"></span></button>
+      </div>
+      <div class="orientation-tools" role="group" aria-label="Orientação da câmera">
+        <button type="button" data-orientation="isometric" title="Vista em diagonal">Diagonal</button>
+        <button type="button" data-orientation="front" title="Vista da frente">Frente</button>
+        <button type="button" data-orientation="side" title="Vista lateral">Lado</button>
+        <button type="button" data-orientation="top" title="Vista de cima">Topo</button>
+      </div>
+      <div id="movement-pad" class="movement-pad" role="group" aria-label="Mover câmera" hidden>
+        <button type="button" data-move="down" aria-label="Descer">Descer</button>
+        <button type="button" data-move="forward" aria-label="Avançar">Frente</button>
+        <button type="button" data-move="up" aria-label="Subir">Subir</button>
+        <button type="button" data-move="left" aria-label="Mover à esquerda">Esq.</button>
+        <button type="button" data-move="backward" aria-label="Recuar">Atrás</button>
+        <button type="button" data-move="right" aria-label="Mover à direita">Dir.</button>
+      </div>
+
+      <div id="loading" class="loading" role="status">
+        <strong id="loading-title">Carregando o modelo</strong>
+        <progress id="loading-progress" max="100" aria-label="Carregamento do modelo"></progress>
+        <p id="loading-detail"></p>
+      </div>
+
+      <div class="sheet-legend">
+        <span id="sheet-projection">Axonometria</span>
+        <ul aria-label="Legenda da prancha">
+          <li>Edificação</li>
+          <li>Cobertura</li>
+          <li>Transparências</li>
+        </ul>
+      </div>
+
+      <div id="navigation-help" class="navigation-help">
+        <span id="orbit-help">
+          <span class="mouse-help"><strong>Girar</strong> Arraste · <strong>Zoom</strong> Role · <strong>Mover</strong> Arraste com o botão direito</span>
+          <span class="touch-help"><strong>Girar</strong> Arraste · <strong>Zoom</strong> Faça pinça · <strong>Mover</strong> Arraste com dois dedos</span>
+        </span>
+        <span id="pan-help" hidden><strong>Deslocar</strong> Arraste · <strong>Zoom</strong> Role ou faça pinça</span>
+        <span id="free-help" hidden><strong>Olhar</strong> Arraste · <strong>Mover</strong> WASD · <strong>Altura</strong> Q/E</span>
+      </div>
+      <p id="view-status" class="sr-only" aria-live="polite"></p>
+        </section>
+      </div>
+    </div>
+
+    <aside class="sidebar" aria-label="Pavimentos e câmeras">
+      <section class="panel floors" aria-labelledby="floor-heading">
+        <div class="wall-options navigation-options" role="group" aria-label="Modo de navegação">
+          <button class="segment-button" data-navigation="orbit" type="button" aria-pressed="true" disabled>Orbitar</button>
+          <button class="segment-button" data-navigation="pan" type="button" aria-pressed="false" disabled>Deslocar</button>
+          <button class="segment-button" data-navigation="free" type="button" aria-pressed="false" disabled>Explorar</button>
+        </div>
+        <h2 id="floor-heading">Pavimentos</h2>
+        <div class="floor-options" role="group" aria-label="Pavimentos visíveis">
+          <button class="segment-button" data-floor="full" type="button" aria-pressed="true" disabled>Casa inteira</button>
+          <button class="segment-button" data-floor="terreo" type="button" aria-pressed="false" disabled>Térreo</button>
+          <button class="segment-button" data-floor="superior" type="button" aria-pressed="false" disabled>Superior</button>
+          <button class="segment-button" data-floor="atico" type="button" aria-pressed="false" hidden>Ático</button>
+        </div>
+        <label class="roof-toggle">
+          <span>Mostrar telhado</span>
+          <input id="roof" type="checkbox" role="switch" checked disabled>
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+        <div id="wall-controls" class="wall-controls" hidden>
+          <h3 id="wall-heading">Paredes externas</h3>
+          <div class="wall-options" role="group" aria-labelledby="wall-heading">
+            <button class="segment-button" data-walls="solid" type="button" aria-pressed="true">Sólidas</button>
+            <button class="segment-button" data-walls="glass" type="button" aria-pressed="false">Vidro</button>
+            <button class="segment-button" data-walls="hidden" type="button" aria-pressed="false">Ocultas</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="network-controls" class="panel" aria-labelledby="network-heading" hidden>
+        <h2 id="network-heading">Instalações</h2>
+        <div class="network-options">
+          <label><input type="checkbox" data-network="electric" checked><span class="network-color" style="--network-color:#ee650f"></span>Elétrica</label>
+          <label><input type="checkbox" data-network="cold" checked><span class="network-color" style="--network-color:#3f77e7"></span>Água fria</label>
+          <label><input type="checkbox" data-network="hot" checked><span class="network-color" style="--network-color:#d92d35"></span>Água quente</label>
+          <label><input type="checkbox" data-network="overflow" checked><span class="network-color" style="--network-color:#1d9a98"></span>Extravasor</label>
+          <label><input type="checkbox" data-network="drain" checked><span class="network-color" style="--network-color:#bd3293"></span>Limpeza da caixa</label>
+        </div>
+      </section>
+
+      <section class="panel cameras" aria-labelledby="camera-heading">
+        <h2 id="camera-heading">Vistas prontas</h2>
+        <div id="presets" class="presets"></div>
+      </section>
+    </aside>
+  </main>
+</body>
+</html>

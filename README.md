@@ -13,6 +13,10 @@ Os três arquivos de pavimentos abrem na cena `VISUALIZACAO_<versao>_COMPARACAO`
 
 **Blender primeiro; novas imagens adiadas por solicitação do usuário.** Imagens já existentes foram preservadas. [Índice das imagens e versões](renders/galeria.html).
 
+## Visualizador 3D local
+
+O navegador reúne as maquetes **Atual**, **Com ático**, **Estrutural** e **Industrial**, com navegação livre, recortes por pavimento e controle das paredes externas. A maquete Estrutural inclui as redes elétricas e hidráulicas, a caixa-d’água e os forros. [Como abrir e atualizar o visualizador](visualizador/README.md).
+
 ## Infraestrutura
 
 [Blender de elétrica, hidráulica e forros](projeto/infraestrutura/instalacoes-pavimentos-forro.blend): sete cenas, com os pavimentos lado a lado, vistas por disciplina e detalhe da caixa. Abre na comparação geral. Caixa na posição original; casa sem construção do ático. Paredes e forros translúcidos permitem ler as redes. [Cenas, cores e limites](projeto/infraestrutura/LEIA-ME.md) · [Validação](relatorios/infraestrutura/validacao.json).
