@@ -95,5 +95,13 @@ export function createSheetStyle(root) {
         if (entry.outline) entry.outline.visible = enabled && opaque;
       }
     },
+    dispose() {
+      for (const variants of materials.values()) {
+        for (const mat of variants.values()) mat.dispose();
+      }
+      for (const geom of edges.values()) geom.dispose();
+      pencil.dispose();
+      sitePencil.dispose();
+    },
   };
 }

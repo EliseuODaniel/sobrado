@@ -51,6 +51,7 @@ PRESETS = (
     ("escada-acesso", "Escada", "Térreo", 1.5),
     ("lavabo", "Lavabo", "Térreo", 1.2),
     ("suite", "Suíte", "Superior", 2.3),
+    ("suite-reversa", "Suíte · cabeceira e ar", "Superior", 2.3),
     ("quarto-frente", "Quarto da frente", "Superior", 2.2),
     ("quarto-branco-armario", "Armários do quarto da frente", "Superior", 2.4),
     ("quarto-fundos", "Quarto dos fundos", "Superior", 2.2),
@@ -58,17 +59,27 @@ PRESETS = (
     ("banheiro-social", "Banheiro social", "Superior", 1.5),
 )
 VARIANTS = {
-    "atual": (SOURCE, SOURCE_SCENE, "Atual fiel às fotos v02 · mobiliário revisado", "FIEL2_", PRESETS),
+    "atual": (SOURCE, SOURCE_SCENE, "Atual fiel às fotos v02 · mobiliário revisado v03", "FIEL2_", PRESETS),
     "industrial": (
         ROOT / "projeto/industrial/casa-industrial-fotorrealista.blend",
         "PHOTO6_volumetria", "Industrial v06", "PHOTO6_",
         (
             ("fachada-frontal", "Fachada", "Exterior", 15),
-            ("sala-frente", "Sala", "Térreo", 3),
+            ("sala-integrada-dia", "Sala integrada", "Térreo", 3.4),
+            ("sala-frente", "Sala de estar", "Térreo", 3.0),
+            ("sala-tv", "Parede da TV", "Térreo", 2.4),
+            ("mesa-jantar", "Mesa de jantar", "Térreo", 2.4),
             ("cozinha", "Cozinha", "Térreo", 2.5),
-            ("bar", "Bar", "Térreo", 2.5),
-            ("suite", "Suíte", "Superior", 2),
-            ("quarto-fundos", "Quarto dos fundos", "Superior", 2),
+            ("cozinha-reversa", "Cozinha · reversa", "Térreo", 2.4),
+            ("bar", "Bar e churrasqueira", "Térreo", 2.5),
+            ("divisao-lazer-lavanderia", "Lazer e lavanderia", "Térreo", 2.6),
+            ("lavanderia", "Lavanderia", "Térreo", 2.2),
+            ("lavabo", "Lavabo", "Térreo", 1.2),
+            ("escada-acesso", "Escada", "Térreo", 1.8),
+            ("suite", "Suíte", "Superior", 2.0),
+            ("quarto-frente", "Quarto da frente", "Superior", 2.0),
+            ("quarto-fundos", "Quarto dos fundos", "Superior", 2.0),
+            ("escritorio-alternativa", "Escritório (alternativa)", "Superior", 2.0),
         ),
     ),
     "estrutural": (
@@ -79,9 +90,44 @@ VARIANTS = {
         ROOT / "projeto/atico/atico-caixa-canto-escada.blend",
         "ATC5_atico-cobertura", "Ático · Caixa no canto junto à escada", "ATC5_",
         (
-            ("atico-interior-frente", "Interior do ático", "Ático", 2.3),
-            ("atico-reservatorio", "Caixa-d’água", "Ático", 2),
+            ("atico-interior-frente", "Interior do ático · frente", "Ático", 2.4),
+            ("atico-interior-fundos", "Interior do ático · fundos", "Ático", 2.4),
+            ("atico-reservatorio", "Caixa-d’água", "Ático", 2.2),
+            ("escada-u-chegada-existente", "Chegada da escada", "Superior", 2.4),
+            ("escada-u-conjunto", "Escada em U · conjunto", "Ático", 5.0),
+            ("atico-frente", "Fachada com ático", "Exterior", 10.0),
+            ("atico-fundos", "Fundos e mansarda", "Exterior", 10.0),
         ),
+    ),
+}
+OFFICE_COLLECTIONS = {"IND07_Escritorio_Alternativo", "PHOTO6_Acabamento_Escritorio"}
+OFFICE_REPLACED_COLLECTIONS = {"ATUAL_AMB_quarto_azul"}
+STATIC_PRESETS = {
+    "estrutural": (
+        {
+            "id": "caixa-entrada-saidas", "label": "Caixa-d’água · entrada e saídas", "section": "Reservatório",
+            "position": (3.15, 1.05, 7.15), "target": (5.35, 3.175, 5.85), "fov": 0.72, "aspect": 1.5,
+        },
+        {
+            "id": "coluna-agua-quente", "label": "Coluna de água quente", "section": "Hidráulica",
+            "position": (3.95, 2.35, 4.85), "target": (1.65, 5.25, 3.65), "fov": 0.72, "aspect": 1.5,
+        },
+        {
+            "id": "hidraulica-banheiros", "label": "Hidráulica · banheiros superiores", "section": "Hidráulica",
+            "position": (3.65, 2.85, 5.15), "target": (1.55, 5.05, 3.70), "fov": 0.72, "aspect": 1.5,
+        },
+        {
+            "id": "hidraulica-cozinha", "label": "Hidráulica · cozinha e lavanderia", "section": "Hidráulica",
+            "position": (2.25, 4.95, 2.45), "target": (4.95, 7.85, 1.15), "fov": 0.75, "aspect": 1.5,
+        },
+        {
+            "id": "eletrica-terreo", "label": "Elétrica · térreo", "section": "Elétrica",
+            "position": (0.75, 0.75, 2.45), "target": (3.35, 4.65, 1.30), "fov": 0.78, "aspect": 1.5,
+        },
+        {
+            "id": "eletrica-superior", "label": "Elétrica · pavimento superior", "section": "Elétrica",
+            "position": (0.85, 0.35, 5.15), "target": (3.35, 4.10, 3.85), "fov": 0.78, "aspect": 1.5,
+        },
     ),
 }
 
@@ -91,7 +137,7 @@ def gltf_vector(vector):
     return [x, z, -y]
 
 
-def camera_presets(prefix, definitions):
+def camera_presets(prefix, definitions, variant=None):
     presets = []
     for name, label, section, distance in definitions:
         bpy.context.window.scene = bpy.data.scenes[f"{prefix}{name}"]
@@ -101,21 +147,45 @@ def camera_presets(prefix, definitions):
         position = camera.matrix_world.translation
         forward = camera.matrix_world.to_quaternion() @ Vector((0, 0, -1))
         target = position + forward * distance
+        if prefix == "FIEL2_" and name == "lavanderia":
+            position = Vector((4.85, 9.68, 1.52))
+            target = Vector((4.85, 7.30, 1.24))
         if prefix == "FIEL2_" and name == "suite":
             position = Vector((2.86, -0.20, 4.20))
-            target = Vector((1.70, 1.48, 3.86))
+            target = Vector((1.65, 1.70, 3.88))
+        if prefix == "FIEL2_" and name == "suite-reversa":
+            position = Vector((0.88, 2.75, 4.18))
+            target = Vector((2.78, 0.55, 3.92))
         if prefix == "FIEL2_" and name == "quarto-branco-armario":
             target = Vector((4.82, 1.72, 3.92))
+        if prefix == "FIEL2_" and name == "quarto-frente":
+            # Posição ajustada para circulação livre após a revisão do roupeiro e estante.
+            position = Vector((3.76, 1.48, 4.18))
+            target = Vector((5.55, -.35, 3.88))
+        if prefix == "PHOTO6_" and name == "suite":
+            position = Vector((2.86, -0.20, 4.20))
+            target = Vector((1.65, 1.70, 3.88))
         render = scene.render
         aspect = render.resolution_x * render.pixel_aspect_x / (
             render.resolution_y * render.pixel_aspect_y
         )
         # As câmeras da entrega usam o sensor horizontal em imagens horizontais.
         vertical_fov = 2 * atan(tan(camera.data.angle_x / 2) / aspect)
-        presets.append({
+        entry = {
             "id": name, "label": label, "section": section,
             "position": gltf_vector(position), "target": gltf_vector(target),
             "fov": vertical_fov, "aspect": aspect,
+        }
+        if prefix == "PHOTO6_" and name == "escritorio-alternativa":
+            entry["roomVariant"] = "escritorio"
+        elif prefix == "PHOTO6_" and name == "quarto-fundos":
+            entry["roomVariant"] = "quarto"
+        presets.append(entry)
+    for item in STATIC_PRESETS.get(variant, ()):
+        presets.append({
+            "id": item["id"], "label": item["label"], "section": item["section"],
+            "position": gltf_vector(item["position"]), "target": gltf_vector(item["target"]),
+            "fov": item["fov"], "aspect": item["aspect"],
         })
     return presets
 
@@ -214,6 +284,8 @@ def evaluated_geometry(scene, depsgraph, include_instances):
         owner = instance.parent.original
         evaluated = instance.object
         if owner in memberships and not owner.hide_render and evaluated.type in GEOMETRY and not evaluated.hide_render:
+            if any(name.startswith(NETWORK_PREFIX) for name in memberships[owner]):
+                continue
             yield evaluated.original, evaluated, instance.matrix_world.copy(), memberships[owner], None
 
 
@@ -236,15 +308,20 @@ def suite_layout():
     return (
         (("ATUAL Roupeiro suite", "FIEL2 Roupeiro trilho"),
          rotate_between((1.615, 2.89, 0), (0.45, wardrobe_center, 0), pi / 2, (wardrobe_scale, 1, 1))),
-        (("ATUAL Cama suite", "ATUAL Apoio lateral cabeceira", "ATUAL Mesa cabeceira",
+        (("ATUAL Cama suite", "ATUAL Cabeceira suite", "ATUAL Apoio lateral cabeceira",
+          "ATUAL Mesa cabeceira", "ATUAL Travesseiro suite",
           "FIEL2 Suite cabeceira modulo", "FIEL2 Suite colcha drapeada", "FIEL2 Suite travesseiro"),
          rotate_between((1.30, .95, 0), (2.17, .95, 0), pi)),
-        (("ATUAL Painel TV suite", "ATUAL TV suite", "ATUAL Movel lareira suite", "ATUAL Nicho lareira"),
-         rotate_between((3.265, .65, 0), (2.26, 3.15, 0), pi / 2)),
+        # quartosuite2/3: painel de madeira vai do piso ao teto rente à porta do banheiro.
+        (("ATUAL Painel TV suite",),
+         rotate_between((3.265, .65, 4.10), (2.04, 3.15, 3.97), pi / 2, (1, 1, 2.52))),
+        (("ATUAL TV suite", "ATUAL Movel lareira suite", "ATUAL Nicho lareira"),
+         rotate_between((3.265, .65, 0), (2.04, 3.15, 0), pi / 2)),
+        # quartosuite1/3: split instalado próximo à cortina da sacada (lado da janela).
         (("FIEL2 Suite ar condicionado",),
-         rotate_between((.29, 2.35, 0), (3.17, 1.22, 0), pi)),
+         rotate_between((.29, 2.35, 0), (3.17, .16, 0), pi)),
         (("FIEL2 Suite aletas split",),
-         rotate_between((.29, 2.35, 0), (2.90, 1.22, 0), pi)),
+         rotate_between((.29, 2.35, 0), (2.90, .16, 0), pi)),
         # O painel acompanha a cabeceira e termina antes da porta da suíte.
         (("FIEL2 Suite fundo cabeceira", "FIEL2 Suite friso vertical"),
          rotate_between((.165, 1.36, 0), (3.28, .95, 0), pi, (1, .74, 1))),
@@ -252,19 +329,122 @@ def suite_layout():
 
 
 def front_bedroom_layout():
-    # quartobranco1/2: roupeiro ao lado da entrada e TV/estante diante da cama.
+    # quartobranco1/2: roupeiro ao lado da entrada, aéreo contíguo ao roupeiro e TV/estante junto à porta.
     wardrobe = rotate_between((3.79, .55, 0), (5.26, 1.68, 0), -pi / 2, (1, 1.85 / 1.60, 1))
     return (
         (("ATUAL Roupeiro quarto branco",), wardrobe),
         (("FIEL2 Roupeiro branco porta", "FIEL2 Roupeiro branco puxador"),
          wardrobe @ Matrix.Translation((0, .26, 0))),
         (("FIEL2 Quarto branco TV", "FIEL2 Quarto branco estante"),
-         rotate_between((4.45, 1.99, 0), (3.48, .55, 0), pi / 2)),
+         rotate_between((4.45, 1.99, 0), (3.48, 1.25, 0), pi / 2)),
+        (("ATUAL Armario suspenso", "FIEL2 Aereo branco"),
+         rotate_between((5.94, .25, 0), (5.94, .205, 0), 0, (1, 2.33 / 1.90, 1))),
         (("ATUAL Estrado cama.001", "ATUAL Colchão cama.001", "ATUAL Pé cama.004",
           "ATUAL Pé cama.005", "ATUAL Pé cama.006", "ATUAL Pé cama.007",
           "FIEL2 Cama branca", "FIEL2 Quarto branco colcha", "FIEL2 Quarto branco travesseiro",
-          "ATUAL Armario suspenso", "FIEL2 Aereo branco", "FIEL2 Quarto branco papel coracoes"),
+          "FIEL2 Quarto branco papel coracoes"),
          Matrix.Translation((0, -.26, 0))),
+    )
+
+
+def kitchen_layout():
+    # cozinha1/2 e sala1: geladeira encostada na parede leste com portas voltadas para o interior (-X).
+    # sala1/2/6/7: ripado recuado para o fundo cobrindo a parede entre a cozinha e a sala (T-retorno-cozinha: Y = 5.625..7.125).
+    fridge = rotate_between((5.90, 4.73, 0), (5.93, 4.66, 0), pi / 2)
+    ripado = rotate_between((3.29, 4.92, 0), (3.275, 6.375, 0), 0, (1, 1.52 / 1.068, 1))
+    return (
+        (("=ATUAL Corpo geladeira.001", "=ATUAL Porta geladeira.002", "=ATUAL Porta geladeira.003",
+          "=ATUAL Puxador geladeira.002", "=ATUAL Puxador geladeira.003"), fridge),
+        (("ATUAL Ripado cozinha",), ripado),
+    )
+
+
+def bathrooms_layout():
+    # suite1: chuveiro do banheiro da suíte na parede direita do box (X = 1.65), oposta à bancada.
+    return (
+        (("=ATUAL R07 Chuveiro",), rotate_between((.90, 6.10, 0), (.90, 6.10, 0), pi)),
+    )
+
+
+def living_room_tv_layout():
+    # sala2/3/4: painel da TV, parede de acabamento e rack ficam contidos no trecho
+    # da parede T-retorno-garagem (Y = 0.72..2.075), sem avançar sobre a porta de entrada diagonal (P3-entrada).
+    panel = rotate_between((3.22, 1.50, 0), (3.22, 1.40, 0), 0, (1, 1.31 / 2.70, 1))
+    rack = rotate_between((3.245, 1.51, 0), (3.245, 1.40, 0), 0, (.82, 1.26 / 2.23, 1))
+    tv = rotate_between((3.13, 1.51, 0), (3.13, 1.40, 0), 0, (1, .88, 1))
+    return (
+        (("FIEL2 Parede acabamento TV", "FIEL2 Painel TV branco arredondado",
+          "FIEL2 Friso LED TV", "FIEL2 Spot aro", "FIEL2 Spot difusor"), panel),
+        (("FIEL2 Rack",), rack),
+        (("FIEL2 TV",), tv),
+    )
+
+
+def match_layout_name(name, patterns):
+    for pattern in patterns:
+        if pattern.startswith("="):
+            if name == pattern[1:]:
+                return True
+        elif name.startswith(pattern):
+            return True
+    return False
+
+
+LAUNDRY_REMOVED_OBJECTS = (
+    "ATUAL Caixilho janela lavanderia",
+    "ATUAL Vidro janela lavanderia",
+    "ATUAL Janela lateral esquerda",
+    "ATUAL Janela lateral direita",
+    "ATUAL Fundo lavanderia verga",
+)
+
+INDUSTRIAL_REMOVED_OBJECTS = (
+    "ATUAL Colchão cama.002",
+    "ATUAL Colchão cama.003",
+    "ATUAL Degrau escada beliche",
+    "ATUAL Estrado cama.002",
+    "ATUAL Estrado cama.003",
+    "ATUAL Pilar beliche",
+    "ATUAL Pé cama.008",
+    "ATUAL Pé cama.009",
+    "ATUAL Pé cama.010",
+    "ATUAL Pé cama.011",
+    "ATUAL Travesseiro.002",
+    "ATUAL Travesseiro.003",
+)
+
+
+def laundry_layout():
+    # lavanderia1 + cozinha2: a parede dos fundos (Y = 10.25) é cega (sem janela para fora).
+    # A janela acima do tanque é J4-cozinha (Y = 7.20), com retorno em L na parede leste (X = 6.25)
+    # e porta de correr do bar deslocada para Y = 8.45..9.25 ao lado da geladeira do bar.
+    flip = rotate_between((4.85, 8.725, 0), (4.85, 8.725, 0), pi)
+    back = flip @ Matrix.Translation((.31, -.105, 0))
+    return (
+        # Fecha o vão da janela falsa nos fundos elevando o peitoril até Z = 2.80 m.
+        (("=ATUAL Fundo lavanderia peitoril",),
+         rotate_between((4.80, 10.325, 0), (4.80, 10.325, 0), 0, (1, 1, 2.80 / 1.05))),
+        # Desloca a porta de correr bar/lavanderia para Y = 8.45..9.25, liberando a parede da lavadora.
+        (("=ATUAL Divisao frente",),
+         rotate_between((3.375, 7.20, 0), (3.375, 7.20, 0), 0, (1, 1.25 / .45, 1))),
+        (("=ATUAL Divisao fundo",),
+         rotate_between((3.375, 10.40, 0), (3.375, 10.40, 0), 0, (1, 1.15 / 1.95, 1))),
+        (("=ATUAL Divisao verga", "ATUAL Caixilho divisao", "=ATUAL Vidro divisao", "FIEL2 Porta divisao"),
+         Matrix.Translation((0, .80, 0))),
+        # Conjunto da lavanderia rotacionado 180° para a parede da cozinha (Y = 7.20).
+        (("ATUAL Bancada lavanderia fundo", "ATUAL Gabinete lavanderia",
+          "ATUAL Puxador gabinete lavanderia", "FIEL2 Tanque profundo"), back),
+        (("FIEL2 Tanque torneira", "FIEL2 Tanque bica"), flip @ Matrix.Translation((.31, 0, 0))),
+        (("FIEL2 Lavadora superior",), flip @ Matrix.Translation((0, -.11, 0))),
+        (("FIEL2 Lavadora",), back),
+        (("ATUAL Bancada lavanderia lateral esquerda",),
+         flip @ rotate_between((3.77, 10.005, 0), (3.77, 9.08, 0), 0, (1, 1.16 / .63, 1))),
+        (("ATUAL Armário aéreo lavanderia.001",), flip @ Matrix.Translation((.08, -.11, 0))),
+        (("ATUAL Armário aéreo lavanderia",),
+         flip @ rotate_between((3.75, 10.195, 0), (3.65, 9.33, 0), pi / 2, (2.65, 1, 1))),
+        (("FIEL2 Canto bancada lavanderia", "FIEL2 Gabinete retorno lavanderia"), flip),
+        (("FIEL2 Vaso lavanderia", "FIEL2 Planta lavanderia"),
+         flip @ rotate_between((4.60, 10.19, 0), (4.92, 10.19, 0), 0, (.68, 1, 1))),
     )
 
 
@@ -280,6 +460,22 @@ def add_observed_furniture(source):
     def box(name, position, size, material, bevel):
         return primitives.box(name, position, size, bpy.data.materials[f"FIEL2 {material}"], collection.name, bevel)
 
+    # O retorno termina junto ao tampo posterior (rotacionado 180° em laundry_layout).
+    granite = bpy.data.objects["ATUAL Bancada lavanderia lateral esquerda"].active_material
+    primitives.box("FIEL2 Canto bancada lavanderia", (3.645, 9.955, .90),
+                   (.34, .59, .04), granite, collection.name, .003)
+    for y in (8.79, 9.37):
+        box("FIEL2 Gabinete retorno lavanderia", (3.75, y, .44), (.54, .575, .88), "Branco laqueado", .006)
+
+    # sala1/2/6/7: fechamento e retornos do ripado cobrindo a parede T-retorno-cozinha (X=3.30..3.45, Y=5.625..7.125).
+    slat_source = bpy.data.objects.get("ATUAL Ripado cozinha")
+    slat_mat = slat_source.active_material if slat_source else bpy.data.materials["FIEL2 Branco laqueado"]
+    for i in range(3):
+        x = 3.29 + i * 0.068
+        primitives.box(f"FIEL2 Ripado retorno frente {i}", (x, 5.605, 1.28), (.028, .054, 2.55), slat_mat, collection.name, .002)
+        primitives.box(f"FIEL2 Ripado retorno fundo {i}", (x, 7.145, 1.28), (.028, .054, 2.55), slat_mat, collection.name, .002)
+    primitives.box("FIEL2 Ripado nucleo", (3.292, 6.375, 1.28), (.022, 1.53, 2.55), slat_mat, collection.name, .002)
+
     # quartoazul2: módulo estreito entre a bancada e a janela, à frente do beliche.
     box("FIEL2 Armário estreito quarto azul", (3.705, 6.792, 3.95), (.47, .49, 2.46), "Branco laqueado", .01)
     for y in (6.668, 6.916):
@@ -287,13 +483,192 @@ def add_observed_furniture(source):
     for y in (6.762, 6.822):
         box("FIEL2 Puxador armário quarto azul", (3.969, y, 3.87), (.023, .012, .24), "Inox", .004)
 
-    # sala5: banco estofado encostado à parede lateral, depois da mesa.
-    box("FIEL2 Base banco estofado jantar", (.41, 6.12, .19), (.47, 1.18, .30), "Cabeceira bege", .035)
-    for y in (5.728, 6.12, 6.512):
+    # sala1/5: banco estofado no trecho posterior ao pilar (Y > 5.70), antes das banquetas.
+    box("FIEL2 Base banco estofado jantar", (.41, 6.92, .19), (.47, 1.18, .30), "Cabeceira bege", .035)
+    for y in (6.528, 6.92, 7.312):
         box("FIEL2 Assento banco estofado jantar", (.41, y, .377), (.47, .388, .11), "Cabeceira bege", .033)
 
+    # quartosuite2/3: prateleira branca sobre a TV da suíte.
+    box("FIEL2 Prateleira TV suite", (2.04, 3.05, 4.54), (.76, .15, .028), "Branco laqueado", .004)
 
-def convert_geometry(source, export_scene, groups, layout=(), include_instances=False):
+    # quartobranco1: duas prateleiras brancas junto à parede divisória perto da janela.
+    for z in (4.00, 4.32):
+        box("FIEL2 Prateleira quarto branco", (3.57, .28, z), (.22, .56, .025), "Branco laqueado", .003)
+
+    # banheiro2: gabinete em madeira clara, distinto da madeira escura da suíte.
+    social_vanity = bpy.data.objects.get("ATUAL R07 Gabinete banho.002")
+    if social_vanity:
+        light_wood = bpy.data.materials.new("FIEL2 Madeira clara banho social")
+        light_wood.use_nodes = True
+        bsdf = light_wood.node_tree.nodes.get("Principled BSDF")
+        if bsdf:
+            bsdf.inputs["Base Color"].default_value = (0.76, 0.70, 0.61, 1.0)
+            bsdf.inputs["Roughness"].default_value = 0.42
+        social_vanity.data = social_vanity.data.copy()
+        social_vanity.data.materials.clear()
+        social_vanity.data.materials.append(light_wood)
+
+    # sala1/5/6/7: mesa de jantar com 8 cadeiras (3 por lateral + 2 nas cabeceiras).
+    bpy.context.view_layer.update()
+    graph = bpy.context.evaluated_depsgraph_get()
+    side_chair_objs = [
+        obj for obj in list(source.objects)
+        if obj.type in {"MESH", "CURVE"} and not obj.hide_render and obj.name.startswith("FIEL2 Cadeira jantar ")
+    ]
+    chair_collection = bpy.data.collections.get("FIEL2_Mobiliario_Terreo") or collection
+    for obj in side_chair_objs:
+        ev = obj.evaluated_get(graph)
+        mesh = ev.to_mesh()
+        if not mesh.vertices:
+            ev.to_mesh_clear()
+            continue
+        ys = [(ev.matrix_world @ v.co).y for v in mesh.vertices]
+        center_y = (min(ys) + max(ys)) / 2
+        ev.to_mesh_clear()
+        if center_y < 4.50:
+            dup = obj.copy()
+            dup.data = obj.data.copy()
+            dup.name = f"{obj.name} meio"
+            dup.matrix_world = Matrix.Translation((0, .46, 0)) @ obj.matrix_world
+            chair_collection.objects.link(dup)
+            obj.matrix_world = Matrix.Translation((0, -.17, 0)) @ obj.matrix_world
+        else:
+            obj.matrix_world = Matrix.Translation((0, .17, 0)) @ obj.matrix_world
+
+
+def repair_official_openings():
+    # Restaura as posições oficiais das esquadrias (porta do lavabo P1-lavabo, porta de entrada P3-entrada,
+    # janela da sala J3-sala e demais vãos) a partir da planta original R07, evitando que fiquem na origem (0,0,0) sobre a parede da sala.
+    official_path = ROOT / "relatorios/atual/esquadrias-originais.json"
+    if official_path.is_file():
+        official = json.loads(official_path.read_text(encoding="utf-8"))
+        for row in official:
+            obj = bpy.data.objects.get("ATUAL BASE " + row["name"])
+            if obj is not None:
+                obj.parent = None
+                obj.matrix_world = Matrix(row["matrix_world"])
+    # Posiciona as folhas de porta fechadas dentro dos respectivos batentes (como na Casa atual).
+    for hinge in list(bpy.data.objects):
+        if not hinge.name.startswith("ATUAL BASE R07 Folha "):
+            continue
+        door_id = hinge.name.removeprefix("ATUAL BASE R07 Folha ")
+        hw = hinge.matrix_world.copy()
+        delta = (hw @ Matrix.Rotation(-170 * pi / 180, 4, "Z")) @ hw.inverted_safe()
+        for part in ("Porta ", "Maçaneta "):
+            obj = bpy.data.objects.get("ATUAL BASE R07 " + part + door_id)
+            if obj is not None:
+                obj.parent = None
+                obj.matrix_world = delta @ obj.matrix_world
+    # Restaura o vínculo pai-filho das louças/gabinetes superiores quando presentes.
+    for suffix in (".001", ".002"):
+        for root_name, children in (
+            ("Vaso sanitario", ("Louca base", "Louca assento", "Louca abertura")),
+            ("Lavatorio", ("Gabinete banho", "Bancada banho", "Cuba banho", "Espelho banho")),
+        ):
+            parent = bpy.data.objects.get("ATUAL R07 " + root_name + suffix)
+            if parent is None:
+                continue
+            for child in children:
+                obj = bpy.data.objects.get("ATUAL R07 " + child + suffix)
+                if obj is not None:
+                    local = obj.matrix_basis.copy()
+                    obj.parent = parent
+                    obj.matrix_parent_inverse = Matrix.Identity(4)
+                    obj.matrix_basis = local
+
+
+def prepare_industrial(source):
+    repair_official_openings()
+    for name in OFFICE_COLLECTIONS:
+        col = bpy.data.collections.get(name)
+        if col and col.name not in source.collection.children:
+            source.collection.children.link(col)
+
+
+def add_attic_tank_enclosure(source):
+    """Cria parede em L de fechamento do compartimento da caixa-d'água até o forro inclinado."""
+    import bmesh
+
+    repair_official_openings()
+    bpy.context.window.scene = source
+    collection = bpy.data.collections.new("ATC5_Fechamento_Caixa_Web")
+    source.collection.children.link(collection)
+
+    wall_mat = bpy.data.materials.new("ATC5 Drywall caixa")
+    wall_mat.use_nodes = True
+    bsdf = wall_mat.node_tree.nodes.get("Principled BSDF")
+    if bsdf:
+        bsdf.inputs["Base Color"].default_value = (0.87, 0.86, 0.83, 1.0)
+        bsdf.inputs["Roughness"].default_value = 0.72
+
+    door_mat = bpy.data.materials.new("ATC5 Porta manutencao caixa")
+    door_mat.use_nodes = True
+    dbsdf = door_mat.node_tree.nodes.get("Principled BSDF")
+    if dbsdf:
+        dbsdf.inputs["Base Color"].default_value = (0.76, 0.73, 0.68, 1.0)
+        dbsdf.inputs["Roughness"].default_value = 0.55
+
+    handle_mat = bpy.data.materials.new("ATC5 Puxador porta caixa")
+    handle_mat.use_nodes = True
+    hbsdf = handle_mat.node_tree.nodes.get("Principled BSDF")
+    if hbsdf:
+        hbsdf.inputs["Base Color"].default_value = (0.28, 0.30, 0.32, 1.0)
+        hbsdf.inputs["Metallic"].default_value = 0.7
+        hbsdf.inputs["Roughness"].default_value = 0.35
+
+    def roof_z(y):
+        # Rampa exata de ATC3 Forro acabado 08 com folga de 3 cm abaixo da face interna.
+        return max(5.43, 9.14 - 0.9191 * (y - 3.0))
+
+    def add_sloped_prism(name, x0, x1, y0, y1, z_bottom, z_top_y0, z_top_y1, mat):
+        mesh = bpy.data.meshes.new(name)
+        bm = bmesh.new()
+        v = [
+            bm.verts.new((x0, y0, z_bottom)),
+            bm.verts.new((x1, y0, z_bottom)),
+            bm.verts.new((x1, y1, z_bottom)),
+            bm.verts.new((x0, y1, z_bottom)),
+            bm.verts.new((x0, y0, z_top_y0)),
+            bm.verts.new((x1, y0, z_top_y0)),
+            bm.verts.new((x1, y1, z_top_y1)),
+            bm.verts.new((x0, y1, z_top_y1)),
+        ]
+        for face in (
+            (0, 3, 2, 1), (4, 5, 6, 7),
+            (0, 1, 5, 4), (2, 3, 7, 6),
+            (0, 4, 7, 3), (1, 2, 6, 5),
+        ):
+            bm.faces.new([v[i] for i in face])
+        bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+        bm.to_mesh(mesh)
+        bm.free()
+        mesh.materials.append(mat)
+        obj = bpy.data.objects.new(name, mesh)
+        collection.objects.link(obj)
+        return obj
+
+    # Parede sul (entre a escada Y=4.15 e a caixa Y=4.34), indo de X=4.15 até o oitão leste X=6.235.
+    add_sloped_prism(
+        "ATC5 Parede sul caixa dagua",
+        4.15, 6.235, 4.18, 4.28, 5.40, roof_z(4.18), roof_z(4.28), wall_mat,
+    )
+    # Parede oeste (fora da janela X<=4.00 e à esquerda da caixa X>=4.34), acompanhando o caimento até os fundos.
+    add_sloped_prism(
+        "ATC5 Parede oeste caixa dagua",
+        4.15, 4.25, 4.28, 7.05, 5.40, roof_z(4.28), roof_z(7.05), wall_mat,
+    )
+    # Porta de acesso/manutenção na face oeste do compartimento (0,70 x 1,72 m) + puxador.
+    add_sloped_prism(
+        "ATC5 Porta manutencao caixa",
+        4.132, 4.152, 4.52, 5.22, 5.42, 7.14, 7.14, door_mat,
+    )
+    add_sloped_prism(
+        "ATC5 Puxador porta caixa",
+        4.105, 4.132, 5.10, 5.13, 6.22, 6.40, 6.40, handle_mat,
+    )
+
+
+def convert_geometry(source, export_scene, groups, layout=(), include_instances=False, skip_prefixes=()):
     bpy.context.window.scene = source
     bpy.context.view_layer.update()
     depsgraph = bpy.context.evaluated_depsgraph_get()
@@ -301,11 +676,13 @@ def convert_geometry(source, export_scene, groups, layout=(), include_instances=
     counts = dict.fromkeys(LAYERS, 0)
     wall_groups = {}
     network_groups = {}
+    variant_groups = {}
+    network_summary = {"total": 0, "proposed": 0, "documental": 0, "systems": defaultdict(int)}
     for obj, evaluated, world, collections, network in evaluated_geometry(source, depsgraph, include_instances):
-        if obj.name == "R07 Plano cenario":
+        if obj.name == "R07 Plano cenario" or (skip_prefixes and obj.name.startswith(skip_prefixes)):
             continue
-        for prefixes, transform in layout:
-            if obj.name.startswith(prefixes):
+        for patterns, transform in layout:
+            if match_layout_name(obj.name, patterns):
                 world = transform @ world
                 break
         mesh = bpy.data.meshes.new_from_object(evaluated, preserve_all_data_layers=True, depsgraph=depsgraph)
@@ -313,9 +690,17 @@ def convert_geometry(source, export_scene, groups, layout=(), include_instances=
             bpy.data.meshes.remove(mesh)
             continue
         min_z = min((world @ Vector(corner)).z for corner in evaluated.bound_box)
-        layer = "instalacoes" if network else layer_for(obj, collections, min_z)
+        room_variant = (
+            "escritorio" if collections & OFFICE_COLLECTIONS
+            else ("quarto" if collections & OFFICE_REPLACED_COLLECTIONS else None)
+        )
+        layer = (
+            "instalacoes" if network
+            else ("superior" if room_variant else layer_for(obj, collections, min_z))
+        )
         wall_key = exterior_wall_key(obj, collections)
         parent = groups[layer]
+        has_net_meta = False
         if network:
             if network not in network_groups:
                 group = bpy.data.objects.new(network, None)
@@ -326,6 +711,15 @@ def convert_geometry(source, export_scene, groups, layout=(), include_instances=
                 group["web_network_view"] = NETWORK_VIEWS[level]
                 network_groups[network] = group
             parent = network_groups[network]
+        elif room_variant:
+            vkey = (layer, room_variant)
+            if vkey not in variant_groups:
+                vgroup = bpy.data.objects.new(f"Variante · {room_variant}", None)
+                export_scene.collection.objects.link(vgroup)
+                vgroup.parent = parent
+                vgroup["web_room_variant"] = room_variant
+                variant_groups[vkey] = vgroup
+            parent = variant_groups[vkey]
         if wall_key:
             if layer not in wall_groups:
                 parent = bpy.data.objects.new(f"Paredes externas · {layer}", None)
@@ -338,22 +732,53 @@ def convert_geometry(source, export_scene, groups, layout=(), include_instances=
         export_scene.collection.objects.link(clone)
         clone.parent = parent
         clone.matrix_world = world
+        if network:
+            if "system" in obj or "network_node" in obj or "flow_direction" in obj:
+                has_net_meta = True
+                if "system" in obj:
+                    clone["web_net_system"] = str(obj["system"])
+                if "node_a" in obj:
+                    clone["web_net_node_a"] = str(obj["node_a"])
+                if "node_b" in obj:
+                    clone["web_net_node_b"] = str(obj["node_b"])
+                if "nominal_diameter_m" in obj:
+                    clone["web_net_diameter_mm"] = round(float(obj["nominal_diameter_m"]) * 1000, 1)
+                if "proposed_segment" in obj:
+                    proposed = bool(obj["proposed_segment"])
+                    clone["web_net_proposed"] = proposed
+                    if "_Piso_" not in network:
+                        network_summary["total"] += 1
+                        network_summary["proposed" if proposed else "documental"] += 1
+                        if "system" in obj:
+                            network_summary["systems"][str(obj["system"])] += 1
+                if "source" in obj:
+                    clone["web_net_source"] = str(obj["source"])
+                if "kind" in obj:
+                    clone["web_net_kind"] = str(obj["kind"])
+                if "network_node" in obj:
+                    clone["web_net_node"] = str(obj["network_node"])
+                if "flow_direction" in obj:
+                    clone["web_net_flow"] = bool(obj["flow_direction"])
         counts[layer] += 1
-        if not keep_separate(mesh):
+        if not keep_separate(mesh) and not has_net_meta:
             # As malhas unidas precisam usar o mesmo conjunto de mapas UV.
             uv_layout = tuple(uv.name for uv in mesh.uv_layers), mesh.uv_layers.active_index
-            # Mantém cada parede separada para ordenar as superfícies de vidro por distância.
-            batches[layer, network or wall_key, uv_layout].append(clone)
+            # Mantém cada parede e cada variante de ambiente separadas.
+            batches[layer, network or wall_key, room_variant, uv_layout].append(clone)
 
     bpy.context.window.scene = export_scene
     bpy.context.view_layer.update()
-    for (layer, wall_key, _), objects in batches.items():
+    for (layer, wall_key, room_variant, _), objects in batches.items():
         if len(objects) < 2:
             continue
         with bpy.context.temp_override(active_object=objects[0], selected_editable_objects=objects):
             bpy.ops.object.join()
-        objects[0].name = f"Paredes externas · {wall_key}" if wall_key else f"Malhas · {layer}"
-    return counts
+        tag = wall_key or room_variant
+        objects[0].name = f"Paredes externas · {wall_key}" if wall_key else (
+            f"Variante · {room_variant}" if room_variant else f"Malhas · {layer}"
+        )
+    network_summary["systems"] = dict(network_summary["systems"])
+    return counts, network_summary
 
 
 def prepare_infrastructure(scene):
@@ -467,6 +892,66 @@ def prepare_fabric(name):
     replace_uv_scale(tree, vector_scale, tuple(vector_scale.inputs[1].default_value))
 
 
+def bake_procedural_surface(name, kind):
+    material = bpy.data.materials.get(f"FIEL2 {name}")
+    if not material or not material.use_nodes:
+        return
+    tree = material.node_tree
+    bsdf = tree.nodes.get("Principled BSDF")
+    if not bsdf:
+        return
+    base = bsdf.inputs["Base Color"]
+    for link in list(base.links):
+        tree.links.remove(link)
+
+    rng = np.random.default_rng(abs(hash(name)) % (2**32))
+    size = 512
+    rgba = np.ones((size, size, 4), dtype=np.float32)
+    if kind == "granito_cinza":
+        coarse = rng.uniform(-0.14, 0.14, (size // 4, size // 4, 1)).repeat(4, 0).repeat(4, 1)
+        fine = rng.uniform(-0.18, 0.18, (size, size, 1))
+        mica = (rng.random((size, size, 1)) > 0.92).astype(np.float32) * 0.22
+        dark = (rng.random((size, size, 1)) > 0.84).astype(np.float32) * -0.26
+        val = np.clip(0.50 + coarse + fine + mica + dark, 0.12, 0.88)
+        rgba[:, :, 0] = np.clip(val[:, :, 0] * 1.01, 0, 1)
+        rgba[:, :, 1] = np.clip(val[:, :, 0] * 0.99, 0, 1)
+        rgba[:, :, 2] = np.clip(val[:, :, 0] * 0.96, 0, 1)
+        scale = (3.0, 3.0, 3.0)
+    elif kind == "granito_preto":
+        fine = rng.uniform(-0.04, 0.04, (size, size, 1))
+        fleck = (rng.random((size, size, 1)) > 0.90).astype(np.float32) * 0.13
+        warm = (rng.random((size, size, 1)) > 0.96).astype(np.float32) * 0.08
+        val = np.clip(0.11 + fine + fleck, 0.04, 0.34)
+        rgba[:, :, 0] = np.clip(val[:, :, 0] + warm[:, :, 0], 0, 1)
+        rgba[:, :, 1] = np.clip(val[:, :, 0] + warm[:, :, 0] * 0.85, 0, 1)
+        rgba[:, :, 2] = np.clip(val[:, :, 0] * 0.95, 0, 1)
+        scale = (3.5, 3.5, 3.5)
+    else:  # porcelanato_bege
+        # Placa bege polida 60x60 cm com leve variação tonal e rejunte fino.
+        y, x = np.mgrid[0:size, 0:size]
+        cloud = (
+            np.sin(x * 2 * pi / size * 2.0) * 0.012
+            + np.cos(y * 2 * pi / size * 3.0) * 0.010
+            + rng.uniform(-0.008, 0.008, (size, size))
+        )
+        rgba[:, :, 0] = np.clip(0.86 + cloud, 0.72, 0.94)
+        rgba[:, :, 1] = np.clip(0.81 + cloud * 0.95, 0.68, 0.90)
+        rgba[:, :, 2] = np.clip(0.72 + cloud * 0.85, 0.60, 0.82)
+        grout = (x < 3) | (y < 3) | ((x >= size // 2) & (x < size // 2 + 2)) | ((y >= size // 2) & (y < size // 2 + 2))
+        rgba[grout, :3] *= 0.84
+        scale = (1.0, 1.0, 1.0)
+
+    img = texture_image(f"{name} · textura glTF", rgba, "sRGB")
+    tex_coord = tree.nodes.new("ShaderNodeTexCoord")
+    mapping = tree.nodes.new("ShaderNodeMapping")
+    mapping.inputs["Scale"].default_value = scale
+    tex = tree.nodes.new("ShaderNodeTexImage")
+    tex.image = img
+    tree.links.new(tex_coord.outputs["UV"], mapping.inputs["Vector"])
+    tree.links.new(mapping.outputs["Vector"], tex.inputs["Vector"])
+    tree.links.new(tex.outputs["Color"], base)
+
+
 def prepare_textures():
     for image in bpy.data.images:
         width, height = image.size
@@ -478,15 +963,10 @@ def prepare_textures():
     for name in ("Sofa camurca cinza", "Cadeiras tecido cinza", "Colcha branca"):
         prepare_fabric(name)
 
-    # Estes acabamentos definem uma cor-base além do padrão procedural.
-    # O exportador representa essa cor diretamente quando o padrão não é suportado.
-    for name in ("Granito cinza", "Granito preto", "Porcelanato bege polido"):
-        material = bpy.data.materials.get(f"FIEL2 {name}")
-        if material:
-            tree = material.node_tree
-            base = tree.nodes["Principled BSDF"].inputs["Base Color"]
-            for link in list(base.links):
-                tree.links.remove(link)
+    # Gera texturas tileáveis para acabamentos procedurais (granitos e porcelanato).
+    bake_procedural_surface("Granito cinza", "granito_cinza")
+    bake_procedural_surface("Granito preto", "granito_preto")
+    bake_procedural_surface("Porcelanato bege polido", "porcelanato_bege")
 
 
 def verify_export(glb, required_wall_layers):
@@ -524,11 +1004,15 @@ def main():
         raise ValueError("A exportação espera uma unidade interna igual a um metro.")
     with source_path.open("rb") as stream:
         source_hash = hashlib.file_digest(stream, "sha256").hexdigest()
-    presets = camera_presets(prefix, definitions)
+    presets = camera_presets(prefix, definitions, variant=variant)
     if variant == "estrutural":
         prepare_infrastructure(source)
     if variant == "atual":
         add_observed_furniture(source)
+    if variant == "industrial":
+        prepare_industrial(source)
+    if variant == "atico":
+        add_attic_tank_enclosure(source)
     export_scene = bpy.data.scenes.new(f"Sobrado · {version}")
     root = bpy.data.objects.new("Sobrado web", None)
     export_scene.collection.objects.link(root)
@@ -539,22 +1023,66 @@ def main():
         group.parent = root
         group["web_layer"] = layer
         groups[layer] = group
-    counts = convert_geometry(
+    if variant == "atual":
+        active_layout = (
+            suite_layout() + front_bedroom_layout() + kitchen_layout()
+            + bathrooms_layout() + living_room_tv_layout() + laundry_layout()
+        )
+        skip_prefixes = LAUNDRY_REMOVED_OBJECTS
+    elif variant == "industrial":
+        active_layout = suite_layout() + (
+            (("ATUAL Ripado cozinha",), rotate_between((3.29, 4.92, 0), (3.275, 6.375, 0), 0, (1, 1.52 / 1.068, 1))),
+        )
+        skip_prefixes = INDUSTRIAL_REMOVED_OBJECTS
+    else:
+        active_layout = ()
+        skip_prefixes = ()
+    counts, network_summary = convert_geometry(
         source, export_scene, groups,
-        layout=suite_layout() + front_bedroom_layout() if variant == "atual" else (),
-        include_instances=variant != "atual",
+        layout=active_layout,
+        include_instances=variant == "industrial",
+        skip_prefixes=skip_prefixes,
     )
     prepare_textures()
     if not all(counts[key] for key in ("terreo", "superior")):
         raise ValueError(f"Camadas sem geometria: {counts}")
-    root["sobrado"] = json.dumps({
+    meta = {
         "version": version,
         "source": source_path.relative_to(ROOT).as_posix(),
         "scene": scene_name,
         "sha256": source_hash,
         "layers": counts,
         "presets": presets,
-    }, ensure_ascii=False)
+    }
+    if variant == "estrutural":
+        meta["networkSummary"] = network_summary
+    if variant == "industrial":
+        meta["roomVariants"] = [
+            {"id": "quarto", "label": "Quarto dos fundos"},
+            {"id": "escritorio", "label": "Escritório"},
+        ]
+    if variant == "atico":
+        meta["atticGuides"] = {
+            "floorY": 5.45,
+            "headroomLevels": [
+                {"label": "Pé-direito 1,80 m", "y": 7.25, "color": "#e5a93c"},
+                {"label": "Pé-direito 2,10 m", "y": 7.55, "color": "#5ec28f"},
+            ],
+            "bounds": {"minX": 0.15, "maxX": 6.20, "minZ": -7.05, "maxZ": 1.05},
+            "tank": {
+                "center": gltf_vector((5.10, 5.10, 5.45 + 0.97 / 2)),
+                "baseY": 5.45,
+                "radius": 0.76,
+                "height": 0.97,
+                "maintenanceMargin": 0.60,
+                "clearances": [
+                    {"label": "Escada: 19 cm (rec. 60 cm)", "critical": True},
+                    {"label": "Divisa leste: 39 cm (rec. 60 cm)", "critical": True},
+                    {"label": "Forro no ponto baixo: 12 cm livres", "critical": True},
+                ],
+            },
+        }
+    root["sobrado"] = json.dumps(meta, ensure_ascii=False)
 
     output.parent.mkdir(parents=True, exist_ok=True)
     with TemporaryDirectory(dir=output.parent) as directory:
@@ -563,7 +1091,7 @@ def main():
             filepath=str(temporary), export_format="GLB", use_active_scene=True,
             export_extras=True, export_animations=False, export_yup=True,
             export_meshopt_compression_enable=True,
-            export_image_format="WEBP" if variant == "atual" else "JPEG",
+            export_image_format="WEBP",
             export_image_quality=88, export_image_webp_fallback=False,
         )
         if result != {"FINISHED"} or not temporary.is_file():

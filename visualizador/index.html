@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#101614">
   <link rel="icon" href="data:,">
   <title>Sobrado · Visualizador 3D</title>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos.css?v=20261123v10">
   <script type="importmap">
     {
       "imports": {
@@ -15,7 +15,7 @@
       }
     }
   </script>
-  <script type="module" src="visualizador.js"></script>
+  <script type="module" src="visualizador.js?v=20261123v10"></script>
 </head>
 <body>
   <header class="page-header">
@@ -27,16 +27,19 @@
       </div>
     </div>
     <div class="header-actions">
+      <label class="model-picker">
+        <span>Maquete</span>
+        <select id="model-version" aria-label="Maquete">
+          <option value="atual">Casa atual</option>
+          <option value="atico">Casa com ático</option>
+          <option value="estrutural">Estrutural</option>
+          <option value="industrial">Industrial</option>
+        </select>
+      </label>
       <div class="presentation-options" role="group" aria-label="Estilo de visualização">
         <button class="segment-button" data-presentation="model" type="button" aria-pressed="true">Modelo 3D</button>
         <button class="segment-button" data-presentation="prancha" type="button" aria-pressed="false">Prancha</button>
       </div>
-      <select id="model-version" aria-label="Maquete">
-        <option value="atual">Casa atual</option>
-        <option value="atico">Casa com ático</option>
-        <option value="estrutural">Estrutural</option>
-        <option value="industrial">Industrial</option>
-      </select>
       <button id="overview" class="button button-overview" type="button" disabled>
         <span aria-hidden="true">⌂</span> Vista geral
       </button>
@@ -46,16 +49,33 @@
   <main class="layout">
     <div class="work-area">
       <div class="workspace-tools">
-        <div class="presentation-options" role="group" aria-label="Painéis visíveis">
-          <button class="segment-button" data-arrangement="3d" type="button" aria-pressed="true">3D</button>
-          <button class="segment-button" data-arrangement="planta" type="button" aria-pressed="false">Planta</button>
-          <button class="segment-button" data-arrangement="dupla" type="button" aria-pressed="false">Planta + 3D</button>
+        <div class="tool-group">
+          <div class="presentation-options" role="group" aria-label="Painéis visíveis">
+            <button class="segment-button" data-arrangement="3d" type="button" aria-pressed="true">3D</button>
+            <button class="segment-button" data-arrangement="planta" type="button" aria-pressed="false">Planta</button>
+            <button class="segment-button" data-arrangement="dupla" type="button" aria-pressed="false">Planta + 3D</button>
+          </div>
+          <button id="measure-toggle" class="button tool-button" type="button" aria-pressed="false" title="Medir distância entre dois pontos (Esc para sair)" disabled>Medir</button>
+          <span id="measure-readout" class="measure-readout" hidden></span>
+          <button id="measure-clear" class="button tool-button" type="button" hidden>Limpar</button>
+          <button id="export-png" class="button tool-button" type="button" title="Salvar captura em PNG" disabled>Salvar PNG</button>
+          <button id="copy-link" class="button tool-button" type="button" title="Copiar link da vista atual" disabled>Copiar link</button>
         </div>
-        <form class="cut-controls" aria-label="Corte no 3D" hidden>
-          <label><input id="cut-enabled" type="checkbox"> Corte horizontal</label>
-          <input id="cut-height" type="range" min="0.2" max="9.5" step="0.05" value="3.8" aria-label="Altura do corte" disabled>
-          <output id="cut-value" for="cut-height"></output>
-        </form>
+        <div class="tool-group">
+          <div class="presentation-options lighting-options" role="group" aria-label="Iluminação">
+            <button class="segment-button" data-lighting="day" type="button" aria-pressed="true">Dia</button>
+            <button class="segment-button" data-lighting="night" type="button" aria-pressed="false">Noite</button>
+          </div>
+          <label class="sun-control" id="sun-control">
+            <span>Sol</span>
+            <input id="sun-angle" type="range" min="0" max="360" step="5" value="315" aria-label="Ângulo solar">
+          </label>
+          <form class="cut-controls" aria-label="Corte no 3D" hidden>
+            <label><input id="cut-enabled" type="checkbox"> Corte horizontal</label>
+            <input id="cut-height" type="range" min="0.2" max="9.5" step="0.05" value="3.8" aria-label="Altura do corte" disabled>
+            <output id="cut-value" for="cut-height"></output>
+          </form>
+        </div>
       </div>
       <div class="view-panes" data-arrangement="3d">
         <section class="plan-pane" aria-label="Planta do pavimento" hidden>
@@ -64,15 +84,18 @@
               <p>PLANTA DE CORTE</p>
               <h2 id="plan-title">Térreo</h2>
             </div>
-            <select id="plan-floor" aria-label="Pavimento da planta">
-              <option value="terreo">Térreo</option>
-              <option value="superior">Superior</option>
-              <option value="atico">Ático</option>
-            </select>
-            <div class="plan-zoom" role="group" aria-label="Zoom da planta">
-              <button type="button" data-plan-zoom="0.833" aria-label="Afastar planta">−</button>
-              <button type="button" data-plan-zoom="1.2" aria-label="Aproximar planta">+</button>
-              <button type="button" data-plan-zoom="1" aria-label="Recentrar planta">⌖</button>
+            <div class="plan-header-actions">
+              <label class="plan-toggle"><input id="plan-labels" type="checkbox" checked> Rótulos</label>
+              <select id="plan-floor" aria-label="Pavimento da planta">
+                <option value="terreo">Térreo</option>
+                <option value="superior">Superior</option>
+                <option value="atico">Ático</option>
+              </select>
+              <div class="plan-zoom" role="group" aria-label="Zoom da planta">
+                <button type="button" data-plan-zoom="0.833" aria-label="Afastar planta">−</button>
+                <button type="button" data-plan-zoom="1.2" aria-label="Aproximar planta">+</button>
+                <button type="button" data-plan-zoom="1" aria-label="Recentrar planta">⌖</button>
+              </div>
             </div>
           </div>
           <canvas id="plan-canvas" tabindex="0" aria-label="Planta do pavimento em escala" aria-describedby="furniture-status"></canvas>
@@ -81,67 +104,94 @@
               <select id="furniture-type">
                 <option value="sofa">Sofá · 2,10 × 0,90 m</option>
                 <option value="table">Mesa · 1,50 × 0,85 m</option>
-                <option value="bed">Cama · 1,58 × 1,98 m</option>
+                <option value="bed">Cama casal · 1,58 × 1,98 m</option>
+                <option value="single_bed">Cama solteiro · 0,90 × 1,90 m</option>
+                <option value="desk">Escrivaninha · 1,40 × 0,65 m</option>
+                <option value="armchair">Poltrona · 0,85 × 0,85 m</option>
+                <option value="wardrobe">Armário · 1,60 × 0,60 m</option>
+                <option value="fridge">Geladeira · 0,70 × 0,70 m</option>
+                <option value="custom">Personalizado</option>
               </select>
+            </label>
+            <label class="dim-input">L (m)
+              <input id="furniture-width" type="number" min="0.25" max="5" step="0.05" value="2.10">
+            </label>
+            <label class="dim-input">P (m)
+              <input id="furniture-depth" type="number" min="0.25" max="5" step="0.05" value="0.90">
             </label>
             <button class="button" id="furniture-place" type="button" aria-pressed="false">Posicionar</button>
             <button class="button" id="furniture-move" type="button" aria-pressed="false" disabled>Mover</button>
-            <button class="button" id="furniture-rotate" type="button" disabled>Girar 45°</button>
+            <button class="button" id="furniture-rotate-fine" type="button" disabled>15°</button>
+            <button class="button" id="furniture-rotate" type="button" disabled>45°</button>
             <button class="button" id="furniture-remove" type="button" disabled>Remover</button>
-            <p id="furniture-status" role="status">Os móveis de estudo ficam neste navegador.</p>
+            <label class="snap-toggle"><input id="furniture-snap" type="checkbox" checked> Grade 10 cm</label>
+            <button class="button" id="furniture-export" type="button" title="Exportar estudo em JSON">JSON ↓</button>
+            <button class="button" id="furniture-import" type="button" title="Importar estudo de JSON">JSON ↑</button>
+            <input id="furniture-file" type="file" accept="application/json" hidden>
+            <p id="furniture-status" role="status">Arraste para deslocar, role para zoom. Os móveis de estudo ficam neste navegador.</p>
           </form>
         </section>
         <section class="viewport" aria-label="Visualização da casa">
-      <div class="sheet-registration" aria-hidden="true"></div>
-      <canvas id="canvas" tabindex="0" aria-label="Modelo 3D interativo" aria-describedby="navigation-help"></canvas>
+          <div class="sheet-registration" aria-hidden="true"></div>
+          <canvas id="canvas" tabindex="0" aria-label="Modelo 3D interativo" aria-describedby="navigation-help"></canvas>
 
-      <div class="view-caption">
-        <p id="view-category">MODELO 3D</p>
-        <h2 id="view-title">Vista geral</h2>
-      </div>
+          <div class="view-caption">
+            <p id="view-category">MODELO 3D</p>
+            <h2 id="view-title">Vista geral</h2>
+          </div>
 
-      <div class="camera-tools" role="group" aria-label="Controles de câmera">
-        <button id="zoom-in" class="icon-button" type="button" aria-label="Aproximar" title="Aproximar" disabled>+</button>
-        <button id="zoom-out" class="icon-button" type="button" aria-label="Afastar" title="Afastar" disabled>−</button>
-        <button id="recenter" class="icon-button recenter" type="button" aria-label="Recentrar câmera" title="Recentrar câmera" disabled><span aria-hidden="true"></span></button>
-      </div>
-      <div class="orientation-tools" role="group" aria-label="Orientação da câmera">
-        <button type="button" data-orientation="isometric" title="Vista em diagonal">Diagonal</button>
-        <button type="button" data-orientation="front" title="Vista da frente">Frente</button>
-        <button type="button" data-orientation="side" title="Vista lateral">Lado</button>
-        <button type="button" data-orientation="top" title="Vista de cima">Topo</button>
-      </div>
-      <div id="movement-pad" class="movement-pad" role="group" aria-label="Mover câmera" hidden>
-        <button type="button" data-move="down" aria-label="Descer">Descer</button>
-        <button type="button" data-move="forward" aria-label="Avançar">Frente</button>
-        <button type="button" data-move="up" aria-label="Subir">Subir</button>
-        <button type="button" data-move="left" aria-label="Mover à esquerda">Esq.</button>
-        <button type="button" data-move="backward" aria-label="Recuar">Atrás</button>
-        <button type="button" data-move="right" aria-label="Mover à direita">Dir.</button>
-      </div>
+          <div class="camera-tools" role="group" aria-label="Controles de câmera">
+            <button id="zoom-in" class="icon-button" type="button" aria-label="Aproximar" title="Aproximar" disabled>+</button>
+            <button id="zoom-out" class="icon-button" type="button" aria-label="Afastar" title="Afastar" disabled>−</button>
+            <button id="recenter" class="icon-button recenter" type="button" aria-label="Recentrar câmera" title="Recentrar câmera" disabled><span aria-hidden="true"></span></button>
+          </div>
+          <div class="orientation-tools" role="group" aria-label="Orientação da câmera">
+            <button type="button" data-orientation="isometric" title="Vista em diagonal">Diagonal</button>
+            <button type="button" data-orientation="front" title="Vista da frente">Frente</button>
+            <button type="button" data-orientation="side" title="Vista lateral">Lado</button>
+            <button type="button" data-orientation="top" title="Vista de cima">Topo</button>
+          </div>
+          <div id="movement-pad" class="movement-pad" role="group" aria-label="Mover câmera" hidden>
+            <button type="button" data-move="down" aria-label="Descer">Descer</button>
+            <button type="button" data-move="forward" aria-label="Avançar">Frente</button>
+            <button type="button" data-move="up" aria-label="Subir">Subir</button>
+            <button type="button" data-move="left" aria-label="Mover à esquerda">Esq.</button>
+            <button type="button" data-move="backward" aria-label="Recuar">Atrás</button>
+            <button type="button" data-move="right" aria-label="Mover à direita">Dir.</button>
+          </div>
 
-      <div id="loading" class="loading" role="status">
-        <strong id="loading-title">Carregando o modelo</strong>
-        <progress id="loading-progress" max="100" aria-label="Carregamento do modelo"></progress>
-        <p id="loading-detail"></p>
-      </div>
+          <aside id="inspect-card" class="inspect-card" aria-label="Detalhes do trecho" hidden>
+            <div class="inspect-head">
+              <strong id="inspect-title">Trecho</strong>
+              <button id="inspect-close" type="button" aria-label="Fechar detalhes">×</button>
+            </div>
+            <dl id="inspect-body" class="inspect-body"></dl>
+          </aside>
 
-      <div class="sheet-legend">
-        <span id="sheet-projection">Axonometria</span>
-        <ul aria-label="Legenda da prancha">
-          <li>Edificação</li>
-          <li>Cobertura</li>
-          <li>Transparências</li>
-        </ul>
-      </div>
+          <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
-      <div id="navigation-help" class="navigation-help">
-        <span>
-          <span class="mouse-help"><strong>Girar</strong> Arraste · <strong>Zoom</strong> Role · <strong>Deslocar</strong> Arraste com o botão direito<br><strong>Mover</strong> WASD e Q/E · <strong>Olhar</strong> Setas</span>
-          <span class="touch-help"><strong>Girar</strong> Arraste · <strong>Zoom</strong> Faça pinça · <strong>Mover</strong> Arraste com dois dedos</span>
-        </span>
-      </div>
-      <p id="view-status" class="sr-only" aria-live="polite"></p>
+          <div id="loading" class="loading" role="status">
+            <strong id="loading-title">Carregando o modelo</strong>
+            <progress id="loading-progress" max="100" aria-label="Carregamento do modelo"></progress>
+            <p id="loading-detail"></p>
+          </div>
+
+          <div class="sheet-legend">
+            <span id="sheet-projection">Axonometria</span>
+            <ul id="sheet-legend-list" aria-label="Legenda da prancha">
+              <li>Edificação</li>
+              <li>Cobertura</li>
+              <li>Transparências</li>
+            </ul>
+          </div>
+
+          <div id="navigation-help" class="navigation-help">
+            <span>
+              <span class="mouse-help"><strong>Girar</strong> Arraste · <strong>Zoom</strong> Role · <strong>Deslocar</strong> Arraste com o botão direito<br><strong>Mover</strong> WASD e Q/E · <strong>Olhar</strong> Setas</span>
+              <span class="touch-help"><strong>Girar</strong> Arraste · <strong>Zoom</strong> Faça pinça · <strong>Mover</strong> Arraste com dois dedos</span>
+            </span>
+          </div>
+          <p id="view-status" class="sr-only" aria-live="polite"></p>
         </section>
       </div>
     </div>
@@ -151,12 +201,6 @@
         <div class="wall-options navigation-options" role="group" aria-label="Modo de navegação">
           <button class="segment-button" data-navigation="free" type="button" aria-pressed="true" disabled>Drone</button>
           <button class="segment-button" data-navigation="orbit" type="button" aria-pressed="false" disabled>Girar</button>
-        </div>
-        <div class="look-options" role="group" aria-label="Direção do olhar">
-          <button type="button" data-turn="lookLeft" aria-label="Olhar para a esquerda" disabled>←</button>
-          <button type="button" data-turn="lookUp" aria-label="Olhar para cima" disabled>↑</button>
-          <button type="button" data-turn="lookDown" aria-label="Olhar para baixo" disabled>↓</button>
-          <button type="button" data-turn="lookRight" aria-label="Olhar para a direita" disabled>→</button>
         </div>
         <h2 id="floor-heading">Pavimentos</h2>
         <div class="floor-options" role="group" aria-label="Pavimentos visíveis">
@@ -170,6 +214,11 @@
           <input id="roof" type="checkbox" role="switch" checked disabled>
           <span class="switch" aria-hidden="true"></span>
         </label>
+        <label class="roof-toggle" id="ceiling-toggle-wrap" hidden>
+          <span>Luminárias do térreo</span>
+          <input id="ceiling-lights" type="checkbox" role="switch" checked>
+          <span class="switch" aria-hidden="true"></span>
+        </label>
         <div id="wall-controls" class="wall-controls" hidden>
           <h3 id="wall-heading">Paredes externas</h3>
           <div class="wall-options" role="group" aria-labelledby="wall-heading">
@@ -178,10 +227,45 @@
             <button class="segment-button" data-walls="hidden" type="button" aria-pressed="false">Ocultas</button>
           </div>
         </div>
+        <div id="parking-controls" class="wall-controls">
+          <h3 id="parking-heading">Estacionamento (ARQ01/03)</h3>
+          <label class="roof-toggle">
+            <span>Vagas e cotas das plantas</span>
+            <input id="parking-guides" type="checkbox" role="switch" checked>
+            <span class="switch" aria-hidden="true"></span>
+          </label>
+          <label class="roof-toggle">
+            <span>Carros estacionados (2)</span>
+            <input id="parking-car" type="checkbox" role="switch" checked>
+            <span class="switch" aria-hidden="true"></span>
+          </label>
+          <ul id="parking-specs" class="parking-specs">
+            <li><strong>Vaga 1 (garagem):</strong> 2,20 × 4,50 m (vão 2,85 × 3,20 m cob.)</li>
+            <li><strong>Carro 1 (uso máx.):</strong> SUV 4,48 × 1,84 × 1,63 m (folga 2 cm)</li>
+            <li><strong>Vaga 2 (lateral sala):</strong> 2,00 × 2,50 m lote (3,25 m faixa rua)</li>
+            <li><strong>Sandero 1.0 2018:</strong> 4,06 × 1,73 × 1,54 m (1,99 m c/ retrov.)</li>
+            <li><strong>Análise Sandero:</strong> Largura cabe (corredor 1,19 m); rodas até 3,28 m, bico avança +1,59 m do lote (+0,84 m da faixa)</li>
+          </ul>
+        </div>
+        <div id="room-variant-controls" class="wall-controls" hidden>
+          <h3 id="room-variant-heading">Quarto dos fundos</h3>
+          <div class="wall-options navigation-options" id="room-variant-options" role="group" aria-labelledby="room-variant-heading"></div>
+        </div>
+        <div id="attic-guides-controls" class="wall-controls" hidden>
+          <label class="roof-toggle">
+            <span>Gabaritos e folgas</span>
+            <input id="attic-guides" type="checkbox" role="switch">
+            <span class="switch" aria-hidden="true"></span>
+          </label>
+          <ul id="attic-clearances" class="attic-clearances" hidden></ul>
+        </div>
       </section>
 
       <section id="network-controls" class="panel" aria-labelledby="network-heading" hidden>
-        <h2 id="network-heading">Instalações</h2>
+        <div class="network-head">
+          <h2 id="network-heading">Instalações</h2>
+          <button id="network-toggle-all" class="button-inline" type="button">Desmarcar todos</button>
+        </div>
         <div class="network-options">
           <label><input type="checkbox" data-network="electric" checked><span class="network-color" style="--network-color:#ee650f"></span>Elétrica</label>
           <label><input type="checkbox" data-network="cold" checked><span class="network-color" style="--network-color:#3f77e7"></span>Água fria</label>
@@ -189,6 +273,12 @@
           <label><input type="checkbox" data-network="overflow" checked><span class="network-color" style="--network-color:#1d9a98"></span>Extravasor</label>
           <label><input type="checkbox" data-network="drain" checked><span class="network-color" style="--network-color:#bd3293"></span>Limpeza da caixa</label>
         </div>
+        <div class="network-status-filters">
+          <label><input id="net-documental" type="checkbox" checked> Documental</label>
+          <label><input id="net-proposed" type="checkbox" checked> Proposto</label>
+          <label><input id="net-highlight-proposed" type="checkbox"> Destacar propostos</label>
+        </div>
+        <p id="network-hint" class="network-hint">Clique em um trecho ou ponto para inspecionar diâmetro e origem.</p>
       </section>
 
       <section class="panel cameras" aria-labelledby="camera-heading">
