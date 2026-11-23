@@ -121,12 +121,11 @@ async function start() {
   controls.zoomSpeed = 0.9;
   controls.enabled = false;
   controls.enableDamping = true;
-  controls.dampingFactor = 0.12;
+  controls.dampingFactor = 0.105;
   controls.minDistance = 0.18;
   controls.maxDistance = 90;
   controls.minZoom = 0.25;
   controls.maxZoom = 16;
-  controls.maxPolarAngle = Math.PI * 0.98;
 
   const heldKeys = new Map();
   const heldPointers = new Map();
@@ -432,7 +431,6 @@ async function start() {
   const displacement = new THREE.Vector3();
   const screenUp = new THREE.Vector3();
   const attitude = new THREE.Euler(0, 0, 0, 'YXZ');
-  const mouseLook = document.querySelector('#mouse-look');
 
   function look(yaw, pitch) {
     const distance = controls.getDistance();
@@ -489,22 +487,16 @@ async function start() {
   function setNavigation(mode) {
     navigation = mode;
     stopMotion();
+    const free = mode === 'free';
+    controls.maxPolarAngle = free ? Math.PI : Math.PI * 0.92;
     if (camera.isOrthographicCamera !== usesAxonometry()) frameActiveView();
     else setCamera(camera.position.clone(), controls.target.clone());
-    const free = mode === 'free';
-    controls.enabled = !free;
-    if (!free && document.pointerLockElement === canvas) document.exitPointerLock();
-    mouseLook.hidden = !free || !canvas.requestPointerLock || !matchMedia('(any-pointer: fine)').matches;
-    document.querySelector('#free-help').hidden = !free;
-    document.querySelector('#orbit-help').hidden = mode !== 'orbit';
     movementPad.hidden = !free;
-    zoomIn.hidden = zoomOut.hidden = free;
     for (const button of navigationButtons) {
       button.setAttribute('aria-pressed', String(button.dataset.navigation === mode));
     }
   }
 
-  let dragPointer = null;
   let clickStart = null;
   const sceneRay = new THREE.Raycaster();
   const pointerInScene = new THREE.Vector2();
@@ -530,11 +522,15 @@ async function start() {
   });
   canvas.addEventListener('pointerdown', (event) => {
     if (event.isPrimary && event.button === 0) canvas.focus({ preventScroll: true });
-    if (event.isPrimary && event.button === 0 && arrangement === 'dupla' && document.pointerLockElement !== canvas) {
+    if (event.isPrimary && event.button === 0 && arrangement === 'dupla') {
       clickStart = [event.clientX, event.clientY];
     }
   });
   canvas.addEventListener('pointercancel', () => { clickStart = null; });
+  canvas.addEventListener('pointermove', (event) => {
+    if (event.isPrimary && clickStart &&
+        Math.hypot(event.clientX - clickStart[0], event.clientY - clickStart[1]) > 5) clickStart = null;
+  });
   canvas.addEventListener('pointerup', (event) => {
     if (!clickStart || !event.isPrimary) return;
     const [x, y] = clickStart;
@@ -544,29 +540,6 @@ async function start() {
     pointerInScene.set(2 * (x - bounds.left) / bounds.width - 1, 1 - 2 * (y - bounds.top) / bounds.height);
     sceneRay.setFromCamera(pointerInScene, camera);
     plan?.pickInScene(sceneRay);
-  });
-  canvas.addEventListener('pointerdown', (event) => {
-    if (navigation !== 'free' || dragPointer !== null || event.button !== 0 || document.pointerLockElement === canvas) return;
-    dragPointer = { id: event.pointerId, x: event.clientX, y: event.clientY };
-    canvas.setPointerCapture(event.pointerId);
-  });
-  canvas.addEventListener('lostpointercapture', (event) => {
-    if (dragPointer?.id === event.pointerId) dragPointer = null;
-  });
-  canvas.addEventListener('pointermove', (event) => {
-    if (document.pointerLockElement === canvas && navigation === 'free') {
-      look(-event.movementX * 0.0045, -event.movementY * 0.0045);
-      return;
-    }
-    if (navigation !== 'free' || event.pointerId !== dragPointer?.id) return;
-    look((dragPointer.x - event.clientX) * 0.0045, (dragPointer.y - event.clientY) * 0.0045);
-    dragPointer.x = event.clientX;
-    dragPointer.y = event.clientY;
-  });
-  mouseLook.addEventListener('click', async () => {
-    canvas.focus({ preventScroll: true });
-    try { await canvas.requestPointerLock(); }
-    catch { document.querySelector('#free-help').textContent = 'Arraste para olhar · WASD e Q/E para voar · Setas para mirar'; }
   });
   canvas.addEventListener('keydown', (event) => {
     if (!modelReady || event.altKey || event.ctrlKey || event.metaKey) return;
@@ -723,6 +696,7 @@ async function start() {
     zoomOut.addEventListener('click', () => zoom(1 / 0.83));
     for (const button of [overview, recenter, zoomIn, zoomOut, ...navigationButtons, ...orientationButtons]) button.disabled = false;
     modelReady = true;
+    controls.enabled = true;
     for (const button of document.querySelectorAll('[data-turn]')) {
       button.disabled = false;
       button.addEventListener('click', () => moveCamera(new Set([button.dataset.turn]), 0, 0.16));
