@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#101614">
   <link rel="icon" href="data:,">
   <title>Sobrado · Visualizador 3D</title>
-  <link rel="stylesheet" href="estilos.css?v=20261123v10">
+  <link rel="stylesheet" href="estilos.css?v=20261124v13">
   <script type="importmap">
     {
       "imports": {
@@ -15,7 +15,7 @@
       }
     }
   </script>
-  <script type="module" src="visualizador.js?v=20261123v10"></script>
+  <script type="module" src="visualizador.js?v=20261124v13"></script>
 </head>
 <body>
   <header class="page-header">
@@ -27,6 +27,10 @@
       </div>
     </div>
     <div class="header-actions">
+      <div class="history-actions" role="group" aria-label="Desfazer e refazer">
+        <button id="studio-undo" class="icon-pill-button" type="button" title="Desfazer personalização (Ctrl+Z)" aria-label="Desfazer" disabled>↶</button>
+        <button id="studio-redo" class="icon-pill-button" type="button" title="Refazer personalização (Ctrl+Y)" aria-label="Refazer" disabled>↷</button>
+      </div>
       <label class="model-picker">
         <span>Maquete</span>
         <select id="model-version" aria-label="Maquete">
@@ -54,18 +58,32 @@
             <button class="segment-button" data-arrangement="3d" type="button" aria-pressed="true">3D</button>
             <button class="segment-button" data-arrangement="planta" type="button" aria-pressed="false">Planta</button>
             <button class="segment-button" data-arrangement="dupla" type="button" aria-pressed="false">Planta + 3D</button>
+            <button class="segment-button" id="view-mode-walk" type="button" aria-pressed="false" title="Caminhar em primeira pessoa dentro dos ambientes" disabled>Caminhar</button>
           </div>
           <button id="measure-toggle" class="button tool-button" type="button" aria-pressed="false" title="Medir distância entre dois pontos (Esc para sair)" disabled>Medir</button>
           <span id="measure-readout" class="measure-readout" hidden></span>
           <button id="measure-clear" class="button tool-button" type="button" hidden>Limpar</button>
-          <button id="export-png" class="button tool-button" type="button" title="Salvar captura em PNG" disabled>Salvar PNG</button>
-          <button id="copy-link" class="button tool-button" type="button" title="Copiar link da vista atual" disabled>Copiar link</button>
+          <button id="export-png" class="button tool-button" type="button" title="Salvar captura em PNG" disabled>PNG</button>
+          <button id="copy-link" class="button tool-button" type="button" title="Copiar link da vista atual" disabled>Link</button>
         </div>
-        <div class="tool-group">
+        <div class="tool-group studio-top-group">
+          <div class="presentation-options studio-mode-bar" role="group" aria-label="Modos de personalização">
+            <button id="studio-mode-renovate" class="segment-button" type="button" aria-pressed="false" title="Personalizar paredes, pisos, estilos e móveis direto no 3D" disabled>Personalizar</button>
+            <button id="studio-mode-empty" class="segment-button" type="button" aria-pressed="false" title="Ocultar móveis e decorações para visualizar os ambientes vazios" disabled>Vazio</button>
+            <button id="studio-mode-clay" class="segment-button" type="button" aria-pressed="false" title="Modo Maquete Branca (Argila) para avaliar volumes e sombras" disabled>Argila</button>
+            <button id="studio-mode-film" class="segment-button" type="button" aria-pressed="false" title="Construção animada por etapas sobre a planta + Onda de materiais + Tour interno com som" disabled>Filme</button>
+            <button id="studio-mode-photo" class="segment-button" type="button" title="Comparar vista 3D com render fotorrealista ou foto real da casa" disabled>Foto</button>
+          </div>
+          <label class="studio-style-picker" title="Aplicar estilo arquitetônico completo">
+            <select id="studio-style-select" aria-label="Estilo de decoração" disabled></select>
+          </label>
+          <button id="studio-list-toggle" class="button tool-button" type="button" aria-pressed="false" title="Abrir lista de ambientes, acabamentos, inventário e raio-X da cena" disabled>Lista</button>
           <div class="presentation-options lighting-options" role="group" aria-label="Iluminação">
             <button class="segment-button" data-lighting="day" type="button" aria-pressed="true">Dia</button>
+            <button class="segment-button" data-lighting="dusk" type="button" aria-pressed="false" title="Luz de crepúsculo / pôr do sol com curva Khronos PBR Neutral">Crepúsculo</button>
             <button class="segment-button" data-lighting="night" type="button" aria-pressed="false">Noite</button>
           </div>
+          <button id="tone-mapping-toggle" class="button tool-button" type="button" aria-pressed="false" title="Alternar curva de cor entre AgX e Khronos PBR Neutral (cores mais fiéis no pôr do sol)">AgX</button>
           <label class="sun-control" id="sun-control">
             <span>Sol</span>
             <input id="sun-angle" type="range" min="0" max="360" step="5" value="315" aria-label="Ângulo solar">
@@ -103,13 +121,20 @@
             <label>Inserir móvel
               <select id="furniture-type">
                 <option value="sofa">Sofá · 2,10 × 0,90 m</option>
-                <option value="table">Mesa · 1,50 × 0,85 m</option>
+                <option value="armchair">Poltrona · 0,85 × 0,85 m</option>
+                <option value="coffee_round">Mesa redonda travertino · 0,95 m</option>
+                <option value="coffee_oak">Mesa centro carvalho · 1,14 × 0,70 m</option>
+                <option value="coffee_glass">Mesa vidro e latão · 1,10 × 0,65 m</option>
+                <option value="table">Mesa de jantar · 1,50 × 0,85 m</option>
+                <option value="sideboard">Aparador / Buffet · 1,60 × 0,45 m</option>
                 <option value="bed">Cama casal · 1,58 × 1,98 m</option>
                 <option value="single_bed">Cama solteiro · 0,90 × 1,90 m</option>
                 <option value="desk">Escrivaninha · 1,40 × 0,65 m</option>
-                <option value="armchair">Poltrona · 0,85 × 0,85 m</option>
                 <option value="wardrobe">Armário · 1,60 × 0,60 m</option>
                 <option value="fridge">Geladeira · 0,70 × 0,70 m</option>
+                <option value="rug">Tapete tecido · 2,20 × 1,50 m</option>
+                <option value="plant">Planta em vaso · 0,48 m</option>
+                <option value="lamp">Luminária piso · 0,42 m</option>
                 <option value="custom">Personalizado</option>
               </select>
             </label>
@@ -168,7 +193,97 @@
             <dl id="inspect-body" class="inspect-body"></dl>
           </aside>
 
+          <div id="studio-banner" class="studio-banner" role="status" aria-live="polite" hidden>
+            <span id="studio-banner-text"></span>
+            <button id="studio-banner-action" type="button" class="studio-banner-btn" hidden></button>
+          </div>
+
           <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+          <div id="studio-selection-pill" class="studio-selection-pill" hidden>
+            <div class="studio-sel-head">
+              <div>
+                <strong id="studio-sel-title">Elemento</strong>
+                <span id="studio-sel-meta"></span>
+              </div>
+              <div id="studio-sel-actions" class="studio-sel-actions"></div>
+              <button id="studio-sel-close" class="studio-mini-btn" type="button" aria-label="Fechar seleção">×</button>
+            </div>
+            <div id="studio-sel-swatches" class="studio-sel-swatches"></div>
+          </div>
+
+          <div id="studio-dock" class="studio-dock" hidden>
+            <div id="studio-chips" class="studio-chips" aria-label="Sugestões rápidas de personalização"></div>
+            <form id="studio-prompt-form" class="studio-prompt-bar">
+              <label class="studio-scope-wrap" title="Escolher escopo (casa inteira ou ambiente)">
+                <span class="studio-scope-plus" aria-hidden="true">+</span>
+                <select id="studio-scope" aria-label="Ambiente alvo"></select>
+              </label>
+              <input id="studio-prompt-input" type="text" autocomplete="off" placeholder="Personalizar a casa inteira... (ex: paredes verde sálvia e piso nogueira)">
+              <button id="studio-voice-btn" type="button" class="studio-icon-btn" aria-pressed="false" title="Falar comando em português" aria-label="Comando por voz">🎙</button>
+              <button type="submit" class="studio-send-btn" title="Aplicar personalização" aria-label="Aplicar">↑</button>
+            </form>
+          </div>
+
+          <div id="film-hud" class="film-hud" hidden>
+            <div class="film-counter-card">
+              <span id="film-stage-dot" class="film-stage-dot" aria-hidden="true"></span>
+              <div>
+                <p id="film-phase-label">Etapa 1/6</p>
+                <strong id="film-stage-badge">Terreno &amp; Base</strong>
+              </div>
+              <span id="film-part-counter" class="film-part-counter">0 / 0 peças</span>
+            </div>
+            <div class="film-controls-bar">
+              <button id="film-play-pause" class="studio-mini-btn" type="button">⏸ Pausar</button>
+              <button id="film-restart" class="studio-mini-btn" type="button" title="Reiniciar construção sobre a planta">↺</button>
+              <input id="film-scrubber" class="film-scrubber" type="range" min="0" max="1000" step="1" value="0" aria-label="Linha do tempo da construção">
+              <button id="film-jump-wave" class="studio-mini-btn" type="button" title="Ir para a onda de materiais">⚡ Onda</button>
+              <button id="film-jump-tour" class="studio-mini-btn" type="button" title="Ir para o tour interno">🎥 Tour</button>
+              <button id="film-mute" class="studio-mini-btn" type="button" aria-pressed="true" title="Ativar/silenciar foley procedural">🔊 Som</button>
+              <button id="film-exit" class="studio-mini-btn studio-danger-btn" type="button">✕ Sair</button>
+            </div>
+          </div>
+
+          <label class="studio-light-pill" title="Ajustar intensidade de iluminação da cena">
+            <span>Luz</span>
+            <input id="studio-light-slider" type="range" min="45" max="150" step="5" value="100" aria-label="Intensidade da luz">
+            <output id="studio-light-value" for="studio-light-slider">100%</output>
+          </label>
+
+          <aside id="studio-list-drawer" class="studio-list-drawer" aria-label="Lista de ambientes, acabamentos e móveis" hidden>
+            <div class="studio-drawer-head">
+              <div>
+                <p>PERSONALIZAÇÃO</p>
+                <h3>Ambientes &amp; Lista</h3>
+              </div>
+              <button id="studio-list-close" class="studio-mini-btn" type="button" aria-label="Fechar lista">×</button>
+            </div>
+            <div class="studio-drawer-body">
+              <section>
+                <h4>Ambientes (m²)</h4>
+                <div id="studio-list-rooms" class="studio-list-grid"></div>
+              </section>
+              <section>
+                <h4>Acabamentos &amp; Materiais</h4>
+                <div id="studio-list-finishes" class="studio-finish-list"></div>
+              </section>
+              <section>
+                <h4>Móveis personalizados</h4>
+                <div id="studio-list-furniture" class="studio-finish-list"></div>
+              </section>
+              <section>
+                <h4>Raio-X da Cena (Etapas &amp; Geometria)</h4>
+                <div id="studio-scene-xray" class="studio-xray"></div>
+              </section>
+            </div>
+            <div class="studio-drawer-foot">
+              <button id="studio-export-design" class="studio-mini-btn" type="button">Exportar JSON</button>
+              <button id="studio-import-design" class="studio-mini-btn" type="button">Importar</button>
+              <input id="studio-import-file" type="file" accept="application/json" hidden>
+              <button id="studio-reset-all" class="studio-mini-btn studio-danger-btn" type="button">Restaurar</button>
+            </div>
+          </aside>
 
           <div id="loading" class="loading" role="status">
             <strong id="loading-title">Carregando o modelo</strong>
@@ -287,5 +402,38 @@
       </section>
     </aside>
   </main>
+
+  <div id="photo-compare-modal" class="photo-modal" role="dialog" aria-modal="true" aria-labelledby="photo-modal-title" hidden>
+    <div class="photo-modal-card">
+      <div class="photo-modal-head">
+        <div>
+          <p class="photo-modal-kicker">COMPARADOR VISUAL</p>
+          <h2 id="photo-modal-title">Vista 3D vs Foto &amp; Render</h2>
+        </div>
+        <div class="photo-modal-controls">
+          <select id="photo-room-select" aria-label="Ambiente da foto"></select>
+          <div class="presentation-options" role="group" aria-label="Fonte de comparação">
+            <button class="segment-button" data-photo-source="atual" type="button" aria-pressed="true">Render Atual</button>
+            <button class="segment-button" data-photo-source="industrial" type="button" aria-pressed="false">Render Industrial</button>
+            <button class="segment-button" data-photo-source="real" type="button" aria-pressed="false">Foto Real</button>
+          </div>
+          <button id="photo-modal-download" class="button tool-button" type="button">Baixar PNG</button>
+          <button id="photo-modal-close" class="button tool-button" type="button">Fechar</button>
+        </div>
+      </div>
+      <div id="photo-compare-stage" class="photo-compare-stage">
+        <img id="photo-img-ref" alt="Render ou foto de referência do ambiente">
+        <div id="photo-compare-clip" class="photo-compare-clip">
+          <img id="photo-img-3d" alt="Captura atual do modelo 3D personalizado">
+        </div>
+        <div id="photo-compare-divider" class="photo-compare-divider" aria-hidden="true">
+          <span>⇆</span>
+        </div>
+        <span class="photo-tag photo-tag-left">Modelo 3D ao vivo</span>
+        <span id="photo-ref-label" class="photo-tag photo-tag-right">Render fotorrealista</span>
+      </div>
+      <p class="photo-modal-hint">Arraste horizontalmente sobre a imagem para comparar o seu modelo 3D personalizado com o render fotorrealista ou a foto real da casa.</p>
+    </div>
+  </div>
 </body>
 </html>

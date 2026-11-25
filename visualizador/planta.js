@@ -3,44 +3,106 @@ import * as THREE from 'three';
 // Cotas de piso acabado no sistema de coordenadas das maquetes exportadas (glTF Y = Blender Z).
 export const floorElevation = { terreo: 0, superior: 2.7, atico: 5.45 };
 
-const catalog = {
-  sofa: { name: 'Sofá', width: 2.1, depth: 0.9, height: 0.85, color: 0x778765, parts: [
-    [0, 0.17, 0, 1, 0.34, 1], [0, 0.43, 0.05, 0.86, 0.19, 0.72],
-    [0, 0.58, -0.39, 1, 0.55, 0.22],
-    [-0.46, 0.42, 0, 0.08, 0.48, 1], [0.46, 0.42, 0, 0.08, 0.48, 1],
-  ] },
-  table: { name: 'Mesa', width: 1.5, depth: 0.85, height: 0.76, color: 0x9d7553, parts: [
-    [0, 0.73, 0, 1, 0.06, 1],
-    [-0.43, 0.35, -0.39, 0.05, 0.7, 0.08], [0.43, 0.35, -0.39, 0.05, 0.7, 0.08],
-    [-0.43, 0.35, 0.39, 0.05, 0.7, 0.08], [0.43, 0.35, 0.39, 0.05, 0.7, 0.08],
-  ] },
-  bed: { name: 'Cama casal', width: 1.58, depth: 1.98, height: 0.9, color: 0xb2a384, parts: [
-    [0, 0.14, 0, 1, 0.28, 1], [0, 0.37, 0.02, 0.97, 0.18, 0.94],
-    [0, 0.45, -0.47, 1, 0.9, 0.06],
-    [-0.25, 0.49, -0.33, 0.41, 0.10, 0.18], [0.25, 0.49, -0.33, 0.41, 0.10, 0.18],
-  ] },
-  single_bed: { name: 'Cama solteiro', width: 0.9, depth: 1.9, height: 0.85, color: 0xc2b8a3, parts: [
-    [0, 0.14, 0, 1, 0.28, 1], [0, 0.36, 0.02, 0.96, 0.18, 0.94],
-    [0, 0.42, -0.47, 1, 0.84, 0.06], [0, 0.48, -0.33, 0.68, 0.10, 0.18],
-  ] },
-  desk: { name: 'Escrivaninha', width: 1.4, depth: 0.65, height: 0.75, color: 0xb89668, parts: [
-    [0, 0.73, 0, 1, 0.05, 1],
-    [-0.47, 0.36, 0, 0.05, 0.72, 0.94], [0.47, 0.36, 0, 0.05, 0.72, 0.94],
-  ] },
-  armchair: { name: 'Poltrona', width: 0.85, depth: 0.85, height: 0.82, color: 0x8a7965, parts: [
-    [0, 0.2, 0, 0.95, 0.4, 0.95], [0, 0.54, -0.38, 0.95, 0.56, 0.22],
-    [-0.43, 0.42, 0, 0.14, 0.45, 0.95], [0.43, 0.42, 0, 0.14, 0.45, 0.95],
-  ] },
-  wardrobe: { name: 'Armário', width: 1.6, depth: 0.6, height: 2.2, color: 0xd0cbbd, parts: [
-    [0, 1.1, 0, 1, 2.2, 1],
-  ] },
-  fridge: { name: 'Geladeira', width: 0.7, depth: 0.7, height: 1.78, color: 0xadb8bd, parts: [
-    [0, 0.89, 0, 1, 1.78, 1],
-  ] },
-  custom: { name: 'Móvel', width: 1.2, depth: 0.6, height: 0.8, color: 0x7aa695, parts: [
-    [0, 0.4, 0, 1, 0.8, 1],
-  ] },
+export const furnitureCatalog = {
+  sofa: {
+    name: 'Sofá', category: 'seating', width: 2.1, depth: 0.9, height: 0.85, color: 0x778765, roughness: 0.85,
+    parts: [
+      [0, 0.17, 0, 1, 0.34, 1], [0, 0.43, 0.05, 0.86, 0.19, 0.72],
+      [0, 0.58, -0.39, 1, 0.55, 0.22],
+      [-0.46, 0.42, 0, 0.08, 0.48, 1], [0.46, 0.42, 0, 0.08, 0.48, 1],
+    ],
+  },
+  armchair: {
+    name: 'Poltrona', category: 'seating', width: 0.85, depth: 0.85, height: 0.82, color: 0xa46c44, roughness: 0.78,
+    parts: [
+      [0, 0.2, 0, 0.95, 0.4, 0.95], [0, 0.54, -0.38, 0.95, 0.56, 0.22],
+      [-0.43, 0.42, 0, 0.14, 0.45, 0.95], [0.43, 0.42, 0, 0.14, 0.45, 0.95],
+    ],
+  },
+  coffee_round: {
+    name: 'Mesa redonda travertino', category: 'coffee_table', shape: 'round', width: 0.95, depth: 0.95, height: 0.40, color: 0xd9cfc1, roughness: 0.65,
+    customBuild: 'round_travertine',
+  },
+  coffee_oak: {
+    name: 'Mesa centro carvalho', category: 'coffee_table', width: 1.14, depth: 0.70, height: 0.40, color: 0xb68a5c, roughness: 0.62,
+    customBuild: 'oak_books',
+  },
+  coffee_glass: {
+    name: 'Mesa vidro e latão', category: 'coffee_table', width: 1.10, depth: 0.65, height: 0.40, color: 0xc59d52, roughness: 0.28,
+    customBuild: 'glass_brass',
+  },
+  table: {
+    name: 'Mesa de jantar', category: 'table', width: 1.5, depth: 0.85, height: 0.76, color: 0x9d7553, roughness: 0.62,
+    parts: [
+      [0, 0.73, 0, 1, 0.06, 1],
+      [-0.43, 0.35, -0.39, 0.05, 0.7, 0.08], [0.43, 0.35, -0.39, 0.05, 0.7, 0.08],
+      [-0.43, 0.35, 0.39, 0.05, 0.7, 0.08], [0.43, 0.35, 0.39, 0.05, 0.7, 0.08],
+    ],
+  },
+  sideboard: {
+    name: 'Aparador / Buffet', category: 'storage', width: 1.60, depth: 0.45, height: 0.80, color: 0x7c5b41, roughness: 0.6,
+    parts: [
+      [0, 0.48, 0, 1, 0.62, 1],
+      [-0.44, 0.09, -0.38, 0.04, 0.18, 0.08], [0.44, 0.09, -0.38, 0.04, 0.18, 0.08],
+      [-0.44, 0.09, 0.38, 0.04, 0.18, 0.08], [0.44, 0.09, 0.38, 0.04, 0.18, 0.08],
+    ],
+  },
+  bed: {
+    name: 'Cama casal', category: 'bed', width: 1.58, depth: 1.98, height: 0.9, color: 0xc8bfb0, roughness: 0.86,
+    parts: [
+      [0, 0.14, 0, 1, 0.28, 1], [0, 0.37, 0.02, 0.97, 0.18, 0.94],
+      [0, 0.45, -0.47, 1, 0.9, 0.06],
+      [-0.25, 0.49, -0.33, 0.41, 0.10, 0.18], [0.25, 0.49, -0.33, 0.41, 0.10, 0.18],
+    ],
+  },
+  single_bed: {
+    name: 'Cama solteiro', category: 'bed', width: 0.9, depth: 1.9, height: 0.85, color: 0xc2b8a3, roughness: 0.86,
+    parts: [
+      [0, 0.14, 0, 1, 0.28, 1], [0, 0.36, 0.02, 0.96, 0.18, 0.94],
+      [0, 0.42, -0.47, 1, 0.84, 0.06], [0, 0.48, -0.33, 0.68, 0.10, 0.18],
+    ],
+  },
+  desk: {
+    name: 'Escrivaninha', category: 'table', width: 1.4, depth: 0.65, height: 0.75, color: 0xb89668, roughness: 0.62,
+    parts: [
+      [0, 0.73, 0, 1, 0.05, 1],
+      [-0.47, 0.36, 0, 0.05, 0.72, 0.94], [0.47, 0.36, 0, 0.05, 0.72, 0.94],
+    ],
+  },
+  wardrobe: {
+    name: 'Armário', category: 'storage', width: 1.6, depth: 0.6, height: 2.2, color: 0xd0cbbd, roughness: 0.58,
+    parts: [
+      [0, 1.1, 0, 1, 2.2, 1],
+    ],
+  },
+  fridge: {
+    name: 'Geladeira', category: 'appliance', width: 0.7, depth: 0.7, height: 1.78, color: 0xadb8bd, roughness: 0.32, metalness: 0.45,
+    parts: [
+      [0, 0.89, 0, 1, 1.78, 1],
+    ],
+  },
+  rug: {
+    name: 'Tapete tecido', category: 'decor', width: 2.2, depth: 1.5, height: 0.025, color: 0xc8bca8, roughness: 0.95,
+    parts: [
+      [0, 0.012, 0, 1, 0.024, 1],
+    ],
+  },
+  plant: {
+    name: 'Planta em vaso', category: 'decor', shape: 'round', width: 0.48, depth: 0.48, height: 1.18, color: 0x4e7a52, roughness: 0.72,
+    customBuild: 'plant_pot',
+  },
+  lamp: {
+    name: 'Luminária piso', category: 'lighting', shape: 'round', width: 0.42, depth: 0.42, height: 1.62, color: 0xdcb978, roughness: 0.35,
+    customBuild: 'floor_lamp',
+  },
+  custom: {
+    name: 'Móvel', category: 'custom', width: 1.2, depth: 0.6, height: 0.8, color: 0x7aa695, roughness: 0.7,
+    parts: [
+      [0, 0.4, 0, 1, 0.8, 1],
+    ],
+  },
 };
+const catalog = furnitureCatalog;
 
 const roomLabels = {
   terreo: [
@@ -134,7 +196,10 @@ function sectionLines(node, height) {
   return lines;
 }
 
-export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpdate }) {
+export function createPlan({
+  layers, scene, variant, requestFrame, onMeasureUpdate,
+  onSelectionChange, onFurnitureChange,
+}) {
   const canvas = document.querySelector('#plan-canvas');
   const context = canvas.getContext('2d');
   const title = document.querySelector('#plan-title');
@@ -159,11 +224,12 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
   const outlines = new Map();
   const furniture = [];
   const group = new THREE.Group();
-  const highlight = new THREE.MeshLambertMaterial({ color: 0x3574a5 });
+  const highlight = new THREE.MeshStandardMaterial({ color: 0x62b4d9, roughness: 0.45, metalness: 0.08 });
   const box = new THREE.BoxGeometry();
   const storageKey = `sobrado.estudo-mobiliario.${variant}`;
   scene.add(group);
 
+  let nextItemId = 1;
   let floor = 'terreo';
   let visibleFloor = 'full';
   let selected = null;
@@ -181,36 +247,194 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
   let movedDuringDrag = false;
   let showParkingGuides = true;
   let showParkingCar = true;
+  let emptyHidden = false;
 
   function itemDimensions(entry) {
     const spec = catalog[entry.type] ?? catalog.custom;
     const width = Number.isFinite(entry.width) && entry.width >= 0.2 ? entry.width : spec.width;
     const depth = Number.isFinite(entry.depth) && entry.depth >= 0.2 ? entry.depth : spec.depth;
-    return { width, depth, spec };
+    const height = Number.isFinite(entry.height) && entry.height >= 0.02 ? entry.height : spec.height;
+    return { width, depth, height, spec };
+  }
+
+  function disposeModelGeometry(model, extraMaterials) {
+    model.traverse((node) => {
+      if (node.isMesh && node.geometry && node.geometry !== box) {
+        node.geometry.dispose();
+      }
+    });
+    for (const m of extraMaterials ?? []) m.dispose();
+  }
+
+  function populateModel(model, spec, width, depth, height, material) {
+    const extraMaterials = [];
+    const addPart = (mesh, isPrimary = true) => {
+      mesh.castShadow = height > 0.05;
+      mesh.receiveShadow = true;
+      mesh.userData.isPrimaryMat = isPrimary;
+      model.add(mesh);
+    };
+
+    if (spec.customBuild === 'round_travertine') {
+      const r = Math.min(width, depth) / 2;
+      const top = new THREE.Mesh(new THREE.CylinderGeometry(r, r, 0.055, 28), material);
+      top.position.y = height - 0.028;
+      const ped = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.42, r * 0.48, height - 0.055, 22), material);
+      ped.position.y = (height - 0.055) / 2;
+      addPart(top, true);
+      addPart(ped, true);
+    } else if (spec.customBuild === 'oak_books') {
+      const top = new THREE.Mesh(box, material);
+      top.position.set(0, height - 0.03, 0);
+      top.scale.set(width, 0.06, depth);
+      addPart(top, true);
+      const legMat = new THREE.MeshStandardMaterial({ color: 0x3b352f, roughness: 0.55, metalness: 0.25 });
+      extraMaterials.push(legMat);
+      for (const sx of [-0.42, 0.42]) {
+        for (const sz of [-0.38, 0.38]) {
+          const leg = new THREE.Mesh(box, legMat);
+          leg.position.set(sx * width, (height - 0.06) / 2, sz * depth);
+          leg.scale.set(0.05, height - 0.06, 0.05);
+          addPart(leg, false);
+        }
+      }
+      // Pilha de livros decorativos (como no vídeo referência)
+      const bookColors = [0xd8d0c4, 0x5c6f5e, 0xb88b61];
+      bookColors.forEach((col, i) => {
+        const bm = new THREE.MeshStandardMaterial({ color: col, roughness: 0.78 });
+        extraMaterials.push(bm);
+        const book = new THREE.Mesh(box, bm);
+        book.position.set(-width * 0.14, height + 0.015 + i * 0.028, depth * 0.06);
+        book.rotation.y = (i - 1) * 0.11;
+        book.scale.set(0.28 - i * 0.02, 0.024, 0.21 - i * 0.015);
+        addPart(book, false);
+      });
+    } else if (spec.customBuild === 'glass_brass') {
+      const glassMat = new THREE.MeshPhysicalMaterial({
+        color: 0xdaf0f5, transparent: true, opacity: 0.42, roughness: 0.08, metalness: 0.05,
+      });
+      extraMaterials.push(glassMat);
+      const top = new THREE.Mesh(box, glassMat);
+      top.position.set(0, height - 0.015, 0);
+      top.scale.set(width, 0.022, depth);
+      addPart(top, false);
+      const frame = new THREE.Mesh(box, material);
+      frame.position.set(0, height - 0.036, 0);
+      frame.scale.set(width * 0.96, 0.02, depth * 0.96);
+      addPart(frame, true);
+      for (const sx of [-0.45, 0.45]) {
+        for (const sz of [-0.42, 0.42]) {
+          const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.014, 0.014, height - 0.03, 12), material);
+          leg.position.set(sx * width, (height - 0.03) / 2, sz * depth);
+          addPart(leg, true);
+        }
+      }
+    } else if (spec.customBuild === 'plant_pot') {
+      const potR = Math.min(width, depth) * 0.36;
+      const potMat = new THREE.MeshStandardMaterial({ color: 0xcabca9, roughness: 0.78 });
+      const soilMat = new THREE.MeshStandardMaterial({ color: 0x3b2f26, roughness: 0.95 });
+      extraMaterials.push(potMat, soilMat);
+      const pot = new THREE.Mesh(new THREE.CylinderGeometry(potR, potR * 0.78, height * 0.34, 18), potMat);
+      pot.position.y = height * 0.17;
+      addPart(pot, false);
+      const soil = new THREE.Mesh(new THREE.CylinderGeometry(potR * 0.92, potR * 0.92, 0.03, 16), soilMat);
+      soil.position.y = height * 0.33;
+      addPart(soil, false);
+      const crownOffsets = [
+        [0, height * 0.68, 0, potR * 1.18],
+        [potR * 0.52, height * 0.58, potR * 0.3, potR * 0.85],
+        [-potR * 0.48, height * 0.62, -potR * 0.32, potR * 0.88],
+        [potR * 0.25, height * 0.82, -potR * 0.28, potR * 0.75],
+      ];
+      for (const [ox, oy, oz, rad] of crownOffsets) {
+        const leaf = new THREE.Mesh(new THREE.DodecahedronGeometry(rad, 1), material);
+        leaf.position.set(ox, oy, oz);
+        addPart(leaf, true);
+      }
+    } else if (spec.customBuild === 'floor_lamp') {
+      const r = Math.min(width, depth) * 0.45;
+      const baseMat = new THREE.MeshStandardMaterial({ color: 0x26282b, roughness: 0.42, metalness: 0.55 });
+      const shadeMat = new THREE.MeshStandardMaterial({
+        color: 0xf7ecd7, emissive: 0xffd596, emissiveIntensity: 0.48, roughness: 0.85, side: THREE.DoubleSide,
+      });
+      extraMaterials.push(baseMat, shadeMat);
+      const base = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.72, r * 0.78, 0.03, 20), baseMat);
+      base.position.y = 0.015;
+      addPart(base, false);
+      const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.016, 0.016, height * 0.84, 12), material);
+      stem.position.y = height * 0.42;
+      addPart(stem, true);
+      const shade = new THREE.Mesh(new THREE.CylinderGeometry(r * 0.68, r, height * 0.22, 22, 1, true), shadeMat);
+      shade.position.y = height * 0.88;
+      addPart(shade, false);
+    } else {
+      for (const [rx, y, rz, rw, h, rd] of spec.parts) {
+        const mesh = new THREE.Mesh(box, material);
+        mesh.position.set(rx * width, y, rz * depth);
+        mesh.scale.set(rw * width, h, rd * depth);
+        addPart(mesh, true);
+      }
+    }
+    return extraMaterials;
   }
 
   function build(entry) {
-    const { width, depth, spec } = itemDimensions(entry);
+    const { width, depth, height, spec } = itemDimensions(entry);
     const model = new THREE.Group();
-    const material = new THREE.MeshLambertMaterial({ color: spec.color });
-    for (const [rx, y, rz, rw, h, rd] of spec.parts) {
-      const mesh = new THREE.Mesh(box, material);
-      mesh.position.set(rx * width, y, rz * depth);
-      mesh.scale.set(rw * width, h, rd * depth);
-      model.add(mesh);
-    }
-    const item = { ...entry, width, depth, model, material };
+    const baseColor = Number.isFinite(entry.color) ? entry.color : spec.color;
+    const material = new THREE.MeshStandardMaterial({
+      color: baseColor,
+      roughness: spec.roughness ?? 0.72,
+      metalness: spec.metalness ?? (spec.customBuild === 'glass_brass' ? 0.72 : 0.06),
+    });
+    const extraMaterials = populateModel(model, spec, width, depth, height, material);
+    const id = entry.id ?? `mob-${nextItemId++}`;
+    const item = {
+      id,
+      type: entry.type,
+      floor: entry.floor,
+      x: entry.x,
+      z: entry.z,
+      angle: entry.angle ?? 0,
+      width,
+      depth,
+      height,
+      color: baseColor,
+      finish: entry.finish ?? null,
+      label: entry.label ?? null,
+      model,
+      material,
+      extraMaterials,
+    };
+    model.userData.furnitureId = id;
     group.add(model);
     furniture.push(item);
     return item;
   }
 
-  function writeStudies() {
-    const entries = furniture.map(({ type, floor: f, x, z, angle, width, depth }) => ({
-      type, floor: f, x, z, angle, width, depth,
+  function rebuildItemMesh(item) {
+    const { width, depth, height, spec } = itemDimensions(item);
+    item.width = width;
+    item.depth = depth;
+    item.height = height;
+    disposeModelGeometry(item.model, item.extraMaterials);
+    item.model.clear();
+    item.material.color.setHex(Number.isFinite(item.color) ? item.color : spec.color);
+    item.material.roughness = spec.roughness ?? 0.72;
+    item.material.metalness = spec.metalness ?? (spec.customBuild === 'glass_brass' ? 0.72 : 0.06);
+    item.material.needsUpdate = true;
+    item.extraMaterials = populateModel(item.model, spec, width, depth, height, item.material);
+  }
+
+  function serializeEntries() {
+    return furniture.map(({ id, type, floor: f, x, z, angle, width, depth, color, finish, label }) => ({
+      id, type, floor: f, x, z, angle, width, depth, color, finish, label,
     }));
+  }
+
+  function writeStudies() {
     try {
-      localStorage.setItem(storageKey, JSON.stringify(entries));
+      localStorage.setItem(storageKey, JSON.stringify(serializeEntries()));
       return true;
     } catch {
       return false;
@@ -220,6 +444,7 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
   function loadEntries(entries) {
     for (const item of furniture) {
       group.remove(item.model);
+      disposeModelGeometry(item.model, item.extraMaterials);
       item.material.dispose();
     }
     furniture.length = 0;
@@ -229,8 +454,8 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
       const bounds = layers.get(entry?.floor)?.box;
       if (Object.hasOwn(catalog, entry?.type) && Object.hasOwn(floorElevation, entry?.floor) &&
         bounds && [entry.x, entry.z, entry.angle].every(Number.isFinite) &&
-        entry.x >= bounds.min.x && entry.x <= bounds.max.x &&
-        entry.z >= bounds.min.z && entry.z <= bounds.max.z) {
+        entry.x >= bounds.min.x - 0.5 && entry.x <= bounds.max.x + 0.5 &&
+        entry.z >= bounds.min.z - 0.5 && entry.z <= bounds.max.z + 0.5) {
         build(entry);
       }
     }
@@ -246,8 +471,12 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
     for (const item of furniture) {
       item.model.position.set(item.x, floorElevation[item.floor] + 0.01, item.z);
       item.model.rotation.y = -item.angle;
-      item.model.visible = visibleFloor === 'full' || visibleFloor === item.floor;
-      for (const mesh of item.model.children) mesh.material = selected === item ? highlight : item.material;
+      item.model.visible = !emptyHidden && (visibleFloor === 'full' || visibleFloor === item.floor);
+      for (const mesh of item.model.children) {
+        if (mesh.userData.isPrimaryMat !== false) {
+          mesh.material = selected === item && shown ? highlight : item.material;
+        }
+      }
     }
     requestFrame();
   }
@@ -497,22 +726,30 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
     }
 
     for (const item of furniture) {
-      if (item.floor !== floor) continue;
+      if (emptyHidden || item.floor !== floor) continue;
       const { width: w, depth: d } = item;
+      const spec = catalog[item.type] ?? catalog.custom;
       context.save();
       context.translate(x(item.x), y(item.z));
       context.rotate(item.angle);
       context.fillStyle = selected === item ? '#83c7ef4d' : color('--selected');
       context.strokeStyle = selected === item ? '#a6d9fc' : color('--accent');
       context.lineWidth = selected === item ? 2 : 1;
-      context.fillRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
-      context.strokeRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
+      if (spec.shape === 'round') {
+        context.beginPath();
+        context.ellipse(0, 0, w * scale / 2, d * scale / 2, 0, 0, Math.PI * 2);
+        context.fill();
+        context.stroke();
+      } else {
+        context.fillRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
+        context.strokeRect(-w * scale / 2, -d * scale / 2, w * scale, d * scale);
+      }
       if (w * scale > 28) {
         context.fillStyle = color('--ink');
         context.font = '10px "Segoe UI", sans-serif';
         context.textAlign = 'center';
         context.textBaseline = 'middle';
-        context.fillText(catalog[item.type].name, 0, 0);
+        context.fillText(item.label ?? spec.name, 0, 0);
       }
       context.restore();
     }
@@ -595,10 +832,31 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
     context.fillText(`${formatMeters.format(meters)} m`, 14, height - 22);
   }
 
-  function refresh(message) {
+  function refresh(message, { notify = true } = {}) {
     setControls(message);
     updateModels();
     draw();
+    if (notify) onSelectionChange?.(selected);
+  }
+
+  function removeItem(item, { silent = false } = {}) {
+    if (!item) return false;
+    const idx = furniture.indexOf(item);
+    if (idx < 0) return false;
+    group.remove(item.model);
+    disposeModelGeometry(item.model, item.extraMaterials);
+    item.material.dispose();
+    furniture.splice(idx, 1);
+    if (selected === item) {
+      selected = null;
+      mode = null;
+    }
+    const saved = writeStudies();
+    if (!silent) {
+      onFurnitureChange?.();
+      refresh(saved ? 'Móvel removido do estudo.' : 'Móvel removido nesta sessão. O navegador não permitiu salvar.');
+    }
+    return true;
   }
 
   function applyPoint(rawX, rawZ) {
@@ -735,6 +993,7 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
     if (!selected) return;
     selected.angle = (selected.angle + radians) % (2 * Math.PI);
     const saved = writeStudies();
+    onFurnitureChange?.();
     refresh(saved ? undefined : 'Rotação atualizada nesta sessão. O navegador não permitiu salvar.');
   }
 
@@ -742,22 +1001,12 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
   move.addEventListener('click', () => edit('move'), { signal });
   rotateFine.addEventListener('click', () => rotateSelected(Math.PI / 12), { signal });
   rotate.addEventListener('click', () => rotateSelected(Math.PI / 4), { signal });
-  remove.addEventListener('click', () => {
-    if (!selected) return;
-    group.remove(selected.model);
-    selected.material.dispose();
-    furniture.splice(furniture.indexOf(selected), 1);
-    selected = mode = null;
-    const saved = writeStudies();
-    refresh(saved ? 'Móvel removido do estudo.' : 'Móvel removido nesta sessão. O navegador não permitiu salvar.');
-  }, { signal });
+  remove.addEventListener('click', () => removeItem(selected), { signal });
   labelsToggle?.addEventListener('change', draw, { signal });
   exportBtn?.addEventListener('click', () => {
     const data = JSON.stringify({
       variant,
-      entries: furniture.map(({ type, floor: f, x, z, angle, width, depth }) => ({
-        type, floor: f, x, z, angle, width, depth,
-      })),
+      entries: serializeEntries(),
     }, null, 2);
     const blob = new Blob([data], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -777,6 +1026,7 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
       const entries = Array.isArray(parsed) ? parsed : parsed?.entries;
       loadEntries(entries);
       writeStudies();
+      onFurnitureChange?.();
       refresh(`Estudo importado (${furniture.length} móvel/is).`);
     } catch {
       setControls('Arquivo JSON inválido para estudo de mobiliário.');
@@ -799,8 +1049,8 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
   return {
     setVisible(visible) {
       shown = visible;
-      if (!visible) { mode = selected = cursor = null; }
-      refresh();
+      if (!visible) { mode = cursor = null; }
+      refresh(undefined, { notify: false });
     },
     setFloor(next, shownIn3D = next) {
       visibleFloor = shownIn3D;
@@ -809,13 +1059,13 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
       if (floor !== nextFloor) {
         floor = nextFloor;
         title.textContent = floorLabels[floor] ?? floor;
-        mode = selected = cursor = null;
+        mode = cursor = null;
         zoom = 1;
         panX = 0;
         panY = 0;
         measurePoints = [];
       }
-      refresh();
+      refresh(undefined, { notify: false });
     },
     setCameraPose(pose) {
       cameraPose = pose;
@@ -824,11 +1074,11 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
     setMeasuring(active) {
       measuring = active;
       if (!active) measurePoints = [];
-      refresh();
+      refresh(undefined, { notify: false });
     },
     clearMeasure() {
       measurePoints = [];
-      refresh();
+      refresh(undefined, { notify: false });
     },
     invalidateOutlines() {
       outlines.clear();
@@ -838,6 +1088,151 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
       showParkingGuides = Boolean(showGuides);
       showParkingCar = Boolean(showCar);
       if (shown) draw();
+    },
+    setEmptyHidden(hidden) {
+      emptyHidden = Boolean(hidden);
+      if (emptyHidden) selected = null;
+      refresh();
+    },
+    getCatalog() { return catalog; },
+    getItems() { return furniture.slice(); },
+    getSnapshot() { return serializeEntries(); },
+    restoreSnapshot(entries) {
+      loadEntries(entries);
+      writeStudies();
+      refresh();
+    },
+    getSelected() { return selected; },
+    selectItem(itemOrId) {
+      const target = typeof itemOrId === 'string'
+        ? furniture.find((i) => i.id === itemOrId) ?? null
+        : (furniture.includes(itemOrId) ? itemOrId : null);
+      selected = target;
+      refresh();
+      return selected;
+    },
+    clearSelection() {
+      if (!selected) return;
+      selected = null;
+      refresh();
+    },
+    addItem(entry) {
+      if (furniture.length >= 80) return null;
+      const spec = catalog[entry.type] ?? catalog.custom;
+      const f = Object.hasOwn(floorElevation, entry.floor) ? entry.floor : floor;
+      const item = build({
+        type: Object.hasOwn(catalog, entry.type) ? entry.type : 'custom',
+        floor: f,
+        x: entry.x,
+        z: entry.z,
+        angle: entry.angle ?? 0,
+        width: entry.width ?? spec.width,
+        depth: entry.depth ?? spec.depth,
+        color: entry.color ?? spec.color,
+        finish: entry.finish ?? null,
+        label: entry.label ?? null,
+      });
+      selected = item;
+      writeStudies();
+      onFurnitureChange?.();
+      refresh();
+      return item;
+    },
+    updateSelected(patch = {}) {
+      if (!selected) return null;
+      let needsRebuild = false;
+      if (patch.type && Object.hasOwn(catalog, patch.type) && patch.type !== selected.type) {
+        const nextSpec = catalog[patch.type];
+        selected.type = patch.type;
+        if (!Number.isFinite(patch.width)) selected.width = nextSpec.width;
+        if (!Number.isFinite(patch.depth)) selected.depth = nextSpec.depth;
+        if (!Number.isFinite(patch.height)) selected.height = nextSpec.height;
+        if (!Number.isFinite(patch.color)) selected.color = nextSpec.color;
+        if (patch.label === undefined) selected.label = null;
+        needsRebuild = true;
+      }
+      if (Number.isFinite(patch.width)) { selected.width = THREE.MathUtils.clamp(patch.width, 0.2, 5); needsRebuild = true; }
+      if (Number.isFinite(patch.depth)) { selected.depth = THREE.MathUtils.clamp(patch.depth, 0.2, 5); needsRebuild = true; }
+      if (Number.isFinite(patch.height)) { selected.height = THREE.MathUtils.clamp(patch.height, 0.02, 3); needsRebuild = true; }
+      if (Number.isFinite(patch.color)) { selected.color = patch.color; needsRebuild = true; }
+      if (patch.finish !== undefined) selected.finish = patch.finish;
+      if (patch.label !== undefined) selected.label = patch.label;
+      if (Number.isFinite(patch.x)) selected.x = patch.x;
+      if (Number.isFinite(patch.z)) selected.z = patch.z;
+      if (Number.isFinite(patch.angle)) selected.angle = patch.angle % (2 * Math.PI);
+      if (needsRebuild) rebuildItemMesh(selected);
+      writeStudies();
+      onFurnitureChange?.();
+      refresh();
+      return selected;
+    },
+    rotateSelected,
+    duplicateSelected() {
+      if (!selected || furniture.length >= 80) return null;
+      return this.addItem({
+        type: selected.type,
+        floor: selected.floor,
+        x: selected.x + 0.35,
+        z: selected.z + 0.35,
+        angle: selected.angle,
+        width: selected.width,
+        depth: selected.depth,
+        color: selected.color,
+        finish: selected.finish,
+        label: selected.label,
+      });
+    },
+    removeSelected() { return removeItem(selected); },
+    removeItemById(id) { return removeItem(furniture.find((i) => i.id === id) ?? null); },
+    moveSelectedTo(rawX, rawZ, useSnap = true) {
+      if (!selected) return;
+      const bounds = layers.get(selected.floor)?.box;
+      const nx = useSnap ? Math.round(rawX * 20) / 20 : rawX;
+      const nz = useSnap ? Math.round(rawZ * 20) / 20 : rawZ;
+      if (bounds) {
+        selected.x = THREE.MathUtils.clamp(nx, bounds.min.x + 0.15, bounds.max.x - 0.15);
+        selected.z = THREE.MathUtils.clamp(nz, bounds.min.z + 0.15, bounds.max.z - 0.15);
+      } else {
+        selected.x = nx;
+        selected.z = nz;
+      }
+      writeStudies();
+      refresh();
+    },
+    rearrangeRoom(roomBounds, targetFloor = 'terreo') {
+      const items = furniture.filter((i) =>
+        i.floor === targetFloor &&
+        i.x >= roomBounds.minX && i.x <= roomBounds.maxX &&
+        i.z >= roomBounds.minZ && i.z <= roomBounds.maxZ);
+      if (!items.length) return 0;
+      const cx = (roomBounds.minX + roomBounds.maxX) / 2;
+      const cz = (roomBounds.minZ + roomBounds.maxZ) / 2;
+      for (const item of items) {
+        const dx = item.x - cx;
+        const dz = item.z - cz;
+        item.x = THREE.MathUtils.clamp(cx - dz * 0.75, roomBounds.minX + 0.35, roomBounds.maxX - 0.35);
+        item.z = THREE.MathUtils.clamp(cz + dx * 0.75, roomBounds.minZ + 0.35, roomBounds.maxZ - 0.35);
+        item.angle = (item.angle + Math.PI / 2) % (2 * Math.PI);
+      }
+      writeStudies();
+      onFurnitureChange?.();
+      refresh();
+      return items.length;
+    },
+    pickInScene3D(raycaster) {
+      if (emptyHidden) return null;
+      const visibleItems = furniture.filter((item) => item.model.visible);
+      if (!visibleItems.length) return null;
+      const hit = raycaster.intersectObjects(visibleItems.map((item) => item.model), true)[0];
+      if (!hit) return null;
+      let obj = hit.object;
+      while (obj && obj.parent && !obj.userData?.furnitureId) obj = obj.parent;
+      const found = visibleItems.find((item) => item.model === obj || item.id === obj?.userData?.furnitureId) ?? null;
+      if (found) {
+        selected = found;
+        refresh();
+      }
+      return found;
     },
     pickInScene(raycaster) {
       if (!shown) return;
@@ -850,7 +1245,9 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
       const itemsOnFloor = furniture.filter((item) => item.floor === floor);
       const hit = raycaster.intersectObjects(itemsOnFloor.map((item) => item.model), true)[0];
       if (hit) {
-        selected = itemsOnFloor.find((item) => item.model === hit.object.parent);
+        let obj = hit.object;
+        while (obj && obj.parent && !obj.userData?.furnitureId) obj = obj.parent;
+        selected = itemsOnFloor.find((item) => item.model === obj) ?? null;
         refresh();
       }
     },
@@ -858,7 +1255,10 @@ export function createPlan({ layers, scene, variant, requestFrame, onMeasureUpda
     dispose() {
       ac.abort();
       resizeObserver.disconnect();
-      for (const item of furniture) item.material.dispose();
+      for (const item of furniture) {
+        disposeModelGeometry(item.model, item.extraMaterials);
+        item.material.dispose();
+      }
       highlight.dispose();
       box.dispose();
       scene.remove(group);

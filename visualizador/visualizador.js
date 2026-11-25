@@ -3,10 +3,12 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-import { createSheetStyle } from './prancha.js?v=20261123v10';
-import { createPlan, floorElevation } from './planta.js?v=20261123v10';
+import { createSheetStyle } from './prancha.js?v=20261124v13';
+import { createPlan, floorElevation } from './planta.js?v=20261124v13';
+import { createPersonalizer } from './personalizador.js?v=20261124v13';
+import { createFilmStudio } from './filme.js?v=20261124v13';
 
-const ASSET_VERSION = '20261123v10';
+const ASSET_VERSION = '20261124v13';
 
 const canvas = document.querySelector('#canvas');
 const modelSelect = document.querySelector('#model-version');
@@ -37,6 +39,21 @@ const presentationButtons = [...document.querySelectorAll('[data-presentation]')
 const arrangementButtons = [...document.querySelectorAll('[data-arrangement][type="button"]')];
 const orientationButtons = [...document.querySelectorAll('[data-orientation]')];
 const lightingButtons = [...document.querySelectorAll('[data-lighting]')];
+const walkButton = document.querySelector('#view-mode-walk');
+const clayButton = document.querySelector('#studio-mode-clay');
+const filmButton = document.querySelector('#studio-mode-film');
+const toneMappingButton = document.querySelector('#tone-mapping-toggle');
+const sceneXrayEl = document.querySelector('#studio-scene-xray');
+const studioActionControls = [
+  walkButton,
+  clayButton,
+  filmButton,
+  document.querySelector('#studio-mode-renovate'),
+  document.querySelector('#studio-mode-empty'),
+  document.querySelector('#studio-mode-photo'),
+  document.querySelector('#studio-style-select'),
+  document.querySelector('#studio-list-toggle'),
+].filter(Boolean);
 const sunControl = document.querySelector('#sun-control');
 const sunAngle = document.querySelector('#sun-angle');
 const measureToggle = document.querySelector('#measure-toggle');
@@ -244,7 +261,11 @@ async function start() {
   let roofPreferred = initialRoof;
   let wallMode = ['solid', 'glass', 'hidden'].includes(parameters.get('paredes')) ? parameters.get('paredes') : 'glass';
   let navigation = parameters.get('vista') === 'prancha' ? 'orbit' : 'free';
-  let lightingMode = parameters.get('luz') === 'night' ? 'night' : 'day';
+  let lightingMode = ['day', 'dusk', 'night'].includes(parameters.get('luz')) ? parameters.get('luz') : 'day';
+  let toneMappingMode = 'agx'; // 'agx' | 'neutral' (Khronos PBR Neutral)
+  let studioLightFactor = 1.0;
+  let studio = null;
+  let film = null;
   let activePreset = null;
   let orientation = 'isometric';
   let modelReady = false;
@@ -359,9 +380,23 @@ async function start() {
     if (active) showToast('Trena ativa: clique em dois pontos no 3D ou na planta');
   }
 
+  function applyToneMapping() {
+    const isNeutral = toneMappingMode === 'neutral';
+    renderer.toneMapping = isNeutral && THREE.NeutralToneMapping
+      ? THREE.NeutralToneMapping
+      : THREE.AgXToneMapping;
+    if (toneMappingButton) {
+      toneMappingButton.textContent = isNeutral ? 'PBR Neutral' : 'AgX';
+      toneMappingButton.setAttribute('aria-pressed', String(isNeutral));
+    }
+    requestFrame();
+  }
+
   function applyLighting() {
     document.body.dataset.lighting = lightingMode;
     const isNight = lightingMode === 'night';
+    const isDusk = lightingMode === 'dusk';
+    const lf = THREE.MathUtils.clamp(studioLightFactor, 0.45, 1.5);
     for (const button of lightingButtons) {
       button.setAttribute('aria-pressed', String(button.dataset.lighting === lightingMode));
     }
@@ -369,29 +404,82 @@ async function start() {
     if (isNight) {
       sky.color.setHex(0x283a52);
       sky.groundColor.setHex(0x10151c);
-      sky.intensity = 0.48;
+      sky.intensity = 0.48 * lf;
       sun.color.setHex(0x7ca2d6);
-      sun.intensity = 0.45;
+      sun.intensity = 0.45 * lf;
       sun.position.set(8, 15, -9);
-      fill.intensity = 0.18;
-      scene.environmentIntensity = 0.18;
-      renderer.toneMappingExposure = 1.05;
+      fill.intensity = 0.18 * lf;
+      scene.environmentIntensity = 0.18 * lf;
+      renderer.toneMappingExposure = 1.05 * Math.sqrt(lf);
       nightLightsGroup.visible = true;
+      for (const pt of nightLightsGroup.children) pt.intensity = 3.8;
+    } else if (isDusk) {
+      // Look Crepúsculo / Pôr do sol (Step 7 Nyxera0x: sol baixo quente + céu azulado + luzes internas a meia força)
+      const rad = THREE.MathUtils.degToRad(Number(sunAngle.value));
+      sky.color.setHex(0x6e8cb8);
+      sky.groundColor.setHex(0x2e2933);
+      sky.intensity = 0.88 * lf;
+      sun.color.setHex(0xff9c54);
+      sun.intensity = 2.35 * lf;
+      sun.position.set(3.2 + Math.cos(rad) * 18, 5.2, -4 + Math.sin(rad) * 18);
+      fill.color.setHex(0x7d9fd1);
+      fill.intensity = 0.42 * lf;
+      scene.environmentIntensity = 0.38 * lf;
+      renderer.toneMappingExposure = 1.10 * Math.sqrt(lf);
+      nightLightsGroup.visible = true;
+      for (const pt of nightLightsGroup.children) pt.intensity = 2.2;
     } else {
       const rad = THREE.MathUtils.degToRad(Number(sunAngle.value));
       sky.color.setHex(0xfff8e9);
       sky.groundColor.setHex(0xb1bac0);
-      sky.intensity = 1.5;
+      sky.intensity = 1.5 * lf;
       sun.color.setHex(0xffead3);
-      sun.intensity = 2.05;
+      sun.intensity = 2.05 * lf;
       sun.position.set(3.2 + Math.cos(rad) * 14, 17, -4 + Math.sin(rad) * 14);
-      fill.intensity = 0.65;
-      scene.environmentIntensity = 0.63;
-      renderer.toneMappingExposure = 1.12;
+      fill.color.setHex(0xe3ecff);
+      fill.intensity = 0.65 * lf;
+      scene.environmentIntensity = 0.63 * lf;
+      renderer.toneMappingExposure = 1.12 * Math.sqrt(lf);
       nightLightsGroup.visible = false;
     }
+    applyToneMapping();
     renderer.shadowMap.needsUpdate = true;
     requestFrame();
+  }
+
+  function renderSceneXray(stats) {
+    if (!sceneXrayEl) return;
+    if (!stats) { sceneXrayEl.innerHTML = ''; return; }
+    const fmt = new Intl.NumberFormat('pt-BR');
+    const maxStageMeshes = Math.max(1, ...stats.stages.map((s) => s.meshes));
+    const stageRows = stats.stages
+      .filter((s) => s.meshes > 0)
+      .map((s) => {
+        const pct = Math.max(6, Math.round((s.meshes / maxStageMeshes) * 100));
+        return `
+          <div class="xray-stage-row">
+            <div class="xray-stage-head">
+              <span><i class="xray-dot" style="background:${s.color}"></i>${s.label}</span>
+              <small>${s.meshes} peças · ${fmt.format(s.triangles)} tri</small>
+            </div>
+            <div class="xray-bar"><span style="width:${pct}%;background:${s.color}"></span></div>
+          </div>`;
+      }).join('');
+    const heavyRows = stats.heaviest
+      .map((h) => `<li><span>${h.material || h.name}</span><small>${fmt.format(h.triangles)} tri</small></li>`)
+      .join('');
+    sceneXrayEl.innerHTML = `
+      <div class="xray-summary">
+        <div><strong>${fmt.format(stats.totalMeshes)}</strong><span>Malhas</span></div>
+        <div><strong>${fmt.format(stats.totalTriangles)}</strong><span>Triângulos</span></div>
+        <div><strong>${fmt.format(stats.totalMaterials)}</strong><span>Materiais</span></div>
+      </div>
+      <div class="xray-stages">${stageRows}</div>
+      <details class="xray-heavy">
+        <summary>Maiores malhas por polígonos (VRAM)</summary>
+        <ul>${heavyRows}</ul>
+      </details>
+    `;
   }
 
   function updateLegend() {
@@ -1362,6 +1450,7 @@ async function start() {
     if (event.isPrimary && event.button === 0) {
       canvas.focus({ preventScroll: true });
       clickStart = [event.clientX, event.clientY];
+      film?.pauseCameraOnUserDrag();
     }
   });
   canvas.addEventListener('pointercancel', () => { clickStart = null; });
@@ -1397,6 +1486,12 @@ async function start() {
         const found = networkItems.find((i) => i.mesh === hit.object);
         if (found) { showInspection(found); return; }
       }
+    }
+
+    if (studio?.isRenovateMode()) {
+      pointerInScene.set(nx, ny);
+      sceneRay.setFromCamera(pointerInScene, camera);
+      if (studio.handleSceneClick(sceneRay)) return;
     }
 
     if (arrangement === 'dupla') {
@@ -1449,11 +1544,22 @@ async function start() {
     button.addEventListener('click', () => selectView(button.dataset.floor));
   }
   overview.addEventListener('click', () => {
+    studio?.setWalkMode(false);
     roofPreferred = initialRoof;
     wallMode = 'glass';
     cutEnabled.checked = false;
     clearInspection();
     selectView('full');
+  });
+  walkButton?.addEventListener('click', () => {
+    if (!modelReady) return;
+    if (arrangement === 'planta') {
+      setArrangement('3d');
+      replaceParameter('arranjo', null);
+    }
+    if (presentation === 'prancha') setPresentation('model');
+    if (navigation !== 'free') setNavigation('free');
+    studio?.setWalkMode(!studio.isWalkMode());
   });
   roof.addEventListener('change', () => {
     roofPreferred = roof.checked;
@@ -1500,9 +1606,38 @@ async function start() {
   for (const button of lightingButtons) {
     button.addEventListener('click', () => {
       lightingMode = button.dataset.lighting;
+      // Crepúsculo usa Khronos PBR Neutral automaticamente para preservar o laranja do pôr do sol (dica Nyxera0x).
+      if (lightingMode === 'dusk') toneMappingMode = 'neutral';
       applyLighting();
     });
   }
+  toneMappingButton?.addEventListener('click', () => {
+    toneMappingMode = toneMappingMode === 'agx' ? 'neutral' : 'agx';
+    applyToneMapping();
+    showToast(toneMappingMode === 'neutral'
+      ? 'Curva Khronos PBR Neutral ativa (cores reais no pôr do sol)'
+      : 'Curva AgX cinematográfica ativa');
+  });
+  clayButton?.addEventListener('click', () => {
+    if (!modelReady || !film) return;
+    const next = film.setClayMode(!film.isClayMode());
+    clayButton.setAttribute('aria-pressed', String(next));
+  });
+  filmButton?.addEventListener('click', () => {
+    if (!modelReady || !film) return;
+    if (film.isFilmActive()) {
+      film.exitFilm();
+      return;
+    }
+    if (arrangement !== '3d') {
+      setArrangement('3d');
+      replaceParameter('arranjo', null);
+    }
+    if (presentation === 'prancha') setPresentation('model');
+    studio?.setWalkMode(false);
+    selectView('full', null, { reframe: false });
+    film.startFilm();
+  });
   sunAngle.addEventListener('input', applyLighting);
 
   exportPng.addEventListener('click', () => {
@@ -1548,6 +1683,7 @@ async function start() {
   for (const button of arrangementButtons) {
     button.disabled = true;
     button.addEventListener('click', () => {
+      studio?.setWalkMode(false);
       setArrangement(button.dataset.arrangement);
       replaceParameter('arranjo', arrangement === '3d' ? null : arrangement);
     });
@@ -1577,6 +1713,41 @@ async function start() {
     const next = modelSelect.value;
     if (next === variant) return;
     loadModel(next, { preserveCamera: true });
+  });
+
+  studio = createPersonalizer({
+    scene,
+    renderer,
+    getCamera: () => camera,
+    setCamera,
+    getControls: () => controls,
+    getPlan: () => plan,
+    getVariant: () => variant,
+    getCurrentRoot: () => currentRoot,
+    getCurrentMeta: () => currentMeta,
+    getActivePreset: () => activePreset,
+    selectView,
+    setLightingFromStudio: (nextMode, intensity) => {
+      if (nextMode === 'day' || nextMode === 'dusk' || nextMode === 'night') lightingMode = nextMode;
+      if (Number.isFinite(intensity)) studioLightFactor = intensity;
+      applyLighting();
+    },
+    requestFrame,
+    showToast,
+  });
+
+  film = createFilmStudio({
+    scene,
+    renderer,
+    getCurrentRoot: () => currentRoot,
+    setCamera,
+    requestFrame,
+    showToast,
+    onFilmStateChange: (active) => {
+      filmButton?.setAttribute('aria-pressed', String(active));
+      clayButton?.setAttribute('aria-pressed', 'false');
+    },
+    onStatsUpdated: renderSceneXray,
   });
 
   setPresentation(presentation);
@@ -1686,7 +1857,13 @@ async function start() {
       plan = createPlan({
         layers, scene, variant, requestFrame,
         onMeasureUpdate: (stats) => updateMeasureReadout(stats),
+        onSelectionChange: (item) => studio?.onFurnitureSelectionChange(item),
+        onFurnitureChange: () => studio?.onFurnitureListChange(),
       });
+      studio?.bindModel(root);
+      film?.bindModel(root);
+      clayButton?.setAttribute('aria-pressed', 'false');
+      filmButton?.setAttribute('aria-pressed', 'false');
 
       const solidMaterials = new Map();
       function solidMaterial(material) {
@@ -1757,13 +1934,18 @@ async function start() {
       }
       for (const button of [
         overview, recenter, zoomIn, zoomOut, exportPng, copyLink, measureToggle,
-        ...navigationButtons, ...orientationButtons,
+        ...navigationButtons, ...orientationButtons, ...studioActionControls,
       ]) {
         button.disabled = false;
       }
 
       modelReady = true;
       controls.enabled = true;
+      if (!preserveCamera && variant !== 'estrutural') {
+        studio?.setRenovateMode(true, { silent: true });
+      } else if (variant === 'estrutural') {
+        studio?.setRenovateMode(false, { silent: true });
+      }
       selectView(savedFloor, null, { reframe: !preserveCamera && !initialCam });
       setNavigation(navigation);
       if (preserveCamera && savedPos && savedTarget) {
