@@ -2,16 +2,22 @@
 import argparse
 import datetime as dt
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
 import sys
 import time
+import tempfile
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 import current_photoreal_data as data
 
-BLENDER=Path('/mnt/c/Program Files/Blender Foundation/Blender 5.2/blender.exe')
-STAGE=Path('/mnt/c/Users/edann/AppData/Local/Temp/CasaInteriores/atual-fiel-v02')
+if os.name == 'nt':
+    BLENDER=Path(os.environ['ProgramFiles'])/'Blender Foundation/Blender 5.2/blender.exe'
+    STAGE=Path(tempfile.gettempdir())/'CasaInteriores/atual-fiel-v02'
+else:
+    BLENDER=Path('/mnt/c/Program Files/Blender Foundation/Blender 5.2/blender.exe')
+    STAGE=Path('/mnt/c/Users/edann/AppData/Local/Temp/CasaInteriores/atual-fiel-v02')
 
 def native(args,m):
     import bpy
@@ -30,7 +36,10 @@ def native(args,m):
     row={'id':job['id'],'file':dest.relative_to(data.ROOT).as_posix(),'sha256':data.sha(dest),'blend_sha256':m['blend_sha256'],'config_sha256':m['config_sha256'],'backend':'OPTIX','render_script_sha256':data.sha(Path(__file__)),'blender_version':bpy.app.version_string,'platform':'Windows native','preview':args.preview,'resolution':[s.render.resolution_x*s.render.resolution_percentage//100,s.render.resolution_y*s.render.resolution_percentage//100],'samples':s.cycles.samples,'adaptive_threshold':s.cycles.adaptive_threshold,'seconds':round(time.monotonic()-start,2),'timestamp_utc':dt.datetime.now(dt.timezone.utc).isoformat()}
     (data.REPORT/(job['id']+'-native.json')).write_text(json.dumps(row,ensure_ascii=False,indent=2)+'\n');print('CURRENT2_OPTIX_RENDER_OK',job['id'],row['seconds'],flush=True)
 
-def windows(p):return subprocess.check_output(['wslpath','-w',str(p)],text=True).strip()
+def windows(p):
+    if os.name == 'nt':
+        return str(p.resolve())
+    return subprocess.check_output(['wslpath','-w',str(p)],text=True).strip()
 
 def queue(args,m):
     assert m['status']=='validated' and data.sha(data.ROOT/m['blend'])==m['blend_sha256']

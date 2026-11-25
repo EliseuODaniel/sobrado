@@ -17,7 +17,7 @@ import residence07_geometry as geo
 import residence07_industrial_data as data
 
 ROOT=data.ROOT;CFG=data.CFG;OUT=ROOT/CFG['render_directory'];REPORT=ROOT/CFG['report_directory']
-FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+FONT=str(ROOT/'assets/fonts/DejaVuSans.ttf')
 
 
 def font(size):return ImageFont.truetype(FONT,size)

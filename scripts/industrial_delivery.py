@@ -33,7 +33,7 @@ def main():
         p=ROOT/path;assert sha(p)==meta['sha256'] and p.stat().st_size==meta['bytes']
         with Image.open(p) as im:assert list(im.size)==cfg['resolution'];im.verify()
     for path,h in model['references'].items():assert sha(ROOT/path)==h
-    fontpath='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+    fontpath=str(ROOT/'assets/fonts/DejaVuSans.ttf')
     font=ImageFont.truetype(fontpath,22);small=ImageFont.truetype(fontpath,17)
     def tile(canvas,path,x,y,w,h):
         with Image.open(path) as source:

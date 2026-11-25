@@ -87,7 +87,7 @@ A base estrutural representa os elementos indicados na arquitetura. Fundações,
 def structural_gallery():
     views=[v for v in CFG['views'] if v['mode'].startswith('structure')]
     if not all(geo.artifact_path(v['id']).exists() for v in views):return
-    font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+    font=str(ROOT/'assets/fonts/DejaVuSans.ttf')
     canvas=Image.new('RGB',(1800,1530),'#f4f1e9');draw=ImageDraw.Draw(canvas)
     draw.text((35,22),'RESIDÊNCIA 07 / ESTRUTURA INDICADA',font=ImageFont.truetype(font,35),fill='#263c30')
     draw.text((35,78),'Paredes, lajes, escada e vãos · sem mobiliário · base arquitetônica',font=ImageFont.truetype(font,22),fill='#657164')

@@ -1,21 +1,29 @@
 """Fila com staging temporário no Windows para render OptiX e recibos locais."""
 import argparse
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
 import time
+import tempfile
 
 import industrial_photoreal_data as data
 from render_industrial_photoreal_queue import memory
 
 ROOT, CFG = data.ROOT, data.CFG
 REPORT = ROOT / CFG['report_directory']
-BLENDER = Path('/mnt/c/Program Files/Blender Foundation/Blender 5.2/blender.exe')
-STAGE = Path('/mnt/c/Users/edann/AppData/Local/Temp/CasaInteriores/industrial-v06')
+if os.name == 'nt':
+    BLENDER = Path(os.environ['ProgramFiles']) / 'Blender Foundation/Blender 5.2/blender.exe'
+    STAGE = Path(tempfile.gettempdir()) / 'CasaInteriores/industrial-v06'
+else:
+    BLENDER = Path('/mnt/c/Program Files/Blender Foundation/Blender 5.2/blender.exe')
+    STAGE = Path('/mnt/c/Users/edann/AppData/Local/Temp/CasaInteriores/industrial-v06')
 
 
 def windows(path):
+    if os.name == 'nt':
+        return str(path.resolve())
     return subprocess.check_output(['wslpath', '-w', str(path)], text=True).strip()
 
 

@@ -64,11 +64,11 @@ class Residence07Tests(unittest.TestCase):
         for path in paths:self.assertNotEqual(path.parent,geo.ROOT/'renders/original')
 
     def test_structural_3d_has_own_folder(self):
-        self.assertIn('02-estrutura/3d',str(geo.artifact_path('estrutura-terreo-3d')))
-        self.assertIn('02-estrutura/2d',str(geo.artifact_path('estrutura-terreo','pdf')))
+        self.assertIn('02-estrutura/3d',geo.artifact_path('estrutura-terreo-3d').as_posix())
+        self.assertIn('02-estrutura/2d',geo.artifact_path('estrutura-terreo','pdf').as_posix())
 
     def test_previews_are_separate(self):
-        self.assertIn('_trabalho/previas',str(geo.preview_path('suite')))
+        self.assertIn('_trabalho/previas',geo.preview_path('suite').as_posix())
         self.assertNotEqual(geo.preview_path('suite'),geo.artifact_path('suite'))
 
     def test_new_artifact_needs_explicit_category(self):

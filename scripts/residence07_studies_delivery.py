@@ -13,7 +13,7 @@ import residence07_geometry as geo
 import residence07_studies_data as data
 from residence07_plans import Sheet
 
-ROOT=geo.ROOT;REPORT=ROOT/data.CFG['report_directory'];FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+ROOT=geo.ROOT;REPORT=ROOT/data.CFG['report_directory'];FONT=str(ROOT/'assets/fonts/DejaVuSans.ttf')
 TITLES={'atual':'Residência 07 · estado atual pelas fotos','atico':'Residência 07 · proposta de ático','instalacoes':'Residência 07 · instalações em 3D'}
 NOTES={
     'atual':'Base ARQ03/04, abertura informada e móveis das fotos. Anexos e móveis têm medidas aproximadas; não houve levantamento presencial.',

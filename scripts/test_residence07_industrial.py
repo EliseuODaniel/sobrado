@@ -1,5 +1,6 @@
 """Contratos da proposta: mesma arquitetura atual e variantes separadas."""
 import json
+from pathlib import Path
 import unittest
 
 import residence07_industrial_data as data
@@ -21,7 +22,7 @@ class IndustrialDataTests(unittest.TestCase):
     def test_unique_industrial_destinations(self):
         jobs=data.jobs();self.assertEqual(len(jobs),25)
         self.assertEqual(len({j['file'] for j in jobs}),25)
-        self.assertTrue(all(j['file'].startswith('arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05/') for j in jobs))
+        self.assertTrue(all(Path(j['file']).as_posix().startswith('arquivos/versoes-anteriores-2026-11-14/renders/industrial-v05/') for j in jobs))
 
     def test_office_is_an_explicit_alternative(self):
         offices={j['id'] for j in data.jobs() if j['mode']=='office'}

@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -22,10 +23,18 @@ print('RECEIPT='+json.dumps({'args':sys.argv[1:],
 raise SystemExit(int(os.environ.get('CASA_TEST_EXIT', '0')))
 ''')
         executable.chmod(0o755)
+        if os.name == 'nt':
+            script = executable.with_suffix('.py')
+            executable.rename(script)
+            executable = executable.with_suffix('.cmd')
+            executable.write_text(
+                '@echo off\n"' + sys.executable + '" "' + str(script) + '" %*\n',
+                encoding='utf-8',
+            )
         self.env = dict(os.environ, BLENDER_EXECUTABLE=str(executable))
 
     def run_launcher(self, *args):
-        run = subprocess.run(['python3', 'scripts/run_blender.py', *args],
+        run = subprocess.run([sys.executable, 'scripts/run_blender.py', *args],
             cwd=ROOT, env=self.env, capture_output=True, text=True, timeout=10)
         receipt = next(line for line in run.stdout.splitlines() if line.startswith('RECEIPT='))
         return run.returncode, json.loads(receipt.split('=', 1)[1])

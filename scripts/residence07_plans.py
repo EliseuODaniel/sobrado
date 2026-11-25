@@ -20,7 +20,7 @@ ROOT=geo.ROOT
 CFG=geo.load()
 OUT=ROOT/CFG['delivery']['renders']
 REPORT=ROOT/CFG['delivery']['reports']
-FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
+FONT=str(ROOT/'assets/fonts/DejaVuSans.ttf')
 
 
 def extract():

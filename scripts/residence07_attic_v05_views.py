@@ -12,7 +12,7 @@ import residence07_attic_v05_data as data
 ROOT=data.ROOT;OUT=ROOT/data.CFG['render_directory'];DETAIL=OUT/'07-escadas'
 
 
-def font(size):return ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',size)
+def font(size):return ImageFont.truetype(str(ROOT/'assets/fonts/DejaVuSans.ttf'),size)
 
 
 def matte(path):

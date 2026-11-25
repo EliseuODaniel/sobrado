@@ -9,7 +9,7 @@ root=Path(__file__).resolve().parents[1];cfg=json.loads((root/'config/planta-cas
 folder=root/'renders/atual';report_dir=root/'arquivos/versoes-anteriores-2026-11-14/relatorios/atual-anterior'
 receipt=json.loads((report_dir/'renders-finais.json').read_text())
 assert receipt['sha256']==hashlib.sha256((root/'arquivos/versoes-anteriores-2026-11-14/projeto/casa-reconstruida.blend').read_bytes()).hexdigest()
-font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';title=ImageFont.truetype(font,30);small=ImageFont.truetype(font,22)
+font=str(Path(__file__).resolve().parents[1]/'assets/fonts/DejaVuSans.ttf');title=ImageFont.truetype(font,30);small=ImageFont.truetype(font,22)
 def read(path):
     with Image.open(path) as image:im=image.convert('RGB')
     assert ImageStat.Stat(im.convert('L')).stddev[0]>8,path

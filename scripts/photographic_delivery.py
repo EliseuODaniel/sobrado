@@ -64,7 +64,7 @@ def main():
     for name, digest in previous['references'].items():
         assert sha(ROOT / name) == digest
 
-    font = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 25)
+    font = ImageFont.truetype(str(ROOT/'assets/fonts/DejaVuSans.ttf'), 25)
     names = ['Sala', 'Sala / jantar', 'Cozinha', 'Lazer nos fundos', 'Quarto dos fundos']
 
     def tile(canvas, path, x, y, width=936, height=585):

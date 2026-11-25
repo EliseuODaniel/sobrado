@@ -17,7 +17,7 @@ PAIRS={
  'banheiro-social':'banheiro2.webp','banheiro-suite':'suite1.webp','fachada-frontal':'exterior2.webp'}
 
 def font(size):
-    return ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',size)
+    return ImageFont.truetype(str(ROOT/'assets/fonts/DejaVuSans.ttf'),size)
 
 def archive():
     target=ROOT/'arquivos/historico/estudos/atual-v01/renders'
